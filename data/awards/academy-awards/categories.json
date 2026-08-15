@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "awardBodyId": "academy-awards",
+  "categories": [
+    {
+      "id": "best-picture",
+      "name": "Best Picture",
+      "aliases": [
+        "Outstanding Picture",
+        "Outstanding Production",
+        "Outstanding Motion Picture",
+        "Best Motion Picture"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "work",
+      "externalIds": {
+        "tmdbCategoryId": 1
+      }
+    }
+  ]
+}

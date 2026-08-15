@@ -2,13 +2,11 @@
 
 A small Stremio-compatible catalogue add-on intended to provide collection sources that Nuvio and its official TMDB catalogue add-on do not currently expose.
 
-## V0.1 proof of concept
-
-The first test exposes one movie catalogue:
+## Current catalogue
 
 - **Academy Awards — Best Picture Winners**
 
-It currently contains only a small seed set. The purpose of V0.1 is to prove the integration path before building the full awards dataset.
+The original V0.1 three-title seed proved the integration path in Nuvio. Current development expands that same stable catalogue ID to the complete Best Picture winner history while keeping the proven catalog-only architecture.
 
 ## What V0.1 proved
 
@@ -18,7 +16,7 @@ It currently contains only a small seed set. The purpose of V0.1 is to prove the
 4. Items identified by IMDb IDs can open with metadata supplied by another installed metadata provider.
 5. The add-on can remain catalog-only for this architecture.
 
-A compatible metadata provider is therefore expected to be installed alongside Extra Catalogs. Nuvio's official TMDB add-on is the recommended example used during the proof of concept.
+A compatible metadata provider is expected to be installed alongside Extra Catalogs. Nuvio's official TMDB add-on is the recommended example used during the proof of concept.
 
 ## Structure
 
@@ -26,28 +24,55 @@ A compatible metadata provider is therefore expected to be installed alongside E
 nuvio-extra-catalogs/
 ├── .github/
 │   └── ISSUE_TEMPLATE/
-├── .nojekyll
+├── assets/
+├── catalog/
+│   └── movie/
+│       └── academy-best-picture-winners.json
+├── data/
+│   └── awards/
+│       └── academy-awards/
+│           ├── award.json
+│           ├── categories.json
+│           └── results/
+├── docs/
+├── examples/
+├── schema/
+├── scripts/
 ├── AGENTS.md
 ├── CHANGELOG.md
 ├── README.md
-├── assets/
 ├── index.html
-├── manifest.json
-└── catalog/
-    └── movie/
-        └── academy-best-picture-winners.json
+└── manifest.json
 ```
 
-The catalogue ID declared in `manifest.json` is:
+The released catalogue ID is:
 
 ```text
 academy-best-picture-winners
 ```
 
-Under the Stremio add-on protocol, the corresponding resource is therefore:
+The corresponding Stremio resource is:
 
 ```text
 /catalog/movie/academy-best-picture-winners.json
+```
+
+## Best Picture data
+
+Canonical award facts live under `data/awards/academy-awards/`. Generated catalogue JSON is not the source of truth.
+
+The Academy Awards Database is the authoritative award source. IMDb IDs are retained for the proven Nuvio/Stremio metadata handoff. See `docs/best-picture-history.md` for historical category and ceremony-year notes.
+
+Generate the catalogue:
+
+```bash
+python scripts/build_best_picture_catalog.py
+```
+
+Validate the data and confirm the generated catalogue is current:
+
+```bash
+python scripts/build_best_picture_catalog.py --check
 ```
 
 ## GitHub Pages URLs
@@ -72,14 +97,10 @@ https://davecollections.github.io/nuvio-extra-catalogs/catalog/movie/academy-bes
 
 ## Feedback
 
-The GitHub Pages landing page links to guided GitHub Issue forms for bug reports and improvement ideas. Use those forms where possible so reproduction details and user value are captured consistently.
+The GitHub Pages landing page links to guided GitHub Issue forms for bug reports and improvement ideas.
 
 ## Scope
 
-For now, this repository should remain a **companion** to Nuvio's official TMDB catalogue add-on rather than duplicating it.
+This repository remains a **companion** to Nuvio's official TMDB catalogue add-on rather than duplicating it.
 
-Potential later additions include other Academy Award categories and additional award bodies once the data-source approach has been settled.
-
-## Data note
-
-V0.1 is manually seeded for technical testing. It is not intended to be a complete historical Best Picture dataset yet.
+Potential later additions include acting/directing award relationships, other Academy Award categories, and additional award bodies once their source/update strategy is defined.
