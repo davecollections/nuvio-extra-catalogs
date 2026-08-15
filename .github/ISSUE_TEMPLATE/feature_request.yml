@@ -1,0 +1,38 @@
+name: Suggest an improvement
+description: Suggest a new catalog, award source, usability improvement, or project enhancement.
+title: "[Idea]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Nuvio Extra Catalogs. Please focus on the user value first; implementation can be worked out afterward.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to add or improve?
+      description: Describe the idea in plain language.
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: How would this help Nuvio users?
+      description: Explain the collection or catalog use case this would unlock or improve.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Data source or reference
+      description: If the idea depends on an award body, TMDB page, list, or other source, include it here.
+      placeholder: https://...
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Examples, screenshots, related issues, or design thoughts are welcome.
+    validations:
+      required: false
