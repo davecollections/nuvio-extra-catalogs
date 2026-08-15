@@ -23,9 +23,12 @@ If item metadata does not resolve correctly, a later version can add a `meta` re
 
 ```text
 nuvio-extra-catalogs/
+├── .github/
+│   └── ISSUE_TEMPLATE/
 ├── .nojekyll
 ├── AGENTS.md
 ├── README.md
+├── assets/
 ├── index.html
 ├── manifest.json
 └── catalog/
@@ -45,9 +48,15 @@ Under the Stremio add-on protocol, the corresponding resource is therefore:
 /catalog/movie/academy-best-picture-winners.json
 ```
 
-## Proposed GitHub Pages URLs
+## GitHub Pages URLs
 
-Once GitHub Pages is enabled from the repository root on `main`:
+Landing page:
+
+```text
+https://davecollections.github.io/nuvio-extra-catalogs/
+```
+
+Manifest:
 
 ```text
 https://davecollections.github.io/nuvio-extra-catalogs/manifest.json
@@ -58,6 +67,10 @@ Catalogue response:
 ```text
 https://davecollections.github.io/nuvio-extra-catalogs/catalog/movie/academy-best-picture-winners.json
 ```
+
+## Feedback
+
+The GitHub Pages landing page links to guided GitHub Issue forms for bug reports and improvement ideas. Use those forms where possible so reproduction details and user value are captured consistently.
 
 ## Scope
 
