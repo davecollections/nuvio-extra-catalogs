@@ -10,14 +10,15 @@ The first test exposes one movie catalogue:
 
 It currently contains only a small seed set. The purpose of V0.1 is to prove the integration path before building the full awards dataset.
 
-## What V0.1 is testing
+## What V0.1 proved
 
 1. Nuvio can install a static add-on hosted on GitHub Pages.
 2. Nuvio sees `Academy Awards — Best Picture Winners` as a catalogue.
-3. The catalogue can be used where Nuvio accepts third-party catalogue sources.
-4. Items identified by IMDb IDs can open with metadata supplied by another installed metadata provider, ideally Nuvio's official TMDB add-on.
+3. The catalogue can be used as a source inside Nuvio Collections.
+4. Items identified by IMDb IDs can open with metadata supplied by another installed metadata provider.
+5. The add-on can remain catalog-only for this architecture.
 
-If item metadata does not resolve correctly, a later version can add a `meta` resource to this add-on.
+A compatible metadata provider is therefore expected to be installed alongside Extra Catalogs. Nuvio's official TMDB add-on is the recommended example used during the proof of concept.
 
 ## Structure
 
@@ -27,6 +28,7 @@ nuvio-extra-catalogs/
 │   └── ISSUE_TEMPLATE/
 ├── .nojekyll
 ├── AGENTS.md
+├── CHANGELOG.md
 ├── README.md
 ├── assets/
 ├── index.html
