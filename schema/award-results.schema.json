@@ -1,0 +1,157 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://davecollections.github.io/nuvio-extra-catalogs/schema/award-results.schema.json",
+  "title": "Nuvio Extra Catalogs Award Ceremony Results",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "awardBodyId", "ceremony", "source", "results"],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "awardBodyId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "ceremony": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["year"],
+      "properties": {
+        "year": {
+          "type": "integer",
+          "minimum": 1800,
+          "maximum": 2200
+        },
+        "number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "reference"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reference": {
+          "type": "string",
+          "minLength": 1
+        },
+        "checkedAt": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/result"
+      }
+    }
+  },
+  "$defs": {
+    "result": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["categoryId", "status"],
+      "properties": {
+        "categoryId": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["winner", "nominee"]
+        },
+        "work": {
+          "$ref": "#/$defs/work"
+        },
+        "people": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/person"
+          },
+          "default": []
+        },
+        "recipientLabel": {
+          "type": "string",
+          "minLength": 1
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "anyOf": [
+        { "required": ["work"] },
+        {
+          "required": ["people"],
+          "properties": {
+            "people": {
+              "minItems": 1
+            }
+          }
+        },
+        { "required": ["recipientLabel"] }
+      ]
+    },
+    "work": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["mediaType", "title"],
+      "properties": {
+        "mediaType": {
+          "type": "string",
+          "enum": ["movie", "series"]
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "releaseYear": {
+          "type": "integer",
+          "minimum": 1800,
+          "maximum": 2200
+        },
+        "tmdbId": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "imdbId": {
+          "type": "string",
+          "pattern": "^tt[0-9]+$"
+        }
+      }
+    },
+    "person": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tmdbId": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    }
+  }
+}
