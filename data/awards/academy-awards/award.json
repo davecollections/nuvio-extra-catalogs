@@ -1,5 +1,4 @@
 {
-  "$schema": "../../../schema/award-body.schema.json",
   "schemaVersion": 1,
   "id": "academy-awards",
   "name": "Academy Awards",

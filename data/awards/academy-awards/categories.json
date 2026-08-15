@@ -1,5 +1,4 @@
 {
-  "$schema": "../../../schema/award-categories.schema.json",
   "schemaVersion": 1,
   "awardBodyId": "academy-awards",
   "categories": [

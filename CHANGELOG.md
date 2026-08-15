@@ -6,13 +6,22 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ### Added
 
+- Canonical Awards data model and JSON schemas for award bodies, categories, ceremony results, identity enrichment, and reusable title/person relationships.
+- Complete Academy Awards Best Picture winner source data from the 1st through 98th ceremonies.
+- Reproducible Best Picture catalogue generator and `--check` validation mode.
+- Best Picture history documentation covering category-name changes, ceremony-year filename edge cases, source provenance, and the nominees-catalogue deferral.
 - V2 Builder Suite-style GitHub Pages landing page improvements, including manifest copy support, metadata-provider guidance, guided feedback/issue links, Builder Suite placeholder link, and TMDB attribution.
 - Guided GitHub Issue forms for problem reports and improvement ideas.
 
+### Changed
+
+- `academy-best-picture-winners` now generates from canonical ceremony data instead of the three-title proof-of-concept seed.
+- Best Picture catalogue output is ordered newest ceremony first and retains the released catalogue ID.
+
 ### Planned
 
-- Design a maintainable awards data model that preserves award body, category, ceremony/year, winner/nominee status, related title IDs, and related TMDB Person IDs.
-- Expand Academy Awards support beyond the proof-of-concept seed data.
+- Add Academy acting/directing relationships using the shared Awards data model.
+- Define broader award-body source, verification, and annual update strategy before expanding beyond the Academy core.
 
 ## [0.1.0] - 2026-08-15
 
