@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://davecollections.github.io/nuvio-extra-catalogs/schema/award-body.schema.json",
+  "title": "Nuvio Extra Catalogs Award Body",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "name"],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "organization": {
+      "type": "string",
+      "minLength": 1
+    },
+    "externalIds": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "tmdbAwardId": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    }
+  }
+}
