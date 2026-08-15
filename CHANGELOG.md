@@ -4,6 +4,11 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ## [Unreleased]
 
+### Added
+
+- V2 Builder Suite-style GitHub Pages landing page improvements, including manifest copy support, metadata-provider guidance, guided feedback/issue links, Builder Suite placeholder link, and TMDB attribution.
+- Guided GitHub Issue forms for problem reports and improvement ideas.
+
 ### Planned
 
 - Design a maintainable awards data model that preserves award body, category, ceremony/year, winner/nominee status, related title IDs, and related TMDB Person IDs.
