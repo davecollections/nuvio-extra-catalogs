@@ -1,0 +1,28 @@
+{
+  "metas": [
+    {
+      "id": "tt15398776",
+      "type": "movie",
+      "name": "Oppenheimer",
+      "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt6710474",
+      "type": "movie",
+      "name": "Everything Everywhere All at Once",
+      "poster": "https://image.tmdb.org/t/p/w500/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tt6751668",
+      "type": "movie",
+      "name": "Parasite",
+      "poster": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2019"
+    }
+  ]
+}
