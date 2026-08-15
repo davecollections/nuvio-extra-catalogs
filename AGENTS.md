@@ -38,6 +38,21 @@ Before creating a new file format, helper, mapping, validator, artwork lookup, s
 - Preserve known-good release points so rollback is straightforward.
 - Do not change a released catalogue ID without an explicit migration plan.
 
+## Post-merge housekeeping
+
+After a pull request is merged:
+
+- Confirm the related GitHub Issue is closed or update it with any remaining work.
+- Confirm `main` contains the intended merged result before starting the next issue.
+- In the local clone, switch back to `main`, fetch/pull the latest changes, and make sure the working tree is clean.
+- Delete the merged local feature branch once it is no longer needed and there are no uncommitted changes on it.
+- Delete the merged remote feature branch unless it is intentionally retained.
+- Prune stale remote-tracking branches so deleted remote branches do not remain visible locally.
+- Do not delete `main`, release branches such as `release/v0.1.0`, or branches intentionally preserved as rollback points.
+- If the merged work changes the live manifest/catalogue, confirm GitHub Pages has deployed successfully and perform the relevant Nuvio smoke test.
+- Update `CHANGELOG.md` when the merge completes a notable milestone or changes released behaviour.
+- Create or preserve an appropriate version/tag/release point when the merged work represents a meaningful known-good release.
+
 ## V0.1 validated behaviour
 
 - Manifest installs and validates in Nuvio from GitHub Pages.
