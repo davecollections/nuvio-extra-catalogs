@@ -6,23 +6,48 @@ This repository provides additional Stremio-compatible catalog sources for Nuvio
 
 ## Current phase
 
-V0.1 is a proof of concept. Keep changes deliberately small until the Nuvio integration behaviour is proven.
+V0.1 proof of concept is complete and validated in Nuvio. The next phase is V0.2: design and implement a maintainable Academy Awards data model and expand the first production catalogue(s) without destabilizing the proven integration.
 
 ## Guardrails
 
-- Do not duplicate the full official Nuvio TMDB catalogue add-on during the proof-of-concept phase.
-- Prefer IMDb `tt` IDs for catalogue items while testing cross-add-on metadata resolution.
-- Keep catalog IDs stable once users may have installed the manifest.
+- Do not duplicate the full official Nuvio TMDB catalogue add-on unless there is a demonstrated need.
+- Reuse existing components, helpers, data mappings, schemas, artwork conventions, validators, and interaction patterns before creating new ones. If functionality is being recreated, prefer extending or reusing the existing implementation and document any justified exception.
+- Prefer IMDb `tt` IDs for add-on catalogue items where cross-add-on metadata resolution is required.
+- Keep catalog IDs stable once users may have installed the manifest or used a catalogue in a Collection.
 - `manifest.json` catalogue IDs must exactly match their corresponding files under `catalog/{type}/`.
 - Catalog responses must use valid Stremio Meta Preview objects.
+- Keep this add-on catalog-only unless a future requirement proves that a `meta` resource or live backend is necessary.
+- The add-on may rely on another compatible installed metadata provider, such as Nuvio's official TMDB add-on, for full title metadata.
 - Do not add automated scraping of TMDB award web pages.
 - Do not commit API keys, tokens, credentials, or secrets.
-- Historical awards data should eventually have a documented, maintainable source and generation process.
+- Historical awards data must have a documented, maintainable source and generation process before broad expansion.
+- Preserve TMDB Person IDs in awards data when a category relates to a person so the data can integrate with Nuvio native `PERSON` / `DIRECTOR` sources and existing People artwork.
 - Treat GitHub Pages as static hosting unless a future requirement genuinely needs a live backend.
 
-## V0.1 success criteria
+## Reuse-first rule
 
-- Manifest installs in Nuvio.
-- Best Picture catalogue loads.
-- Catalogue can participate in the intended Nuvio Collections flow.
-- Clicking a seeded IMDb-ID movie resolves usable metadata through the user's other installed metadata provider.
+Before creating a new file format, helper, mapping, validator, artwork lookup, source type, or interaction pattern, check whether an equivalent already exists in this repository or in the established Nuvio/TMDB collection workflow. Reuse or extend first. Create a parallel implementation only when the existing one cannot meet the requirement cleanly.
+
+## Development workflow
+
+- Track meaningful work in GitHub Issues before implementation where practical.
+- Keep each issue focused on one coherent outcome.
+- Make small, understandable commits tied to the active issue.
+- Test catalogue/manifest changes in Nuvio before considering the issue complete.
+- Use semantic versions for meaningful known-good milestones rather than every commit.
+- Preserve known-good release points so rollback is straightforward.
+- Do not change a released catalogue ID without an explicit migration plan.
+
+## V0.1 validated behaviour
+
+- Manifest installs and validates in Nuvio from GitHub Pages.
+- Best Picture catalogue loads on the Nuvio home screen.
+- The catalogue appears in Nuvio's Add Catalog selector.
+- The catalogue can be added to a Folder and that Folder can be used in a Collection.
+- Collection output renders the catalogue items correctly.
+- Seeded IMDb-ID movies resolve full metadata through the user's compatible installed metadata provider.
+- Disabling the metadata provider prevents full metadata resolution while the add-on catalogue itself remains available.
+
+## Next milestone
+
+V0.2 should establish the Awards data model first, preserving both title and person relationships where applicable, then use that model to produce the first complete Academy Awards catalogue(s).
