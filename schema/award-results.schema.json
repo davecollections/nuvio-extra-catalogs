@@ -6,6 +6,10 @@
   "additionalProperties": false,
   "required": ["schemaVersion", "awardBodyId", "ceremony", "source", "results"],
   "properties": {
+    "$schema": {
+      "type": "string",
+      "minLength": 1
+    },
     "schemaVersion": {
       "type": "integer",
       "const": 1
