@@ -1,0 +1,8 @@
+{
+  "$schema": "../../../../schema/award-results.schema.json",
+  "schemaVersion": 1,
+  "awardBodyId": "academy-awards",
+  "ceremony": {"year": 1936, "number": 8},
+  "source": {"name": "Academy Awards Database", "reference": "https://awardsdatabase.oscars.org/", "checkedAt": "2026-08-16"},
+  "results": [{"categoryId": "best-picture", "status": "winner", "work": {"mediaType": "movie", "title": "Mutiny on the Bounty", "imdbId": "tt0026752"}}]
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../../schema/award-body.schema.json",
+  "schemaVersion": 1,
+  "id": "academy-awards",
+  "name": "Academy Awards",
+  "organization": "Academy of Motion Picture Arts and Sciences",
+  "externalIds": {
+    "tmdbAwardId": 1
+  }
+}

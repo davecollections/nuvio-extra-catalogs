@@ -1,0 +1,8 @@
+{
+  "$schema": "../../../../schema/award-results.schema.json",
+  "schemaVersion": 1,
+  "awardBodyId": "academy-awards",
+  "ceremony": {"year": 1942, "number": 14},
+  "source": {"name": "Academy Awards Database", "reference": "https://awardsdatabase.oscars.org/", "checkedAt": "2026-08-16"},
+  "results": [{"categoryId": "best-picture", "status": "winner", "work": {"mediaType": "movie", "title": "How Green Was My Valley", "imdbId": "tt0033729"}}]
+}
