@@ -1,0 +1,56 @@
+name: Report a problem
+description: Tell us about a catalog, install, metadata handoff, or landing-page problem.
+title: "[Bug]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem with Nuvio Extra Catalogs. Please include enough detail for the issue to be reproduced.
+  - type: input
+    id: catalog
+    attributes:
+      label: Catalog or feature
+      description: Which catalog or part of the project is affected?
+      placeholder: Academy Awards — Best Picture Winners
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe what you expected and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Install the manifest...
+        2. Open...
+        3. Select...
+    validations:
+      required: false
+  - type: input
+    id: nuvio-version
+    attributes:
+      label: Nuvio version
+      placeholder: Version / build if known
+    validations:
+      required: false
+  - type: textarea
+    id: addons
+    attributes:
+      label: Relevant installed add-ons
+      description: Include the metadata provider you use, if relevant.
+      placeholder: Nuvio TMDB Catalog Addon, BetterPosters, etc.
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots, links, or other context are welcome.
+    validations:
+      required: false
