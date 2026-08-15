@@ -88,6 +88,10 @@
           },
           "default": []
         },
+        "recipientLabel": {
+          "type": "string",
+          "minLength": 1
+        },
         "note": {
           "type": "string",
           "minLength": 1
@@ -102,13 +106,14 @@
               "minItems": 1
             }
           }
-        }
+        },
+        { "required": ["recipientLabel"] }
       ]
     },
     "work": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["mediaType", "title", "tmdbId"],
+      "required": ["mediaType", "title"],
       "properties": {
         "mediaType": {
           "type": "string",
@@ -136,7 +141,7 @@
     "person": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["name", "tmdbId"],
+      "required": ["name"],
       "properties": {
         "name": {
           "type": "string",
