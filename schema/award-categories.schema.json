@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://davecollections.github.io/nuvio-extra-catalogs/schema/award-categories.schema.json",
+  "title": "Nuvio Extra Catalogs Award Categories",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "awardBodyId", "categories"],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "awardBodyId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/category"
+      }
+    }
+  },
+  "$defs": {
+    "category": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "mediaType", "recipientKind"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "mediaType": {
+          "type": "string",
+          "enum": ["movie", "series", "mixed"]
+        },
+        "recipientKind": {
+          "type": "string",
+          "enum": ["work", "person", "team", "other"]
+        },
+        "creditRole": {
+          "type": "string",
+          "enum": [
+            "actor",
+            "director",
+            "producer",
+            "writer",
+            "composer",
+            "cinematographer",
+            "editor",
+            "other"
+          ]
+        },
+        "externalIds": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "tmdbCategoryId": {
+              "type": "integer",
+              "minimum": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}
