@@ -17,14 +17,15 @@ The model therefore preserves the relationship between the award category, cerem
 
 1. **Canonical data is not presentation data.** Award facts and identity mappings live under `data/`; generated Stremio catalogue responses remain under `catalog/`.
 2. **One result, multiple outputs.** Do not duplicate an acting/directing result just to generate a movie catalogue and a people-based collection.
-3. **TMDB IDs are identity keys.** TMDB title IDs identify works and TMDB Person IDs identify people. IMDb title IDs are preserved when available because the proven Nuvio catalogue handoff works cleanly with `tt` IDs.
+3. **TMDB IDs are identity keys when resolved.** TMDB title IDs identify works and TMDB Person IDs identify people. Canonical award records may exist before identity enrichment is complete; generators decide which unresolved records are publishable. IMDb title IDs are preserved when available because the proven Nuvio catalogue handoff works cleanly with `tt` IDs.
 4. **Ceremony year is explicit.** `ceremony.year` means the year in which the award ceremony occurred. A work's `releaseYear` is separate and must not be used as the award year.
 5. **Stable local IDs are independent of display names.** Award-body and category IDs use stable slugs. Display names may change without breaking generated catalogue IDs or historical data.
 6. **Historical category names may vary.** A category registry may retain aliases or historical names while keeping one stable local category ID when the award lineage is genuinely the same.
 7. **People are optional, not implied.** Best Picture can contain only a work. Acting/directing results include the relevant people explicitly.
 8. **A work is optional at schema level.** This allows future person-only awards such as honorary/lifetime awards, while catalogue generators can deliberately skip result types they do not support.
-9. **Source provenance is retained.** Each ceremony result file identifies the authoritative source used for the award facts. ID enrichment is a separate concern from the award source itself.
-10. **Generated output is disposable.** Catalog JSON should be reproducible from normalized data and metadata enrichment; generated files are not the source of truth.
+9. **Other recipients can be preserved without inventing fake people or works.** `recipientLabel` is available for a real recipient that is neither a TMDB work nor a person record.
+10. **Source provenance is retained.** Each ceremony result file identifies the authoritative source used for the award facts. ID enrichment is a separate concern from the award source itself.
+11. **Generated output is disposable.** Catalog JSON should be reproducible from normalized data and metadata enrichment; generated files are not the source of truth.
 
 ## Proposed repository structure
 
@@ -157,7 +158,21 @@ Optional depending on category:
 
 - `work`
 - `people`
+- `recipientLabel`
 - `note`
+
+At least one of `work`, a non-empty `people` array, or `recipientLabel` must exist.
+
+### Status semantics
+
+`status` records the outcome of the ceremony result:
+
+- `winner` means the nomination/result won the category.
+- `nominee` means a **non-winning nominee**.
+
+A winner is not duplicated as a second `nominee` record. If a generated output means **all nominated works or people**, it must include both `winner` and `nominee` records. A winners-only output uses only `winner` records.
+
+This keeps one canonical result per real nomination/outcome while still allowing both winners-only and all-nominees catalogues.
 
 ### Work object
 
@@ -173,9 +188,11 @@ Optional depending on category:
 
 Rules:
 
-- `tmdbId` is the primary work identity when the work has been resolved.
+- `mediaType` and `title` are enough to preserve a work before identity enrichment is complete.
+- `tmdbId` is the primary work identity once the work has been resolved.
 - `imdbId` is preserved where available for Stremio/Nuvio catalogue output.
 - Generators should prefer the IMDb ID when present and may fall back to `tmdb:{tmdbId}` only when necessary and supported.
+- A record intended for title catalogue output must be resolved to an acceptable output ID before publication.
 - Poster/backdrop URLs do not belong in the canonical award record; they are metadata/presentation enrichment.
 
 ### Person object
@@ -187,11 +204,29 @@ Rules:
 }
 ```
 
-TMDB Person ID is the canonical bridge to:
+A person's name can be preserved before TMDB identity enrichment is complete. Once resolved, TMDB Person ID is the canonical bridge to:
 
 - Nuvio native `PERSON` sources;
 - Nuvio native `DIRECTOR` sources where applicable; and
 - existing People artwork keyed by TMDB Person ID.
+
+A person intended for native Nuvio person/director output must have a resolved TMDB Person ID before publication.
+
+### Other recipient label
+
+`recipientLabel` preserves a real award recipient that is not naturally represented as a TMDB work or person, without creating a fake identity.
+
+Example:
+
+```json
+{
+  "categoryId": "special-award",
+  "status": "winner",
+  "recipientLabel": "Example Organization"
+}
+```
+
+Generators may deliberately ignore such records until an appropriate output exists.
 
 ## Examples
 
@@ -265,11 +300,13 @@ A category may contain more than one person. This is required for joint directin
 JSON Schema handles structural validation. Generation/CI should additionally enforce semantic rules:
 
 - Every `categoryId` exists in the award body's category registry.
-- No duplicate result exists for the same ceremony/category/status/work/person relationship.
-- A published work has a valid positive TMDB ID when it is intended for title output.
+- No duplicate result exists for the same ceremony/category/status/work/person/recipient relationship.
+- Unresolved canonical records are allowed, but records selected for generated title output must have a supported title identity.
+- A published work using TMDB identity has a valid positive TMDB ID.
 - IMDb IDs, when present, match `^tt[0-9]+$`.
 - People intended for native Nuvio person/director output have positive TMDB Person IDs.
-- A `winner` must also be a valid result for that category; winner state is explicit, never inferred from array order.
+- A `winner` is stored once and is not duplicated as `nominee`; all-nominees outputs include both statuses.
+- Winner state is explicit and never inferred from array order.
 - At most the historically correct number of winners is accepted for a category/year; ties and joint winners must be represented explicitly rather than rejected generically.
 - IDs and names are checked for obvious mismatches during enrichment.
 - Generated catalogue IDs remain stable once released.
@@ -285,12 +322,14 @@ normalized award record
         ↓
 TMDB / IMDb identity enrichment
         ↓
-validation
+output-readiness validation
         ↓
 generated Nuvio/Stremio catalogue JSON
 ```
 
 The award source answers **who/what was nominated or won**. TMDB/IMDb are used to identify and enrich the corresponding media/person records; they do not need to be the authoritative award source.
+
+This separation allows authoritative award facts to be recorded even when an identity match is temporarily unresolved. The unresolved record remains valid canonical data, but cannot silently enter an output that requires an ID.
 
 ## What this model deliberately does not do
 
@@ -299,7 +338,7 @@ The award source answers **who/what was nominated or won**. TMDB/IMDb are used t
 - It does not create duplicate actor/director person records.
 - It does not require a live backend.
 - It does not make TMDB's website-only Awards pages a scraping dependency.
-- It does not force person-only/honorary awards into movie catalogues.
+- It does not force person-only/honorary/other-recipient awards into movie catalogues.
 
 ## Next implementation step
 
