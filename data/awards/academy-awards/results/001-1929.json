@@ -1,1 +1,51 @@
-{"$schema":"../../../../schema/award-results.schema.json","schemaVersion":1,"awardBodyId":"academy-awards","ceremony":{"year":1929,"number":1},"source":{"name":"Academy Awards Database","reference":"https://awardsdatabase.oscars.org/","checkedAt":"2026-08-16"},"results":[{"categoryId":"best-picture","status":"winner","work":{"mediaType":"movie","title":"Wings","imdbId":"tt0018578"}}]}
+{
+  "$schema": "../../../../schema/award-results.schema.json",
+  "schemaVersion": 1,
+  "awardBodyId": "academy-awards",
+  "ceremony": {
+    "year": 1929,
+    "number": 1
+  },
+  "source": {
+    "name": "Academy Awards Database",
+    "reference": "https://awardsdatabase.oscars.org/",
+    "checkedAt": "2026-08-16"
+  },
+  "results": [
+    {
+      "categoryId": "best-picture",
+      "status": "winner",
+      "work": {
+        "mediaType": "movie",
+        "title": "Wings",
+        "imdbId": "tt0018578"
+      }
+    },
+    {
+      "categoryId": "best-actor",
+      "status": "winner",
+      "people": [
+        {
+          "name": "Emil Jannings",
+          "tmdbId": 2895
+        }
+      ],
+      "works": [
+        {
+          "mediaType": "movie",
+          "title": "The Last Command",
+          "tmdbId": 52679,
+          "imdbId": "tt0019071",
+          "releaseYear": 1928
+        },
+        {
+          "mediaType": "movie",
+          "title": "The Way of All Flesh",
+          "tmdbId": 85499,
+          "imdbId": "tt0019553",
+          "releaseYear": 1927
+        }
+      ]
+    }
+  ]
+}

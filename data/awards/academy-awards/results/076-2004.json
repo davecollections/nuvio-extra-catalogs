@@ -1,1 +1,42 @@
-{"$schema":"../../../../schema/award-results.schema.json","schemaVersion":1,"awardBodyId":"academy-awards","ceremony":{"year":2004,"number":76},"source":{"name":"Academy Awards Database","reference":"https://awardsdatabase.oscars.org/","checkedAt":"2026-08-16"},"results":[{"categoryId":"best-picture","status":"winner","work":{"mediaType":"movie","title":"The Lord of the Rings: The Return of the King","imdbId":"tt0167260"}}]}
+{
+  "$schema": "../../../../schema/award-results.schema.json",
+  "schemaVersion": 1,
+  "awardBodyId": "academy-awards",
+  "ceremony": {
+    "year": 2004,
+    "number": 76
+  },
+  "source": {
+    "name": "Academy Awards Database",
+    "reference": "https://awardsdatabase.oscars.org/",
+    "checkedAt": "2026-08-16"
+  },
+  "results": [
+    {
+      "categoryId": "best-picture",
+      "status": "winner",
+      "work": {
+        "mediaType": "movie",
+        "title": "The Lord of the Rings: The Return of the King",
+        "imdbId": "tt0167260"
+      }
+    },
+    {
+      "categoryId": "best-actor",
+      "status": "winner",
+      "people": [
+        {
+          "name": "Sean Penn",
+          "tmdbId": 2228
+        }
+      ],
+      "work": {
+        "mediaType": "movie",
+        "title": "Mystic River",
+        "tmdbId": 322,
+        "imdbId": "tt0327056",
+        "releaseYear": 2003
+      }
+    }
+  ]
+}

@@ -1,1 +1,42 @@
-{"$schema":"../../../../schema/award-results.schema.json","schemaVersion":1,"awardBodyId":"academy-awards","ceremony":{"year":2015,"number":87},"source":{"name":"Academy Awards Database","reference":"https://awardsdatabase.oscars.org/","checkedAt":"2026-08-16"},"results":[{"categoryId":"best-picture","status":"winner","work":{"mediaType":"movie","title":"Birdman or (The Unexpected Virtue of Ignorance)","imdbId":"tt2562232"}}]}
+{
+  "$schema": "../../../../schema/award-results.schema.json",
+  "schemaVersion": 1,
+  "awardBodyId": "academy-awards",
+  "ceremony": {
+    "year": 2015,
+    "number": 87
+  },
+  "source": {
+    "name": "Academy Awards Database",
+    "reference": "https://awardsdatabase.oscars.org/",
+    "checkedAt": "2026-08-16"
+  },
+  "results": [
+    {
+      "categoryId": "best-picture",
+      "status": "winner",
+      "work": {
+        "mediaType": "movie",
+        "title": "Birdman or (The Unexpected Virtue of Ignorance)",
+        "imdbId": "tt2562232"
+      }
+    },
+    {
+      "categoryId": "best-actor",
+      "status": "winner",
+      "people": [
+        {
+          "name": "Eddie Redmayne",
+          "tmdbId": 37632
+        }
+      ],
+      "work": {
+        "mediaType": "movie",
+        "title": "The Theory of Everything",
+        "tmdbId": 266856,
+        "imdbId": "tt2980516",
+        "releaseYear": 2014
+      }
+    }
+  ]
+}

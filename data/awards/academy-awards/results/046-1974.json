@@ -1,1 +1,42 @@
-{"$schema":"../../../../schema/award-results.schema.json","schemaVersion":1,"awardBodyId":"academy-awards","ceremony":{"year":1974,"number":46},"source":{"name":"Academy Awards Database","reference":"https://awardsdatabase.oscars.org/","checkedAt":"2026-08-16"},"results":[{"categoryId":"best-picture","status":"winner","work":{"mediaType":"movie","title":"The Sting","imdbId":"tt0070735"}}]}
+{
+  "$schema": "../../../../schema/award-results.schema.json",
+  "schemaVersion": 1,
+  "awardBodyId": "academy-awards",
+  "ceremony": {
+    "year": 1974,
+    "number": 46
+  },
+  "source": {
+    "name": "Academy Awards Database",
+    "reference": "https://awardsdatabase.oscars.org/",
+    "checkedAt": "2026-08-16"
+  },
+  "results": [
+    {
+      "categoryId": "best-picture",
+      "status": "winner",
+      "work": {
+        "mediaType": "movie",
+        "title": "The Sting",
+        "imdbId": "tt0070735"
+      }
+    },
+    {
+      "categoryId": "best-actor",
+      "status": "winner",
+      "people": [
+        {
+          "name": "Jack Lemmon",
+          "tmdbId": 3151
+        }
+      ],
+      "work": {
+        "mediaType": "movie",
+        "title": "Save the Tiger",
+        "tmdbId": 38714,
+        "imdbId": "tt0070640",
+        "releaseYear": 1973
+      }
+    }
+  ]
+}

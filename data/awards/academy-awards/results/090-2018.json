@@ -1,1 +1,42 @@
-{"$schema":"../../../../schema/award-results.schema.json","schemaVersion":1,"awardBodyId":"academy-awards","ceremony":{"year":2018,"number":90},"source":{"name":"Academy Awards Database","reference":"https://awardsdatabase.oscars.org/","checkedAt":"2026-08-16"},"results":[{"categoryId":"best-picture","status":"winner","work":{"mediaType":"movie","title":"The Shape of Water","imdbId":"tt5580390"}}]}
+{
+  "$schema": "../../../../schema/award-results.schema.json",
+  "schemaVersion": 1,
+  "awardBodyId": "academy-awards",
+  "ceremony": {
+    "year": 2018,
+    "number": 90
+  },
+  "source": {
+    "name": "Academy Awards Database",
+    "reference": "https://awardsdatabase.oscars.org/",
+    "checkedAt": "2026-08-16"
+  },
+  "results": [
+    {
+      "categoryId": "best-picture",
+      "status": "winner",
+      "work": {
+        "mediaType": "movie",
+        "title": "The Shape of Water",
+        "imdbId": "tt5580390"
+      }
+    },
+    {
+      "categoryId": "best-actor",
+      "status": "winner",
+      "people": [
+        {
+          "name": "Gary Oldman",
+          "tmdbId": 64
+        }
+      ],
+      "work": {
+        "mediaType": "movie",
+        "title": "Darkest Hour",
+        "tmdbId": 399404,
+        "imdbId": "tt4555426",
+        "releaseYear": 2017
+      }
+    }
+  ]
+}

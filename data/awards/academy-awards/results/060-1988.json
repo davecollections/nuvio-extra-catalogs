@@ -1,1 +1,42 @@
-{"$schema":"../../../../schema/award-results.schema.json","schemaVersion":1,"awardBodyId":"academy-awards","ceremony":{"year":1988,"number":60},"source":{"name":"Academy Awards Database","reference":"https://awardsdatabase.oscars.org/","checkedAt":"2026-08-16"},"results":[{"categoryId":"best-picture","status":"winner","work":{"mediaType":"movie","title":"The Last Emperor","imdbId":"tt0093389"}}]}
+{
+  "$schema": "../../../../schema/award-results.schema.json",
+  "schemaVersion": 1,
+  "awardBodyId": "academy-awards",
+  "ceremony": {
+    "year": 1988,
+    "number": 60
+  },
+  "source": {
+    "name": "Academy Awards Database",
+    "reference": "https://awardsdatabase.oscars.org/",
+    "checkedAt": "2026-08-16"
+  },
+  "results": [
+    {
+      "categoryId": "best-picture",
+      "status": "winner",
+      "work": {
+        "mediaType": "movie",
+        "title": "The Last Emperor",
+        "imdbId": "tt0093389"
+      }
+    },
+    {
+      "categoryId": "best-actor",
+      "status": "winner",
+      "people": [
+        {
+          "name": "Michael Douglas",
+          "tmdbId": 3392
+        }
+      ],
+      "work": {
+        "mediaType": "movie",
+        "title": "Wall Street",
+        "tmdbId": 10673,
+        "imdbId": "tt0094291",
+        "releaseYear": 1987
+      }
+    }
+  ]
+}

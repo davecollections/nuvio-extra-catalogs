@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "awardBodyId": "academy-awards",
+  "categoryId": "best-actor",
+  "status": "winner",
+  "description": "Unique Best Actor winner identities derived from canonical ceremony results for Nuvio native PERSON sources.",
+  "people": [
+    {
+      "name": "Adrien Brody",
+      "tmdbPersonId": 3490
+    },
+    {
+      "name": "Al Pacino",
+      "tmdbPersonId": 1158
+    },
+    {
+      "name": "Alec Guinness",
+      "tmdbPersonId": 12248
+    },
+    {
+      "name": "Anthony Hopkins",
+      "tmdbPersonId": 4173
+    },
+    {
+      "name": "Art Carney",
+      "tmdbPersonId": 40176
+    },
+    {
+      "name": "Ben Kingsley",
+      "tmdbPersonId": 2282
+    },
+    {
+      "name": "Bing Crosby",
+      "tmdbPersonId": 24937
+    },
+    {
+      "name": "Brendan Fraser",
+      "tmdbPersonId": 18269
+    },
+    {
+      "name": "Broderick Crawford",
+      "tmdbPersonId": 85895
+    },
+    {
+      "name": "Burt Lancaster",
+      "tmdbPersonId": 13784
+    },
+    {
+      "name": "Casey Affleck",
+      "tmdbPersonId": 1893
+    },
+    {
+      "name": "Charles Laughton",
+      "tmdbPersonId": 10921
+    },
+    {
+      "name": "Charlton Heston",
+      "tmdbPersonId": 10017
+    },
+    {
+      "name": "Cillian Murphy",
+      "tmdbPersonId": 2037
+    },
+    {
+      "name": "Clark Gable",
+      "tmdbPersonId": 11492
+    },
+    {
+      "name": "Cliff Robertson",
+      "tmdbPersonId": 19153
+    },
+    {
+      "name": "Colin Firth",
+      "tmdbPersonId": 5472
+    },
+    {
+      "name": "Daniel Day-Lewis",
+      "tmdbPersonId": 11856
+    },
+    {
+      "name": "David Niven",
+      "tmdbPersonId": 14261
+    },
+    {
+      "name": "Denzel Washington",
+      "tmdbPersonId": 5292
+    },
+    {
+      "name": "Dustin Hoffman",
+      "tmdbPersonId": 4483
+    },
+    {
+      "name": "Eddie Redmayne",
+      "tmdbPersonId": 37632
+    },
+    {
+      "name": "Emil Jannings",
+      "tmdbPersonId": 2895
+    },
+    {
+      "name": "Ernest Borgnine",
+      "tmdbPersonId": 7502
+    },
+    {
+      "name": "F. Murray Abraham",
+      "tmdbPersonId": 1164
+    },
+    {
+      "name": "Forest Whitaker",
+      "tmdbPersonId": 2178
+    },
+    {
+      "name": "Fredric March",
+      "tmdbPersonId": 13576
+    },
+    {
+      "name": "Gary Cooper",
+      "tmdbPersonId": 4068
+    },
+    {
+      "name": "Gary Oldman",
+      "tmdbPersonId": 64
+    },
+    {
+      "name": "Gene Hackman",
+      "tmdbPersonId": 193
+    },
+    {
+      "name": "Geoffrey Rush",
+      "tmdbPersonId": 118
+    },
+    {
+      "name": "George Arliss",
+      "tmdbPersonId": 124309
+    },
+    {
+      "name": "George C. Scott",
+      "tmdbPersonId": 862
+    },
+    {
+      "name": "Gregory Peck",
+      "tmdbPersonId": 8487
+    },
+    {
+      "name": "Henry Fonda",
+      "tmdbPersonId": 4958
+    },
+    {
+      "name": "Humphrey Bogart",
+      "tmdbPersonId": 4110
+    },
+    {
+      "name": "Jack Lemmon",
+      "tmdbPersonId": 3151
+    },
+    {
+      "name": "Jack Nicholson",
+      "tmdbPersonId": 514
+    },
+    {
+      "name": "James Cagney",
+      "tmdbPersonId": 5788
+    },
+    {
+      "name": "James Stewart",
+      "tmdbPersonId": 854
+    },
+    {
+      "name": "Jamie Foxx",
+      "tmdbPersonId": 134
+    },
+    {
+      "name": "Jean Dujardin",
+      "tmdbPersonId": 56024
+    },
+    {
+      "name": "Jeff Bridges",
+      "tmdbPersonId": 1229
+    },
+    {
+      "name": "Jeremy Irons",
+      "tmdbPersonId": 16940
+    },
+    {
+      "name": "Joaquin Phoenix",
+      "tmdbPersonId": 73421
+    },
+    {
+      "name": "John Wayne",
+      "tmdbPersonId": 4165
+    },
+    {
+      "name": "Jon Voight",
+      "tmdbPersonId": 10127
+    },
+    {
+      "name": "José Ferrer",
+      "tmdbPersonId": 12515
+    },
+    {
+      "name": "Kevin Spacey",
+      "tmdbPersonId": 1979
+    },
+    {
+      "name": "Laurence Olivier",
+      "tmdbPersonId": 3359
+    },
+    {
+      "name": "Lee Marvin",
+      "tmdbPersonId": 18391
+    },
+    {
+      "name": "Leonardo DiCaprio",
+      "tmdbPersonId": 6193
+    },
+    {
+      "name": "Lionel Barrymore",
+      "tmdbPersonId": 17753
+    },
+    {
+      "name": "Marlon Brando",
+      "tmdbPersonId": 3084
+    },
+    {
+      "name": "Matthew McConaughey",
+      "tmdbPersonId": 10297
+    },
+    {
+      "name": "Maximilian Schell",
+      "tmdbPersonId": 12150
+    },
+    {
+      "name": "Michael B. Jordan",
+      "tmdbPersonId": 135651
+    },
+    {
+      "name": "Michael Douglas",
+      "tmdbPersonId": 3392
+    },
+    {
+      "name": "Nicolas Cage",
+      "tmdbPersonId": 2963
+    },
+    {
+      "name": "Paul Lukas",
+      "tmdbPersonId": 2092
+    },
+    {
+      "name": "Paul Muni",
+      "tmdbPersonId": 13352
+    },
+    {
+      "name": "Paul Newman",
+      "tmdbPersonId": 3636
+    },
+    {
+      "name": "Paul Scofield",
+      "tmdbPersonId": 13324
+    },
+    {
+      "name": "Peter Finch",
+      "tmdbPersonId": 29903
+    },
+    {
+      "name": "Philip Seymour Hoffman",
+      "tmdbPersonId": 1233
+    },
+    {
+      "name": "Rami Malek",
+      "tmdbPersonId": 17838
+    },
+    {
+      "name": "Ray Milland",
+      "tmdbPersonId": 7124
+    },
+    {
+      "name": "Rex Harrison",
+      "tmdbPersonId": 35321
+    },
+    {
+      "name": "Richard Dreyfuss",
+      "tmdbPersonId": 3037
+    },
+    {
+      "name": "Robert De Niro",
+      "tmdbPersonId": 380
+    },
+    {
+      "name": "Robert Donat",
+      "tmdbPersonId": 3609
+    },
+    {
+      "name": "Robert Duvall",
+      "tmdbPersonId": 3087
+    },
+    {
+      "name": "Roberto Benigni",
+      "tmdbPersonId": 4818
+    },
+    {
+      "name": "Rod Steiger",
+      "tmdbPersonId": 522
+    },
+    {
+      "name": "Ronald Colman",
+      "tmdbPersonId": 29522
+    },
+    {
+      "name": "Russell Crowe",
+      "tmdbPersonId": 934
+    },
+    {
+      "name": "Sean Penn",
+      "tmdbPersonId": 2228
+    },
+    {
+      "name": "Sidney Poitier",
+      "tmdbPersonId": 16897
+    },
+    {
+      "name": "Spencer Tracy",
+      "tmdbPersonId": 12147
+    },
+    {
+      "name": "Tom Hanks",
+      "tmdbPersonId": 31
+    },
+    {
+      "name": "Victor McLaglen",
+      "tmdbPersonId": 30495
+    },
+    {
+      "name": "Wallace Beery",
+      "tmdbPersonId": 29260
+    },
+    {
+      "name": "Warner Baxter",
+      "tmdbPersonId": 29999
+    },
+    {
+      "name": "Will Smith",
+      "tmdbPersonId": 2888
+    },
+    {
+      "name": "William Holden",
+      "tmdbPersonId": 8252
+    },
+    {
+      "name": "William Hurt",
+      "tmdbPersonId": 227
+    },
+    {
+      "name": "Yul Brynner",
+      "tmdbPersonId": 14528
+    }
+  ]
+}

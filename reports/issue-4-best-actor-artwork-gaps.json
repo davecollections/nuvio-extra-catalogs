@@ -1,0 +1,19 @@
+{
+  "categoryId": "best-actor",
+  "uniqueWinnerCount": 87,
+  "missingArtworkCount": 3,
+  "missingArtwork": [
+    {
+      "name": "George Arliss",
+      "tmdbPersonId": 124309
+    },
+    {
+      "name": "Paul Scofield",
+      "tmdbPersonId": 13324
+    },
+    {
+      "name": "Rami Malek",
+      "tmdbPersonId": 17838
+    }
+  ]
+}
