@@ -28,9 +28,14 @@ All notable project milestones are recorded here. This project uses semantic ver
 ### Validated in Nuvio
 
 - The commit-pinned `0.3.0` preview manifest loads with all three Academy Awards catalogues.
+- The deployed GitHub Pages manifest refreshed the existing live add-on from `0.2.0` to `0.3.0` without reinstallation and exposes all three catalogues.
 - Best Director Winning Films renders 99 associated films in newest-ceremony-first order.
 - The 1st ceremony's two historical directing winners and the three joint-director film cases render without duplicate film entries.
 - Best Director items resolve full metadata and work as a Nuvio Folder/Collection source.
+
+### Known-good rollback point
+
+The exact live-tested V0.3 state is preserved on branch `release/v0.3.0`, pointing to merge commit `a5bb59cbcb8d9500a9be279db000df5837a32967`.
 
 ## [0.2.0] - 2026-08-16
 
