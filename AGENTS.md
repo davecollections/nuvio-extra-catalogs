@@ -6,7 +6,7 @@ This repository provides additional Stremio-compatible catalog sources for Nuvio
 
 ## Current phase
 
-V0.2 is complete and validated in Nuvio. It includes the canonical Awards data model, complete Academy Best Picture and Best Actor winner histories, reusable TMDB Person output, and the shared source/verification/update strategy from Issue #7. The next model expansion is Issue #5 (Best Director).
+V0.2 is complete and validated in Nuvio. V0.3 adds the complete Academy Best Director winner history, associated films, joint credited winners, and reusable TMDB Person output for native `DIRECTOR` sources. V0.3 must pass deployed Nuvio validation before it is considered complete.
 
 ## Guardrails
 
@@ -68,4 +68,4 @@ After a pull request is merged:
 
 ## Next milestone
 
-Use the Issue #7 source strategy and the Best Actor reference implementation for Issue #5: add Best Director relationships while preserving joint/multiple credited directors, stable TMDB Person IDs, associated movie IDs, and compatibility with Nuvio's native `DIRECTOR` source. Keep artwork integration work in Issue #6 rather than creating an awards-specific artwork system.
+Complete the Issue #5 deployment and Nuvio smoke test, then preserve the known-good V0.3 release point. Keep cross-repository People artwork integration in Issue #6 rather than creating an awards-specific artwork system here.
