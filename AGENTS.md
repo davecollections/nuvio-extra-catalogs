@@ -6,7 +6,7 @@ This repository provides additional Stremio-compatible catalog sources for Nuvio
 
 ## Current phase
 
-V0.2 is complete and validated in Nuvio. It includes the canonical Awards data model, complete Academy Best Picture and Best Actor winner histories, reusable TMDB Person output, and the shared source/verification/update strategy from Issue #7. The next model expansion is Issue #5 (Best Director).
+V0.2 is complete and validated in Nuvio. The V0.3 preview has also passed Nuvio validation with the complete Academy Best Director winner history, 99 associated films, joint credited winners, and reusable TMDB Person output for native `DIRECTOR` sources. V0.3 still requires merge, live GitHub Pages confirmation, and a preserved release point before it is complete.
 
 ## Guardrails
 
@@ -54,11 +54,13 @@ After a pull request is merged:
 - Update `CHANGELOG.md` when the merge completes a notable milestone or changes released behaviour.
 - Create or preserve an appropriate version/tag/release point when the merged work represents a meaningful known-good release.
 
-## Validated behaviour through V0.2
+## Validated behaviour through the V0.3 preview
 
 - Manifest installs and validates in Nuvio from GitHub Pages.
 - Best Picture catalogue loads on the Nuvio home screen.
 - Best Actor Winning Films loads alongside Best Picture with 100 associated films.
+- Best Director Winning Films loads with 99 associated films in newest-ceremony-first order.
+- The 1st ceremony's separate Comedy and Dramatic directing winners both render, while joint-director winning films remain single catalogue entries.
 - Refresh Add-on applies the deployed manifest update without requiring reinstallation.
 - The catalogue appears in Nuvio's Add Catalog selector.
 - The catalogue can be added to a Folder and that Folder can be used in a Collection.
@@ -68,4 +70,4 @@ After a pull request is merged:
 
 ## Next milestone
 
-Use the Issue #7 source strategy and the Best Actor reference implementation for Issue #5: add Best Director relationships while preserving joint/multiple credited directors, stable TMDB Person IDs, associated movie IDs, and compatibility with Nuvio's native `DIRECTOR` source. Keep artwork integration work in Issue #6 rather than creating an awards-specific artwork system.
+Merge Issue #5, confirm the live GitHub Pages deployment and refreshed manifest in Nuvio, then preserve the known-good V0.3 release point. Keep cross-repository People artwork integration in Issue #6 rather than creating an awards-specific artwork system here.

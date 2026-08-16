@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "awardBodyId": "academy-awards",
+  "categoryId": "best-director",
+  "status": "winner",
+  "description": "Unique Best Director winner identities derived from canonical ceremony results for Nuvio native DIRECTOR sources.",
+  "people": [
+    {
+      "name": "Alejandro G. Iñárritu",
+      "tmdbPersonId": 223
+    },
+    {
+      "name": "Alfonso Cuarón",
+      "tmdbPersonId": 11218
+    },
+    {
+      "name": "Ang Lee",
+      "tmdbPersonId": 1614
+    },
+    {
+      "name": "Anthony Minghella",
+      "tmdbPersonId": 2239
+    },
+    {
+      "name": "Barry Levinson",
+      "tmdbPersonId": 8246
+    },
+    {
+      "name": "Bernardo Bertolucci",
+      "tmdbPersonId": 4956
+    },
+    {
+      "name": "Billy Wilder",
+      "tmdbPersonId": 3146
+    },
+    {
+      "name": "Bob Fosse",
+      "tmdbPersonId": 66777
+    },
+    {
+      "name": "Bong Joon Ho",
+      "tmdbPersonId": 21684
+    },
+    {
+      "name": "Carol Reed",
+      "tmdbPersonId": 15378
+    },
+    {
+      "name": "Chloé Zhao",
+      "tmdbPersonId": 1395183
+    },
+    {
+      "name": "Christopher Nolan",
+      "tmdbPersonId": 525
+    },
+    {
+      "name": "Clint Eastwood",
+      "tmdbPersonId": 190
+    },
+    {
+      "name": "Damien Chazelle",
+      "tmdbPersonId": 136495
+    },
+    {
+      "name": "Daniel Kwan",
+      "tmdbPersonId": 1383612
+    },
+    {
+      "name": "Daniel Scheinert",
+      "tmdbPersonId": 1317730
+    },
+    {
+      "name": "Danny Boyle",
+      "tmdbPersonId": 2034
+    },
+    {
+      "name": "David Lean",
+      "tmdbPersonId": 12238
+    },
+    {
+      "name": "Delbert Mann",
+      "tmdbPersonId": 67451
+    },
+    {
+      "name": "Elia Kazan",
+      "tmdbPersonId": 2746
+    },
+    {
+      "name": "Ethan Coen",
+      "tmdbPersonId": 1224
+    },
+    {
+      "name": "Francis Ford Coppola",
+      "tmdbPersonId": 1776
+    },
+    {
+      "name": "Frank Borzage",
+      "tmdbPersonId": 14855
+    },
+    {
+      "name": "Frank Capra",
+      "tmdbPersonId": 2662
+    },
+    {
+      "name": "Frank Lloyd",
+      "tmdbPersonId": 72061
+    },
+    {
+      "name": "Franklin J. Schaffner",
+      "tmdbPersonId": 13265
+    },
+    {
+      "name": "Fred Zinnemann",
+      "tmdbPersonId": 4065
+    },
+    {
+      "name": "George Cukor",
+      "tmdbPersonId": 14674
+    },
+    {
+      "name": "George Roy Hill",
+      "tmdbPersonId": 9577
+    },
+    {
+      "name": "George Stevens",
+      "tmdbPersonId": 18738
+    },
+    {
+      "name": "Guillermo del Toro",
+      "tmdbPersonId": 10828
+    },
+    {
+      "name": "James Cameron",
+      "tmdbPersonId": 2710
+    },
+    {
+      "name": "James L. Brooks",
+      "tmdbPersonId": 3388
+    },
+    {
+      "name": "Jane Campion",
+      "tmdbPersonId": 10757
+    },
+    {
+      "name": "Jerome Robbins",
+      "tmdbPersonId": 18868
+    },
+    {
+      "name": "Joel Coen",
+      "tmdbPersonId": 1223
+    },
+    {
+      "name": "John Ford",
+      "tmdbPersonId": 8500
+    },
+    {
+      "name": "John G. Avildsen",
+      "tmdbPersonId": 16513
+    },
+    {
+      "name": "John Huston",
+      "tmdbPersonId": 6593
+    },
+    {
+      "name": "John Schlesinger",
+      "tmdbPersonId": 19304
+    },
+    {
+      "name": "Jonathan Demme",
+      "tmdbPersonId": 16294
+    },
+    {
+      "name": "Joseph L. Mankiewicz",
+      "tmdbPersonId": 10601
+    },
+    {
+      "name": "Kathryn Bigelow",
+      "tmdbPersonId": 14392
+    },
+    {
+      "name": "Kevin Costner",
+      "tmdbPersonId": 1269
+    },
+    {
+      "name": "Leo McCarey",
+      "tmdbPersonId": 30008
+    },
+    {
+      "name": "Lewis Milestone",
+      "tmdbPersonId": 2000
+    },
+    {
+      "name": "Martin Scorsese",
+      "tmdbPersonId": 1032
+    },
+    {
+      "name": "Mel Gibson",
+      "tmdbPersonId": 2461
+    },
+    {
+      "name": "Michael Cimino",
+      "tmdbPersonId": 12114
+    },
+    {
+      "name": "Michael Curtiz",
+      "tmdbPersonId": 4109
+    },
+    {
+      "name": "Michel Hazanavicius",
+      "tmdbPersonId": 67717
+    },
+    {
+      "name": "Mike Nichols",
+      "tmdbPersonId": 5342
+    },
+    {
+      "name": "Miloš Forman",
+      "tmdbPersonId": 3974
+    },
+    {
+      "name": "Norman Taurog",
+      "tmdbPersonId": 82800
+    },
+    {
+      "name": "Oliver Stone",
+      "tmdbPersonId": 1152
+    },
+    {
+      "name": "Paul Thomas Anderson",
+      "tmdbPersonId": 4762
+    },
+    {
+      "name": "Peter Jackson",
+      "tmdbPersonId": 108
+    },
+    {
+      "name": "Richard Attenborough",
+      "tmdbPersonId": 4786
+    },
+    {
+      "name": "Robert Benton",
+      "tmdbPersonId": 6729
+    },
+    {
+      "name": "Robert Redford",
+      "tmdbPersonId": 4135
+    },
+    {
+      "name": "Robert Wise",
+      "tmdbPersonId": 1744
+    },
+    {
+      "name": "Robert Zemeckis",
+      "tmdbPersonId": 24
+    },
+    {
+      "name": "Roman Polanski",
+      "tmdbPersonId": 3556
+    },
+    {
+      "name": "Ron Howard",
+      "tmdbPersonId": 6159
+    },
+    {
+      "name": "Sam Mendes",
+      "tmdbPersonId": 39
+    },
+    {
+      "name": "Sean Baker",
+      "tmdbPersonId": 118415
+    },
+    {
+      "name": "Steven Soderbergh",
+      "tmdbPersonId": 1884
+    },
+    {
+      "name": "Steven Spielberg",
+      "tmdbPersonId": 488
+    },
+    {
+      "name": "Sydney Pollack",
+      "tmdbPersonId": 2226
+    },
+    {
+      "name": "Tom Hooper",
+      "tmdbPersonId": 70500
+    },
+    {
+      "name": "Tony Richardson",
+      "tmdbPersonId": 32765
+    },
+    {
+      "name": "Victor Fleming",
+      "tmdbPersonId": 9049
+    },
+    {
+      "name": "Vincente Minnelli",
+      "tmdbPersonId": 13980
+    },
+    {
+      "name": "Warren Beatty",
+      "tmdbPersonId": 6449
+    },
+    {
+      "name": "William Friedkin",
+      "tmdbPersonId": 15175
+    },
+    {
+      "name": "William Wyler",
+      "tmdbPersonId": 10001
+    },
+    {
+      "name": "Woody Allen",
+      "tmdbPersonId": 1243
+    }
+  ]
+}

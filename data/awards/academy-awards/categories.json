@@ -27,6 +27,18 @@
       "mediaType": "movie",
       "recipientKind": "person",
       "creditRole": "actor"
+    },
+    {
+      "id": "best-director",
+      "name": "Best Director",
+      "aliases": [
+        "Directing",
+        "Directing (Comedy Picture)",
+        "Directing (Dramatic Picture)"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "person",
+      "creditRole": "director"
     }
   ]
 }

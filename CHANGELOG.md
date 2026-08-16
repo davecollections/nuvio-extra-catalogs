@@ -4,21 +4,33 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ## [Unreleased]
 
+### Planned
+
+- Complete the cross-repository People artwork integration defined by Issue #6.
+
+## [0.3.0] - 2026-08-16
+
 ### Added
 
 - Shared offline awards semantic validator covering ceremony ranges, provenance, category references, duplicate relationships, and cross-file identity consistency.
 - Awards source, verification, identity-matching, correction, and annual-update strategy for Issue #7.
 - Durable awards correction log and explicit ceremony-coverage contract for each award body.
 - Read-only GitHub Actions validation for canonical data and generated-output freshness.
+- Complete Academy Awards Best Director winner data from the 1st through 98th ceremonies, preserving 102 director links, 77 unique TMDB Person identities, and 99 winning-film relationships.
+- Deterministic Best Director movie-catalogue and native `DIRECTOR` output generator with validation for the 1st ceremony's split categories and all joint credited winners.
+- `academy-best-director-winning-films` catalogue, reusable Best Director winner output, source-history documentation, and pinned artwork-gap report.
 
 ### Changed
 
 - Shared repository validation now requires declared authorities, ceremony coverage, and source review dates before category-specific output checks.
+- Manifest version advances to `0.3.0` and declares the Best Director winning-films catalogue.
 
-### Planned
+### Validated in Nuvio
 
-- Add Academy Best Director relationships in Issue #5 using the shared source strategy and native Nuvio `DIRECTOR` identities.
-- Complete the cross-repository People artwork integration defined by Issue #6.
+- The commit-pinned `0.3.0` preview manifest loads with all three Academy Awards catalogues.
+- Best Director Winning Films renders 99 associated films in newest-ceremony-first order.
+- The 1st ceremony's two historical directing winners and the three joint-director film cases render without duplicate film entries.
+- Best Director items resolve full metadata and work as a Nuvio Folder/Collection source.
 
 ## [0.2.0] - 2026-08-16
 

@@ -6,8 +6,9 @@ A small Stremio-compatible catalogue add-on intended to provide collection sourc
 
 - **Academy Awards — Best Picture Winners**
 - **Academy Awards — Best Actor Winning Films**
+- **Academy Awards — Best Director Winning Films**
 
-The original V0.1 three-title seed proved the integration path in Nuvio. V0.2 keeps that catalog-only architecture, expands Best Picture to the complete winner history, and adds the first person-linked acting catalogue without duplicating canonical award records.
+The original V0.1 three-title seed proved the integration path in Nuvio. V0.2 established the canonical Awards model and complete Best Picture and Best Actor histories. V0.3 reuses that model for Best Director, preserving joint credited directors without duplicating canonical award records.
 
 ## What V0.1 proved
 
@@ -29,6 +30,7 @@ nuvio-extra-catalogs/
 ├── catalog/
 │   └── movie/
 │       ├── academy-best-actor-winning-films.json
+│       ├── academy-best-director-winning-films.json
 │       └── academy-best-picture-winners.json
 ├── data/
 │   └── awards/
@@ -52,6 +54,7 @@ The declared catalogue IDs are:
 ```text
 academy-best-picture-winners
 academy-best-actor-winning-films
+academy-best-director-winning-films
 ```
 
 The corresponding Stremio resources are:
@@ -59,6 +62,7 @@ The corresponding Stremio resources are:
 ```text
 /catalog/movie/academy-best-picture-winners.json
 /catalog/movie/academy-best-actor-winning-films.json
+/catalog/movie/academy-best-director-winning-films.json
 ```
 
 ## Awards data
@@ -73,7 +77,7 @@ Run the shared offline validation before generating or publishing any awards out
 python scripts/validate_awards_data.py
 ```
 
-The authority hierarchy, permitted automation, identity-matching rules, ambiguity handling, correction log, and annual-update checklist are defined in `docs/awards-source-strategy.md`. See `docs/best-picture-history.md` and `docs/best-actor-history.md` for category-specific history and exceptions.
+The authority hierarchy, permitted automation, identity-matching rules, ambiguity handling, correction log, and annual-update checklist are defined in `docs/awards-source-strategy.md`. See the category history documents under `docs/` for category-specific sourcing and exceptions.
 
 Generate the catalogue:
 
@@ -101,6 +105,20 @@ python scripts/build_best_actor_outputs.py --check
 
 See `docs/best-actor-history.md` for source snapshots, identity enrichment, historical edge cases, and artwork coverage.
 
+Best Director preserves associated film identities, all credited winners for joint awards, and TMDB Person IDs for native `DIRECTOR` sources. Generate its movie catalogue and reusable director output with:
+
+```bash
+python scripts/build_best_director_outputs.py
+```
+
+Validate the canonical Best Director history and both generated outputs with:
+
+```bash
+python scripts/build_best_director_outputs.py --check
+```
+
+See `docs/best-director-history.md` for source snapshots, joint-winner handling, historical category names, and artwork coverage.
+
 ## GitHub Pages URLs
 
 Landing page:
@@ -120,6 +138,7 @@ Catalogue response:
 ```text
 https://davecollections.github.io/nuvio-extra-catalogs/catalog/movie/academy-best-picture-winners.json
 https://davecollections.github.io/nuvio-extra-catalogs/catalog/movie/academy-best-actor-winning-films.json
+https://davecollections.github.io/nuvio-extra-catalogs/catalog/movie/academy-best-director-winning-films.json
 ```
 
 ## Feedback
@@ -130,4 +149,4 @@ The GitHub Pages landing page links to guided GitHub Issue forms for bug reports
 
 This repository remains a **companion** to Nuvio's official TMDB catalogue add-on rather than duplicating it.
 
-Issue #5 (Best Director) is the next suitable model expansion. Remaining acting categories, other Academy categories, and additional award bodies should follow the same source and validation strategy in separate focused issues.
+People artwork integration in Issue #6 is the next cross-repository step. Remaining acting categories, other Academy categories, and additional award bodies should follow the same source and validation strategy in separate focused issues.
