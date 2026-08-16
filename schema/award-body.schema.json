@@ -31,6 +31,40 @@
           "minimum": 1
         }
       }
+    },
+    "authoritativeSources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "reference"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reference": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    },
+    "ceremonyCoverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["firstCeremonyNumber", "lastCeremonyNumber"],
+      "properties": {
+        "firstCeremonyNumber": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "lastCeremonyNumber": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
     }
   }
 }

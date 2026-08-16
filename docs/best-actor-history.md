@@ -61,11 +61,11 @@ For a new ceremony:
 3. Reuse the winner's existing TMDB Person ID where available; resolve and manually verify any new person identity.
 4. Resolve the movie's TMDB ID and retain its IMDb `tt` ID. Confirm the IDs refer to the same film.
 5. Run `python scripts/build_best_actor_outputs.py` to regenerate the movie and person outputs.
-6. Run `python scripts/build_best_actor_outputs.py --check` and the Best Picture validator.
+6. Run `python scripts/validate_awards_data.py`, `python scripts/build_best_actor_outputs.py --check`, and the Best Picture validator.
 7. Recheck People artwork coverage separately and update the dated artwork-gap report when needed.
 8. Test the changed manifest/catalogue in Nuvio before release.
 
-Broader acquisition, correction, and audit policy remains tracked in Issue #7 before expansion to many more categories or award bodies.
+The shared acquisition, identity-matching, ambiguity, correction, and audit policy is defined in [`awards-source-strategy.md`](awards-source-strategy.md).
 
 ## Generator validation
 

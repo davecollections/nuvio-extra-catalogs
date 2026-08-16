@@ -89,8 +89,11 @@ The generator:
 Validation without rewriting the catalogue:
 
 ```bash
+python scripts/validate_awards_data.py
 python scripts/build_best_picture_catalog.py --check
 ```
+
+The shared source, identity-matching, correction, and annual-update rules are defined in [`awards-source-strategy.md`](awards-source-strategy.md).
 
 Poster previews use:
 

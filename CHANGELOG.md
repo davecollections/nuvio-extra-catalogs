@@ -6,6 +6,24 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ### Added
 
+- Shared offline awards semantic validator covering ceremony ranges, provenance, category references, duplicate relationships, and cross-file identity consistency.
+- Awards source, verification, identity-matching, correction, and annual-update strategy for Issue #7.
+- Durable awards correction log and explicit ceremony-coverage contract for each award body.
+- Read-only GitHub Actions validation for canonical data and generated-output freshness.
+
+### Changed
+
+- Shared repository validation now requires declared authorities, ceremony coverage, and source review dates before category-specific output checks.
+
+### Planned
+
+- Add Academy Best Director relationships in Issue #5 using the shared source strategy and native Nuvio `DIRECTOR` identities.
+- Complete the cross-repository People artwork integration defined by Issue #6.
+
+## [0.2.0] - 2026-08-16
+
+### Added
+
 - Canonical Awards data model and JSON schemas for award bodies, categories, ceremony results, identity enrichment, and reusable title/person relationships.
 - Complete Academy Awards Best Picture winner source data from the 1st through 98th ceremonies.
 - Reproducible Best Picture catalogue generator and `--check` validation mode.
@@ -23,10 +41,15 @@ All notable project milestones are recorded here. This project uses semantic ver
 - Best Picture catalogue output is ordered newest ceremony first and retains the released catalogue ID.
 - Manifest version advances to `0.2.0` and declares the new Best Actor winning-films catalogue.
 
-### Planned
+### Validated in Nuvio
 
-- Add the remaining Academy acting categories and directing relationships using the shared Awards data model.
-- Define broader award-body source, verification, and annual update strategy before expanding beyond the Academy core.
+- Both production catalogues render from the deployed GitHub Pages manifest.
+- Best Actor preview and live-manifest refresh tests passed with approximately 100 results and the known multi-work/tie edge cases.
+- Refresh Add-on applied manifest version `0.2.0` without reinstalling the add-on.
+
+### Known-good rollback point
+
+The exact tested V0.2 state is preserved on branch `release/v0.2.0`, pointing to commit `50ab94008b1a4691e9a13a13a35fd9fe39dc5488`.
 
 ## [0.1.0] - 2026-08-15
 
