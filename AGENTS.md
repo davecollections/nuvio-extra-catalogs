@@ -6,7 +6,7 @@ This repository provides additional Stremio-compatible catalog sources for Nuvio
 
 ## Current phase
 
-V0.1 proof of concept is complete and validated in Nuvio. V0.2 has established the canonical Awards data model and completed the Academy Best Picture winner history. Active work is Issue #4: finish Best Actor as the first complete person-linked category without destabilizing the proven integration.
+V0.2 is complete and validated in Nuvio. It includes the canonical Awards data model, complete Academy Best Picture and Best Actor winner histories, reusable TMDB Person output, and the shared source/verification/update strategy from Issue #7. The next model expansion is Issue #5 (Best Director).
 
 ## Guardrails
 
@@ -20,7 +20,7 @@ V0.1 proof of concept is complete and validated in Nuvio. V0.2 has established t
 - The add-on may rely on another compatible installed metadata provider, such as Nuvio's official TMDB add-on, for full title metadata.
 - Do not add automated scraping of TMDB award web pages.
 - Do not commit API keys, tokens, credentials, or secrets.
-- Historical awards data must have a documented, maintainable source and generation process before broad expansion.
+- Historical awards data must follow `docs/awards-source-strategy.md`, including a documented authority, reviewed identity enrichment, shared validation, and a maintainable generation process before expansion.
 - Preserve TMDB Person IDs in awards data when a category relates to a person so the data can integrate with Nuvio native `PERSON` / `DIRECTOR` sources and existing People artwork.
 - Treat GitHub Pages as static hosting unless a future requirement genuinely needs a live backend.
 
@@ -33,6 +33,7 @@ Before creating a new file format, helper, mapping, validator, artwork lookup, s
 - Track meaningful work in GitHub Issues before implementation where practical.
 - Keep each issue focused on one coherent outcome.
 - Make small, understandable commits tied to the active issue.
+- Run `python scripts/validate_awards_data.py` before category-specific generators and checks whenever canonical awards data changes.
 - Test catalogue/manifest changes in Nuvio before considering the issue complete.
 - Use semantic versions for meaningful known-good milestones rather than every commit.
 - Preserve known-good release points so rollback is straightforward.
@@ -53,10 +54,12 @@ After a pull request is merged:
 - Update `CHANGELOG.md` when the merge completes a notable milestone or changes released behaviour.
 - Create or preserve an appropriate version/tag/release point when the merged work represents a meaningful known-good release.
 
-## V0.1 validated behaviour
+## Validated behaviour through V0.2
 
 - Manifest installs and validates in Nuvio from GitHub Pages.
 - Best Picture catalogue loads on the Nuvio home screen.
+- Best Actor Winning Films loads alongside Best Picture with 100 associated films.
+- Refresh Add-on applies the deployed manifest update without requiring reinstallation.
 - The catalogue appears in Nuvio's Add Catalog selector.
 - The catalogue can be added to a Folder and that Folder can be used in a Collection.
 - Collection output renders the catalogue items correctly.
@@ -65,4 +68,4 @@ After a pull request is merged:
 
 ## Next milestone
 
-Finish and validate the Best Actor winning-films catalogue and reusable TMDB Person output. After that reference implementation is merged, define the broader source, verification, correction, and annual-update strategy in Issue #7 before rapidly expanding to the remaining acting categories or other award bodies.
+Use the Issue #7 source strategy and the Best Actor reference implementation for Issue #5: add Best Director relationships while preserving joint/multiple credited directors, stable TMDB Person IDs, associated movie IDs, and compatibility with Nuvio's native `DIRECTOR` source. Keep artwork integration work in Issue #6 rather than creating an awards-specific artwork system.

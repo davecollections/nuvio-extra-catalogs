@@ -65,7 +65,15 @@ The corresponding Stremio resources are:
 
 Canonical award facts live under `data/awards/academy-awards/`. Generated catalogue JSON is not the source of truth.
 
-The Academy Awards Database is the authoritative award source. IMDb IDs are retained for the proven Nuvio/Stremio metadata handoff. See `docs/best-picture-history.md` for historical category and ceremony-year notes.
+The Academy Awards Database is the authoritative award source. IMDb IDs are retained for the proven Nuvio/Stremio metadata handoff, and TMDB Person IDs bridge award recipients to Nuvio's native people/director sources and existing artwork.
+
+Run the shared offline validation before generating or publishing any awards output:
+
+```bash
+python scripts/validate_awards_data.py
+```
+
+The authority hierarchy, permitted automation, identity-matching rules, ambiguity handling, correction log, and annual-update checklist are defined in `docs/awards-source-strategy.md`. See `docs/best-picture-history.md` and `docs/best-actor-history.md` for category-specific history and exceptions.
 
 Generate the catalogue:
 
@@ -91,7 +99,7 @@ Validate the canonical Best Actor history and both generated outputs with:
 python scripts/build_best_actor_outputs.py --check
 ```
 
-See `docs/best-actor-history.md` for source, identity-enrichment, historical edge-case, and artwork-coverage details.
+See `docs/best-actor-history.md` for source snapshots, identity enrichment, historical edge cases, and artwork coverage.
 
 ## GitHub Pages URLs
 
@@ -122,4 +130,4 @@ The GitHub Pages landing page links to guided GitHub Issue forms for bug reports
 
 This repository remains a **companion** to Nuvio's official TMDB catalogue add-on rather than duplicating it.
 
-Potential later additions include the remaining acting categories, directing relationships, other Academy Award categories, and additional award bodies once their source/update strategy is defined.
+Issue #5 (Best Director) is the next suitable model expansion. Remaining acting categories, other Academy categories, and additional award bodies should follow the same source and validation strategy in separate focused issues.

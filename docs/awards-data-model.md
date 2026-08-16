@@ -24,8 +24,9 @@ The model therefore preserves the relationship between the award category, cerem
 7. **People are optional, not implied.** Best Picture can contain only a work. Acting/directing results include the relevant people explicitly.
 8. **Work relationships are optional at schema level.** This allows future person-only awards such as honorary/lifetime awards, while catalogue generators can deliberately skip result types they do not support.
 9. **Other recipients can be preserved without inventing fake people or works.** `recipientLabel` is available for a real recipient that is neither a TMDB work nor a person record.
-10. **Source provenance is retained.** Each ceremony result file identifies the authoritative source used for the award facts. ID enrichment is a separate concern from the award source itself.
-11. **Generated output is disposable.** Catalog JSON should be reproducible from normalized data and metadata enrichment; generated files are not the source of truth.
+10. **Source provenance is retained.** Each ceremony result file identifies the authoritative source used for the award facts and the date it was checked. ID enrichment is a separate concern from the award source itself.
+11. **Coverage is explicit.** Each award body declares the first and last ceremony numbers represented so a missing newest or historical file cannot pass merely because the remaining files are internally continuous.
+12. **Generated output is disposable.** Catalog JSON should be reproducible from normalized data and metadata enrichment; generated files are not the source of truth.
 
 ## Proposed repository structure
 
@@ -65,11 +66,23 @@ Example:
   "organization": "Academy of Motion Picture Arts and Sciences",
   "externalIds": {
     "tmdbAwardId": 1
+  },
+  "authoritativeSources": [
+    {
+      "name": "Academy Awards Database",
+      "reference": "https://awardsdatabase.oscars.org/"
+    }
+  ],
+  "ceremonyCoverage": {
+    "firstCeremonyNumber": 1,
+    "lastCeremonyNumber": 98
   }
 }
 ```
 
-External source IDs are optional convenience mappings. The stable local `id` remains authoritative inside this repository.
+External source IDs are optional convenience mappings. The stable local `id` remains authoritative inside this repository. `authoritativeSources` declares the accepted award-fact authorities; each ceremony source must match one of those entries.
+
+`ceremonyCoverage` is the canonical file-range contract, not a claim that every historical category existed at every ceremony. Adding a new ceremony requires extending `lastCeremonyNumber` in the same change as its result file.
 
 ## Category registry
 
@@ -125,7 +138,7 @@ Each file represents one ceremony year.
   },
   "source": {
     "name": "Academy Awards official records",
-    "reference": "official ceremony/database record",
+    "reference": "https://awardsdatabase.oscars.org/",
     "checkedAt": "2026-08-15"
   },
   "results": []
@@ -304,7 +317,7 @@ A category may contain more than one person. This is required for joint directin
 
 ## Validation rules
 
-JSON Schema handles structural validation. Generation/CI should additionally enforce semantic rules:
+JSON Schema handles structural validation. `scripts/validate_awards_data.py` enforces shared semantic rules across every award body, while category-specific generators enforce output and historical rules:
 
 - Every `categoryId` exists in the award body's category registry.
 - No duplicate result exists for the same ceremony/category/status/work/person/recipient relationship.
@@ -317,6 +330,8 @@ JSON Schema handles structural validation. Generation/CI should additionally enf
 - At most the historically correct number of winners is accepted for a category/year; ties and joint winners must be represented explicitly rather than rejected generically.
 - IDs and names are checked for obvious mismatches during enrichment.
 - Generated catalogue IDs remain stable once released.
+
+The authority, identity-matching, ambiguity, correction, and annual-update process is defined in [`awards-source-strategy.md`](awards-source-strategy.md). Corrections to already-committed canonical records are recorded in [`awards-corrections.md`](awards-corrections.md).
 
 ## Source vs enrichment
 
@@ -349,4 +364,4 @@ This separation allows authoritative award facts to be recorded even when an ide
 
 ## Implementation status
 
-Best Picture and Best Actor winner histories now reuse this model across all 98 ceremonies. Best Actor demonstrates both movie-catalogue output and reusable TMDB Person output, including the 1st ceremony's multi-work award and the 5th ceremony's two winner results. Remaining acting and directing categories should reuse the same shapes and validators rather than introducing parallel identity systems.
+Best Picture and Best Actor winner histories now reuse this model across all 98 ceremonies. Best Actor demonstrates both movie-catalogue output and reusable TMDB Person output, including the 1st ceremony's multi-work award and the 5th ceremony's two winner results. Shared validation now protects provenance, declared ceremony coverage, category references, duplicate relationships, and cross-file identity consistency. Remaining acting and directing categories should reuse the same shapes, source workflow, and validators rather than introducing parallel systems.
