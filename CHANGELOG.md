@@ -10,6 +10,10 @@ All notable project milestones are recorded here. This project uses semantic ver
 - Complete Academy Awards Best Picture winner source data from the 1st through 98th ceremonies.
 - Reproducible Best Picture catalogue generator and `--check` validation mode.
 - Best Picture history documentation covering category-name changes, ceremony-year filename edge cases, source provenance, and the nominees-catalogue deferral.
+- Complete Academy Awards Best Actor winner data from the 1st through 98th ceremonies, preserving 87 TMDB Person identities and 100 winning-film relationships.
+- Deterministic Best Actor movie-catalogue and person-output generator with validation for ties, the 1st ceremony's multi-film award, identity consistency, and complete ID coverage.
+- `academy-best-actor-winning-films` catalogue and reusable Best Actor winner person output.
+- Best Actor history documentation covering authoritative sourcing, pinned enrichment snapshots, historical edge cases, and People artwork coverage.
 - V2 Builder Suite-style GitHub Pages landing page improvements, including manifest copy support, metadata-provider guidance, guided feedback/issue links, Builder Suite placeholder link, and TMDB attribution.
 - Guided GitHub Issue forms for problem reports and improvement ideas.
 
@@ -17,10 +21,11 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 - `academy-best-picture-winners` now generates from canonical ceremony data instead of the three-title proof-of-concept seed.
 - Best Picture catalogue output is ordered newest ceremony first and retains the released catalogue ID.
+- Manifest version advances to `0.2.0` and declares the new Best Actor winning-films catalogue.
 
 ### Planned
 
-- Add Academy acting/directing relationships using the shared Awards data model.
+- Add the remaining Academy acting categories and directing relationships using the shared Awards data model.
 - Define broader award-body source, verification, and annual update strategy before expanding beyond the Academy core.
 
 ## [0.1.0] - 2026-08-15

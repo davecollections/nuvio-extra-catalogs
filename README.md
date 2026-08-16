@@ -2,11 +2,12 @@
 
 A small Stremio-compatible catalogue add-on intended to provide collection sources that Nuvio and its official TMDB catalogue add-on do not currently expose.
 
-## Current catalogue
+## Current catalogues
 
 - **Academy Awards — Best Picture Winners**
+- **Academy Awards — Best Actor Winning Films**
 
-The original V0.1 three-title seed proved the integration path in Nuvio. Current development expands that same stable catalogue ID to the complete Best Picture winner history while keeping the proven catalog-only architecture.
+The original V0.1 three-title seed proved the integration path in Nuvio. V0.2 keeps that catalog-only architecture, expands Best Picture to the complete winner history, and adds the first person-linked acting catalogue without duplicating canonical award records.
 
 ## What V0.1 proved
 
@@ -27,6 +28,7 @@ nuvio-extra-catalogs/
 ├── assets/
 ├── catalog/
 │   └── movie/
+│       ├── academy-best-actor-winning-films.json
 │       └── academy-best-picture-winners.json
 ├── data/
 │   └── awards/
@@ -45,19 +47,21 @@ nuvio-extra-catalogs/
 └── manifest.json
 ```
 
-The released catalogue ID is:
+The declared catalogue IDs are:
 
 ```text
 academy-best-picture-winners
+academy-best-actor-winning-films
 ```
 
-The corresponding Stremio resource is:
+The corresponding Stremio resources are:
 
 ```text
 /catalog/movie/academy-best-picture-winners.json
+/catalog/movie/academy-best-actor-winning-films.json
 ```
 
-## Best Picture data
+## Awards data
 
 Canonical award facts live under `data/awards/academy-awards/`. Generated catalogue JSON is not the source of truth.
 
@@ -74,6 +78,20 @@ Validate the data and confirm the generated catalogue is current:
 ```bash
 python scripts/build_best_picture_catalog.py --check
 ```
+
+Best Actor preserves both winning-film identities and TMDB Person IDs. Generate its movie catalogue and reusable person output with:
+
+```bash
+python scripts/build_best_actor_outputs.py
+```
+
+Validate the canonical Best Actor history and both generated outputs with:
+
+```bash
+python scripts/build_best_actor_outputs.py --check
+```
+
+See `docs/best-actor-history.md` for source, identity-enrichment, historical edge-case, and artwork-coverage details.
 
 ## GitHub Pages URLs
 
@@ -93,6 +111,7 @@ Catalogue response:
 
 ```text
 https://davecollections.github.io/nuvio-extra-catalogs/catalog/movie/academy-best-picture-winners.json
+https://davecollections.github.io/nuvio-extra-catalogs/catalog/movie/academy-best-actor-winning-films.json
 ```
 
 ## Feedback
@@ -103,4 +122,4 @@ The GitHub Pages landing page links to guided GitHub Issue forms for bug reports
 
 This repository remains a **companion** to Nuvio's official TMDB catalogue add-on rather than duplicating it.
 
-Potential later additions include acting/directing award relationships, other Academy Award categories, and additional award bodies once their source/update strategy is defined.
+Potential later additions include the remaining acting categories, directing relationships, other Academy Award categories, and additional award bodies once their source/update strategy is defined.
