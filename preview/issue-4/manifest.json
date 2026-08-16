@@ -1,0 +1,19 @@
+{
+  "id": "com.davecollections.nuvio.extra.issue4preview",
+  "version": "0.2.0",
+  "name": "Nuvio Extra Catalogs — Issue #4 Preview",
+  "description": "Temporary acceptance-test manifest for the complete Academy Awards Best Actor winning films catalogue.",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "academy-best-actor-winning-films",
+      "name": "Academy Awards — Best Actor Winning Films (Issue #4 Preview)"
+    }
+  ]
+}
