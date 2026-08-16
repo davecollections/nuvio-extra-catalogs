@@ -4,6 +4,12 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ## [Unreleased]
 
+### Planned
+
+- Complete the cross-repository People artwork integration defined by Issue #6.
+
+## [0.3.0] - 2026-08-16
+
 ### Added
 
 - Shared offline awards semantic validator covering ceremony ranges, provenance, category references, duplicate relationships, and cross-file identity consistency.
@@ -19,9 +25,12 @@ All notable project milestones are recorded here. This project uses semantic ver
 - Shared repository validation now requires declared authorities, ceremony coverage, and source review dates before category-specific output checks.
 - Manifest version advances to `0.3.0` and declares the Best Director winning-films catalogue.
 
-### Planned
+### Validated in Nuvio
 
-- Complete the cross-repository People artwork integration defined by Issue #6.
+- The commit-pinned `0.3.0` preview manifest loads with all three Academy Awards catalogues.
+- Best Director Winning Films renders 99 associated films in newest-ceremony-first order.
+- The 1st ceremony's two historical directing winners and the three joint-director film cases render without duplicate film entries.
+- Best Director items resolve full metadata and work as a Nuvio Folder/Collection source.
 
 ## [0.2.0] - 2026-08-16
 

@@ -6,7 +6,7 @@ This repository provides additional Stremio-compatible catalog sources for Nuvio
 
 ## Current phase
 
-V0.2 is complete and validated in Nuvio. V0.3 adds the complete Academy Best Director winner history, associated films, joint credited winners, and reusable TMDB Person output for native `DIRECTOR` sources. V0.3 must pass deployed Nuvio validation before it is considered complete.
+V0.2 is complete and validated in Nuvio. The V0.3 preview has also passed Nuvio validation with the complete Academy Best Director winner history, 99 associated films, joint credited winners, and reusable TMDB Person output for native `DIRECTOR` sources. V0.3 still requires merge, live GitHub Pages confirmation, and a preserved release point before it is complete.
 
 ## Guardrails
 
@@ -54,11 +54,13 @@ After a pull request is merged:
 - Update `CHANGELOG.md` when the merge completes a notable milestone or changes released behaviour.
 - Create or preserve an appropriate version/tag/release point when the merged work represents a meaningful known-good release.
 
-## Validated behaviour through V0.2
+## Validated behaviour through the V0.3 preview
 
 - Manifest installs and validates in Nuvio from GitHub Pages.
 - Best Picture catalogue loads on the Nuvio home screen.
 - Best Actor Winning Films loads alongside Best Picture with 100 associated films.
+- Best Director Winning Films loads with 99 associated films in newest-ceremony-first order.
+- The 1st ceremony's separate Comedy and Dramatic directing winners both render, while joint-director winning films remain single catalogue entries.
 - Refresh Add-on applies the deployed manifest update without requiring reinstallation.
 - The catalogue appears in Nuvio's Add Catalog selector.
 - The catalogue can be added to a Folder and that Folder can be used in a Collection.
@@ -68,4 +70,4 @@ After a pull request is merged:
 
 ## Next milestone
 
-Complete the Issue #5 deployment and Nuvio smoke test, then preserve the known-good V0.3 release point. Keep cross-repository People artwork integration in Issue #6 rather than creating an awards-specific artwork system here.
+Merge Issue #5, confirm the live GitHub Pages deployment and refreshed manifest in Nuvio, then preserve the known-good V0.3 release point. Keep cross-repository People artwork integration in Issue #6 rather than creating an awards-specific artwork system here.
