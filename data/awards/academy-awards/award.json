@@ -5,5 +5,15 @@
   "organization": "Academy of Motion Picture Arts and Sciences",
   "externalIds": {
     "tmdbAwardId": 1
+  },
+  "authoritativeSources": [
+    {
+      "name": "Academy Awards Database",
+      "reference": "https://awardsdatabase.oscars.org/"
+    }
+  ],
+  "ceremonyCoverage": {
+    "firstCeremonyNumber": 1,
+    "lastCeremonyNumber": 98
   }
 }

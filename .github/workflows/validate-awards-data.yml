@@ -1,0 +1,46 @@
+name: Validate awards data
+
+on:
+  pull_request:
+    paths:
+      - "catalog/**"
+      - "data/**"
+      - "schema/**"
+      - "scripts/**"
+      - "manifest.json"
+      - ".github/workflows/validate-awards-data.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "catalog/**"
+      - "data/**"
+      - "schema/**"
+      - "scripts/**"
+      - "manifest.json"
+      - ".github/workflows/validate-awards-data.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate canonical awards data
+        run: python scripts/validate_awards_data.py
+
+      - name: Check Best Picture generated output
+        run: python scripts/build_best_picture_catalog.py --check
+
+      - name: Check Best Actor generated outputs
+        run: python scripts/build_best_actor_outputs.py --check
