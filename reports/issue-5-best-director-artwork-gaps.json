@@ -1,0 +1,70 @@
+{
+  "categoryId": "best-director",
+  "checkedAt": "2026-08-16",
+  "peopleAssetsRepository": "https://github.com/davecollections/nuvio-people-assets",
+  "peopleAssetsCommit": "3b2d945a1f340f7343023cc50875aecf79d5b355",
+  "uniqueWinnerCount": 77,
+  "missingArtworkCount": 15,
+  "missingArtwork": [
+    {
+      "name": "Anthony Minghella",
+      "tmdbPersonId": 2239
+    },
+    {
+      "name": "Barry Levinson",
+      "tmdbPersonId": 8246
+    },
+    {
+      "name": "Daniel Kwan",
+      "tmdbPersonId": 1383612
+    },
+    {
+      "name": "Delbert Mann",
+      "tmdbPersonId": 67451
+    },
+    {
+      "name": "Frank Lloyd",
+      "tmdbPersonId": 72061
+    },
+    {
+      "name": "James L. Brooks",
+      "tmdbPersonId": 3388
+    },
+    {
+      "name": "Jerome Robbins",
+      "tmdbPersonId": 18868
+    },
+    {
+      "name": "John G. Avildsen",
+      "tmdbPersonId": 16513
+    },
+    {
+      "name": "Lewis Milestone",
+      "tmdbPersonId": 2000
+    },
+    {
+      "name": "Michel Hazanavicius",
+      "tmdbPersonId": 67717
+    },
+    {
+      "name": "Norman Taurog",
+      "tmdbPersonId": 82800
+    },
+    {
+      "name": "Robert Benton",
+      "tmdbPersonId": 6729
+    },
+    {
+      "name": "Sean Baker",
+      "tmdbPersonId": 118415
+    },
+    {
+      "name": "Tom Hooper",
+      "tmdbPersonId": 70500
+    },
+    {
+      "name": "Tony Richardson",
+      "tmdbPersonId": 32765
+    }
+  ]
+}
