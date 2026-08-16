@@ -29,16 +29,19 @@ jobs:
       - name: Resolve and write Best Actor history
         run: python scripts/_issue4_bootstrap_best_actor.py
 
-      - name: Commit generated canonical data
+      - name: Generate deterministic Best Actor outputs
+        run: python scripts/build_best_actor_outputs.py
+
+      - name: Commit generated Best Actor data and outputs
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/awards/academy-awards/results data/generated/academy-best-actor-winners.people.json reports/issue-4-best-actor-artwork-gaps.json
+          git add data/awards/academy-awards/results data/generated/academy-best-actor-winners.people.json catalog/movie/academy-best-actor-winning-films.json reports/issue-4-best-actor-artwork-gaps.json
           git diff --cached --check
           if git diff --cached --quiet; then
             echo "No generated changes to commit."
             exit 0
           fi
-          git commit -m "Add complete Academy Best Actor winner history"
+          git commit -m "Generate Academy Best Actor outputs"
           git push origin HEAD:agent/issue-4-best-actor
