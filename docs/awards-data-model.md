@@ -22,7 +22,7 @@ The model therefore preserves the relationship between the award category, cerem
 5. **Stable local IDs are independent of display names.** Award-body and category IDs use stable slugs. Display names may change without breaking generated catalogue IDs or historical data.
 6. **Historical category names may vary.** A category registry may retain aliases or historical names while keeping one stable local category ID when the award lineage is genuinely the same.
 7. **People are optional, not implied.** Best Picture can contain only a work. Acting/directing results include the relevant people explicitly.
-8. **A work is optional at schema level.** This allows future person-only awards such as honorary/lifetime awards, while catalogue generators can deliberately skip result types they do not support.
+8. **Work relationships are optional at schema level.** This allows future person-only awards such as honorary/lifetime awards, while catalogue generators can deliberately skip result types they do not support.
 9. **Other recipients can be preserved without inventing fake people or works.** `recipientLabel` is available for a real recipient that is neither a TMDB work nor a person record.
 10. **Source provenance is retained.** Each ceremony result file identifies the authoritative source used for the award facts. ID enrichment is a separate concern from the award source itself.
 11. **Generated output is disposable.** Catalog JSON should be reproducible from normalized data and metadata enrichment; generated files are not the source of truth.
@@ -157,11 +157,12 @@ Required:
 Optional depending on category:
 
 - `work`
+- `works` for the rare case where one result applies to multiple works
 - `people`
 - `recipientLabel`
 - `note`
 
-At least one of `work`, a non-empty `people` array, or `recipientLabel` must exist.
+At least one of `work`, a non-empty `works` array, a non-empty `people` array, or `recipientLabel` must exist.
 
 ### Status semantics
 
@@ -194,6 +195,12 @@ Rules:
 - Generators should prefer the IMDb ID when present and may fall back to `tmdb:{tmdbId}` only when necessary and supported.
 - A record intended for title catalogue output must be resolved to an acceptable output ID before publication.
 - Poster/backdrop URLs do not belong in the canonical award record; they are metadata/presentation enrichment.
+
+### Multiple works
+
+`works` is a non-empty array of work objects for a genuine multi-work result. A result must contain at most one of `work` or `works`; it must not duplicate the same relationship in both fields.
+
+The initial Academy Awards acting categories require this for Emil Jannings' 1st-ceremony Best Actor award, which covered both *The Last Command* and *The Way of All Flesh*. Generators may flatten those work links into separate movie catalogue items while retaining one canonical award result and one person identity.
 
 ### Person object
 
@@ -340,6 +347,6 @@ This separation allows authoritative award facts to be recorded even when an ide
 - It does not make TMDB's website-only Awards pages a scraping dependency.
 - It does not force person-only/honorary/other-recipient awards into movie catalogues.
 
-## Next implementation step
+## Implementation status
 
-Use this model for one real Academy ceremony file and build validation/generation around Best Picture first. Acting and directing categories then reuse the same record shape rather than introducing new schemas.
+Best Picture and Best Actor winner histories now reuse this model across all 98 ceremonies. Best Actor demonstrates both movie-catalogue output and reusable TMDB Person output, including the 1st ceremony's multi-work award and the 5th ceremony's two winner results. Remaining acting and directing categories should reuse the same shapes and validators rather than introducing parallel identity systems.

@@ -6,7 +6,7 @@ This repository provides additional Stremio-compatible catalog sources for Nuvio
 
 ## Current phase
 
-V0.1 proof of concept is complete and validated in Nuvio. The next phase is V0.2: design and implement a maintainable Academy Awards data model and expand the first production catalogue(s) without destabilizing the proven integration.
+V0.1 proof of concept is complete and validated in Nuvio. V0.2 has established the canonical Awards data model and completed the Academy Best Picture winner history. Active work is Issue #4: finish Best Actor as the first complete person-linked category without destabilizing the proven integration.
 
 ## Guardrails
 
@@ -65,4 +65,4 @@ After a pull request is merged:
 
 ## Next milestone
 
-V0.2 should establish the Awards data model first, preserving both title and person relationships where applicable, then use that model to produce the first complete Academy Awards catalogue(s).
+Finish and validate the Best Actor winning-films catalogue and reusable TMDB Person output. After that reference implementation is merged, define the broader source, verification, correction, and annual-update strategy in Issue #7 before rapidly expanding to the remaining acting categories or other award bodies.
