@@ -1,0 +1,22 @@
+{
+  "categoryId": "best-actor",
+  "checkedAt": "2026-08-16",
+  "peopleAssetsRepository": "https://github.com/davecollections/nuvio-people-assets",
+  "peopleAssetsCommit": "3b2d945a1f340f7343023cc50875aecf79d5b355",
+  "uniqueWinnerCount": 87,
+  "missingArtworkCount": 3,
+  "missingArtwork": [
+    {
+      "name": "George Arliss",
+      "tmdbPersonId": 124309
+    },
+    {
+      "name": "Paul Scofield",
+      "tmdbPersonId": 13324
+    },
+    {
+      "name": "Rami Malek",
+      "tmdbPersonId": 17838
+    }
+  ]
+}

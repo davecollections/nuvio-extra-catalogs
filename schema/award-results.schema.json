@@ -81,6 +81,13 @@
         "work": {
           "$ref": "#/$defs/work"
         },
+        "works": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/work"
+          }
+        },
         "people": {
           "type": "array",
           "items": {
@@ -97,8 +104,12 @@
           "minLength": 1
         }
       },
+      "not": {
+        "required": ["work", "works"]
+      },
       "anyOf": [
         { "required": ["work"] },
+        { "required": ["works"] },
         {
           "required": ["people"],
           "properties": {

@@ -16,6 +16,17 @@
       "externalIds": {
         "tmdbCategoryId": 1
       }
+    },
+    {
+      "id": "best-actor",
+      "name": "Best Actor",
+      "aliases": [
+        "Actor",
+        "Actor in a Leading Role"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "person",
+      "creditRole": "actor"
     }
   ]
 }
