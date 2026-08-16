@@ -6,6 +6,7 @@ from __future__ import annotations
 import csv
 import io
 import json
+import re
 import time
 import urllib.error
 import urllib.parse
@@ -19,6 +20,7 @@ REPORTS_DIR = ROOT / "reports"
 OSCARS_CSV_URL = "https://raw.githubusercontent.com/DLu/oscar_data/main/oscars.csv"
 PEOPLE_URL = "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/data/people.json"
 TMDB_PROXY = "https://tmdb-id-lookup-proxy.dpegan20.workers.dev"
+TMDB_ORIGIN = "https://davecollections.github.io"
 CATEGORY = "ACTOR IN A LEADING ROLE"
 EXPECTED_CEREMONIES = set(range(1, 99))
 LATEST_FALLBACK = {
@@ -32,8 +34,11 @@ LATEST_FALLBACK = {
 }
 
 
-def fetch_bytes(url: str, attempts: int = 5) -> bytes:
-    request = urllib.request.Request(url, headers={"User-Agent": "nuvio-extra-catalogs/issue-4"})
+def fetch_bytes(url: str, attempts: int = 5, extra_headers: dict[str, str] | None = None) -> bytes:
+    headers = {"User-Agent": "nuvio-extra-catalogs/issue-4"}
+    if extra_headers:
+        headers.update(extra_headers)
+    request = urllib.request.Request(url, headers=headers)
     delay = 2
     for attempt in range(1, attempts + 1):
         try:
@@ -54,8 +59,8 @@ def fetch_bytes(url: str, attempts: int = 5) -> bytes:
     raise RuntimeError(f"Unable to fetch {url}")
 
 
-def fetch_json(url: str) -> dict:
-    return json.loads(fetch_bytes(url).decode("utf-8"))
+def fetch_json(url: str, extra_headers: dict[str, str] | None = None) -> dict:
+    return json.loads(fetch_bytes(url, extra_headers=extra_headers).decode("utf-8"))
 
 
 def tmdb(path: str, params: dict[str, str] | None = None) -> dict:
@@ -63,7 +68,7 @@ def tmdb(path: str, params: dict[str, str] | None = None) -> dict:
     if params:
         url += "?" + urllib.parse.urlencode(params)
     time.sleep(0.7)
-    return fetch_json(url)
+    return fetch_json(url, {"Origin": TMDB_ORIGIN})
 
 
 def split_pipe(value: str) -> list[str]:
@@ -103,39 +108,72 @@ def resolve_person(name: str, imdb_id: str, artwork_by_name: dict[str, dict]) ->
     existing = artwork_by_name.get(name.casefold())
     if existing:
         return int(existing["tmdbPersonId"])
-    if imdb_id and imdb_id != "?":
-        payload = tmdb(f"/3/find/{urllib.parse.quote(imdb_id)}", {"external_source": "imdb_id"})
-        results = payload.get("person_results") or []
-        if len(results) == 1:
-            return int(results[0]["id"])
-        exact = [item for item in results if item.get("name", "").casefold() == name.casefold()]
-        if len(exact) == 1:
-            return int(exact[0]["id"])
+
     payload = tmdb("/3/search/person", {"query": name, "include_adult": "false", "language": "en-US"})
-    exact = [item for item in payload.get("results", []) if item.get("name", "").casefold() == name.casefold()]
-    if len(exact) != 1:
-        raise RuntimeError(f"Could not uniquely resolve TMDB person for {name!r}; candidates={exact[:5]}")
-    return int(exact[0]["id"])
+    results = payload.get("results", [])
+    exact = [item for item in results if item.get("name", "").casefold() == name.casefold()]
+    candidates = exact or results
+
+    if imdb_id and imdb_id != "?":
+        for candidate in candidates:
+            person_id = int(candidate["id"])
+            detail = tmdb(f"/3/person/{person_id}", {"language": "en-US"})
+            if detail.get("imdb_id") == imdb_id:
+                return person_id
+        raise RuntimeError(
+            f"Could not verify TMDB person for {name!r} against IMDb {imdb_id}; "
+            f"candidate IDs={[item.get('id') for item in candidates[:10]]}"
+        )
+
+    if len(exact) == 1:
+        return int(exact[0]["id"])
+    raise RuntimeError(f"Could not uniquely resolve TMDB person for {name!r}; candidates={exact[:5]}")
+
+
+def movie_query_variants(title: str) -> list[str]:
+    variants = [title]
+    without_parenthetical = re.sub(r"\s*\([^)]*\)\s*", " ", title).strip()
+    if without_parenthetical and without_parenthetical != title:
+        variants.append(without_parenthetical)
+    softened = re.sub(r"[-–—:]+", " ", title)
+    softened = re.sub(r"\s+", " ", softened).strip()
+    if softened and softened not in variants:
+        variants.append(softened)
+    return variants
 
 
 def resolve_work(title: str, imdb_id: str) -> dict:
     if not imdb_id or imdb_id == "?":
         raise RuntimeError(f"No IMDb title ID available for winning film {title!r}")
-    payload = tmdb(f"/3/find/{urllib.parse.quote(imdb_id)}", {"external_source": "imdb_id"})
-    results = payload.get("movie_results") or []
-    if len(results) != 1:
-        raise RuntimeError(f"Expected one TMDB movie for {title!r} / {imdb_id}, got {len(results)}")
-    movie = results[0]
-    resolved_title = movie.get("title") or title
-    if resolved_title.casefold() != title.casefold():
-        aliases = {resolved_title.casefold(), (movie.get("original_title") or "").casefold()}
-        if title.casefold() not in aliases:
-            print(f"warning: title differs for {imdb_id}: Academy={title!r}, TMDB={resolved_title!r}")
-    work = {"mediaType": "movie", "title": title, "tmdbId": int(movie["id"]), "imdbId": imdb_id}
-    release_date = movie.get("release_date") or ""
-    if len(release_date) >= 4 and release_date[:4].isdigit():
-        work["releaseYear"] = int(release_date[:4])
-    return work
+
+    seen_ids: set[int] = set()
+    candidates: list[dict] = []
+    for query in movie_query_variants(title):
+        payload = tmdb(
+            "/3/search/movie",
+            {"query": query, "include_adult": "false", "language": "en-US"},
+        )
+        for item in payload.get("results", []):
+            movie_id = int(item["id"])
+            if movie_id not in seen_ids:
+                seen_ids.add(movie_id)
+                candidates.append(item)
+
+    for candidate in candidates:
+        movie_id = int(candidate["id"])
+        detail = tmdb(f"/3/movie/{movie_id}", {"language": "en-US"})
+        if detail.get("imdb_id") != imdb_id:
+            continue
+        work = {"mediaType": "movie", "title": title, "tmdbId": movie_id, "imdbId": imdb_id}
+        release_date = detail.get("release_date") or ""
+        if len(release_date) >= 4 and release_date[:4].isdigit():
+            work["releaseYear"] = int(release_date[:4])
+        return work
+
+    raise RuntimeError(
+        f"Could not verify TMDB movie for {title!r} against IMDb {imdb_id}; "
+        f"candidate IDs={[item.get('id') for item in candidates[:20]]}"
+    )
 
 
 def ceremony_file(ceremony_number: int) -> Path:
