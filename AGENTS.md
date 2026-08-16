@@ -6,7 +6,7 @@ This repository provides additional Stremio-compatible catalog sources for Nuvio
 
 ## Current phase
 
-V0.2 is complete and validated in Nuvio. The V0.3 preview has also passed Nuvio validation with the complete Academy Best Director winner history, 99 associated films, joint credited winners, and reusable TMDB Person output for native `DIRECTOR` sources. V0.3 still requires merge, live GitHub Pages confirmation, and a preserved release point before it is complete.
+V0.3 is complete and validated from the live GitHub Pages manifest in Nuvio. It includes the shared awards source/verification strategy, the complete Academy Best Director winner history, 99 associated films, joint credited winners, and reusable TMDB Person output for native `DIRECTOR` sources. The exact tested state is preserved on `release/v0.3.0`.
 
 ## Guardrails
 
@@ -54,7 +54,7 @@ After a pull request is merged:
 - Update `CHANGELOG.md` when the merge completes a notable milestone or changes released behaviour.
 - Create or preserve an appropriate version/tag/release point when the merged work represents a meaningful known-good release.
 
-## Validated behaviour through the V0.3 preview
+## Validated behaviour through V0.3
 
 - Manifest installs and validates in Nuvio from GitHub Pages.
 - Best Picture catalogue loads on the Nuvio home screen.
@@ -70,4 +70,4 @@ After a pull request is merged:
 
 ## Next milestone
 
-Merge Issue #5, confirm the live GitHub Pages deployment and refreshed manifest in Nuvio, then preserve the known-good V0.3 release point. Keep cross-repository People artwork integration in Issue #6 rather than creating an awards-specific artwork system here.
+Complete the cross-repository People artwork integration defined by Issue #6 while continuing to reuse native Nuvio person/director sources rather than creating an awards-specific artwork system here.
