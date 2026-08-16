@@ -1,0 +1,44 @@
+name: Issue 4 Best Actor bootstrap
+
+on:
+  push:
+    branches:
+      - agent/issue-4-best-actor
+    paths:
+      - .github/workflows/issue-4-best-actor-bootstrap.yml
+      - scripts/_issue4_bootstrap_best_actor.py
+
+permissions:
+  contents: write
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out feature branch
+        uses: actions/checkout@v4
+        with:
+          ref: agent/issue-4-best-actor
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Resolve and write Best Actor history
+        run: python scripts/_issue4_bootstrap_best_actor.py
+
+      - name: Commit generated canonical data
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/awards/academy-awards/results data/generated/academy-best-actor-winners.people.json reports/issue-4-best-actor-artwork-gaps.json
+          git diff --cached --check
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+            exit 0
+          fi
+          git commit -m "Add complete Academy Best Actor winner history"
+          git push origin HEAD:agent/issue-4-best-actor
