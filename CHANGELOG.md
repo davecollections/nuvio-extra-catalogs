@@ -4,9 +4,25 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ## [Unreleased]
 
-### Planned
+### Added
 
-- Complete the cross-repository People artwork integration defined by Issue #6.
+- Deterministic Issue #6 integration validation against an immutable `nuvio-people-assets` manifest, including exact manifest hashing, identity and membership checks, required and optional artwork coverage, sample Actor/Director resolutions, and fallback documentation.
+- Machine-readable cross-repository coverage evidence for all 164 unique Academy Best Actor and Best Director winners.
+
+### Changed
+
+- Best Actor artwork coverage advances from 84/87 to 87/87 and Best Director advances from 62/77 to 77/77 against the pinned canonical People manifest.
+- Awards documentation now records the merged Builder's manifest-based People resolution and treats the older category gap reports as historical snapshots.
+
+### Validated through the production integration
+
+- The deployed Builder references the canonical People manifest and resolves the live Rami Malek Actor and Kevin Costner dual-role samples to their exact `nuvio-people-assets` poster URLs.
+- The live People manifest and all eight core sample asset URLs returned HTTP 200 with the expected content types.
+- The deployed Builder created the two-folder Actor Movie Credits / Director Directed Movies sample with no legacy People artwork convention.
+
+### Deferred
+
+- A current-client static-focus WebP and Builder-to-Nuvio round trip remains deferred because the deployed V2 workspace does not yet expose Copy, Download, or Send. This repository changes no live catalogue or add-on manifest.
 
 ## [0.3.0] - 2026-08-16
 

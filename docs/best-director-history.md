@@ -48,13 +48,14 @@ Repeated winners are deduplicated by TMDB Person ID, not by name text. The gener
 
 ## Artwork coverage
 
-Artwork coverage was compared with `davecollections/nuvio-people-assets` commit `3b2d945a1f340f7343023cc50875aecf79d5b355`.
+Final Issue #6 artwork coverage was verified against `davecollections/nuvio-people-assets` commit `ab0db998de43b9bee3c7e299a0ac8df19e8c9757`.
 
 - 77 unique Best Director winners
-- 62 identities already covered
-- 15 missing artwork identities
+- 77 identities resolved by TMDB Person ID
+- 77 identities with `director` membership and all required artwork
+- 77 identities with the optional focus pair
 
-The missing identities are recorded in `reports/issue-5-best-director-artwork-gaps.json`. Artwork availability does not change canonical award results or block the movie catalogue. Cross-repository artwork additions remain Issue #6 work.
+The current machine-readable result is recorded in `reports/issue-6-awards-people-artwork-integration.json`. The earlier `reports/issue-5-best-director-artwork-gaps.json` file is retained as a historical pre-integration snapshot. Artwork availability does not change canonical award results or block the movie catalogue.
 
 ## Annual update process
 
@@ -66,7 +67,7 @@ For a new ceremony:
 4. Resolve the movie's TMDB ID and retain its IMDb `tt` ID. Confirm the IDs refer to the same film.
 5. Run `python scripts/build_best_director_outputs.py` to regenerate the movie and director outputs.
 6. Run `python scripts/validate_awards_data.py` and every category generator in `--check` mode.
-7. Recheck People artwork coverage separately and update the dated artwork-gap report when needed.
+7. Run `python scripts/check_people_artwork_integration.py --check`; deliberately update its pinned People baseline and report when a new winner is added.
 8. Test the changed manifest and catalogue in Nuvio before release.
 
 The shared acquisition, identity-matching, ambiguity, correction, and audit policy is defined in [`awards-source-strategy.md`](awards-source-strategy.md).

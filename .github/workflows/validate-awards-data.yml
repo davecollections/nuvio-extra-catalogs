@@ -5,6 +5,8 @@ on:
     paths:
       - "catalog/**"
       - "data/**"
+      - "docs/**"
+      - "reports/**"
       - "schema/**"
       - "scripts/**"
       - "manifest.json"
@@ -15,6 +17,8 @@ on:
     paths:
       - "catalog/**"
       - "data/**"
+      - "docs/**"
+      - "reports/**"
       - "schema/**"
       - "scripts/**"
       - "manifest.json"
@@ -47,3 +51,6 @@ jobs:
 
       - name: Check Best Director generated outputs
         run: python scripts/build_best_director_outputs.py --check
+
+      - name: Check Awards People artwork integration
+        run: python scripts/check_people_artwork_integration.py --check
