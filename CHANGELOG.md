@@ -4,6 +4,12 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ## [Unreleased]
 
+### Planned
+
+- Select and scope the next focused awards-category expansion in a dedicated GitHub Issue.
+
+## [0.4.0] - 2026-08-20
+
 ### Added
 
 - Deterministic Issue #6 integration validation against an immutable `nuvio-people-assets` manifest, including exact manifest hashing, identity and membership checks, required and optional artwork coverage, sample Actor/Director resolutions, and fallback documentation.
@@ -34,11 +40,16 @@ All notable project milestones are recorded here. This project uses semantic ver
 - All 83 newly introduced Best Actress film identities were confirmed through the production Builder/TMDB path against their exact IMDb IDs.
 - The commit-pinned People integration check resolves all 245 unique Best Actor, Best Actress, and Best Director identities with complete required artwork; all 81 Best Actress winners also have the optional focus pair.
 
-### Pending V0.4 live validation
+### Validated in Nuvio
 
-- Load the commit-pinned `0.4.0` preview manifest in Nuvio and verify all four catalogues.
-- Confirm Best Actress Winning Films renders 101 associated films, including the 41st-ceremony tie and the 1st-ceremony three-film tail.
-- Confirm the catalogue resolves metadata and works as a Folder/Collection source before preserving `release/v0.4.0`.
+- The owner loaded the commit-pinned `0.4.0` preview manifest in Nuvio and verified all four catalogues.
+- Best Actress Winning Films rendered 101 associated films, including the 41st-ceremony tie and the 1st-ceremony three-film tail.
+- Best Actress items resolved metadata and worked as a Nuvio Folder/Collection source.
+- The deployed GitHub Pages manifest, landing page, and all four catalogue payloads passed live HTTP checks; the manifest and catalogue bytes match merge commit `e01244f61104735852bf0b00c603c3381760e0a5`.
+
+### Known-good rollback point
+
+The exact live-tested V0.4 state is preserved on branch `release/v0.4.0`, pointing to merge commit `e01244f61104735852bf0b00c603c3381760e0a5`.
 
 ### Deferred
 
