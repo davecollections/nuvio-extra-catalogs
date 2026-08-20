@@ -1,6 +1,6 @@
 # Awards People artwork integration
 
-Issue: #6
+Issues: #6 and #17
 
 ## Purpose
 
@@ -20,9 +20,9 @@ canonical People artwork and category membership
 
 ## Verified external baselines
 
-The deterministic integration report pins the exact external states used for Issue #6:
+The current deterministic integration report extends the Issue #6 contract for Issue #17 and pins the exact external states it uses:
 
-- People artwork: [`davecollections/nuvio-people-assets`](https://github.com/davecollections/nuvio-people-assets) commit `ab0db998de43b9bee3c7e299a0ac8df19e8c9757`.
+- People artwork: [`davecollections/nuvio-people-assets`](https://github.com/davecollections/nuvio-people-assets) commit `4277be3dcfe3b6806568438ca5408d89ce29f4b2`.
 - Builder migration: [`davecollections/tmdb-id-lookup`](https://github.com/davecollections/tmdb-id-lookup) merge commit `e9eb3b24a93b7e6bbca295a340d035cb018293d9` from PR #119.
 - Builder baseline verified to contain that migration: `fa79389eda7d5ed59707420a16839055e7555b8c`.
 
@@ -47,6 +47,7 @@ Every asset is consumed from its manifest-supplied HTTPS URL. The supplied SHA-2
 Category membership is also resolved from the same manifest record:
 
 - Best Actor requires `actor` membership and is intended for native `PERSON` sources.
+- Best Actress requires `actor` membership and is intended for native `PERSON` sources.
 - Best Director requires `director` membership and is intended for native `DIRECTOR` sources.
 - A person who is both an actor and director has one TMDB identity, one asset directory, and both memberships. Kevin Costner (`1269`) is the pinned Issue #6 example; no artwork is copied for his director role.
 
@@ -63,10 +64,11 @@ Against the pinned People commit:
 | Awards output | Native source | Required membership | Resolved | Core artwork | Focus pair |
 | --- | --- | --- | ---: | ---: | ---: |
 | Best Actor winners | `PERSON` | `actor` | 87/87 | 87/87 | 87/87 |
+| Best Actress winners | `PERSON` | `actor` | 81/81 | 81/81 | 81/81 |
 | Best Director winners | `DIRECTOR` | `director` | 77/77 | 77/77 | 77/77 |
-| Combined unique people | — | — | 164/164 | 164/164 | 164/164 |
+| All current unique awards people | — | — | 245/245 | 245/245 | 245/245 |
 
-The machine-readable evidence is [`reports/issue-6-awards-people-artwork-integration.json`](../reports/issue-6-awards-people-artwork-integration.json). The earlier Issue #4 and Issue #5 gap reports remain historical snapshots of coverage before the People asset work was completed; they are not the current integration result.
+Current evidence for all three person-recipient categories is [`reports/issue-17-awards-people-artwork-integration.json`](../reports/issue-17-awards-people-artwork-integration.json). The Issue #6 integration report and the Issue #4, #5, and #17 gap reports remain historical snapshots. In particular, the Best Actress gap snapshot records the 79/81 state before Luise Rainer (`125482`) and Mikey Madison (`1640439`) were registered upstream.
 
 ## Reproducing the check
 
@@ -91,6 +93,8 @@ Run without `--check` to regenerate the committed report after deliberately upda
 The deterministic check proves identity, membership, asset shape, URL ownership, hashes, and coverage. The deployed production Builder was also exercised through its real TMDB and People-manifest paths.
 
 On 2026-08-20, the deployed Builder returned HTTP 200 and its published JavaScript bundle contained the canonical `nuvio-people-assets/main/manifests/people.json` reference. The live `main` People manifest and all eight core Rami Malek/Kevin Costner sample asset URLs also returned HTTP 200 with their expected WebP/PNG content types.
+
+After Issue #17's final People publication, all 12 manifest-supplied Luise Rainer and Mikey Madison asset URLs returned HTTP 200 from the production `main` paths. Their downloaded byte counts and SHA-256 values exactly matched the commit-pinned manifest; the responses comprised ten WebP assets and two PNG title logos.
 
 The deployed Builder's live People flow then:
 

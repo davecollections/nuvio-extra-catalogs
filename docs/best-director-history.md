@@ -55,7 +55,7 @@ Final Issue #6 artwork coverage was verified against `davecollections/nuvio-peop
 - 77 identities with `director` membership and all required artwork
 - 77 identities with the optional focus pair
 
-The current machine-readable result is recorded in `reports/issue-6-awards-people-artwork-integration.json`. The earlier `reports/issue-5-best-director-artwork-gaps.json` file is retained as a historical pre-integration snapshot. Artwork availability does not change canonical award results or block the movie catalogue.
+The current machine-readable result is recorded in `reports/issue-17-awards-people-artwork-integration.json`. The earlier `reports/issue-6-awards-people-artwork-integration.json` and `reports/issue-5-best-director-artwork-gaps.json` files are retained as historical snapshots. Artwork availability does not change canonical award results or block the movie catalogue.
 
 ## Annual update process
 

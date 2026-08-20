@@ -112,6 +112,13 @@ Example:
       "creditRole": "actor"
     },
     {
+      "id": "best-actress",
+      "name": "Best Actress",
+      "mediaType": "movie",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
       "id": "best-director",
       "name": "Best Director",
       "mediaType": "movie",
@@ -291,6 +298,46 @@ Generators may deliberately ignore such records until an appropriate output exis
 
 The same record can feed a Best Actor winning-films catalogue and a people-oriented collection definition without duplicating the award result.
 
+### Best Actress multi-work winner
+
+```json
+{
+  "categoryId": "best-actress",
+  "status": "winner",
+  "works": [
+    {
+      "mediaType": "movie",
+      "title": "7th Heaven",
+      "releaseYear": 1927,
+      "tmdbId": 82474,
+      "imdbId": "tt0018379"
+    },
+    {
+      "mediaType": "movie",
+      "title": "Street Angel",
+      "releaseYear": 1928,
+      "tmdbId": 28391,
+      "imdbId": "tt0019429"
+    },
+    {
+      "mediaType": "movie",
+      "title": "Sunrise",
+      "releaseYear": 1927,
+      "tmdbId": 631,
+      "imdbId": "tt0018455"
+    }
+  ],
+  "people": [
+    {
+      "name": "Janet Gaynor",
+      "tmdbId": 9088
+    }
+  ]
+}
+```
+
+This remains one canonical award result and one person identity while the movie catalogue emits all three credited films.
+
 ### Best Director winner
 
 ```json
@@ -364,6 +411,6 @@ This separation allows authoritative award facts to be recorded even when an ide
 
 ## Implementation status
 
-Best Picture, Best Actor, and Best Director winner histories now reuse this model across all 98 ceremonies. Best Actor demonstrates movie-catalogue output and reusable TMDB Person output, including the 1st ceremony's multi-work award and the 5th ceremony's two winner results. Best Director demonstrates reusable native `DIRECTOR` identity, the 1st ceremony's split directing categories, and joint credited winners without duplicate film entries.
+Best Picture, Best Actor, Best Actress, and Best Director winner histories now reuse this model across all 98 ceremonies. Best Actor and Best Actress share one configurable acting-output implementation while preserving their different multi-work and tie ceremonies. Best Director demonstrates reusable native `DIRECTOR` identity, the 1st ceremony's split directing categories, and joint credited winners without duplicate film entries.
 
-Issue #6 verifies that all 164 unique Actor/Director winner identities resolve the existing canonical People manifest directly by TMDB Person ID. Artwork remains an external presentation concern and is validated through `scripts/check_people_artwork_integration.py`; it is not copied into canonical award results. Shared validation protects provenance, declared ceremony coverage, category references, duplicate relationships, cross-file identity consistency, and the pinned People integration contract. Future categories should reuse the same shapes, source workflow, validators, and People identity bridge rather than introducing parallel systems.
+Issue #6 verified that all 164 unique Best Actor/Best Director identities resolve the canonical People manifest directly by TMDB Person ID. Issue #17 extends the same bridge to 81 Best Actress identities, bringing current shared coverage to 245/245 without copying presentation data into canonical results. Shared validation protects provenance, declared ceremony coverage, category references, duplicate relationships, cross-file identity consistency, and the pinned People integration contract. Future categories should reuse the same shapes, source workflow, validators, and People identity bridge rather than introducing parallel systems.

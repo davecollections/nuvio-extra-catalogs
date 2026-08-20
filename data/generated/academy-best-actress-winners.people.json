@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "awardBodyId": "academy-awards",
+  "categoryId": "best-actress",
+  "status": "winner",
+  "description": "Unique Best Actress winner identities derived from canonical ceremony results for Nuvio native PERSON sources.",
+  "people": [
+    {
+      "name": "Anna Magnani",
+      "tmdbPersonId": 4421
+    },
+    {
+      "name": "Anne Bancroft",
+      "tmdbPersonId": 10774
+    },
+    {
+      "name": "Audrey Hepburn",
+      "tmdbPersonId": 1932
+    },
+    {
+      "name": "Barbra Streisand",
+      "tmdbPersonId": 10400
+    },
+    {
+      "name": "Bette Davis",
+      "tmdbPersonId": 3380
+    },
+    {
+      "name": "Brie Larson",
+      "tmdbPersonId": 60073
+    },
+    {
+      "name": "Cate Blanchett",
+      "tmdbPersonId": 112
+    },
+    {
+      "name": "Charlize Theron",
+      "tmdbPersonId": 6885
+    },
+    {
+      "name": "Cher",
+      "tmdbPersonId": 38225
+    },
+    {
+      "name": "Claudette Colbert",
+      "tmdbPersonId": 30155
+    },
+    {
+      "name": "Diane Keaton",
+      "tmdbPersonId": 3092
+    },
+    {
+      "name": "Elizabeth Taylor",
+      "tmdbPersonId": 3635
+    },
+    {
+      "name": "Ellen Burstyn",
+      "tmdbPersonId": 9560
+    },
+    {
+      "name": "Emma Stone",
+      "tmdbPersonId": 54693
+    },
+    {
+      "name": "Emma Thompson",
+      "tmdbPersonId": 7056
+    },
+    {
+      "name": "Faye Dunaway",
+      "tmdbPersonId": 6450
+    },
+    {
+      "name": "Frances McDormand",
+      "tmdbPersonId": 3910
+    },
+    {
+      "name": "Geraldine Page",
+      "tmdbPersonId": 41283
+    },
+    {
+      "name": "Ginger Rogers",
+      "tmdbPersonId": 30003
+    },
+    {
+      "name": "Glenda Jackson",
+      "tmdbPersonId": 115573
+    },
+    {
+      "name": "Grace Kelly",
+      "tmdbPersonId": 4070
+    },
+    {
+      "name": "Greer Garson",
+      "tmdbPersonId": 93805
+    },
+    {
+      "name": "Gwyneth Paltrow",
+      "tmdbPersonId": 12052
+    },
+    {
+      "name": "Halle Berry",
+      "tmdbPersonId": 4587
+    },
+    {
+      "name": "Helen Hayes",
+      "tmdbPersonId": 47439
+    },
+    {
+      "name": "Helen Hunt",
+      "tmdbPersonId": 9994
+    },
+    {
+      "name": "Helen Mirren",
+      "tmdbPersonId": 15735
+    },
+    {
+      "name": "Hilary Swank",
+      "tmdbPersonId": 448
+    },
+    {
+      "name": "Holly Hunter",
+      "tmdbPersonId": 18686
+    },
+    {
+      "name": "Ingrid Bergman",
+      "tmdbPersonId": 4111
+    },
+    {
+      "name": "Jane Fonda",
+      "tmdbPersonId": 6352
+    },
+    {
+      "name": "Jane Wyman",
+      "tmdbPersonId": 20391
+    },
+    {
+      "name": "Janet Gaynor",
+      "tmdbPersonId": 9088
+    },
+    {
+      "name": "Jennifer Jones",
+      "tmdbPersonId": 39554
+    },
+    {
+      "name": "Jennifer Lawrence",
+      "tmdbPersonId": 72129
+    },
+    {
+      "name": "Jessica Chastain",
+      "tmdbPersonId": 83002
+    },
+    {
+      "name": "Jessica Lange",
+      "tmdbPersonId": 4431
+    },
+    {
+      "name": "Jessica Tandy",
+      "tmdbPersonId": 5698
+    },
+    {
+      "name": "Jessie Buckley",
+      "tmdbPersonId": 1498158
+    },
+    {
+      "name": "Joan Crawford",
+      "tmdbPersonId": 31550
+    },
+    {
+      "name": "Joan Fontaine",
+      "tmdbPersonId": 3360
+    },
+    {
+      "name": "Joanne Woodward",
+      "tmdbPersonId": 109410
+    },
+    {
+      "name": "Jodie Foster",
+      "tmdbPersonId": 1038
+    },
+    {
+      "name": "Judy Holliday",
+      "tmdbPersonId": 85651
+    },
+    {
+      "name": "Julia Roberts",
+      "tmdbPersonId": 1204
+    },
+    {
+      "name": "Julianne Moore",
+      "tmdbPersonId": 1231
+    },
+    {
+      "name": "Julie Andrews",
+      "tmdbPersonId": 5823
+    },
+    {
+      "name": "Julie Christie",
+      "tmdbPersonId": 1666
+    },
+    {
+      "name": "Kate Winslet",
+      "tmdbPersonId": 204
+    },
+    {
+      "name": "Katharine Hepburn",
+      "tmdbPersonId": 6598
+    },
+    {
+      "name": "Kathy Bates",
+      "tmdbPersonId": 8534
+    },
+    {
+      "name": "Liza Minnelli",
+      "tmdbPersonId": 66776
+    },
+    {
+      "name": "Loretta Young",
+      "tmdbPersonId": 85848
+    },
+    {
+      "name": "Louise Fletcher",
+      "tmdbPersonId": 7071
+    },
+    {
+      "name": "Luise Rainer",
+      "tmdbPersonId": 125482
+    },
+    {
+      "name": "Maggie Smith",
+      "tmdbPersonId": 10978
+    },
+    {
+      "name": "Marie Dressler",
+      "tmdbPersonId": 89610
+    },
+    {
+      "name": "Marion Cotillard",
+      "tmdbPersonId": 8293
+    },
+    {
+      "name": "Marlee Matlin",
+      "tmdbPersonId": 19797
+    },
+    {
+      "name": "Mary Pickford",
+      "tmdbPersonId": 100047
+    },
+    {
+      "name": "Meryl Streep",
+      "tmdbPersonId": 5064
+    },
+    {
+      "name": "Michelle Yeoh",
+      "tmdbPersonId": 1620
+    },
+    {
+      "name": "Mikey Madison",
+      "tmdbPersonId": 1640439
+    },
+    {
+      "name": "Natalie Portman",
+      "tmdbPersonId": 524
+    },
+    {
+      "name": "Nicole Kidman",
+      "tmdbPersonId": 2227
+    },
+    {
+      "name": "Norma Shearer",
+      "tmdbPersonId": 88867
+    },
+    {
+      "name": "Olivia Colman",
+      "tmdbPersonId": 39187
+    },
+    {
+      "name": "Olivia de Havilland",
+      "tmdbPersonId": 8725
+    },
+    {
+      "name": "Patricia Neal",
+      "tmdbPersonId": 1934
+    },
+    {
+      "name": "Reese Witherspoon",
+      "tmdbPersonId": 368
+    },
+    {
+      "name": "Renée Zellweger",
+      "tmdbPersonId": 9137
+    },
+    {
+      "name": "Sally Field",
+      "tmdbPersonId": 35
+    },
+    {
+      "name": "Sandra Bullock",
+      "tmdbPersonId": 18277
+    },
+    {
+      "name": "Shirley Booth",
+      "tmdbPersonId": 113284
+    },
+    {
+      "name": "Shirley MacLaine",
+      "tmdbPersonId": 4090
+    },
+    {
+      "name": "Simone Signoret",
+      "tmdbPersonId": 12266
+    },
+    {
+      "name": "Sissy Spacek",
+      "tmdbPersonId": 5606
+    },
+    {
+      "name": "Sophia Loren",
+      "tmdbPersonId": 16757
+    },
+    {
+      "name": "Susan Hayward",
+      "tmdbPersonId": 30124
+    },
+    {
+      "name": "Susan Sarandon",
+      "tmdbPersonId": 4038
+    },
+    {
+      "name": "Vivien Leigh",
+      "tmdbPersonId": 10538
+    }
+  ]
+}

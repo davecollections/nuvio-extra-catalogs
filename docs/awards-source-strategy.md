@@ -22,7 +22,7 @@ For the Academy Awards, use this hierarchy:
 | Work/person identity enrichment | [TMDB API](https://developer.themoviedb.org/docs/finding-data) | Supplies TMDB identities and confirms supported external IDs. It does not decide award status. |
 | Nuvio artwork coverage | [`davecollections/nuvio-people-assets`](https://github.com/davecollections/nuvio-people-assets) | Reuses artwork by TMDB Person ID. Artwork availability never changes the canonical award fact. |
 
-The current Academy Best Actor history is reconciled to `DLu/oscar_data` commit `c5e9716b7e020e70205d6b95f5a5678526c1b45f`. A future import must record its own pinned commit in the relevant category history document rather than silently following that repository's moving default branch.
+The current Academy Best Actor and Best Actress histories are reconciled to `DLu/oscar_data` commit `c5e9716b7e020e70205d6b95f5a5678526c1b45f`. A future import must record its own pinned commit in the relevant category history document rather than silently following that repository's moving default branch.
 
 ## Separation of responsibilities
 
@@ -137,7 +137,7 @@ The shared validator checks every award body and ceremony for:
 
 Category-specific generators remain responsible for publication rules that cannot be generic, such as expected winner counts, known ties, multi-work exceptions, required output IDs, stable ordering, Meta Preview shape, and generated-file freshness.
 
-`.github/workflows/validate-awards-data.yml` runs the shared validator and both current generator checks on relevant pull requests and pushes to `main`. It has read-only repository permission and never commits generated data. Contributors must still run the checks locally before pushing.
+`.github/workflows/validate-awards-data.yml` runs the shared validator, all current generator checks, and the pinned People integration check on relevant pull requests and pushes to `main`. It has read-only repository permission and never commits generated data. Contributors must still run the checks locally before pushing.
 
 For the current repository, the complete check sequence is:
 
@@ -145,6 +145,9 @@ For the current repository, the complete check sequence is:
 python scripts/validate_awards_data.py
 python scripts/build_best_picture_catalog.py --check
 python scripts/build_best_actor_outputs.py --check
+python scripts/build_best_actress_outputs.py --check
+python scripts/build_best_director_outputs.py --check
+python scripts/check_people_artwork_integration.py --check
 ```
 
 ## Adding a new ceremony
@@ -190,4 +193,4 @@ The correction log is append-only in meaning: if a prior correction needs amendm
 
 ## Current expansion gate
 
-Best Picture, Best Actor, and Best Director are the reference implementations. Issue #6 adds the cross-repository People integration check so Actor and Director winner outputs reuse the canonical People manifest directly by TMDB Person ID. New person-recipient categories must pass the same identity, membership, artwork, and fallback contract before publication. Other acting categories and award bodies should follow in separate focused issues.
+Best Picture, Best Actor, Best Actress, and Best Director are the reference implementations. Issue #6 established the cross-repository People integration check for Actor and Director outputs; Issue #17 extends the same check to Best Actress and verifies complete current coverage while retaining the earlier gap report as a historical snapshot. New person-recipient categories must pass the same identity, membership, artwork, and fallback review before publication. Supporting acting categories and other award bodies should follow in separate focused issues.

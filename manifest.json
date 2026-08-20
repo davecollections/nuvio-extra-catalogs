@@ -1,6 +1,6 @@
 {
   "id": "com.davecollections.nuvio.extra",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "name": "Nuvio Extra Catalogs",
   "description": "Additional catalog sources for Nuvio, beginning with award collections not exposed by the official TMDB catalog addon.",
   "resources": [
@@ -19,6 +19,11 @@
       "type": "movie",
       "id": "academy-best-actor-winning-films",
       "name": "Academy Awards — Best Actor Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "academy-best-actress-winning-films",
+      "name": "Academy Awards — Best Actress Winning Films"
     },
     {
       "type": "movie",

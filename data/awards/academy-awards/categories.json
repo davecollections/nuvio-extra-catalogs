@@ -29,6 +29,17 @@
       "creditRole": "actor"
     },
     {
+      "id": "best-actress",
+      "name": "Best Actress",
+      "aliases": [
+        "Actress",
+        "Actress in a Leading Role"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
       "id": "best-director",
       "name": "Best Director",
       "aliases": [

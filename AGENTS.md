@@ -6,7 +6,7 @@ This repository provides additional Stremio-compatible catalog sources for Nuvio
 
 ## Current phase
 
-V0.3 is complete and validated from the live GitHub Pages manifest in Nuvio. It includes the shared awards source/verification strategy, the complete Academy Best Director winner history, 99 associated films, joint credited winners, and reusable TMDB Person output for native `DIRECTOR` sources. The exact tested state is preserved on `release/v0.3.0`.
+V0.3 is complete and validated from the live GitHub Pages manifest in Nuvio, and the cross-repository People artwork integration from Issue #6 is complete. V0.4 is the active milestone under Issue #17: the complete Academy Best Actress history and shared acting-output path are implemented, and all 245 current award people resolve canonical artwork by TMDB Person ID. Publish the fourth stable catalogue only after live Nuvio acceptance. The exact V0.3 tested state remains preserved on `release/v0.3.0`.
 
 ## Guardrails
 
@@ -70,4 +70,4 @@ After a pull request is merged:
 
 ## Next milestone
 
-Complete the cross-repository People artwork integration defined by Issue #6 while continuing to reuse native Nuvio person/director sources rather than creating an awards-specific artwork system here.
+Complete Issue #17 and validate V0.4 in Nuvio: `academy-best-actress-winning-films`, reusable native `PERSON` output, the documented historical tie and multi-work cases, and the existing People-artwork fallback/integration contract.

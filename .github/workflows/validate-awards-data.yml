@@ -49,6 +49,9 @@ jobs:
       - name: Check Best Actor generated outputs
         run: python scripts/build_best_actor_outputs.py --check
 
+      - name: Check Best Actress generated outputs
+        run: python scripts/build_best_actress_outputs.py --check
+
       - name: Check Best Director generated outputs
         run: python scripts/build_best_director_outputs.py --check
 
