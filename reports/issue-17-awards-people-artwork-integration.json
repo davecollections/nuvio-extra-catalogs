@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "issue": 17,
+  "identityKey": "tmdbPersonId",
+  "peopleAssets": {
+    "repository": "https://github.com/davecollections/nuvio-people-assets",
+    "commit": "4277be3dcfe3b6806568438ca5408d89ce29f4b2",
+    "pinnedManifestUrl": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/4277be3dcfe3b6806568438ca5408d89ce29f4b2/manifests/people.json",
+    "runtimeManifestUrl": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/manifests/people.json",
+    "manifestSha256": "8ea20357324089f7c6c3004cb9f4c8c191358c36de99a8dc0386ede3efadbf94",
+    "manifestSchemaVersion": 2,
+    "manifestRecordCount": 1507,
+    "manifestAssetCounts": {
+      "poster": 1507,
+      "landscape": 1507,
+      "titleLogo": 1507,
+      "hero": 1507,
+      "focusPoster": 1505,
+      "focusLandscape": 1505
+    }
+  },
+  "builder": {
+    "repository": "https://github.com/davecollections/tmdb-id-lookup",
+    "migrationCommit": "e9eb3b24a93b7e6bbca295a340d035cb018293d9",
+    "verifiedBaselineCommit": "fa79389eda7d5ed59707420a16839055e7555b8c",
+    "resolution": "numeric TMDB Person ID through the canonical People manifest",
+    "constructsLegacyPeopleUrls": false
+  },
+  "combinedCoverage": {
+    "categoryPersonCount": 245,
+    "uniqueAwardsPeopleCount": 245,
+    "resolvedUniqueAwardsPeopleCount": 245,
+    "peopleSharedAcrossAwardCategoriesCount": 0,
+    "complete": true
+  },
+  "categoryCoverage": [
+    {
+      "categoryId": "best-actor",
+      "sourceType": "PERSON",
+      "requiredMembership": "actor",
+      "peopleOutput": "data/generated/academy-best-actor-winners.people.json",
+      "uniquePeopleCount": 87,
+      "resolvedPeopleCount": 87,
+      "correctMembershipCount": 87,
+      "completeCoreArtworkCount": 87,
+      "completeFocusPairCount": 87,
+      "missingPeople": [],
+      "membershipMismatches": [],
+      "incompleteCoreArtwork": [],
+      "missingFocusPairs": [],
+      "canonicalNameDifferences": []
+    },
+    {
+      "categoryId": "best-actress",
+      "sourceType": "PERSON",
+      "requiredMembership": "actor",
+      "peopleOutput": "data/generated/academy-best-actress-winners.people.json",
+      "uniquePeopleCount": 81,
+      "resolvedPeopleCount": 81,
+      "correctMembershipCount": 81,
+      "completeCoreArtworkCount": 81,
+      "completeFocusPairCount": 81,
+      "missingPeople": [],
+      "membershipMismatches": [],
+      "incompleteCoreArtwork": [],
+      "missingFocusPairs": [],
+      "canonicalNameDifferences": []
+    },
+    {
+      "categoryId": "best-director",
+      "sourceType": "DIRECTOR",
+      "requiredMembership": "director",
+      "peopleOutput": "data/generated/academy-best-director-winners.people.json",
+      "uniquePeopleCount": 77,
+      "resolvedPeopleCount": 77,
+      "correctMembershipCount": 77,
+      "completeCoreArtworkCount": 77,
+      "completeFocusPairCount": 77,
+      "missingPeople": [],
+      "membershipMismatches": [],
+      "incompleteCoreArtwork": [],
+      "missingFocusPairs": [],
+      "canonicalNameDifferences": []
+    }
+  ],
+  "sampleResolutions": [
+    {
+      "categoryId": "best-actor",
+      "sourceType": "PERSON",
+      "awardsName": "Rami Malek",
+      "tmdbPersonId": 17838,
+      "canonicalName": "Rami Malek",
+      "categoryMembership": [
+        "actor"
+      ],
+      "assets": {
+        "poster": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/17838/poster.webp",
+          "sha256": "e8846373d637e219339cbdd0d525868c3a63ce3f8732e35aba84bab3f2720f10"
+        },
+        "landscape": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/17838/landscape.webp",
+          "sha256": "1efb1116180262f03032eb75ce962f7e05de66c653edf80e9f813e57a4226337"
+        },
+        "titleLogo": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/17838/title-logo.png",
+          "sha256": "7fe5ecb093ade0912f81399430cfc7037c9ac857a7f02b78a0e0feb71b343d4a"
+        },
+        "hero": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/17838/hero.webp",
+          "sha256": "a50daaca53f7d6434e92c945c1e06c1917b80bf1ab73a8fff635a4a7a120d58a"
+        },
+        "focusPoster": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/17838/focus-poster.webp",
+          "sha256": "cf4b340c494fad06ee1eef33089a80037caae2b2f9595d993384ba9dae1c3dfe"
+        },
+        "focusLandscape": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/17838/focus-landscape.webp",
+          "sha256": "5db58d95b4bd7930abc1708b5261dbb06c7cf9bd2fcb95fb9840251c670c53eb"
+        }
+      }
+    },
+    {
+      "categoryId": "best-actress",
+      "sourceType": "PERSON",
+      "awardsName": "Mikey Madison",
+      "tmdbPersonId": 1640439,
+      "canonicalName": "Mikey Madison",
+      "categoryMembership": [
+        "actor"
+      ],
+      "assets": {
+        "poster": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/1640439/poster.webp",
+          "sha256": "676fc74c2d25d4ee2aa343937d033df6b26e46c55d3d8787a7d9d9bf63e436de"
+        },
+        "landscape": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/1640439/landscape.webp",
+          "sha256": "0660e871562e7a290a0617fd8b693186049d05eb4778f588430fecf1367cbb5e"
+        },
+        "titleLogo": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/1640439/title-logo.png",
+          "sha256": "5dde7d92359bfed4d6cdfcd9e63de3ebd98585634f3e9a6cb53edf61f60f8bd3"
+        },
+        "hero": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/1640439/hero.webp",
+          "sha256": "4fd0a51f2229cdad24cbb9be8fd916ff82ce2f4d25816db029b269bfe15188f0"
+        },
+        "focusPoster": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/1640439/focus-poster.webp",
+          "sha256": "66c9d209e63477d7ad79c2923d2f120b7cfbbe722946c1c908be829696bc644a"
+        },
+        "focusLandscape": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/1640439/focus-landscape.webp",
+          "sha256": "124659bbf8f564bd2dc2d5ad7339dcea3b345dc9d3306b92a7ac290124b79bf7"
+        }
+      }
+    },
+    {
+      "categoryId": "best-director",
+      "sourceType": "DIRECTOR",
+      "awardsName": "Kevin Costner",
+      "tmdbPersonId": 1269,
+      "canonicalName": "Kevin Costner",
+      "categoryMembership": [
+        "actor",
+        "director"
+      ],
+      "assets": {
+        "poster": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/1269/poster.webp",
+          "sha256": "478dbb2dd872c5a758f92474c32b0cf25ceda189461ab4b2e22c9cc2bebf9778"
+        },
+        "landscape": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/1269/landscape.webp",
+          "sha256": "8c84e13a75e8f6318c6320eba4f0f1ca1d2381a74f149e7e6b16dfc3c8c88d55"
+        },
+        "titleLogo": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/1269/title-logo.png",
+          "sha256": "b009d7969529989bd5ff61ded0899b5e39cd6728b765ac2f1056093c140b9cc5"
+        },
+        "hero": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/1269/hero.webp",
+          "sha256": "5294bc45c733f96ea02eac3399e744b427913763dac6b7f381247ddc3508bb46"
+        },
+        "focusPoster": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/1269/focus-poster.webp",
+          "sha256": "2b9a9ffc51012243026ee9f140448570fdf255020b2ddf7a3f0e682dd1612e44"
+        },
+        "focusLandscape": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/1269/focus-landscape.webp",
+          "sha256": "bac16768e48b0a6ce22a3090244caf96b2d8317096d9447cf9987aa0cfe21439"
+        }
+      }
+    }
+  ],
+  "fallback": {
+    "whenManifestRecordMissing": "Preserve the TMDB Person identity and use the Builder's TMDB profile artwork fallback, then the person emoji when no profile is available.",
+    "legacyPeopleUrlFallback": false,
+    "canonicalAwardResultDependsOnArtwork": false
+  }
+}

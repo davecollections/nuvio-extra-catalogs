@@ -1,0 +1,24 @@
+{
+  "categoryId": "best-actress",
+  "checkedAt": "2026-08-20",
+  "peopleAssetsRepository": "https://github.com/davecollections/nuvio-people-assets",
+  "peopleAssetsCommit": "ab0db998de43b9bee3c7e299a0ac8df19e8c9757",
+  "uniqueWinnerCount": 81,
+  "resolvedArtworkCount": 79,
+  "missingArtworkCount": 2,
+  "missingArtwork": [
+    {
+      "name": "Luise Rainer",
+      "tmdbPersonId": 125482
+    },
+    {
+      "name": "Mikey Madison",
+      "tmdbPersonId": 1640439
+    }
+  ],
+  "fallback": {
+    "preserveTmdbPersonId": true,
+    "canonicalAwardResultDependsOnArtwork": false,
+    "behavior": "Use the Builder's TMDB profile artwork fallback, then the person emoji when no profile is available."
+  }
+}

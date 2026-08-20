@@ -8,21 +8,41 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 - Deterministic Issue #6 integration validation against an immutable `nuvio-people-assets` manifest, including exact manifest hashing, identity and membership checks, required and optional artwork coverage, sample Actor/Director resolutions, and fallback documentation.
 - Machine-readable cross-repository coverage evidence for all 164 unique Academy Best Actor and Best Director winners.
+- Complete Academy Awards Best Actress winner history from the 1st through 98th ceremonies: 99 winner results, 101 associated films, and 81 unique TMDB Person identities.
+- `academy-best-actress-winning-films` catalogue and reusable native `PERSON` output, with deterministic checks for Janet Gaynor's three-film 1st-ceremony award and the 41st-ceremony tie.
+- Shared configurable acting-category generator reused by Best Actor and Best Actress without changing the released Best Actor outputs.
+- Reproducible Issue #17 People artwork gap snapshot and final shared integration evidence against pinned canonical manifests.
 
 ### Changed
 
 - Best Actor artwork coverage advances from 84/87 to 87/87 and Best Director advances from 62/77 to 77/77 against the pinned canonical People manifest.
+- Best Actress artwork coverage advances from 79/81 to 81/81 after Luise Rainer and Mikey Madison were added to the canonical People manifest.
 - Awards documentation now records the merged Builder's manifest-based People resolution and treats the older category gap reports as historical snapshots.
+- Manifest version advances to `0.4.0`, declares the stable Best Actress catalogue ID, and exposes the fourth Academy Awards catalogue on the landing page.
+- Shared awards validation now covers four categories and CI checks the Best Actress generated outputs and artwork report.
 
 ### Validated through the production integration
 
 - The deployed Builder references the canonical People manifest and resolves the live Rami Malek Actor and Kevin Costner dual-role samples to their exact `nuvio-people-assets` poster URLs.
 - The live People manifest and all eight core sample asset URLs returned HTTP 200 with the expected content types.
+- All 12 newly published Luise Rainer and Mikey Madison asset URLs returned HTTP 200 and matched the byte counts and SHA-256 values in the pinned People manifest.
 - The deployed Builder created the two-folder Actor Movie Credits / Director Directed Movies sample with no legacy People artwork convention.
+
+### Validated locally for V0.4
+
+- Local shared and category-specific validation passes with 395 canonical results, 398 work links, and 300 person links; Best Actress output checks pass at 101 films and 81 unique winners.
+- All 83 newly introduced Best Actress film identities were confirmed through the production Builder/TMDB path against their exact IMDb IDs.
+- The commit-pinned People integration check resolves all 245 unique Best Actor, Best Actress, and Best Director identities with complete required artwork; all 81 Best Actress winners also have the optional focus pair.
+
+### Pending V0.4 live validation
+
+- Load the commit-pinned `0.4.0` preview manifest in Nuvio and verify all four catalogues.
+- Confirm Best Actress Winning Films renders 101 associated films, including the 41st-ceremony tie and the 1st-ceremony three-film tail.
+- Confirm the catalogue resolves metadata and works as a Folder/Collection source before preserving `release/v0.4.0`.
 
 ### Deferred
 
-- A current-client static-focus WebP and Builder-to-Nuvio round trip remains deferred because the deployed V2 workspace does not yet expose Copy, Download, or Send. This repository changes no live catalogue or add-on manifest.
+- A current-client static-focus WebP and Builder-to-Nuvio round trip remains deferred because the deployed V2 workspace does not yet expose Copy, Download, or Send.
 
 ## [0.3.0] - 2026-08-16
 
