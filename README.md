@@ -119,6 +119,14 @@ python scripts/build_best_director_outputs.py --check
 
 See `docs/best-director-history.md` for source snapshots, joint-winner handling, historical category names, and artwork coverage.
 
+Best Actor and Best Director people reuse the canonical `nuvio-people-assets` manifest directly by TMDB Person ID. Validate the pinned cross-repository identity, membership, artwork, and fallback contract with:
+
+```bash
+python scripts/check_people_artwork_integration.py --check
+```
+
+The default check uses the immutable production GitHub raw URL pinned for Issue #6. See `docs/people-artwork-integration.md` for the resolution contract, current 164/164 coverage, historical gap-report status, and live Nuvio acceptance procedure.
+
 ## GitHub Pages URLs
 
 Landing page:
@@ -149,4 +157,4 @@ The GitHub Pages landing page links to guided GitHub Issue forms for bug reports
 
 This repository remains a **companion** to Nuvio's official TMDB catalogue add-on rather than duplicating it.
 
-People artwork integration in Issue #6 is the next cross-repository step. Remaining acting categories, other Academy categories, and additional award bodies should follow the same source and validation strategy in separate focused issues.
+Issue #6 reuses the canonical People artwork manifest without adding an awards-specific artwork layer or changing this add-on's catalog-only architecture. Remaining acting categories, other Academy categories, and additional award bodies should follow the same source, validation, and TMDB Person identity strategy in separate focused issues.

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "issue": 6,
+  "identityKey": "tmdbPersonId",
+  "peopleAssets": {
+    "repository": "https://github.com/davecollections/nuvio-people-assets",
+    "commit": "ab0db998de43b9bee3c7e299a0ac8df19e8c9757",
+    "pinnedManifestUrl": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/ab0db998de43b9bee3c7e299a0ac8df19e8c9757/manifests/people.json",
+    "runtimeManifestUrl": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/manifests/people.json",
+    "manifestSha256": "0e6064180d9af601666ed0f1df14f4c44a9d7ac8f75b35729f46f93786c5c47d",
+    "manifestSchemaVersion": 2,
+    "manifestRecordCount": 1505,
+    "manifestAssetCounts": {
+      "poster": 1505,
+      "landscape": 1505,
+      "titleLogo": 1505,
+      "hero": 1505,
+      "focusPoster": 1503,
+      "focusLandscape": 1503
+    }
+  },
+  "builder": {
+    "repository": "https://github.com/davecollections/tmdb-id-lookup",
+    "migrationCommit": "e9eb3b24a93b7e6bbca295a340d035cb018293d9",
+    "verifiedBaselineCommit": "fa79389eda7d5ed59707420a16839055e7555b8c",
+    "resolution": "numeric TMDB Person ID through the canonical People manifest",
+    "constructsLegacyPeopleUrls": false
+  },
+  "combinedCoverage": {
+    "categoryPersonCount": 164,
+    "uniqueAwardsPeopleCount": 164,
+    "resolvedUniqueAwardsPeopleCount": 164,
+    "peopleSharedAcrossAwardCategoriesCount": 0,
+    "complete": true
+  },
+  "categoryCoverage": [
+    {
+      "categoryId": "best-actor",
+      "sourceType": "PERSON",
+      "requiredMembership": "actor",
+      "peopleOutput": "data/generated/academy-best-actor-winners.people.json",
+      "uniquePeopleCount": 87,
+      "resolvedPeopleCount": 87,
+      "correctMembershipCount": 87,
+      "completeCoreArtworkCount": 87,
+      "completeFocusPairCount": 87,
+      "missingPeople": [],
+      "membershipMismatches": [],
+      "incompleteCoreArtwork": [],
+      "missingFocusPairs": [],
+      "canonicalNameDifferences": []
+    },
+    {
+      "categoryId": "best-director",
+      "sourceType": "DIRECTOR",
+      "requiredMembership": "director",
+      "peopleOutput": "data/generated/academy-best-director-winners.people.json",
+      "uniquePeopleCount": 77,
+      "resolvedPeopleCount": 77,
+      "correctMembershipCount": 77,
+      "completeCoreArtworkCount": 77,
+      "completeFocusPairCount": 77,
+      "missingPeople": [],
+      "membershipMismatches": [],
+      "incompleteCoreArtwork": [],
+      "missingFocusPairs": [],
+      "canonicalNameDifferences": []
+    }
+  ],
+  "sampleResolutions": [
+    {
+      "categoryId": "best-actor",
+      "sourceType": "PERSON",
+      "awardsName": "Rami Malek",
+      "tmdbPersonId": 17838,
+      "canonicalName": "Rami Malek",
+      "categoryMembership": [
+        "actor"
+      ],
+      "assets": {
+        "poster": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/17838/poster.webp",
+          "sha256": "e8846373d637e219339cbdd0d525868c3a63ce3f8732e35aba84bab3f2720f10"
+        },
+        "landscape": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/17838/landscape.webp",
+          "sha256": "1efb1116180262f03032eb75ce962f7e05de66c653edf80e9f813e57a4226337"
+        },
+        "titleLogo": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/17838/title-logo.png",
+          "sha256": "7fe5ecb093ade0912f81399430cfc7037c9ac857a7f02b78a0e0feb71b343d4a"
+        },
+        "hero": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/17838/hero.webp",
+          "sha256": "a50daaca53f7d6434e92c945c1e06c1917b80bf1ab73a8fff635a4a7a120d58a"
+        },
+        "focusPoster": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/17838/focus-poster.webp",
+          "sha256": "cf4b340c494fad06ee1eef33089a80037caae2b2f9595d993384ba9dae1c3dfe"
+        },
+        "focusLandscape": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/17838/focus-landscape.webp",
+          "sha256": "5db58d95b4bd7930abc1708b5261dbb06c7cf9bd2fcb95fb9840251c670c53eb"
+        }
+      }
+    },
+    {
+      "categoryId": "best-director",
+      "sourceType": "DIRECTOR",
+      "awardsName": "Kevin Costner",
+      "tmdbPersonId": 1269,
+      "canonicalName": "Kevin Costner",
+      "categoryMembership": [
+        "actor",
+        "director"
+      ],
+      "assets": {
+        "poster": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/1269/poster.webp",
+          "sha256": "478dbb2dd872c5a758f92474c32b0cf25ceda189461ab4b2e22c9cc2bebf9778"
+        },
+        "landscape": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/1269/landscape.webp",
+          "sha256": "8c84e13a75e8f6318c6320eba4f0f1ca1d2381a74f149e7e6b16dfc3c8c88d55"
+        },
+        "titleLogo": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/1269/title-logo.png",
+          "sha256": "b009d7969529989bd5ff61ded0899b5e39cd6728b765ac2f1056093c140b9cc5"
+        },
+        "hero": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/1269/hero.webp",
+          "sha256": "5294bc45c733f96ea02eac3399e744b427913763dac6b7f381247ddc3508bb46"
+        },
+        "focusPoster": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/1269/focus-poster.webp",
+          "sha256": "2b9a9ffc51012243026ee9f140448570fdf255020b2ddf7a3f0e682dd1612e44"
+        },
+        "focusLandscape": {
+          "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/main/assets/people/1269/focus-landscape.webp",
+          "sha256": "bac16768e48b0a6ce22a3090244caf96b2d8317096d9447cf9987aa0cfe21439"
+        }
+      }
+    }
+  ],
+  "fallback": {
+    "whenManifestRecordMissing": "Preserve the TMDB Person identity and use the Builder's TMDB profile artwork fallback, then the person emoji when no profile is available.",
+    "legacyPeopleUrlFallback": false,
+    "canonicalAwardResultDependsOnArtwork": false
+  }
+}

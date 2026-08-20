@@ -190,4 +190,4 @@ The correction log is append-only in meaning: if a prior correction needs amendm
 
 ## Current expansion gate
 
-Best Picture and Best Actor are the reference implementations. After this strategy is merged, Issue #5 (Best Director) is the next suitable model expansion because it exercises native `DIRECTOR` identity reuse and joint/multiple credited directors. Other acting categories and award bodies should follow in separate focused issues.
+Best Picture, Best Actor, and Best Director are the reference implementations. Issue #6 adds the cross-repository People integration check so Actor and Director winner outputs reuse the canonical People manifest directly by TMDB Person ID. New person-recipient categories must pass the same identity, membership, artwork, and fallback contract before publication. Other acting categories and award bodies should follow in separate focused issues.
