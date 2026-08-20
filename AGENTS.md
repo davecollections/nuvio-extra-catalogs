@@ -6,7 +6,7 @@ This repository provides additional Stremio-compatible catalog sources for Nuvio
 
 ## Current phase
 
-V0.3 is complete and validated from the live GitHub Pages manifest in Nuvio, and the cross-repository People artwork integration from Issue #6 is complete. V0.4 is the active milestone under Issue #17: the complete Academy Best Actress history and shared acting-output path are implemented, and all 245 current award people resolve canonical artwork by TMDB Person ID. Publish the fourth stable catalogue only after live Nuvio acceptance. The exact V0.3 tested state remains preserved on `release/v0.3.0`.
+V0.4 is complete. Its commit-pinned preview passed Nuvio acceptance, the deployed GitHub Pages manifest and all four catalogues byte-match the accepted merge commit, and the exact tested state is preserved on `release/v0.4.0`. V0.4 includes the complete Academy Best Actress winner history, the shared acting-output path, and canonical People artwork resolution for all 245 current award people. The previous V0.3 rollback point remains preserved on `release/v0.3.0`.
 
 ## Guardrails
 
@@ -54,13 +54,16 @@ After a pull request is merged:
 - Update `CHANGELOG.md` when the merge completes a notable milestone or changes released behaviour.
 - Create or preserve an appropriate version/tag/release point when the merged work represents a meaningful known-good release.
 
-## Validated behaviour through V0.3
+## Validated behaviour through V0.4
 
-- Manifest installs and validates in Nuvio from GitHub Pages.
+- Manifest version `0.4.0` installs and validates in Nuvio; the deployed GitHub Pages payload byte-matches the accepted preview.
 - Best Picture catalogue loads on the Nuvio home screen.
 - Best Actor Winning Films loads alongside Best Picture with 100 associated films.
+- Best Actress Winning Films loads with 101 associated films in newest-ceremony-first order.
+- The 41st ceremony's Best Actress tie renders both films, and the 1st ceremony's single award renders all three credited films.
 - Best Director Winning Films loads with 99 associated films in newest-ceremony-first order.
 - The 1st ceremony's separate Comedy and Dramatic directing winners both render, while joint-director winning films remain single catalogue entries.
+- All 245 unique Best Actor, Best Actress, and Best Director identities resolve the canonical People manifest by TMDB Person ID with complete required artwork.
 - Refresh Add-on applies the deployed manifest update without requiring reinstallation.
 - The catalogue appears in Nuvio's Add Catalog selector.
 - The catalogue can be added to a Folder and that Folder can be used in a Collection.
@@ -70,4 +73,4 @@ After a pull request is merged:
 
 ## Next milestone
 
-Complete Issue #17 and validate V0.4 in Nuvio: `academy-best-actress-winning-films`, reusable native `PERSON` output, the documented historical tie and multi-work cases, and the existing People-artwork fallback/integration contract.
+Select and open a focused GitHub Issue for the next awards-category expansion before implementation. Continue to reuse the canonical awards model, shared generators, native Nuvio person/director sources, and the existing People-artwork integration contract.
