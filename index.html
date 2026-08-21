@@ -32,7 +32,7 @@
 
     button,a { font:inherit; }
     a { color:inherit; }
-    button:focus-visible,a:focus-visible { outline:3px solid var(--cyan-bright); outline-offset:3px; }
+    button:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--cyan-bright); outline-offset:3px; }
 
     .site-shell {
       display:grid; width:min(100%,1120px); min-height:100vh; align-content:center;
@@ -108,17 +108,39 @@
     .placeholder-action:hover { filter:none; }
     .copy-status { min-height:.9em; margin:6px 0 0; color:var(--green); font-size:.67rem; font-weight:760; }
 
-    .catalog-entry {
-      display:grid; grid-template-columns:auto minmax(0,1fr); align-items:center; gap:11px;
-      margin-top:11px; padding:11px; background:rgb(5 17 25 / 68%); border:1px solid var(--border); border-radius:10px;
+    .catalog-disclosure { margin-top:2px; }
+    .catalog-summary {
+      display:grid; grid-template-columns:auto minmax(0,1fr) auto auto; align-items:center; gap:11px;
+      padding:11px; list-style:none; cursor:pointer;
+      background:rgb(5 17 25 / 68%); border:1px solid var(--border); border-radius:10px;
     }
-    .catalog-mark {
-      display:grid; width:44px; height:44px; place-items:center; color:#031119;
-      font-size:1.08rem; font-weight:950; background:linear-gradient(145deg,var(--cyan-bright),var(--green)); border-radius:10px;
+    .catalog-summary::-webkit-details-marker { display:none; }
+    .catalog-summary:hover { border-color:var(--border-strong); }
+    .catalog-summary::after {
+      width:8px; height:8px; content:""; border-right:2px solid var(--cyan-bright); border-bottom:2px solid var(--cyan-bright);
+      transform:rotate(45deg) translate(-2px,2px); transition:transform 160ms ease;
     }
-    .catalog-entry strong,.catalog-entry span { display:block; }
-    .catalog-entry strong { margin-bottom:3px; font-size:.85rem; }
-    .catalog-entry span { color:var(--muted); font-size:.69rem; line-height:1.42; }
+    .catalog-disclosure[open] .catalog-summary { border-color:var(--border-strong); }
+    .catalog-disclosure[open] .catalog-summary::after { transform:rotate(225deg) translate(-2px,2px); }
+    .catalog-summary-mark {
+      display:grid; width:40px; height:40px; place-items:center; color:#031119;
+      font-size:1rem; font-weight:950; background:linear-gradient(145deg,var(--cyan-bright),var(--green)); border-radius:9px;
+    }
+    .catalog-summary-copy,.catalog-summary-title,.catalog-summary-meta { display:block; }
+    .catalog-summary-title { font-size:.94rem; font-weight:850; letter-spacing:-.015em; }
+    .catalog-summary-meta { margin-top:2px; color:var(--muted); font-size:.67rem; line-height:1.35; }
+    .catalog-count {
+      padding:5px 8px; color:var(--green); font-size:.64rem; font-weight:800; white-space:nowrap;
+      background:rgb(99 230 190 / 8%); border:1px solid rgb(99 230 190 / 22%); border-radius:999px;
+    }
+    .catalog-intro { margin:10px 1px 0; color:var(--muted); font-size:.72rem; line-height:1.42; }
+    .catalog-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:7px; margin-top:9px; }
+    .catalog-item {
+      min-width:0; padding:8px 9px; background:rgb(5 17 25 / 54%); border:1px solid var(--border); border-radius:8px;
+    }
+    .catalog-item strong,.catalog-item span { display:block; }
+    .catalog-item strong { font-size:.72rem; line-height:1.35; }
+    .catalog-item span { margin-top:2px; color:var(--quiet); font-size:.62rem; line-height:1.35; }
 
     .dependency-badge {
       justify-self:start; padding:7px 9px; color:var(--amber); font-size:.67rem; font-weight:800;
@@ -144,6 +166,9 @@
       .brand-mark { width:50px; height:50px; }
       h1 { font-size:2.08rem; }
       .action-row,.primary-action,.secondary-action { width:100%; }
+      .catalog-summary { grid-template-columns:auto minmax(0,1fr) auto; }
+      .catalog-count { display:none; }
+      .catalog-list { grid-template-columns:minmax(0,1fr); }
       .site-footer { grid-template-columns:minmax(0,1fr); }
     }
   </style>
@@ -166,7 +191,7 @@
       </div>
       <p class="hero-copy">A lightweight, Stremio-compatible companion add-on for useful catalog sources that are not currently exposed by Nuvio's standard TMDB catalog experience. The first focus is awards data.</p>
       <div class="status-row" aria-label="Project status">
-        <span class="status-chip">v0.3 Academy Awards expansion</span>
+        <span class="status-chip">v0.5 Academy Awards expansion</span>
         <span class="status-chip">Catalog-only architecture</span>
         <span class="status-chip">Hosted on GitHub Pages</span>
       </div>
@@ -191,50 +216,25 @@
 
       <section class="panel card" aria-labelledby="catalog-title">
         <p class="kicker">Available now</p>
-        <h2 id="catalog-title">Academy Awards</h2>
-        <p class="section-copy">Awards-based catalogs work alongside Nuvio's existing metadata providers and Collection Builder flow.</p>
-        <div class="catalog-entry">
-          <div class="catalog-mark" aria-hidden="true">A</div>
-          <div>
-            <strong>Best Picture Winners</strong>
-            <span>Complete winner history · 1929–2026</span>
+        <details class="catalog-disclosure">
+          <summary class="catalog-summary">
+            <span class="catalog-summary-mark" aria-hidden="true">A</span>
+            <span class="catalog-summary-copy">
+              <span class="catalog-summary-title" id="catalog-title" role="heading" aria-level="2">Academy Awards</span>
+              <span class="catalog-summary-meta">Winner histories through 2026</span>
+            </span>
+            <span class="catalog-count">6 catalogues</span>
+          </summary>
+          <p class="catalog-intro">Works alongside Nuvio's existing metadata providers and Collection Builder flow.</p>
+          <div class="catalog-list" aria-label="Academy Awards catalogues">
+            <div class="catalog-item"><strong>Best Picture Winners</strong><span>1929–2026</span></div>
+            <div class="catalog-item"><strong>Best Actor Winning Films</strong><span>1929–2026</span></div>
+            <div class="catalog-item"><strong>Best Actress Winning Films</strong><span>1929–2026</span></div>
+            <div class="catalog-item"><strong>Best Supporting Actor Winning Films</strong><span>1937–2026</span></div>
+            <div class="catalog-item"><strong>Best Supporting Actress Winning Films</strong><span>1937–2026</span></div>
+            <div class="catalog-item"><strong>Best Director Winning Films</strong><span>1929–2026</span></div>
           </div>
-        </div>
-        <div class="catalog-entry">
-          <div class="catalog-mark" aria-hidden="true">A</div>
-          <div>
-            <strong>Best Actor Winning Films</strong>
-            <span>Complete winner history · 1929–2026 · person identities preserved</span>
-          </div>
-        </div>
-        <div class="catalog-entry">
-          <div class="catalog-mark" aria-hidden="true">A</div>
-          <div>
-            <strong>Best Actress Winning Films</strong>
-            <span>Complete winner history · 1929–2026 · person identities preserved</span>
-          </div>
-        </div>
-        <div class="catalog-entry">
-          <div class="catalog-mark" aria-hidden="true">A</div>
-          <div>
-            <strong>Best Supporting Actor Winning Films</strong>
-            <span>Complete category history · 1937–2026 · person identities preserved</span>
-          </div>
-        </div>
-        <div class="catalog-entry">
-          <div class="catalog-mark" aria-hidden="true">A</div>
-          <div>
-            <strong>Best Supporting Actress Winning Films</strong>
-            <span>Complete category history · 1937–2026 · person identities preserved</span>
-          </div>
-        </div>
-        <div class="catalog-entry">
-          <div class="catalog-mark" aria-hidden="true">A</div>
-          <div>
-            <strong>Best Director Winning Films</strong>
-            <span>Complete winner history · 1929–2026 · joint directors preserved</span>
-          </div>
-        </div>
+        </details>
       </section>
     </div>
 
