@@ -119,6 +119,20 @@ Example:
       "creditRole": "actor"
     },
     {
+      "id": "best-supporting-actor",
+      "name": "Best Supporting Actor",
+      "mediaType": "movie",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
+      "id": "best-supporting-actress",
+      "name": "Best Supporting Actress",
+      "mediaType": "movie",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
       "id": "best-director",
       "name": "Best Director",
       "mediaType": "movie",
@@ -411,6 +425,6 @@ This separation allows authoritative award facts to be recorded even when an ide
 
 ## Implementation status
 
-Best Picture, Best Actor, Best Actress, and Best Director winner histories now reuse this model across all 98 ceremonies. Best Actor and Best Actress share one configurable acting-output implementation while preserving their different multi-work and tie ceremonies. Best Director demonstrates reusable native `DIRECTOR` identity, the 1st ceremony's split directing categories, and joint credited winners without duplicate film entries.
+Best Picture, all four leading/supporting acting categories, and Best Director now reuse this model across the canonical ceremony set. The shared acting-output implementation supports category-specific first ceremonies, multi-work awards, and ties without weakening per-category count checks. Best Director demonstrates reusable native `DIRECTOR` identity, the 1st ceremony's split directing categories, and joint credited winners without duplicate film entries.
 
-Issue #6 verified that all 164 unique Best Actor/Best Director identities resolve the canonical People manifest directly by TMDB Person ID. Issue #17 extends the same bridge to 81 Best Actress identities, bringing current shared coverage to 245/245 without copying presentation data into canonical results. Shared validation protects provenance, declared ceremony coverage, category references, duplicate relationships, cross-file identity consistency, and the pinned People integration contract. Future categories should reuse the same shapes, source workflow, validators, and People identity bridge rather than introducing parallel systems.
+Issue #20 extends the People bridge to both supporting categories. The five current person/director outputs contain 414 category-person relationships and 400 unique TMDB identities; all 400 resolve the pinned People manifest after the 25-person supporting-acting handoff was published. Shared validation protects provenance, declared ceremony coverage, category references, duplicate relationships, cross-file identity consistency, and the pinned People integration contract. Future categories should reuse the same shapes, source workflow, validators, and People identity bridge rather than introducing parallel systems.

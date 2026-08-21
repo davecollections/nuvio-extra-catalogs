@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "awardBodyId": "academy-awards",
+  "categoryId": "best-supporting-actor",
+  "status": "winner",
+  "description": "Unique Best Supporting Actor winner identities derived from canonical ceremony results for Nuvio native PERSON sources.",
+  "people": [
+    {
+      "name": "Alan Arkin",
+      "tmdbPersonId": 1903
+    },
+    {
+      "name": "Anthony Quinn",
+      "tmdbPersonId": 5401
+    },
+    {
+      "name": "Barry Fitzgerald",
+      "tmdbPersonId": 13820
+    },
+    {
+      "name": "Ben Johnson",
+      "tmdbPersonId": 8258
+    },
+    {
+      "name": "Benicio Del Toro",
+      "tmdbPersonId": 1121
+    },
+    {
+      "name": "Brad Pitt",
+      "tmdbPersonId": 287
+    },
+    {
+      "name": "Burl Ives",
+      "tmdbPersonId": 2753
+    },
+    {
+      "name": "Charles Coburn",
+      "tmdbPersonId": 11169
+    },
+    {
+      "name": "Chris Cooper",
+      "tmdbPersonId": 2955
+    },
+    {
+      "name": "Christian Bale",
+      "tmdbPersonId": 3894
+    },
+    {
+      "name": "Christoph Waltz",
+      "tmdbPersonId": 27319
+    },
+    {
+      "name": "Christopher Plummer",
+      "tmdbPersonId": 290
+    },
+    {
+      "name": "Christopher Walken",
+      "tmdbPersonId": 4690
+    },
+    {
+      "name": "Cuba Gooding Jr.",
+      "tmdbPersonId": 9777
+    },
+    {
+      "name": "Daniel Kaluuya",
+      "tmdbPersonId": 206919
+    },
+    {
+      "name": "Dean Jagger",
+      "tmdbPersonId": 29313
+    },
+    {
+      "name": "Denzel Washington",
+      "tmdbPersonId": 5292
+    },
+    {
+      "name": "Don Ameche",
+      "tmdbPersonId": 18156
+    },
+    {
+      "name": "Donald Crisp",
+      "tmdbPersonId": 8841
+    },
+    {
+      "name": "Ed Begley",
+      "tmdbPersonId": 39816
+    },
+    {
+      "name": "Edmond O'Brien",
+      "tmdbPersonId": 8254
+    },
+    {
+      "name": "Edmund Gwenn",
+      "tmdbPersonId": 22600
+    },
+    {
+      "name": "Frank Sinatra",
+      "tmdbPersonId": 4347
+    },
+    {
+      "name": "Gene Hackman",
+      "tmdbPersonId": 193
+    },
+    {
+      "name": "George Burns",
+      "tmdbPersonId": 80625
+    },
+    {
+      "name": "George Chakiris",
+      "tmdbPersonId": 24880
+    },
+    {
+      "name": "George Clooney",
+      "tmdbPersonId": 1461
+    },
+    {
+      "name": "George Kennedy",
+      "tmdbPersonId": 12950
+    },
+    {
+      "name": "George Sanders",
+      "tmdbPersonId": 3361
+    },
+    {
+      "name": "Gig Young",
+      "tmdbPersonId": 70985
+    },
+    {
+      "name": "Haing S. Ngor",
+      "tmdbPersonId": 8976
+    },
+    {
+      "name": "Harold Russell",
+      "tmdbPersonId": 13580
+    },
+    {
+      "name": "Heath Ledger",
+      "tmdbPersonId": 1810
+    },
+    {
+      "name": "Hugh Griffith",
+      "tmdbPersonId": 10021
+    },
+    {
+      "name": "J.K. Simmons",
+      "tmdbPersonId": 18999
+    },
+    {
+      "name": "Jack Albertson",
+      "tmdbPersonId": 3461
+    },
+    {
+      "name": "Jack Lemmon",
+      "tmdbPersonId": 3151
+    },
+    {
+      "name": "Jack Nicholson",
+      "tmdbPersonId": 514
+    },
+    {
+      "name": "Jack Palance",
+      "tmdbPersonId": 3785
+    },
+    {
+      "name": "James Coburn",
+      "tmdbPersonId": 5563
+    },
+    {
+      "name": "James Dunn",
+      "tmdbPersonId": 131618
+    },
+    {
+      "name": "Jared Leto",
+      "tmdbPersonId": 7499
+    },
+    {
+      "name": "Jason Robards",
+      "tmdbPersonId": 4765
+    },
+    {
+      "name": "Javier Bardem",
+      "tmdbPersonId": 3810
+    },
+    {
+      "name": "Jim Broadbent",
+      "tmdbPersonId": 388
+    },
+    {
+      "name": "Joe Pesci",
+      "tmdbPersonId": 4517
+    },
+    {
+      "name": "Joel Grey",
+      "tmdbPersonId": 6748
+    },
+    {
+      "name": "John Gielgud",
+      "tmdbPersonId": 11857
+    },
+    {
+      "name": "John Houseman",
+      "tmdbPersonId": 11783
+    },
+    {
+      "name": "John Mills",
+      "tmdbPersonId": 11859
+    },
+    {
+      "name": "Joseph Schildkraut",
+      "tmdbPersonId": 24820
+    },
+    {
+      "name": "Karl Malden",
+      "tmdbPersonId": 9857
+    },
+    {
+      "name": "Ke Huy Quan",
+      "tmdbPersonId": 690
+    },
+    {
+      "name": "Kevin Kline",
+      "tmdbPersonId": 8945
+    },
+    {
+      "name": "Kevin Spacey",
+      "tmdbPersonId": 1979
+    },
+    {
+      "name": "Kieran Culkin",
+      "tmdbPersonId": 18793
+    },
+    {
+      "name": "Louis Gossett Jr.",
+      "tmdbPersonId": 20959
+    },
+    {
+      "name": "Mahershala Ali",
+      "tmdbPersonId": 932967
+    },
+    {
+      "name": "Mark Rylance",
+      "tmdbPersonId": 40900
+    },
+    {
+      "name": "Martin Balsam",
+      "tmdbPersonId": 1936
+    },
+    {
+      "name": "Martin Landau",
+      "tmdbPersonId": 2641
+    },
+    {
+      "name": "Melvyn Douglas",
+      "tmdbPersonId": 19550
+    },
+    {
+      "name": "Michael Caine",
+      "tmdbPersonId": 3895
+    },
+    {
+      "name": "Morgan Freeman",
+      "tmdbPersonId": 192
+    },
+    {
+      "name": "Peter Ustinov",
+      "tmdbPersonId": 14501
+    },
+    {
+      "name": "Red Buttons",
+      "tmdbPersonId": 7503
+    },
+    {
+      "name": "Robert De Niro",
+      "tmdbPersonId": 380
+    },
+    {
+      "name": "Robert Downey Jr.",
+      "tmdbPersonId": 3223
+    },
+    {
+      "name": "Robin Williams",
+      "tmdbPersonId": 2157
+    },
+    {
+      "name": "Sam Rockwell",
+      "tmdbPersonId": 6807
+    },
+    {
+      "name": "Sean Connery",
+      "tmdbPersonId": 738
+    },
+    {
+      "name": "Sean Penn",
+      "tmdbPersonId": 2228
+    },
+    {
+      "name": "Thomas Mitchell",
+      "tmdbPersonId": 3383
+    },
+    {
+      "name": "Tim Robbins",
+      "tmdbPersonId": 504
+    },
+    {
+      "name": "Timothy Hutton",
+      "tmdbPersonId": 16327
+    },
+    {
+      "name": "Tommy Lee Jones",
+      "tmdbPersonId": 2176
+    },
+    {
+      "name": "Troy Kotsur",
+      "tmdbPersonId": 1571661
+    },
+    {
+      "name": "Van Heflin",
+      "tmdbPersonId": 18803
+    },
+    {
+      "name": "Walter Brennan",
+      "tmdbPersonId": 4302
+    },
+    {
+      "name": "Walter Huston",
+      "tmdbPersonId": 19020
+    },
+    {
+      "name": "Walter Matthau",
+      "tmdbPersonId": 6837
+    }
+  ]
+}

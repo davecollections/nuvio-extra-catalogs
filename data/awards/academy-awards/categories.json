@@ -40,6 +40,26 @@
       "creditRole": "actor"
     },
     {
+      "id": "best-supporting-actor",
+      "name": "Best Supporting Actor",
+      "aliases": [
+        "Actor in a Supporting Role"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
+      "id": "best-supporting-actress",
+      "name": "Best Supporting Actress",
+      "aliases": [
+        "Actress in a Supporting Role"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
       "id": "best-director",
       "name": "Best Director",
       "aliases": [

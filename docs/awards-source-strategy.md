@@ -22,7 +22,7 @@ For the Academy Awards, use this hierarchy:
 | Work/person identity enrichment | [TMDB API](https://developer.themoviedb.org/docs/finding-data) | Supplies TMDB identities and confirms supported external IDs. It does not decide award status. |
 | Nuvio artwork coverage | [`davecollections/nuvio-people-assets`](https://github.com/davecollections/nuvio-people-assets) | Reuses artwork by TMDB Person ID. Artwork availability never changes the canonical award fact. |
 
-The current Academy Best Actor and Best Actress histories are reconciled to `DLu/oscar_data` commit `c5e9716b7e020e70205d6b95f5a5678526c1b45f`. A future import must record its own pinned commit in the relevant category history document rather than silently following that repository's moving default branch.
+The current Academy leading and supporting acting histories are reconciled to `DLu/oscar_data` commit `c5e9716b7e020e70205d6b95f5a5678526c1b45f`. A future import must record its own pinned commit in the relevant category history document rather than silently following that repository's moving default branch.
 
 ## Separation of responsibilities
 
@@ -146,6 +146,8 @@ python scripts/validate_awards_data.py
 python scripts/build_best_picture_catalog.py --check
 python scripts/build_best_actor_outputs.py --check
 python scripts/build_best_actress_outputs.py --check
+python scripts/build_best_supporting_actor_outputs.py --check
+python scripts/build_best_supporting_actress_outputs.py --check
 python scripts/build_best_director_outputs.py --check
 python scripts/check_people_artwork_integration.py --check
 ```
@@ -193,4 +195,4 @@ The correction log is append-only in meaning: if a prior correction needs amendm
 
 ## Current expansion gate
 
-Best Picture, Best Actor, Best Actress, and Best Director are the reference implementations. Issue #6 established the cross-repository People integration check for Actor and Director outputs; Issue #17 extends the same check to Best Actress and verifies complete current coverage while retaining the earlier gap report as a historical snapshot. New person-recipient categories must pass the same identity, membership, artwork, and fallback review before publication. Supporting acting categories and other award bodies should follow in separate focused issues.
+Best Picture, the four leading/supporting acting categories, and Best Director are the reference implementations. Issue #20 demonstrates a larger coherent category-family expansion while retaining explicit per-category counts, source reconciliation, identity review, and machine-readable artwork gaps. New person-recipient categories must pass the same identity, membership, artwork, and fallback review before publication. Further Academy categories and other award bodies may be grouped when they share one source model and validation path, but every included category must remain independently auditable.

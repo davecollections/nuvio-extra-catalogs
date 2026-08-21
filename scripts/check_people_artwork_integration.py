@@ -14,10 +14,10 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-REPORT_PATH = REPO_ROOT / "reports" / "issue-17-awards-people-artwork-integration.json"
+REPORT_PATH = REPO_ROOT / "reports" / "issue-20-awards-people-artwork-integration.json"
 
 PEOPLE_ASSETS_REPOSITORY = "https://github.com/davecollections/nuvio-people-assets"
-PEOPLE_ASSETS_COMMIT = "4277be3dcfe3b6806568438ca5408d89ce29f4b2"
+PEOPLE_ASSETS_COMMIT = "1fe63648d173760d307751a189709b22fc20e8bf"
 PINNED_MANIFEST_URL = (
     "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/"
     f"{PEOPLE_ASSETS_COMMIT}/manifests/people.json"
@@ -26,7 +26,7 @@ RUNTIME_MANIFEST_URL = (
     "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/"
     "main/manifests/people.json"
 )
-PEOPLE_MANIFEST_SHA256 = "8ea20357324089f7c6c3004cb9f4c8c191358c36de99a8dc0386ede3efadbf94"
+PEOPLE_MANIFEST_SHA256 = "307a99257082b902969a6d0eaa28dc2baa9905db492e41fce916c30e55a282d2"
 
 BUILDER_REPOSITORY = "https://github.com/davecollections/tmdb-id-lookup"
 BUILDER_MIGRATION_COMMIT = "e9eb3b24a93b7e6bbca295a340d035cb018293d9"
@@ -62,6 +62,24 @@ CATEGORIES = (
         / "academy-best-actress-winners.people.json",
     },
     {
+        "categoryId": "best-supporting-actor",
+        "sourceType": "PERSON",
+        "requiredMembership": "actor",
+        "peoplePath": REPO_ROOT
+        / "data"
+        / "generated"
+        / "academy-best-supporting-actor-winners.people.json",
+    },
+    {
+        "categoryId": "best-supporting-actress",
+        "sourceType": "PERSON",
+        "requiredMembership": "actor",
+        "peoplePath": REPO_ROOT
+        / "data"
+        / "generated"
+        / "academy-best-supporting-actress-winners.people.json",
+    },
+    {
         "categoryId": "best-director",
         "sourceType": "DIRECTOR",
         "requiredMembership": "director",
@@ -75,6 +93,8 @@ CATEGORIES = (
 SAMPLES = (
     {"categoryId": "best-actor", "tmdbPersonId": 17838},
     {"categoryId": "best-actress", "tmdbPersonId": 1640439},
+    {"categoryId": "best-supporting-actor", "tmdbPersonId": 4302},
+    {"categoryId": "best-supporting-actress", "tmdbPersonId": 11498},
     {"categoryId": "best-director", "tmdbPersonId": 1269},
 )
 
@@ -411,7 +431,7 @@ def build_report(manifest: dict) -> dict:
 
     return {
         "schemaVersion": 1,
-        "issue": 17,
+        "issue": 20,
         "identityKey": "tmdbPersonId",
         "peopleAssets": {
             "repository": PEOPLE_ASSETS_REPOSITORY,
@@ -486,7 +506,15 @@ def main() -> int:
     parser.add_argument(
         "--check",
         action="store_true",
-        help="Fail if the committed Issue #17 integration report is out of date.",
+        help="Fail if the committed Issue #20 integration report is out of date.",
+    )
+    parser.add_argument(
+        "--allow-incomplete",
+        action="store_true",
+        help=(
+            "Allow a development report with missing People records. CI and release "
+            "checks must omit this flag so incomplete coverage still fails."
+        ),
     )
     args = parser.parse_args()
 
@@ -494,15 +522,23 @@ def main() -> int:
         raw_manifest = load_manifest_bytes(args.people_manifest)
         manifest = decode_manifest(raw_manifest, args.people_manifest)
         report = build_report(manifest)
-        validate_acceptance(report)
+        if not args.allow_incomplete:
+            validate_acceptance(report)
         rendered = render_report(report)
         if args.check:
             check_report(rendered)
-            print(
-                "Awards People artwork integration is valid: "
-                f"{report['combinedCoverage']['resolvedUniqueAwardsPeopleCount']}/"
-                f"{report['combinedCoverage']['uniqueAwardsPeopleCount']} unique people resolved."
-            )
+            resolved = report["combinedCoverage"]["resolvedUniqueAwardsPeopleCount"]
+            total = report["combinedCoverage"]["uniqueAwardsPeopleCount"]
+            if args.allow_incomplete:
+                print(
+                    "Awards People artwork development report is current: "
+                    f"{resolved}/{total} unique people resolved, {total - resolved} missing."
+                )
+            else:
+                print(
+                    "Awards People artwork integration is valid: "
+                    f"{resolved}/{total} unique people resolved."
+                )
             return 0
 
         REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
