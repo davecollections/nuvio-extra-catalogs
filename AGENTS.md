@@ -6,7 +6,7 @@ This repository provides additional Stremio-compatible catalog sources for Nuvio
 
 ## Current phase
 
-V0.5 is complete and preserved on `release/v0.5.0`. V1.0 is active under Issue #24 and completes the 18 remaining current Academy categories in one independently audited milestone. Canonical data, all 18 deterministic catalogue payloads, a 24-catalogue preview manifest, and recipient identity coverage are implemented locally; publication remains gated on complete CI-equivalent validation, commit-pinned Nuvio acceptance, and owner approval. The six released V0.5 catalogue payloads remain unchanged.
+V1.0 is complete. Its commit-pinned preview and refreshed live manifest passed Nuvio acceptance, the deployed GitHub Pages landing page, manifest, and all 24 catalogue payloads byte-match merge commit `a49585b53bcfd95cadfb8f9a2077a02f41d82310`, and the exact tested state is preserved on `release/v1.0.0`. V1.0 completes all current Academy categories while preserving the six released V0.5 catalogue payloads unchanged. The previous V0.5 rollback point remains preserved on `release/v0.5.0`.
 
 ## Guardrails
 
@@ -55,9 +55,14 @@ After a pull request is merged:
 - Update `CHANGELOG.md` when the merge completes a notable milestone or changes released behaviour.
 - Create or preserve an appropriate version/tag/release point when the merged work represents a meaningful known-good release.
 
-## Validated behaviour through V0.5
+## Validated behaviour through V1.0
 
-- Manifest version `0.5.0` installs and validates in Nuvio; the deployed GitHub Pages payload byte-matches the accepted merge commit.
+- Manifest version `1.0.0` installs and validates in Nuvio with all 24 current Academy winner-film catalogues.
+- The owner accepted the immutable 24-catalogue preview, refreshed the deployed live add-on, and confirmed the live release.
+- The deployed landing page, manifest, and all 24 catalogue payloads return HTTP 200 and byte-match the accepted merge commit.
+- Shared validation covers 24 categories, 98 ceremonies, 2,070 canonical results, 2,072 work links, and 2,900 person links.
+- The 18 V1.0 category contracts cover 1,495 winner results and 1,476 unique catalogue films, including historical split branches, ties, explicit no-award gaps, and non-film Sound results.
+- Casting correctly begins at the 98th ceremony with one winning film.
 - Best Picture catalogue loads on the Nuvio home screen.
 - Best Actor Winning Films loads alongside Best Picture with 100 associated films.
 - Best Actress Winning Films loads with 101 associated films in newest-ceremony-first order.
@@ -67,6 +72,7 @@ After a pull request is merged:
 - Best Director Winning Films loads with 99 associated films in newest-ceremony-first order.
 - The 1st ceremony's separate Comedy and Dramatic directing winners both render, while joint-director winning films remain single catalogue entries.
 - All 400 unique people across the five acting/directing outputs resolve the canonical People manifest by TMDB Person ID with complete required and focus artwork.
+- The 18 V1.0 categories preserve 1,819 IMDb-identified recipients, including 1,723 verified TMDB mappings and 96 explicit unresolved identities; their movie-only outputs require no People artwork handoff.
 - Refresh Add-on applies the deployed manifest update without requiring reinstallation.
 - The catalogue appears in Nuvio's Add Catalog selector.
 - The catalogue can be added to a Folder and that Folder can be used in a Collection.
@@ -76,4 +82,4 @@ After a pull request is merged:
 
 ## Next milestone
 
-Complete Issue #24 acceptance and publish V1.0 with all 24 current Academy winner-film catalogues. After V1.0, select the next award body in a focused issue, declare its authority before import, and reuse the same canonical model, identity verification, manifest validation, compact landing-page disclosure, and independently auditable category contracts.
+Select the next award body in a focused issue and declare its authority before import. Reuse the V1.0 canonical model, identity verification, manifest validation, compact landing-page disclosure, and independently auditable category contracts. When a second award body is ready, scope award-body-level manifest selection while preserving the current all-awards manifest URL and keeping category selection out of the user configuration.
