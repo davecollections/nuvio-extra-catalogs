@@ -16,6 +16,7 @@ AWARDS_ROOT = REPO_ROOT / "data" / "awards"
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 FILE_RE = re.compile(r"^(?P<number>\d{3})-(?P<year>\d{4})\.json$")
 IMDB_RE = re.compile(r"^tt\d+$")
+IMDB_PERSON_RE = re.compile(r"^nm\d+$")
 MEDIA_TYPES = {"movie", "series"}
 CATEGORY_MEDIA_TYPES = MEDIA_TYPES | {"mixed"}
 RECIPIENT_KINDS = {"work", "person", "team", "other"}
@@ -53,6 +54,8 @@ class IdentityRegistry:
     works_by_imdb: dict[str, tuple[str, str, int | None]] = field(default_factory=dict)
     imdb_by_tmdb: dict[tuple[str, int], str] = field(default_factory=dict)
     people_by_tmdb: dict[int, str] = field(default_factory=dict)
+    people_by_imdb: dict[str, tuple[str, int | None]] = field(default_factory=dict)
+    imdb_by_person_tmdb: dict[int, str] = field(default_factory=dict)
 
 
 def fail(path: Path, message: str) -> None:
@@ -334,7 +337,7 @@ def validate_work(path: Path, raw_work: object, category: dict, identities: Iden
 def validate_person(path: Path, raw_person: object, identities: IdentityRegistry) -> tuple:
     if not isinstance(raw_person, dict):
         fail(path, "person relationship must be an object")
-    require_keys(path, raw_person, {"name"}, {"name", "tmdbId"}, "person")
+    require_keys(path, raw_person, {"name"}, {"name", "tmdbId", "imdbId"}, "person")
     name = require_nonempty_string(path, raw_person["name"], "person.name")
     raw_person["name"] = name
     tmdb_id = raw_person.get("tmdbId")
@@ -344,7 +347,25 @@ def validate_person(path: Path, raw_person: object, identities: IdentityRegistry
         if existing is not None and existing != name:
             fail(path, f"TMDB Person ID {tmdb_id} maps to both {existing!r} and {name!r}")
         identities.people_by_tmdb[tmdb_id] = name
+    imdb_id = raw_person.get("imdbId")
+    if imdb_id is not None:
+        if not isinstance(imdb_id, str) or not IMDB_PERSON_RE.fullmatch(imdb_id):
+            fail(path, "person.imdbId must match ^nm[0-9]+$")
+        existing = identities.people_by_imdb.get(imdb_id)
+        if existing is not None and existing[0] != name:
+            fail(path, f"IMDb Person ID {imdb_id} maps to both {existing[0]!r} and {name!r}")
+        if existing is not None and existing[1] is not None and tmdb_id is not None and existing[1] != tmdb_id:
+            fail(path, f"IMDb Person ID {imdb_id} maps to multiple TMDB Person IDs")
+        identities.people_by_imdb[imdb_id] = (name, tmdb_id if tmdb_id is not None else existing[1] if existing else None)
+        if tmdb_id is not None:
+            existing_imdb = identities.imdb_by_person_tmdb.get(tmdb_id)
+            if existing_imdb is not None and existing_imdb != imdb_id:
+                fail(path, f"TMDB Person ID {tmdb_id} maps to multiple IMDb Person IDs")
+            identities.imdb_by_person_tmdb[tmdb_id] = imdb_id
+    if tmdb_id is not None:
         return ("tmdb", tmdb_id)
+    if imdb_id is not None:
+        return ("imdb", imdb_id)
     return ("text", name.casefold())
 
 

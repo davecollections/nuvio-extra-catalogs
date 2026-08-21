@@ -74,6 +74,12 @@ Against the pinned People commit:
 
 Current evidence for all five person/director categories is [`reports/issue-20-awards-people-artwork-integration.json`](../reports/issue-20-awards-people-artwork-integration.json). It records complete coverage after the 25-person Issue #20 handoff was published. The Issue #6 and #17 integration reports plus the earlier category gap reports remain historical snapshots.
 
+## Issue #24 craft recipients
+
+The other 18 current Academy categories publish winner-film catalogues only. They do not add native `PERSON` or `DIRECTOR` sources, and their craft roles do not map to the current People manifest's actor/director membership contract. Nuvio renders the winning movie artwork for these catalogues, so missing recipient artwork is not a publication gap.
+
+Their person identities are still preserved and audited. [`reports/issue-24-academy-recipient-identity-coverage.json`](../reports/issue-24-academy-recipient-identity-coverage.json) records 1,819 IMDb-identified recipients, 1,723 verified TMDB mappings, 96 explicit unresolved TMDB identities, and informational People-manifest presence for every identity. The report deliberately records `requiredPeopleArtworkGapCount: 0` and `peopleArtworkHandoffRequired: false`; a future native craft-person source must define its own membership and artwork contract before changing that decision.
+
 ## Reproducing the check
 
 The default path fetches the immutable People manifest from GitHub's production raw-content route and verifies its exact SHA-256 before checking complete coverage:

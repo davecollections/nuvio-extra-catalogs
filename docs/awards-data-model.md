@@ -17,7 +17,7 @@ The model therefore preserves the relationship between the award category, cerem
 
 1. **Canonical data is not presentation data.** Award facts and identity mappings live under `data/`; generated Stremio catalogue responses remain under `catalog/`.
 2. **One result, multiple outputs.** Do not duplicate an acting/directing result just to generate a movie catalogue and a people-based collection.
-3. **TMDB IDs are identity keys when resolved.** TMDB title IDs identify works and TMDB Person IDs identify people. Canonical award records may exist before identity enrichment is complete; generators decide which unresolved records are publishable. IMDb title IDs are preserved when available because the proven Nuvio catalogue handoff works cleanly with `tt` IDs.
+3. **External IDs are identity keys when resolved.** TMDB title IDs identify works and TMDB Person IDs bridge people into compatible Nuvio sources. IMDb `tt` title IDs are preserved for the proven catalogue metadata handoff, and IMDb `nm` person IDs preserve reviewed recipient identity when a TMDB person match is unavailable. Canonical award records may exist before TMDB enrichment is complete; generators decide which unresolved records are publishable.
 4. **Ceremony year is explicit.** `ceremony.year` means the year in which the award ceremony occurred. A work's `releaseYear` is separate and must not be used as the award year.
 5. **Stable local IDs are independent of display names.** Award-body and category IDs use stable slugs. Display names may change without breaking generated catalogue IDs or historical data.
 6. **Historical category names may vary.** A category registry may retain aliases or historical names while keeping one stable local category ID when the award lineage is genuinely the same.
@@ -241,17 +241,18 @@ The initial Academy Awards acting categories require this for Emil Jannings' 1st
 ```json
 {
   "name": "Cillian Murphy",
-  "tmdbId": 2037
+  "tmdbId": 2037,
+  "imdbId": "nm0614165"
 }
 ```
 
-A person's name can be preserved before TMDB identity enrichment is complete. Once resolved, TMDB Person ID is the canonical bridge to:
+A person's name and verified IMDb `nm` identity can be preserved before TMDB identity enrichment is complete. When resolved, TMDB Person ID is the canonical bridge to:
 
 - Nuvio native `PERSON` sources;
 - Nuvio native `DIRECTOR` sources where applicable; and
 - existing People artwork keyed by TMDB Person ID.
 
-A person intended for native Nuvio person/director output must have a resolved TMDB Person ID before publication.
+A person intended for native Nuvio person/director output must have a resolved TMDB Person ID before publication. A movie-only catalogue may retain an unresolved person with a verified IMDb Person ID because the movie output does not consume person artwork or person metadata.
 
 ### Other recipient label
 
@@ -425,6 +426,6 @@ This separation allows authoritative award facts to be recorded even when an ide
 
 ## Implementation status
 
-Best Picture, all four leading/supporting acting categories, and Best Director now reuse this model across the canonical ceremony set. The shared acting-output implementation supports category-specific first ceremonies, multi-work awards, and ties without weakening per-category count checks. Best Director demonstrates reusable native `DIRECTOR` identity, the 1st ceremony's split directing categories, and joint credited winners without duplicate film entries.
+All 24 current Academy categories now reuse this model across the canonical ceremony set. The shared acting-output implementation supports category-specific first ceremonies, multi-work awards, and ties without weakening per-category count checks. Best Director demonstrates reusable native `DIRECTOR` identity, the 1st ceremony's split directing categories, and joint credited winners without duplicate film entries. Issue #24 additionally demonstrates historical craft branches, non-annual categories, organisation/country recipient labels, non-film results, and catalogue deduplication when one film won both historical Sound branches.
 
-Issue #20 extends the People bridge to both supporting categories. The five current person/director outputs contain 414 category-person relationships and 400 unique TMDB identities; all 400 resolve the pinned People manifest after the 25-person supporting-acting handoff was published. Shared validation protects provenance, declared ceremony coverage, category references, duplicate relationships, cross-file identity consistency, and the pinned People integration contract. Future categories should reuse the same shapes, source workflow, validators, and People identity bridge rather than introducing parallel systems.
+Issue #20 extends the People bridge to both supporting categories. The five native person/director outputs contain 414 category-person relationships and 400 unique TMDB identities; all 400 resolve the pinned People manifest. Issue #24 preserves 1,819 unique IMDb-identified craft recipients, including 1,723 verified TMDB mappings, without inventing unsupported native person sources or making artwork a film-catalogue gate. Shared validation protects provenance, declared ceremony coverage, category references, duplicate relationships, IMDb/TMDB identity consistency, deterministic output contracts, and the pinned People integration evidence.

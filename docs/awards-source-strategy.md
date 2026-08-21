@@ -20,9 +20,10 @@ For the Academy Awards, use this hierarchy:
 | Yearly official review | [Academy ceremony pages](https://www.oscars.org/oscars/ceremonies) | Human-readable verification for recent ceremonies, nominees, ties, joint recipients, credited works, and category changes. |
 | IMDb identity cross-check | [`DLu/oscar_data`](https://github.com/DLu/oscar_data) | Curated reconciliation input, never the authority for the award result. Pin an exact commit. Its README documents manual acquisition from the Academy database and its IMDb identifiers; its code/data is BSD-2-Clause licensed. |
 | Work/person identity enrichment | [TMDB API](https://developer.themoviedb.org/docs/finding-data) | Supplies TMDB identities and confirms supported external IDs. It does not decide award status. |
+| Candidate-ID discovery when TMDB text search is insufficient | [Wikidata](https://www.wikidata.org/) | May suggest a TMDB ID from a known IMDb ID. The candidate is accepted only after TMDB itself returns the expected IMDb external ID. Wikidata never decides award status or independently proves the identity pair. |
 | Nuvio artwork coverage | [`davecollections/nuvio-people-assets`](https://github.com/davecollections/nuvio-people-assets) | Reuses artwork by TMDB Person ID. Artwork availability never changes the canonical award fact. |
 
-The current Academy leading and supporting acting histories are reconciled to `DLu/oscar_data` commit `c5e9716b7e020e70205d6b95f5a5678526c1b45f`. A future import must record its own pinned commit in the relevant category history document rather than silently following that repository's moving default branch.
+All 24 current Academy category histories through ceremony 98 are reconciled to `DLu/oscar_data` commit `c5e9716b7e020e70205d6b95f5a5678526c1b45f`. A future import must record its own pinned commit in the relevant category history document rather than silently following that repository's moving default branch.
 
 ## Separation of responsibilities
 
@@ -100,10 +101,11 @@ Use a result `note` for a material historical qualification that belongs with th
 ### People
 
 1. Reuse an existing canonical TMDB Person ID or the same ID already used by `nuvio-people-assets`.
-2. Prefer external-ID lookup when a verified IMDb person ID is available.
-3. Otherwise compare the person's name and credits, including the award-linked work and role.
-4. Treat the numeric TMDB Person ID as the stable identity; use one canonical display name for that ID.
-5. Never choose a person from name text alone when multiple candidates exist.
+2. Preserve a verified IMDb Person `nm` ID when the reconciliation source provides one, including when TMDB enrichment remains unresolved.
+3. Prefer external-ID lookup when a verified IMDb person ID is available.
+4. Otherwise compare the person's name and credits, including the award-linked work and role.
+5. Treat the numeric TMDB Person ID as the preferred cross-Nuvio identity; use one canonical display name for that ID.
+6. Never choose a person from name text alone when multiple candidates exist.
 
 ### Ambiguous or conflicting matches
 
@@ -132,7 +134,7 @@ The shared validator checks every award body and ceremony for:
 - required source URL and review date;
 - structurally valid work/person relationships;
 - duplicate canonical relationships within a ceremony;
-- consistent IMDb-to-work, TMDB-to-work, and TMDB-Person-to-name mappings;
+- consistent IMDb-to-work, TMDB-to-work, IMDb-Person-to-person, and TMDB-Person-to-name mappings;
 - category recipient/media-type compatibility.
 
 Category-specific generators remain responsible for publication rules that cannot be generic, such as expected winner counts, known ties, multi-work exceptions, required output IDs, stable ordering, Meta Preview shape, and generated-file freshness.
@@ -149,7 +151,10 @@ python scripts/build_best_actress_outputs.py --check
 python scripts/build_best_supporting_actor_outputs.py --check
 python scripts/build_best_supporting_actress_outputs.py --check
 python scripts/build_best_director_outputs.py --check
+python scripts/build_remaining_academy_outputs.py --check
+python scripts/validate_manifest_catalogs.py
 python scripts/check_people_artwork_integration.py --check
+python scripts/check_issue24_recipient_identity_coverage.py --check
 ```
 
 ## Adding a new ceremony
@@ -195,4 +200,4 @@ The correction log is append-only in meaning: if a prior correction needs amendm
 
 ## Current expansion gate
 
-Best Picture, the four leading/supporting acting categories, and Best Director are the reference implementations. Issue #20 demonstrates a larger coherent category-family expansion while retaining explicit per-category counts, source reconciliation, identity review, and machine-readable artwork gaps. New person-recipient categories must pass the same identity, membership, artwork, and fallback review before publication. Further Academy categories and other award bodies may be grouped when they share one source model and validation path, but every included category must remain independently auditable.
+All 24 current Academy categories are reference implementations. Issue #20 demonstrates native actor/director output and strict People artwork integration; Issue #24 demonstrates a single large milestone whose 18 categories still retain independent counts, lineages, no-award gaps, identity review, and deterministic output contracts. New person-recipient outputs must pass the same identity, membership, artwork, and fallback review before publication. Additional award bodies may be grouped when they share one source model and validation path, but every included category must remain independently auditable.
