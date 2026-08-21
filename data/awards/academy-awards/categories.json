@@ -70,6 +70,192 @@
       "mediaType": "movie",
       "recipientKind": "person",
       "creditRole": "director"
+    },
+    {
+      "id": "animated-feature-film",
+      "name": "Animated Feature Film",
+      "aliases": ["Best Animated Feature Film"],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "other"
+    },
+    {
+      "id": "animated-short-film",
+      "name": "Animated Short Film",
+      "aliases": [
+        "Short Film (Animated)",
+        "Short Subject (Animated)",
+        "Short Subject (Cartoon)"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "other"
+    },
+    {
+      "id": "casting",
+      "name": "Casting",
+      "aliases": ["Achievement in Casting"],
+      "mediaType": "movie",
+      "recipientKind": "person",
+      "creditRole": "other"
+    },
+    {
+      "id": "cinematography",
+      "name": "Cinematography",
+      "aliases": [
+        "Cinematography (Black-and-White)",
+        "Cinematography (Color)"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "cinematographer"
+    },
+    {
+      "id": "costume-design",
+      "name": "Costume Design",
+      "aliases": [
+        "Costume Design (Black-and-White)",
+        "Costume Design (Color)"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "other"
+    },
+    {
+      "id": "documentary-feature-film",
+      "name": "Documentary Feature Film",
+      "aliases": ["Documentary", "Documentary (Feature)"],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "producer"
+    },
+    {
+      "id": "documentary-short-film",
+      "name": "Documentary Short Film",
+      "aliases": ["Documentary (Short Subject)"],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "producer"
+    },
+    {
+      "id": "film-editing",
+      "name": "Film Editing",
+      "aliases": ["Achievement in Film Editing"],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "editor"
+    },
+    {
+      "id": "international-feature-film",
+      "name": "International Feature Film",
+      "aliases": [
+        "Foreign Language Film",
+        "Honorary Foreign Language Film Award"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "other"
+    },
+    {
+      "id": "live-action-short-film",
+      "name": "Live Action Short Film",
+      "aliases": [
+        "Short Film (Dramatic Live Action)",
+        "Short Film (Live Action)",
+        "Short Subject (Live Action)"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "producer"
+    },
+    {
+      "id": "makeup-and-hairstyling",
+      "name": "Makeup and Hairstyling",
+      "aliases": ["Makeup"],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "other"
+    },
+    {
+      "id": "original-score",
+      "name": "Music (Original Score)",
+      "aliases": [
+        "Music Score of a Dramatic Picture",
+        "Music Score of a Dramatic or Comedy Picture",
+        "Music Score — Substantially Original",
+        "Original Dramatic Score",
+        "Original Music Score"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "composer"
+    },
+    {
+      "id": "original-song",
+      "name": "Music (Original Song)",
+      "aliases": ["Music (Song)", "Song — Original for the Picture"],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "composer"
+    },
+    {
+      "id": "production-design",
+      "name": "Production Design",
+      "aliases": [
+        "Art Direction",
+        "Art Direction (Black-and-White)",
+        "Art Direction (Color)"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "other"
+    },
+    {
+      "id": "sound",
+      "name": "Sound",
+      "aliases": [
+        "Sound Recording",
+        "Sound Mixing",
+        "Sound Editing",
+        "Sound Effects",
+        "Sound Effects Editing"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "other"
+    },
+    {
+      "id": "visual-effects",
+      "name": "Visual Effects",
+      "aliases": ["Engineering Effects", "Special Effects", "Special Visual Effects"],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "other"
+    },
+    {
+      "id": "adapted-screenplay",
+      "name": "Writing (Adapted Screenplay)",
+      "aliases": [
+        "Writing",
+        "Writing (Adaptation)",
+        "Writing (Screenplay)",
+        "Screenplay Adapted from Other Material",
+        "Screenplay Based on Material Previously Produced or Published",
+        "Screenplay Based on Material from Another Medium"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "writer"
+    },
+    {
+      "id": "original-screenplay",
+      "name": "Writing (Original Screenplay)",
+      "aliases": [
+        "Screenplay Written Directly for the Screen",
+        "Story and Screenplay"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "writer"
     }
   ]
 }

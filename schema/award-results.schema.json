@@ -161,6 +161,10 @@
         "tmdbId": {
           "type": "integer",
           "minimum": 1
+        },
+        "imdbId": {
+          "type": "string",
+          "pattern": "^nm[0-9]+$"
         }
       }
     }
