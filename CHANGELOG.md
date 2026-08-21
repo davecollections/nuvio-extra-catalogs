@@ -4,6 +4,12 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ## [Unreleased]
 
+### Planned
+
+- Select and scope the next focused Academy Awards category expansion, continuing the machine-readable People artwork gap handoff for any newly introduced identities.
+
+## [0.5.0] - 2026-08-21
+
 ### Added
 
 - Complete Academy Awards Best Supporting Actor and Best Supporting Actress winner histories from the 9th through 98th ceremonies: 90 winner results and films per category, with 81 and 88 unique TMDB Person identities respectively.
@@ -23,9 +29,16 @@ All notable project milestones are recorded here. This project uses semantic ver
 - Shared validation passes with 6 categories, 98 ceremonies, 575 results, 578 work links, and 480 person links.
 - All 400 unique people across the five acting/directing outputs resolve against `nuvio-people-assets` commit `1fe63648d173760d307751a189709b22fc20e8bf` with required membership, complete core artwork, and complete focus artwork.
 
-### Pending V0.5 integration
+### Validated in Nuvio
 
-- Load the commit-pinned `0.5.0` preview in Nuvio and verify both 90-film catalogues, metadata resolution, and Folder/Collection use.
+- The owner loaded the commit-pinned `0.5.0` preview and verified all six catalogues.
+- Both supporting-acting catalogues rendered 90 associated films, resolved metadata, and worked as Nuvio Folder/Collection sources.
+- Refresh Add-on applied the deployed live `0.5.0` manifest, and the owner confirmed the live supporting catalogues continued to work.
+- The deployed GitHub Pages landing page, manifest, and all six catalogue payloads returned HTTP 200 and byte-match merge commit `03fd3da79eda999154cefca7809cc7cef5421619`.
+
+### Known-good rollback point
+
+The exact live-tested V0.5 state is preserved on branch `release/v0.5.0`, pointing to merge commit `03fd3da79eda999154cefca7809cc7cef5421619`.
 
 ## [0.4.0] - 2026-08-20
 
