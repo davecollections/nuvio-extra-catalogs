@@ -6,7 +6,7 @@ This repository provides additional Stremio-compatible catalog sources for Nuvio
 
 ## Current phase
 
-V0.4 is complete and preserved on `release/v0.4.0`. V0.5 is active under Issue #20 and adds the complete Academy Best Supporting Actor and Best Supporting Actress histories through the shared acting-output path. Canonical data, generated outputs, and complete People artwork coverage are implemented; publication remains gated on final validation and Nuvio acceptance.
+V0.5 is complete. Its commit-pinned preview and refreshed live manifest passed Nuvio acceptance, the deployed GitHub Pages landing page, manifest, and all six catalogues byte-match the accepted merge commit, and the exact tested state is preserved on `release/v0.5.0`. V0.5 includes the complete Academy Best Supporting Actor and Best Supporting Actress histories and canonical People artwork resolution for all 400 current award people. The previous V0.4 rollback point remains preserved on `release/v0.4.0`.
 
 ## Guardrails
 
@@ -54,16 +54,18 @@ After a pull request is merged:
 - Update `CHANGELOG.md` when the merge completes a notable milestone or changes released behaviour.
 - Create or preserve an appropriate version/tag/release point when the merged work represents a meaningful known-good release.
 
-## Validated behaviour through V0.4
+## Validated behaviour through V0.5
 
-- Manifest version `0.4.0` installs and validates in Nuvio; the deployed GitHub Pages payload byte-matches the accepted preview.
+- Manifest version `0.5.0` installs and validates in Nuvio; the deployed GitHub Pages payload byte-matches the accepted merge commit.
 - Best Picture catalogue loads on the Nuvio home screen.
 - Best Actor Winning Films loads alongside Best Picture with 100 associated films.
 - Best Actress Winning Films loads with 101 associated films in newest-ceremony-first order.
 - The 41st ceremony's Best Actress tie renders both films, and the 1st ceremony's single award renders all three credited films.
+- Best Supporting Actor Winning Films loads with 90 associated films in newest-ceremony-first order.
+- Best Supporting Actress Winning Films loads with 90 associated films in newest-ceremony-first order.
 - Best Director Winning Films loads with 99 associated films in newest-ceremony-first order.
 - The 1st ceremony's separate Comedy and Dramatic directing winners both render, while joint-director winning films remain single catalogue entries.
-- All 245 unique Best Actor, Best Actress, and Best Director identities resolve the canonical People manifest by TMDB Person ID with complete required artwork.
+- All 400 unique people across the five acting/directing outputs resolve the canonical People manifest by TMDB Person ID with complete required and focus artwork.
 - Refresh Add-on applies the deployed manifest update without requiring reinstallation.
 - The catalogue appears in Nuvio's Add Catalog selector.
 - The catalogue can be added to a Folder and that Folder can be used in a Collection.
@@ -73,4 +75,4 @@ After a pull request is merged:
 
 ## Next milestone
 
-Complete Issue #20 and validate V0.5 in Nuvio: both supporting-acting catalogues, reusable native `PERSON` outputs, configurable 9th-ceremony coverage, and complete machine-readable People artwork integration.
+Select and open the next focused Academy Awards expansion issue before implementation. Continue to reuse the canonical awards model, shared generators, native Nuvio person/director sources, and machine-readable People artwork gap tracking; coherent groups of categories may share a milestone when each remains independently auditable.
