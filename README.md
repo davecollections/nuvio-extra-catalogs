@@ -7,9 +7,11 @@ A small Stremio-compatible catalogue add-on intended to provide collection sourc
 - **Academy Awards — Best Picture Winners**
 - **Academy Awards — Best Actor Winning Films**
 - **Academy Awards — Best Actress Winning Films**
+- **Academy Awards — Best Supporting Actor Winning Films**
+- **Academy Awards — Best Supporting Actress Winning Films**
 - **Academy Awards — Best Director Winning Films**
 
-The original V0.1 three-title seed proved the integration path in Nuvio. V0.2 established the canonical Awards model and complete Best Picture and Best Actor histories. V0.3 reused that model for Best Director, preserving joint credited directors without duplicating canonical award records. V0.4 extends the shared acting path to the complete Best Actress history, including the 1st ceremony's three-film award and the 41st ceremony tie.
+The original V0.1 three-title seed proved the integration path in Nuvio. V0.2 established the canonical Awards model and complete Best Picture and Best Actor histories. V0.3 reused that model for Best Director, and V0.4 added the complete Best Actress history. V0.5 expands the shared acting path to both supporting categories from their 9th-ceremony introduction onward.
 
 ## What V0.1 proved
 
@@ -32,6 +34,8 @@ nuvio-extra-catalogs/
 │   └── movie/
 │       ├── academy-best-actor-winning-films.json
 │       ├── academy-best-actress-winning-films.json
+│       ├── academy-best-supporting-actor-winning-films.json
+│       ├── academy-best-supporting-actress-winning-films.json
 │       ├── academy-best-director-winning-films.json
 │       └── academy-best-picture-winners.json
 ├── data/
@@ -57,6 +61,8 @@ The declared catalogue IDs are:
 academy-best-picture-winners
 academy-best-actor-winning-films
 academy-best-actress-winning-films
+academy-best-supporting-actor-winning-films
+academy-best-supporting-actress-winning-films
 academy-best-director-winning-films
 ```
 
@@ -66,6 +72,8 @@ The corresponding Stremio resources are:
 /catalog/movie/academy-best-picture-winners.json
 /catalog/movie/academy-best-actor-winning-films.json
 /catalog/movie/academy-best-actress-winning-films.json
+/catalog/movie/academy-best-supporting-actor-winning-films.json
+/catalog/movie/academy-best-supporting-actress-winning-films.json
 /catalog/movie/academy-best-director-winning-films.json
 ```
 
@@ -123,6 +131,22 @@ python scripts/build_best_actress_outputs.py --check
 
 See `docs/best-actress-history.md` for the pinned source snapshot, identity review, the 1st-ceremony multi-work award, the 41st-ceremony tie, and People artwork coverage.
 
+Both supporting categories reuse the shared acting generator with coverage beginning at the 9th ceremony. Generate their 90-film catalogues and reusable 81/88-person outputs with:
+
+```bash
+python scripts/build_best_supporting_actor_outputs.py
+python scripts/build_best_supporting_actress_outputs.py
+```
+
+Validate both histories and their generated outputs with:
+
+```bash
+python scripts/build_best_supporting_actor_outputs.py --check
+python scripts/build_best_supporting_actress_outputs.py --check
+```
+
+See `docs/supporting-acting-history.md` for the pinned source snapshot, identity enrichment, ceremony coverage, and complete People artwork integration.
+
 Best Director preserves associated film identities, all credited winners for joint awards, and TMDB Person IDs for native `DIRECTOR` sources. Generate its movie catalogue and reusable director output with:
 
 ```bash
@@ -137,13 +161,13 @@ python scripts/build_best_director_outputs.py --check
 
 See `docs/best-director-history.md` for source snapshots, joint-winner handling, historical category names, and artwork coverage.
 
-Best Actor, Best Actress, and Best Director people reuse the canonical `nuvio-people-assets` manifest directly by TMDB Person ID. Validate the shared integration contract with:
+All leading/supporting acting and directing people reuse the canonical `nuvio-people-assets` manifest directly by TMDB Person ID. Reproduce the complete Issue #20 integration report with:
 
 ```bash
 python scripts/check_people_artwork_integration.py --check
 ```
 
-The default check uses the immutable production GitHub raw URL pinned for Issue #17 and verifies all 245 current award people, including 81/81 Best Actress winners. See `docs/people-artwork-integration.md` for the resolution contract, current coverage, historical gap-report status, and live Nuvio acceptance procedure.
+The strict check requires every current award person to resolve with the correct membership and complete canonical artwork. The development-only `--allow-incomplete` flag remains available for future machine-readable gap handoffs. See `docs/people-artwork-integration.md` for the full contract and coverage.
 
 ## GitHub Pages URLs
 
@@ -165,6 +189,8 @@ Catalogue response:
 https://davecollections.github.io/nuvio-extra-catalogs/catalog/movie/academy-best-picture-winners.json
 https://davecollections.github.io/nuvio-extra-catalogs/catalog/movie/academy-best-actor-winning-films.json
 https://davecollections.github.io/nuvio-extra-catalogs/catalog/movie/academy-best-actress-winning-films.json
+https://davecollections.github.io/nuvio-extra-catalogs/catalog/movie/academy-best-supporting-actor-winning-films.json
+https://davecollections.github.io/nuvio-extra-catalogs/catalog/movie/academy-best-supporting-actress-winning-films.json
 https://davecollections.github.io/nuvio-extra-catalogs/catalog/movie/academy-best-director-winning-films.json
 ```
 
@@ -176,4 +202,4 @@ The GitHub Pages landing page links to guided GitHub Issue forms for bug reports
 
 This repository remains a **companion** to Nuvio's official TMDB catalogue add-on rather than duplicating it.
 
-Issue #6 established the canonical People artwork bridge without adding an awards-specific artwork layer or changing this add-on's catalog-only architecture. Issue #17 applies it to Best Actress. Supporting acting categories, other Academy categories, and additional award bodies should follow the same source, validation, and TMDB Person identity strategy in separate focused issues.
+Issue #6 established the canonical People artwork bridge without adding an awards-specific artwork layer or changing this add-on's catalog-only architecture. Issues #17 and #20 extend it across leading and supporting acting. Further Academy categories and additional award bodies should follow the same source, validation, and TMDB Person identity strategy in focused milestones.

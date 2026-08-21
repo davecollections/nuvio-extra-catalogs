@@ -4,9 +4,28 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ## [Unreleased]
 
-### Planned
+### Added
 
-- Select and scope the next focused awards-category expansion in a dedicated GitHub Issue.
+- Complete Academy Awards Best Supporting Actor and Best Supporting Actress winner histories from the 9th through 98th ceremonies: 90 winner results and films per category, with 81 and 88 unique TMDB Person identities respectively.
+- Stable `academy-best-supporting-actor-winning-films` and `academy-best-supporting-actress-winning-films` catalogues plus reusable native `PERSON` outputs.
+- Machine-readable Issue #20 People artwork coverage and handoff evidence across all five current person/director categories.
+
+### Changed
+
+- The shared acting generator now supports a configurable first ceremony while preserving the released leading-category outputs.
+- Manifest version advances to `0.5.0`, declares both supporting-acting catalogue IDs, and exposes six Academy Awards catalogues on the landing page.
+- The People integration checker adds an explicit development-only incomplete-report mode; normal CI/release checks continue to require complete coverage.
+
+### Validated locally for V0.5
+
+- All 180 supporting-acting winner names, film titles, and IMDb IDs exactly match the pinned Oscar snapshot.
+- The production Builder/TMDB path verified 126 previously unenriched supporting-film identities against their exact IMDb IDs.
+- Shared validation passes with 6 categories, 98 ceremonies, 575 results, 578 work links, and 480 person links.
+- All 400 unique people across the five acting/directing outputs resolve against `nuvio-people-assets` commit `1fe63648d173760d307751a189709b22fc20e8bf` with required membership, complete core artwork, and complete focus artwork.
+
+### Pending V0.5 integration
+
+- Load the commit-pinned `0.5.0` preview in Nuvio and verify both 90-film catalogues, metadata resolution, and Folder/Collection use.
 
 ## [0.4.0] - 2026-08-20
 

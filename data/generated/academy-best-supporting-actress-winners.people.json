@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "awardBodyId": "academy-awards",
+  "categoryId": "best-supporting-actress",
+  "status": "winner",
+  "description": "Unique Best Supporting Actress winner identities derived from canonical ceremony results for Nuvio native PERSON sources.",
+  "people": [
+    {
+      "name": "Alice Brady",
+      "tmdbPersonId": 125841
+    },
+    {
+      "name": "Alicia Vikander",
+      "tmdbPersonId": 227454
+    },
+    {
+      "name": "Allison Janney",
+      "tmdbPersonId": 19
+    },
+    {
+      "name": "Amy Madigan",
+      "tmdbPersonId": 23882
+    },
+    {
+      "name": "Angelina Jolie",
+      "tmdbPersonId": 11701
+    },
+    {
+      "name": "Anjelica Huston",
+      "tmdbPersonId": 5657
+    },
+    {
+      "name": "Anna Paquin",
+      "tmdbPersonId": 10690
+    },
+    {
+      "name": "Anne Baxter",
+      "tmdbPersonId": 10606
+    },
+    {
+      "name": "Anne Hathaway",
+      "tmdbPersonId": 1813
+    },
+    {
+      "name": "Anne Revere",
+      "tmdbPersonId": 7641
+    },
+    {
+      "name": "Ariana DeBose",
+      "tmdbPersonId": 1437491
+    },
+    {
+      "name": "Beatrice Straight",
+      "tmdbPersonId": 10083
+    },
+    {
+      "name": "Brenda Fricker",
+      "tmdbPersonId": 18345
+    },
+    {
+      "name": "Cate Blanchett",
+      "tmdbPersonId": 112
+    },
+    {
+      "name": "Catherine Zeta-Jones",
+      "tmdbPersonId": 1922
+    },
+    {
+      "name": "Celeste Holm",
+      "tmdbPersonId": 10607
+    },
+    {
+      "name": "Claire Trevor",
+      "tmdbPersonId": 14965
+    },
+    {
+      "name": "Cloris Leachman",
+      "tmdbPersonId": 9599
+    },
+    {
+      "name": "Da'Vine Joy Randolph",
+      "tmdbPersonId": 1180099
+    },
+    {
+      "name": "Dianne Wiest",
+      "tmdbPersonId": 1902
+    },
+    {
+      "name": "Donna Reed",
+      "tmdbPersonId": 17752
+    },
+    {
+      "name": "Dorothy Malone",
+      "tmdbPersonId": 10487
+    },
+    {
+      "name": "Eileen Heckart",
+      "tmdbPersonId": 40618
+    },
+    {
+      "name": "Estelle Parsons",
+      "tmdbPersonId": 6461
+    },
+    {
+      "name": "Ethel Barrymore",
+      "tmdbPersonId": 97777
+    },
+    {
+      "name": "Eva Marie Saint",
+      "tmdbPersonId": 2639
+    },
+    {
+      "name": "Fay Bainter",
+      "tmdbPersonId": 20366
+    },
+    {
+      "name": "Gale Sondergaard",
+      "tmdbPersonId": 25173
+    },
+    {
+      "name": "Geena Davis",
+      "tmdbPersonId": 16935
+    },
+    {
+      "name": "Gloria Grahame",
+      "tmdbPersonId": 77081
+    },
+    {
+      "name": "Goldie Hawn",
+      "tmdbPersonId": 18892
+    },
+    {
+      "name": "Hattie McDaniel",
+      "tmdbPersonId": 11498
+    },
+    {
+      "name": "Helen Hayes",
+      "tmdbPersonId": 47439
+    },
+    {
+      "name": "Ingrid Bergman",
+      "tmdbPersonId": 4111
+    },
+    {
+      "name": "Jamie Lee Curtis",
+      "tmdbPersonId": 8944
+    },
+    {
+      "name": "Jane Darwell",
+      "tmdbPersonId": 8515
+    },
+    {
+      "name": "Jennifer Connelly",
+      "tmdbPersonId": 6161
+    },
+    {
+      "name": "Jennifer Hudson",
+      "tmdbPersonId": 15565
+    },
+    {
+      "name": "Jessica Lange",
+      "tmdbPersonId": 4431
+    },
+    {
+      "name": "Jo Van Fleet",
+      "tmdbPersonId": 2752
+    },
+    {
+      "name": "Josephine Hull",
+      "tmdbPersonId": 2667
+    },
+    {
+      "name": "Judi Dench",
+      "tmdbPersonId": 5309
+    },
+    {
+      "name": "Juliette Binoche",
+      "tmdbPersonId": 1137
+    },
+    {
+      "name": "Katina Paxinou",
+      "tmdbPersonId": 54905
+    },
+    {
+      "name": "Kim Basinger",
+      "tmdbPersonId": 326
+    },
+    {
+      "name": "Kim Hunter",
+      "tmdbPersonId": 10539
+    },
+    {
+      "name": "Laura Dern",
+      "tmdbPersonId": 4784
+    },
+    {
+      "name": "Lee Grant",
+      "tmdbPersonId": 30123
+    },
+    {
+      "name": "Lila Kedrova",
+      "tmdbPersonId": 45523
+    },
+    {
+      "name": "Linda Hunt",
+      "tmdbPersonId": 12516
+    },
+    {
+      "name": "Lupita Nyong'o",
+      "tmdbPersonId": 1267329
+    },
+    {
+      "name": "Maggie Smith",
+      "tmdbPersonId": 10978
+    },
+    {
+      "name": "Marcia Gay Harden",
+      "tmdbPersonId": 4726
+    },
+    {
+      "name": "Margaret Rutherford",
+      "tmdbPersonId": 11127
+    },
+    {
+      "name": "Marisa Tomei",
+      "tmdbPersonId": 3141
+    },
+    {
+      "name": "Mary Astor",
+      "tmdbPersonId": 13992
+    },
+    {
+      "name": "Mary Steenburgen",
+      "tmdbPersonId": 2453
+    },
+    {
+      "name": "Maureen Stapleton",
+      "tmdbPersonId": 21151
+    },
+    {
+      "name": "Melissa Leo",
+      "tmdbPersonId": 6832
+    },
+    {
+      "name": "Mercedes McCambridge",
+      "tmdbPersonId": 18737
+    },
+    {
+      "name": "Mercedes Ruehl",
+      "tmdbPersonId": 2167
+    },
+    {
+      "name": "Meryl Streep",
+      "tmdbPersonId": 5064
+    },
+    {
+      "name": "Mira Sorvino",
+      "tmdbPersonId": 23931
+    },
+    {
+      "name": "Miyoshi Umeki",
+      "tmdbPersonId": 124933
+    },
+    {
+      "name": "Mo'Nique",
+      "tmdbPersonId": 60561
+    },
+    {
+      "name": "Octavia Spencer",
+      "tmdbPersonId": 6944
+    },
+    {
+      "name": "Olympia Dukakis",
+      "tmdbPersonId": 3019
+    },
+    {
+      "name": "Patricia Arquette",
+      "tmdbPersonId": 4687
+    },
+    {
+      "name": "Patty Duke",
+      "tmdbPersonId": 27446
+    },
+    {
+      "name": "Peggy Ashcroft",
+      "tmdbPersonId": 3672
+    },
+    {
+      "name": "Penélope Cruz",
+      "tmdbPersonId": 955
+    },
+    {
+      "name": "Rachel Weisz",
+      "tmdbPersonId": 3293
+    },
+    {
+      "name": "Regina King",
+      "tmdbPersonId": 9788
+    },
+    {
+      "name": "Renée Zellweger",
+      "tmdbPersonId": 9137
+    },
+    {
+      "name": "Rita Moreno",
+      "tmdbPersonId": 13299
+    },
+    {
+      "name": "Ruth Gordon",
+      "tmdbPersonId": 4970
+    },
+    {
+      "name": "Sandy Dennis",
+      "tmdbPersonId": 18365
+    },
+    {
+      "name": "Shelley Winters",
+      "tmdbPersonId": 7632
+    },
+    {
+      "name": "Shirley Jones",
+      "tmdbPersonId": 60158
+    },
+    {
+      "name": "Tatum O'Neal",
+      "tmdbPersonId": 68890
+    },
+    {
+      "name": "Teresa Wright",
+      "tmdbPersonId": 7663
+    },
+    {
+      "name": "Tilda Swinton",
+      "tmdbPersonId": 3063
+    },
+    {
+      "name": "Vanessa Redgrave",
+      "tmdbPersonId": 13333
+    },
+    {
+      "name": "Viola Davis",
+      "tmdbPersonId": 19492
+    },
+    {
+      "name": "Wendy Hiller",
+      "tmdbPersonId": 13325
+    },
+    {
+      "name": "Whoopi Goldberg",
+      "tmdbPersonId": 2395
+    },
+    {
+      "name": "Yuh-Jung Youn",
+      "tmdbPersonId": 1080935
+    },
+    {
+      "name": "Zoe Saldaña",
+      "tmdbPersonId": 8691
+    }
+  ]
+}

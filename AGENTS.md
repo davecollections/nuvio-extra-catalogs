@@ -6,7 +6,7 @@ This repository provides additional Stremio-compatible catalog sources for Nuvio
 
 ## Current phase
 
-V0.4 is complete. Its commit-pinned preview passed Nuvio acceptance, the deployed GitHub Pages manifest and all four catalogues byte-match the accepted merge commit, and the exact tested state is preserved on `release/v0.4.0`. V0.4 includes the complete Academy Best Actress winner history, the shared acting-output path, and canonical People artwork resolution for all 245 current award people. The previous V0.3 rollback point remains preserved on `release/v0.3.0`.
+V0.4 is complete and preserved on `release/v0.4.0`. V0.5 is active under Issue #20 and adds the complete Academy Best Supporting Actor and Best Supporting Actress histories through the shared acting-output path. Canonical data, generated outputs, and complete People artwork coverage are implemented; publication remains gated on final validation and Nuvio acceptance.
 
 ## Guardrails
 
@@ -73,4 +73,4 @@ After a pull request is merged:
 
 ## Next milestone
 
-Select and open a focused GitHub Issue for the next awards-category expansion before implementation. Continue to reuse the canonical awards model, shared generators, native Nuvio person/director sources, and the existing People-artwork integration contract.
+Complete Issue #20 and validate V0.5 in Nuvio: both supporting-acting catalogues, reusable native `PERSON` outputs, configurable 9th-ceremony coverage, and complete machine-readable People artwork integration.

@@ -33,6 +33,7 @@ class ActingCategoryConfig:
     expected_work_links: int
     expected_unique_winners: int
     command_name: str
+    expected_first_ceremony: int = 1
     winner_counts: dict[int, int] = field(default_factory=dict)
     multi_work_counts: dict[int, int] = field(default_factory=dict)
 
@@ -90,6 +91,11 @@ def validate_person(path: Path, result: dict, display_name: str) -> dict:
 
 
 def collect_outputs(config: ActingCategoryConfig) -> tuple[list[dict], list[dict]]:
+    if not 1 <= config.expected_first_ceremony <= config.expected_last_ceremony:
+        raise ValidationError(
+            "Expected first ceremony must be between 1 and the expected last ceremony"
+        )
+
     files = sorted(RESULTS_DIR.glob("*.json"))
     if not files:
         raise ValidationError(f"No ceremony files found under {RESULTS_DIR}")
@@ -136,7 +142,11 @@ def collect_outputs(config: ActingCategoryConfig) -> tuple[list[dict], list[dict
             and result.get("categoryId") == config.category_id
             and result.get("status") == "winner"
         ]
-        expected_count = config.winner_counts.get(number, 1)
+        expected_count = (
+            0
+            if number < config.expected_first_ceremony
+            else config.winner_counts.get(number, 1)
+        )
         if len(winners) != expected_count:
             raise ValidationError(
                 f"{path}: expected {expected_count} {config.display_name} winner result(s), "
@@ -291,7 +301,8 @@ def run(config: ActingCategoryConfig, argv: list[str] | None = None) -> int:
             )
             print(
                 f"{config.display_name} data and generated outputs are valid: "
-                f"{config.expected_last_ceremony} ceremonies, {len(metas)} films, "
+                f"{config.expected_last_ceremony - config.expected_first_ceremony + 1} "
+                f"ceremonies, {len(metas)} films, "
                 f"{len(people)} unique winners."
             )
             return 0

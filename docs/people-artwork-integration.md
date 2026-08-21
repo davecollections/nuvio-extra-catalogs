@@ -1,6 +1,6 @@
 # Awards People artwork integration
 
-Issues: #6 and #17
+Issues: #6, #17, and #20
 
 ## Purpose
 
@@ -20,9 +20,9 @@ canonical People artwork and category membership
 
 ## Verified external baselines
 
-The current deterministic integration report extends the Issue #6 contract for Issue #17 and pins the exact external states it uses:
+The current deterministic integration report extends the Issue #6 contract through Issue #20 and pins the exact external states it uses:
 
-- People artwork: [`davecollections/nuvio-people-assets`](https://github.com/davecollections/nuvio-people-assets) commit `4277be3dcfe3b6806568438ca5408d89ce29f4b2`.
+- People artwork: [`davecollections/nuvio-people-assets`](https://github.com/davecollections/nuvio-people-assets) commit `1fe63648d173760d307751a189709b22fc20e8bf`.
 - Builder migration: [`davecollections/tmdb-id-lookup`](https://github.com/davecollections/tmdb-id-lookup) merge commit `e9eb3b24a93b7e6bbca295a340d035cb018293d9` from PR #119.
 - Builder baseline verified to contain that migration: `fa79389eda7d5ed59707420a16839055e7555b8c`.
 
@@ -48,6 +48,8 @@ Category membership is also resolved from the same manifest record:
 
 - Best Actor requires `actor` membership and is intended for native `PERSON` sources.
 - Best Actress requires `actor` membership and is intended for native `PERSON` sources.
+- Best Supporting Actor requires `actor` membership and is intended for native `PERSON` sources.
+- Best Supporting Actress requires `actor` membership and is intended for native `PERSON` sources.
 - Best Director requires `director` membership and is intended for native `DIRECTOR` sources.
 - A person who is both an actor and director has one TMDB identity, one asset directory, and both memberships. Kevin Costner (`1269`) is the pinned Issue #6 example; no artwork is copied for his director role.
 
@@ -65,18 +67,22 @@ Against the pinned People commit:
 | --- | --- | --- | ---: | ---: | ---: |
 | Best Actor winners | `PERSON` | `actor` | 87/87 | 87/87 | 87/87 |
 | Best Actress winners | `PERSON` | `actor` | 81/81 | 81/81 | 81/81 |
+| Best Supporting Actor winners | `PERSON` | `actor` | 81/81 | 81/81 | 81/81 |
+| Best Supporting Actress winners | `PERSON` | `actor` | 88/88 | 88/88 | 88/88 |
 | Best Director winners | `DIRECTOR` | `director` | 77/77 | 77/77 | 77/77 |
-| All current unique awards people | — | — | 245/245 | 245/245 | 245/245 |
+| All current unique awards people | — | — | 400/400 | 400/400 | 400/400 |
 
-Current evidence for all three person-recipient categories is [`reports/issue-17-awards-people-artwork-integration.json`](../reports/issue-17-awards-people-artwork-integration.json). The Issue #6 integration report and the Issue #4, #5, and #17 gap reports remain historical snapshots. In particular, the Best Actress gap snapshot records the 79/81 state before Luise Rainer (`125482`) and Mikey Madison (`1640439`) were registered upstream.
+Current evidence for all five person/director categories is [`reports/issue-20-awards-people-artwork-integration.json`](../reports/issue-20-awards-people-artwork-integration.json). It records complete coverage after the 25-person Issue #20 handoff was published. The Issue #6 and #17 integration reports plus the earlier category gap reports remain historical snapshots.
 
 ## Reproducing the check
 
-The default path fetches the immutable People manifest from GitHub's production raw-content route and verifies its exact SHA-256 before checking coverage:
+The default path fetches the immutable People manifest from GitHub's production raw-content route and verifies its exact SHA-256 before checking complete coverage:
 
 ```bash
 python scripts/check_people_artwork_integration.py --check
 ```
+
+The `--allow-incomplete` flag is reserved for future development evidence when a new category introduces upstream gaps. Normal `--check` is the CI/release gate and requires every current award person to resolve with required artwork.
 
 For an offline check, a local copy is accepted only when its bytes match the same pinned manifest:
 
