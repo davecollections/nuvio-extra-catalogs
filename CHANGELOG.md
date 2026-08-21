@@ -4,6 +4,13 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ## [Unreleased]
 
+### Planned
+
+- Select and scope the next award body, declaring its authoritative source before importing results.
+- When a second award body is ready, scope award-body-level manifest presets or configuration while preserving the current all-awards manifest URL and stable catalogue IDs.
+
+## [1.0.0] - 2026-08-21
+
 ### Added
 
 - Complete winner histories for all 18 remaining current Academy categories under Issue #24, bringing the canonical registry and manifest to all 24 categories awarded at the 98th Academy Awards.
@@ -16,7 +23,7 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ### Changed
 
-- Preview manifest version advances to `1.0.0` and declares all 24 current competitive Academy winner-film catalogues.
+- Manifest version advances to `1.0.0` and declares all 24 current competitive Academy winner-film catalogues.
 - The compact Academy Awards landing-page disclosure reports 24 catalogues and bounds the expanded list within a scrollable detail area.
 - Shared identity validation now enforces consistent IMDb Person and TMDB Person mappings across categories.
 - The source strategy records the pinned all-category Oscar reconciliation snapshot and permits Wikidata only for candidate-ID discovery followed by mandatory TMDB external-ID confirmation.
@@ -30,6 +37,16 @@ All notable project milestones are recorded here. This project uses semantic ver
 - Manifest/catalogue validation passes with 24 declared files and 2,054 total unique Meta Preview items.
 - All six released V0.5 generators and the strict 400-person People artwork integration check continue to pass unchanged.
 - Issue #24 publishes movie catalogues only, so its 1,661 informational missing People-assets records are not a release gate and no cross-repository artwork handoff is required.
+
+### Validated in Nuvio
+
+- The owner loaded immutable preview commit `a2994d7d6162adf107365bd2afe015ac7d9ebefb` and verified all 24 catalogues, including the one-film Casting history introduced at the 98th ceremony.
+- Refreshing the deployed production manifest applied live version `1.0.0`, and the owner confirmed the live release.
+- The deployed GitHub Pages landing page, manifest, and all 24 catalogue payloads return HTTP 200 and byte-match merge commit `a49585b53bcfd95cadfb8f9a2077a02f41d82310`.
+
+### Known-good rollback point
+
+The exact live-tested V1.0 state is preserved on branch `release/v1.0.0`, pointing to merge commit `a49585b53bcfd95cadfb8f9a2077a02f41d82310`.
 
 ## [0.5.0] - 2026-08-21
 
