@@ -17,7 +17,7 @@ SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 FILE_RE = re.compile(r"^(?P<number>\d{3})-(?P<year>\d{4})\.json$")
 IMDB_RE = re.compile(r"^tt\d+$")
 IMDB_PERSON_RE = re.compile(r"^nm\d+$")
-MEDIA_TYPES = {"movie", "series"}
+MEDIA_TYPES = {"movie", "series", "podcast"}
 CATEGORY_MEDIA_TYPES = MEDIA_TYPES | {"mixed"}
 RECIPIENT_KINDS = {"work", "person", "team", "other"}
 CREDIT_ROLES = {
@@ -269,8 +269,13 @@ def register_work(path: Path, work: dict, identities: IdentityRegistry) -> None:
         key = (media_type, tmdb_id)
         value = (title, imdb_id)
         existing = identities.works_by_tmdb.get(key)
-        if existing is not None and existing[0] != title:
-            fail(path, f"TMDB {media_type} ID {tmdb_id} maps to both {existing[0]!r} and {title!r}")
+        # Award authorities often use different release titles for the same
+        # stable work (for example, "Sunset Blvd." and "Sunset Boulevard").
+        # Treat those as aliases when the external identifiers agree.
+        if existing is not None and existing[1] and imdb_id and existing[1] != imdb_id:
+            fail(path, f"TMDB {media_type} ID {tmdb_id} maps to multiple IMDb IDs")
+        if existing is not None and imdb_id is None:
+            value = (title, existing[1])
         identities.works_by_tmdb[key] = value
         if imdb_id is not None:
             existing_imdb = identities.imdb_by_tmdb.get(key)
@@ -281,8 +286,8 @@ def register_work(path: Path, work: dict, identities: IdentityRegistry) -> None:
     if imdb_id is not None:
         value = (media_type, title, tmdb_id)
         existing = identities.works_by_imdb.get(imdb_id)
-        if existing is not None and (existing[0] != media_type or existing[1] != title):
-            fail(path, f"IMDb ID {imdb_id} maps to conflicting work identities")
+        if existing is not None and existing[0] != media_type:
+            fail(path, f"IMDb ID {imdb_id} maps to conflicting media types")
         if existing is not None and existing[2] is not None and tmdb_id is not None and existing[2] != tmdb_id:
             fail(path, f"IMDb ID {imdb_id} maps to multiple TMDB IDs")
         if existing is not None and tmdb_id is None:
@@ -302,7 +307,7 @@ def validate_work(path: Path, raw_work: object, category: dict, identities: Iden
     )
     media_type = raw_work["mediaType"]
     if media_type not in MEDIA_TYPES:
-        fail(path, "work.mediaType must be movie or series")
+        fail(path, "work.mediaType must be movie, series, or podcast")
     if category["mediaType"] != "mixed" and media_type != category["mediaType"]:
         fail(path, f"work.mediaType {media_type!r} conflicts with category mediaType")
     title = require_nonempty_string(path, raw_work["title"], "work.title")
@@ -405,7 +410,17 @@ def validate_result(
         path,
         raw_result,
         {"categoryId", "status"},
-        {"categoryId", "status", "work", "works", "people", "recipientLabel", "note"},
+        {
+            "categoryId",
+            "status",
+            "sourceCategory",
+            "sourceRecordId",
+            "work",
+            "works",
+            "people",
+            "recipientLabel",
+            "note",
+        },
         "result",
     )
     category_id = require_slug(path, raw_result["categoryId"], "result.categoryId")
@@ -415,6 +430,10 @@ def validate_result(
     status = raw_result["status"]
     if status not in STATUSES:
         fail(path, "result.status must be winner or nominee")
+    if "sourceCategory" in raw_result:
+        require_nonempty_string(path, raw_result["sourceCategory"], "result.sourceCategory")
+    if "sourceRecordId" in raw_result:
+        require_positive_int(path, raw_result["sourceRecordId"], "result.sourceRecordId")
 
     has_work = "work" in raw_result
     has_works = "works" in raw_result

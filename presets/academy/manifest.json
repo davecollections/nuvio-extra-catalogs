@@ -1,0 +1,134 @@
+{
+  "id": "com.davecollections.nuvio.extra.academy",
+  "version": "1.1.0",
+  "name": "Nuvio Extra Catalogs — Academy Awards",
+  "description": "Complete Academy Awards winning-film catalogues for Nuvio and other compatible clients.",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "academy-best-picture-winners",
+      "name": "Academy Awards — Best Picture Winners"
+    },
+    {
+      "type": "movie",
+      "id": "academy-best-actor-winning-films",
+      "name": "Academy Awards — Best Actor Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "academy-best-actress-winning-films",
+      "name": "Academy Awards — Best Actress Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "academy-best-supporting-actor-winning-films",
+      "name": "Academy Awards — Best Supporting Actor Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "academy-best-supporting-actress-winning-films",
+      "name": "Academy Awards — Best Supporting Actress Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "academy-best-director-winning-films",
+      "name": "Academy Awards — Best Director Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "academy-animated-feature-film-winning-films",
+      "name": "Academy Awards — Animated Feature Film Winners"
+    },
+    {
+      "type": "movie",
+      "id": "academy-animated-short-film-winning-films",
+      "name": "Academy Awards — Animated Short Film Winners"
+    },
+    {
+      "type": "movie",
+      "id": "academy-casting-winning-films",
+      "name": "Academy Awards — Casting Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "academy-cinematography-winning-films",
+      "name": "Academy Awards — Cinematography Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "academy-costume-design-winning-films",
+      "name": "Academy Awards — Costume Design Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "academy-documentary-feature-film-winning-films",
+      "name": "Academy Awards — Documentary Feature Film Winners"
+    },
+    {
+      "type": "movie",
+      "id": "academy-documentary-short-film-winning-films",
+      "name": "Academy Awards — Documentary Short Film Winners"
+    },
+    {
+      "type": "movie",
+      "id": "academy-film-editing-winning-films",
+      "name": "Academy Awards — Film Editing Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "academy-international-feature-film-winning-films",
+      "name": "Academy Awards — International Feature Film Winners"
+    },
+    {
+      "type": "movie",
+      "id": "academy-live-action-short-film-winning-films",
+      "name": "Academy Awards — Live Action Short Film Winners"
+    },
+    {
+      "type": "movie",
+      "id": "academy-makeup-and-hairstyling-winning-films",
+      "name": "Academy Awards — Makeup and Hairstyling Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "academy-original-score-winning-films",
+      "name": "Academy Awards — Original Score Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "academy-original-song-winning-films",
+      "name": "Academy Awards — Original Song Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "academy-production-design-winning-films",
+      "name": "Academy Awards — Production Design Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "academy-sound-winning-films",
+      "name": "Academy Awards — Sound Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "academy-visual-effects-winning-films",
+      "name": "Academy Awards — Visual Effects Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "academy-adapted-screenplay-winning-films",
+      "name": "Academy Awards — Adapted Screenplay Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "academy-original-screenplay-winning-films",
+      "name": "Academy Awards — Original Screenplay Winning Films"
+    }
+  ]
+}

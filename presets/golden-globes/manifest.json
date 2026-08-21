@@ -1,0 +1,185 @@
+{
+  "id": "com.davecollections.nuvio.extra.goldenglobes",
+  "version": "1.1.0",
+  "name": "Nuvio Extra Catalogs — Golden Globes",
+  "description": "Complete Golden Globes film and television winner catalogues for Nuvio and other compatible clients.",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie",
+    "series"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "golden-globes-motion-picture-drama-winning-films",
+      "name": "Golden Globes — Motion Picture Drama Winners"
+    },
+    {
+      "type": "movie",
+      "id": "golden-globes-motion-picture-musical-or-comedy-winning-films",
+      "name": "Golden Globes — Motion Picture Musical or Comedy Winners"
+    },
+    {
+      "type": "movie",
+      "id": "golden-globes-motion-picture-animated-winning-films",
+      "name": "Golden Globes — Animated Motion Picture Winners"
+    },
+    {
+      "type": "movie",
+      "id": "golden-globes-motion-picture-non-english-language-winning-films",
+      "name": "Golden Globes — Non-English Language Motion Picture Winners"
+    },
+    {
+      "type": "movie",
+      "id": "golden-globes-female-actor-motion-picture-drama-winning-films",
+      "name": "Golden Globes — Female Actor, Motion Picture Drama"
+    },
+    {
+      "type": "movie",
+      "id": "golden-globes-male-actor-motion-picture-drama-winning-films",
+      "name": "Golden Globes — Male Actor, Motion Picture Drama"
+    },
+    {
+      "type": "movie",
+      "id": "golden-globes-female-actor-motion-picture-musical-or-comedy-winning-films",
+      "name": "Golden Globes — Female Actor, Motion Picture Musical or Comedy"
+    },
+    {
+      "type": "movie",
+      "id": "golden-globes-male-actor-motion-picture-musical-or-comedy-winning-films",
+      "name": "Golden Globes — Male Actor, Motion Picture Musical or Comedy"
+    },
+    {
+      "type": "movie",
+      "id": "golden-globes-female-supporting-actor-motion-picture-winning-films",
+      "name": "Golden Globes — Female Supporting Actor, Motion Picture"
+    },
+    {
+      "type": "movie",
+      "id": "golden-globes-male-supporting-actor-motion-picture-winning-films",
+      "name": "Golden Globes — Male Supporting Actor, Motion Picture"
+    },
+    {
+      "type": "movie",
+      "id": "golden-globes-director-motion-picture-winning-films",
+      "name": "Golden Globes — Director, Motion Picture"
+    },
+    {
+      "type": "movie",
+      "id": "golden-globes-screenplay-motion-picture-winning-films",
+      "name": "Golden Globes — Screenplay, Motion Picture"
+    },
+    {
+      "type": "movie",
+      "id": "golden-globes-original-score-motion-picture-winning-films",
+      "name": "Golden Globes — Original Score, Motion Picture"
+    },
+    {
+      "type": "movie",
+      "id": "golden-globes-original-song-motion-picture-winning-films",
+      "name": "Golden Globes — Original Song, Motion Picture"
+    },
+    {
+      "type": "movie",
+      "id": "golden-globes-cinematic-and-box-office-achievement-winning-films",
+      "name": "Golden Globes — Cinematic and Box Office Achievement"
+    },
+    {
+      "type": "series",
+      "id": "golden-globes-television-series-drama-winning-series",
+      "name": "Golden Globes — Television Series Drama Winners"
+    },
+    {
+      "type": "series",
+      "id": "golden-globes-television-series-musical-or-comedy-winning-series",
+      "name": "Golden Globes — Television Series Musical or Comedy Winners"
+    },
+    {
+      "type": "movie",
+      "id": "golden-globes-television-limited-anthology-or-movie-winning-films",
+      "name": "Golden Globes — Limited, Anthology or TV Movie Winning Films"
+    },
+    {
+      "type": "series",
+      "id": "golden-globes-television-limited-anthology-or-movie-winning-series",
+      "name": "Golden Globes — Limited or Anthology Winning Series"
+    },
+    {
+      "type": "movie",
+      "id": "golden-globes-female-actor-television-series-drama-winning-films",
+      "name": "Golden Globes — Female Actor, Television Drama — Films"
+    },
+    {
+      "type": "series",
+      "id": "golden-globes-female-actor-television-series-drama-winning-series",
+      "name": "Golden Globes — Female Actor, Television Drama — Series"
+    },
+    {
+      "type": "series",
+      "id": "golden-globes-male-actor-television-series-drama-winning-series",
+      "name": "Golden Globes — Male Actor, Television Drama"
+    },
+    {
+      "type": "movie",
+      "id": "golden-globes-female-actor-television-series-musical-or-comedy-winning-films",
+      "name": "Golden Globes — Female Actor, Television Musical or Comedy — Films"
+    },
+    {
+      "type": "series",
+      "id": "golden-globes-female-actor-television-series-musical-or-comedy-winning-series",
+      "name": "Golden Globes — Female Actor, Television Musical or Comedy — Series"
+    },
+    {
+      "type": "series",
+      "id": "golden-globes-male-actor-television-series-musical-or-comedy-winning-series",
+      "name": "Golden Globes — Male Actor, Television Musical or Comedy"
+    },
+    {
+      "type": "movie",
+      "id": "golden-globes-female-supporting-actor-television-winning-films",
+      "name": "Golden Globes — Female Supporting Actor, Television — Films"
+    },
+    {
+      "type": "series",
+      "id": "golden-globes-female-supporting-actor-television-winning-series",
+      "name": "Golden Globes — Female Supporting Actor, Television — Series"
+    },
+    {
+      "type": "movie",
+      "id": "golden-globes-male-supporting-actor-television-winning-films",
+      "name": "Golden Globes — Male Supporting Actor, Television — Films"
+    },
+    {
+      "type": "series",
+      "id": "golden-globes-male-supporting-actor-television-winning-series",
+      "name": "Golden Globes — Male Supporting Actor, Television — Series"
+    },
+    {
+      "type": "movie",
+      "id": "golden-globes-female-actor-limited-anthology-or-television-movie-winning-films",
+      "name": "Golden Globes — Female Actor, Limited/Anthology/TV Movie — Films"
+    },
+    {
+      "type": "series",
+      "id": "golden-globes-female-actor-limited-anthology-or-television-movie-winning-series",
+      "name": "Golden Globes — Female Actor, Limited/Anthology — Series"
+    },
+    {
+      "type": "movie",
+      "id": "golden-globes-male-actor-limited-anthology-or-television-movie-winning-films",
+      "name": "Golden Globes — Male Actor, Limited/Anthology/TV Movie — Films"
+    },
+    {
+      "type": "series",
+      "id": "golden-globes-male-actor-limited-anthology-or-television-movie-winning-series",
+      "name": "Golden Globes — Male Actor, Limited/Anthology — Series"
+    },
+    {
+      "type": "movie",
+      "id": "golden-globes-stand-up-comedy-television-winning-films",
+      "name": "Golden Globes — Stand-Up Comedy on Television"
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#06111a">
   <meta name="color-scheme" content="dark">
-  <meta name="description" content="Additional catalog sources for Nuvio collections, beginning with Academy Awards catalogs.">
+  <meta name="description" content="Academy Awards and Golden Globes film and television catalog sources for Nuvio collections.">
   <title>Nuvio Extra Catalogs</title>
   <style>
     :root {
@@ -91,6 +91,15 @@
       min-width:0; color:var(--text); font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace;
       font-size:.72rem; line-height:1.38; overflow-wrap:anywhere;
     }
+    .manifest-picker { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+    .manifest-choice {
+      min-height:30px; padding:6px 9px; color:var(--muted); font-size:.67rem; font-weight:800;
+      background:rgb(5 17 25 / 62%); border:1px solid var(--border); border-radius:8px; cursor:pointer;
+    }
+    .manifest-choice:hover { border-color:var(--border-strong); color:var(--text); }
+    .manifest-choice[aria-pressed="true"] {
+      color:#031119; background:linear-gradient(135deg,var(--cyan),var(--green)); border-color:transparent;
+    }
 
     .action-row { display:flex; flex-wrap:wrap; align-items:center; gap:8px; }
     .primary-action,.secondary-action {
@@ -108,7 +117,8 @@
     .placeholder-action:hover { filter:none; }
     .copy-status { min-height:.9em; margin:6px 0 0; color:var(--green); font-size:.67rem; font-weight:760; }
 
-    .catalog-disclosure { margin-top:2px; }
+    .catalog-stack { display:grid; gap:8px; margin-top:2px; }
+    .catalog-disclosure { margin:0; }
     .catalog-summary {
       display:grid; grid-template-columns:auto minmax(0,1fr) auto auto; align-items:center; gap:11px;
       padding:11px; list-style:none; cursor:pointer;
@@ -126,6 +136,7 @@
       display:grid; width:40px; height:40px; place-items:center; color:#031119;
       font-size:1rem; font-weight:950; background:linear-gradient(145deg,var(--cyan-bright),var(--green)); border-radius:9px;
     }
+    .catalog-summary-mark.golden { background:linear-gradient(145deg,var(--amber),var(--green)); }
     .catalog-summary-copy,.catalog-summary-title,.catalog-summary-meta { display:block; }
     .catalog-summary-title { font-size:.94rem; font-weight:850; letter-spacing:-.015em; }
     .catalog-summary-meta { margin-top:2px; color:var(--muted); font-size:.67rem; line-height:1.35; }
@@ -193,9 +204,9 @@
           <p class="subtitle">Extra catalog sources for Nuvio collections</p>
         </div>
       </div>
-      <p class="hero-copy">A lightweight, Stremio-compatible companion add-on for useful catalog sources that are not currently exposed by Nuvio's standard TMDB catalog experience. The first focus is awards data.</p>
+      <p class="hero-copy">A lightweight, Stremio-compatible companion add-on for useful film and television catalog sources that are not currently exposed by Nuvio's standard TMDB catalog experience. The first focus is awards data.</p>
       <div class="status-row" aria-label="Project status">
-        <span class="status-chip">v1.0 Complete Academy Awards</span>
+        <span class="status-chip">v1.1 Academy Awards + Golden Globes</span>
         <span class="status-chip">Catalog-only architecture</span>
         <span class="status-chip">Hosted on GitHub Pages</span>
       </div>
@@ -205,22 +216,28 @@
       <section class="panel card" aria-labelledby="install-title">
         <p class="kicker">Install</p>
         <h2 id="install-title">Add Extra Catalogs to Nuvio</h2>
-        <p class="section-copy">Add the manifest URL to Nuvio's add-on manager, then use its catalogs directly or as sources inside Nuvio Collections.</p>
+        <p class="section-copy">Choose all awards or one award body, then add that manifest URL to Nuvio's add-on manager.</p>
+        <div class="manifest-picker" role="group" aria-label="Choose manifest contents">
+          <button class="manifest-choice" type="button" aria-pressed="true" data-manifest-url="https://davecollections.github.io/nuvio-extra-catalogs/manifest.json" data-manifest-href="./manifest.json">All awards</button>
+          <button class="manifest-choice" type="button" aria-pressed="false" data-manifest-url="https://davecollections.github.io/nuvio-extra-catalogs/presets/academy/manifest.json" data-manifest-href="./presets/academy/manifest.json">Academy Awards</button>
+          <button class="manifest-choice" type="button" aria-pressed="false" data-manifest-url="https://davecollections.github.io/nuvio-extra-catalogs/presets/golden-globes/manifest.json" data-manifest-href="./presets/golden-globes/manifest.json">Golden Globes</button>
+        </div>
         <div class="manifest-box">
           <span>Manifest URL</span>
           <code id="manifest-url">https://davecollections.github.io/nuvio-extra-catalogs/manifest.json</code>
         </div>
         <div class="action-row">
           <button class="primary-action" id="copy-manifest" type="button">Copy manifest URL</button>
-          <a class="secondary-action" href="./manifest.json">Open manifest</a>
+          <a class="secondary-action" id="open-manifest" href="./manifest.json">Open manifest</a>
           <a class="secondary-action" href="https://github.com/davecollections/nuvio-extra-catalogs">View on GitHub</a>
         </div>
         <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
       </section>
 
-      <section class="panel card" aria-labelledby="catalog-title">
+      <section class="panel card" aria-label="Available award catalogues">
         <p class="kicker">Available now</p>
-        <details class="catalog-disclosure">
+        <div class="catalog-stack">
+          <details class="catalog-disclosure">
           <summary class="catalog-summary">
             <span class="catalog-summary-mark" aria-hidden="true">A</span>
             <span class="catalog-summary-copy">
@@ -256,7 +273,48 @@
             <div class="catalog-item"><strong>Adapted Screenplay Winning Films</strong><span>1929–2026</span></div>
             <div class="catalog-item"><strong>Original Screenplay Winning Films</strong><span>1941–2026</span></div>
           </div>
-        </details>
+          </details>
+          <details class="catalog-disclosure">
+            <summary class="catalog-summary">
+              <span class="catalog-summary-mark golden" aria-hidden="true">G</span>
+              <span class="catalog-summary-copy">
+                <span class="catalog-summary-title" role="heading" aria-level="2">Golden Globes</span>
+                <span class="catalog-summary-meta">Current film and television category lineages · 1944–2026</span>
+              </span>
+              <span class="catalog-count">34 catalogues</span>
+            </summary>
+            <p class="catalog-intro">Twenty-seven catalogue-compatible categories. Mixed television histories split into film and series catalogues using each winning work's actual metadata type. Best Podcast is preserved as canonical data but cannot be a Stremio catalogue.</p>
+            <div class="catalog-list" aria-label="Golden Globes catalogue categories">
+              <div class="catalog-item"><strong>Motion Picture — Drama</strong><span>Film</span></div>
+              <div class="catalog-item"><strong>Motion Picture — Musical or Comedy</strong><span>Film</span></div>
+              <div class="catalog-item"><strong>Motion Picture — Animated</strong><span>Film</span></div>
+              <div class="catalog-item"><strong>Motion Picture — Non-English Language</strong><span>Film</span></div>
+              <div class="catalog-item"><strong>Female Actor — Motion Picture Drama</strong><span>Film</span></div>
+              <div class="catalog-item"><strong>Male Actor — Motion Picture Drama</strong><span>Film</span></div>
+              <div class="catalog-item"><strong>Female Actor — Motion Picture Musical or Comedy</strong><span>Film</span></div>
+              <div class="catalog-item"><strong>Male Actor — Motion Picture Musical or Comedy</strong><span>Film</span></div>
+              <div class="catalog-item"><strong>Female Supporting Actor — Motion Picture</strong><span>Film</span></div>
+              <div class="catalog-item"><strong>Male Supporting Actor — Motion Picture</strong><span>Film</span></div>
+              <div class="catalog-item"><strong>Director — Motion Picture</strong><span>Film</span></div>
+              <div class="catalog-item"><strong>Screenplay — Motion Picture</strong><span>Film</span></div>
+              <div class="catalog-item"><strong>Original Score — Motion Picture</strong><span>Film</span></div>
+              <div class="catalog-item"><strong>Original Song — Motion Picture</strong><span>Film</span></div>
+              <div class="catalog-item"><strong>Cinematic and Box Office Achievement</strong><span>Film</span></div>
+              <div class="catalog-item"><strong>Television Series — Drama</strong><span>Series</span></div>
+              <div class="catalog-item"><strong>Television Series — Musical or Comedy</strong><span>Series</span></div>
+              <div class="catalog-item"><strong>Limited, Anthology, or TV Movie</strong><span>Film + series</span></div>
+              <div class="catalog-item"><strong>Female Actor — Television Drama</strong><span>Film + series</span></div>
+              <div class="catalog-item"><strong>Male Actor — Television Drama</strong><span>Series</span></div>
+              <div class="catalog-item"><strong>Female Actor — Television Musical or Comedy</strong><span>Film + series</span></div>
+              <div class="catalog-item"><strong>Male Actor — Television Musical or Comedy</strong><span>Series</span></div>
+              <div class="catalog-item"><strong>Female Supporting Actor — Television</strong><span>Film + series</span></div>
+              <div class="catalog-item"><strong>Male Supporting Actor — Television</strong><span>Film + series</span></div>
+              <div class="catalog-item"><strong>Female Actor — Limited, Anthology, or TV Movie</strong><span>Film + series</span></div>
+              <div class="catalog-item"><strong>Male Actor — Limited, Anthology, or TV Movie</strong><span>Film + series</span></div>
+              <div class="catalog-item"><strong>Stand-Up Comedy on Television</strong><span>Film</span></div>
+            </div>
+          </details>
+        </div>
       </section>
     </div>
 
@@ -303,9 +361,20 @@
   </main>
 
   <script>
-    const manifestUrl = document.getElementById("manifest-url").textContent.trim();
+    const manifestUrl = document.getElementById("manifest-url");
     const copyButton = document.getElementById("copy-manifest");
     const copyStatus = document.getElementById("copy-status");
+    const openManifest = document.getElementById("open-manifest");
+    const manifestChoices = [...document.querySelectorAll(".manifest-choice")];
+
+    manifestChoices.forEach((choice) => {
+      choice.addEventListener("click", () => {
+        manifestChoices.forEach((button) => button.setAttribute("aria-pressed", String(button === choice)));
+        manifestUrl.textContent = choice.dataset.manifestUrl;
+        openManifest.href = choice.dataset.manifestHref;
+        copyStatus.textContent = "";
+      });
+    });
 
     async function copyText(text) {
       if (navigator.clipboard && window.isSecureContext) {
@@ -326,7 +395,7 @@
 
     copyButton.addEventListener("click", async () => {
       try {
-        await copyText(manifestUrl);
+        await copyText(manifestUrl.textContent.trim());
         copyButton.textContent = "Copied";
         copyStatus.textContent = "Manifest URL copied.";
         window.setTimeout(() => {

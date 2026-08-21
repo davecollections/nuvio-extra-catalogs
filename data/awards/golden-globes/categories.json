@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 1,
+  "awardBodyId": "golden-globes",
+  "categories": [
+    {
+      "id": "motion-picture-drama",
+      "name": "Best Motion Picture — Drama",
+      "aliases": [
+        "Best Motion Picture - Drama",
+        "Picture"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "work"
+    },
+    {
+      "id": "motion-picture-musical-or-comedy",
+      "name": "Best Motion Picture — Musical or Comedy",
+      "aliases": [
+        "Best Motion Picture - Musical or Comedy",
+        "Picture - Comedy",
+        "Picture - Musical"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "work"
+    },
+    {
+      "id": "motion-picture-animated",
+      "name": "Best Motion Picture — Animated",
+      "aliases": [
+        "Best Motion Picture - Animated"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "work"
+    },
+    {
+      "id": "motion-picture-non-english-language",
+      "name": "Best Motion Picture — Non-English Language",
+      "aliases": [
+        "Best Motion Picture – Non-English Language",
+        "Foreign Film - Foreign Language"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "work"
+    },
+    {
+      "id": "female-actor-motion-picture-drama",
+      "name": "Best Female Actor in a Motion Picture — Drama",
+      "aliases": [
+        "Best Performance by a Female Actor in a Motion Picture – Drama",
+        "Best Performance by an Actress in a Motion Picture - Drama",
+        "Actress In A Leading Role"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
+      "id": "male-actor-motion-picture-drama",
+      "name": "Best Male Actor in a Motion Picture — Drama",
+      "aliases": [
+        "Best Performance by a Male Actor in a Motion Picture – Drama",
+        "Best Performance by an Actor in a Motion Picture - Drama",
+        "Actor In A Leading Role"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
+      "id": "female-actor-motion-picture-musical-or-comedy",
+      "name": "Best Female Actor in a Motion Picture — Musical or Comedy",
+      "aliases": [
+        "Best Performance by a Female Actor in a Motion Picture – Musical or Comedy",
+        "Best Performance by an Actress in a Motion Picture - Musical or Comedy",
+        "Actress In A Leading Role - Musical Or Comedy"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
+      "id": "male-actor-motion-picture-musical-or-comedy",
+      "name": "Best Male Actor in a Motion Picture — Musical or Comedy",
+      "aliases": [
+        "Best Performance by a Male Actor in a Motion Picture – Musical or Comedy",
+        "Best Performance by an Actor in a Motion Picture - Musical or Comedy"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
+      "id": "female-supporting-actor-motion-picture",
+      "name": "Best Female Actor in a Supporting Role in Any Motion Picture",
+      "aliases": [
+        "Best Performance by a Female Actor in a Supporting Role in any Motion Picture",
+        "Best Performance by an Actress in a Supporting Role in any Motion Picture"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
+      "id": "male-supporting-actor-motion-picture",
+      "name": "Best Male Actor in a Supporting Role in Any Motion Picture",
+      "aliases": [
+        "Best Performance by a Male Actor in a Supporting Role in any Motion Picture",
+        "Best Performance by an Actor in a Supporting Role in any Motion Picture"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
+      "id": "director-motion-picture",
+      "name": "Best Director — Motion Picture",
+      "aliases": [
+        "Best Director - Motion Picture"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "person",
+      "creditRole": "director"
+    },
+    {
+      "id": "screenplay-motion-picture",
+      "name": "Best Screenplay — Motion Picture",
+      "aliases": [
+        "Best Screenplay - Motion Picture"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "writer"
+    },
+    {
+      "id": "original-score-motion-picture",
+      "name": "Best Original Score — Motion Picture",
+      "aliases": [
+        "Best Original Score - Motion Picture"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "person",
+      "creditRole": "composer"
+    },
+    {
+      "id": "original-song-motion-picture",
+      "name": "Best Original Song — Motion Picture",
+      "aliases": [
+        "Best Original Song - Motion Picture"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "other",
+      "creditRole": "composer"
+    },
+    {
+      "id": "cinematic-and-box-office-achievement",
+      "name": "Cinematic and Box Office Achievement",
+      "mediaType": "movie",
+      "recipientKind": "work"
+    },
+    {
+      "id": "television-series-drama",
+      "name": "Best Television Series — Drama",
+      "aliases": [
+        "Best Television Series - Drama"
+      ],
+      "mediaType": "series",
+      "recipientKind": "work"
+    },
+    {
+      "id": "television-series-musical-or-comedy",
+      "name": "Best Television Series — Musical or Comedy",
+      "aliases": [
+        "Best Television Series - Musical or Comedy",
+        "Television Series - Comedy"
+      ],
+      "mediaType": "series",
+      "recipientKind": "work"
+    },
+    {
+      "id": "television-limited-anthology-or-movie",
+      "name": "Best Television Limited Series, Anthology Series, or Motion Picture Made for Television",
+      "aliases": [
+        "Television Movie"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "work"
+    },
+    {
+      "id": "female-actor-television-series-drama",
+      "name": "Best Female Actor in a Television Series — Drama",
+      "aliases": [
+        "Best Performance by a Female Actor in a Television Series – Drama",
+        "Best Performance by an Actress In A Television Series - Drama",
+        "Actress In A Television Series - Drama",
+        "Actress In A Leading Role - Drama Series Or Television Movie"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
+      "id": "male-actor-television-series-drama",
+      "name": "Best Male Actor in a Television Series — Drama",
+      "aliases": [
+        "Best Performance by a Male Actor in a Television Series – Drama",
+        "Best Performance by an Actor In A Television Series - Drama",
+        "Actor In A Television Series - Drama",
+        "Actor In A Leading Role - Drama Series Or Television Movie"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
+      "id": "female-actor-television-series-musical-or-comedy",
+      "name": "Best Female Actor in a Television Series — Musical or Comedy",
+      "aliases": [
+        "Best Performance by a Female Actor in a Television Series – Musical or Comedy",
+        "Best Performance by an Actress in a Television Series - Musical or Comedy",
+        "Actress In A Television Series - Musical Or Comedy",
+        "Actress In A Leading Role - Musical Or Comedy Series Or Television Movie"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
+      "id": "male-actor-television-series-musical-or-comedy",
+      "name": "Best Male Actor in a Television Series — Musical or Comedy",
+      "aliases": [
+        "Best Performance by a Male Actor in a Television Series – Musical or Comedy",
+        "Best Performance by an Actor in a Television Series - Musical or Comedy",
+        "Actor In A Television Series - Musical Or Comedy",
+        "Actor In A Leading Role - Musical Or Comedy Series Or Television Movie"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
+      "id": "female-supporting-actor-television",
+      "name": "Best Female Actor in a Supporting Role on Television",
+      "aliases": [
+        "Best Performance by a Female Actor in a Supporting Role on Television",
+        "Best Performance by an Actress in a Supporting Role in a Series, Limited Series or Motion Picture Made for Television",
+        "Best Performance by an Actress in a Supporting Role in a Limited Series, Anthology Series or Motion Picture Made for Television",
+        "Best Performance by an Actress in a Supporting Role in a Musical-Comedy or Drama Television Series",
+        "Actress In A Supporting Role - Series Or Television Movie",
+        "Actress In A Supporting Role - Television Series"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
+      "id": "male-supporting-actor-television",
+      "name": "Best Male Actor in a Supporting Role on Television",
+      "aliases": [
+        "Best Performance by a Male Actor in a Supporting Role on Television",
+        "Best Performance by an Actor in a Supporting Role in a Series, Limited Series or Motion Picture Made for Television",
+        "Best Performance by an Actor in a Supporting Role in a Limited Series, Anthology Series or Motion Picture Made for Television",
+        "Best Performance by an Actor in a Supporting Role in a Musical-Comedy or Drama Television Series",
+        "Actor In A Supporting Role - Series Or Television Movie",
+        "Actor In A Supporting Role - Television Series"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
+      "id": "female-actor-limited-anthology-or-television-movie",
+      "name": "Best Female Actor in a Limited Series, Anthology Series, or Motion Picture Made for Television",
+      "aliases": [
+        "Best Performance by a Female Actor in a Limited Series, Anthology Series, or a Motion Picture Made for Television",
+        "Best Performance by an Actress in a Limited Series, Anthology Series, or a Motion Picture Made for Television"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
+      "id": "male-actor-limited-anthology-or-television-movie",
+      "name": "Best Male Actor in a Limited Series, Anthology Series, or Motion Picture Made for Television",
+      "aliases": [
+        "Best Performance by a Male Actor in a Limited Series, Anthology Series, or a Motion Picture Made for Television",
+        "Best Performance by an Actor in a Limited Series, Anthology Series, or a Motion Picture Made for Television"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
+      "id": "stand-up-comedy-television",
+      "name": "Best Performance in Stand-Up Comedy on Television",
+      "mediaType": "mixed",
+      "recipientKind": "work"
+    },
+    {
+      "id": "podcast",
+      "name": "Best Podcast",
+      "mediaType": "podcast",
+      "recipientKind": "work"
+    }
+  ]
+}

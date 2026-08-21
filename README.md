@@ -4,14 +4,21 @@ A small Stremio-compatible catalogue add-on intended to provide collection sourc
 
 ## Current catalogues
 
-The manifest exposes winner-film catalogues for all 24 current competitive Academy Award categories:
+The all-awards manifest exposes 58 catalogues:
+
+- 24 winner-film catalogues for all current competitive Academy Award categories; and
+- 34 Golden Globes catalogues (23 movie and 11 series) covering the 27 current category lineages that map to Stremio media types.
+
+The Academy catalogues include:
 
 - Best Picture, Directing, and all four acting categories;
 - Animated Feature, Animated Short, Documentary Feature, Documentary Short, International Feature, and Live Action Short;
 - Casting, Cinematography, Costume Design, Film Editing, Makeup and Hairstyling, Production Design, Sound, and Visual Effects; and
 - Adapted Screenplay, Original Screenplay, Original Score, and Original Song.
 
-The original V0.1 seed proved the integration path in Nuvio. V0.2–V0.5 established the canonical Awards model and six complete picture/acting/directing histories. V1.0 completes the other 18 current Academy categories while retaining independent lineage, count, identity, and generator contracts for every category.
+Golden Globes coverage follows the current 2026 film and television categories back through their defensible historical predecessors from 1944 onward. Mixed limited-series/television-movie histories are split by each winning work's actual `movie` or `series` identity. Best Podcast is retained in canonical data but has no Stremio catalogue media type.
+
+The original V0.1 seed proved the integration path in Nuvio. V0.2–V0.5 established the canonical Awards model and six complete picture/acting/directing histories. V1.0 completed all current Academy categories. V1.1 applies the same authority, identity, and deterministic-output contracts to the first mixed film/television award body.
 
 ## What V0.1 proved
 
@@ -31,14 +38,15 @@ nuvio-extra-catalogs/
 │   └── ISSUE_TEMPLATE/
 ├── assets/
 ├── catalog/
-│   └── movie/
-│       └── 24 Academy winner-film catalogue responses
+│   ├── movie/
+│   └── series/
 ├── data/
 │   └── awards/
-│       └── academy-awards/
-│           ├── award.json
-│           ├── categories.json
-│           └── results/
+│       ├── academy-awards/
+│       └── golden-globes/
+├── presets/
+│   ├── academy/
+│   └── golden-globes/
 ├── docs/
 ├── examples/
 ├── schema/
@@ -50,44 +58,15 @@ nuvio-extra-catalogs/
 └── manifest.json
 ```
 
-The declared catalogue IDs are:
+Released Academy IDs retain their existing `academy-...` names. Golden Globes IDs use the stable `golden-globes-{category}-winning-films` or `golden-globes-{category}-winning-series` convention. Every declared ID maps directly to:
 
 ```text
-academy-best-picture-winners
-academy-best-actor-winning-films
-academy-best-actress-winning-films
-academy-best-supporting-actor-winning-films
-academy-best-supporting-actress-winning-films
-academy-best-director-winning-films
-academy-animated-feature-film-winning-films
-academy-animated-short-film-winning-films
-academy-casting-winning-films
-academy-cinematography-winning-films
-academy-costume-design-winning-films
-academy-documentary-feature-film-winning-films
-academy-documentary-short-film-winning-films
-academy-film-editing-winning-films
-academy-international-feature-film-winning-films
-academy-live-action-short-film-winning-films
-academy-makeup-and-hairstyling-winning-films
-academy-original-score-winning-films
-academy-original-song-winning-films
-academy-production-design-winning-films
-academy-sound-winning-films
-academy-visual-effects-winning-films
-academy-adapted-screenplay-winning-films
-academy-original-screenplay-winning-films
-```
-
-Every declared ID maps directly to:
-
-```text
-/catalog/movie/{catalogue-id}.json
+/catalog/{movie|series}/{catalogue-id}.json
 ```
 
 ## Awards data
 
-Canonical award facts live under `data/awards/academy-awards/`. Generated catalogue JSON is not the source of truth.
+Canonical award facts live under `data/awards/{award-body}/`. Generated catalogue JSON and preset copies are not the source of truth.
 
 The Academy Awards Database is the authoritative award source. IMDb title IDs are retained for the proven Nuvio/Stremio metadata handoff. Verified IMDb Person IDs preserve recipient identity when TMDB enrichment is unavailable, while TMDB Person IDs bridge compatible award recipients to Nuvio's native people/director sources and existing artwork.
 
@@ -176,7 +155,7 @@ python scripts/build_remaining_academy_outputs.py
 python scripts/build_remaining_academy_outputs.py --check
 ```
 
-Validate all 24 manifest declarations and every Meta Preview response with:
+Validate the all-awards manifest, both award presets, and every movie/series Meta Preview response with:
 
 ```bash
 python scripts/validate_manifest_catalogs.py
@@ -184,7 +163,7 @@ python scripts/validate_manifest_catalogs.py
 
 See `docs/remaining-academy-category-histories.md` for the per-category counts, official lineages, colour/black-and-white branches, Sound merge, no-award gaps, ties, non-film results, pinned source, and identity coverage.
 
-All leading/supporting acting and directing people reuse the canonical `nuvio-people-assets` manifest directly by TMDB Person ID. Reproduce the complete Issue #20 integration report with:
+The Academy person/director outputs have a historical Builder integration check against the canonical `nuvio-people-assets` manifest by TMDB Person ID. The static catalogue add-on itself does not fetch that repository at runtime. Reproduce the complete Issue #20 integration report with:
 
 ```bash
 python scripts/check_people_artwork_integration.py --check
@@ -197,6 +176,17 @@ The other 18 categories publish movie catalogues rather than native person/direc
 ```bash
 python scripts/check_issue24_recipient_identity_coverage.py --check
 ```
+
+Golden Globes maintenance uses a committed first-party winner snapshot, a reviewed identity map, 83 deterministic ceremony files, and per-category output contracts. Normal offline checks require no API credentials:
+
+```bash
+python scripts/enrich_golden_globes_identities.py --check
+python scripts/build_golden_globes_canonical.py --check
+python scripts/build_golden_globes_outputs.py --check
+python scripts/build_manifest_presets.py --check
+```
+
+Networked snapshot refresh, TMDB candidate discovery, manual-override verification, and mixed-media audits are explicit reviewed maintenance operations. See `docs/golden-globes-history.md` for the source authority, category lineages, identity exceptions, and film/series classification process.
 
 ## GitHub Pages URLs
 
@@ -212,10 +202,17 @@ Manifest:
 https://davecollections.github.io/nuvio-extra-catalogs/manifest.json
 ```
 
+Award-only manifest presets:
+
+```text
+https://davecollections.github.io/nuvio-extra-catalogs/presets/academy/manifest.json
+https://davecollections.github.io/nuvio-extra-catalogs/presets/golden-globes/manifest.json
+```
+
 Catalogue response pattern:
 
 ```text
-https://davecollections.github.io/nuvio-extra-catalogs/catalog/movie/{catalogue-id}.json
+https://davecollections.github.io/nuvio-extra-catalogs/catalog/{movie|series}/{catalogue-id}.json
 ```
 
 ## Feedback
@@ -226,4 +223,4 @@ The GitHub Pages landing page links to guided GitHub Issue forms for bug reports
 
 This repository remains a **companion** to Nuvio's official TMDB catalogue add-on rather than duplicating it.
 
-Issue #6 established the canonical People artwork bridge without adding an awards-specific artwork layer or changing this add-on's catalog-only architecture. Issues #17 and #20 extend it across leading and supporting acting. Issue #24 completes all current Academy categories. Additional award bodies should follow the same authority, identity, deterministic generation, and independently auditable category strategy.
+Issue #6 established the canonical People artwork bridge without adding an awards-specific artwork layer or changing this add-on's catalog-only architecture. Issues #17 and #20 extend it across leading and supporting acting. Issue #24 completes all current Academy categories. Issue #27 adds Golden Globes film and television histories without adding a runtime People-assets dependency. Additional award bodies should follow the same authority, identity, deterministic generation, and independently auditable category strategy.

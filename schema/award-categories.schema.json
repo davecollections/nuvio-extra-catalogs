@@ -45,7 +45,7 @@
         },
         "mediaType": {
           "type": "string",
-          "enum": ["movie", "series", "mixed"]
+          "enum": ["movie", "series", "podcast", "mixed"]
         },
         "recipientKind": {
           "type": "string",

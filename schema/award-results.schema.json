@@ -78,6 +78,14 @@
           "type": "string",
           "enum": ["winner", "nominee"]
         },
+        "sourceCategory": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceRecordId": {
+          "type": "integer",
+          "minimum": 1
+        },
         "work": {
           "$ref": "#/$defs/work"
         },
@@ -128,7 +136,7 @@
       "properties": {
         "mediaType": {
           "type": "string",
-          "enum": ["movie", "series"]
+          "enum": ["movie", "series", "podcast"]
         },
         "title": {
           "type": "string",

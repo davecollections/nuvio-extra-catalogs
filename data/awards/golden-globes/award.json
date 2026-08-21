@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "golden-globes",
+  "name": "Golden Globes",
+  "organization": "Golden Globes, LLC",
+  "authoritativeSources": [
+    {
+      "name": "Golden Globes Winners & Nominees Database",
+      "reference": "https://goldenglobes.com/winners-nominees/"
+    }
+  ],
+  "ceremonyCoverage": {
+    "firstCeremonyNumber": 1,
+    "lastCeremonyNumber": 83
+  }
+}
