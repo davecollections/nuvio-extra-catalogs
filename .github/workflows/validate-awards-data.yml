@@ -61,5 +61,14 @@ jobs:
       - name: Check Best Director generated outputs
         run: python scripts/build_best_director_outputs.py --check
 
+      - name: Check remaining Academy generated outputs
+        run: python scripts/build_remaining_academy_outputs.py --check
+
+      - name: Validate manifest and catalogue payloads
+        run: python scripts/validate_manifest_catalogs.py
+
       - name: Check Awards People artwork integration
         run: python scripts/check_people_artwork_integration.py --check
+
+      - name: Check Issue 24 recipient identity coverage
+        run: python scripts/check_issue24_recipient_identity_coverage.py --check

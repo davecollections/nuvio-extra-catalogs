@@ -4,9 +4,32 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ## [Unreleased]
 
-### Planned
+### Added
 
-- Select and scope the next focused Academy Awards category expansion, continuing the machine-readable People artwork gap handoff for any newly introduced identities.
+- Complete winner histories for all 18 remaining current Academy categories under Issue #24, bringing the canonical registry and manifest to all 24 categories awarded at the 98th Academy Awards.
+- Eighteen deterministic winner-film catalogue payloads containing 1,476 unique Meta Preview items, with permanent per-category contracts for ceremony coverage, result/work/person counts, ties, split categories, non-award gaps, non-film results, and catalogue deduplication.
+- Historical lineage coverage for black-and-white/colour Cinematography, Costume Design, and Production Design; both merged Sound branches; the International Feature honorary precursor period; Animated Short aliases; and the non-annual Visual Effects lineage.
+- Optional IMDb Person IDs in the canonical person shape, allowing reviewed recipient identity to remain machine-readable when TMDB enrichment is unavailable.
+- Machine-readable Issue #24 coverage for all 1,819 IMDb-identified recipients: 1,723 verified TMDB mappings and 96 explicit unresolved identities.
+- Repository-wide manifest/catalogue validation for exact filename/ID alignment and Stremio Meta Preview shape across all 24 catalogues.
+- Consolidated history and annual-update documentation in `docs/remaining-academy-category-histories.md`.
+
+### Changed
+
+- Preview manifest version advances to `1.0.0` and declares all 24 current competitive Academy winner-film catalogues.
+- The compact Academy Awards landing-page disclosure reports 24 catalogues and bounds the expanded list within a scrollable detail area.
+- Shared identity validation now enforces consistent IMDb Person and TMDB Person mappings across categories.
+- The source strategy records the pinned all-category Oscar reconciliation snapshot and permits Wikidata only for candidate-ID discovery followed by mandatory TMDB external-ID confirmation.
+- Existing V0.5 catalogue payloads remain byte-identical.
+
+### Validated locally for V1.0
+
+- Shared validation passes with 24 categories, 98 ceremonies, 2,070 canonical results, 2,072 work links, and 2,900 person links.
+- The 18 new category contracts pass with 1,495 winner results, 1,494 film links, and 1,476 unique catalogue films.
+- All 1,071 unique new winning-film IMDb identities have confirmed TMDB mappings; no title identity relies on a name-only guess.
+- Manifest/catalogue validation passes with 24 declared files and 2,054 total unique Meta Preview items.
+- All six released V0.5 generators and the strict 400-person People artwork integration check continue to pass unchanged.
+- Issue #24 publishes movie catalogues only, so its 1,661 informational missing People-assets records are not a release gate and no cross-repository artwork handoff is required.
 
 ## [0.5.0] - 2026-08-21
 

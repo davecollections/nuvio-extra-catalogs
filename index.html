@@ -134,7 +134,11 @@
       background:rgb(99 230 190 / 8%); border:1px solid rgb(99 230 190 / 22%); border-radius:999px;
     }
     .catalog-intro { margin:10px 1px 0; color:var(--muted); font-size:.72rem; line-height:1.42; }
-    .catalog-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:7px; margin-top:9px; }
+    .catalog-list {
+      display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:7px;
+      max-height:410px; margin-top:9px; padding-right:3px; overflow-y:auto;
+      scrollbar-color:var(--border-strong) transparent;
+    }
     .catalog-item {
       min-width:0; padding:8px 9px; background:rgb(5 17 25 / 54%); border:1px solid var(--border); border-radius:8px;
     }
@@ -191,7 +195,7 @@
       </div>
       <p class="hero-copy">A lightweight, Stremio-compatible companion add-on for useful catalog sources that are not currently exposed by Nuvio's standard TMDB catalog experience. The first focus is awards data.</p>
       <div class="status-row" aria-label="Project status">
-        <span class="status-chip">v0.5 Academy Awards expansion</span>
+        <span class="status-chip">v1.0 Complete Academy Awards</span>
         <span class="status-chip">Catalog-only architecture</span>
         <span class="status-chip">Hosted on GitHub Pages</span>
       </div>
@@ -221,9 +225,9 @@
             <span class="catalog-summary-mark" aria-hidden="true">A</span>
             <span class="catalog-summary-copy">
               <span class="catalog-summary-title" id="catalog-title" role="heading" aria-level="2">Academy Awards</span>
-              <span class="catalog-summary-meta">Winner histories through 2026</span>
+              <span class="catalog-summary-meta">All current competitive winner histories through 2026</span>
             </span>
-            <span class="catalog-count">6 catalogues</span>
+            <span class="catalog-count">24 catalogues</span>
           </summary>
           <p class="catalog-intro">Works alongside Nuvio's existing metadata providers and Collection Builder flow.</p>
           <div class="catalog-list" aria-label="Academy Awards catalogues">
@@ -233,6 +237,24 @@
             <div class="catalog-item"><strong>Best Supporting Actor Winning Films</strong><span>1937–2026</span></div>
             <div class="catalog-item"><strong>Best Supporting Actress Winning Films</strong><span>1937–2026</span></div>
             <div class="catalog-item"><strong>Best Director Winning Films</strong><span>1929–2026</span></div>
+            <div class="catalog-item"><strong>Animated Feature Film Winners</strong><span>2002–2026</span></div>
+            <div class="catalog-item"><strong>Animated Short Film Winners</strong><span>1932–2026</span></div>
+            <div class="catalog-item"><strong>Casting Winning Films</strong><span>2026</span></div>
+            <div class="catalog-item"><strong>Cinematography Winning Films</strong><span>1929–2026</span></div>
+            <div class="catalog-item"><strong>Costume Design Winning Films</strong><span>1949–2026</span></div>
+            <div class="catalog-item"><strong>Documentary Feature Film Winners</strong><span>1943–2026</span></div>
+            <div class="catalog-item"><strong>Documentary Short Film Winners</strong><span>1942–2026</span></div>
+            <div class="catalog-item"><strong>Film Editing Winning Films</strong><span>1935–2026</span></div>
+            <div class="catalog-item"><strong>International Feature Film Winners</strong><span>1951–2026</span></div>
+            <div class="catalog-item"><strong>Live Action Short Film Winners</strong><span>1958–2026</span></div>
+            <div class="catalog-item"><strong>Makeup and Hairstyling Winning Films</strong><span>1982–2026</span></div>
+            <div class="catalog-item"><strong>Original Score Winning Films</strong><span>1939–2026</span></div>
+            <div class="catalog-item"><strong>Original Song Winning Films</strong><span>1935–2026</span></div>
+            <div class="catalog-item"><strong>Production Design Winning Films</strong><span>1929–2026</span></div>
+            <div class="catalog-item"><strong>Sound Winning Films</strong><span>1930–2026</span></div>
+            <div class="catalog-item"><strong>Visual Effects Winning Films</strong><span>1929–2026</span></div>
+            <div class="catalog-item"><strong>Adapted Screenplay Winning Films</strong><span>1929–2026</span></div>
+            <div class="catalog-item"><strong>Original Screenplay Winning Films</strong><span>1941–2026</span></div>
           </div>
         </details>
       </section>

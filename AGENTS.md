@@ -6,7 +6,7 @@ This repository provides additional Stremio-compatible catalog sources for Nuvio
 
 ## Current phase
 
-V0.5 is complete. Its commit-pinned preview and refreshed live manifest passed Nuvio acceptance, the deployed GitHub Pages landing page, manifest, and all six catalogues byte-match the accepted merge commit, and the exact tested state is preserved on `release/v0.5.0`. V0.5 includes the complete Academy Best Supporting Actor and Best Supporting Actress histories and canonical People artwork resolution for all 400 current award people. The previous V0.4 rollback point remains preserved on `release/v0.4.0`.
+V0.5 is complete and preserved on `release/v0.5.0`. V1.0 is active under Issue #24 and completes the 18 remaining current Academy categories in one independently audited milestone. Canonical data, all 18 deterministic catalogue payloads, a 24-catalogue preview manifest, and recipient identity coverage are implemented locally; publication remains gated on complete CI-equivalent validation, commit-pinned Nuvio acceptance, and owner approval. The six released V0.5 catalogue payloads remain unchanged.
 
 ## Guardrails
 
@@ -22,6 +22,7 @@ V0.5 is complete. Its commit-pinned preview and refreshed live manifest passed N
 - Do not commit API keys, tokens, credentials, or secrets.
 - Historical awards data must follow `docs/awards-source-strategy.md`, including a documented authority, reviewed identity enrichment, shared validation, and a maintainable generation process before expansion.
 - Preserve TMDB Person IDs in awards data when a category relates to a person so the data can integrate with Nuvio native `PERSON` / `DIRECTOR` sources and existing People artwork.
+- Preserve verified IMDb Person IDs when TMDB person enrichment is unavailable; never substitute a name-only guess for an unresolved external identity.
 - Treat GitHub Pages as static hosting unless a future requirement genuinely needs a live backend.
 
 ## Reuse-first rule
@@ -75,4 +76,4 @@ After a pull request is merged:
 
 ## Next milestone
 
-Select and open the next focused Academy Awards expansion issue before implementation. Continue to reuse the canonical awards model, shared generators, native Nuvio person/director sources, and machine-readable People artwork gap tracking; coherent groups of categories may share a milestone when each remains independently auditable.
+Complete Issue #24 acceptance and publish V1.0 with all 24 current Academy winner-film catalogues. After V1.0, select the next award body in a focused issue, declare its authority before import, and reuse the same canonical model, identity verification, manifest validation, compact landing-page disclosure, and independently auditable category contracts.

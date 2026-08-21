@@ -4,14 +4,14 @@ A small Stremio-compatible catalogue add-on intended to provide collection sourc
 
 ## Current catalogues
 
-- **Academy Awards — Best Picture Winners**
-- **Academy Awards — Best Actor Winning Films**
-- **Academy Awards — Best Actress Winning Films**
-- **Academy Awards — Best Supporting Actor Winning Films**
-- **Academy Awards — Best Supporting Actress Winning Films**
-- **Academy Awards — Best Director Winning Films**
+The manifest exposes winner-film catalogues for all 24 current competitive Academy Award categories:
 
-The original V0.1 three-title seed proved the integration path in Nuvio. V0.2 established the canonical Awards model and complete Best Picture and Best Actor histories. V0.3 reused that model for Best Director, and V0.4 added the complete Best Actress history. V0.5 expands the shared acting path to both supporting categories from their 9th-ceremony introduction onward.
+- Best Picture, Directing, and all four acting categories;
+- Animated Feature, Animated Short, Documentary Feature, Documentary Short, International Feature, and Live Action Short;
+- Casting, Cinematography, Costume Design, Film Editing, Makeup and Hairstyling, Production Design, Sound, and Visual Effects; and
+- Adapted Screenplay, Original Screenplay, Original Score, and Original Song.
+
+The original V0.1 seed proved the integration path in Nuvio. V0.2–V0.5 established the canonical Awards model and six complete picture/acting/directing histories. V1.0 completes the other 18 current Academy categories while retaining independent lineage, count, identity, and generator contracts for every category.
 
 ## What V0.1 proved
 
@@ -32,12 +32,7 @@ nuvio-extra-catalogs/
 ├── assets/
 ├── catalog/
 │   └── movie/
-│       ├── academy-best-actor-winning-films.json
-│       ├── academy-best-actress-winning-films.json
-│       ├── academy-best-supporting-actor-winning-films.json
-│       ├── academy-best-supporting-actress-winning-films.json
-│       ├── academy-best-director-winning-films.json
-│       └── academy-best-picture-winners.json
+│       └── 24 Academy winner-film catalogue responses
 ├── data/
 │   └── awards/
 │       └── academy-awards/
@@ -64,24 +59,37 @@ academy-best-actress-winning-films
 academy-best-supporting-actor-winning-films
 academy-best-supporting-actress-winning-films
 academy-best-director-winning-films
+academy-animated-feature-film-winning-films
+academy-animated-short-film-winning-films
+academy-casting-winning-films
+academy-cinematography-winning-films
+academy-costume-design-winning-films
+academy-documentary-feature-film-winning-films
+academy-documentary-short-film-winning-films
+academy-film-editing-winning-films
+academy-international-feature-film-winning-films
+academy-live-action-short-film-winning-films
+academy-makeup-and-hairstyling-winning-films
+academy-original-score-winning-films
+academy-original-song-winning-films
+academy-production-design-winning-films
+academy-sound-winning-films
+academy-visual-effects-winning-films
+academy-adapted-screenplay-winning-films
+academy-original-screenplay-winning-films
 ```
 
-The corresponding Stremio resources are:
+Every declared ID maps directly to:
 
 ```text
-/catalog/movie/academy-best-picture-winners.json
-/catalog/movie/academy-best-actor-winning-films.json
-/catalog/movie/academy-best-actress-winning-films.json
-/catalog/movie/academy-best-supporting-actor-winning-films.json
-/catalog/movie/academy-best-supporting-actress-winning-films.json
-/catalog/movie/academy-best-director-winning-films.json
+/catalog/movie/{catalogue-id}.json
 ```
 
 ## Awards data
 
 Canonical award facts live under `data/awards/academy-awards/`. Generated catalogue JSON is not the source of truth.
 
-The Academy Awards Database is the authoritative award source. IMDb IDs are retained for the proven Nuvio/Stremio metadata handoff, and TMDB Person IDs bridge award recipients to Nuvio's native people/director sources and existing artwork.
+The Academy Awards Database is the authoritative award source. IMDb title IDs are retained for the proven Nuvio/Stremio metadata handoff. Verified IMDb Person IDs preserve recipient identity when TMDB enrichment is unavailable, while TMDB Person IDs bridge compatible award recipients to Nuvio's native people/director sources and existing artwork.
 
 Run the shared offline validation before generating or publishing any awards output:
 
@@ -161,6 +169,21 @@ python scripts/build_best_director_outputs.py --check
 
 See `docs/best-director-history.md` for source snapshots, joint-winner handling, historical category names, and artwork coverage.
 
+The remaining 18 categories share one bulk generator while keeping a separate permanent contract for each category. Generate or validate all 18 catalogue payloads with:
+
+```bash
+python scripts/build_remaining_academy_outputs.py
+python scripts/build_remaining_academy_outputs.py --check
+```
+
+Validate all 24 manifest declarations and every Meta Preview response with:
+
+```bash
+python scripts/validate_manifest_catalogs.py
+```
+
+See `docs/remaining-academy-category-histories.md` for the per-category counts, official lineages, colour/black-and-white branches, Sound merge, no-award gaps, ties, non-film results, pinned source, and identity coverage.
+
 All leading/supporting acting and directing people reuse the canonical `nuvio-people-assets` manifest directly by TMDB Person ID. Reproduce the complete Issue #20 integration report with:
 
 ```bash
@@ -168,6 +191,12 @@ python scripts/check_people_artwork_integration.py --check
 ```
 
 The strict check requires every current award person to resolve with the correct membership and complete canonical artwork. The development-only `--allow-incomplete` flag remains available for future machine-readable gap handoffs. See `docs/people-artwork-integration.md` for the full contract and coverage.
+
+The other 18 categories publish movie catalogues rather than native person/director sources, so People artwork is not a release gate. Their 1,819 IMDb recipient identities, 1,723 verified TMDB mappings, and informational People-manifest coverage are reproduced with:
+
+```bash
+python scripts/check_issue24_recipient_identity_coverage.py --check
+```
 
 ## GitHub Pages URLs
 
@@ -183,15 +212,10 @@ Manifest:
 https://davecollections.github.io/nuvio-extra-catalogs/manifest.json
 ```
 
-Catalogue response:
+Catalogue response pattern:
 
 ```text
-https://davecollections.github.io/nuvio-extra-catalogs/catalog/movie/academy-best-picture-winners.json
-https://davecollections.github.io/nuvio-extra-catalogs/catalog/movie/academy-best-actor-winning-films.json
-https://davecollections.github.io/nuvio-extra-catalogs/catalog/movie/academy-best-actress-winning-films.json
-https://davecollections.github.io/nuvio-extra-catalogs/catalog/movie/academy-best-supporting-actor-winning-films.json
-https://davecollections.github.io/nuvio-extra-catalogs/catalog/movie/academy-best-supporting-actress-winning-films.json
-https://davecollections.github.io/nuvio-extra-catalogs/catalog/movie/academy-best-director-winning-films.json
+https://davecollections.github.io/nuvio-extra-catalogs/catalog/movie/{catalogue-id}.json
 ```
 
 ## Feedback
@@ -202,4 +226,4 @@ The GitHub Pages landing page links to guided GitHub Issue forms for bug reports
 
 This repository remains a **companion** to Nuvio's official TMDB catalogue add-on rather than duplicating it.
 
-Issue #6 established the canonical People artwork bridge without adding an awards-specific artwork layer or changing this add-on's catalog-only architecture. Issues #17 and #20 extend it across leading and supporting acting. Further Academy categories and additional award bodies should follow the same source, validation, and TMDB Person identity strategy in focused milestones.
+Issue #6 established the canonical People artwork bridge without adding an awards-specific artwork layer or changing this add-on's catalog-only architecture. Issues #17 and #20 extend it across leading and supporting acting. Issue #24 completes all current Academy categories. Additional award bodies should follow the same authority, identity, deterministic generation, and independently auditable category strategy.
