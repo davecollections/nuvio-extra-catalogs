@@ -12,6 +12,34 @@
       "expectedHistoricalLabelCount": 61,
       "labels": [
         {
+          "label": "Achievement in Special Visual Effects",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/achievement-in-special-visual-effects/",
+          "evidenceNominationId": "343835",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Pirates%20Dead%20Man%20Chest&type=Film&winner=winner"
+        },
+        {
+          "label": "BAFTA/Orange 60 Seconds Of Fame",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/bafta-orange-60-seconds-of-fame/",
+          "evidenceNominationId": "343952",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Polar%20Showtime%20Dancers&type=Film&winner=winner"
+        },
+        {
+          "label": "British Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/british-film/",
+          "evidenceNominationId": "343957",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=This%20Is%20England&type=Film&winner=winner"
+        },
+        {
+          "label": "Carl Foreman Award for Special Achievement by a British Director, Writer or Producer in their First Feature Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/carl-foreman-award-for-special-achievement-by-british-director-writer-or-producer-first-feature/",
+          "evidenceNominationId": "344073",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Steve%20McQueen%20Hunger&type=Film&winner=winner"
+        },
+        {
           "label": "EE Rising Star Award",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/film/ee-rising-star-award/",
@@ -67,6 +95,13 @@
       "expectedHistoricalLabelCount": 95,
       "labels": [
         {
+          "label": "Comedy and Comedy Entertainment Programme",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/comedy-and-comedy-entertainment-programme/",
+          "evidenceNominationId": "356124",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=2016%20Wipe&type=Television&winner=winner"
+        },
+        {
           "label": "Comedy Entertainment",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/television/comedy-entertainment/",
@@ -114,6 +149,27 @@
           "historyPage": "https://www.bafta.org/awards/television/single-drama/",
           "evidenceNominationId": "361173",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=I%20Am%20Ruth&type=Television&winner=winner"
+        },
+        {
+          "label": "Soap & Continuing Drama",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/soap-continuing-drama/",
+          "evidenceNominationId": "361176",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Casualty&type=Television&winner=winner"
+        },
+        {
+          "label": "Virgin Media's Must-See Moment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/virgin-medias-must-see-moment/",
+          "evidenceNominationId": "360415",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Rose%20Giovanni&type=Television&winner=winner"
+        },
+        {
+          "label": "Virgin TV's Must See Moment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/virgin-tvs-must-see-moment/",
+          "evidenceNominationId": "356846",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Mother%20Pilot%20Whale&type=Television&winner=winner"
         }
       ]
     },
@@ -134,6 +190,13 @@
           "historyPage": "https://www.bafta.org/awards/tvcraft/digital-creativity/",
           "evidenceNominationId": "356048",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Alchemy%20VR&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Director - Fiction/Entertainment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/director-fiction-entertainment/",
+          "evidenceNominationId": "350465",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=The%20Shadow%20Line&type=TV%20Craft&winner=winner"
         },
         {
           "label": "Director: Fiction, sponsored by 3 Mills Studios",
@@ -169,6 +232,27 @@
           "historyPage": "https://www.bafta.org/awards/tvcraft/production-design-sponsored-by-microsoft/",
           "evidenceNominationId": "368386",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Rivals&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Titles",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/titles/",
+          "evidenceNominationId": "352725",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Winter%20Olympics%202014&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Visual Effects",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/visual-effects/",
+          "evidenceNominationId": "350512",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Great%20Expectations&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Visual Effects And Graphic Design",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/visual-effects-and-graphic-design/",
+          "evidenceNominationId": "351206",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Titanic&type=TV%20Craft&winner=winner"
         }
       ]
     }
