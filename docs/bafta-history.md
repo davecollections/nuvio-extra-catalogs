@@ -71,6 +71,12 @@ The 75 initial categories are not yet 75 guaranteed catalogues. Historical categ
 
 Every accepted lineage will be exact-label based and independently frozen in output contracts. An unknown future label must fail closed until reviewed.
 
+`reports/bafta-category-lineage-audit.md` is the generated review inventory for all 291 labels, their winner counts, and their first/last result years. It deliberately leaves 210 non-current labels in `historical review` until an official BAFTA category-page identity supports a mapping or explicit exclusion. Keep it current with:
+
+```bash
+python scripts/build_bafta_lineage_audit.py --check
+```
+
 ## Movie and series classification
 
 Film results are expected to produce movie outputs. Television and Television Craft results may refer to continuing series, limited series, television movies, documentaries, specials, episodes, or individual programmes. The official programme name does not by itself decide Stremio media type.
