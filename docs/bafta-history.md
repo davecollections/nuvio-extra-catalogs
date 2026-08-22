@@ -35,22 +35,28 @@ The Film and Television rules state that the winners list and winners press rele
 
 ## Reviewed acquisition contract
 
-BAFTA category-history pages contain server-rendered recent winners and full `Through the years` result groups. They are the preferred historical input because one reviewed category page retains the official year, status, title or person, associated work, credited people, and source category label.
+BAFTA's annual programme result pages contain the complete server-rendered nomination set for a selected award year, with winner status, the official category label, title or person heading, associated work or credited people, and a stable BAFTA nomination ID. They are the preferred historical input. Current category-history pages provide recent `Through the years` context and stable current page references, but do not by themselves expose the full archive.
 
 During the 2026-08-22 source audit, direct non-browser requests received BAFTA's browser-check page and the public WordPress REST content endpoints rejected anonymous access. The project will not bypass those controls or depend on the live site in CI. Reviewed acquisition must therefore:
 
-1. load the official result and category-history pages in a normal browser session;
-2. export a minimal winner-only source snapshot with the exact page URL and check date;
-3. reject pages that show a browser challenge, error state, missing years, duplicate result groups, or unexpected category labels;
+1. load the official annual result and current category-history pages in a normal browser session;
+2. export a minimal winner-only source snapshot with the exact annual page URL, BAFTA nomination ID, nomination and winner counts, and check date;
+3. reject pages that show a browser challenge, error state, missing year heading, duplicate nomination ID, count mismatch, or unexpected current category label;
 4. retain the official spelling and credited work/person structure without identity guesses; and
 5. commit the reviewed snapshot so canonical generation and validation remain fully offline.
 
-The acquisition helper may automate extraction from already-rendered official pages, but it must not make a scheduled browser session or the live BAFTA site a runtime dependency. A future annual update repeats the reviewed acquisition for the new official results and compares it with the pinned snapshot before canonical data changes.
+The acquisition helper may automate extraction from already-rendered official pages, but it must not make a scheduled browser session or the live BAFTA site a runtime dependency. The archive's search-result `Load More` interaction was not used as source data because the reviewed 2026-08-22 session duplicated records after the first 20 results. The annual result pages expose the complete year without that pagination. A future annual update repeats the reviewed acquisition for the new official results and compares it with the pinned snapshot before canonical data changes.
 
 `data/sources/bafta/current-category-pages.json` freezes the 75 reviewed current category-history pages and the six explicit exclusions found through the official 2026 result search. It is the input registry for browser acquisition, not winner data. Validate that registry independently with:
 
 ```bash
 python scripts/validate_bafta_source_registry.py
+```
+
+The reviewed winner-only records are frozen by programme in `data/sources/bafta/winners-film.json`, `winners-television.json`, and `winners-television-craft.json`. Together they retain all 78 official year routes from 1949 through 2026, including zero-result years, 3,911 winners, and 3,911 globally unique BAFTA nomination IDs. Validate the pinned annual counts, records, IDs, and exact 2026 registry reconciliation with:
+
+```bash
+python scripts/validate_bafta_source_snapshots.py
 ```
 
 ## Category lineage gate

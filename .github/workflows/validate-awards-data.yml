@@ -50,6 +50,9 @@ jobs:
       - name: Validate BAFTA current source registry
         run: python scripts/validate_bafta_source_registry.py
 
+      - name: Validate BAFTA winner source snapshots
+        run: python scripts/validate_bafta_source_snapshots.py
+
       - name: Check Best Picture generated output
         run: python scripts/build_best_picture_catalog.py --check
 

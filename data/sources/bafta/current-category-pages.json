@@ -19,7 +19,7 @@
         { "name": "British Short Animation", "historyPage": "https://www.bafta.org/awards/film/british-short-animation/" },
         { "name": "British Short Film", "historyPage": "https://www.bafta.org/awards/film/british-short-film/" },
         { "name": "Casting", "historyPage": "https://www.bafta.org/awards/film/casting/" },
-        { "name": "Children's & Family", "historyPage": "https://www.bafta.org/awards/film/childrens-family/" },
+        { "name": "Children’s & Family Film", "historyPage": "https://www.bafta.org/awards/film/childrens-family/" },
         { "name": "Cinematography", "historyPage": "https://www.bafta.org/awards/film/cinematography/" },
         { "name": "Costume Design", "historyPage": "https://www.bafta.org/awards/film/costume-design/" },
         { "name": "Director", "historyPage": "https://www.bafta.org/awards/film/director/" },
@@ -32,7 +32,7 @@
         { "name": "Original Score", "historyPage": "https://www.bafta.org/awards/film/original-score/" },
         { "name": "Original Screenplay", "historyPage": "https://www.bafta.org/awards/film/original-screenplay/" },
         { "name": "Outstanding British Film", "historyPage": "https://www.bafta.org/awards/film/outstanding-british-film/" },
-        { "name": "Outstanding Debut by a British Writer, Director or Producer", "historyPage": "https://www.bafta.org/awards/film/outstanding-debut-by-a-british-writer-director-or-producer/" },
+        { "name": "Outstanding Debut By A British Writer, Director or Producer", "historyPage": "https://www.bafta.org/awards/film/outstanding-debut-by-a-british-writer-director-or-producer/" },
         { "name": "Production Design", "historyPage": "https://www.bafta.org/awards/film/production-design/" },
         { "name": "Sound", "historyPage": "https://www.bafta.org/awards/film/sound/" },
         { "name": "Special Visual Effects", "historyPage": "https://www.bafta.org/awards/film/special-visual-effects/" },
@@ -40,9 +40,9 @@
         { "name": "Supporting Actress", "historyPage": "https://www.bafta.org/awards/film/supporting-actress/" }
       ],
       "excluded": [
-        { "name": "EE Rising Star Award", "reason": "Person-only public-vote award without an authoritative winning work." },
+        { "name": "EE Rising Star", "reason": "Person-only public-vote award without an authoritative winning work." },
         { "name": "Fellowship", "reason": "Non-competitive lifetime recognition rather than a work winner category." },
-        { "name": "Outstanding British Contribution to Cinema", "reason": "Non-competitive contribution award rather than a work winner category." }
+        { "name": "Outstanding British Contribution To Cinema", "reason": "Non-competitive contribution award rather than a work winner category." }
       ]
     },
     {
@@ -92,7 +92,7 @@
       "annualResultsPage": "https://www.bafta.org/awards/tv-craft/",
       "official2026CategoryCount": 24,
       "included": [
-        { "name": "Children's: Craft Team", "historyPage": "https://www.bafta.org/awards/tvcraft/childrens-craft-team/" },
+        { "name": "Children's Craft Team", "historyPage": "https://www.bafta.org/awards/tvcraft/childrens-craft-team/" },
         { "name": "Costume Design", "historyPage": "https://www.bafta.org/awards/tvcraft/costume-design-tvcraft/" },
         { "name": "Director: Factual", "historyPage": "https://www.bafta.org/awards/tvcraft/director-factual-tvcraft/" },
         { "name": "Director: Fiction", "historyPage": "https://www.bafta.org/awards/tvcraft/director-fiction-tvcraft/" },
@@ -102,7 +102,7 @@
         { "name": "Emerging Talent: Factual", "historyPage": "https://www.bafta.org/awards/tvcraft/emerging-talent-factual/" },
         { "name": "Emerging Talent: Fiction", "historyPage": "https://www.bafta.org/awards/tvcraft/emerging-talent-fiction/" },
         { "name": "Entertainment Craft Team", "historyPage": "https://www.bafta.org/awards/tvcraft/entertainment-craft-team/" },
-        { "name": "Make-Up & Hair Design", "historyPage": "https://www.bafta.org/awards/tvcraft/make-up-hair-design/" },
+        { "name": "Make Up & Hair Design", "historyPage": "https://www.bafta.org/awards/tvcraft/make-up-hair-design/" },
         { "name": "Original Music: Factual", "historyPage": "https://www.bafta.org/awards/tvcraft/original-music-factual/" },
         { "name": "Original Music: Fiction", "historyPage": "https://www.bafta.org/awards/tvcraft/original-music-fiction/" },
         { "name": "Photography & Lighting: Fiction", "historyPage": "https://www.bafta.org/awards/tvcraft/photography-lighting-fiction/" },
@@ -111,7 +111,7 @@
         { "name": "Scripted Casting", "historyPage": "https://www.bafta.org/awards/tvcraft/scripted-casting/" },
         { "name": "Sound: Factual", "historyPage": "https://www.bafta.org/awards/tvcraft/sound-factual/" },
         { "name": "Sound: Fiction", "historyPage": "https://www.bafta.org/awards/tvcraft/sound-fiction/" },
-        { "name": "Special, Visual & Graphic Effects", "historyPage": "https://www.bafta.org/awards/tvcraft/special-visual-and-graphic-effects/" },
+        { "name": "Special, Visual And Graphic Effects", "historyPage": "https://www.bafta.org/awards/tvcraft/special-visual-and-graphic-effects/" },
         { "name": "Titles & Graphic Identity", "historyPage": "https://www.bafta.org/awards/tvcraft/titles-graphic-identity/" },
         { "name": "Writer: Comedy", "historyPage": "https://www.bafta.org/awards/tvcraft/writer-comedy/" },
         { "name": "Writer: Drama", "historyPage": "https://www.bafta.org/awards/tvcraft/writer-drama/" }
