@@ -2549,12 +2549,13 @@
       ],
       "resolution": {
         "mediaType": "movie",
-        "title": "Birdman",
-        "releaseYear": 2015,
-        "tmdbId": 435092,
-        "imdbId": "tt5130912",
-        "method": "tmdb-title-and-media-review-candidate"
-      }
+        "title": "Birdman or (The Unexpected Virtue of Ignorance)",
+        "releaseYear": 2014,
+        "tmdbId": 194662,
+        "imdbId": "tt2562232",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The title-only candidate had selected an unrelated 2015 short; the winning Michael Keaton motion picture is the 2014 film Birdman or (The Unexpected Virtue of Ignorance)."
     },
     {
       "key": "/film/black-orpheus/#1960",
@@ -21983,13 +21984,14 @@
         "mixed"
       ],
       "resolution": {
-        "mediaType": "movie",
+        "mediaType": "series",
         "title": "Weeds",
-        "releaseYear": 2007,
-        "tmdbId": 71094,
-        "imdbId": "tt1441927",
-        "method": "tmdb-title-and-media-review-candidate"
-      }
+        "releaseYear": 2005,
+        "tmdbId": 186,
+        "imdbId": "tt0439100",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The title-only candidate had selected an unrelated 2007 short; Mary-Louise Parker's winning work is the television series that began in 2005."
     },
     {
       "key": "/film/west-side-story-2021/#2022",
@@ -23790,8 +23792,9 @@
         "releaseYear": 1977,
         "tmdbId": 194368,
         "imdbId": "tt0072677",
-        "method": "tmdb-title-and-media-review-candidate"
-      }
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The selected television movie and IMDb identity are correct, but TMDB's current release date follows the official Golden Globes ceremony year; the date anomaly is explicitly reviewed."
     },
     {
       "key": "/tv-show/babe/",
@@ -24302,11 +24305,12 @@
       "resolution": {
         "mediaType": "movie",
         "title": "Bill",
-        "releaseYear": 2019,
-        "tmdbId": 712762,
-        "imdbId": "tt10447864",
-        "method": "tmdb-title-and-media-review-candidate"
-      }
+        "releaseYear": 1981,
+        "tmdbId": 42388,
+        "imdbId": "tt0082075",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The title-only candidate had selected an unrelated 2019 film; Mickey Rooney's winning work is the 1981 television movie Bill."
     },
     {
       "key": "/tv-show/black-bird/",
@@ -27698,13 +27702,14 @@
         "mixed"
       ],
       "resolution": {
-        "mediaType": "movie",
-        "title": "High Chaparral",
-        "releaseYear": 2016,
-        "tmdbId": 389361,
-        "imdbId": "tt5562936",
-        "method": "tmdb-title-and-media-review-candidate"
-      }
+        "mediaType": "series",
+        "title": "The High Chaparral",
+        "releaseYear": 1967,
+        "tmdbId": 11096,
+        "imdbId": "tt0061263",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The title-only candidate had selected an unrelated 2016 documentary; Linda Cristal's winning work is the television series The High Chaparral."
     },
     {
       "key": "/tv-show/hill-street-blues/",
@@ -29994,11 +29999,13 @@
       ],
       "resolution": {
         "mediaType": "series",
-        "title": "Mr. Ed",
-        "tmdbId": 298208,
-        "imdbId": "tt0395403",
-        "method": "tmdb-title-and-media-review-candidate"
-      }
+        "title": "Mister Ed",
+        "releaseYear": 1961,
+        "tmdbId": 453,
+        "imdbId": "tt0054557",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The title-only candidate had selected an unrelated record without a release date; the winning series is the 1961 television programme Mister Ed."
     },
     {
       "key": "/tv-show/mr-robot/",
@@ -30800,8 +30807,9 @@
         "releaseYear": 1989,
         "tmdbId": 16502,
         "imdbId": "tt0093760",
-        "method": "tmdb-title-and-media-review-candidate"
-      }
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The selected miniseries and IMDb identity are correct, but TMDB's current first-air date follows the official Golden Globes ceremony year; the date anomaly is explicitly reviewed."
     },
     {
       "key": "/tv-show/pose/",

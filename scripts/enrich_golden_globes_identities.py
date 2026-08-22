@@ -588,6 +588,22 @@ def validate_map(identity_map: dict) -> tuple[int, int, int, int]:
                 )
             )
         ):
+            if resolution.get("mediaType") != "podcast":
+                release_year = resolution.get("releaseYear")
+                if not isinstance(release_year, int):
+                    raise IdentityError(f"{entry.get('key')}: resolved work has no release year")
+                ceremony_years = entry.get("ceremonyYears", [])
+                if not ceremony_years or any(not isinstance(year, int) for year in ceremony_years):
+                    raise IdentityError(f"{entry.get('key')}: resolved work has invalid ceremony years")
+                if release_year > min(ceremony_years) and not (
+                    resolution.get("method") == "reviewed-manual-override"
+                    and isinstance(entry.get("reviewNote"), str)
+                    and entry["reviewNote"].strip()
+                ):
+                    raise IdentityError(
+                        f"{entry.get('key')}: release year {release_year} follows its earliest "
+                        "ceremony without a reviewed override"
+                    )
             resolved_works += 1
     people_count = len(identity_map.get("people", []))
     resolved_people = sum(

@@ -6,7 +6,7 @@ This repository provides additional Stremio-compatible catalog sources for Nuvio
 
 ## Current phase
 
-V1.0 is complete and preserved on `release/v1.0.0`; its accepted live state byte-matches merge commit `a49585b53bcfd95cadfb8f9a2077a02f41d82310`. V1.1 is active under Issue #27 and adds Golden Globes film and television winner histories. Canonical data, reviewed work identities, 34 movie/series catalogues, award-level manifest presets, and the compact landing-page selector are implemented locally. Publication remains gated on CI, an immutable preview, and Nuvio acceptance of movie, series, mixed-category, preset, and refresh behaviour.
+V1.0 is complete and preserved on `release/v1.0.0`; its accepted live state byte-matches merge commit `a49585b53bcfd95cadfb8f9a2077a02f41d82310`. V1.1 is active under Issue #27 and adds Golden Globes film and television winner histories. Canonical data, reviewed work identities, 33 movie/series catalogues, award-level manifest presets, and the compact landing-page selector are implemented locally. Publication remains gated on CI, an immutable preview, and Nuvio acceptance of movie, series, mixed-category, preset, artwork-fallback, and refresh behaviour.
 
 ## Guardrails
 

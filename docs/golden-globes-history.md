@@ -54,6 +54,7 @@ Reviewed archive exceptions include:
 - official links for John Houseman's *The Paper Chase* win and the 1978 *Julia* wins point to later/older television adaptations, while the motion-picture categories and reviewed identities establish the 1973 and 1977 films;
 - the official *Fargo* page uses a film URL even though the credited work is the television series; and
 - TMDB's season-specific *Dahmer — Monster: The Jeffrey Dahmer Story* record lacks an IMDb external ID, so the reviewed continuing *Monster* anthology IMDb identity is recorded explicitly.
+- Nuvio preview review exposed ambiguous-title collisions for *Birdman*, *Bill*, *The High Chaparral*, *Mister Ed*, and *Weeds*. Each now has an exact reviewed override, and the identity validator rejects missing release years or unexplained work dates that follow the associated ceremony.
 
 These are identity-enrichment decisions, not changes to who won.
 
@@ -76,7 +77,9 @@ The Golden Globes television archive uses a shared `tv-show` URL namespace for c
 - every published movie/series catalogue ID and display name; and
 - per-media work-link and unique-item counts.
 
-`scripts/build_golden_globes_outputs.py` generates 34 catalogues containing 1,591 unique Meta Preview items: 23 movie catalogues and 11 series catalogues. Results are ordered newest ceremony first and deduplicated only within each category/media output by IMDb title ID.
+`scripts/build_golden_globes_outputs.py` generates 33 catalogues containing 1,591 unique Meta Preview items: 22 movie catalogues and 11 series catalogues. Results are ordered newest ceremony first and deduplicated only within each category/media output by IMDb title ID.
+
+Meta Preview posters use the established MetaHub IMDb route by default. Four reviewed legacy titles whose live MetaHub poster returns 404 use explicit TMDB image-CDN fallbacks stored in the output contracts. *The Governor & J.J.* is retained as the one known title with no poster in either reviewed live source; the missing artwork is documented rather than replaced with unrelated imagery.
 
 The root `manifest.json` remains the all-awards choice. `scripts/build_manifest_presets.py` also generates Academy-only and Golden-Globes-only manifests. Because clients resolve static catalogue routes relative to the manifest directory, each preset hosts byte-identical catalogue copies beneath its own `catalog/{type}/` path and uses a distinct add-on ID.
 

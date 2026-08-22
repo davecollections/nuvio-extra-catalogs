@@ -122,14 +122,9 @@
       "name": "Golden Globes — Male Actor, Television Drama"
     },
     {
-      "type": "movie",
-      "id": "golden-globes-female-actor-television-series-musical-or-comedy-winning-films",
-      "name": "Golden Globes — Female Actor, Television Musical or Comedy — Films"
-    },
-    {
       "type": "series",
       "id": "golden-globes-female-actor-television-series-musical-or-comedy-winning-series",
-      "name": "Golden Globes — Female Actor, Television Musical or Comedy — Series"
+      "name": "Golden Globes — Female Actor, Television Musical or Comedy"
     },
     {
       "type": "series",

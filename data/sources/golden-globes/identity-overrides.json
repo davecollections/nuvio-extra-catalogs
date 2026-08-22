@@ -7,6 +7,12 @@
     { "key": "/film/anna/#1988", "mediaType": "movie", "tmdbId": 107285 },
     { "key": "/film/apartment-the/#1961", "mediaType": "movie", "tmdbId": 284 },
     { "key": "/film/big/#1989", "mediaType": "movie", "tmdbId": 2280 },
+    {
+      "key": "/film/birdman/#2015",
+      "mediaType": "movie",
+      "tmdbId": 194662,
+      "reviewNote": "The title-only candidate had selected an unrelated 2015 short; the winning Michael Keaton motion picture is the 2014 film Birdman or (The Unexpected Virtue of Ignorance)."
+    },
     { "key": "/film/borat-subsequent-moviefilm/#2021", "mediaType": "movie", "tmdbId": 740985 },
     { "key": "/film/borat/#2007", "mediaType": "movie", "tmdbId": 496 },
     { "key": "/film/cage-aux-folles-la/#1980", "mediaType": "movie", "tmdbId": 4484 },
@@ -52,13 +58,31 @@
     { "key": "/film/three-musketeers-the/#1975", "mediaType": "movie", "tmdbId": 2926 },
     { "key": "/film/wall-e/#2009", "mediaType": "movie", "tmdbId": 10681 },
     { "key": "/film/west-side-story-2021/#2022", "mediaType": "movie", "tmdbId": 511809 },
+    {
+      "key": "/film/weeds/",
+      "mediaType": "series",
+      "tmdbId": 186,
+      "reviewNote": "The title-only candidate had selected an unrelated 2007 short; Mary-Louise Parker's winning work is the television series that began in 2005."
+    },
     { "key": "/film/wir-wunderkinder-arent-we-wonderful/#1960", "mediaType": "movie", "tmdbId": 6905 },
     { "key": "/film/z/#1970", "mediaType": "movie", "tmdbId": 2721 },
     { "key": "/tv-show/12-angry-men-tv-1997/", "mediaType": "movie", "tmdbId": 12219 },
     { "key": "/tv-show/american-horror-story-hotel/", "mediaType": "series", "tmdbId": 1413 },
     { "key": "/tv-show/arthur-millers-death-of-a-salesman/", "mediaType": "movie", "tmdbId": 265760 },
     { "key": "/tv-show/assassination-of-gianni-versace-american-crime-story-the/", "mediaType": "series", "tmdbId": 64513 },
+    {
+      "key": "/tv-show/babe-tv/",
+      "mediaType": "movie",
+      "tmdbId": 194368,
+      "reviewNote": "The selected television movie and IMDb identity are correct, but TMDB's current release date follows the official Golden Globes ceremony year; the date anomaly is explicitly reviewed."
+    },
     { "key": "/tv-show/betty-ford-story-the/", "mediaType": "movie", "tmdbId": 265752 },
+    {
+      "key": "/tv-show/bill/",
+      "mediaType": "movie",
+      "tmdbId": 42388,
+      "reviewNote": "The title-only candidate had selected an unrelated 2019 film; Mickey Rooney's winning work is the 1981 television movie Bill."
+    },
     { "key": "/tv-show/christmas-eve/", "mediaType": "movie", "tmdbId": 374438 },
     { "key": "/tv-show/citizen-x/", "mediaType": "movie", "tmdbId": 12554 },
     { "key": "/tv-show/conspiracy/", "mediaType": "movie", "tmdbId": 12900 },
@@ -75,6 +99,12 @@
     { "key": "/tv-show/from-here-to-eternity-tv-mini-series/", "mediaType": "series", "tmdbId": 43872 },
     { "key": "/tv-show/game-change/", "mediaType": "movie", "tmdbId": 91010 },
     { "key": "/tv-show/governor-and-j-j-the/", "mediaType": "series", "tmdbId": 9753 },
+    {
+      "key": "/tv-show/high-chaparral/",
+      "mediaType": "series",
+      "tmdbId": 11096,
+      "reviewNote": "The title-only candidate had selected an unrelated 2016 documentary; Linda Cristal's winning work is the television series The High Chaparral."
+    },
     { "key": "/tv-show/gypsy-1993-tv/", "mediaType": "movie", "tmdbId": 17912 },
     { "key": "/tv-show/homecoming-the/", "mediaType": "movie", "tmdbId": 56308 },
     { "key": "/tv-show/james-dean/", "mediaType": "movie", "tmdbId": 2141 },
@@ -87,6 +117,12 @@
     { "key": "/tv-show/life-with-judy-garland-me-my-shadows/", "mediaType": "series", "tmdbId": 75577 },
     { "key": "/tv-show/life-support/", "mediaType": "movie", "tmdbId": 56555 },
     { "key": "/tv-show/mash-tv-show/", "mediaType": "series", "tmdbId": 918 },
+    {
+      "key": "/tv-show/mr-ed/",
+      "mediaType": "series",
+      "tmdbId": 453,
+      "reviewNote": "The title-only candidate had selected an unrelated record without a release date; the winning series is the 1961 television programme Mister Ed."
+    },
     { "key": "/tv-show/no-place-like-home/", "mediaType": "movie", "tmdbId": 193592 },
     { "key": "/tv-show/office-the-uk/", "mediaType": "series", "tmdbId": 2996 },
     {
@@ -97,6 +133,12 @@
     },
     { "key": "/tv-show/passion-of-ayn-rand-the/", "mediaType": "movie", "tmdbId": 49622 },
     { "key": "/tv-show/path-to-war/", "mediaType": "movie", "tmdbId": 31018 },
+    {
+      "key": "/tv-show/poor-little-rich-girl-the-barbara-hutton-story/",
+      "mediaType": "series",
+      "tmdbId": 16502,
+      "reviewNote": "The selected miniseries and IMDb identity are correct, but TMDB's current first-air date follows the official Golden Globes ceremony year; the date anomaly is explicitly reviewed."
+    },
     { "key": "/tv-show/promise/", "mediaType": "movie", "tmdbId": 150140 },
     { "key": "/tv-show/rasputin/", "mediaType": "movie", "tmdbId": 46827 },
     { "key": "/tv-show/rat-pack-the/", "mediaType": "movie", "tmdbId": 25163 },

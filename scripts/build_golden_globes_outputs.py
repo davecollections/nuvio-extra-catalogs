@@ -17,6 +17,7 @@ CONTRACTS_PATH = REPO_ROOT / "data" / "awards" / "golden-globes" / "output-contr
 CATALOG_ROOT = REPO_ROOT / "catalog"
 IMDB_RE = re.compile(r"^tt\d+$")
 POSTER_TEMPLATE = "https://images.metahub.space/poster/medium/{imdb_id}/img"
+TMDB_POSTER_RE = re.compile(r"^https://image\.tmdb\.org/t/p/w500/[A-Za-z0-9_-]+\.jpg$")
 
 
 class OutputError(RuntimeError):
@@ -68,6 +69,24 @@ def collect_rows() -> tuple[dict[str, list[dict]], set[str]]:
 def build_outputs() -> tuple[dict[Path, str], list[dict]]:
     rows_by_category, category_ids = collect_rows()
     contract_payload = load_json(CONTRACTS_PATH)
+    poster_overrides = contract_payload.get("posterOverrides", {})
+    known_unavailable_posters = contract_payload.get("knownUnavailablePosters", [])
+    if (
+        not isinstance(poster_overrides, dict)
+        or any(not IMDB_RE.fullmatch(key) for key in poster_overrides)
+        or any(
+            not isinstance(value, str) or not TMDB_POSTER_RE.fullmatch(value)
+            for value in poster_overrides.values()
+        )
+    ):
+        raise OutputError(f"{CONTRACTS_PATH}: posterOverrides is invalid")
+    if (
+        not isinstance(known_unavailable_posters, list)
+        or len(known_unavailable_posters) != len(set(known_unavailable_posters))
+        or any(not isinstance(value, str) or not IMDB_RE.fullmatch(value) for value in known_unavailable_posters)
+        or set(known_unavailable_posters) & set(poster_overrides)
+    ):
+        raise OutputError(f"{CONTRACTS_PATH}: knownUnavailablePosters is invalid")
     contracts = contract_payload.get("categories")
     if not isinstance(contracts, list):
         raise OutputError(f"{CONTRACTS_PATH}: categories must be an array")
@@ -77,6 +96,7 @@ def build_outputs() -> tuple[dict[Path, str], list[dict]]:
 
     outputs: dict[Path, str] = {}
     manifest_catalogs: list[dict] = []
+    published_imdb_ids: set[str] = set()
     for contract in contracts:
         category_id = contract["categoryId"]
         rows = rows_by_category.get(category_id, [])
@@ -139,12 +159,15 @@ def build_outputs() -> tuple[dict[Path, str], list[dict]]:
                 if imdb_id in seen:
                     continue
                 seen.add(imdb_id)
+                published_imdb_ids.add(imdb_id)
                 metas.append(
                     {
                         "id": imdb_id,
                         "type": media_type,
                         "name": title.strip(),
-                        "poster": POSTER_TEMPLATE.format(imdb_id=imdb_id),
+                        "poster": poster_overrides.get(
+                            imdb_id, POSTER_TEMPLATE.format(imdb_id=imdb_id)
+                        ),
                         "posterShape": "poster",
                     }
                 )
@@ -160,6 +183,12 @@ def build_outputs() -> tuple[dict[Path, str], list[dict]]:
             manifest_catalogs.append(
                 {"type": media_type, "id": catalog["id"], "name": catalog["name"]}
             )
+    configured_posters = set(poster_overrides) | set(known_unavailable_posters)
+    if not configured_posters <= published_imdb_ids:
+        raise OutputError(
+            f"{CONTRACTS_PATH}: poster configuration contains unpublished IMDb IDs "
+            f"{sorted(configured_posters - published_imdb_ids)}"
+        )
     return outputs, manifest_catalogs
 
 

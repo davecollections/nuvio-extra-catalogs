@@ -4,10 +4,10 @@ A small Stremio-compatible catalogue add-on intended to provide collection sourc
 
 ## Current catalogues
 
-The all-awards manifest exposes 58 catalogues:
+The all-awards manifest exposes 57 catalogues:
 
 - 24 winner-film catalogues for all current competitive Academy Award categories; and
-- 34 Golden Globes catalogues (23 movie and 11 series) covering the 27 current category lineages that map to Stremio media types.
+- 33 Golden Globes catalogues (22 movie and 11 series) covering the 27 current category lineages that map to Stremio media types.
 
 The Academy catalogues include:
 

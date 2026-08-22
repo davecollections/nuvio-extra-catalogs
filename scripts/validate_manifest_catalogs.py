@@ -19,6 +19,9 @@ SEMVER_RE = re.compile(r"^\d+\.\d+\.\d+$")
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 IMDB_RE = re.compile(r"^tt\d+$")
 POSTER_TEMPLATE = "https://images.metahub.space/poster/medium/{imdb_id}/img"
+GOLDEN_CONTRACTS_PATH = (
+    REPO_ROOT / "data" / "awards" / "golden-globes" / "output-contracts.json"
+)
 
 
 class ValidationError(RuntimeError):
@@ -89,7 +92,9 @@ def validate_manifest(
     return manifest, identities
 
 
-def validate_catalogue(path: Path, media_type: str) -> int:
+def validate_catalogue(
+    path: Path, media_type: str, poster_overrides: dict[str, str]
+) -> int:
     value = load_json(path)
     if set(value) != {"metas"} or not isinstance(value["metas"], list):
         raise ValidationError(f"{path}: expected one metas array")
@@ -107,8 +112,13 @@ def validate_catalogue(path: Path, media_type: str) -> int:
             raise ValidationError(f"{path}: metas[{index}].type must be {media_type}")
         if not isinstance(meta.get("name"), str) or not meta["name"].strip():
             raise ValidationError(f"{path}: metas[{index}].name is invalid")
-        if meta.get("poster") != POSTER_TEMPLATE.format(imdb_id=imdb_id):
-            raise ValidationError(f"{path}: metas[{index}].poster is not the canonical MetaHub URL")
+        expected_poster = (
+            poster_overrides.get(imdb_id, POSTER_TEMPLATE.format(imdb_id=imdb_id))
+            if path.name.startswith("golden-globes-")
+            else POSTER_TEMPLATE.format(imdb_id=imdb_id)
+        )
+        if meta.get("poster") != expected_poster:
+            raise ValidationError(f"{path}: metas[{index}].poster is not the contracted URL")
         if meta.get("posterShape") != "poster":
             raise ValidationError(f"{path}: metas[{index}].posterShape must be poster")
     return len(value["metas"])
@@ -131,13 +141,18 @@ def expected_files(root: Path, identities: list[tuple[str, str]]) -> set[Path]:
 
 def main() -> int:
     try:
+        poster_overrides = load_json(GOLDEN_CONTRACTS_PATH).get("posterOverrides", {})
+        if not isinstance(poster_overrides, dict):
+            raise ValidationError(f"{GOLDEN_CONTRACTS_PATH}: posterOverrides must be an object")
         root_manifest, root_catalogs = validate_manifest(ROOT_MANIFEST_PATH)
         root_files = catalogue_files(REPO_ROOT)
         if root_files != expected_files(REPO_ROOT, root_catalogs):
             raise ValidationError("root manifest/catalogue file set mismatch")
         total_items = sum(
             validate_catalogue(
-                REPO_ROOT / "catalog" / media_type / f"{catalog_id}.json", media_type
+                REPO_ROOT / "catalog" / media_type / f"{catalog_id}.json",
+                media_type,
+                poster_overrides,
             )
             for media_type, catalog_id in root_catalogs
         )
@@ -160,7 +175,7 @@ def main() -> int:
                 root_path = REPO_ROOT / "catalog" / media_type / f"{catalog_id}.json"
                 if preset_path.read_bytes() != root_path.read_bytes():
                     raise ValidationError(f"{preset_path}: does not byte-match root catalogue")
-                validate_catalogue(preset_path, media_type)
+                validate_catalogue(preset_path, media_type, poster_overrides)
             preset_catalog_union.update(catalogs)
         if preset_catalog_union != set(root_catalogs):
             raise ValidationError("award presets do not partition the all-awards manifest")
