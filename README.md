@@ -1,6 +1,6 @@
-# Nuvio Extra Catalogs
+# Xtra
 
-A small Stremio-compatible catalogue add-on intended to provide collection sources that Nuvio and its official TMDB catalogue add-on do not currently expose.
+An independent Stremio-compatible catalogue add-on intended to provide collection sources that Nuvio and its official TMDB catalogue add-on do not currently expose.
 
 ## Current catalogues
 
@@ -28,7 +28,7 @@ The original V0.1 seed proved the integration path in Nuvio. V0.2–V0.5 establi
 4. Items identified by IMDb IDs can open with metadata supplied by another installed metadata provider.
 5. The add-on can remain catalog-only for this architecture.
 
-A compatible metadata provider is expected to be installed alongside Extra Catalogs. Nuvio's official TMDB add-on is the recommended example used during the proof of concept.
+A compatible metadata provider is expected to be installed alongside Xtra. Nuvio's official TMDB add-on is the recommended example used during the proof of concept.
 
 ## Structure
 

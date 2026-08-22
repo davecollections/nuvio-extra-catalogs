@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping improve Nuvio Extra Catalogs. Please focus on the user value first; implementation can be worked out afterward.
+        Thanks for helping improve Xtra. Please focus on the user value first; implementation can be worked out afterward.
   - type: textarea
     id: idea
     attributes:
