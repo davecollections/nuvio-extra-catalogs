@@ -12,11 +12,25 @@
       "expectedHistoricalLabelCount": 61,
       "labels": [
         {
+          "label": "EE Rising Star Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/ee-rising-star-award/",
+          "evidenceNominationId": "366443",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=David%20Jonsson&type=Film&winner=winner"
+        },
+        {
           "label": "Film",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/film/film/",
           "evidenceNominationId": "355865",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=La%20La%20Land&type=Film&winner=winner"
+        },
+        {
+          "label": "Music",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/music/",
+          "evidenceNominationId": "344226",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Michael%20Giacchino&type=Film&winner=winner"
         },
         {
           "label": "Original Music",
@@ -31,6 +45,20 @@
           "historyPage": "https://www.bafta.org/awards/film/short-animated-film/",
           "evidenceNominationId": "350749",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Making%20Of%20Longbird&type=Film&winner=winner"
+        },
+        {
+          "label": "Short Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/short-film/",
+          "evidenceNominationId": "350752",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Swimmer&type=Film&winner=winner"
+        },
+        {
+          "label": "Special Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/competitive-special-award/",
+          "evidenceNominationId": "366202",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Roger%20Pratt&type=Film&winner=winner"
         }
       ]
     },
@@ -46,6 +74,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Rob%20Romesh&type=Television&winner=winner"
         },
         {
+          "label": "Features",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/features/",
+          "evidenceNominationId": "361114",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Joe%20Lycett%20Beckham&type=Television&winner=winner"
+        },
+        {
           "label": "Female Performance in a Comedy",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/television/female-performance-in-a-comedy/",
@@ -58,6 +93,27 @@
           "historyPage": "https://www.bafta.org/awards/television/male-performance-in-a-comedy/",
           "evidenceNominationId": "368272",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Danny%20Dyer&type=Television&winner=winner"
+        },
+        {
+          "label": "Mini-Series",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/mini-series/",
+          "evidenceNominationId": "361151",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Mood&type=Television&winner=winner"
+        },
+        {
+          "label": "Reality & Constructed Factual",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/reality-constructed-factual/",
+          "evidenceNominationId": "361159",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=The%20Traitors&type=Television&winner=winner"
+        },
+        {
+          "label": "Single Drama",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/single-drama/",
+          "evidenceNominationId": "361173",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=I%20Am%20Ruth&type=Television&winner=winner"
         }
       ]
     },
@@ -65,6 +121,20 @@
       "id": "television-craft",
       "expectedHistoricalLabelCount": 54,
       "labels": [
+        {
+          "label": "Breakthrough Talent",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/breakthrough-talent/",
+          "evidenceNominationId": "359008",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=This%20Way%20Up&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Digital Creativity",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/digital-creativity/",
+          "evidenceNominationId": "356048",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Alchemy%20VR&type=TV%20Craft&winner=winner"
+        },
         {
           "label": "Director: Fiction, sponsored by 3 Mills Studios",
           "status": "resolved",
@@ -80,11 +150,25 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Lucia%20Keskin&type=TV%20Craft&winner=winner"
         },
         {
+          "label": "Entertainment Craft Team, sponsored by Hotcam",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/entertainment-craft-team-sponsored-by-hotcam/",
+          "evidenceNominationId": "368362",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Taskmaster&type=TV%20Craft&winner=winner"
+        },
+        {
           "label": "Original Music",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/tvcraft/original-music-tvcraft/",
           "evidenceNominationId": "360456",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Landscapers&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Production Design, sponsored by Microsoft",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/production-design-sponsored-by-microsoft/",
+          "evidenceNominationId": "368386",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Rivals&type=TV%20Craft&winner=winner"
         }
       ]
     }

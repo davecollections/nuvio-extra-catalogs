@@ -6,10 +6,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 
 | Programme | Winners | Historical labels | Current included | Current excluded | Historical evidenced | Pending historical |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| BAFTA Film Awards | 1,634 | 89 | 25 | 3 | 3 | 58 |
-| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 3 | 92 |
-| BAFTA Television Craft Awards | 757 | 78 | 23 | 1 | 3 | 51 |
-| **Total** | **3,911** | **291** | **75** | **6** | **9** | **201** |
+| BAFTA Film Awards | 1,634 | 89 | 25 | 3 | 7 | 54 |
+| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 7 | 88 |
+| BAFTA Television Craft Awards | 757 | 78 | 23 | 1 | 7 | 47 |
+| **Total** | **3,911** | **291** | **75** | **6** | **21** | **189** |
 
 ## BAFTA Film Awards
 
@@ -43,13 +43,13 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | EE Rising Star | 2026 | 2026 | 1 | excluded current | — |
 | Fellowship | 1971 | 2026 | 64 | excluded current | — |
 | Outstanding British Contribution To Cinema | 1979 | 2026 | 45 | excluded current | — |
+| EE Rising Star Award | 2006 | 2025 | 20 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/ee-rising-star-award/) |
 | Original Music | 2011 | 2019 | 9 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/original-music/) |
+| Special Award | 1949 | 2019 | 57 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/competitive-special-award/) |
 | Film | 1965 | 2017 | 53 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/film/) |
 | Short Animation | 1983 | 2013 | 31 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/short-animated-film/) |
-| EE Rising Star Award | 2006 | 2025 | 20 | historical review | pending |
-| Special Award | 1949 | 2019 | 57 | historical review | pending |
-| Short Film | 1960 | 2013 | 46 | historical review | pending |
-| Music | 2008 | 2010 | 3 | historical review | pending |
+| Short Film | 1960 | 2013 | 46 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/short-film/) |
+| Music | 2008 | 2010 | 3 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/music/) |
 | Carl Foreman Award for Special Achievement by a British Director, Writer or Producer in their First Feature Film | 2002 | 2009 | 8 | historical review | pending |
 | BAFTA/Orange 60 Seconds Of Fame | 2007 | 2008 | 2 | historical review | pending |
 | British Film | 1949 | 2008 | 22 | historical review | pending |
@@ -141,10 +141,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Female Performance in a Comedy | 2010 | 2025 | 16 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/female-performance-in-a-comedy/) |
 | Male Performance in a Comedy | 2010 | 2025 | 16 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/male-performance-in-a-comedy/) |
 | Comedy Entertainment | 2018 | 2024 | 7 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/comedy-entertainment/) |
-| Features | 1999 | 2023 | 25 | historical review | pending |
-| Mini-Series | 2012 | 2023 | 12 | historical review | pending |
-| Reality & Constructed Factual | 2012 | 2023 | 12 | historical review | pending |
-| Single Drama | 1983 | 2023 | 41 | historical review | pending |
+| Features | 1999 | 2023 | 25 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/features/) |
+| Mini-Series | 2012 | 2023 | 12 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/mini-series/) |
+| Reality & Constructed Factual | 2012 | 2023 | 12 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/reality-constructed-factual/) |
+| Single Drama | 1983 | 2023 | 41 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/single-drama/) |
 | Soap & Continuing Drama | 2018 | 2023 | 6 | historical review | pending |
 | Virgin Media's Must-See Moment | 2019 | 2022 | 4 | historical review | pending |
 | Virgin TV's Must See Moment | 2017 | 2018 | 2 | historical review | pending |
@@ -264,11 +264,11 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Special Award | 2000 | 2026 | 30 | excluded current | — |
 | Director: Fiction, sponsored by 3 Mills Studios | 2025 | 2025 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/director-fiction-sponsored-by-3-mills-studios/) |
 | Emerging Talent: Fiction, sponsored by Sara Putt Associates | 2025 | 2025 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/emerging-talent-fiction-sponsored-by-sara-putt-associates/) |
+| Entertainment Craft Team, sponsored by Hotcam | 2025 | 2025 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/entertainment-craft-team-sponsored-by-hotcam/) |
+| Production Design, sponsored by Microsoft | 2025 | 2025 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/production-design-sponsored-by-microsoft/) |
 | Original Music | 1994 | 2022 | 28 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/original-music-tvcraft/) |
-| Entertainment Craft Team, sponsored by Hotcam | 2025 | 2025 | 1 | historical review | pending |
-| Production Design, sponsored by Microsoft | 2025 | 2025 | 1 | historical review | pending |
-| Breakthrough Talent | 2008 | 2020 | 13 | historical review | pending |
-| Digital Creativity | 2011 | 2017 | 7 | historical review | pending |
+| Breakthrough Talent | 2008 | 2020 | 13 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/breakthrough-talent/) |
+| Digital Creativity | 2011 | 2017 | 7 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/digital-creativity/) |
 | Titles | 2006 | 2015 | 6 | historical review | pending |
 | Visual Effects And Graphic Design | 2001 | 2013 | 3 | historical review | pending |
 | Director - Fiction/Entertainment | 2009 | 2012 | 4 | historical review | pending |
