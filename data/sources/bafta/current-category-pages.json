@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-08-22",
+  "authority": {
+    "name": "British Academy of Film and Television Arts",
+    "searchPage": "https://www.bafta.org/awards/search/"
+  },
+  "programmes": [
+    {
+      "id": "film",
+      "name": "BAFTA Film Awards",
+      "searchType": "Film",
+      "annualResultsPage": "https://www.bafta.org/awards/film/",
+      "official2026CategoryCount": 28,
+      "included": [
+        { "name": "Adapted Screenplay", "historyPage": "https://www.bafta.org/awards/film/adapted-screenplay/" },
+        { "name": "Animated Film", "historyPage": "https://www.bafta.org/awards/film/animated-film/" },
+        { "name": "Best Film", "historyPage": "https://www.bafta.org/awards/film/best-film/" },
+        { "name": "British Short Animation", "historyPage": "https://www.bafta.org/awards/film/british-short-animation/" },
+        { "name": "British Short Film", "historyPage": "https://www.bafta.org/awards/film/british-short-film/" },
+        { "name": "Casting", "historyPage": "https://www.bafta.org/awards/film/casting/" },
+        { "name": "Children's & Family", "historyPage": "https://www.bafta.org/awards/film/childrens-family/" },
+        { "name": "Cinematography", "historyPage": "https://www.bafta.org/awards/film/cinematography/" },
+        { "name": "Costume Design", "historyPage": "https://www.bafta.org/awards/film/costume-design/" },
+        { "name": "Director", "historyPage": "https://www.bafta.org/awards/film/director/" },
+        { "name": "Documentary", "historyPage": "https://www.bafta.org/awards/film/documentary/" },
+        { "name": "Editing", "historyPage": "https://www.bafta.org/awards/film/editing/" },
+        { "name": "Film Not in the English Language", "historyPage": "https://www.bafta.org/awards/film/film-not-in-the-english-language/" },
+        { "name": "Leading Actor", "historyPage": "https://www.bafta.org/awards/film/leading-actor/" },
+        { "name": "Leading Actress", "historyPage": "https://www.bafta.org/awards/film/leading-actress/" },
+        { "name": "Make Up & Hair", "historyPage": "https://www.bafta.org/awards/film/make-up-hair/" },
+        { "name": "Original Score", "historyPage": "https://www.bafta.org/awards/film/original-score/" },
+        { "name": "Original Screenplay", "historyPage": "https://www.bafta.org/awards/film/original-screenplay/" },
+        { "name": "Outstanding British Film", "historyPage": "https://www.bafta.org/awards/film/outstanding-british-film/" },
+        { "name": "Outstanding Debut by a British Writer, Director or Producer", "historyPage": "https://www.bafta.org/awards/film/outstanding-debut-by-a-british-writer-director-or-producer/" },
+        { "name": "Production Design", "historyPage": "https://www.bafta.org/awards/film/production-design/" },
+        { "name": "Sound", "historyPage": "https://www.bafta.org/awards/film/sound/" },
+        { "name": "Special Visual Effects", "historyPage": "https://www.bafta.org/awards/film/special-visual-effects/" },
+        { "name": "Supporting Actor", "historyPage": "https://www.bafta.org/awards/film/supporting-actor/" },
+        { "name": "Supporting Actress", "historyPage": "https://www.bafta.org/awards/film/supporting-actress/" }
+      ],
+      "excluded": [
+        { "name": "EE Rising Star Award", "reason": "Person-only public-vote award without an authoritative winning work." },
+        { "name": "Fellowship", "reason": "Non-competitive lifetime recognition rather than a work winner category." },
+        { "name": "Outstanding British Contribution to Cinema", "reason": "Non-competitive contribution award rather than a work winner category." }
+      ]
+    },
+    {
+      "id": "television",
+      "name": "BAFTA Television Awards",
+      "searchType": "Television",
+      "annualResultsPage": "https://www.bafta.org/awards/television/",
+      "official2026CategoryCount": 29,
+      "included": [
+        { "name": "Actor in a Comedy", "historyPage": "https://www.bafta.org/awards/television/actor-in-a-comedy/" },
+        { "name": "Actress in a Comedy", "historyPage": "https://www.bafta.org/awards/television/actress-in-a-comedy/" },
+        { "name": "Children's: Non-Scripted", "historyPage": "https://www.bafta.org/awards/television/childrens-non-scripted/" },
+        { "name": "Children's: Scripted", "historyPage": "https://www.bafta.org/awards/television/childrens-scripted/" },
+        { "name": "Current Affairs", "historyPage": "https://www.bafta.org/awards/television/current-affairs/" },
+        { "name": "Daytime", "historyPage": "https://www.bafta.org/awards/television/daytime/" },
+        { "name": "Drama Series", "historyPage": "https://www.bafta.org/awards/television/drama-series/" },
+        { "name": "Entertainment", "historyPage": "https://www.bafta.org/awards/television/entertainment/" },
+        { "name": "Entertainment Performance", "historyPage": "https://www.bafta.org/awards/television/entertainment-performance/" },
+        { "name": "Factual Entertainment", "historyPage": "https://www.bafta.org/awards/television/factual-entertainment/" },
+        { "name": "Factual Series", "historyPage": "https://www.bafta.org/awards/television/factual-series/" },
+        { "name": "International", "historyPage": "https://www.bafta.org/awards/television/international/" },
+        { "name": "Leading Actor", "historyPage": "https://www.bafta.org/awards/television/leading-actor-television/" },
+        { "name": "Leading Actress", "historyPage": "https://www.bafta.org/awards/television/leading-actress-television/" },
+        { "name": "Limited Drama", "historyPage": "https://www.bafta.org/awards/television/limited-drama/" },
+        { "name": "Live Event Coverage", "historyPage": "https://www.bafta.org/awards/television/live-event-coverage/" },
+        { "name": "News Coverage", "historyPage": "https://www.bafta.org/awards/television/news-coverage/" },
+        { "name": "P&O Cruises Memorable Moment", "historyPage": "https://www.bafta.org/awards/television/p-o-cruises-memorable-moment/" },
+        { "name": "Reality", "historyPage": "https://www.bafta.org/awards/television/reality/" },
+        { "name": "Scripted Comedy", "historyPage": "https://www.bafta.org/awards/television/scripted-comedy/" },
+        { "name": "Short Form", "historyPage": "https://www.bafta.org/awards/television/short-form/" },
+        { "name": "Single Documentary", "historyPage": "https://www.bafta.org/awards/television/single-documentary/" },
+        { "name": "Soap", "historyPage": "https://www.bafta.org/awards/television/soap/" },
+        { "name": "Specialist Factual", "historyPage": "https://www.bafta.org/awards/television/specialist-factual/" },
+        { "name": "Sports Coverage", "historyPage": "https://www.bafta.org/awards/television/sports-coverage/" },
+        { "name": "Supporting Actor", "historyPage": "https://www.bafta.org/awards/television/supporting-actor-television/" },
+        { "name": "Supporting Actress", "historyPage": "https://www.bafta.org/awards/television/supporting-actress-television/" }
+      ],
+      "excluded": [
+        { "name": "Fellowship", "reason": "Non-competitive lifetime recognition rather than a work winner category." },
+        { "name": "Special Award", "reason": "Non-competitive recognition rather than a work winner category." }
+      ]
+    },
+    {
+      "id": "television-craft",
+      "name": "BAFTA Television Craft Awards",
+      "searchType": "TV Craft",
+      "annualResultsPage": "https://www.bafta.org/awards/tv-craft/",
+      "official2026CategoryCount": 24,
+      "included": [
+        { "name": "Children's: Craft Team", "historyPage": "https://www.bafta.org/awards/tvcraft/childrens-craft-team/" },
+        { "name": "Costume Design", "historyPage": "https://www.bafta.org/awards/tvcraft/costume-design-tvcraft/" },
+        { "name": "Director: Factual", "historyPage": "https://www.bafta.org/awards/tvcraft/director-factual-tvcraft/" },
+        { "name": "Director: Fiction", "historyPage": "https://www.bafta.org/awards/tvcraft/director-fiction-tvcraft/" },
+        { "name": "Director: Multi-Camera", "historyPage": "https://www.bafta.org/awards/tvcraft/director-multi-camera/" },
+        { "name": "Editing: Factual", "historyPage": "https://www.bafta.org/awards/tvcraft/editing-factual-tvcraft/" },
+        { "name": "Editing: Fiction", "historyPage": "https://www.bafta.org/awards/tvcraft/editing-fiction-tvcraft/" },
+        { "name": "Emerging Talent: Factual", "historyPage": "https://www.bafta.org/awards/tvcraft/emerging-talent-factual/" },
+        { "name": "Emerging Talent: Fiction", "historyPage": "https://www.bafta.org/awards/tvcraft/emerging-talent-fiction/" },
+        { "name": "Entertainment Craft Team", "historyPage": "https://www.bafta.org/awards/tvcraft/entertainment-craft-team/" },
+        { "name": "Make-Up & Hair Design", "historyPage": "https://www.bafta.org/awards/tvcraft/make-up-hair-design/" },
+        { "name": "Original Music: Factual", "historyPage": "https://www.bafta.org/awards/tvcraft/original-music-factual/" },
+        { "name": "Original Music: Fiction", "historyPage": "https://www.bafta.org/awards/tvcraft/original-music-fiction/" },
+        { "name": "Photography & Lighting: Fiction", "historyPage": "https://www.bafta.org/awards/tvcraft/photography-lighting-fiction/" },
+        { "name": "Photography: Factual", "historyPage": "https://www.bafta.org/awards/tvcraft/photography-factual/" },
+        { "name": "Production Design", "historyPage": "https://www.bafta.org/awards/tvcraft/production-design-tvcraft/" },
+        { "name": "Scripted Casting", "historyPage": "https://www.bafta.org/awards/tvcraft/scripted-casting/" },
+        { "name": "Sound: Factual", "historyPage": "https://www.bafta.org/awards/tvcraft/sound-factual/" },
+        { "name": "Sound: Fiction", "historyPage": "https://www.bafta.org/awards/tvcraft/sound-fiction/" },
+        { "name": "Special, Visual & Graphic Effects", "historyPage": "https://www.bafta.org/awards/tvcraft/special-visual-and-graphic-effects/" },
+        { "name": "Titles & Graphic Identity", "historyPage": "https://www.bafta.org/awards/tvcraft/titles-graphic-identity/" },
+        { "name": "Writer: Comedy", "historyPage": "https://www.bafta.org/awards/tvcraft/writer-comedy/" },
+        { "name": "Writer: Drama", "historyPage": "https://www.bafta.org/awards/tvcraft/writer-drama/" }
+      ],
+      "excluded": [
+        { "name": "Special Award", "reason": "Non-competitive recognition rather than a work winner category." }
+      ]
+    }
+  ],
+  "summary": {
+    "official2026CategoryCount": 81,
+    "includedCurrentCategoryCount": 75,
+    "excludedCurrentCategoryCount": 6
+  }
+}

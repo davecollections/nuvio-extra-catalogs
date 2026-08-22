@@ -47,6 +47,9 @@ jobs:
       - name: Validate canonical awards data
         run: python scripts/validate_awards_data.py
 
+      - name: Validate BAFTA current source registry
+        run: python scripts/validate_bafta_source_registry.py
+
       - name: Check Best Picture generated output
         run: python scripts/build_best_picture_catalog.py --check
 

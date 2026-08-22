@@ -47,6 +47,12 @@ During the 2026-08-22 source audit, direct non-browser requests received BAFTA's
 
 The acquisition helper may automate extraction from already-rendered official pages, but it must not make a scheduled browser session or the live BAFTA site a runtime dependency. A future annual update repeats the reviewed acquisition for the new official results and compares it with the pinned snapshot before canonical data changes.
 
+`data/sources/bafta/current-category-pages.json` freezes the 75 reviewed current category-history pages and the six explicit exclusions found through the official 2026 result search. It is the input registry for browser acquisition, not winner data. Validate that registry independently with:
+
+```bash
+python scripts/validate_bafta_source_registry.py
+```
+
 ## Category lineage gate
 
 The 75 initial categories are not yet 75 guaranteed catalogues. Historical category names, scopes, splits, and mergers must be reviewed before stable local IDs are assigned. In particular:
