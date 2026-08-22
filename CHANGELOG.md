@@ -4,6 +4,10 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ## [Unreleased]
 
+No changes yet.
+
+## [1.1.0] - 2026-08-22
+
 ### Added
 
 - Complete Golden Globes winner histories under Issue #27 for the 28 categories awarded in 2026 and their defensible historical lineages across all 83 ceremonies from 1944 through 2026.
@@ -30,9 +34,15 @@ All notable project milestones are recorded here. This project uses semantic ver
 - The all-awards manifest and both award presets pass exact route, payload-shape, media-type, byte-equality, and catalogue-set validation: 46 movie and 11 series catalogues with 3,645 total all-awards Meta Preview items.
 - Desktop and 393-pixel mobile browser checks pass for manifest selection, both compact award disclosures, horizontal overflow, accessibility labelling, and console errors.
 
-### Release gate
+### Validated in Nuvio
 
-- Golden Globes film, series, mixed-category, artwork-fallback, and all three manifest choices have passed immutable-preview acceptance. Complete the deployed Xtra rename and confirm Refresh Add-on updates the existing all-awards installation before recording V1.1 as released.
+- The owner accepted representative Golden Globes film and series catalogues, both sides of a mixed film/series category, all three manifest choices, the five corrected identities, and the four artwork fallbacks from immutable previews.
+- Refresh Add-on changed the existing deployed installation from `Nuvio Extra Catalogs` to the working `Xtra` identity without requiring reinstallation, while retaining the Academy Awards and Golden Globes catalogues.
+- Main CI and GitHub Pages passed for merge commit `bbb606999cdbff8a7d97d1fb61db2ced8c3f43c5`, and all 118 deployed landing-page, manifest, and catalogue files match that commit.
+
+### Known-good rollback point
+
+The exact live-tested V1.1 state is preserved on branch `release/v1.1.0` and annotated tag `v1.1.0`, both pointing to merge commit `bbb606999cdbff8a7d97d1fb61db2ced8c3f43c5`. The corresponding GitHub release records the accepted installation URLs and behaviour.
 
 ## [1.0.0] - 2026-08-21
 

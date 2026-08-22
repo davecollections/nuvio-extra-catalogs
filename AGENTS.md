@@ -6,7 +6,7 @@ This repository provides additional Stremio-compatible catalog sources for Nuvio
 
 ## Current phase
 
-V1.0 is complete and preserved on `release/v1.0.0`; its accepted live state byte-matches merge commit `a49585b53bcfd95cadfb8f9a2077a02f41d82310`. The V1.1 Golden Globes expansion passed immutable-preview acceptance and merged under Issue #27 as commit `287708bc4ad6d549883b83be3aaa4961542b1967`; all 118 deployed landing-page, manifest, and catalogue files byte-match that merge. Issue #29 now replaces the potentially official-sounding user-facing name with the independent `Xtra` identity while preserving every add-on ID, catalogue ID, repository path, and manifest URL. V1.1 remains gated only on merging and deploying that rename and confirming Refresh Add-on updates the existing all-awards installation in place.
+V1.1 is complete and preserved on `release/v1.1.0` and annotated tag `v1.1.0`; both point to accepted merge commit `bbb606999cdbff8a7d97d1fb61db2ced8c3f43c5`. The release adds complete Golden Globes film and television winner histories alongside all Academy Awards catalogues, and all 118 deployed landing-page, manifest, and catalogue files byte-match the accepted commit. Refresh Add-on changed the existing installation to the independent working `Xtra` identity without reinstallation. `Xtra` is not yet a locked final name: do not rename the repository, GitHub Pages path, or other stable routes until the owner explicitly approves the final brand.
 
 ## Guardrails
 
@@ -82,6 +82,18 @@ After a pull request is merged:
 - Seeded IMDb-ID movies resolve full metadata through the user's compatible installed metadata provider.
 - Disabling the metadata provider prevents full metadata resolution while the add-on catalogue itself remains available.
 
+## Validated behaviour through V1.1
+
+- Manifest version `1.1.0` installs and validates with 57 catalogues: 46 movie and 11 series outputs containing 3,645 all-awards Meta Preview items.
+- Golden Globes coverage spans all 83 ceremonies from 1944 through 2026, retaining 1,689 current-lineage results, 1,069 reviewed work identities, and 825 people across 33 catalogue outputs.
+- Representative Golden Globes movie, series, and mixed film/series histories resolve correctly through the installed metadata provider.
+- The all-awards, Academy-only, and Golden-Globes-only manifest choices install with distinct stable add-on IDs and the intended catalogue sets.
+- Acceptance review corrected *Birdman*, *Bill*, *The High Chaparral*, *Mister Ed*, and *Weeds* and verified four TMDB poster fallbacks. *The Governor & J.J.* is the sole documented work without artwork in either reviewed source.
+- The deployed landing page uses the independent working `Xtra` identity and explicitly states that the project is not affiliated with or endorsed by Nuvio.
+- Refresh Add-on changed the existing installation to `Xtra` without requiring reinstallation and retained both award bodies.
+- Main CI and GitHub Pages passed, and all 118 deployed files byte-match accepted merge commit `bbb606999cdbff8a7d97d1fb61db2ced8c3f43c5`.
+- The known-good release is preserved on branch `release/v1.1.0`, annotated tag `v1.1.0`, and the corresponding GitHub release.
+
 ## Next milestone
 
-Complete Issue #29, publish an immutable Xtra manifest preview, merge and deploy the accepted rename, and confirm Refresh Add-on changes the existing all-awards installation to `Xtra` without reinstallation. Do not mark V1.1 released until that final live check passes.
+Choose the next awards-data expansion separately from the unresolved final product name. `Xtra` remains a working identity; do not rename the repository, GitHub Pages path, manifest routes, or stable add-on/catalogue IDs until the owner locks and explicitly approves the final brand and migration plan.
