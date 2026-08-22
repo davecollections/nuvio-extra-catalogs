@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://davecollections.github.io/nuvio-extra-catalogs/schema/award-results.schema.json",
-  "title": "Nuvio Extra Catalogs Award Ceremony Results",
+  "title": "Xtra Award Ceremony Results",
   "type": "object",
   "additionalProperties": false,
   "required": ["schemaVersion", "awardBodyId", "ceremony", "source", "results"],

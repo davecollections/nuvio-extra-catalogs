@@ -14,6 +14,7 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ### Changed
 
+- The user-facing add-on, manifest presets, landing page, documentation, and support forms now use the independent `Xtra` identity instead of `Nuvio Extra Catalogs`; stable add-on IDs, catalogue IDs, repository paths, and manifest URLs are unchanged so existing installations can refresh in place.
 - The existing all-awards manifest URL advances to version `1.1.0`, declares both `movie` and `series`, and preserves all 24 released Academy catalogue IDs while adding the 33 Golden Globes IDs.
 - Nuvio acceptance review corrected five ambiguous title identities: *Birdman*, *Bill*, *The High Chaparral*, *Mister Ed*, and *Weeds*. The erroneous one-item `Female Actor, Television Musical or Comedy — Films` output was removed after *Weeds* returned to its correct series route.
 - Four verified TMDB poster fallbacks cover correct legacy titles whose canonical MetaHub poster URL returns 404. *The Governor & J.J.* remains explicitly recorded as having no poster in either reviewed live source.
@@ -31,7 +32,7 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ### Release gate
 
-- Publish an immutable preview, run CI, and complete Nuvio acceptance for at least one Golden Globes film catalogue, one series catalogue, one mixed category's split outputs, all three manifest choices, and Refresh Add-on behaviour before merging or recording V1.1 as released.
+- Golden Globes film, series, mixed-category, artwork-fallback, and all three manifest choices have passed immutable-preview acceptance. Complete the deployed Xtra rename and confirm Refresh Add-on updates the existing all-awards installation before recording V1.1 as released.
 
 ## [1.0.0] - 2026-08-21
 

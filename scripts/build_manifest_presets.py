@@ -36,15 +36,15 @@ PRESETS = (
     Preset(
         "academy",
         "com.davecollections.nuvio.extra.academy",
-        "Nuvio Extra Catalogs — Academy Awards",
-        "Complete Academy Awards winning-film catalogues for Nuvio and other compatible clients.",
+        "Xtra — Academy Awards",
+        "Independent Xtra preset with complete Academy Awards winning-film catalogues for Nuvio and other compatible clients.",
         "academy-",
     ),
     Preset(
         "golden-globes",
         "com.davecollections.nuvio.extra.goldenglobes",
-        "Nuvio Extra Catalogs — Golden Globes",
-        "Complete Golden Globes film and television winner catalogues for Nuvio and other compatible clients.",
+        "Xtra — Golden Globes",
+        "Independent Xtra preset with complete Golden Globes film and television winner catalogues for Nuvio and other compatible clients.",
         "golden-globes-",
     ),
 )

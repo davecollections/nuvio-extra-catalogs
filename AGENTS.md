@@ -6,7 +6,7 @@ This repository provides additional Stremio-compatible catalog sources for Nuvio
 
 ## Current phase
 
-V1.0 is complete and preserved on `release/v1.0.0`; its accepted live state byte-matches merge commit `a49585b53bcfd95cadfb8f9a2077a02f41d82310`. V1.1 is active under Issue #27 and adds Golden Globes film and television winner histories. Canonical data, reviewed work identities, 33 movie/series catalogues, award-level manifest presets, and the compact landing-page selector are implemented locally. Publication remains gated on CI, an immutable preview, and Nuvio acceptance of movie, series, mixed-category, preset, artwork-fallback, and refresh behaviour.
+V1.0 is complete and preserved on `release/v1.0.0`; its accepted live state byte-matches merge commit `a49585b53bcfd95cadfb8f9a2077a02f41d82310`. The V1.1 Golden Globes expansion passed immutable-preview acceptance and merged under Issue #27 as commit `287708bc4ad6d549883b83be3aaa4961542b1967`; all 118 deployed landing-page, manifest, and catalogue files byte-match that merge. Issue #29 now replaces the potentially official-sounding user-facing name with the independent `Xtra` identity while preserving every add-on ID, catalogue ID, repository path, and manifest URL. V1.1 remains gated only on merging and deploying that rename and confirming Refresh Add-on updates the existing all-awards installation in place.
 
 ## Guardrails
 
@@ -14,6 +14,7 @@ V1.0 is complete and preserved on `release/v1.0.0`; its accepted live state byte
 - Reuse existing components, helpers, data mappings, schemas, artwork conventions, validators, and interaction patterns before creating new ones. If functionality is being recreated, prefer extending or reusing the existing implementation and document any justified exception.
 - Prefer IMDb `tt` IDs for add-on catalogue items where cross-add-on metadata resolution is required.
 - Keep catalog IDs stable once users may have installed the manifest or used a catalogue in a Collection.
+- Keep the released add-on IDs and manifest URLs stable during user-facing brand changes so existing installations can refresh in place.
 - `manifest.json` catalogue IDs must exactly match their corresponding files under `catalog/{type}/`.
 - Static preset manifests must carry distinct add-on IDs and host byte-matched catalogue routes beneath their own manifest directory; do not assume a client resolves preset catalogues from the repository root.
 - Catalog responses must use valid Stremio Meta Preview objects.
@@ -83,4 +84,4 @@ After a pull request is merged:
 
 ## Next milestone
 
-Publish an immutable Issue #27 preview and complete V1.1 acceptance in Nuvio. Verify a representative Golden Globes movie catalogue, series catalogue, and both sides of a mixed film/series category; install the all-awards, Academy-only, and Golden-Globes-only manifests; confirm metadata resolution through the installed provider; and confirm Refresh Add-on updates the existing all-awards installation. Do not mark V1.1 released until those checks and GitHub Pages deployment pass.
+Complete Issue #29, publish an immutable Xtra manifest preview, merge and deploy the accepted rename, and confirm Refresh Add-on changes the existing all-awards installation to `Xtra` without reinstallation. Do not mark V1.1 released until that final live check passes.
