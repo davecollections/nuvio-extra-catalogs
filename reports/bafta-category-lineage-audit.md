@@ -6,10 +6,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 
 | Programme | Winners | Historical labels | Current included | Current excluded | Historical evidenced | Pending historical |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| BAFTA Film Awards | 1,634 | 89 | 25 | 3 | 11 | 50 |
-| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 11 | 84 |
-| BAFTA Television Craft Awards | 757 | 78 | 23 | 1 | 11 | 43 |
-| **Total** | **3,911** | **291** | **75** | **6** | **33** | **177** |
+| BAFTA Film Awards | 1,634 | 89 | 25 | 3 | 15 | 46 |
+| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 15 | 80 |
+| BAFTA Television Craft Awards | 757 | 78 | 23 | 1 | 15 | 39 |
+| **Total** | **3,911** | **291** | **75** | **6** | **45** | **165** |
 
 ## BAFTA Film Awards
 
@@ -54,10 +54,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | BAFTA/Orange 60 Seconds Of Fame | 2007 | 2008 | 2 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/bafta-orange-60-seconds-of-fame/) |
 | British Film | 1949 | 2008 | 22 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/british-film/) |
 | Achievement in Special Visual Effects | 1988 | 2007 | 19 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/achievement-in-special-visual-effects/) |
-| Alexander Korda Award for the outstanding British Film of the Year | 1993 | 2007 | 15 | historical review | pending |
-| Anthony Asquith Award for Original Film Music | 1969 | 2007 | 19 | historical review | pending |
-| David Lean Award for Achievement in Direction | 1992 | 2007 | 16 | historical review | pending |
-| Orange Film Of The Year | 1998 | 2005 | 8 | historical review | pending |
+| Alexander Korda Award for the outstanding British Film of the Year | 1993 | 2007 | 15 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/alexander-korda-award-for-the-outstanding-british-film-of-the-year/) |
+| Anthony Asquith Award for Original Film Music | 1969 | 2007 | 19 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/anthony-asquith-award-for-achievement-in-film-music/) |
+| David Lean Award for Achievement in Direction | 1992 | 2007 | 16 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/david-lean-award-for-achievement-in-direction/) |
+| Orange Film Of The Year | 1998 | 2005 | 8 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/orange-film-of-the-year/) |
 | Carl Foreman Award for the Most Promising Newcomer in British Film | 1999 | 2001 | 3 | historical review | pending |
 | Lloyds Bank People's Vote For The Most Popular Film | 1994 | 1996 | 3 | historical review | pending |
 | Score For A Film | 1983 | 1994 | 8 | historical review | pending |
@@ -149,10 +149,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Virgin Media's Must-See Moment | 2019 | 2022 | 4 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/virgin-medias-must-see-moment/) |
 | Virgin TV's Must See Moment | 2017 | 2018 | 2 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/virgin-tvs-must-see-moment/) |
 | Comedy and Comedy Entertainment Programme | 2014 | 2017 | 4 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/comedy-and-comedy-entertainment-programme/) |
-| Soap And Continuing Drama | 2012 | 2017 | 6 | historical review | pending |
-| Radio Times Audience Award | 2013 | 2016 | 4 | historical review | pending |
-| Sport And Live Event | 2012 | 2015 | 4 | historical review | pending |
-| Actor | 1954 | 2014 | 56 | historical review | pending |
+| Soap And Continuing Drama | 2012 | 2017 | 6 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/soap-and-continuing-drama/) |
+| Radio Times Audience Award | 2013 | 2016 | 4 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/radio-times-audience-award/) |
+| Sport And Live Event | 2012 | 2015 | 4 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/sport-and-live-events/) |
+| Actor | 1954 | 2014 | 56 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/actor-television/) |
 | Actress | 1954 | 2014 | 55 | historical review | pending |
 | Situation Comedy | 1973 | 2014 | 23 | historical review | pending |
 | Comedy | 1966 | 2013 | 9 | historical review | pending |
@@ -273,10 +273,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Visual Effects And Graphic Design | 2001 | 2013 | 3 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/visual-effects-and-graphic-design/) |
 | Director - Fiction/Entertainment | 2009 | 2012 | 4 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/director-fiction-entertainment/) |
 | Visual Effects | 2003 | 2012 | 10 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/visual-effects/) |
-| Writer | 2006 | 2012 | 7 | historical review | pending |
-| BBC Blast and BAFTA Screen-Skills Award | 2010 | 2010 | 1 | historical review | pending |
-| Editing - Fiction/Entertainment | 1995 | 2010 | 15 | historical review | pending |
-| Entertainment Production Team | 2010 | 2010 | 1 | historical review | pending |
+| Writer | 2006 | 2012 | 7 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/writer-tvcraft/) |
+| BBC Blast and BAFTA Screen-Skills Award | 2010 | 2010 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/bbc-blast-and-bafta-screen-skills-award/) |
+| Editing - Fiction/Entertainment | 1995 | 2010 | 15 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/editing-fiction-entertainment/) |
+| Entertainment Production Team | 2010 | 2010 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/entertainment-production-team/) |
 | Interactive Creative Contribution | 2008 | 2010 | 3 | historical review | pending |
 | Sound - Fiction/Entertainment | 1994 | 2010 | 14 | historical review | pending |
 | Interactive Innovation - Service/Platform | 2008 | 2009 | 2 | historical review | pending |

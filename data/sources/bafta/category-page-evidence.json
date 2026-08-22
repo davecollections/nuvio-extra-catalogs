@@ -19,6 +19,20 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Pirates%20Dead%20Man%20Chest&type=Film&winner=winner"
         },
         {
+          "label": "Alexander Korda Award for the outstanding British Film of the Year",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/alexander-korda-award-for-the-outstanding-british-film-of-the-year/",
+          "evidenceNominationId": "343863",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Last%20King%20Of%20Scotland&type=Film&winner=winner"
+        },
+        {
+          "label": "Anthony Asquith Award for Original Film Music",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/anthony-asquith-award-for-achievement-in-film-music/",
+          "evidenceNominationId": "343870",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Babel%20Gustavo%20Santaolalla&type=Film&winner=winner"
+        },
+        {
           "label": "BAFTA/Orange 60 Seconds Of Fame",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/film/bafta-orange-60-seconds-of-fame/",
@@ -40,6 +54,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Steve%20McQueen%20Hunger&type=Film&winner=winner"
         },
         {
+          "label": "David Lean Award for Achievement in Direction",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/david-lean-award-for-achievement-in-direction/",
+          "evidenceNominationId": "343895",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=United%2093&type=Film&winner=winner"
+        },
+        {
           "label": "EE Rising Star Award",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/film/ee-rising-star-award/",
@@ -59,6 +80,13 @@
           "historyPage": "https://www.bafta.org/awards/film/music/",
           "evidenceNominationId": "344226",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Michael%20Giacchino&type=Film&winner=winner"
+        },
+        {
+          "label": "Orange Film Of The Year",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/orange-film-of-the-year/",
+          "evidenceNominationId": "343696",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Prisoner%20Azkaban&type=Film&winner=winner"
         },
         {
           "label": "Original Music",
@@ -94,6 +122,13 @@
       "id": "television",
       "expectedHistoricalLabelCount": 95,
       "labels": [
+        {
+          "label": "Actor",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/actor-television/",
+          "evidenceNominationId": "352184",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Sean%20Harris&type=Television&winner=winner"
+        },
         {
           "label": "Comedy and Comedy Entertainment Programme",
           "status": "resolved",
@@ -137,6 +172,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Mood&type=Television&winner=winner"
         },
         {
+          "label": "Radio Times Audience Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/radio-times-audience-award/",
+          "evidenceNominationId": "353475",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Poldark&type=Television&winner=winner"
+        },
+        {
           "label": "Reality & Constructed Factual",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/television/reality-constructed-factual/",
@@ -158,6 +200,20 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Casualty&type=Television&winner=winner"
         },
         {
+          "label": "Soap And Continuing Drama",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/soap-and-continuing-drama/",
+          "evidenceNominationId": "356201",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Emmerdale&type=Television&winner=winner"
+        },
+        {
+          "label": "Sport And Live Event",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/sport-and-live-events/",
+          "evidenceNominationId": "352820",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=WW1%20Remembered&type=Television&winner=winner"
+        },
+        {
           "label": "Virgin Media's Must-See Moment",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/television/virgin-medias-must-see-moment/",
@@ -177,6 +233,13 @@
       "id": "television-craft",
       "expectedHistoricalLabelCount": 54,
       "labels": [
+        {
+          "label": "BBC Blast and BAFTA Screen-Skills Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/bbc-blast-and-bafta-screen-skills-award/",
+          "evidenceNominationId": "350295",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Sam%20Shetabi&type=TV%20Craft&winner=winner"
+        },
         {
           "label": "Breakthrough Talent",
           "status": "resolved",
@@ -206,6 +269,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Baby%20Reindeer&type=TV%20Craft&winner=winner"
         },
         {
+          "label": "Editing - Fiction/Entertainment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/editing-fiction-entertainment/",
+          "evidenceNominationId": "350317",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Kristina%20Hetherington&type=TV%20Craft&winner=winner"
+        },
+        {
           "label": "Emerging Talent: Fiction, sponsored by Sara Putt Associates",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/tvcraft/emerging-talent-fiction-sponsored-by-sara-putt-associates/",
@@ -218,6 +288,13 @@
           "historyPage": "https://www.bafta.org/awards/tvcraft/entertainment-craft-team-sponsored-by-hotcam/",
           "evidenceNominationId": "368362",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Taskmaster&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Entertainment Production Team",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/entertainment-production-team/",
+          "evidenceNominationId": "350324",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=The%20X%20Factor&type=TV%20Craft&winner=winner"
         },
         {
           "label": "Original Music",
@@ -253,6 +330,13 @@
           "historyPage": "https://www.bafta.org/awards/tvcraft/visual-effects-and-graphic-design/",
           "evidenceNominationId": "351206",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Titanic&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Writer",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/writer-tvcraft/",
+          "evidenceNominationId": "350518",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Steven%20Moffat%20Sherlock&type=TV%20Craft&winner=winner"
         }
       ]
     }
