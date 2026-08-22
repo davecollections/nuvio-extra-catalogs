@@ -6,7 +6,7 @@ This repository provides additional Stremio-compatible catalog sources for Nuvio
 
 ## Current phase
 
-V1.0 is complete. Its commit-pinned preview and refreshed live manifest passed Nuvio acceptance, the deployed GitHub Pages landing page, manifest, and all 24 catalogue payloads byte-match merge commit `a49585b53bcfd95cadfb8f9a2077a02f41d82310`, and the exact tested state is preserved on `release/v1.0.0`. V1.0 completes all current Academy categories while preserving the six released V0.5 catalogue payloads unchanged. The previous V0.5 rollback point remains preserved on `release/v0.5.0`.
+V1.0 is complete and preserved on `release/v1.0.0`; its accepted live state byte-matches merge commit `a49585b53bcfd95cadfb8f9a2077a02f41d82310`. V1.1 is active under Issue #27 and adds Golden Globes film and television winner histories. Canonical data, reviewed work identities, 33 movie/series catalogues, award-level manifest presets, and the compact landing-page selector are implemented locally. Publication remains gated on CI, an immutable preview, and Nuvio acceptance of movie, series, mixed-category, preset, artwork-fallback, and refresh behaviour.
 
 ## Guardrails
 
@@ -15,6 +15,7 @@ V1.0 is complete. Its commit-pinned preview and refreshed live manifest passed N
 - Prefer IMDb `tt` IDs for add-on catalogue items where cross-add-on metadata resolution is required.
 - Keep catalog IDs stable once users may have installed the manifest or used a catalogue in a Collection.
 - `manifest.json` catalogue IDs must exactly match their corresponding files under `catalog/{type}/`.
+- Static preset manifests must carry distinct add-on IDs and host byte-matched catalogue routes beneath their own manifest directory; do not assume a client resolves preset catalogues from the repository root.
 - Catalog responses must use valid Stremio Meta Preview objects.
 - Keep this add-on catalog-only unless a future requirement proves that a `meta` resource or live backend is necessary.
 - The add-on may rely on another compatible installed metadata provider, such as Nuvio's official TMDB add-on, for full title metadata.
@@ -82,4 +83,4 @@ After a pull request is merged:
 
 ## Next milestone
 
-Select the next award body in a focused issue and declare its authority before import. Reuse the V1.0 canonical model, identity verification, manifest validation, compact landing-page disclosure, and independently auditable category contracts. When a second award body is ready, scope award-body-level manifest selection while preserving the current all-awards manifest URL and keeping category selection out of the user configuration.
+Publish an immutable Issue #27 preview and complete V1.1 acceptance in Nuvio. Verify a representative Golden Globes movie catalogue, series catalogue, and both sides of a mixed film/series category; install the all-awards, Academy-only, and Golden-Globes-only manifests; confirm metadata resolution through the installed provider; and confirm Refresh Add-on updates the existing all-awards installation. Do not mark V1.1 released until those checks and GitHub Pages deployment pass.

@@ -4,10 +4,34 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ## [Unreleased]
 
-### Planned
+### Added
 
-- Select and scope the next award body, declaring its authoritative source before importing results.
-- When a second award body is ready, scope award-body-level manifest presets or configuration while preserving the current all-awards manifest URL and stable catalogue IDs.
+- Complete Golden Globes winner histories under Issue #27 for the 28 categories awarded in 2026 and their defensible historical lineages across all 83 ceremonies from 1944 through 2026.
+- A committed 2,029-record first-party Golden Globes winner snapshot, 1,689 scoped canonical results, 1,069 reviewed work identities, and 825 retained person identities.
+- Thirty-three deterministic Golden Globes catalogues: 22 movie and 11 series payloads covering all 27 catalogue-compatible current categories. Best Podcast remains canonical data only because Stremio has no podcast catalogue type.
+- Explicit mixed-media classification and audit tooling for series, limited series, anthology series, television movies, and stand-up specials.
+- Academy-only and Golden-Globes-only static manifest presets, each with independent add-on identity and byte-matched local catalogue routes.
+
+### Changed
+
+- The existing all-awards manifest URL advances to version `1.1.0`, declares both `movie` and `series`, and preserves all 24 released Academy catalogue IDs while adding the 33 Golden Globes IDs.
+- Nuvio acceptance review corrected five ambiguous title identities: *Birdman*, *Bill*, *The High Chaparral*, *Mister Ed*, and *Weeds*. The erroneous one-item `Female Actor, Television Musical or Comedy — Films` output was removed after *Weeds* returned to its correct series route.
+- Four verified TMDB poster fallbacks cover correct legacy titles whose canonical MetaHub poster URL returns 404. *The Governor & J.J.* remains explicitly recorded as having no poster in either reviewed live source.
+- Shared canonical validation now accepts series and podcast relationships, preserves official source category/record identifiers, permits reviewed title aliases for an otherwise identical IMDb/TMDB work, and still rejects conflicting external identities.
+- The landing page adds an all-awards/Academy/Golden Globes manifest selector and a second compact award disclosure without expanding the page by default.
+- CI now reproduces the Golden Globes identity, canonical import, output, preset, and repository-wide manifest checks offline.
+
+### Validated locally for V1.1 preview
+
+- Shared validation passes with 2 award bodies, 52 categories, 181 ceremonies, 3,759 canonical results, 3,761 work links, and 4,088 person links.
+- Golden Globes contracts pass with 1,689 results and 1,591 unique catalogue Meta Preview items across 22 movie and 11 series catalogues.
+- All 1,069 distinct Golden Globes winning works have reviewed media type, TMDB ID, and IMDb ID, apart from the intentionally unsupported podcast identity.
+- The all-awards manifest and both award presets pass exact route, payload-shape, media-type, byte-equality, and catalogue-set validation: 46 movie and 11 series catalogues with 3,645 total all-awards Meta Preview items.
+- Desktop and 393-pixel mobile browser checks pass for manifest selection, both compact award disclosures, horizontal overflow, accessibility labelling, and console errors.
+
+### Release gate
+
+- Publish an immutable preview, run CI, and complete Nuvio acceptance for at least one Golden Globes film catalogue, one series catalogue, one mixed category's split outputs, all three manifest choices, and Refresh Add-on behaviour before merging or recording V1.1 as released.
 
 ## [1.0.0] - 2026-08-21
 

@@ -25,6 +25,16 @@ For the Academy Awards, use this hierarchy:
 
 All 24 current Academy category histories through ceremony 98 are reconciled to `DLu/oscar_data` commit `c5e9716b7e020e70205d6b95f5a5678526c1b45f`. A future import must record its own pinned commit in the relevant category history document rather than silently following that repository's moving default branch.
 
+For the Golden Globes, use this hierarchy:
+
+| Role | Source | Policy |
+| --- | --- | --- |
+| Award authority | [Golden Globes Winners & Nominees](https://goldenglobes.com/winners-nominees/) | Decides winner status, source category wording, credited recipient, and associated work. Reviewed maintenance may call the page's first-party WordPress API; the committed snapshot, not the live endpoint, is the offline input. |
+| Work identity enrichment | [TMDB API](https://developer.themoviedb.org/docs/finding-data) | Supplies movie/series classification, TMDB identity, release metadata, and supported IMDb external IDs. It does not decide award status. |
+| External identity confirmation | [IMDb](https://www.imdb.com/) | Confirms reviewed title identities when the official archive link, TMDB external IDs, or same-title candidates disagree. |
+
+The Issue #27 import pins a complete winner-only first-party snapshot checked on 2026-08-21: 2,029 winner records across all 83 ceremonies from 1944 through 2026. The scoped canonical history follows the 28 categories awarded in 2026 and their documented predecessor labels. Unrelated discontinued honours are retained in the source snapshot but are not silently merged into current lineages.
+
 ## Separation of responsibilities
 
 ```text
@@ -200,4 +210,4 @@ The correction log is append-only in meaning: if a prior correction needs amendm
 
 ## Current expansion gate
 
-All 24 current Academy categories are reference implementations. Issue #20 demonstrates native actor/director output and strict People artwork integration; Issue #24 demonstrates a single large milestone whose 18 categories still retain independent counts, lineages, no-award gaps, identity review, and deterministic output contracts. New person-recipient outputs must pass the same identity, membership, artwork, and fallback review before publication. Additional award bodies may be grouped when they share one source model and validation path, but every included category must remain independently auditable.
+All 24 current Academy categories and the 28 current Golden Globes lineages are reference implementations. Issue #20 demonstrates native actor/director output and strict People artwork integration; Issue #24 demonstrates a single large milestone whose 18 categories still retain independent counts, lineages, no-award gaps, identity review, and deterministic output contracts. Issue #27 demonstrates a first-party snapshot, mixed movie/series classification, and award-body manifest presets without adding a runtime People-artwork dependency. New person-recipient outputs must pass the same identity, membership, artwork, and fallback review before publication. Additional award bodies may be grouped when they share one source model and validation path, but every included category must remain independently auditable.

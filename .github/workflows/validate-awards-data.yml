@@ -10,6 +10,8 @@ on:
       - "schema/**"
       - "scripts/**"
       - "manifest.json"
+      - "presets/**"
+      - "index.html"
       - ".github/workflows/validate-awards-data.yml"
   push:
     branches:
@@ -22,6 +24,8 @@ on:
       - "schema/**"
       - "scripts/**"
       - "manifest.json"
+      - "presets/**"
+      - "index.html"
       - ".github/workflows/validate-awards-data.yml"
   workflow_dispatch:
 
@@ -63,6 +67,18 @@ jobs:
 
       - name: Check remaining Academy generated outputs
         run: python scripts/build_remaining_academy_outputs.py --check
+
+      - name: Check Golden Globes identity map
+        run: python scripts/enrich_golden_globes_identities.py --check
+
+      - name: Check Golden Globes canonical import
+        run: python scripts/build_golden_globes_canonical.py --check
+
+      - name: Check Golden Globes generated outputs
+        run: python scripts/build_golden_globes_outputs.py --check
+
+      - name: Check award-level manifest presets
+        run: python scripts/build_manifest_presets.py --check
 
       - name: Validate manifest and catalogue payloads
         run: python scripts/validate_manifest_catalogs.py
