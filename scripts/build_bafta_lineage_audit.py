@@ -12,6 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_DIR = ROOT / "data" / "sources" / "bafta"
 REGISTRY_PATH = SOURCE_DIR / "current-category-pages.json"
+EVIDENCE_PATH = SOURCE_DIR / "category-page-evidence.json"
 REPORT_PATH = ROOT / "reports" / "bafta-category-lineage-audit.md"
 SNAPSHOT_FILES = (
     "winners-film.json",
@@ -27,17 +28,22 @@ def markdown(value: str) -> str:
 def build_report() -> str:
     registry = json.loads(REGISTRY_PATH.read_text(encoding="utf-8"))
     registry_by_id = {programme["id"]: programme for programme in registry["programmes"]}
+    evidence = json.loads(EVIDENCE_PATH.read_text(encoding="utf-8"))
+    evidence_by_programme = {
+        programme["id"]: {entry["label"]: entry for entry in programme["labels"]}
+        for programme in evidence["programmes"]
+    }
     snapshots = [json.loads((SOURCE_DIR / name).read_text(encoding="utf-8")) for name in SNAPSHOT_FILES]
 
     lines = [
         "# BAFTA category lineage audit",
         "",
-        "Generated from the reviewed BAFTA winner snapshots. This inventory is a review aid, not a lineage decision: `historical review` rows must be mapped to an official BAFTA history-page identity or explicitly excluded before canonical import.",
+        "Generated from the reviewed BAFTA winner snapshots and incremental first-party category-page evidence. This inventory is a review aid, not a final lineage decision: pending historical rows must be mapped to an official BAFTA history-page identity or explicitly excluded before canonical import.",
         "",
         "## Summary",
         "",
-        "| Programme | Winners | Historical labels | Current included | Current excluded | Historical review |",
-        "| --- | ---: | ---: | ---: | ---: | ---: |",
+        "| Programme | Winners | Historical labels | Current included | Current excluded | Historical evidenced | Pending historical |",
+        "| --- | ---: | ---: | ---: | ---: | ---: | ---: |",
     ]
 
     programme_rows: list[tuple[dict[str, object], dict[str, object], list[dict[str, object]]]] = []
@@ -45,6 +51,7 @@ def build_report() -> str:
     total_labels = 0
     total_included = 0
     total_excluded = 0
+    total_evidenced = 0
     total_review = 0
 
     for snapshot in snapshots:
@@ -56,6 +63,7 @@ def build_report() -> str:
 
         included = {category["name"]: category for category in registry_programme["included"]}
         excluded = {category["name"]: category for category in registry_programme["excluded"]}
+        historical_evidence = evidence_by_programme[programme["id"]]
         rows: list[dict[str, object]] = []
         for label, winners in groups.items():
             years = [winner["year"] for winner in winners]
@@ -67,10 +75,19 @@ def build_report() -> str:
                 state = "excluded current"
                 page = "—"
                 priority = 1
+            elif label in historical_evidence:
+                entry = historical_evidence[label]
+                if entry["status"] == "resolved":
+                    state = "history page evidenced"
+                    page = entry["historyPage"]
+                else:
+                    state = "history page unresolved"
+                    page = "reviewed; no page resolved"
+                priority = 2
             else:
                 state = "historical review"
                 page = "pending"
-                priority = 2
+                priority = 3
             rows.append(
                 {
                     "label": label,
@@ -85,21 +102,23 @@ def build_report() -> str:
 
         included_count = sum(row["state"] == "included current" for row in rows)
         excluded_count = sum(row["state"] == "excluded current" for row in rows)
+        evidenced_count = sum(row["state"].startswith("history page ") for row in rows)
         review_count = sum(row["state"] == "historical review" for row in rows)
         lines.append(
             f"| {markdown(programme['name'])} | {len(snapshot['winners']):,} | {len(rows)} | "
-            f"{included_count} | {excluded_count} | {review_count} |"
+            f"{included_count} | {excluded_count} | {evidenced_count} | {review_count} |"
         )
         programme_rows.append((programme, registry_programme, rows))
         total_winners += len(snapshot["winners"])
         total_labels += len(rows)
         total_included += included_count
         total_excluded += excluded_count
+        total_evidenced += evidenced_count
         total_review += review_count
 
     lines.append(
         f"| **Total** | **{total_winners:,}** | **{total_labels}** | **{total_included}** | "
-        f"**{total_excluded}** | **{total_review}** |"
+        f"**{total_excluded}** | **{total_evidenced}** | **{total_review}** |"
     )
 
     for programme, _, rows in programme_rows:
@@ -129,7 +148,7 @@ def build_report() -> str:
             "",
             "## Completion contract",
             "",
-            "The lineage gate is complete only when every `historical review` row is replaced by a reviewed mapping or explicit exclusion backed by BAFTA's own category-page identity. Similar wording or adjacent years alone are not sufficient evidence.",
+            "The lineage gate is complete only when every `historical review` row is replaced by reviewed category-page evidence and each first-party page identity has a final mapping or explicit exclusion. Similar wording or adjacent years alone are not sufficient evidence.",
             "",
         ]
     )
@@ -149,7 +168,12 @@ def main() -> None:
     if args.check:
         if not REPORT_PATH.exists() or REPORT_PATH.read_text(encoding="utf-8") != report:
             raise SystemExit("BAFTA category lineage audit report is stale; regenerate it")
-        print("BAFTA category lineage audit report is current: 291 labels, 210 historical reviews.")
+        evidence = json.loads(EVIDENCE_PATH.read_text(encoding="utf-8"))
+        evidenced = sum(len(programme["labels"]) for programme in evidence["programmes"])
+        print(
+            "BAFTA category lineage audit report is current: "
+            f"291 labels, {evidenced} historical labels evidenced, {210 - evidenced} historical reviews remaining."
+        )
         return
     REPORT_PATH.write_text(report, encoding="utf-8")
     print(f"Wrote {REPORT_PATH.relative_to(ROOT)}")

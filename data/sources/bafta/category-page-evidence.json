@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-08-23",
+  "authority": {
+    "name": "British Academy of Film and Television Arts",
+    "searchPage": "https://www.bafta.org/awards/search/"
+  },
+  "method": "Rendered official BAFTA awards-search winner cards; each category link is retained as BAFTA's first-party history-page identity.",
+  "programmes": [
+    {
+      "id": "film",
+      "expectedHistoricalLabelCount": 61,
+      "labels": [
+        {
+          "label": "Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/film/",
+          "evidenceNominationId": "355865",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=La%20La%20Land&type=Film&winner=winner"
+        },
+        {
+          "label": "Original Music",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/original-music/",
+          "evidenceNominationId": "357271",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=A%20Star%20Is%20Born&type=Film&winner=winner"
+        },
+        {
+          "label": "Short Animation",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/short-animated-film/",
+          "evidenceNominationId": "350749",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Making%20Of%20Longbird&type=Film&winner=winner"
+        }
+      ]
+    },
+    {
+      "id": "television",
+      "expectedHistoricalLabelCount": 95,
+      "labels": [
+        {
+          "label": "Comedy Entertainment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/comedy-entertainment/",
+          "evidenceNominationId": "361589",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Rob%20Romesh&type=Television&winner=winner"
+        },
+        {
+          "label": "Female Performance in a Comedy",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/female-performance-in-a-comedy/",
+          "evidenceNominationId": "368244",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Ruth%20Jones&type=Television&winner=winner"
+        },
+        {
+          "label": "Male Performance in a Comedy",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/male-performance-in-a-comedy/",
+          "evidenceNominationId": "368272",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Danny%20Dyer&type=Television&winner=winner"
+        }
+      ]
+    },
+    {
+      "id": "television-craft",
+      "expectedHistoricalLabelCount": 54,
+      "labels": [
+        {
+          "label": "Director: Fiction, sponsored by 3 Mills Studios",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/director-fiction-sponsored-by-3-mills-studios/",
+          "evidenceNominationId": "368337",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Baby%20Reindeer&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Emerging Talent: Fiction, sponsored by Sara Putt Associates",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/emerging-talent-fiction-sponsored-by-sara-putt-associates/",
+          "evidenceNominationId": "368358",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Lucia%20Keskin&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Original Music",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/original-music-tvcraft/",
+          "evidenceNominationId": "360456",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Landscapers&type=TV%20Craft&winner=winner"
+        }
+      ]
+    }
+  ]
+}
