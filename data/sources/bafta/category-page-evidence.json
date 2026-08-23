@@ -54,6 +54,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Steve%20McQueen%20Hunger&type=Film&winner=winner"
         },
         {
+          "label": "Carl Foreman Award for the Most Promising Newcomer in British Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/carl-foreman-award-for-the-most-promising-newcomer-in-british-film/",
+          "evidenceNominationId": "343235",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Pawel%20Pawlikowski&type=Film&winner=winner"
+        },
+        {
           "label": "David Lean Award for Achievement in Direction",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/film/david-lean-award-for-achievement-in-direction/",
@@ -73,6 +80,13 @@
           "historyPage": "https://www.bafta.org/awards/film/film/",
           "evidenceNominationId": "355865",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=La%20La%20Land&type=Film&winner=winner"
+        },
+        {
+          "label": "Lloyds Bank People's Vote For The Most Popular Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/lloyds-bank-peoples-vote-for-the-most-popular-film/",
+          "evidenceNominationId": "342816",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Braveheart&type=Film&winner=winner"
         },
         {
           "label": "Music",
@@ -96,6 +110,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=A%20Star%20Is%20Born&type=Film&winner=winner"
         },
         {
+          "label": "Score For A Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/score-for-a-film/",
+          "evidenceNominationId": "342662",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=John%20Williams&type=Film&winner=winner"
+        },
+        {
           "label": "Short Animation",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/film/short-animated-film/",
@@ -115,6 +136,13 @@
           "historyPage": "https://www.bafta.org/awards/film/competitive-special-award/",
           "evidenceNominationId": "366202",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Roger%20Pratt&type=Film&winner=winner"
+        },
+        {
+          "label": "Special Award for Craft",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/special-award-for-craft/",
+          "evidenceNominationId": "358436",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Phyllis%20Dalton&type=Film&winner=winner"
         }
       ]
     },
@@ -128,6 +156,20 @@
           "historyPage": "https://www.bafta.org/awards/television/actor-television/",
           "evidenceNominationId": "352184",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Sean%20Harris&type=Television&winner=winner"
+        },
+        {
+          "label": "Actress",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/actress-television/",
+          "evidenceNominationId": "352188",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Olivia%20Colman&type=Television&winner=winner"
+        },
+        {
+          "label": "Comedy",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/comedy/",
+          "evidenceNominationId": "351307",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Jolyon%20Rubinstein&type=Television&winner=winner"
         },
         {
           "label": "Comedy and Comedy Entertainment Programme",
@@ -172,6 +214,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Mood&type=Television&winner=winner"
         },
         {
+          "label": "New Media",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/new-media/",
+          "evidenceNominationId": "348577",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Psychoville&type=Television&winner=winner"
+        },
+        {
           "label": "Radio Times Audience Award",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/television/radio-times-audience-award/",
@@ -191,6 +240,13 @@
           "historyPage": "https://www.bafta.org/awards/television/single-drama/",
           "evidenceNominationId": "361173",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=I%20Am%20Ruth&type=Television&winner=winner"
+        },
+        {
+          "label": "Situation Comedy",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/situation-comedy/",
+          "evidenceNominationId": "352273",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Him%20Her%20Wedding&type=Television&winner=winner"
         },
         {
           "label": "Soap & Continuing Drama",
@@ -297,6 +353,27 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=The%20X%20Factor&type=TV%20Craft&winner=winner"
         },
         {
+          "label": "Interactive Creative Contribution",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/interactive-creative-contribution/",
+          "evidenceNominationId": "350328",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Embarrassing%20Bodies&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Interactive Innovation - Content",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/interactive-innovation-content/",
+          "evidenceNominationId": "350176",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Spooks%20Interactive&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Interactive Innovation - Service/Platform",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/interactive-innovation-service-platform/",
+          "evidenceNominationId": "350250",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Mi%20Vida%20Loca&type=TV%20Craft&winner=winner"
+        },
+        {
           "label": "Original Music",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/tvcraft/original-music-tvcraft/",
@@ -309,6 +386,13 @@
           "historyPage": "https://www.bafta.org/awards/tvcraft/production-design-sponsored-by-microsoft/",
           "evidenceNominationId": "368386",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Rivals&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Sound - Fiction/Entertainment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/sound-fiction-entertainment/",
+          "evidenceNominationId": "350358",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Wallander%20Paul%20Hamblin&type=TV%20Craft&winner=winner"
         },
         {
           "label": "Titles",
