@@ -7,9 +7,9 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Programme | Winners | Historical labels | Current included | Current excluded | Historical evidenced | Pending historical |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | BAFTA Film Awards | 1,634 | 89 | 25 | 3 | 61 | 0 |
-| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 86 | 9 |
+| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 95 | 0 |
 | BAFTA Television Craft Awards | 757 | 78 | 23 | 1 | 54 | 0 |
-| **Total** | **3,911** | **291** | **75** | **6** | **201** | **9** |
+| **Total** | **3,911** | **291** | **75** | **6** | **210** | **0** |
 
 ## BAFTA Film Awards
 
@@ -224,15 +224,15 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Mullard Award | 1965 | 1971 | 6 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/mullard-award/) |
 | Factual: Current Affairs | 1970 | 1970 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/factual-current-affairs/) |
 | Factual: Documentary | 1970 | 1970 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/factual-documentary/) |
-| Light Entertainment Personality | 1961 | 1970 | 6 | historical review | pending |
-| Adult Education Award | 1966 | 1967 | 2 | historical review | pending |
-| Scriptwriter | 1956 | 1966 | 10 | historical review | pending |
-| Factual Personality | 1963 | 1965 | 3 | historical review | pending |
-| Designer | 1954 | 1963 | 10 | historical review | pending |
-| Current Events | 1960 | 1961 | 2 | historical review | pending |
-| Light Entertainment Artist | 1957 | 1960 | 4 | historical review | pending |
-| Personality | 1954 | 1960 | 7 | historical review | pending |
-| Production | 1954 | 1956 | 3 | historical review | pending |
+| Light Entertainment Personality | 1961 | 1970 | 6 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/light-entertainment-personality/) |
+| Adult Education Award | 1966 | 1967 | 2 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/adult-education-award/) |
+| Scriptwriter | 1956 | 1966 | 10 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/scriptwriter/) |
+| Factual Personality | 1963 | 1965 | 3 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/factual-personality/) |
+| Designer | 1954 | 1963 | 10 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/designer/) |
+| Current Events | 1960 | 1961 | 2 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/current-events/) |
+| Light Entertainment Artist | 1957 | 1960 | 4 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/light-entertainment-artist/) |
+| Personality | 1954 | 1960 | 7 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/personality/) |
+| Production | 1954 | 1956 | 3 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/production/) |
 
 ## BAFTA Television Craft Awards
 
