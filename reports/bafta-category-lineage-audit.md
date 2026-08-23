@@ -6,10 +6,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 
 | Programme | Winners | Historical labels | Current included | Current excluded | Historical evidenced | Pending historical |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| BAFTA Film Awards | 1,634 | 89 | 25 | 3 | 43 | 18 |
-| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 43 | 52 |
-| BAFTA Television Craft Awards | 757 | 78 | 23 | 1 | 43 | 11 |
-| **Total** | **3,911** | **291** | **75** | **6** | **129** | **81** |
+| BAFTA Film Awards | 1,634 | 89 | 25 | 3 | 47 | 14 |
+| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 47 | 48 |
+| BAFTA Television Craft Awards | 757 | 78 | 23 | 1 | 47 | 7 |
+| **Total** | **3,911** | **291** | **75** | **6** | **141** | **69** |
 
 ## BAFTA Film Awards
 
@@ -86,10 +86,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Fictional Film | 1978 | 1978 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/fictional-film/) |
 | Anthony Asquith Memorial Award | 1971 | 1977 | 6 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/anthony-asquith-memorial-award/) |
 | United Nations Award - for the best Film embodying one or more of the principles of the United Nations Charter | 1950 | 1977 | 28 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/united-nations-award/) |
-| Art Direction | 1969 | 1976 | 8 | historical review | pending |
-| John Grierson Award (Short Film) | 1973 | 1976 | 4 | historical review | pending |
-| British Cinematography | 1969 | 1969 | 1 | historical review | pending |
-| British Actor | 1953 | 1968 | 16 | historical review | pending |
+| Art Direction | 1969 | 1976 | 8 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/art-direction/) |
+| John Grierson Award (Short Film) | 1973 | 1976 | 4 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/john-grierson-award-short-film/) |
+| British Cinematography | 1969 | 1969 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/british-cinematography/) |
+| British Actor | 1953 | 1968 | 16 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/british-actor/) |
 | British Actress | 1953 | 1968 | 16 | historical review | pending |
 | British Art Direction - Colour | 1965 | 1968 | 4 | historical review | pending |
 | British Cinematography - Black and White | 1964 | 1968 | 4 | historical review | pending |
@@ -181,10 +181,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Light Entertainment | 1957 | 1999 | 44 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/light-entertainment/) |
 | Light Entertainment Performance | 1965 | 1999 | 31 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/light-entertainment-performance/) |
 | Live Outside Broadcast Coverage | 1998 | 1999 | 2 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/live-outside-broadcast-coverage/) |
-| Originality | 1986 | 1999 | 10 | historical review | pending |
-| Lew Grade Award For A Significant And Popular Programme | 1995 | 1998 | 4 | historical review | pending |
-| Children's Programme | 1997 | 1997 | 1 | historical review | pending |
-| Foreign Television Programme | 1963 | 1997 | 23 | historical review | pending |
+| Originality | 1986 | 1999 | 10 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/originality/) |
+| Lew Grade Award For A Significant And Popular Programme | 1995 | 1998 | 4 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/lew-grade-award-for-a-significant-and-popular-programme/) |
+| Children's Programme | 1997 | 1997 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/childrens-programme/) |
+| Foreign Television Programme | 1963 | 1997 | 23 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/foreign-television-programme/) |
 | Sports/Events Coverage In Real Time | 1995 | 1997 | 3 | historical review | pending |
 | Talk Show | 1997 | 1997 | 1 | historical review | pending |
 | Children's Programme - Factual | 1987 | 1996 | 5 | historical review | pending |
@@ -305,10 +305,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Video Lighting | 1981 | 1994 | 14 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/video-lighting/) |
 | Film or Video Editor - Fiction | 1992 | 1993 | 2 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-or-video-editor-fiction/) |
 | Graphics | 1978 | 1993 | 14 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/graphics/) |
-| Film Cameraman | 1978 | 1991 | 14 | historical review | pending |
-| Film Editor | 1978 | 1991 | 12 | historical review | pending |
-| Film Sound | 1978 | 1991 | 13 | historical review | pending |
-| Sound Supervisor | 1979 | 1991 | 12 | historical review | pending |
+| Film Cameraman | 1978 | 1991 | 14 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-cameraman/) |
+| Film Editor | 1978 | 1991 | 12 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-editor-tvcraft/) |
+| Film Sound | 1978 | 1991 | 13 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-sound/) |
+| Sound Supervisor | 1979 | 1991 | 12 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/sound-supervisor/) |
 | VTR Editor | 1978 | 1991 | 14 | historical review | pending |
 | Video Cameraman | 1983 | 1990 | 6 | historical review | pending |
 | Television Cameraman | 1978 | 1982 | 5 | historical review | pending |

@@ -68,11 +68,32 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Bernard%20Herrmann&type=Film&winner=winner"
         },
         {
+          "label": "Art Direction",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/art-direction/",
+          "evidenceNominationId": "341327",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Rollerball%20John%20Box&type=Film&winner=winner"
+        },
+        {
           "label": "BAFTA/Orange 60 Seconds Of Fame",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/film/bafta-orange-60-seconds-of-fame/",
           "evidenceNominationId": "343952",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Polar%20Showtime%20Dancers&type=Film&winner=winner"
+        },
+        {
+          "label": "British Actor",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/british-actor/",
+          "evidenceNominationId": "340760",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Paul%20Scofield&type=Film&winner=winner"
+        },
+        {
+          "label": "British Cinematography",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/british-cinematography/",
+          "evidenceNominationId": "340842",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Geoffrey%20Unsworth&type=Film&winner=winner"
         },
         {
           "label": "British Film",
@@ -150,6 +171,13 @@
           "historyPage": "https://www.bafta.org/awards/film/foreign-language-film/",
           "evidenceNominationId": "342186",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=The%20Sacrifice%20Offret&type=Film&winner=winner"
+        },
+        {
+          "label": "John Grierson Award (Short Film)",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/john-grierson-award-short-film/",
+          "evidenceNominationId": "341351",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Sea%20Area%20Forties&type=Film&winner=winner"
         },
         {
           "label": "Lloyds Bank People's Vote For The Most Popular Film",
@@ -340,6 +368,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Jane%20Tranter&type=Television&winner=winner"
         },
         {
+          "label": "Children's Programme",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/childrens-programme/",
+          "evidenceNominationId": "347352",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Andrew%20Chater&type=Television&winner=winner"
+        },
+        {
           "label": "Comedy",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/television/comedy/",
@@ -417,6 +452,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Make%20Me%20Normal&type=Television&winner=winner"
         },
         {
+          "label": "Foreign Television Programme",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/foreign-television-programme/",
+          "evidenceNominationId": "347377",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Murder%20One&type=Television&winner=winner"
+        },
+        {
           "label": "Huw Wheldon Award For Specialised Programme or Series",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/television/huw-wheldon-award-for-factual-series-or-strand/",
@@ -457,6 +499,13 @@
           "historyPage": "https://www.bafta.org/awards/television/lew-grade-audience-award-as-voted-by-readers-of-the-radio-times/",
           "evidenceNominationId": "347672",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Inspector%20Morse&type=Television&winner=winner"
+        },
+        {
+          "label": "Lew Grade Award For A Significant And Popular Programme",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/lew-grade-award-for-a-significant-and-popular-programme/",
+          "evidenceNominationId": "347444",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=A%20Touch%20Of%20Frost&type=Television&winner=winner"
         },
         {
           "label": "Lew Grade Award For Entertainment Programme or Series",
@@ -513,6 +562,13 @@
           "historyPage": "https://www.bafta.org/awards/television/news-and-current-affairs-journalism/",
           "evidenceNominationId": "347678",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Sorious%20Samura&type=Television&winner=winner"
+        },
+        {
+          "label": "Originality",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/originality/",
+          "evidenceNominationId": "347527",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Richard%20Dale&type=Television&winner=winner"
         },
         {
           "label": "Philips Audience Award",
@@ -731,6 +787,20 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=The%20X%20Factor&type=TV%20Craft&winner=winner"
         },
         {
+          "label": "Film Cameraman",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-cameraman/",
+          "evidenceNominationId": "349282",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Trials%20Of%20Life&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Film Editor",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-editor-tvcraft/",
+          "evidenceNominationId": "349286",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Dick%20Allen&type=TV%20Craft&winner=winner"
+        },
+        {
           "label": "Film or Video Editor - Factual",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/tvcraft/film-or-video-editor-factual/",
@@ -764,6 +834,13 @@
           "historyPage": "https://www.bafta.org/awards/tvcraft/film-or-video-photography-fiction/",
           "evidenceNominationId": "349429",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Cracker%20Ivan%20Strasburg&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Film Sound",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-sound/",
+          "evidenceNominationId": "349293",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Aad%20Wirtz&type=TV%20Craft&winner=winner"
         },
         {
           "label": "Graphic Design",
@@ -890,6 +967,13 @@
           "historyPage": "https://www.bafta.org/awards/tvcraft/sound-fiction-entertainment-sponsored-by-munro-acoustics/",
           "evidenceNominationId": "350205",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Cranford%20Paul%20Hamblin&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Sound Supervisor",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/sound-supervisor/",
+          "evidenceNominationId": "349305",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Graham%20Haines&type=TV%20Craft&winner=winner"
         },
         {
           "label": "Titles",
