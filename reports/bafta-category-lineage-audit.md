@@ -6,10 +6,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 
 | Programme | Winners | Historical labels | Current included | Current excluded | Historical evidenced | Pending historical |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| BAFTA Film Awards | 1,634 | 89 | 25 | 3 | 56 | 5 |
-| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 55 | 40 |
+| BAFTA Film Awards | 1,634 | 89 | 25 | 3 | 61 | 0 |
+| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 62 | 33 |
 | BAFTA Television Craft Awards | 757 | 78 | 23 | 1 | 54 | 0 |
-| **Total** | **3,911** | **291** | **75** | **6** | **165** | **45** |
+| **Total** | **3,911** | **291** | **75** | **6** | **177** | **33** |
 
 ## BAFTA Film Awards
 
@@ -99,11 +99,11 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | British Screenplay | 1955 | 1968 | 15 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/british-screenplay/) |
 | Foreign Actor | 1953 | 1968 | 16 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/foreign-actor/) |
 | Foreign Actress | 1953 | 1968 | 16 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/foreign-actress/) |
-| Best Cinematography - Black and White | 1967 | 1967 | 1 | historical review | pending |
-| British Art Direction - Black and White | 1965 | 1967 | 3 | historical review | pending |
-| Editing - for best film editing of a British Film | 1967 | 1967 | 1 | historical review | pending |
-| Film From Any Source | 1949 | 1964 | 18 | historical review | pending |
-| Certificate Of Merit | 1954 | 1954 | 4 | historical review | pending |
+| Best Cinematography - Black and White | 1967 | 1967 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/best-cinematography-black-and-white/) |
+| British Art Direction - Black and White | 1965 | 1967 | 3 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/british-art-direction-black-and-white/) |
+| Editing - for best film editing of a British Film | 1967 | 1967 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/editing-for-best-film-editing-of-a-british-film/) |
+| Film From Any Source | 1949 | 1964 | 18 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/film-and-british-film/) |
+| Certificate Of Merit | 1954 | 1954 | 4 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/certificate-of-merit/) |
 
 ## BAFTA Television Awards
 
@@ -193,13 +193,13 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Original Television Music | 1981 | 1993 | 13 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/original-television-music/) |
 | Writer | 1954 | 1993 | 19 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/writer-television/) |
 | Actuality Coverage | 1978 | 1992 | 9 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/actuality-coverage/) |
-| Arts Programme | 1989 | 1991 | 3 | historical review | pending |
-| Children's Programme - Documentary - Educational | 1983 | 1991 | 8 | historical review | pending |
-| Children's Programme - Entertainment/Drama | 1983 | 1991 | 9 | historical review | pending |
-| Comedy Series | 1964 | 1991 | 14 | historical review | pending |
-| Desmond Davis Award | 1960 | 1991 | 30 | historical review | pending |
-| Drama Series or Serial | 1973 | 1991 | 17 | historical review | pending |
-| News or Outside Broadcast Coverage | 1986 | 1991 | 6 | historical review | pending |
+| Arts Programme | 1989 | 1991 | 3 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/arts-programme/) |
+| Children's Programme - Documentary - Educational | 1983 | 1991 | 8 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/childrens-programme-documentary-educational/) |
+| Children's Programme - Entertainment/Drama | 1983 | 1991 | 9 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/childrens-programme-entertainment-drama/) |
+| Comedy Series | 1964 | 1991 | 14 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/comedy-series/) |
+| Desmond Davis Award | 1960 | 1991 | 30 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/desmond-davis-award/) |
+| Drama Series or Serial | 1973 | 1991 | 17 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/drama-series-or-serial/) |
+| News or Outside Broadcast Coverage | 1986 | 1991 | 6 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/news-or-outside-broadcast-coverage/) |
 | Short Animation | 1984 | 1991 | 8 | historical review | pending |
 | Programme/Series Without Category | 1980 | 1985 | 6 | historical review | pending |
 | Shell International Award | 1966 | 1984 | 19 | historical review | pending |
