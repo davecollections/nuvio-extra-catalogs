@@ -61,6 +61,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Babel%20Gustavo%20Santaolalla&type=Film&winner=winner"
         },
         {
+          "label": "Anthony Asquith Memorial Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/anthony-asquith-memorial-award/",
+          "evidenceNominationId": "341390",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Bernard%20Herrmann&type=Film&winner=winner"
+        },
+        {
           "label": "BAFTA/Orange 60 Seconds Of Fame",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/film/bafta-orange-60-seconds-of-fame/",
@@ -108,6 +115,20 @@
           "historyPage": "https://www.bafta.org/awards/film/ee-rising-star-award/",
           "evidenceNominationId": "366443",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=David%20Jonsson&type=Film&winner=winner"
+        },
+        {
+          "label": "Factual Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/factual-film/",
+          "evidenceNominationId": "341467",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=The%20Living%20City&type=Film&winner=winner"
+        },
+        {
+          "label": "Fictional Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/fictional-film/",
+          "evidenceNominationId": "341471",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=The%20Bead%20Game&type=Film&winner=winner"
         },
         {
           "label": "Film",
@@ -283,6 +304,13 @@
           "historyPage": "https://www.bafta.org/awards/film/supporting-artist/",
           "evidenceNominationId": "341754",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Ian%20Holm&type=Film&winner=winner"
+        },
+        {
+          "label": "United Nations Award - for the best Film embodying one or more of the principles of the United Nations Charter",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/united-nations-award/",
+          "evidenceNominationId": "341442",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=United%20Nations%20Award&type=Film&winner=winner"
         }
       ]
     },
@@ -403,6 +431,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Auschwitz&type=Television&winner=winner"
         },
         {
+          "label": "Huw Wheldon Award For The Best Arts Programme",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/huw-wheldon-award-for-the-best-arts-programme/",
+          "evidenceNominationId": "347584",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=This%20Is%20Modern%20Art&type=Television&winner=winner"
+        },
+        {
           "label": "Innovation",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/television/innovation/",
@@ -429,6 +464,27 @@
           "historyPage": "https://www.bafta.org/awards/television/lew-grade-award-for-entertainment-programme-or-series/",
           "evidenceNominationId": "348047",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=The%20X%20Factor&type=Television&winner=winner"
+        },
+        {
+          "label": "Light Entertainment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/light-entertainment/",
+          "evidenceNominationId": "347516",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Millionaire&type=Television&winner=winner"
+        },
+        {
+          "label": "Light Entertainment Performance",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/light-entertainment-performance/",
+          "evidenceNominationId": "347512",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Michael%20Parkinson&type=Television&winner=winner"
+        },
+        {
+          "label": "Live Outside Broadcast Coverage",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/live-outside-broadcast-coverage/",
+          "evidenceNominationId": "347517",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Derby%20Day&type=Television&winner=winner"
         },
         {
           "label": "Male Performance in a Comedy",
@@ -682,6 +738,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Alan%20Lygo&type=TV%20Craft&winner=winner"
         },
         {
+          "label": "Film or Video Editor - Fiction",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-or-video-editor-fiction/",
+          "evidenceNominationId": "349378",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Frances%20Parker&type=TV%20Craft&winner=winner"
+        },
+        {
           "label": "Film or Video Editor - Fiction/Entertainment",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/tvcraft/film-or-video-editor-fiction-entertainment/",
@@ -696,11 +759,25 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Life%20In%20The%20Freezer&type=TV%20Craft&winner=winner"
         },
         {
+          "label": "Film Or Video Photography - Fiction/Entertainment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-or-video-photography-fiction/",
+          "evidenceNominationId": "349429",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Cracker%20Ivan%20Strasburg&type=TV%20Craft&winner=winner"
+        },
+        {
           "label": "Graphic Design",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/tvcraft/graphic-design/",
           "evidenceNominationId": "349968",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=The%20Long%20Firm&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Graphics",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/graphics/",
+          "evidenceNominationId": "349389",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Jeeves%20And%20Wooster&type=TV%20Craft&winner=winner"
         },
         {
           "label": "Interactive Creative Contribution",
@@ -820,6 +897,13 @@
           "historyPage": "https://www.bafta.org/awards/tvcraft/titles/",
           "evidenceNominationId": "352725",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Winter%20Olympics%202014&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Video Lighting",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/video-lighting/",
+          "evidenceNominationId": "349454",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Chris%20Townsend&type=TV%20Craft&winner=winner"
         },
         {
           "label": "Visual Effects",
