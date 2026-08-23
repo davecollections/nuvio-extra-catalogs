@@ -6,10 +6,10 @@ Generated from the reviewed BAFTA winner snapshots, complete first-party categor
 
 | Programme | Winners | Source labels | Current included | Current excluded | Historical evidenced | Historical decided | Pending decisions |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| BAFTA Film Awards | 1,634 | 89 | 25 | 3 | 61 | 34 | 27 |
+| BAFTA Film Awards | 1,634 | 89 | 25 | 3 | 61 | 61 | 0 |
 | BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 95 | 10 | 85 |
 | BAFTA Television Craft Awards | 757 | 78 | 23 | 1 | 54 | 1 | 53 |
-| **Total** | **3,911** | **291** | **75** | **6** | **210** | **45** | **165** |
+| **Total** | **3,911** | **291** | **75** | **6** | **210** | **72** | **138** |
 
 ## BAFTA Film Awards
 
@@ -44,26 +44,50 @@ Generated from the reviewed BAFTA winner snapshots, complete first-party categor
 | Fellowship | 1971 | 2026 | 64 | excluded current | — |
 | Outstanding British Contribution To Cinema | 1979 | 2026 | 45 | excluded current | — |
 | EE Rising Star Award | 2006 | 2025 | 20 | excluded historical | [BAFTA page](https://www.bafta.org/awards/film/ee-rising-star-award/) |
+| Original Music | 2011 | 2019 | 9 | mapped to current: Original Score | [BAFTA page](https://www.bafta.org/awards/film/original-music/) |
 | Special Award | 1949 | 2019 | 57 | excluded historical | [BAFTA page](https://www.bafta.org/awards/film/competitive-special-award/) |
+| Film | 1965 | 2017 | 53 | mapped to current: Best Film | [BAFTA page](https://www.bafta.org/awards/film/film/) |
+| Short Animation | 1983 | 2013 | 31 | mapped to current: British Short Animation | [BAFTA page](https://www.bafta.org/awards/film/short-animated-film/) |
+| Short Film | 1960 | 2013 | 46 | mapped to current: British Short Film | [BAFTA page](https://www.bafta.org/awards/film/short-film/) |
+| Music | 2008 | 2010 | 3 | mapped to current: Original Score | [BAFTA page](https://www.bafta.org/awards/film/music/) |
 | Carl Foreman Award for Special Achievement by a British Director, Writer or Producer in their First Feature Film | 2002 | 2009 | 8 | mapped to current: Outstanding Debut By A British Writer, Director or Producer | [BAFTA page](https://www.bafta.org/awards/film/carl-foreman-award-for-special-achievement-by-british-director-writer-or-producer-first-feature/) |
+| BAFTA/Orange 60 Seconds Of Fame | 2007 | 2008 | 2 | excluded historical | [BAFTA page](https://www.bafta.org/awards/film/bafta-orange-60-seconds-of-fame/) |
+| British Film | 1949 | 2008 | 22 | mapped to current: Outstanding British Film | [BAFTA page](https://www.bafta.org/awards/film/british-film/) |
 | Achievement in Special Visual Effects | 1988 | 2007 | 19 | mapped to current: Special Visual Effects | [BAFTA page](https://www.bafta.org/awards/film/achievement-in-special-visual-effects/) |
 | Alexander Korda Award for the outstanding British Film of the Year | 1993 | 2007 | 15 | mapped to current: Outstanding British Film | [BAFTA page](https://www.bafta.org/awards/film/alexander-korda-award-for-the-outstanding-british-film-of-the-year/) |
 | Anthony Asquith Award for Original Film Music | 1969 | 2007 | 19 | mapped to current: Original Score | [BAFTA page](https://www.bafta.org/awards/film/anthony-asquith-award-for-achievement-in-film-music/) |
 | David Lean Award for Achievement in Direction | 1992 | 2007 | 16 | mapped to current: Director | [BAFTA page](https://www.bafta.org/awards/film/david-lean-award-for-achievement-in-direction/) |
+| Orange Film Of The Year | 1998 | 2005 | 8 | excluded historical | [BAFTA page](https://www.bafta.org/awards/film/orange-film-of-the-year/) |
 | Carl Foreman Award for the Most Promising Newcomer in British Film | 1999 | 2001 | 3 | mapped to current: Outstanding Debut By A British Writer, Director or Producer | [BAFTA page](https://www.bafta.org/awards/film/carl-foreman-award-for-the-most-promising-newcomer-in-british-film/) |
+| Lloyds Bank People's Vote For The Most Popular Film | 1994 | 1996 | 3 | excluded historical | [BAFTA page](https://www.bafta.org/awards/film/lloyds-bank-peoples-vote-for-the-most-popular-film/) |
+| Score For A Film | 1983 | 1994 | 8 | mapped to current: Original Score | [BAFTA page](https://www.bafta.org/awards/film/score-for-a-film/) |
 | Special Award for Craft | 1989 | 1994 | 5 | excluded historical | [BAFTA page](https://www.bafta.org/awards/film/special-award-for-craft/) |
 | Achievements in Special Effects | 1993 | 1993 | 1 | mapped to current: Special Visual Effects | [BAFTA page](https://www.bafta.org/awards/film/achievements-in-special-effects/) |
+| Original Film Music | 1981 | 1993 | 4 | mapped to current: Original Score | [BAFTA page](https://www.bafta.org/awards/film/original-film-music/) |
 | Achievement in Direction | 1987 | 1991 | 5 | mapped to current: Director | [BAFTA page](https://www.bafta.org/awards/film/achievement-in-direction/) |
 | Make-Up Artist | 1983 | 1991 | 9 | mapped to current: Make Up & Hair | [BAFTA page](https://www.bafta.org/awards/film/make-up-artist/) |
+| Original Film Score | 1990 | 1991 | 2 | mapped to current: Original Score | [BAFTA page](https://www.bafta.org/awards/film/original-film-score/) |
 | Post Office BAFTA Scholarship | 1989 | 1989 | 1 | excluded historical | [BAFTA page](https://www.bafta.org/awards/film/post-office-bafta-scholarship/) |
 | Foreign Language Film | 1983 | 1988 | 6 | mapped to current: Film Not in the English Language | [BAFTA page](https://www.bafta.org/awards/film/foreign-language-film/) |
 | Actor | 1969 | 1985 | 18 | mapped to current: Leading Actor | [BAFTA page](https://www.bafta.org/awards/film/actor/) |
 | Actress | 1969 | 1985 | 17 | mapped to current: Leading Actress | [BAFTA page](https://www.bafta.org/awards/film/actress/) |
 | Direction | 1969 | 1985 | 17 | mapped to current: Director | [BAFTA page](https://www.bafta.org/awards/film/direction/) |
+| Most Promising Newcomer To Film | 1953 | 1985 | 10 | excluded historical | [BAFTA page](https://www.bafta.org/awards/film/most-promising-newcomer-to-film/) |
+| Original Song Written for a Film | 1983 | 1985 | 3 | excluded historical | [BAFTA page](https://www.bafta.org/awards/film/original-song-written-for-a-film/) |
 | Film Editing | 1971 | 1983 | 11 | mapped to current: Editing | [BAFTA page](https://www.bafta.org/awards/film/film-editing/) |
+| Most Promising Newcomer To Leading Film Roles | 1961 | 1983 | 23 | excluded historical | [BAFTA page](https://www.bafta.org/awards/film/most-promising-newcomer-to-leading-film-roles/) |
 | Robert Flaherty Award (Feature Length Film, Documentary In Content) | 1960 | 1983 | 18 | mapped to current: Documentary | [BAFTA page](https://www.bafta.org/awards/film/robert-flaherty-award/) |
+| Screenplay | 1969 | 1983 | 16 | excluded historical | [BAFTA page](https://www.bafta.org/awards/film/screenplay/) |
+| Supporting Artist | 1982 | 1982 | 1 | excluded historical | [BAFTA page](https://www.bafta.org/awards/film/supporting-artist/) |
 | Soundtrack | 1969 | 1980 | 12 | mapped to current: Sound | [BAFTA page](https://www.bafta.org/awards/film/soundtrack/) |
+| Short Factual Film | 1977 | 1979 | 2 | excluded historical | [BAFTA page](https://www.bafta.org/awards/film/short-factual-film/) |
+| Specialised Film | 1960 | 1979 | 18 | excluded historical | [BAFTA page](https://www.bafta.org/awards/film/specialised-film/) |
+| Factual Film | 1978 | 1978 | 1 | excluded historical | [BAFTA page](https://www.bafta.org/awards/film/factual-film/) |
+| Fictional Film | 1978 | 1978 | 1 | excluded historical | [BAFTA page](https://www.bafta.org/awards/film/fictional-film/) |
+| Anthony Asquith Memorial Award | 1971 | 1977 | 6 | mapped to current: Original Score | [BAFTA page](https://www.bafta.org/awards/film/anthony-asquith-memorial-award/) |
+| United Nations Award - for the best Film embodying one or more of the principles of the United Nations Charter | 1950 | 1977 | 28 | excluded historical | [BAFTA page](https://www.bafta.org/awards/film/united-nations-award/) |
 | Art Direction | 1969 | 1976 | 8 | mapped to current: Production Design | [BAFTA page](https://www.bafta.org/awards/film/art-direction/) |
+| John Grierson Award (Short Film) | 1973 | 1976 | 4 | excluded historical | [BAFTA page](https://www.bafta.org/awards/film/john-grierson-award-short-film/) |
 | British Cinematography | 1969 | 1969 | 1 | mapped to current: Cinematography | [BAFTA page](https://www.bafta.org/awards/film/british-cinematography/) |
 | British Actor | 1953 | 1968 | 16 | mapped to current: Leading Actor | [BAFTA page](https://www.bafta.org/awards/film/british-actor/) |
 | British Actress | 1953 | 1968 | 16 | mapped to current: Leading Actress | [BAFTA page](https://www.bafta.org/awards/film/british-actress/) |
@@ -72,38 +96,14 @@ Generated from the reviewed BAFTA winner snapshots, complete first-party categor
 | British Cinematography - Colour | 1964 | 1968 | 5 | mapped to current: Cinematography | [BAFTA page](https://www.bafta.org/awards/film/british-cinematography-colour/) |
 | British Costume Design - Black and White | 1965 | 1968 | 2 | mapped to current: Costume Design | [BAFTA page](https://www.bafta.org/awards/film/british-costume-design-black-and-white/) |
 | British Costume Design - Colour | 1965 | 1968 | 4 | mapped to current: Costume Design | [BAFTA page](https://www.bafta.org/awards/film/british-costume-design-colour/) |
+| British Screenplay | 1955 | 1968 | 15 | excluded historical | [BAFTA page](https://www.bafta.org/awards/film/british-screenplay/) |
 | Foreign Actor | 1953 | 1968 | 16 | mapped to current: Leading Actor | [BAFTA page](https://www.bafta.org/awards/film/foreign-actor/) |
 | Foreign Actress | 1953 | 1968 | 16 | mapped to current: Leading Actress | [BAFTA page](https://www.bafta.org/awards/film/foreign-actress/) |
 | Best Cinematography - Black and White | 1967 | 1967 | 1 | mapped to current: Cinematography | [BAFTA page](https://www.bafta.org/awards/film/best-cinematography-black-and-white/) |
 | British Art Direction - Black and White | 1965 | 1967 | 3 | mapped to current: Production Design | [BAFTA page](https://www.bafta.org/awards/film/british-art-direction-black-and-white/) |
 | Editing - for best film editing of a British Film | 1967 | 1967 | 1 | mapped to current: Editing | [BAFTA page](https://www.bafta.org/awards/film/editing-for-best-film-editing-of-a-british-film/) |
-| Original Music | 2011 | 2019 | 9 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/original-music/) |
-| Film | 1965 | 2017 | 53 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/film/) |
-| Short Animation | 1983 | 2013 | 31 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/short-animated-film/) |
-| Short Film | 1960 | 2013 | 46 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/short-film/) |
-| Music | 2008 | 2010 | 3 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/music/) |
-| BAFTA/Orange 60 Seconds Of Fame | 2007 | 2008 | 2 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/bafta-orange-60-seconds-of-fame/) |
-| British Film | 1949 | 2008 | 22 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/british-film/) |
-| Orange Film Of The Year | 1998 | 2005 | 8 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/orange-film-of-the-year/) |
-| Lloyds Bank People's Vote For The Most Popular Film | 1994 | 1996 | 3 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/lloyds-bank-peoples-vote-for-the-most-popular-film/) |
-| Score For A Film | 1983 | 1994 | 8 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/score-for-a-film/) |
-| Original Film Music | 1981 | 1993 | 4 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/original-film-music/) |
-| Original Film Score | 1990 | 1991 | 2 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/original-film-score/) |
-| Most Promising Newcomer To Film | 1953 | 1985 | 10 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/most-promising-newcomer-to-film/) |
-| Original Song Written for a Film | 1983 | 1985 | 3 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/original-song-written-for-a-film/) |
-| Most Promising Newcomer To Leading Film Roles | 1961 | 1983 | 23 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/most-promising-newcomer-to-leading-film-roles/) |
-| Screenplay | 1969 | 1983 | 16 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/screenplay/) |
-| Supporting Artist | 1982 | 1982 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/supporting-artist/) |
-| Short Factual Film | 1977 | 1979 | 2 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/short-factual-film/) |
-| Specialised Film | 1960 | 1979 | 18 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/specialised-film/) |
-| Factual Film | 1978 | 1978 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/factual-film/) |
-| Fictional Film | 1978 | 1978 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/fictional-film/) |
-| Anthony Asquith Memorial Award | 1971 | 1977 | 6 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/anthony-asquith-memorial-award/) |
-| United Nations Award - for the best Film embodying one or more of the principles of the United Nations Charter | 1950 | 1977 | 28 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/united-nations-award/) |
-| John Grierson Award (Short Film) | 1973 | 1976 | 4 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/john-grierson-award-short-film/) |
-| British Screenplay | 1955 | 1968 | 15 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/british-screenplay/) |
-| Film From Any Source | 1949 | 1964 | 18 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/film-and-british-film/) |
-| Certificate Of Merit | 1954 | 1954 | 4 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/film/certificate-of-merit/) |
+| Film From Any Source | 1949 | 1964 | 18 | mapped to current: Best Film | [BAFTA page](https://www.bafta.org/awards/film/film-and-british-film/) |
+| Certificate Of Merit | 1954 | 1954 | 4 | excluded historical | [BAFTA page](https://www.bafta.org/awards/film/certificate-of-merit/) |
 
 ## BAFTA Television Awards
 

@@ -50,10 +50,22 @@
           "currentCategory": "Original Score"
         },
         {
+          "label": "Anthony Asquith Memorial Award",
+          "historyPage": "https://www.bafta.org/awards/film/anthony-asquith-memorial-award/",
+          "disposition": "current-lineage",
+          "currentCategory": "Original Score"
+        },
+        {
           "label": "Art Direction",
           "historyPage": "https://www.bafta.org/awards/film/art-direction/",
           "disposition": "current-lineage",
           "currentCategory": "Production Design"
+        },
+        {
+          "label": "BAFTA/Orange 60 Seconds Of Fame",
+          "historyPage": "https://www.bafta.org/awards/film/bafta-orange-60-seconds-of-fame/",
+          "disposition": "excluded",
+          "reason": "Discontinued regional public short-film competition outside the current British Short Film lineage."
         },
         {
           "label": "Best Cinematography - Black and White",
@@ -116,6 +128,18 @@
           "currentCategory": "Costume Design"
         },
         {
+          "label": "British Film",
+          "historyPage": "https://www.bafta.org/awards/film/british-film/",
+          "disposition": "current-lineage",
+          "currentCategory": "Outstanding British Film"
+        },
+        {
+          "label": "British Screenplay",
+          "historyPage": "https://www.bafta.org/awards/film/british-screenplay/",
+          "disposition": "excluded",
+          "reason": "Generic historical screenplay category cannot be assigned authoritatively to either current Adapted Screenplay or Original Screenplay."
+        },
+        {
           "label": "Carl Foreman Award for Special Achievement by a British Director, Writer or Producer in their First Feature Film",
           "historyPage": "https://www.bafta.org/awards/film/carl-foreman-award-for-special-achievement-by-british-director-writer-or-producer-first-feature/",
           "disposition": "current-lineage",
@@ -126,6 +150,12 @@
           "historyPage": "https://www.bafta.org/awards/film/carl-foreman-award-for-the-most-promising-newcomer-in-british-film/",
           "disposition": "current-lineage",
           "currentCategory": "Outstanding Debut By A British Writer, Director or Producer"
+        },
+        {
+          "label": "Certificate Of Merit",
+          "historyPage": "https://www.bafta.org/awards/film/certificate-of-merit/",
+          "disposition": "excluded",
+          "reason": "Discontinued mixed merit recognition with no current competitive category lineage."
         },
         {
           "label": "David Lean Award for Achievement in Direction",
@@ -152,10 +182,34 @@
           "reason": "Person-only public-vote award; the official records do not identify an associated winning work."
         },
         {
+          "label": "Factual Film",
+          "historyPage": "https://www.bafta.org/awards/film/factual-film/",
+          "disposition": "excluded",
+          "reason": "Discontinued short-film branch not established as the current Documentary or British Short Film lineage."
+        },
+        {
+          "label": "Fictional Film",
+          "historyPage": "https://www.bafta.org/awards/film/fictional-film/",
+          "disposition": "excluded",
+          "reason": "Discontinued short-film branch not established as the current British Short Film or British Short Animation lineage."
+        },
+        {
+          "label": "Film",
+          "historyPage": "https://www.bafta.org/awards/film/film/",
+          "disposition": "current-lineage",
+          "currentCategory": "Best Film"
+        },
+        {
           "label": "Film Editing",
           "historyPage": "https://www.bafta.org/awards/film/film-editing/",
           "disposition": "current-lineage",
           "currentCategory": "Editing"
+        },
+        {
+          "label": "Film From Any Source",
+          "historyPage": "https://www.bafta.org/awards/film/film-and-british-film/",
+          "disposition": "current-lineage",
+          "currentCategory": "Best Film"
         },
         {
           "label": "Foreign Actor",
@@ -176,10 +230,70 @@
           "currentCategory": "Film Not in the English Language"
         },
         {
+          "label": "John Grierson Award (Short Film)",
+          "historyPage": "https://www.bafta.org/awards/film/john-grierson-award-short-film/",
+          "disposition": "excluded",
+          "reason": "Discontinued documentary-short award not established as the current British Short Film or Documentary lineage."
+        },
+        {
+          "label": "Lloyds Bank People's Vote For The Most Popular Film",
+          "historyPage": "https://www.bafta.org/awards/film/lloyds-bank-peoples-vote-for-the-most-popular-film/",
+          "disposition": "excluded",
+          "reason": "Discontinued audience-vote category with no current Film counterpart."
+        },
+        {
           "label": "Make-Up Artist",
           "historyPage": "https://www.bafta.org/awards/film/make-up-artist/",
           "disposition": "current-lineage",
           "currentCategory": "Make Up & Hair"
+        },
+        {
+          "label": "Most Promising Newcomer To Film",
+          "historyPage": "https://www.bafta.org/awards/film/most-promising-newcomer-to-film/",
+          "disposition": "excluded",
+          "reason": "Person-recipient newcomer award; the related current EE Rising Star Award is excluded and no work-category lineage is established."
+        },
+        {
+          "label": "Most Promising Newcomer To Leading Film Roles",
+          "historyPage": "https://www.bafta.org/awards/film/most-promising-newcomer-to-leading-film-roles/",
+          "disposition": "excluded",
+          "reason": "Person-recipient newcomer award; the related current EE Rising Star Award is excluded and no work-category lineage is established."
+        },
+        {
+          "label": "Music",
+          "historyPage": "https://www.bafta.org/awards/film/music/",
+          "disposition": "current-lineage",
+          "currentCategory": "Original Score"
+        },
+        {
+          "label": "Orange Film Of The Year",
+          "historyPage": "https://www.bafta.org/awards/film/orange-film-of-the-year/",
+          "disposition": "excluded",
+          "reason": "Discontinued audience-vote category with no current Film counterpart."
+        },
+        {
+          "label": "Original Film Music",
+          "historyPage": "https://www.bafta.org/awards/film/original-film-music/",
+          "disposition": "current-lineage",
+          "currentCategory": "Original Score"
+        },
+        {
+          "label": "Original Film Score",
+          "historyPage": "https://www.bafta.org/awards/film/original-film-score/",
+          "disposition": "current-lineage",
+          "currentCategory": "Original Score"
+        },
+        {
+          "label": "Original Music",
+          "historyPage": "https://www.bafta.org/awards/film/original-music/",
+          "disposition": "current-lineage",
+          "currentCategory": "Original Score"
+        },
+        {
+          "label": "Original Song Written for a Film",
+          "historyPage": "https://www.bafta.org/awards/film/original-song-written-for-a-film/",
+          "disposition": "excluded",
+          "reason": "Discontinued song category with no current Film counterpart."
         },
         {
           "label": "Post Office BAFTA Scholarship",
@@ -192,6 +306,36 @@
           "historyPage": "https://www.bafta.org/awards/film/robert-flaherty-award/",
           "disposition": "current-lineage",
           "currentCategory": "Documentary"
+        },
+        {
+          "label": "Score For A Film",
+          "historyPage": "https://www.bafta.org/awards/film/score-for-a-film/",
+          "disposition": "current-lineage",
+          "currentCategory": "Original Score"
+        },
+        {
+          "label": "Screenplay",
+          "historyPage": "https://www.bafta.org/awards/film/screenplay/",
+          "disposition": "excluded",
+          "reason": "Generic historical screenplay category cannot be assigned authoritatively to either current Adapted Screenplay or Original Screenplay."
+        },
+        {
+          "label": "Short Animation",
+          "historyPage": "https://www.bafta.org/awards/film/short-animated-film/",
+          "disposition": "current-lineage",
+          "currentCategory": "British Short Animation"
+        },
+        {
+          "label": "Short Factual Film",
+          "historyPage": "https://www.bafta.org/awards/film/short-factual-film/",
+          "disposition": "excluded",
+          "reason": "Discontinued factual-short branch not established as the current British Short Film or Documentary lineage."
+        },
+        {
+          "label": "Short Film",
+          "historyPage": "https://www.bafta.org/awards/film/short-film/",
+          "disposition": "current-lineage",
+          "currentCategory": "British Short Film"
         },
         {
           "label": "Soundtrack",
@@ -210,6 +354,24 @@
           "historyPage": "https://www.bafta.org/awards/film/special-award-for-craft/",
           "disposition": "excluded",
           "reason": "Person-only craft recognition; the official records do not identify associated winning works."
+        },
+        {
+          "label": "Specialised Film",
+          "historyPage": "https://www.bafta.org/awards/film/specialised-film/",
+          "disposition": "excluded",
+          "reason": "Discontinued specialised-film category with no current Film counterpart."
+        },
+        {
+          "label": "Supporting Artist",
+          "historyPage": "https://www.bafta.org/awards/film/supporting-artist/",
+          "disposition": "excluded",
+          "reason": "Single gender-neutral historical result cannot be assigned authoritatively to either current Supporting Actor or Supporting Actress."
+        },
+        {
+          "label": "United Nations Award - for the best Film embodying one or more of the principles of the United Nations Charter",
+          "historyPage": "https://www.bafta.org/awards/film/united-nations-award/",
+          "disposition": "excluded",
+          "reason": "Discontinued thematic award with no current Film counterpart; the explicit no-award record remains preserved in the source snapshot."
         }
       ]
     },
