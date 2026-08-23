@@ -592,6 +592,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Melvyn%20Bragg&type=Television&winner=winner"
         },
         {
+          "label": "Drama Production",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/drama/",
+          "evidenceNominationId": "345747",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Edna%20Inebriate%20Woman&type=Television&winner=winner"
+        },
+        {
           "label": "Drama Serial",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/television/drama-serial/",
@@ -611,6 +618,27 @@
           "historyPage": "https://www.bafta.org/awards/television/factual/",
           "evidenceNominationId": "346014",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Sailor%20Rescue&type=Television&winner=winner"
+        },
+        {
+          "label": "Factual Production",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/factual-production/",
+          "evidenceNominationId": "345755",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Women%20In%20Prison&type=Television&winner=winner"
+        },
+        {
+          "label": "Factual: Current Affairs",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/factual-current-affairs/",
+          "evidenceNominationId": "345653",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=News%20At%20Ten&type=Television&winner=winner"
+        },
+        {
+          "label": "Factual: Documentary",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/factual-documentary/",
+          "evidenceNominationId": "345650",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Paul%20Watson&type=Television&winner=winner"
         },
         {
           "label": "Features",
@@ -639,6 +667,13 @@
           "historyPage": "https://www.bafta.org/awards/television/foreign-television-programme/",
           "evidenceNominationId": "347377",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Murder%20One&type=Television&winner=winner"
+        },
+        {
+          "label": "General",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/general/",
+          "evidenceNominationId": "345759",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=News%20Teams&type=Television&winner=winner"
         },
         {
           "label": "Huw Wheldon Award For Specialised Programme or Series",
@@ -746,6 +781,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Pennies%20From%20Heaven&type=Television&winner=winner"
         },
         {
+          "label": "Mullard Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/mullard-award/",
+          "evidenceNominationId": "345721",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Philip%20Daly&type=Television&winner=winner"
+        },
+        {
           "label": "New Media",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/television/new-media/",
@@ -786,6 +828,13 @@
           "historyPage": "https://www.bafta.org/awards/television/originality/",
           "evidenceNominationId": "347527",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Richard%20Dale&type=Television&winner=winner"
+        },
+        {
+          "label": "Outside Broadcast",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/outside-broadcast-programe/",
+          "evidenceNominationId": "346032",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=1976%20FA%20Cup%20Final&type=Television&winner=winner"
         },
         {
           "label": "Philips Audience Award",
@@ -858,6 +907,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Louis%20Theroux&type=Television&winner=winner"
         },
         {
+          "label": "Script",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/script/",
+          "evidenceNominationId": "345770",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Benny%20Hill%20Show&type=Television&winner=winner"
+        },
+        {
           "label": "Shell International Award",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/television/shell-international-award/",
@@ -914,6 +970,27 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Emmerdale&type=Television&winner=winner"
         },
         {
+          "label": "Specialised Production",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/specialised-production/",
+          "evidenceNominationId": "345776",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Omnibus%20Norman%20Swallow&type=Television&winner=winner"
+        },
+        {
+          "label": "Specialised Programme",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/specialised-programme/",
+          "evidenceNominationId": "346069",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=David%20Hargreaves&type=Television&winner=winner"
+        },
+        {
+          "label": "Specialised Series",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/specialised-series/",
+          "evidenceNominationId": "345991",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Michael%20Latham&type=Television&winner=winner"
+        },
+        {
           "label": "Sport And Live Event",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/television/sport-and-live-events/",
@@ -933,6 +1010,13 @@
           "historyPage": "https://www.bafta.org/awards/television/talk-show/",
           "evidenceNominationId": "347405",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Mrs%20Merton%20Christmas&type=Television&winner=winner"
+        },
+        {
+          "label": "Technical Craft Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/technical-craft-award/",
+          "evidenceNominationId": "346072",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Mike%20Billings&type=Television&winner=winner"
         },
         {
           "label": "Virgin Media's Must-See Moment",

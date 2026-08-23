@@ -7,9 +7,9 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Programme | Winners | Historical labels | Current included | Current excluded | Historical evidenced | Pending historical |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | BAFTA Film Awards | 1,634 | 89 | 25 | 3 | 61 | 0 |
-| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 74 | 21 |
+| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 86 | 9 |
 | BAFTA Television Craft Awards | 757 | 78 | 23 | 1 | 54 | 0 |
-| **Total** | **3,911** | **291** | **75** | **6** | **189** | **21** |
+| **Total** | **3,911** | **291** | **75** | **6** | **201** | **9** |
 
 ## BAFTA Film Awards
 
@@ -212,18 +212,18 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Most Original Programme/Series | 1979 | 1979 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/most-original-programme-series/) |
 | Original Programme/Series | 1978 | 1978 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/original-programme-series/) |
 | Factual | 1957 | 1977 | 17 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/factual/) |
-| Outside Broadcast | 1963 | 1977 | 6 | historical review | pending |
-| Specialised Programme | 1963 | 1977 | 14 | historical review | pending |
-| Technical Craft Award | 1973 | 1977 | 6 | historical review | pending |
-| Specialised Series | 1973 | 1976 | 4 | historical review | pending |
-| Drama Production | 1957 | 1972 | 16 | historical review | pending |
-| Factual Production | 1971 | 1972 | 3 | historical review | pending |
-| General | 1966 | 1972 | 6 | historical review | pending |
-| Script | 1960 | 1972 | 7 | historical review | pending |
-| Specialised Production | 1971 | 1972 | 2 | historical review | pending |
-| Mullard Award | 1965 | 1971 | 6 | historical review | pending |
-| Factual: Current Affairs | 1970 | 1970 | 1 | historical review | pending |
-| Factual: Documentary | 1970 | 1970 | 1 | historical review | pending |
+| Outside Broadcast | 1963 | 1977 | 6 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/outside-broadcast-programe/) |
+| Specialised Programme | 1963 | 1977 | 14 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/specialised-programme/) |
+| Technical Craft Award | 1973 | 1977 | 6 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/technical-craft-award/) |
+| Specialised Series | 1973 | 1976 | 4 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/specialised-series/) |
+| Drama Production | 1957 | 1972 | 16 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/drama/) |
+| Factual Production | 1971 | 1972 | 3 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/factual-production/) |
+| General | 1966 | 1972 | 6 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/general/) |
+| Script | 1960 | 1972 | 7 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/script/) |
+| Specialised Production | 1971 | 1972 | 2 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/specialised-production/) |
+| Mullard Award | 1965 | 1971 | 6 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/mullard-award/) |
+| Factual: Current Affairs | 1970 | 1970 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/factual-current-affairs/) |
+| Factual: Documentary | 1970 | 1970 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/factual-documentary/) |
 | Light Entertainment Personality | 1961 | 1970 | 6 | historical review | pending |
 | Adult Education Award | 1966 | 1967 | 2 | historical review | pending |
 | Scriptwriter | 1956 | 1966 | 10 | historical review | pending |
