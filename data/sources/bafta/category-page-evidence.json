@@ -89,11 +89,39 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Paul%20Scofield&type=Film&winner=winner"
         },
         {
+          "label": "British Actress",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/british-actress/",
+          "evidenceNominationId": "340761",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Edith%20Evans%20Whisperers&type=Film&winner=winner"
+        },
+        {
+          "label": "British Art Direction - Colour",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/british-art-direction-colour/",
+          "evidenceNominationId": "340766",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=John%20Box&type=Film&winner=winner"
+        },
+        {
           "label": "British Cinematography",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/film/british-cinematography/",
           "evidenceNominationId": "340842",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Geoffrey%20Unsworth&type=Film&winner=winner"
+        },
+        {
+          "label": "British Cinematography - Black and White",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/british-cinematography-black-and-white/",
+          "evidenceNominationId": "340771",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Gerry%20Turpin%20Whisperers&type=Film&winner=winner"
+        },
+        {
+          "label": "British Cinematography - Colour",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/british-cinematography-colour/",
+          "evidenceNominationId": "340775",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Ted%20Moore&type=Film&winner=winner"
         },
         {
           "label": "British Film",
@@ -375,6 +403,20 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Andrew%20Chater&type=Television&winner=winner"
         },
         {
+          "label": "Children's Programme - Factual",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/childrens-programme-factual/",
+          "evidenceNominationId": "347283",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Roy%20Milani&type=Television&winner=winner"
+        },
+        {
+          "label": "Children's Programme - Fiction or Entertainment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/childrens-programme-fiction-or-entertainment/",
+          "evidenceNominationId": "347286",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Coping%20With%20Christmas&type=Television&winner=winner"
+        },
+        {
           "label": "Comedy",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/television/comedy/",
@@ -653,6 +695,20 @@
           "historyPage": "https://www.bafta.org/awards/television/sport-and-live-events/",
           "evidenceNominationId": "352820",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=WW1%20Remembered&type=Television&winner=winner"
+        },
+        {
+          "label": "Sports/Events Coverage In Real Time",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/sports-events-coverage-in-real-time/",
+          "evidenceNominationId": "347399",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=BBC1%20Euro%2096&type=Television&winner=winner"
+        },
+        {
+          "label": "Talk Show",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/talk-show/",
+          "evidenceNominationId": "347405",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Mrs%20Merton%20Christmas&type=Television&winner=winner"
         },
         {
           "label": "Virgin Media's Must-See Moment",
@@ -976,11 +1032,32 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Graham%20Haines&type=TV%20Craft&winner=winner"
         },
         {
+          "label": "Television Cameraman",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/tv-cameraman/",
+          "evidenceNominationId": "348880",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Jim%20Atkinson%20Othello&type=TV%20Craft&winner=winner"
+        },
+        {
           "label": "Titles",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/tvcraft/titles/",
           "evidenceNominationId": "352725",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Winter%20Olympics%202014&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "TV Lighting",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/tv-lighting/",
+          "evidenceNominationId": "348790",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Dave%20Sydenham&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Video Cameraman",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/video-cameraman/",
+          "evidenceNominationId": "349262",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Ron%20Green&type=TV%20Craft&winner=winner"
         },
         {
           "label": "Video Lighting",
@@ -1002,6 +1079,13 @@
           "historyPage": "https://www.bafta.org/awards/tvcraft/visual-effects-and-graphic-design/",
           "evidenceNominationId": "351206",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Titanic&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "VTR Editor",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/vtr-editor/",
+          "evidenceNominationId": "349314",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Malcolm%20Banthorpe&type=TV%20Craft&winner=winner"
         },
         {
           "label": "Writer",
