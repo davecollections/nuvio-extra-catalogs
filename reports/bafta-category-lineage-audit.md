@@ -6,10 +6,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 
 | Programme | Winners | Historical labels | Current included | Current excluded | Historical evidenced | Pending historical |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| BAFTA Film Awards | 1,634 | 89 | 25 | 3 | 27 | 34 |
-| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 27 | 68 |
-| BAFTA Television Craft Awards | 757 | 78 | 23 | 1 | 27 | 27 |
-| **Total** | **3,911** | **291** | **75** | **6** | **81** | **129** |
+| BAFTA Film Awards | 1,634 | 89 | 25 | 3 | 31 | 30 |
+| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 31 | 64 |
+| BAFTA Television Craft Awards | 757 | 78 | 23 | 1 | 31 | 23 |
+| **Total** | **3,911** | **291** | **75** | **6** | **93** | **117** |
 
 ## BAFTA Film Awards
 
@@ -70,10 +70,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Post Office BAFTA Scholarship | 1989 | 1989 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/post-office-bafta-scholarship/) |
 | Foreign Language Film | 1983 | 1988 | 6 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/foreign-language-film/) |
 | Actor | 1969 | 1985 | 18 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/actor/) |
-| Actress | 1969 | 1985 | 17 | historical review | pending |
-| Direction | 1969 | 1985 | 17 | historical review | pending |
-| Most Promising Newcomer To Film | 1953 | 1985 | 10 | historical review | pending |
-| Original Song Written for a Film | 1983 | 1985 | 3 | historical review | pending |
+| Actress | 1969 | 1985 | 17 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/actress/) |
+| Direction | 1969 | 1985 | 17 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/direction/) |
+| Most Promising Newcomer To Film | 1953 | 1985 | 10 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/most-promising-newcomer-to-film/) |
+| Original Song Written for a Film | 1983 | 1985 | 3 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/original-song-written-for-a-film/) |
 | Film Editing | 1971 | 1983 | 11 | historical review | pending |
 | Most Promising Newcomer To Leading Film Roles | 1961 | 1983 | 23 | historical review | pending |
 | Robert Flaherty Award (Feature Length Film, Documentary In Content) | 1960 | 1983 | 18 | historical review | pending |
@@ -165,11 +165,11 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Interactivity | 2006 | 2009 | 4 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/interactivity/) |
 | Philips Audience Award | 2009 | 2009 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/philips-audience-award/) |
 | Sky+ Audience Award | 2008 | 2008 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/sky-audience-award/) |
-| Pioneer Audience Award | 2006 | 2007 | 2 | historical review | pending |
+| Pioneer Audience Award | 2006 | 2007 | 2 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/pioneer-audience-award/) |
+| Flaherty Documentary Award | 1984 | 2006 | 32 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/flaherty-documentary-award/) |
+| Huw Wheldon Award For Specialist Factual | 2002 | 2006 | 3 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/huw-wheldon-award-for-specialist-factual/) |
+| Lew Grade Award For Entertainment Programme or Series | 2004 | 2006 | 3 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/lew-grade-award-for-entertainment-programme-or-series/) |
 | Dennis Potter Award | 1994 | 2006 | 12 | historical review | pending |
-| Flaherty Documentary Award | 1984 | 2006 | 32 | historical review | pending |
-| Huw Wheldon Award For Specialist Factual | 2002 | 2006 | 3 | historical review | pending |
-| Lew Grade Award For Entertainment Programme or Series | 2004 | 2006 | 3 | historical review | pending |
 | Richard Dimbleby Award | 1966 | 2006 | 38 | historical review | pending |
 | Comedy - Programme or Series | 1992 | 2005 | 14 | historical review | pending |
 | Huw Wheldon Award For Specialised Programme or Series | 2001 | 2004 | 3 | historical review | pending |
@@ -289,10 +289,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Director sponsored by Sony Pictures Television International | 2006 | 2006 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/director-sponsored-by-sony-pictures-television-international/) |
 | Editing Fiction/Entertainment sponsored by Pepper Post Production | 2006 | 2006 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/editing-fiction-entertainment-sponsored-by-pepper-post-production/) |
 | Original Television Music sponsored by Sebastian McLean International | 2006 | 2006 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/original-television-music-sponsored-by-sebastian-mclean-international/) |
-| Photography And Lighting Fiction/Entertainment | 2006 | 2006 | 1 | historical review | pending |
-| Anthony Asquith Award For New British Composer | 2005 | 2005 | 1 | historical review | pending |
-| Graphic Design | 1994 | 2005 | 10 | historical review | pending |
-| New Director - Factual | 2001 | 2005 | 5 | historical review | pending |
+| Photography And Lighting Fiction/Entertainment | 2006 | 2006 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/photography-and-lighting-fiction-entertainment/) |
+| Anthony Asquith Award For New British Composer | 2005 | 2005 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/anthony-asquith-award-for-new-british-composer/) |
+| Graphic Design | 1994 | 2005 | 10 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/graphic-design/) |
+| New Director - Factual | 2001 | 2005 | 5 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/new-director-factual/) |
 | New Director - Fiction | 2001 | 2005 | 5 | historical review | pending |
 | New Writer | 2001 | 2005 | 5 | historical review | pending |
 | Sound - Entertainment | 2002 | 2002 | 1 | historical review | pending |
