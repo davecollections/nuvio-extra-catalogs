@@ -15,7 +15,7 @@ DECISIONS_PATH = SOURCE_DIR / "lineage-decisions.json"
 EVIDENCE_PATH = SOURCE_DIR / "category-page-evidence.json"
 REGISTRY_PATH = SOURCE_DIR / "current-category-pages.json"
 EXPECTED_PROGRAMMES = ("film", "television", "television-craft")
-DISPOSITIONS = {"standalone", "current-lineage", "excluded"}
+DISPOSITIONS = {"current-lineage", "excluded"}
 
 
 def require(condition: bool, message: str) -> None:
@@ -105,9 +105,6 @@ def main() -> None:
                     f"{programme_id}: {label} maps to unknown current included category {target!r}",
                 )
                 require("reason" not in entry, f"{programme_id}: mapped {label} must not have an exclusion reason")
-            elif disposition == "standalone":
-                require("currentCategory" not in entry, f"{programme_id}: standalone {label} cannot name a current category")
-                require("reason" not in entry, f"{programme_id}: standalone {label} must not have an exclusion reason")
             else:
                 reason = entry.get("reason")
                 require(
@@ -144,8 +141,8 @@ def main() -> None:
     print(
         "BAFTA lineage decisions are valid: "
         f"{reviewed}/{total_expected} historical pages decided "
-        f"({totals['current-lineage']} current mappings, {totals['standalone']} standalone, "
-        f"{totals['excluded']} excluded, {remaining} remaining)."
+        f"({totals['current-lineage']} current mappings, {totals['excluded']} excluded, "
+        f"{remaining} remaining)."
     )
 
 

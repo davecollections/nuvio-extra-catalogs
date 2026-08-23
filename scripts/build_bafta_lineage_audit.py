@@ -44,7 +44,7 @@ def build_report() -> str:
     lines = [
         "# BAFTA category lineage audit",
         "",
-        "Generated from the reviewed BAFTA winner snapshots, complete first-party category-page evidence, and incremental lineage decisions. Historical pages remain fail-closed until they are retained as standalone lineages, mapped to one current included category, or explicitly excluded.",
+        "Generated from the reviewed BAFTA winner snapshots, complete first-party category-page evidence, and incremental lineage decisions. Historical pages remain fail-closed until they are mapped to one current included category or explicitly excluded from this current-lineage milestone.",
         "",
         "## Summary",
         "",
@@ -93,9 +93,6 @@ def build_report() -> str:
                         priority = 3
                     elif decision["disposition"] == "excluded":
                         state = "excluded historical"
-                        priority = 2
-                    elif decision["disposition"] == "standalone":
-                        state = "standalone historical lineage"
                         priority = 2
                     else:
                         state = f"mapped to current: {decision['currentCategory']}"
@@ -170,7 +167,7 @@ def build_report() -> str:
             "",
             "## Completion contract",
             "",
-            "The category-page evidence gate is complete. The lineage gate is complete only when every `lineage decision pending` row is retained as a standalone historical lineage, mapped to one named current included category, or explicitly excluded. Similar wording or adjacent years alone are not sufficient evidence.",
+            "The category-page evidence gate is complete. The lineage gate is complete only when every `lineage decision pending` row is mapped to one named current included category or explicitly excluded from this current-lineage milestone. Similar wording or adjacent years alone are not sufficient evidence.",
             "",
         ]
     )

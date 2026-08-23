@@ -1,12 +1,150 @@
 {
   "schemaVersion": 1,
   "checkedAt": "2026-08-23",
-  "policy": "Each evidenced historical BAFTA category page must be retained as an independent lineage, mapped to one named current included category, or explicitly excluded. Similar wording and adjacent years are not sufficient to merge distinct first-party pages.",
+  "policy": "Each evidenced historical BAFTA category page must be mapped to one named current included category or explicitly excluded from this current-lineage milestone. Similar wording and adjacent years are not sufficient to merge distinct first-party pages.",
   "programmes": [
     {
       "id": "film",
       "expectedHistoricalLabelCount": 61,
       "decisions": [
+        {
+          "label": "Achievement in Direction",
+          "historyPage": "https://www.bafta.org/awards/film/achievement-in-direction/",
+          "disposition": "current-lineage",
+          "currentCategory": "Director"
+        },
+        {
+          "label": "Achievement in Special Visual Effects",
+          "historyPage": "https://www.bafta.org/awards/film/achievement-in-special-visual-effects/",
+          "disposition": "current-lineage",
+          "currentCategory": "Special Visual Effects"
+        },
+        {
+          "label": "Achievements in Special Effects",
+          "historyPage": "https://www.bafta.org/awards/film/achievements-in-special-effects/",
+          "disposition": "current-lineage",
+          "currentCategory": "Special Visual Effects"
+        },
+        {
+          "label": "Actor",
+          "historyPage": "https://www.bafta.org/awards/film/actor/",
+          "disposition": "current-lineage",
+          "currentCategory": "Leading Actor"
+        },
+        {
+          "label": "Actress",
+          "historyPage": "https://www.bafta.org/awards/film/actress/",
+          "disposition": "current-lineage",
+          "currentCategory": "Leading Actress"
+        },
+        {
+          "label": "Alexander Korda Award for the outstanding British Film of the Year",
+          "historyPage": "https://www.bafta.org/awards/film/alexander-korda-award-for-the-outstanding-british-film-of-the-year/",
+          "disposition": "current-lineage",
+          "currentCategory": "Outstanding British Film"
+        },
+        {
+          "label": "Anthony Asquith Award for Original Film Music",
+          "historyPage": "https://www.bafta.org/awards/film/anthony-asquith-award-for-achievement-in-film-music/",
+          "disposition": "current-lineage",
+          "currentCategory": "Original Score"
+        },
+        {
+          "label": "Art Direction",
+          "historyPage": "https://www.bafta.org/awards/film/art-direction/",
+          "disposition": "current-lineage",
+          "currentCategory": "Production Design"
+        },
+        {
+          "label": "Best Cinematography - Black and White",
+          "historyPage": "https://www.bafta.org/awards/film/best-cinematography-black-and-white/",
+          "disposition": "current-lineage",
+          "currentCategory": "Cinematography"
+        },
+        {
+          "label": "British Actor",
+          "historyPage": "https://www.bafta.org/awards/film/british-actor/",
+          "disposition": "current-lineage",
+          "currentCategory": "Leading Actor"
+        },
+        {
+          "label": "British Actress",
+          "historyPage": "https://www.bafta.org/awards/film/british-actress/",
+          "disposition": "current-lineage",
+          "currentCategory": "Leading Actress"
+        },
+        {
+          "label": "British Art Direction - Black and White",
+          "historyPage": "https://www.bafta.org/awards/film/british-art-direction-black-and-white/",
+          "disposition": "current-lineage",
+          "currentCategory": "Production Design"
+        },
+        {
+          "label": "British Art Direction - Colour",
+          "historyPage": "https://www.bafta.org/awards/film/british-art-direction-colour/",
+          "disposition": "current-lineage",
+          "currentCategory": "Production Design"
+        },
+        {
+          "label": "British Cinematography",
+          "historyPage": "https://www.bafta.org/awards/film/british-cinematography/",
+          "disposition": "current-lineage",
+          "currentCategory": "Cinematography"
+        },
+        {
+          "label": "British Cinematography - Black and White",
+          "historyPage": "https://www.bafta.org/awards/film/british-cinematography-black-and-white/",
+          "disposition": "current-lineage",
+          "currentCategory": "Cinematography"
+        },
+        {
+          "label": "British Cinematography - Colour",
+          "historyPage": "https://www.bafta.org/awards/film/british-cinematography-colour/",
+          "disposition": "current-lineage",
+          "currentCategory": "Cinematography"
+        },
+        {
+          "label": "British Costume Design - Black and White",
+          "historyPage": "https://www.bafta.org/awards/film/british-costume-design-black-and-white/",
+          "disposition": "current-lineage",
+          "currentCategory": "Costume Design"
+        },
+        {
+          "label": "British Costume Design - Colour",
+          "historyPage": "https://www.bafta.org/awards/film/british-costume-design-colour/",
+          "disposition": "current-lineage",
+          "currentCategory": "Costume Design"
+        },
+        {
+          "label": "Carl Foreman Award for Special Achievement by a British Director, Writer or Producer in their First Feature Film",
+          "historyPage": "https://www.bafta.org/awards/film/carl-foreman-award-for-special-achievement-by-british-director-writer-or-producer-first-feature/",
+          "disposition": "current-lineage",
+          "currentCategory": "Outstanding Debut By A British Writer, Director or Producer"
+        },
+        {
+          "label": "Carl Foreman Award for the Most Promising Newcomer in British Film",
+          "historyPage": "https://www.bafta.org/awards/film/carl-foreman-award-for-the-most-promising-newcomer-in-british-film/",
+          "disposition": "current-lineage",
+          "currentCategory": "Outstanding Debut By A British Writer, Director or Producer"
+        },
+        {
+          "label": "David Lean Award for Achievement in Direction",
+          "historyPage": "https://www.bafta.org/awards/film/david-lean-award-for-achievement-in-direction/",
+          "disposition": "current-lineage",
+          "currentCategory": "Director"
+        },
+        {
+          "label": "Direction",
+          "historyPage": "https://www.bafta.org/awards/film/direction/",
+          "disposition": "current-lineage",
+          "currentCategory": "Director"
+        },
+        {
+          "label": "Editing - for best film editing of a British Film",
+          "historyPage": "https://www.bafta.org/awards/film/editing-for-best-film-editing-of-a-british-film/",
+          "disposition": "current-lineage",
+          "currentCategory": "Editing"
+        },
         {
           "label": "EE Rising Star Award",
           "historyPage": "https://www.bafta.org/awards/film/ee-rising-star-award/",
@@ -14,10 +152,52 @@
           "reason": "Person-only public-vote award; the official records do not identify an associated winning work."
         },
         {
+          "label": "Film Editing",
+          "historyPage": "https://www.bafta.org/awards/film/film-editing/",
+          "disposition": "current-lineage",
+          "currentCategory": "Editing"
+        },
+        {
+          "label": "Foreign Actor",
+          "historyPage": "https://www.bafta.org/awards/film/foreign-actor/",
+          "disposition": "current-lineage",
+          "currentCategory": "Leading Actor"
+        },
+        {
+          "label": "Foreign Actress",
+          "historyPage": "https://www.bafta.org/awards/film/foreign-actress/",
+          "disposition": "current-lineage",
+          "currentCategory": "Leading Actress"
+        },
+        {
+          "label": "Foreign Language Film",
+          "historyPage": "https://www.bafta.org/awards/film/foreign-language-film/",
+          "disposition": "current-lineage",
+          "currentCategory": "Film Not in the English Language"
+        },
+        {
+          "label": "Make-Up Artist",
+          "historyPage": "https://www.bafta.org/awards/film/make-up-artist/",
+          "disposition": "current-lineage",
+          "currentCategory": "Make Up & Hair"
+        },
+        {
           "label": "Post Office BAFTA Scholarship",
           "historyPage": "https://www.bafta.org/awards/film/post-office-bafta-scholarship/",
           "disposition": "excluded",
           "reason": "Person-only scholarship; the official record does not identify an associated winning work."
+        },
+        {
+          "label": "Robert Flaherty Award (Feature Length Film, Documentary In Content)",
+          "historyPage": "https://www.bafta.org/awards/film/robert-flaherty-award/",
+          "disposition": "current-lineage",
+          "currentCategory": "Documentary"
+        },
+        {
+          "label": "Soundtrack",
+          "historyPage": "https://www.bafta.org/awards/film/soundtrack/",
+          "disposition": "current-lineage",
+          "currentCategory": "Sound"
         },
         {
           "label": "Special Award",
