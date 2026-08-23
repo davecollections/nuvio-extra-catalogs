@@ -33,6 +33,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Death%20Becomes%20Her&type=Film&winner=winner"
         },
         {
+          "label": "Actor",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/actor/",
+          "evidenceNominationId": "341921",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Haing%20S%20Ngor&type=Film&winner=winner"
+        },
+        {
           "label": "Alexander Korda Award for the outstanding British Film of the Year",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/film/alexander-korda-award-for-the-outstanding-british-film-of-the-year/",
@@ -96,6 +103,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=La%20La%20Land&type=Film&winner=winner"
         },
         {
+          "label": "Foreign Language Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/foreign-language-film/",
+          "evidenceNominationId": "342186",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=The%20Sacrifice%20Offret&type=Film&winner=winner"
+        },
+        {
           "label": "Lloyds Bank People's Vote For The Most Popular Film",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/film/lloyds-bank-peoples-vote-for-the-most-popular-film/",
@@ -131,11 +145,25 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Strictly%20Ballroom&type=Film&winner=winner"
         },
         {
+          "label": "Original Film Score",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/original-film-score/",
+          "evidenceNominationId": "342414",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Cinema%20Paradiso&type=Film&winner=winner"
+        },
+        {
           "label": "Original Music",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/film/original-music/",
           "evidenceNominationId": "357271",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=A%20Star%20Is%20Born&type=Film&winner=winner"
+        },
+        {
+          "label": "Post Office BAFTA Scholarship",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/post-office-bafta-scholarship/",
+          "evidenceNominationId": "342267",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Gillian%20Wilkinson&type=Film&winner=winner"
         },
         {
           "label": "Score For A Film",
@@ -191,6 +219,13 @@
           "historyPage": "https://www.bafta.org/awards/television/actress-television/",
           "evidenceNominationId": "352188",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Olivia%20Colman&type=Television&winner=winner"
+        },
+        {
+          "label": "Alan Clarke Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/alan-clarke-award/",
+          "evidenceNominationId": "351361",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Jane%20Tranter&type=Television&winner=winner"
         },
         {
           "label": "Comedy",
@@ -249,6 +284,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Ruth%20Jones&type=Television&winner=winner"
         },
         {
+          "label": "Interactivity",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/interactivity/",
+          "evidenceNominationId": "348289",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Embarrassing%20Bodies&type=Television&winner=winner"
+        },
+        {
           "label": "Male Performance in a Comedy",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/television/male-performance-in-a-comedy/",
@@ -268,6 +310,13 @@
           "historyPage": "https://www.bafta.org/awards/television/new-media/",
           "evidenceNominationId": "348577",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Psychoville&type=Television&winner=winner"
+        },
+        {
+          "label": "Philips Audience Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/philips-audience-award/",
+          "evidenceNominationId": "348303",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Skins&type=Television&winner=winner"
         },
         {
           "label": "Radio Times Audience Award",
@@ -296,6 +345,13 @@
           "historyPage": "https://www.bafta.org/awards/television/situation-comedy/",
           "evidenceNominationId": "352273",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Him%20Her%20Wedding&type=Television&winner=winner"
+        },
+        {
+          "label": "Sky+ Audience Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/sky-audience-award/",
+          "evidenceNominationId": "348230",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Gavin%20Stacey&type=Television&winner=winner"
         },
         {
           "label": "Soap & Continuing Drama",
@@ -388,6 +444,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=The%20Shadow%20Line&type=TV%20Craft&winner=winner"
         },
         {
+          "label": "Director sponsored by Sony Pictures Television International",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/director-sponsored-by-sony-pictures-television-international/",
+          "evidenceNominationId": "350026",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Brian%20Percival&type=TV%20Craft&winner=winner"
+        },
+        {
           "label": "Director: Fiction, sponsored by 3 Mills Studios",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/tvcraft/director-fiction-sponsored-by-3-mills-studios/",
@@ -400,6 +463,13 @@
           "historyPage": "https://www.bafta.org/awards/tvcraft/editing-fiction-entertainment/",
           "evidenceNominationId": "350317",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Kristina%20Hetherington&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Editing Fiction/Entertainment sponsored by Pepper Post Production",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/editing-fiction-entertainment-sponsored-by-pepper-post-production/",
+          "evidenceNominationId": "350033",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Paul%20Knight&type=TV%20Craft&winner=winner"
         },
         {
           "label": "Emerging Talent: Fiction, sponsored by Sara Putt Associates",
@@ -451,11 +521,25 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Mi%20Vida%20Loca&type=TV%20Craft&winner=winner"
         },
         {
+          "label": "New Media Developer",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/new-media-developer/",
+          "evidenceNominationId": "350108",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Peter%20Drake&type=TV%20Craft&winner=winner"
+        },
+        {
           "label": "Original Music",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/tvcraft/original-music-tvcraft/",
           "evidenceNominationId": "360456",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Landscapers&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Original Television Music sponsored by Sebastian McLean International",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/original-television-music-sponsored-by-sebastian-mclean-international/",
+          "evidenceNominationId": "350045",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Elizabeth%20I%20Rob%20Lane&type=TV%20Craft&winner=winner"
         },
         {
           "label": "Production Design, sponsored by Microsoft",

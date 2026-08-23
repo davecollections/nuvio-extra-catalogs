@@ -6,10 +6,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 
 | Programme | Winners | Historical labels | Current included | Current excluded | Historical evidenced | Pending historical |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| BAFTA Film Awards | 1,634 | 89 | 25 | 3 | 23 | 38 |
-| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 23 | 72 |
-| BAFTA Television Craft Awards | 757 | 78 | 23 | 1 | 23 | 31 |
-| **Total** | **3,911** | **291** | **75** | **6** | **69** | **141** |
+| BAFTA Film Awards | 1,634 | 89 | 25 | 3 | 27 | 34 |
+| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 27 | 68 |
+| BAFTA Television Craft Awards | 757 | 78 | 23 | 1 | 27 | 27 |
+| **Total** | **3,911** | **291** | **75** | **6** | **81** | **129** |
 
 ## BAFTA Film Awards
 
@@ -66,10 +66,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Original Film Music | 1981 | 1993 | 4 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/original-film-music/) |
 | Achievement in Direction | 1987 | 1991 | 5 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/achievement-in-direction/) |
 | Make-Up Artist | 1983 | 1991 | 9 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/make-up-artist/) |
-| Original Film Score | 1990 | 1991 | 2 | historical review | pending |
-| Post Office BAFTA Scholarship | 1989 | 1989 | 1 | historical review | pending |
-| Foreign Language Film | 1983 | 1988 | 6 | historical review | pending |
-| Actor | 1969 | 1985 | 18 | historical review | pending |
+| Original Film Score | 1990 | 1991 | 2 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/original-film-score/) |
+| Post Office BAFTA Scholarship | 1989 | 1989 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/post-office-bafta-scholarship/) |
+| Foreign Language Film | 1983 | 1988 | 6 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/foreign-language-film/) |
+| Actor | 1969 | 1985 | 18 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/actor/) |
 | Actress | 1969 | 1985 | 17 | historical review | pending |
 | Direction | 1969 | 1985 | 17 | historical review | pending |
 | Most Promising Newcomer To Film | 1953 | 1985 | 10 | historical review | pending |
@@ -160,11 +160,11 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | YouTube Audience Award | 2010 | 2012 | 3 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/youtube-audience-award/) |
 | Continuing Drama | 2004 | 2011 | 8 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/continuing-drama/) |
 | Drama Serial | 1992 | 2011 | 20 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/drama-serial/) |
+| Alan Clarke Award | 1992 | 2009 | 18 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/alan-clarke-award/) |
 | Comedy Performance | 1995 | 2009 | 14 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/comedy-performance/) |
-| Alan Clarke Award | 1992 | 2009 | 18 | historical review | pending |
-| Interactivity | 2006 | 2009 | 4 | historical review | pending |
-| Philips Audience Award | 2009 | 2009 | 1 | historical review | pending |
-| Sky+ Audience Award | 2008 | 2008 | 1 | historical review | pending |
+| Interactivity | 2006 | 2009 | 4 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/interactivity/) |
+| Philips Audience Award | 2009 | 2009 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/philips-audience-award/) |
+| Sky+ Audience Award | 2008 | 2008 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/sky-audience-award/) |
 | Pioneer Audience Award | 2006 | 2007 | 2 | historical review | pending |
 | Dennis Potter Award | 1994 | 2006 | 12 | historical review | pending |
 | Flaherty Documentary Award | 1984 | 2006 | 32 | historical review | pending |
@@ -285,10 +285,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Breakthrough Talent sponsored by HBO Films | 2006 | 2007 | 2 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/breakthrough-talent-sponsored-by-hbo-films/) |
 | Director | 2007 | 2007 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/director-tvcraft/) |
 | Interactive Innovation | 2006 | 2007 | 2 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/interactive-innovation/) |
-| New Media Developer | 2006 | 2007 | 2 | historical review | pending |
-| Director sponsored by Sony Pictures Television International | 2006 | 2006 | 1 | historical review | pending |
-| Editing Fiction/Entertainment sponsored by Pepper Post Production | 2006 | 2006 | 1 | historical review | pending |
-| Original Television Music sponsored by Sebastian McLean International | 2006 | 2006 | 1 | historical review | pending |
+| New Media Developer | 2006 | 2007 | 2 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/new-media-developer/) |
+| Director sponsored by Sony Pictures Television International | 2006 | 2006 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/director-sponsored-by-sony-pictures-television-international/) |
+| Editing Fiction/Entertainment sponsored by Pepper Post Production | 2006 | 2006 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/editing-fiction-entertainment-sponsored-by-pepper-post-production/) |
+| Original Television Music sponsored by Sebastian McLean International | 2006 | 2006 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/original-television-music-sponsored-by-sebastian-mclean-international/) |
 | Photography And Lighting Fiction/Entertainment | 2006 | 2006 | 1 | historical review | pending |
 | Anthony Asquith Award For New British Composer | 2005 | 2005 | 1 | historical review | pending |
 | Graphic Design | 1994 | 2005 | 10 | historical review | pending |
