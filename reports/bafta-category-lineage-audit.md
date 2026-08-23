@@ -6,10 +6,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 
 | Programme | Winners | Historical labels | Current included | Current excluded | Historical evidenced | Pending historical |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| BAFTA Film Awards | 1,634 | 89 | 25 | 3 | 51 | 10 |
-| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 51 | 44 |
-| BAFTA Television Craft Awards | 757 | 78 | 23 | 1 | 51 | 3 |
-| **Total** | **3,911** | **291** | **75** | **6** | **153** | **57** |
+| BAFTA Film Awards | 1,634 | 89 | 25 | 3 | 56 | 5 |
+| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 55 | 40 |
+| BAFTA Television Craft Awards | 757 | 78 | 23 | 1 | 54 | 0 |
+| **Total** | **3,911** | **291** | **75** | **6** | **165** | **45** |
 
 ## BAFTA Film Awards
 
@@ -94,11 +94,11 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | British Art Direction - Colour | 1965 | 1968 | 4 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/british-art-direction-colour/) |
 | British Cinematography - Black and White | 1964 | 1968 | 4 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/british-cinematography-black-and-white/) |
 | British Cinematography - Colour | 1964 | 1968 | 5 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/british-cinematography-colour/) |
-| British Costume Design - Black and White | 1965 | 1968 | 2 | historical review | pending |
-| British Costume Design - Colour | 1965 | 1968 | 4 | historical review | pending |
-| British Screenplay | 1955 | 1968 | 15 | historical review | pending |
-| Foreign Actor | 1953 | 1968 | 16 | historical review | pending |
-| Foreign Actress | 1953 | 1968 | 16 | historical review | pending |
+| British Costume Design - Black and White | 1965 | 1968 | 2 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/british-costume-design-black-and-white/) |
+| British Costume Design - Colour | 1965 | 1968 | 4 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/british-costume-design-colour/) |
+| British Screenplay | 1955 | 1968 | 15 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/british-screenplay/) |
+| Foreign Actor | 1953 | 1968 | 16 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/foreign-actor/) |
+| Foreign Actress | 1953 | 1968 | 16 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/foreign-actress/) |
 | Best Cinematography - Black and White | 1967 | 1967 | 1 | historical review | pending |
 | British Art Direction - Black and White | 1965 | 1967 | 3 | historical review | pending |
 | Editing - for best film editing of a British Film | 1967 | 1967 | 1 | historical review | pending |
@@ -189,10 +189,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Talk Show | 1997 | 1997 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/talk-show/) |
 | Children's Programme - Factual | 1987 | 1996 | 5 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/childrens-programme-factual/) |
 | Children's Programme - Fiction or Entertainment | 1992 | 1996 | 4 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/childrens-programme-fiction-or-entertainment/) |
-| Lloyds Bank People's Vote For The Most Popular Television Programme | 1995 | 1996 | 2 | historical review | pending |
-| Original Television Music | 1981 | 1993 | 13 | historical review | pending |
-| Writer | 1954 | 1993 | 19 | historical review | pending |
-| Actuality Coverage | 1978 | 1992 | 9 | historical review | pending |
+| Lloyds Bank People's Vote For The Most Popular Television Programme | 1995 | 1996 | 2 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/lloyds-bank-peoples-vote-for-favourite-tv-programme/) |
+| Original Television Music | 1981 | 1993 | 13 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/original-television-music/) |
+| Writer | 1954 | 1993 | 19 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/writer-television/) |
+| Actuality Coverage | 1978 | 1992 | 9 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/actuality-coverage/) |
 | Arts Programme | 1989 | 1991 | 3 | historical review | pending |
 | Children's Programme - Documentary - Educational | 1983 | 1991 | 8 | historical review | pending |
 | Children's Programme - Entertainment/Drama | 1983 | 1991 | 9 | historical review | pending |
@@ -313,9 +313,9 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Video Cameraman | 1983 | 1990 | 6 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/video-cameraman/) |
 | Television Cameraman | 1978 | 1982 | 5 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/tv-cameraman/) |
 | TV Lighting | 1980 | 1980 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/tv-lighting/) |
-| Film Sound - Recordist/Dubbing | 1979 | 1979 | 1 | historical review | pending |
-| Lighting | 1978 | 1978 | 1 | historical review | pending |
-| Special Lighting Effects | 1978 | 1978 | 1 | historical review | pending |
+| Film Sound - Recordist/Dubbing | 1979 | 1979 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-sound-recordist-dubbing/) |
+| Lighting | 1978 | 1978 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/lighting-tvcraft/) |
+| Special Lighting Effects | 1978 | 1978 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/special-lighting-effects/) |
 
 ## Completion contract
 

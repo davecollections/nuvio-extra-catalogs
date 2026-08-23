@@ -124,11 +124,32 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Ted%20Moore&type=Film&winner=winner"
         },
         {
+          "label": "British Costume Design - Black and White",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/british-costume-design-black-and-white/",
+          "evidenceNominationId": "340776",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Jocelyn%20Rickards&type=Film&winner=winner"
+        },
+        {
+          "label": "British Costume Design - Colour",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/british-costume-design-colour/",
+          "evidenceNominationId": "340781",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Elizabeth%20Haffenden&type=Film&winner=winner"
+        },
+        {
           "label": "British Film",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/film/british-film/",
           "evidenceNominationId": "343957",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=This%20Is%20England&type=Film&winner=winner"
+        },
+        {
+          "label": "British Screenplay",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/british-screenplay/",
+          "evidenceNominationId": "340788",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Robert%20Bolt&type=Film&winner=winner"
         },
         {
           "label": "Carl Foreman Award for Special Achievement by a British Director, Writer or Producer in their First Feature Film",
@@ -192,6 +213,20 @@
           "historyPage": "https://www.bafta.org/awards/film/film-editing/",
           "evidenceNominationId": "341783",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Missing%20Francoise%20Bonnot&type=Film&winner=winner"
+        },
+        {
+          "label": "Foreign Actor",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/foreign-actor/",
+          "evidenceNominationId": "340796",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Rod%20Steiger%20Heat%20Night&type=Film&winner=winner"
+        },
+        {
+          "label": "Foreign Actress",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/foreign-actress/",
+          "evidenceNominationId": "340798",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Anouk%20Aimee%20Man%20Woman&type=Film&winner=winner"
         },
         {
           "label": "Foreign Language Film",
@@ -389,6 +424,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Olivia%20Colman&type=Television&winner=winner"
         },
         {
+          "label": "Actuality Coverage",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/actuality-coverage/",
+          "evidenceNominationId": "347029",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Brent%20Sadler&type=Television&winner=winner"
+        },
+        {
           "label": "Alan Clarke Award",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/television/alan-clarke-award/",
@@ -578,6 +620,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Derby%20Day&type=Television&winner=winner"
         },
         {
+          "label": "Lloyds Bank People's Vote For The Most Popular Television Programme",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/lloyds-bank-peoples-vote-for-favourite-tv-programme/",
+          "evidenceNominationId": "347327",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=X%20Files&type=Television&winner=winner"
+        },
+        {
           "label": "Male Performance in a Comedy",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/television/male-performance-in-a-comedy/",
@@ -604,6 +653,13 @@
           "historyPage": "https://www.bafta.org/awards/television/news-and-current-affairs-journalism/",
           "evidenceNominationId": "347678",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Sorious%20Samura&type=Television&winner=winner"
+        },
+        {
+          "label": "Original Television Music",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/original-television-music/",
+          "evidenceNominationId": "347140",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Jeff%20Beck&type=Television&winner=winner"
         },
         {
           "label": "Originality",
@@ -723,6 +779,13 @@
           "historyPage": "https://www.bafta.org/awards/television/virgin-tvs-must-see-moment/",
           "evidenceNominationId": "356846",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Mother%20Pilot%20Whale&type=Television&winner=winner"
+        },
+        {
+          "label": "Writer",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/writer-television/",
+          "evidenceNominationId": "351428",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Laurence%20Marks&type=Television&winner=winner"
         },
         {
           "label": "YouTube Audience Award",
@@ -899,6 +962,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Aad%20Wirtz&type=TV%20Craft&winner=winner"
         },
         {
+          "label": "Film Sound - Recordist/Dubbing",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-sound-recordist-dubbing/",
+          "evidenceNominationId": "348743",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=John%20Murphy&type=TV%20Craft&winner=winner"
+        },
+        {
           "label": "Graphic Design",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/tvcraft/graphic-design/",
@@ -939,6 +1009,13 @@
           "historyPage": "https://www.bafta.org/awards/tvcraft/interactive-innovation-service-platform/",
           "evidenceNominationId": "350250",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Mi%20Vida%20Loca&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Lighting",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/lighting-tvcraft/",
+          "evidenceNominationId": "348698",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=John%20Treays%20Macbeth&type=TV%20Craft&winner=winner"
         },
         {
           "label": "New Director - Factual",
@@ -1030,6 +1107,13 @@
           "historyPage": "https://www.bafta.org/awards/tvcraft/sound-supervisor/",
           "evidenceNominationId": "349305",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Graham%20Haines&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Special Lighting Effects",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/special-lighting-effects/",
+          "evidenceNominationId": "348714",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Bob%20Simmons&type=TV%20Craft&winner=winner"
         },
         {
           "label": "Television Cameraman",
