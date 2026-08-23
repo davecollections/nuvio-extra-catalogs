@@ -71,7 +71,18 @@ The 75 initial categories are not yet 75 guaranteed catalogues. Historical categ
 
 Every accepted lineage will be exact-label based and independently frozen in output contracts. An unknown future label must fail closed until reviewed.
 
-`reports/bafta-category-lineage-audit.md` is the generated review inventory for all 291 labels, their winner counts, and their first/last result years. It deliberately leaves 210 non-current labels in `historical review` until an official BAFTA category-page identity supports a mapping or explicit exclusion. Keep it current with:
+`data/sources/bafta/category-page-evidence.json` records exact first-party page identities for all 210 historical labels. Every record is tied to an exact winner nomination ID and winner-filtered search result; all 210 resolved with no unresolved page identities.
+
+`data/sources/bafta/lineage-decisions.json` is the fail-closed decision layer. Each evidenced historical page must be retained as a standalone lineage, mapped to one named current included category, or explicitly excluded. The initial decision pass excludes 15 person-only, scholarship, contribution, or special-recognition pages whose official records never identify an associated winning work. Mixed pages remain pending rather than losing their work-linked results.
+
+Validate the evidence and incremental decisions with:
+
+```bash
+python scripts/validate_bafta_category_page_evidence.py
+python scripts/validate_bafta_lineage_decisions.py
+```
+
+`reports/bafta-category-lineage-audit.md` is the generated review inventory for all 291 labels, their winner counts, first/last result years, page evidence, and current decision state. Keep it current with:
 
 ```bash
 python scripts/build_bafta_lineage_audit.py --check

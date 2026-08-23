@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-08-23",
+  "policy": "Each evidenced historical BAFTA category page must be retained as an independent lineage, mapped to one named current included category, or explicitly excluded. Similar wording and adjacent years are not sufficient to merge distinct first-party pages.",
+  "programmes": [
+    {
+      "id": "film",
+      "expectedHistoricalLabelCount": 61,
+      "decisions": [
+        {
+          "label": "EE Rising Star Award",
+          "historyPage": "https://www.bafta.org/awards/film/ee-rising-star-award/",
+          "disposition": "excluded",
+          "reason": "Person-only public-vote award; the official records do not identify an associated winning work."
+        },
+        {
+          "label": "Post Office BAFTA Scholarship",
+          "historyPage": "https://www.bafta.org/awards/film/post-office-bafta-scholarship/",
+          "disposition": "excluded",
+          "reason": "Person-only scholarship; the official record does not identify an associated winning work."
+        },
+        {
+          "label": "Special Award",
+          "historyPage": "https://www.bafta.org/awards/film/competitive-special-award/",
+          "disposition": "excluded",
+          "reason": "Special recognition awarded to people, teams, or organisations without an authoritative associated work."
+        },
+        {
+          "label": "Special Award for Craft",
+          "historyPage": "https://www.bafta.org/awards/film/special-award-for-craft/",
+          "disposition": "excluded",
+          "reason": "Person-only craft recognition; the official records do not identify associated winning works."
+        }
+      ]
+    },
+    {
+      "id": "television",
+      "expectedHistoricalLabelCount": 95,
+      "decisions": [
+        {
+          "label": "Alan Clarke Award",
+          "historyPage": "https://www.bafta.org/awards/television/alan-clarke-award/",
+          "disposition": "excluded",
+          "reason": "Person-only contribution award; the official records do not identify associated winning works."
+        },
+        {
+          "label": "Dennis Potter Award",
+          "historyPage": "https://www.bafta.org/awards/television/dennis-potter-award/",
+          "disposition": "excluded",
+          "reason": "Person-only writing recognition; the official records do not identify associated winning works."
+        },
+        {
+          "label": "Designer",
+          "historyPage": "https://www.bafta.org/awards/television/designer/",
+          "disposition": "excluded",
+          "reason": "Person-only historical craft award; every official record identifies a recipient but no associated work."
+        },
+        {
+          "label": "Desmond Davis Award",
+          "historyPage": "https://www.bafta.org/awards/television/desmond-davis-award/",
+          "disposition": "excluded",
+          "reason": "Person-only contribution award; the official records do not identify associated winning works."
+        },
+        {
+          "label": "Factual Personality",
+          "historyPage": "https://www.bafta.org/awards/television/factual-personality/",
+          "disposition": "excluded",
+          "reason": "Person-only performance recognition; every official record identifies a recipient but no associated work."
+        },
+        {
+          "label": "Light Entertainment Artist",
+          "historyPage": "https://www.bafta.org/awards/television/light-entertainment-artist/",
+          "disposition": "excluded",
+          "reason": "Person-only performance recognition; every official record identifies a recipient but no associated work."
+        },
+        {
+          "label": "Personality",
+          "historyPage": "https://www.bafta.org/awards/television/personality/",
+          "disposition": "excluded",
+          "reason": "Person-only recognition; every official record identifies a recipient but no associated work."
+        },
+        {
+          "label": "Production",
+          "historyPage": "https://www.bafta.org/awards/television/production/",
+          "disposition": "excluded",
+          "reason": "Person-only historical production award; every official record identifies a recipient but no associated work."
+        },
+        {
+          "label": "Richard Dimbleby Award",
+          "historyPage": "https://www.bafta.org/awards/television/richard-dimbleby-award/",
+          "disposition": "excluded",
+          "reason": "Person-only presenter recognition; the official records do not identify associated winning works."
+        },
+        {
+          "label": "Writer",
+          "historyPage": "https://www.bafta.org/awards/television/writer-television/",
+          "disposition": "excluded",
+          "reason": "Person-only historical writing award; the official records identify recipients but no associated works."
+        }
+      ]
+    },
+    {
+      "id": "television-craft",
+      "expectedHistoricalLabelCount": 54,
+      "decisions": [
+        {
+          "label": "BBC Blast and BAFTA Screen-Skills Award",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/bbc-blast-and-bafta-screen-skills-award/",
+          "disposition": "excluded",
+          "reason": "Person-only skills award; the official record does not identify an associated winning work."
+        }
+      ]
+    }
+  ]
+}

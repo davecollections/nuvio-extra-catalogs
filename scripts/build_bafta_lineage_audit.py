@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE_DIR = ROOT / "data" / "sources" / "bafta"
 REGISTRY_PATH = SOURCE_DIR / "current-category-pages.json"
 EVIDENCE_PATH = SOURCE_DIR / "category-page-evidence.json"
+DECISIONS_PATH = SOURCE_DIR / "lineage-decisions.json"
 REPORT_PATH = ROOT / "reports" / "bafta-category-lineage-audit.md"
 SNAPSHOT_FILES = (
     "winners-film.json",
@@ -33,17 +34,22 @@ def build_report() -> str:
         programme["id"]: {entry["label"]: entry for entry in programme["labels"]}
         for programme in evidence["programmes"]
     }
+    decisions = json.loads(DECISIONS_PATH.read_text(encoding="utf-8"))
+    decisions_by_programme = {
+        programme["id"]: {entry["label"]: entry for entry in programme["decisions"]}
+        for programme in decisions["programmes"]
+    }
     snapshots = [json.loads((SOURCE_DIR / name).read_text(encoding="utf-8")) for name in SNAPSHOT_FILES]
 
     lines = [
         "# BAFTA category lineage audit",
         "",
-        "Generated from the reviewed BAFTA winner snapshots and incremental first-party category-page evidence. This inventory is a review aid, not a final lineage decision: pending historical rows must be mapped to an official BAFTA history-page identity or explicitly excluded before canonical import.",
+        "Generated from the reviewed BAFTA winner snapshots, complete first-party category-page evidence, and incremental lineage decisions. Historical pages remain fail-closed until they are retained as standalone lineages, mapped to one current included category, or explicitly excluded.",
         "",
         "## Summary",
         "",
-        "| Programme | Winners | Historical labels | Current included | Current excluded | Historical evidenced | Pending historical |",
-        "| --- | ---: | ---: | ---: | ---: | ---: | ---: |",
+        "| Programme | Winners | Source labels | Current included | Current excluded | Historical evidenced | Historical decided | Pending decisions |",
+        "| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |",
     ]
 
     programme_rows: list[tuple[dict[str, object], dict[str, object], list[dict[str, object]]]] = []
@@ -52,6 +58,7 @@ def build_report() -> str:
     total_included = 0
     total_excluded = 0
     total_evidenced = 0
+    total_decided = 0
     total_review = 0
 
     for snapshot in snapshots:
@@ -64,6 +71,7 @@ def build_report() -> str:
         included = {category["name"]: category for category in registry_programme["included"]}
         excluded = {category["name"]: category for category in registry_programme["excluded"]}
         historical_evidence = evidence_by_programme[programme["id"]]
+        historical_decisions = decisions_by_programme[programme["id"]]
         rows: list[dict[str, object]] = []
         for label, winners in groups.items():
             years = [winner["year"] for winner in winners]
@@ -78,12 +86,24 @@ def build_report() -> str:
             elif label in historical_evidence:
                 entry = historical_evidence[label]
                 if entry["status"] == "resolved":
-                    state = "history page evidenced"
                     page = entry["historyPage"]
+                    decision = historical_decisions.get(label)
+                    if decision is None:
+                        state = "lineage decision pending"
+                        priority = 3
+                    elif decision["disposition"] == "excluded":
+                        state = "excluded historical"
+                        priority = 2
+                    elif decision["disposition"] == "standalone":
+                        state = "standalone historical lineage"
+                        priority = 2
+                    else:
+                        state = f"mapped to current: {decision['currentCategory']}"
+                        priority = 2
                 else:
                     state = "history page unresolved"
                     page = "reviewed; no page resolved"
-                priority = 2
+                    priority = 3
             else:
                 state = "historical review"
                 page = "pending"
@@ -102,11 +122,12 @@ def build_report() -> str:
 
         included_count = sum(row["state"] == "included current" for row in rows)
         excluded_count = sum(row["state"] == "excluded current" for row in rows)
-        evidenced_count = sum(row["state"].startswith("history page ") for row in rows)
-        review_count = sum(row["state"] == "historical review" for row in rows)
+        evidenced_count = sum(row["label"] in historical_evidence for row in rows)
+        decided_count = sum(row["label"] in historical_decisions for row in rows)
+        review_count = evidenced_count - decided_count
         lines.append(
             f"| {markdown(programme['name'])} | {len(snapshot['winners']):,} | {len(rows)} | "
-            f"{included_count} | {excluded_count} | {evidenced_count} | {review_count} |"
+            f"{included_count} | {excluded_count} | {evidenced_count} | {decided_count} | {review_count} |"
         )
         programme_rows.append((programme, registry_programme, rows))
         total_winners += len(snapshot["winners"])
@@ -114,11 +135,12 @@ def build_report() -> str:
         total_included += included_count
         total_excluded += excluded_count
         total_evidenced += evidenced_count
+        total_decided += decided_count
         total_review += review_count
 
     lines.append(
         f"| **Total** | **{total_winners:,}** | **{total_labels}** | **{total_included}** | "
-        f"**{total_excluded}** | **{total_evidenced}** | **{total_review}** |"
+        f"**{total_excluded}** | **{total_evidenced}** | **{total_decided}** | **{total_review}** |"
     )
 
     for programme, _, rows in programme_rows:
@@ -148,7 +170,7 @@ def build_report() -> str:
             "",
             "## Completion contract",
             "",
-            "The lineage gate is complete only when every `historical review` row is replaced by reviewed category-page evidence and each first-party page identity has a final mapping or explicit exclusion. Similar wording or adjacent years alone are not sufficient evidence.",
+            "The category-page evidence gate is complete. The lineage gate is complete only when every `lineage decision pending` row is retained as a standalone historical lineage, mapped to one named current included category, or explicitly excluded. Similar wording or adjacent years alone are not sufficient evidence.",
             "",
         ]
     )
@@ -170,9 +192,12 @@ def main() -> None:
             raise SystemExit("BAFTA category lineage audit report is stale; regenerate it")
         evidence = json.loads(EVIDENCE_PATH.read_text(encoding="utf-8"))
         evidenced = sum(len(programme["labels"]) for programme in evidence["programmes"])
+        decisions = json.loads(DECISIONS_PATH.read_text(encoding="utf-8"))
+        decided = sum(len(programme["decisions"]) for programme in decisions["programmes"])
         print(
             "BAFTA category lineage audit report is current: "
-            f"291 labels, {evidenced} historical labels evidenced, {210 - evidenced} historical reviews remaining."
+            f"291 labels, {evidenced} historical pages evidenced, "
+            f"{decided} historical decisions, {210 - decided} decisions remaining."
         )
         return
     REPORT_PATH.write_text(report, encoding="utf-8")
