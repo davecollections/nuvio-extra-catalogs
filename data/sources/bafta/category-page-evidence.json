@@ -236,11 +236,25 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Making%20Of%20Longbird&type=Film&winner=winner"
         },
         {
+          "label": "Short Factual Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/short-factual-film/",
+          "evidenceNominationId": "341554",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Hokusai%20Animated%20Sketchbook&type=Film&winner=winner"
+        },
+        {
           "label": "Short Film",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/film/short-film/",
           "evidenceNominationId": "350752",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Swimmer&type=Film&winner=winner"
+        },
+        {
+          "label": "Soundtrack",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/soundtrack/",
+          "evidenceNominationId": "341623",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Alien%20Derrick%20Leather&type=Film&winner=winner"
         },
         {
           "label": "Special Award",
@@ -255,6 +269,20 @@
           "historyPage": "https://www.bafta.org/awards/film/special-award-for-craft/",
           "evidenceNominationId": "358436",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Phyllis%20Dalton&type=Film&winner=winner"
+        },
+        {
+          "label": "Specialised Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/specialised-film/",
+          "evidenceNominationId": "341565",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Twenty%20Times%20More%20Likely&type=Film&winner=winner"
+        },
+        {
+          "label": "Supporting Artist",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/supporting-artist/",
+          "evidenceNominationId": "341754",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Ian%20Holm&type=Film&winner=winner"
         }
       ]
     },
@@ -375,11 +403,25 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Auschwitz&type=Television&winner=winner"
         },
         {
+          "label": "Innovation",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/innovation/",
+          "evidenceNominationId": "347755",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Double%20Take&type=Television&winner=winner"
+        },
+        {
           "label": "Interactivity",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/television/interactivity/",
           "evidenceNominationId": "348289",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Embarrassing%20Bodies&type=Television&winner=winner"
+        },
+        {
+          "label": "Lew Grade Audience Award As Voted By Readers Of The Radio Times",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/lew-grade-audience-award-as-voted-by-readers-of-the-radio-times/",
+          "evidenceNominationId": "347672",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Inspector%20Morse&type=Television&winner=winner"
         },
         {
           "label": "Lew Grade Award For Entertainment Programme or Series",
@@ -408,6 +450,13 @@
           "historyPage": "https://www.bafta.org/awards/television/new-media/",
           "evidenceNominationId": "348577",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Psychoville&type=Television&winner=winner"
+        },
+        {
+          "label": "News And Current Affairs Journalism",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/news-and-current-affairs-journalism/",
+          "evidenceNominationId": "347678",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Sorious%20Samura&type=Television&winner=winner"
         },
         {
           "label": "Philips Audience Award",
@@ -443,6 +492,13 @@
           "historyPage": "https://www.bafta.org/awards/television/richard-dimbleby-award/",
           "evidenceNominationId": "351399",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Jamie%20Oliver&type=Television&winner=winner"
+        },
+        {
+          "label": "Richard Dimbleby Award For The Best Presenter - Factual, Features And News",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/richard-dimbleby-award-for-the-best-presenter-factual-features-and-news/",
+          "evidenceNominationId": "347763",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Louis%20Theroux&type=Television&winner=winner"
         },
         {
           "label": "Single Drama",
@@ -619,6 +675,27 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=The%20X%20Factor&type=TV%20Craft&winner=winner"
         },
         {
+          "label": "Film or Video Editor - Factual",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-or-video-editor-factual/",
+          "evidenceNominationId": "349415",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Alan%20Lygo&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Film or Video Editor - Fiction/Entertainment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-or-video-editor-fiction-entertainment/",
+          "evidenceNominationId": "349419",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Mick%20Audsley&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Film or Video Photography - Factual",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-or-video-photography-factual/",
+          "evidenceNominationId": "349423",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Life%20In%20The%20Freezer&type=TV%20Craft&winner=winner"
+        },
+        {
           "label": "Graphic Design",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/tvcraft/graphic-design/",
@@ -694,6 +771,13 @@
           "historyPage": "https://www.bafta.org/awards/tvcraft/original-television-music-sponsored-by-sebastian-mclean-international/",
           "evidenceNominationId": "350045",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Elizabeth%20I%20Rob%20Lane&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Photography - Fiction/Entertainment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/photography-fiction-entertainment/",
+          "evidenceNominationId": "349663",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=John%20Daly&type=TV%20Craft&winner=winner"
         },
         {
           "label": "Photography And Lighting Fiction/Entertainment",

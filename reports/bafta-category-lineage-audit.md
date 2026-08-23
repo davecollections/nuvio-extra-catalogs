@@ -6,10 +6,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 
 | Programme | Winners | Historical labels | Current included | Current excluded | Historical evidenced | Pending historical |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| BAFTA Film Awards | 1,634 | 89 | 25 | 3 | 35 | 26 |
-| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 35 | 60 |
-| BAFTA Television Craft Awards | 757 | 78 | 23 | 1 | 35 | 19 |
-| **Total** | **3,911** | **291** | **75** | **6** | **105** | **105** |
+| BAFTA Film Awards | 1,634 | 89 | 25 | 3 | 39 | 22 |
+| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 39 | 56 |
+| BAFTA Television Craft Awards | 757 | 78 | 23 | 1 | 39 | 15 |
+| **Total** | **3,911** | **291** | **75** | **6** | **117** | **93** |
 
 ## BAFTA Film Awards
 
@@ -78,10 +78,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Most Promising Newcomer To Leading Film Roles | 1961 | 1983 | 23 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/most-promising-newcomer-to-leading-film-roles/) |
 | Robert Flaherty Award (Feature Length Film, Documentary In Content) | 1960 | 1983 | 18 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/robert-flaherty-award/) |
 | Screenplay | 1969 | 1983 | 16 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/screenplay/) |
-| Supporting Artist | 1982 | 1982 | 1 | historical review | pending |
-| Soundtrack | 1969 | 1980 | 12 | historical review | pending |
-| Short Factual Film | 1977 | 1979 | 2 | historical review | pending |
-| Specialised Film | 1960 | 1979 | 18 | historical review | pending |
+| Supporting Artist | 1982 | 1982 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/supporting-artist/) |
+| Soundtrack | 1969 | 1980 | 12 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/soundtrack/) |
+| Short Factual Film | 1977 | 1979 | 2 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/short-factual-film/) |
+| Specialised Film | 1960 | 1979 | 18 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/specialised-film/) |
 | Factual Film | 1978 | 1978 | 1 | historical review | pending |
 | Fictional Film | 1978 | 1978 | 1 | historical review | pending |
 | Anthony Asquith Memorial Award | 1971 | 1977 | 6 | historical review | pending |
@@ -173,10 +173,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Richard Dimbleby Award | 1966 | 2006 | 38 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/richard-dimbleby-award/) |
 | Comedy - Programme or Series | 1992 | 2005 | 14 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/comedy-programme-or-series/) |
 | Huw Wheldon Award For Specialised Programme or Series | 2001 | 2004 | 3 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/huw-wheldon-award-for-factual-series-or-strand/) |
-| Innovation | 2000 | 2002 | 3 | historical review | pending |
-| Richard Dimbleby Award For The Best Presenter - Factual, Features And News | 2000 | 2002 | 3 | historical review | pending |
-| Lew Grade Audience Award As Voted By Readers Of The Radio Times | 2000 | 2001 | 2 | historical review | pending |
-| News And Current Affairs Journalism | 1993 | 2001 | 6 | historical review | pending |
+| Innovation | 2000 | 2002 | 3 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/innovation/) |
+| Richard Dimbleby Award For The Best Presenter - Factual, Features And News | 2000 | 2002 | 3 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/richard-dimbleby-award-for-the-best-presenter-factual-features-and-news/) |
+| Lew Grade Audience Award As Voted By Readers Of The Radio Times | 2000 | 2001 | 2 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/lew-grade-audience-award-as-voted-by-readers-of-the-radio-times/) |
+| News And Current Affairs Journalism | 1993 | 2001 | 6 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/news-and-current-affairs-journalism/) |
 | Huw Wheldon Award For The Best Arts Programme | 1987 | 2000 | 11 | historical review | pending |
 | Light Entertainment | 1957 | 1999 | 44 | historical review | pending |
 | Light Entertainment Performance | 1965 | 1999 | 31 | historical review | pending |
@@ -297,10 +297,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | New Writer | 2001 | 2005 | 5 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/new-writer/) |
 | Sound - Entertainment | 2002 | 2002 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/sound-entertainment/) |
 | Design | 1983 | 2000 | 18 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/design-tvcraft/) |
-| Photography - Fiction/Entertainment | 1999 | 1999 | 1 | historical review | pending |
-| Film or Video Editor - Factual | 1992 | 1994 | 3 | historical review | pending |
-| Film or Video Editor - Fiction/Entertainment | 1994 | 1994 | 1 | historical review | pending |
-| Film or Video Photography - Factual | 1992 | 1994 | 3 | historical review | pending |
+| Photography - Fiction/Entertainment | 1999 | 1999 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/photography-fiction-entertainment/) |
+| Film or Video Editor - Factual | 1992 | 1994 | 3 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-or-video-editor-factual/) |
+| Film or Video Editor - Fiction/Entertainment | 1994 | 1994 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-or-video-editor-fiction-entertainment/) |
+| Film or Video Photography - Factual | 1992 | 1994 | 3 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-or-video-photography-factual/) |
 | Film Or Video Photography - Fiction/Entertainment | 1992 | 1994 | 3 | historical review | pending |
 | Video Lighting | 1981 | 1994 | 14 | historical review | pending |
 | Film or Video Editor - Fiction | 1992 | 1993 | 2 | historical review | pending |
