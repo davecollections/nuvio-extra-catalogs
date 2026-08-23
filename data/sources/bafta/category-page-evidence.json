@@ -571,11 +571,25 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Russell%20T%20Davies&type=Television&winner=winner"
         },
         {
+          "label": "Design",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/design/",
+          "evidenceNominationId": "346391",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Brideshead%20Revisited&type=Television&winner=winner"
+        },
+        {
           "label": "Desmond Davis Award",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/television/desmond-davis-award/",
           "evidenceNominationId": "351343",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Ray%20Fitzwalter&type=Television&winner=winner"
+        },
+        {
+          "label": "Documentary",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/documentary-programme/",
+          "evidenceNominationId": "346474",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Melvyn%20Bragg&type=Television&winner=winner"
         },
         {
           "label": "Drama Serial",
@@ -590,6 +604,13 @@
           "historyPage": "https://www.bafta.org/awards/television/drama-series-or-serial/",
           "evidenceNominationId": "346987",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Beeban%20Kidron&type=Television&winner=winner"
+        },
+        {
+          "label": "Factual",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/factual/",
+          "evidenceNominationId": "346014",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Sailor%20Rescue&type=Television&winner=winner"
         },
         {
           "label": "Features",
@@ -718,6 +739,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Mood&type=Television&winner=winner"
         },
         {
+          "label": "Most Original Programme/Series",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/most-original-programme-series/",
+          "evidenceNominationId": "346192",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Pennies%20From%20Heaven&type=Television&winner=winner"
+        },
+        {
           "label": "New Media",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/television/new-media/",
@@ -737,6 +765,13 @@
           "historyPage": "https://www.bafta.org/awards/television/news-or-outside-broadcast-coverage/",
           "evidenceNominationId": "347006",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Channel%204%20News&type=Television&winner=winner"
+        },
+        {
+          "label": "Original Programme/Series",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/original-programme-series/",
+          "evidenceNominationId": "346111",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Muppet%20Show&type=Television&winner=winner"
         },
         {
           "label": "Original Television Music",
@@ -767,6 +802,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Life%20On%20Mars&type=Television&winner=winner"
         },
         {
+          "label": "Programme/Series Without Category",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/programme-series-without-category/",
+          "evidenceNominationId": "346624",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=John%20Archer&type=Television&winner=winner"
+        },
+        {
           "label": "Radio Times Audience Award",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/television/radio-times-audience-award/",
@@ -779,6 +821,27 @@
           "historyPage": "https://www.bafta.org/awards/television/reality-constructed-factual/",
           "evidenceNominationId": "361159",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=The%20Traitors&type=Television&winner=winner"
+        },
+        {
+          "label": "Rediffusion Star Awards: Flame Of Knowledge",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/rediffusion-star-awards-flame-of-knowledge/",
+          "evidenceNominationId": "346423",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Charlotte%20And%20Jane&type=Television&winner=winner"
+        },
+        {
+          "label": "Rediffusion Star Awards: Harlequin",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/rediffusion-star-awards-harlequin/",
+          "evidenceNominationId": "346429",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Biddy%20Baxter&type=Television&winner=winner"
+        },
+        {
+          "label": "Rediffusion Star Awards: Harlequin - Drama/Light Entertainment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/rediffusion-star-awards-harlequin-drama-light-entertainment/",
+          "evidenceNominationId": "346438",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Pied%20Piper%20Hamelin&type=Television&winner=winner"
         },
         {
           "label": "Richard Dimbleby Award",
@@ -795,11 +858,32 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Louis%20Theroux&type=Television&winner=winner"
         },
         {
+          "label": "Shell International Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/shell-international-award/",
+          "evidenceNominationId": "346559",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Graham%20Ironside&type=Television&winner=winner"
+        },
+        {
+          "label": "Short Animation",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/short-animated-film-television/",
+          "evidenceNominationId": "351462",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Andrew%20McEwan%20Toxic&type=Television&winner=winner"
+        },
+        {
           "label": "Single Drama",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/television/single-drama/",
           "evidenceNominationId": "361173",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=I%20Am%20Ruth&type=Television&winner=winner"
+        },
+        {
+          "label": "Single Play",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/single-play/",
+          "evidenceNominationId": "346443",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Going%20Gently&type=Television&winner=winner"
         },
         {
           "label": "Situation Comedy",

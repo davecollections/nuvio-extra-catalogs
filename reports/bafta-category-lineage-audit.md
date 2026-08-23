@@ -7,9 +7,9 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Programme | Winners | Historical labels | Current included | Current excluded | Historical evidenced | Pending historical |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | BAFTA Film Awards | 1,634 | 89 | 25 | 3 | 61 | 0 |
-| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 62 | 33 |
+| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 74 | 21 |
 | BAFTA Television Craft Awards | 757 | 78 | 23 | 1 | 54 | 0 |
-| **Total** | **3,911** | **291** | **75** | **6** | **177** | **33** |
+| **Total** | **3,911** | **291** | **75** | **6** | **189** | **21** |
 
 ## BAFTA Film Awards
 
@@ -200,18 +200,18 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Desmond Davis Award | 1960 | 1991 | 30 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/desmond-davis-award/) |
 | Drama Series or Serial | 1973 | 1991 | 17 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/drama-series-or-serial/) |
 | News or Outside Broadcast Coverage | 1986 | 1991 | 6 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/news-or-outside-broadcast-coverage/) |
-| Short Animation | 1984 | 1991 | 8 | historical review | pending |
-| Programme/Series Without Category | 1980 | 1985 | 6 | historical review | pending |
-| Shell International Award | 1966 | 1984 | 19 | historical review | pending |
-| Documentary | 1963 | 1983 | 12 | historical review | pending |
-| Design | 1964 | 1982 | 18 | historical review | pending |
-| Rediffusion Star Awards: Flame Of Knowledge | 1970 | 1982 | 13 | historical review | pending |
-| Rediffusion Star Awards: Harlequin | 1970 | 1982 | 14 | historical review | pending |
-| Rediffusion Star Awards: Harlequin - Drama/Light Entertainment | 1976 | 1982 | 7 | historical review | pending |
-| Single Play | 1973 | 1982 | 10 | historical review | pending |
-| Most Original Programme/Series | 1979 | 1979 | 1 | historical review | pending |
-| Original Programme/Series | 1978 | 1978 | 1 | historical review | pending |
-| Factual | 1957 | 1977 | 17 | historical review | pending |
+| Short Animation | 1984 | 1991 | 8 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/short-animated-film-television/) |
+| Programme/Series Without Category | 1980 | 1985 | 6 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/programme-series-without-category/) |
+| Shell International Award | 1966 | 1984 | 19 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/shell-international-award/) |
+| Documentary | 1963 | 1983 | 12 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/documentary-programme/) |
+| Design | 1964 | 1982 | 18 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/design/) |
+| Rediffusion Star Awards: Flame Of Knowledge | 1970 | 1982 | 13 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/rediffusion-star-awards-flame-of-knowledge/) |
+| Rediffusion Star Awards: Harlequin | 1970 | 1982 | 14 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/rediffusion-star-awards-harlequin/) |
+| Rediffusion Star Awards: Harlequin - Drama/Light Entertainment | 1976 | 1982 | 7 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/rediffusion-star-awards-harlequin-drama-light-entertainment/) |
+| Single Play | 1973 | 1982 | 10 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/single-play/) |
+| Most Original Programme/Series | 1979 | 1979 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/most-original-programme-series/) |
+| Original Programme/Series | 1978 | 1978 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/original-programme-series/) |
+| Factual | 1957 | 1977 | 17 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/factual/) |
 | Outside Broadcast | 1963 | 1977 | 6 | historical review | pending |
 | Specialised Programme | 1963 | 1977 | 14 | historical review | pending |
 | Technical Craft Award | 1973 | 1977 | 6 | historical review | pending |
