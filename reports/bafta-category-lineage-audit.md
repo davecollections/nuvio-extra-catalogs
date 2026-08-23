@@ -6,10 +6,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 
 | Programme | Winners | Historical labels | Current included | Current excluded | Historical evidenced | Pending historical |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| BAFTA Film Awards | 1,634 | 89 | 25 | 3 | 19 | 42 |
-| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 19 | 76 |
-| BAFTA Television Craft Awards | 757 | 78 | 23 | 1 | 19 | 35 |
-| **Total** | **3,911** | **291** | **75** | **6** | **57** | **153** |
+| BAFTA Film Awards | 1,634 | 89 | 25 | 3 | 23 | 38 |
+| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 23 | 72 |
+| BAFTA Television Craft Awards | 757 | 78 | 23 | 1 | 23 | 31 |
+| **Total** | **3,911** | **291** | **75** | **6** | **69** | **141** |
 
 ## BAFTA Film Awards
 
@@ -62,10 +62,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Lloyds Bank People's Vote For The Most Popular Film | 1994 | 1996 | 3 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/lloyds-bank-peoples-vote-for-the-most-popular-film/) |
 | Score For A Film | 1983 | 1994 | 8 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/score-for-a-film/) |
 | Special Award for Craft | 1989 | 1994 | 5 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/special-award-for-craft/) |
-| Achievements in Special Effects | 1993 | 1993 | 1 | historical review | pending |
-| Original Film Music | 1981 | 1993 | 4 | historical review | pending |
-| Achievement in Direction | 1987 | 1991 | 5 | historical review | pending |
-| Make-Up Artist | 1983 | 1991 | 9 | historical review | pending |
+| Achievements in Special Effects | 1993 | 1993 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/achievements-in-special-effects/) |
+| Original Film Music | 1981 | 1993 | 4 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/original-film-music/) |
+| Achievement in Direction | 1987 | 1991 | 5 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/achievement-in-direction/) |
+| Make-Up Artist | 1983 | 1991 | 9 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/film/make-up-artist/) |
 | Original Film Score | 1990 | 1991 | 2 | historical review | pending |
 | Post Office BAFTA Scholarship | 1989 | 1989 | 1 | historical review | pending |
 | Foreign Language Film | 1983 | 1988 | 6 | historical review | pending |
@@ -157,11 +157,11 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Situation Comedy | 1973 | 2014 | 23 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/situation-comedy/) |
 | Comedy | 1966 | 2013 | 9 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/comedy/) |
 | New Media | 2010 | 2012 | 3 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/new-media/) |
-| YouTube Audience Award | 2010 | 2012 | 3 | historical review | pending |
-| Continuing Drama | 2004 | 2011 | 8 | historical review | pending |
-| Drama Serial | 1992 | 2011 | 20 | historical review | pending |
+| YouTube Audience Award | 2010 | 2012 | 3 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/youtube-audience-award/) |
+| Continuing Drama | 2004 | 2011 | 8 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/continuing-drama/) |
+| Drama Serial | 1992 | 2011 | 20 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/drama-serial/) |
+| Comedy Performance | 1995 | 2009 | 14 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/television/comedy-performance/) |
 | Alan Clarke Award | 1992 | 2009 | 18 | historical review | pending |
-| Comedy Performance | 1995 | 2009 | 14 | historical review | pending |
 | Interactivity | 2006 | 2009 | 4 | historical review | pending |
 | Philips Audience Award | 2009 | 2009 | 1 | historical review | pending |
 | Sky+ Audience Award | 2008 | 2008 | 1 | historical review | pending |
@@ -281,10 +281,10 @@ Generated from the reviewed BAFTA winner snapshots and incremental first-party c
 | Sound - Fiction/Entertainment | 1994 | 2010 | 14 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/sound-fiction-entertainment/) |
 | Interactive Innovation - Service/Platform | 2008 | 2009 | 2 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/interactive-innovation-service-platform/) |
 | Interactive Innovation - Content | 2008 | 2008 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/interactive-innovation-content/) |
-| Sound - Fiction/Entertainment sponsored by Munro Acoustics | 2008 | 2008 | 1 | historical review | pending |
-| Breakthrough Talent sponsored by HBO Films | 2006 | 2007 | 2 | historical review | pending |
-| Director | 2007 | 2007 | 1 | historical review | pending |
-| Interactive Innovation | 2006 | 2007 | 2 | historical review | pending |
+| Sound - Fiction/Entertainment sponsored by Munro Acoustics | 2008 | 2008 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/sound-fiction-entertainment-sponsored-by-munro-acoustics/) |
+| Breakthrough Talent sponsored by HBO Films | 2006 | 2007 | 2 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/breakthrough-talent-sponsored-by-hbo-films/) |
+| Director | 2007 | 2007 | 1 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/director-tvcraft/) |
+| Interactive Innovation | 2006 | 2007 | 2 | history page evidenced | [BAFTA page](https://www.bafta.org/awards/tvcraft/interactive-innovation/) |
 | New Media Developer | 2006 | 2007 | 2 | historical review | pending |
 | Director sponsored by Sony Pictures Television International | 2006 | 2006 | 1 | historical review | pending |
 | Editing Fiction/Entertainment sponsored by Pepper Post Production | 2006 | 2006 | 1 | historical review | pending |

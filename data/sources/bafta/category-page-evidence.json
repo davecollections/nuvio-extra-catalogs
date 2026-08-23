@@ -12,11 +12,25 @@
       "expectedHistoricalLabelCount": 61,
       "labels": [
         {
+          "label": "Achievement in Direction",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/achievement-in-direction/",
+          "evidenceNominationId": "342364",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Martin%20Scorsese%20Goodfellas&type=Film&winner=winner"
+        },
+        {
           "label": "Achievement in Special Visual Effects",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/film/achievement-in-special-visual-effects/",
           "evidenceNominationId": "343835",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Pirates%20Dead%20Man%20Chest&type=Film&winner=winner"
+        },
+        {
+          "label": "Achievements in Special Effects",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/achievements-in-special-effects/",
+          "evidenceNominationId": "342516",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Death%20Becomes%20Her&type=Film&winner=winner"
         },
         {
           "label": "Alexander Korda Award for the outstanding British Film of the Year",
@@ -89,6 +103,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Braveheart&type=Film&winner=winner"
         },
         {
+          "label": "Make-Up Artist",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/make-up-artist/",
+          "evidenceNominationId": "342411",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Dick%20Tracy&type=Film&winner=winner"
+        },
+        {
           "label": "Music",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/film/music/",
@@ -101,6 +122,13 @@
           "historyPage": "https://www.bafta.org/awards/film/orange-film-of-the-year/",
           "evidenceNominationId": "343696",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Prisoner%20Azkaban&type=Film&winner=winner"
+        },
+        {
+          "label": "Original Film Music",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/original-film-music/",
+          "evidenceNominationId": "342571",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Strictly%20Ballroom&type=Film&winner=winner"
         },
         {
           "label": "Original Music",
@@ -184,6 +212,27 @@
           "historyPage": "https://www.bafta.org/awards/television/comedy-entertainment/",
           "evidenceNominationId": "361589",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Rob%20Romesh&type=Television&winner=winner"
+        },
+        {
+          "label": "Comedy Performance",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/comedy-performance/",
+          "evidenceNominationId": "348250",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=David%20Mitchell&type=Television&winner=winner"
+        },
+        {
+          "label": "Continuing Drama",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/continuing-drama/",
+          "evidenceNominationId": "348430",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=EastEnders&type=Television&winner=winner"
+        },
+        {
+          "label": "Drama Serial",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/drama-serial/",
+          "evidenceNominationId": "348436",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Any%20Human%20Heart&type=Television&winner=winner"
         },
         {
           "label": "Features",
@@ -282,6 +331,13 @@
           "historyPage": "https://www.bafta.org/awards/television/virgin-tvs-must-see-moment/",
           "evidenceNominationId": "356846",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Mother%20Pilot%20Whale&type=Television&winner=winner"
+        },
+        {
+          "label": "YouTube Audience Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/youtube-audience-award/",
+          "evidenceNominationId": "348618",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Celebrity%20Juice&type=Television&winner=winner"
         }
       ]
     },
@@ -304,11 +360,25 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=This%20Way%20Up&type=TV%20Craft&winner=winner"
         },
         {
+          "label": "Breakthrough Talent sponsored by HBO Films",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/breakthrough-talent-sponsored-by-hbo-films/",
+          "evidenceNominationId": "350081",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Sharon%20Foster&type=TV%20Craft&winner=winner"
+        },
+        {
           "label": "Digital Creativity",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/tvcraft/digital-creativity/",
           "evidenceNominationId": "356048",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Alchemy%20VR&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Director",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/director-tvcraft/",
+          "evidenceNominationId": "350087",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Edmund%20Coulthard&type=TV%20Craft&winner=winner"
         },
         {
           "label": "Director - Fiction/Entertainment",
@@ -360,6 +430,13 @@
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Embarrassing%20Bodies&type=TV%20Craft&winner=winner"
         },
         {
+          "label": "Interactive Innovation",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/interactive-innovation/",
+          "evidenceNominationId": "350100",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Four%20Docs&type=TV%20Craft&winner=winner"
+        },
+        {
           "label": "Interactive Innovation - Content",
           "status": "resolved",
           "historyPage": "https://www.bafta.org/awards/tvcraft/interactive-innovation-content/",
@@ -393,6 +470,13 @@
           "historyPage": "https://www.bafta.org/awards/tvcraft/sound-fiction-entertainment/",
           "evidenceNominationId": "350358",
           "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Wallander%20Paul%20Hamblin&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Sound - Fiction/Entertainment sponsored by Munro Acoustics",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/sound-fiction-entertainment-sponsored-by-munro-acoustics/",
+          "evidenceNominationId": "350205",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Cranford%20Paul%20Hamblin&type=TV%20Craft&winner=winner"
         },
         {
           "label": "Titles",
