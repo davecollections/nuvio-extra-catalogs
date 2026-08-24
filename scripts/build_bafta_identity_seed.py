@@ -61,21 +61,27 @@ def recipient_key(name: str, nomination_id: str) -> str:
     return f"recipient:{normalized}"
 
 
-def existing_resolutions(existing: dict | None, field: str) -> dict[str, dict]:
+def existing_review_fields(existing: dict | None, field: str) -> dict[str, dict]:
     if existing is None:
         return {}
-    resolutions: dict[str, dict] = {}
+    preserved: dict[str, dict] = {}
     for entry in existing.get(field, []):
         key = entry.get("key")
-        resolution = entry.get("resolution")
-        if isinstance(key, str) and isinstance(resolution, dict):
-            resolutions[key] = resolution
-    return resolutions
+        if not isinstance(key, str):
+            continue
+        fields = {
+            name: entry[name]
+            for name in ("resolution", "candidates", "reviewNote")
+            if name in entry
+        }
+        if fields:
+            preserved[key] = fields
+    return preserved
 
 
 def build_seed(existing: dict | None) -> dict:
-    work_resolutions = existing_resolutions(existing, "works")
-    recipient_resolutions = existing_resolutions(existing, "recipients")
+    work_review = existing_review_fields(existing, "works")
+    recipient_review = existing_review_fields(existing, "recipients")
     works: dict[str, dict] = {}
     recipients: dict[str, dict] = {}
     selected_count = 0
@@ -131,8 +137,7 @@ def build_seed(existing: dict | None) -> dict:
         entry = works[key]
         for field in ("programmes", "years", "categoryIds", "nominationIds"):
             entry[field].sort()
-        if key in work_resolutions:
-            entry["resolution"] = work_resolutions[key]
+        entry.update(work_review.get(key, {}))
         work_entries.append(entry)
 
     recipient_entries = []
@@ -146,8 +151,7 @@ def build_seed(existing: dict | None) -> dict:
             "nominationIds",
         ):
             entry[field].sort()
-        if key in recipient_resolutions:
-            entry["resolution"] = recipient_resolutions[key]
+        entry.update(recipient_review.get(key, {}))
         recipient_entries.append(entry)
 
     return {

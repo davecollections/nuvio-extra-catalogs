@@ -129,19 +129,60 @@ def main() -> None:
     overrides = definitions["sourceOverrides"]
     require(isinstance(overrides, list), "sourceOverrides must be an array")
     require(
-        [(entry.get("programme"), entry.get("label", "").casefold()) for entry in overrides]
-        == sorted((entry.get("programme"), entry.get("label", "").casefold()) for entry in overrides),
-        "sourceOverrides must be sorted by programme and label",
+        [
+            (
+                entry.get("programme"),
+                entry.get("label", "").casefold(),
+                int(entry.get("nominationId", "0")),
+            )
+            for entry in overrides
+        ]
+        == sorted(
+            (
+                entry.get("programme"),
+                entry.get("label", "").casefold(),
+                int(entry.get("nominationId", "0")),
+            )
+            for entry in overrides
+        ),
+        "sourceOverrides must be sorted by programme, label, and nominationId",
     )
-    override_fields: dict[tuple[str, str], str] = {}
+    snapshot_winners = {
+        (programme_id, winner["nominationId"]): winner
+        for programme_id, snapshot_path in SNAPSHOTS.items()
+        for winner in load_json(snapshot_path)["winners"]
+    }
+    override_fields: dict[tuple[str, str, str | None], str] = {}
     for entry in overrides:
-        exact_keys(entry, {"programme", "label", "workField"}, {"programme", "label", "workField"}, "source override")
-        key = (entry["programme"], entry["label"])
-        require(key in source_mapping, f"source override has no included mapping: {key}")
+        exact_keys(
+            entry,
+            {"programme", "label", "workField"},
+            {"programme", "label", "nominationId", "workField"},
+            "source override",
+        )
+        source_key = (entry["programme"], entry["label"])
+        require(source_key in source_mapping, f"source override has no included mapping: {source_key}")
+        nomination_id = entry.get("nominationId")
+        if nomination_id is not None:
+            require(
+                isinstance(nomination_id, str) and nomination_id.isdigit(),
+                f"source override has invalid nominationId: {source_key}",
+            )
+            winner = snapshot_winners.get((entry["programme"], nomination_id))
+            require(winner is not None, f"source override has unknown nominationId: {source_key}")
+            require(
+                winner["category"] == entry["label"],
+                f"source override nominationId belongs to another label: {source_key}",
+            )
+        key = (entry["programme"], entry["label"], nomination_id)
         require(key not in override_fields, f"duplicate source override: {key}")
         require(entry["workField"] in WORK_FIELDS, f"source override has invalid workField: {key}")
+        inherited = override_fields.get(
+            (entry["programme"], entry["label"], None),
+            source_mapping[source_key]["workField"],
+        )
         require(
-            entry["workField"] != source_mapping[key]["workField"],
+            entry["workField"] != inherited,
             f"source override is redundant: {key}",
         )
         override_fields[key] = entry["workField"]
@@ -186,7 +227,10 @@ def main() -> None:
             category = source_mapping.get(key)
             if category is None:
                 continue
-            field = override_fields.get(key, category["workField"])
+            field = override_fields.get(
+                (programme_id, winner["category"], winner["nominationId"]),
+                override_fields.get((programme_id, winner["category"], None), category["workField"]),
+            )
             if field == "heading":
                 values = [winner.get("heading")]
             else:
@@ -197,22 +241,21 @@ def main() -> None:
                 f"{programme_id}/{winner['nominationId']}: invalid work value",
             )
             normalized_heading = re.sub(r"[^a-z0-9]+", "", winner["heading"].casefold())
-            repeats_person = (
-                category["recipientKind"] == "person"
-                and field == "details"
-                and all(
-                    re.sub(r"[^a-z0-9]+", "", value.casefold()) == normalized_heading
-                    for value in values
-                )
+            repeats_source_text = bool(winner.get("details")) and all(
+                re.sub(r"[^a-z0-9]+", "", value.casefold()) == normalized_heading
+                for value in winner["details"]
             )
             omission_key = (programme_id, winner["nominationId"])
             if omission_key in omission_keys:
-                require(repeats_person, f"{programme_id}/{winner['nominationId']}: work omission is no longer justified")
+                require(
+                    repeats_source_text,
+                    f"{programme_id}/{winner['nominationId']}: work omission is no longer justified",
+                )
                 seen_omissions.add(omission_key)
                 continue
             require(
-                not repeats_person,
-                f"{programme_id}/{winner['nominationId']}: person record repeats the recipient and requires an explicit work omission",
+                not repeats_source_text,
+                f"{programme_id}/{winner['nominationId']}: record repeats the credited name and requires an explicit work omission",
             )
             selected += 1
             work_references += len(values)

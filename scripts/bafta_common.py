@@ -30,7 +30,7 @@ def load_json(path: Path) -> dict:
 def load_category_contract() -> tuple[
     dict,
     dict[tuple[str, str], dict],
-    dict[tuple[str, str], str],
+    dict[tuple[str, str, str | None], str],
     set[tuple[str, str]],
 ]:
     definitions = load_json(DEFINITIONS_PATH)
@@ -53,7 +53,7 @@ def load_category_contract() -> tuple[
                 target_programme
             ][decision["currentCategory"]]
     overrides = {
-        (entry["programme"], entry["label"]): entry["workField"]
+        (entry["programme"], entry["label"], entry.get("nominationId")): entry["workField"]
         for entry in definitions["sourceOverrides"]
     }
     omissions = {
@@ -72,7 +72,10 @@ def selected_winners() -> Iterator[dict]:
             category = source_mapping.get(source_key)
             if category is None or (programme_id, winner["nominationId"]) in omissions:
                 continue
-            work_field = overrides.get(source_key, category["workField"])
+            work_field = overrides.get(
+                (programme_id, winner["category"], winner["nominationId"]),
+                overrides.get((programme_id, winner["category"], None), category["workField"]),
+            )
             work_values = [winner["heading"]] if work_field == "heading" else winner["details"]
             if len(work_values) != 1:
                 raise ValueError(
@@ -94,4 +97,9 @@ def work_key(entry: dict) -> str:
     title = normalized_title(entry["workTitle"])
     if entry["category"]["mediaType"] == "movie":
         return f"movie:{title}:{entry['year']}"
-    return f"television:{title}"
+    # BAFTA reuses identical source titles for unrelated television works and
+    # adaptations (for example, Bleak House in 1986 and 2006). Keep the award
+    # year in the unresolved key so those identities can be reviewed
+    # independently. Canonical outputs later deduplicate repeated wins by the
+    # resolved IMDb identity, not by title text.
+    return f"television:{title}:{entry['year']}"

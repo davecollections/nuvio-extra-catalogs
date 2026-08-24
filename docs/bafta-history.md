@@ -88,7 +88,7 @@ python scripts/validate_bafta_lineage_decisions.py --complete
 python scripts/build_bafta_lineage_audit.py --check
 ```
 
-`data/sources/bafta/category-definitions.json` freezes the 75 accepted current categories into stable local IDs and records the source programme, canonical media scope, recipient kind, credit role, and deterministic work field. It maps the 75 current labels plus 119 accepted historical labels to 2,860 work-linked winner records. Five explicit source overrides cover historical Television Craft pages whose heading/detail layout differs from the current category page. Twenty-six early Television person-award records repeat the recipient instead of identifying a work; their exact nomination IDs are preserved as explicit no-work omissions rather than fabricated titles.
+`data/sources/bafta/category-definitions.json` freezes the 75 accepted current categories into stable local IDs and records the source programme, canonical media scope, recipient kind, credit role, and deterministic work field. It maps the 75 current labels plus 119 accepted historical labels to 2,831 work-linked winner records. Forty-nine explicit source overrides cover label-wide historical layouts, isolated BAFTA card reversals, and the reversed 2019 Television Craft cards. Fifty-five early Television records repeat only the credited person or team instead of identifying a work; their exact nomination IDs are preserved as explicit no-work omissions rather than fabricated titles.
 
 Validate the registry, every accepted source label, all selected work references, and the omission contract with:
 
@@ -96,11 +96,18 @@ Validate the registry, every accepted source label, all selected work references
 python scripts/validate_bafta_category_definitions.py
 ```
 
-`data/sources/bafta/identity-map.json` is the deterministic, initially unresolved identity inventory for the 2,860 selected results. It currently contains 1,984 unique work candidates and 3,812 credited-recipient strings, retaining exact nomination IDs, programmes, category IDs, years, title/name variants, credit roles, and canonical media scope. Generic team labels are nomination-scoped so unrelated production teams cannot collapse into one identity. Regenerate or verify the inventory offline with:
+`data/sources/bafta/identity-map.json` is the deterministic identity inventory for the 2,831 selected results. It contains 2,041 award-year-scoped work candidates and 3,754 credited-recipient strings, retaining exact nomination IDs, programmes, category IDs, years, title/name variants, credit roles, and canonical media scope. Award-year scoping prevents unrelated television adaptations with the same title from collapsing before identity review; resolved canonical outputs later deduplicate repeated wins by IMDb identity. Generic team labels are nomination-scoped so unrelated production teams cannot collapse into one identity. Regenerate or verify the inventory offline with:
 
 ```bash
 python scripts/build_bafta_identity_seed.py --write
 python scripts/build_bafta_identity_seed.py --check
+python scripts/enrich_bafta_identities.py --check
+```
+
+Live TMDB enrichment is an owner-reviewed maintenance step and is never run in CI or at add-on runtime. The matcher accepts only one exact-title candidate with the required media scope, a valid TMDB-to-IMDb relationship, and a plausible release/broadcast window around the BAFTA award year. Ambiguous results remain as candidate evidence for explicit review:
+
+```bash
+python scripts/enrich_bafta_identities.py --tmdb --limit 25
 ```
 
 ## Movie and series classification
