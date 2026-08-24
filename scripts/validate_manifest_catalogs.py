@@ -13,6 +13,7 @@ ROOT_MANIFEST_PATH = REPO_ROOT / "manifest.json"
 PRESETS = {
     "academy": (REPO_ROOT / "presets" / "academy", "academy-"),
     "golden-globes": (REPO_ROOT / "presets" / "golden-globes", "golden-globes-"),
+    "bafta-film": (REPO_ROOT / "presets" / "bafta-film", "bafta-film-"),
 }
 MEDIA_TYPES = ("movie", "series")
 SEMVER_RE = re.compile(r"^\d+\.\d+\.\d+$")
@@ -185,7 +186,7 @@ def main() -> int:
         print(
             "Manifests and catalogues are valid: "
             f"{movie_count} movie and {series_count} series catalogues, "
-            f"{total_items} total all-awards Meta Preview items, 2 award presets."
+            f"{total_items} total all-awards Meta Preview items, {len(PRESETS)} award presets."
         )
         return 0
     except (ValidationError, OSError) as exc:

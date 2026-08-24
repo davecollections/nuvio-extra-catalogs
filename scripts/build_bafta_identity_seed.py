@@ -71,7 +71,7 @@ def existing_review_fields(existing: dict | None, field: str) -> dict[str, dict]
             continue
         fields = {
             name: entry[name]
-            for name in ("resolution", "candidates", "reviewNote")
+            for name in ("resolution", "candidates", "reviewNote", "reviewOutcome")
             if name in entry
         }
         if fields:
@@ -84,13 +84,15 @@ def build_seed(existing: dict | None) -> dict:
     recipient_review = existing_review_fields(existing, "recipients")
     works: dict[str, dict] = {}
     recipients: dict[str, dict] = {}
-    selected_count = 0
+    selected_nominations: set[tuple[str, str]] = set()
+    selected_work_links = 0
     snapshot_dates = []
     for snapshot_path in SNAPSHOTS.values():
         snapshot_dates.append(load_json(snapshot_path)["checkedAt"])
 
     for selected in selected_winners():
-        selected_count += 1
+        selected_nominations.add((selected["programme"], selected["nominationId"]))
+        selected_work_links += 1
         category = selected["category"]
         key = work_key(selected)
         work = works.setdefault(
@@ -158,7 +160,8 @@ def build_seed(existing: dict | None) -> dict:
         "schemaVersion": 1,
         "sourceCheckedAt": max(snapshot_dates),
         "inputSha256": input_digest(),
-        "selectedWinnerRecords": selected_count,
+        "selectedWinnerRecords": len(selected_nominations),
+        "selectedWorkLinks": selected_work_links,
         "works": work_entries,
         "recipients": recipient_entries,
     }
@@ -188,7 +191,8 @@ def main() -> int:
         resolved_recipients = sum("resolution" in entry for entry in seed["recipients"])
         print(
             "BAFTA identity seed: "
-            f"{seed['selectedWinnerRecords']} selected records, {len(seed['works'])} works "
+            f"{seed['selectedWinnerRecords']} selected records, "
+            f"{seed['selectedWorkLinks']} work links, {len(seed['works'])} works "
             f"({resolved_works} resolved), {len(seed['recipients'])} credited recipients "
             f"({resolved_recipients} resolved)."
         )

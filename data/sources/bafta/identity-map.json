@@ -1,8 +1,9 @@
 {
   "schemaVersion": 1,
   "sourceCheckedAt": "2026-08-22",
-  "inputSha256": "b4609626d4cc9094c19a955aa22d35b1d2b020aea0a832d85f3cfa9b779680b5",
+  "inputSha256": "6e603ddfcf3bc106b8b5b0cf8d4596d13db560617c36d797938d9febda72c1ed",
   "selectedWinnerRecords": 2831,
+  "selectedWorkLinks": 2850,
   "works": [
     {
       "key": "movie:12yearsaslave:2014",
@@ -51,7 +52,7 @@
       "nominationIds": [
         "355853"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "13th",
@@ -148,7 +149,7 @@
       "nominationIds": [
         "361390"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "20 Days in Mariupol",
@@ -318,7 +319,7 @@
       "nominationIds": [
         "342830"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "A Close Shave",
@@ -429,47 +430,15 @@
         "360851"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 965150,
-          "title": "Aftersun",
-          "originalTitle": "Aftersun",
-          "releaseYear": 2022,
-          "imdbId": "tt19770238",
-          "awardWindowPlausible": true,
-          "popularity": 11.8432
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 969829,
-          "title": "Aftersun",
-          "originalTitle": "Aftersun",
-          "releaseYear": 2022,
-          "imdbId": "tt19512922",
-          "awardWindowPlausible": true,
-          "popularity": 0.7759
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1098585,
-          "title": "Aftersun",
-          "originalTitle": "Aftersun",
-          "releaseYear": 2006,
-          "imdbId": "tt0825223",
-          "awardWindowPlausible": false,
-          "popularity": 1.0314
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1624266,
-          "title": "Aftersun",
-          "originalTitle": "Aftersun",
-          "releaseYear": 2024,
-          "awardWindowPlausible": false,
-          "popularity": 2.6195
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Aftersun",
+        "releaseYear": 2022,
+        "tmdbId": 965150,
+        "imdbId": "tt19770238",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Charlotte Wells is the credited Outstanding Debut recipient; this is her 2022 feature Aftersun."
     },
     {
       "key": "movie:agranddayout:1990",
@@ -488,7 +457,7 @@
       "nominationIds": [
         "342351"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "A Grand Day Out",
@@ -543,17 +512,15 @@
         "341081"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 948991,
-          "title": "Alaska: The Great Land",
-          "originalTitle": "Alaska: The Great Land",
-          "releaseYear": 1971,
-          "awardWindowPlausible": true,
-          "popularity": 0.3319
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Alaska: The Great Land",
+        "releaseYear": 1971,
+        "tmdbId": 948991,
+        "imdbId": "tt0215490",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Derek Williams's credited winner is the 1971 documentary short Alaska: The Great Land; the award-year key is one year later."
     },
     {
       "key": "movie:aliasthejester:1986",
@@ -572,8 +539,15 @@
       "nominationIds": [
         "351448"
       ],
-      "mediaScope": "movie",
-      "candidates": []
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "series",
+        "title": "Alias the Jester",
+        "releaseYear": 1985,
+        "tmdbId": 5812,
+        "imdbId": "tt0497006",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:alicedoesntlivehereanymore:1976",
@@ -633,6 +607,35 @@
         "tmdbId": 12155,
         "imdbId": "tt1014759",
         "method": "existing-canonical-awards-reuse"
+      }
+    },
+    {
+      "key": "movie:alicesadventuresinwonderland:1973",
+      "titles": [
+        "Alice's Adventures In Wonderland"
+      ],
+      "programmes": [
+        "film"
+      ],
+      "years": [
+        1973
+      ],
+      "categoryIds": [
+        "film-cinematography",
+        "film-costume-design"
+      ],
+      "nominationIds": [
+        "341119",
+        "341125"
+      ],
+      "mediaScope": "movie",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Alice's Adventures in Wonderland",
+        "releaseYear": 1972,
+        "tmdbId": 34461,
+        "imdbId": "tt0068190",
+        "method": "tmdb-exact-title-media-and-award-window"
       }
     },
     {
@@ -738,7 +741,14 @@
         "343163"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "All About My Mother",
+        "releaseYear": 1999,
+        "tmdbId": 99,
+        "imdbId": "tt0185125",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:allquietonthewesternfront:2023",
@@ -854,28 +864,15 @@
       "nominationIds": [
         "355831"
       ],
-      "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 676815,
-          "title": "A Love Story",
-          "originalTitle": "A Love Story",
-          "releaseYear": 2005,
-          "imdbId": "tt1034045",
-          "awardWindowPlausible": false,
-          "popularity": 0.8962
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1269161,
-          "title": "A Love Story",
-          "originalTitle": "A Love Story",
-          "releaseYear": 2022,
-          "awardWindowPlausible": false,
-          "popularity": 0.5933
-        }
-      ]
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "A Love Story",
+        "releaseYear": 2016,
+        "imdbId": "tt6002452",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Anushka Kishani Naanayakkara's credited winner is the 2016 animated short A Love Story, which has a verified IMDb identity but no reviewed TMDB relationship."
     },
     {
       "key": "movie:amadeus:1986",
@@ -928,7 +925,14 @@
         "340798"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "A Man and a Woman",
+        "releaseYear": 1966,
+        "tmdbId": 42726,
+        "imdbId": "tt0061138",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:amanforallseasons:1968",
@@ -1135,7 +1139,7 @@
       "nominationIds": [
         "344478"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "A Morning Stroll",
@@ -1191,7 +1195,7 @@
       "nominationIds": [
         "353094"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Amy",
@@ -1735,37 +1739,15 @@
         "342203"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1209875,
-          "title": "The Artist",
-          "originalTitle": "Artisten",
-          "releaseYear": 1987,
-          "awardWindowPlausible": true,
-          "popularity": 0.4622
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 263254,
-          "title": "Artisten",
-          "originalTitle": "Artisten",
-          "releaseYear": 1935,
-          "imdbId": "tt0026083",
-          "awardWindowPlausible": false,
-          "popularity": 0.4834
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 517221,
-          "title": "Artists",
-          "originalTitle": "Artisten",
-          "releaseYear": 2011,
-          "imdbId": "tt2372215",
-          "awardWindowPlausible": false,
-          "popularity": 1.9831
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Artist",
+        "releaseYear": 1987,
+        "tmdbId": 1209875,
+        "imdbId": "tt0092583",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Jonas Grimås's credited winner is the 1987 Swedish short Artisten, stored by TMDB under the English title The Artist."
     },
     {
       "key": "movie:asingleman:2010",
@@ -2200,7 +2182,14 @@
         "342256"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Babette's Feast",
+        "releaseYear": 1987,
+        "tmdbId": 11832,
+        "imdbId": "tt0092603",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:babydriver:2018",
@@ -2301,7 +2290,15 @@
         "342289"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Back to the Future Part II",
+        "releaseYear": 1989,
+        "tmdbId": 165,
+        "imdbId": "tt0096874",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA display title omits 'Part'; the reviewed identity is Back to the Future Part II (1989)."
     },
     {
       "key": "movie:bait:2020",
@@ -2348,7 +2345,14 @@
         "340377"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Ballad of a Soldier",
+        "releaseYear": 1959,
+        "tmdbId": 46592,
+        "imdbId": "tt0052600",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:balloon:1992",
@@ -2367,7 +2371,7 @@
       "nominationIds": [
         "342503"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Balloon",
@@ -2424,38 +2428,15 @@
         "357215"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1292415,
-          "title": "Beast",
-          "originalTitle": "Beast",
-          "releaseYear": 2026,
-          "imdbId": "tt7708226",
-          "awardWindowPlausible": false,
-          "popularity": 24.3629
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 760741,
-          "title": "Beast",
-          "originalTitle": "Beast",
-          "releaseYear": 2022,
-          "imdbId": "tt13223398",
-          "awardWindowPlausible": false,
-          "popularity": 8.4153
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 828751,
-          "title": "Beast",
-          "originalTitle": "Bestia",
-          "releaseYear": 2022,
-          "imdbId": "tt14825950",
-          "awardWindowPlausible": false,
-          "popularity": 2.5386
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Game Night",
+        "releaseYear": 2018,
+        "tmdbId": 445571,
+        "imdbId": "tt2704998",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Outstanding Debut recipient context identifies Michael Pearce's 2017 feature Beast."
     },
     {
       "key": "movie:beavervalley:1952",
@@ -2474,7 +2455,7 @@
       "nominationIds": [
         "339741"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Beaver Valley",
@@ -2502,7 +2483,14 @@
         "340612"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Do Be Careful Boys",
+        "releaseYear": 1964,
+        "imdbId": "tt0145743",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The BAFTA title omits the opening word; the reviewed identity is Nancy Hanna's 1964 animated short Do Be Careful Boys, which has no reviewed TMDB relationship."
     },
     {
       "key": "movie:becket:1965",
@@ -2661,7 +2649,14 @@
         "339707"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Bicycle Thieves",
+        "releaseYear": 1948,
+        "tmdbId": 5156,
+        "imdbId": "tt0040522",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:billyelliot:2001",
@@ -2738,7 +2733,7 @@
       "nominationIds": [
         "343707"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Birthday Boy",
@@ -3276,38 +3271,15 @@
         "353083"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 167073,
-          "title": "Brooklyn",
-          "originalTitle": "Brooklyn",
-          "releaseYear": 2015,
-          "imdbId": "tt2381111",
-          "awardWindowPlausible": true,
-          "popularity": 6.2317
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 291678,
-          "title": "Brooklyn",
-          "originalTitle": "Brooklyn",
-          "releaseYear": 2015,
-          "imdbId": "tt3184798",
-          "awardWindowPlausible": true,
-          "popularity": 0.5847
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1389305,
-          "title": "Brooklyn",
-          "originalTitle": "Brooklyn",
-          "releaseYear": 2024,
-          "imdbId": "tt30624677",
-          "awardWindowPlausible": false,
-          "popularity": 0.649
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Brooklyn",
+        "releaseYear": 2015,
+        "tmdbId": 167073,
+        "imdbId": "tt2381111",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The credited John Crowley, Finola Dwyer, Nick Hornby and Amanda Posey production is the 2015 feature Brooklyn."
     },
     {
       "key": "movie:brownpaperbag:2004",
@@ -3349,11 +3321,13 @@
       ],
       "categoryIds": [
         "film-production-design",
-        "film-sound"
+        "film-sound",
+        "film-supporting-actress"
       ],
       "nominationIds": [
         "341413",
-        "341426"
+        "341426",
+        "341439"
       ],
       "mediaScope": "movie",
       "resolution": {
@@ -3364,26 +3338,6 @@
         "imdbId": "tt0074256",
         "method": "tmdb-exact-title-media-and-award-window"
       }
-    },
-    {
-      "key": "movie:bugsymalonetaxidriver:1977",
-      "titles": [
-        "Bugsy Malone/Taxi Driver"
-      ],
-      "programmes": [
-        "film"
-      ],
-      "years": [
-        1977
-      ],
-      "categoryIds": [
-        "film-supporting-actress"
-      ],
-      "nominationIds": [
-        "341439"
-      ],
-      "mediaScope": "movie",
-      "candidates": []
     },
     {
       "key": "movie:burdenofdreams:1983",
@@ -3402,7 +3356,7 @@
       "nominationIds": [
         "341805"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Burden of Dreams",
@@ -3428,10 +3382,14 @@
         "film-cinematography",
         "film-director",
         "film-editing",
+        "film-leading-actor",
+        "film-leading-actress",
         "film-original-score",
         "film-sound"
       ],
       "nominationIds": [
+        "340963",
+        "340968",
         "340974",
         "340981",
         "340989",
@@ -3448,46 +3406,6 @@
         "imdbId": "tt0064115",
         "method": "tmdb-exact-title-media-and-award-window"
       }
-    },
-    {
-      "key": "movie:butchcassidyandthesundancekidtellthemwillieboyishere:1971",
-      "titles": [
-        "Butch Cassidy And The Sundance Kid/Tell Them Willie Boy Is Here"
-      ],
-      "programmes": [
-        "film"
-      ],
-      "years": [
-        1971
-      ],
-      "categoryIds": [
-        "film-leading-actress"
-      ],
-      "nominationIds": [
-        "340968"
-      ],
-      "mediaScope": "movie",
-      "candidates": []
-    },
-    {
-      "key": "movie:butchcassidyandthesundancekidtellthemwillieboyisheredownhillracer:1971",
-      "titles": [
-        "Butch Cassidy And The Sundance Kid/Tell Them Willie Boy Is Here/Downhill Racer"
-      ],
-      "programmes": [
-        "film"
-      ],
-      "years": [
-        1971
-      ],
-      "categoryIds": [
-        "film-leading-actor"
-      ],
-      "nominationIds": [
-        "340963"
-      ],
-      "mediaScope": "movie",
-      "candidates": []
     },
     {
       "key": "movie:butchmindsthebaby:1980",
@@ -3507,27 +3425,15 @@
         "341619"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 953772,
-          "title": "Butch Minds the Baby",
-          "originalTitle": "Butch Minds the Baby",
-          "releaseYear": 1979,
-          "awardWindowPlausible": true,
-          "popularity": 0.6848
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 98000,
-          "title": "Butch Minds the Baby",
-          "originalTitle": "Butch Minds the Baby",
-          "releaseYear": 1942,
-          "imdbId": "tt0034560",
-          "awardWindowPlausible": false,
-          "popularity": 1.5034
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Butch Minds the Baby",
+        "releaseYear": 1979,
+        "tmdbId": 953772,
+        "imdbId": "tt0215587",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Peter Webb's credited winner is the 1979 British short Butch Minds the Baby; the award-year key is one year later."
     },
     {
       "key": "movie:cabaret:1973",
@@ -3542,6 +3448,7 @@
       ],
       "categoryIds": [
         "film-best-film",
+        "film-cinematography",
         "film-director",
         "film-leading-actress",
         "film-production-design",
@@ -3550,6 +3457,7 @@
       "nominationIds": [
         "341109",
         "341115",
+        "341119",
         "341126",
         "341130",
         "341149"
@@ -3563,26 +3471,6 @@
         "imdbId": "tt0068327",
         "method": "tmdb-exact-title-media-and-award-window"
       }
-    },
-    {
-      "key": "movie:cabaretalicesadventuresinwonderland:1973",
-      "titles": [
-        "Cabaret/Alice's Adventures In Wonderland"
-      ],
-      "programmes": [
-        "film"
-      ],
-      "years": [
-        1973
-      ],
-      "categoryIds": [
-        "film-cinematography"
-      ],
-      "nominationIds": [
-        "341119"
-      ],
-      "mediaScope": "movie",
-      "candidates": []
     },
     {
       "key": "movie:callmebyyourname:2018",
@@ -3683,17 +3571,15 @@
         "342055"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 955602,
-          "title": "Careless Talk",
-          "originalTitle": "Careless Talk",
-          "releaseYear": 1985,
-          "awardWindowPlausible": true,
-          "popularity": 0.8345
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Careless Talk",
+        "releaseYear": 1985,
+        "tmdbId": 955602,
+        "imdbId": "tt0215594",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Noella Smith's credited winner is the 1985 NFTS film Careless Talk. IMDb records its later ScreenPlay Firsts television presentation, while TMDB preserves the standalone film identity."
     },
     {
       "key": "movie:carmen:1985",
@@ -3713,86 +3599,15 @@
         "341951"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 111322,
-          "title": "Carmen",
-          "originalTitle": "Carmen",
-          "releaseYear": 1985,
-          "imdbId": "tt0872315",
-          "awardWindowPlausible": true,
-          "popularity": 0.8264
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 21193,
-          "title": "Carmen",
-          "originalTitle": "Carmen",
-          "releaseYear": 1984,
-          "imdbId": "tt0087034",
-          "awardWindowPlausible": true,
-          "popularity": 1.5812
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 146114,
-          "title": "Carmen (2011)",
-          "originalTitle": "Carmen",
-          "releaseYear": 2011,
-          "imdbId": "tt2662562",
-          "awardWindowPlausible": false,
-          "popularity": 2.5644
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 25911,
-          "title": "Carmen",
-          "originalTitle": "Carmen",
-          "releaseYear": 2003,
-          "imdbId": "tt0352230",
-          "awardWindowPlausible": false,
-          "popularity": 1.7512
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 975546,
-          "title": "Carmen",
-          "originalTitle": "Carmen",
-          "releaseYear": 2005,
-          "imdbId": "tt0874873",
-          "awardWindowPlausible": false,
-          "popularity": 1.4943
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 865368,
-          "title": "Carmen",
-          "originalTitle": "Carmen",
-          "releaseYear": 2022,
-          "imdbId": "tt10692578",
-          "awardWindowPlausible": false,
-          "popularity": 1.342
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 883138,
-          "title": "Carmen",
-          "originalTitle": "Carmen",
-          "awardWindowPlausible": false,
-          "popularity": 1.188
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 398364,
-          "title": "Carmen",
-          "originalTitle": "Carmen",
-          "releaseYear": 2013,
-          "imdbId": "tt4375304",
-          "awardWindowPlausible": false,
-          "popularity": 0.9994
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Carmen",
+        "releaseYear": 1984,
+        "tmdbId": 21193,
+        "imdbId": "tt0087034",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The credited Emiliano Piedra and Carlos Saura context identifies Saura's 1983 film Carmen."
     },
     {
       "key": "movie:casinoroyale:2007",
@@ -3818,6 +3633,33 @@
         "releaseYear": 2006,
         "tmdbId": 36557,
         "imdbId": "tt0381061",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
+      "key": "movie:catballou:1966",
+      "titles": [
+        "Cat Ballou"
+      ],
+      "programmes": [
+        "film"
+      ],
+      "years": [
+        1966
+      ],
+      "categoryIds": [
+        "film-leading-actor"
+      ],
+      "nominationIds": [
+        "340658"
+      ],
+      "mediaScope": "movie",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Cat Ballou",
+        "releaseYear": 1965,
+        "tmdbId": 11694,
+        "imdbId": "tt0059017",
         "method": "tmdb-exact-title-media-and-award-window"
       }
     },
@@ -3866,7 +3708,14 @@
         "343068"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Central Station",
+        "releaseYear": 1998,
+        "tmdbId": 666,
+        "imdbId": "tt0140888",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:chaplin:1993",
@@ -3952,6 +3801,60 @@
       }
     },
     {
+      "key": "movie:charleyvarrick:1974",
+      "titles": [
+        "Charley Varrick"
+      ],
+      "programmes": [
+        "film"
+      ],
+      "years": [
+        1974
+      ],
+      "categoryIds": [
+        "film-leading-actor"
+      ],
+      "nominationIds": [
+        "341170"
+      ],
+      "mediaScope": "movie",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Charley Varrick",
+        "releaseYear": 1973,
+        "tmdbId": 27331,
+        "imdbId": "tt0069865",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
+      "key": "movie:charliebubbles:1969",
+      "titles": [
+        "Charlie Bubbles"
+      ],
+      "programmes": [
+        "film"
+      ],
+      "years": [
+        1969
+      ],
+      "categoryIds": [
+        "film-supporting-actress"
+      ],
+      "nominationIds": [
+        "340887"
+      ],
+      "mediaScope": "movie",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Charlie Bubbles",
+        "releaseYear": 1968,
+        "tmdbId": 75947,
+        "imdbId": "tt0062792",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
       "key": "movie:chicago:2003",
       "titles": [
         "Chicago"
@@ -4021,9 +3924,11 @@
         1975
       ],
       "categoryIds": [
-        "film-director"
+        "film-director",
+        "film-leading-actor"
       ],
       "nominationIds": [
+        "341242",
         "341267"
       ],
       "mediaScope": "movie",
@@ -4054,7 +3959,15 @@
         "341785"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Christ Stopped at Eboli",
+        "releaseYear": 1979,
+        "tmdbId": 42169,
+        "imdbId": "tt0079010",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The bilingual BAFTA title identifies the 1979 film Christ Stopped at Eboli; the four-year award gap is explicitly reviewed."
     },
     {
       "key": "movie:cinemaparadiso:1991",
@@ -4108,7 +4021,7 @@
       "nominationIds": [
         "352537"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Citizenfour",
@@ -4136,7 +4049,14 @@
         "343453"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "City of God",
+        "releaseYear": 2002,
+        "tmdbId": 598,
+        "imdbId": "tt0317248",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:closeencountersofthethirdkind:1979",
@@ -4322,7 +4242,14 @@
         "342036"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Colonel Redl",
+        "releaseYear": 1985,
+        "tmdbId": 29471,
+        "imdbId": "tt0089716",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:conclave:2025",
@@ -4428,7 +4355,7 @@
       "nominationIds": [
         "361361"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Crab Day",
@@ -4484,7 +4411,7 @@
       "nominationIds": [
         "341287"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Cree Hunters of Mistassini",
@@ -4518,7 +4445,14 @@
         "343265"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Crouching Tiger, Hidden Dragon",
+        "releaseYear": 2000,
+        "tmdbId": 146,
+        "imdbId": "tt0190332",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:cruella:2022",
@@ -4652,7 +4586,14 @@
         "340829"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Pas de Deux",
+        "releaseYear": 1968,
+        "tmdbId": 129303,
+        "imdbId": "tt0063417",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:dangerousliaisons:1990",
@@ -4787,7 +4728,7 @@
       "nominationIds": [
         "342582"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Daumier's Law",
@@ -4814,7 +4755,7 @@
       "nominationIds": [
         "339701"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Daybreak in Udi",
@@ -4846,7 +4787,14 @@
         "341232"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Day for Night",
+        "releaseYear": 1973,
+        "tmdbId": 1675,
+        "imdbId": "tt0070460",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:daysofheaven:1980",
@@ -5009,7 +4957,14 @@
         "342277"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Defence Counsel Sedov",
+        "releaseYear": 1988,
+        "tmdbId": 283040,
+        "imdbId": "tt0096499",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:defenceoftherealm:1986",
@@ -5112,7 +5067,14 @@
         "340520"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Divorce Italian Style",
+        "releaseYear": 1961,
+        "tmdbId": 20271,
+        "imdbId": "tt0055913",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:djangounchained:2013",
@@ -5187,19 +5149,15 @@
       "nominationIds": [
         "343389"
       ],
-      "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 626735,
-          "title": "Dog",
-          "originalTitle": "Dog",
-          "releaseYear": 2022,
-          "imdbId": "tt11252248",
-          "awardWindowPlausible": false,
-          "popularity": 6.5458
-        }
-      ]
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Dog",
+        "releaseYear": 2001,
+        "imdbId": "tt0296593",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Suzie Templeton's credited winner is the 2001 animated short Dog, which has a verified IMDb identity but no reviewed TMDB relationship."
     },
     {
       "key": "movie:dogaltogether:2008",
@@ -5240,9 +5198,11 @@
         1976
       ],
       "categoryIds": [
-        "film-editing"
+        "film-editing",
+        "film-leading-actor"
       ],
       "nominationIds": [
+        "341314",
         "341345"
       ],
       "mediaScope": "movie",
@@ -5299,7 +5259,7 @@
       "nominationIds": [
         "360068"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Do Not Feed the Pigeons",
@@ -5333,6 +5293,33 @@
         "releaseYear": 1973,
         "tmdbId": 931,
         "imdbId": "tt0069995",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
+      "key": "movie:downhillracer:1971",
+      "titles": [
+        "Downhill Racer"
+      ],
+      "programmes": [
+        "film"
+      ],
+      "years": [
+        1971
+      ],
+      "categoryIds": [
+        "film-leading-actor"
+      ],
+      "nominationIds": [
+        "340963"
+      ],
+      "mediaScope": "movie",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Downhill Racer",
+        "releaseYear": 1969,
+        "tmdbId": 33166,
+        "imdbId": "tt0064253",
         "method": "tmdb-exact-title-media-and-award-window"
       }
     },
@@ -5380,7 +5367,7 @@
       "nominationIds": [
         "341816"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Dream Land Express",
@@ -5466,7 +5453,15 @@
         "340580"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+        "releaseYear": 1964,
+        "tmdbId": 935,
+        "imdbId": "tt0057012",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The shortened BAFTA display title identifies Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964)."
     },
     {
       "key": "movie:dune:2022",
@@ -5630,7 +5625,7 @@
       "nominationIds": [
         "353104"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Edmond",
@@ -6034,7 +6029,7 @@
       "nominationIds": [
         "343817"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Fallen Art",
@@ -6143,7 +6138,14 @@
         "342642"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Farewell My Concubine",
+        "releaseYear": 1993,
+        "tmdbId": 10997,
+        "imdbId": "tt0106332",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:fargo:1997",
@@ -6216,7 +6218,7 @@
       "nominationIds": [
         "343283"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Father and Daughter",
@@ -6246,7 +6248,14 @@
         "341487"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Fellini's Casanova",
+        "releaseYear": 1976,
+        "tmdbId": 42236,
+        "imdbId": "tt0074291",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:fences:2017",
@@ -6292,29 +6301,16 @@
       "nominationIds": [
         "343490"
       ],
-      "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 880286,
-          "title": "Fish Never Sleep",
-          "originalTitle": "Els peixos no dormen mai",
-          "releaseYear": 2021,
-          "imdbId": "tt14963372",
-          "awardWindowPlausible": false,
-          "popularity": 1.6565
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 438389,
-          "title": "Fish Never Sleep",
-          "originalTitle": "Fish Never Sleep",
-          "releaseYear": 2004,
-          "imdbId": "tt0396596",
-          "awardWindowPlausible": false,
-          "popularity": 0.5666
-        }
-      ]
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Fish Never Sleep",
+        "releaseYear": 2004,
+        "tmdbId": 438389,
+        "imdbId": "tt0396596",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The exact title and BAFTA short-animation context identify Fish Never Sleep; TMDB's recorded release year follows the award year."
     },
     {
       "key": "movie:fishtank:2010",
@@ -6415,7 +6411,14 @@
         "339856"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Forbidden Games",
+        "releaseYear": 1952,
+        "tmdbId": 5000,
+        "imdbId": "tt0043686",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:forrestgump:1995",
@@ -6461,7 +6464,7 @@
       "nominationIds": [
         "358693"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "For Sama",
@@ -6607,18 +6610,15 @@
         "342668"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 47981,
-          "title": "Franz Kafka's It's a Wonderful Life",
-          "originalTitle": "Franz Kafka's It's a Wonderful Life",
-          "releaseYear": 1995,
-          "imdbId": "tt0106961",
-          "awardWindowPlausible": false,
-          "popularity": 0.9016
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Franz Kafka's It's a Wonderful Life",
+        "releaseYear": 1995,
+        "tmdbId": 47981,
+        "imdbId": "tt0106961",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The exact title identifies the BAFTA-winning short; TMDB's recorded release year follows the award year."
     },
     {
       "key": "movie:freesolo:2019",
@@ -6637,7 +6637,7 @@
       "nominationIds": [
         "357224"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Free Solo",
@@ -6948,8 +6948,15 @@
       "nominationIds": [
         "340178"
       ],
-      "mediaScope": "movie",
-      "candidates": []
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Glass",
+        "releaseYear": 1958,
+        "tmdbId": 52779,
+        "imdbId": "tt0052852",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:goaltheworldcup:1967",
@@ -6968,8 +6975,16 @@
       "nominationIds": [
         "340740"
       ],
-      "mediaScope": "movie",
-      "candidates": []
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Goal!",
+        "releaseYear": 1966,
+        "tmdbId": 38793,
+        "imdbId": "tt0166023",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA documentary title identifies the official 1966 FIFA World Cup film stored by TMDB as Goal!, IMDb tt0166023."
     },
     {
       "key": "movie:goldenhelmetcasquedor:1953",
@@ -6989,7 +7004,14 @@
         "339818"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Casque d'Or",
+        "releaseYear": 1952,
+        "tmdbId": 68822,
+        "imdbId": "tt0043386",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:goodbyechildrenaurevoirlesenfants:1989",
@@ -7009,7 +7031,14 @@
         "342211"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Au Revoir les Enfants",
+        "releaseYear": 1987,
+        "tmdbId": 1786,
+        "imdbId": "tt0092593",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:goodfellas:1991",
@@ -7119,7 +7148,7 @@
       "nominationIds": [
         "358779"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Grandad Was a Romantic",
@@ -7184,7 +7213,14 @@
         "341319"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Great (Isambard Kingdom Brunel)",
+        "releaseYear": 1975,
+        "imdbId": "tt0073068",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Bob Godfrey's credited animated-film winner is the 1975 short Great, which has a verified IMDb identity but no reviewed TMDB relationship."
     },
     {
       "key": "movie:greenbook:2019",
@@ -7257,7 +7293,7 @@
       "nominationIds": [
         "341215"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Grierson",
@@ -7306,10 +7342,12 @@
         1969
       ],
       "categoryIds": [
-        "film-leading-actor"
+        "film-leading-actor",
+        "film-leading-actress"
       ],
       "nominationIds": [
-        "340821"
+        "340821",
+        "340825"
       ],
       "mediaScope": "movie",
       "resolution": {
@@ -7349,9 +7387,9 @@
       }
     },
     {
-      "key": "movie:gunsatbatasiseanceonawetafternoon:1965",
+      "key": "movie:gunsatbatasi:1965",
       "titles": [
-        "Guns At Batasi/Séance On A Wet Afternoon"
+        "Guns At Batasi"
       ],
       "programmes": [
         "film"
@@ -7366,7 +7404,14 @@
         "340539"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Guns at Batasi",
+        "releaseYear": 1964,
+        "tmdbId": 64158,
+        "imdbId": "tt0058166",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:guy101:2007",
@@ -7385,7 +7430,7 @@
       "nominationIds": [
         "343932"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Guy 101",
@@ -7660,7 +7705,14 @@
         "340971"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Henry 9 'til 5",
+        "releaseYear": 1970,
+        "imdbId": "tt0215839",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Bob Godfrey's credited animated-film winner is the 1970 short Henry 9 'til 5, which has a verified IMDb identity but no reviewed TMDB relationship."
     },
     {
       "key": "movie:henryscat:1984",
@@ -7679,8 +7731,15 @@
       "nominationIds": [
         "351441"
       ],
-      "mediaScope": "movie",
-      "candidates": []
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "series",
+        "title": "Henry's Cat",
+        "releaseYear": 1983,
+        "tmdbId": 12338,
+        "imdbId": "tt0084064",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:henryv:1990",
@@ -7808,18 +7867,14 @@
         "343089"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 228161,
-          "title": "Home",
-          "originalTitle": "Home",
-          "releaseYear": 2015,
-          "imdbId": "tt2224026",
-          "awardWindowPlausible": false,
-          "popularity": 12.1733
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Home",
+        "releaseYear": 1998,
+        "imdbId": "tt0200716",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Morag McKinnon's credited winner is the 1998 British short Home, which has a verified IMDb identity but no reviewed TMDB relationship."
     },
     {
       "key": "movie:home:2017",
@@ -8005,58 +8060,15 @@
         "344073"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 173672,
-          "title": "Hunger",
-          "originalTitle": "Hunger",
-          "releaseYear": 2009,
-          "imdbId": "tt1176252",
-          "awardWindowPlausible": true,
-          "popularity": 1.8782
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 10360,
-          "title": "Hunger",
-          "originalTitle": "Hunger",
-          "releaseYear": 2008,
-          "imdbId": "tt0986233",
-          "awardWindowPlausible": true,
-          "popularity": 3.3554
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 76105,
-          "title": "Hunger",
-          "originalTitle": "Hunger",
-          "releaseYear": 2001,
-          "imdbId": "tt0237320",
-          "awardWindowPlausible": false,
-          "popularity": 0.6513
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 76235,
-          "title": "Hunger",
-          "originalTitle": "Sult",
-          "releaseYear": 1966,
-          "imdbId": "tt0061042",
-          "awardWindowPlausible": false,
-          "popularity": 1.3776
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1071806,
-          "title": "Hunger",
-          "originalTitle": "คนหิว เกมกระหาย",
-          "releaseYear": 2023,
-          "imdbId": "tt22695402",
-          "awardWindowPlausible": false,
-          "popularity": 3.7474
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Hunger",
+        "releaseYear": 2008,
+        "tmdbId": 10360,
+        "imdbId": "tt0986233",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The credited Outstanding Debut recipient Steve McQueen identifies his 2008 feature Hunger."
     },
     {
       "key": "movie:hungerlafaim:1975",
@@ -8076,7 +8088,14 @@
         "341249"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Hunger",
+        "releaseYear": 1974,
+        "tmdbId": 129067,
+        "imdbId": "tt0071636",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:husbandsandwives:1993",
@@ -8149,7 +8168,7 @@
       "nominationIds": [
         "356473"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "I Am Not Your Negro",
@@ -8343,7 +8362,14 @@
         "340469"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "An Occurrence at Owl Creek Bridge",
+        "releaseYear": 1961,
+        "tmdbId": 53218,
+        "imdbId": "tt0056300",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:indianajonesandthetempleofdoom:1985",
@@ -8390,17 +8416,15 @@
         "340809"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 948542,
-          "title": "Indus Waters",
-          "originalTitle": "Indus Waters",
-          "releaseYear": 1967,
-          "awardWindowPlausible": true,
-          "popularity": 0.794
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Indus Waters",
+        "releaseYear": 1967,
+        "tmdbId": 948542,
+        "imdbId": "tt0793531",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Derek Williams's credited winner is the 1967 documentary short Indus Waters; the award-year key is one year later."
     },
     {
       "key": "movie:inglouriousbasterds:2010",
@@ -8473,18 +8497,15 @@
       "nominationIds": [
         "340863"
       ],
-      "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1262280,
-          "title": "In Need of Special Care",
-          "originalTitle": "In Need of Special Care",
-          "releaseYear": 1968,
-          "awardWindowPlausible": true,
-          "popularity": 0.4273
-        }
-      ]
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "series",
+        "title": "In Need of Special Care",
+        "releaseYear": 1968,
+        "imdbId": "tt39045767",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Jonathan Stedall's 1968 documentary winner is classified by IMDb as a television miniseries, so this historical Film Documentary result is preserved as series media rather than forced into a movie identity."
     },
     {
       "key": "movie:insideout:2016",
@@ -8697,38 +8718,15 @@
         "373503"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1317149,
-          "title": "I Swear",
-          "originalTitle": "I Swear",
-          "releaseYear": 2025,
-          "imdbId": "tt31514146",
-          "awardWindowPlausible": true,
-          "popularity": 18.5923
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1409966,
-          "title": "I Swear",
-          "originalTitle": "7天",
-          "releaseYear": 2025,
-          "imdbId": "tt34361658",
-          "awardWindowPlausible": true,
-          "popularity": 1.8186
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1044736,
-          "title": "I Swear",
-          "originalTitle": "Je le jure",
-          "releaseYear": 2025,
-          "imdbId": "tt27005178",
-          "awardWindowPlausible": true,
-          "popularity": 1.6834
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "I Swear",
+        "releaseYear": 2025,
+        "tmdbId": 1317149,
+        "imdbId": "tt31514146",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Robert Aramayo and casting winner Lauren Evans identify Kirk Jones's 2025 film I Swear."
     },
     {
       "key": "movie:itonya:2018",
@@ -8839,9 +8837,9 @@
       }
     },
     {
-      "key": "movie:jawsthetoweringinferno:1976",
+      "key": "movie:jaws:1976",
       "titles": [
-        "Jaws/The Towering Inferno"
+        "Jaws"
       ],
       "programmes": [
         "film"
@@ -8856,7 +8854,14 @@
         "341322"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Jaws",
+        "releaseYear": 1975,
+        "tmdbId": 578,
+        "imdbId": "tt0073195",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:jeandeflorette:1988",
@@ -8936,65 +8941,15 @@
         "341223"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 12545,
-          "title": "Jesus Christ Superstar",
-          "originalTitle": "Jesus Christ Superstar",
-          "releaseYear": 1973,
-          "imdbId": "tt0070239",
-          "awardWindowPlausible": true,
-          "popularity": 4.9545
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 334243,
-          "title": "Jesus Christ Superstar",
-          "originalTitle": "Jesus Christ Superstar",
-          "releaseYear": 1972,
-          "imdbId": "tt0474753",
-          "awardWindowPlausible": true,
-          "popularity": 0.7341
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 718328,
-          "title": "Jesus Christ Superstar",
-          "originalTitle": "Jesus Christ Superstar",
-          "releaseYear": 1992,
-          "awardWindowPlausible": false,
-          "popularity": 2.0273
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 47980,
-          "title": "Jesus Christ Superstar",
-          "originalTitle": "Jesus Christ Superstar",
-          "releaseYear": 2000,
-          "imdbId": "tt0275434",
-          "awardWindowPlausible": false,
-          "popularity": 1.7149
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1295520,
-          "title": "Jesus Christ Superstar",
-          "originalTitle": "Jesus Christ Superstar",
-          "releaseYear": 2019,
-          "awardWindowPlausible": false,
-          "popularity": 0.4006
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 373862,
-          "title": "Jesus Christ Superstar",
-          "originalTitle": "Jesus Christ Superstar",
-          "releaseYear": 2010,
-          "awardWindowPlausible": false,
-          "popularity": 0.2855
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Jesus Christ Superstar",
+        "releaseYear": 1973,
+        "tmdbId": 12545,
+        "imdbId": "tt0070239",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The 1974 Soundtrack recipients identify the 1973 feature-film production of Jesus Christ Superstar."
     },
     {
       "key": "movie:jfk:1993",
@@ -9026,6 +8981,33 @@
       }
     },
     {
+      "key": "movie:johnandmary:1970",
+      "titles": [
+        "John And Mary"
+      ],
+      "programmes": [
+        "film"
+      ],
+      "years": [
+        1970
+      ],
+      "categoryIds": [
+        "film-leading-actor"
+      ],
+      "nominationIds": [
+        "340893"
+      ],
+      "mediaScope": "movie",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "John and Mary",
+        "releaseYear": 1969,
+        "tmdbId": 61742,
+        "imdbId": "tt0064513",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
       "key": "movie:jojointhestars:2004",
       "titles": [
         "Jojo In The Stars"
@@ -9042,7 +9024,7 @@
       "nominationIds": [
         "343603"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Jojo in the Stars",
@@ -9127,7 +9109,7 @@
       "nominationIds": [
         "340112"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Journey Into Spring",
@@ -9332,6 +9314,33 @@
       }
     },
     {
+      "key": "movie:justbeforenightfall:1974",
+      "titles": [
+        "Just Before Nightfall"
+      ],
+      "programmes": [
+        "film"
+      ],
+      "years": [
+        1974
+      ],
+      "categoryIds": [
+        "film-leading-actress"
+      ],
+      "nominationIds": [
+        "341173"
+      ],
+      "mediaScope": "movie",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Just Before Nightfall",
+        "releaseYear": 1971,
+        "tmdbId": 76200,
+        "imdbId": "tt0073221",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
       "key": "movie:kagemusha:1981",
       "titles": [
         "Kagemusha"
@@ -9405,7 +9414,15 @@
         "340599"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Eskimo Artist: Kenojuak",
+        "releaseYear": 1964,
+        "tmdbId": 243268,
+        "imdbId": "tt0058260",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The shortened BAFTA title identifies John Feeney's 1964 documentary short Eskimo Artist: Kenojuak."
     },
     {
       "key": "movie:kes:1971",
@@ -9641,26 +9658,15 @@
         "342127"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1504480,
-          "title": "The Ball",
-          "originalTitle": "La Boule",
-          "releaseYear": 1986,
-          "awardWindowPlausible": true,
-          "popularity": 0.9707
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 963652,
-          "title": "The Ball",
-          "originalTitle": "La boule",
-          "releaseYear": 1984,
-          "awardWindowPlausible": true,
-          "popularity": 1.0585
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Ball",
+        "releaseYear": 1986,
+        "tmdbId": 1504480,
+        "imdbId": "tt2780146",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Simon Shore's credited winner is the 1986 British short La Boule; the reviewed 1986 TMDB record is distinct from the title-similar 1984 candidate."
     },
     {
       "key": "movie:lacombelucien:1975",
@@ -9891,7 +9897,15 @@
         "358752"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Ford v Ferrari",
+        "releaseYear": 2019,
+        "tmdbId": 359724,
+        "imdbId": "tt1950186",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Le Mans '66 is the UK release title of the 2019 film stored by TMDB as Ford v Ferrari."
     },
     {
       "key": "movie:lesmiserables:2013",
@@ -9971,7 +9985,14 @@
         "342329"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Life and Nothing But",
+        "releaseYear": 1989,
+        "tmdbId": 41936,
+        "imdbId": "tt0098596",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:lifeisbeautifullavitaebella:1999",
@@ -9991,7 +10012,14 @@
         "343012"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Life Is Beautiful",
+        "releaseYear": 1997,
+        "tmdbId": 637,
+        "imdbId": "tt0118799",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:lifeofpi:2013",
@@ -10096,28 +10124,15 @@
         "355925"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1182214,
-          "title": "Lion",
-          "originalTitle": "Lion",
-          "releaseYear": 2017,
-          "imdbId": "tt5480036",
-          "awardWindowPlausible": true,
-          "popularity": 0.8495
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 334543,
-          "title": "Lion",
-          "originalTitle": "Lion",
-          "releaseYear": 2016,
-          "imdbId": "tt3741834",
-          "awardWindowPlausible": true,
-          "popularity": 8.578
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Lion",
+        "releaseYear": 2016,
+        "tmdbId": 334543,
+        "imdbId": "tt3741834",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Luke Davies and Dev Patel identify the 2016 feature Lion."
     },
     {
       "key": "movie:littlemisssunshine:2007",
@@ -10250,7 +10265,7 @@
       "nominationIds": [
         "339679"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Louisiana Story",
@@ -10313,6 +10328,34 @@
         "imdbId": "tt0119574",
         "method": "tmdb-exact-title-media-and-award-window"
       }
+    },
+    {
+      "key": "movie:macbeth:1973",
+      "titles": [
+        "Macbeth"
+      ],
+      "programmes": [
+        "film"
+      ],
+      "years": [
+        1973
+      ],
+      "categoryIds": [
+        "film-costume-design"
+      ],
+      "nominationIds": [
+        "341125"
+      ],
+      "mediaScope": "movie",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Macbeth",
+        "releaseYear": 1971,
+        "tmdbId": 11316,
+        "imdbId": "tt0067372",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Costume designer Anthony Mendleson's credited work is Roman Polanski's 1971 Macbeth."
     },
     {
       "key": "movie:mademoiselle:1968",
@@ -10392,7 +10435,14 @@
         "342919"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Majorettes in Space",
+        "releaseYear": 1997,
+        "tmdbId": 49118,
+        "imdbId": "tt0127505",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:manchesterbythesea:2017",
@@ -10721,9 +10771,11 @@
       "categoryIds": [
         "film-best-film",
         "film-director",
-        "film-editing"
+        "film-editing",
+        "film-leading-actor"
       ],
       "nominationIds": [
+        "340893",
         "340917",
         "340921",
         "340924"
@@ -10737,26 +10789,6 @@
         "imdbId": "tt0064665",
         "method": "tmdb-exact-title-media-and-award-window"
       }
-    },
-    {
-      "key": "movie:midnightcowboyjohnandmary:1970",
-      "titles": [
-        "Midnight Cowboy/John And Mary"
-      ],
-      "programmes": [
-        "film"
-      ],
-      "years": [
-        1970
-      ],
-      "categoryIds": [
-        "film-leading-actor"
-      ],
-      "nominationIds": [
-        "340893"
-      ],
-      "mediaScope": "movie",
-      "candidates": []
     },
     {
       "key": "movie:midnightexpress:1979",
@@ -10972,7 +11004,7 @@
       "nominationIds": [
         "344254"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Mother of Many",
@@ -11030,7 +11062,7 @@
       "nominationIds": [
         "373491"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Mr. Nobody Against Putin",
@@ -11228,7 +11260,15 @@
         "342298"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "My Left Foot: The Story of Christy Brown",
+        "releaseYear": 1989,
+        "tmdbId": 10161,
+        "imdbId": "tt0097937",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The acting-recipient context and existing Academy identity identify the 1989 feature My Left Foot."
     },
     {
       "key": "movie:myoctopusteacher:2021",
@@ -11247,7 +11287,7 @@
       "nominationIds": [
         "359672"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "My Octopus Teacher",
@@ -11302,7 +11342,15 @@
         "343496"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "My Wrongs #8245-8249 & 117",
+        "releaseYear": 2002,
+        "tmdbId": 26146,
+        "imdbId": "tt0340258",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA display punctuation identifies Chris Morris's 2002 short My Wrongs #8245-8249 & 117, IMDb tt0340258."
     },
     {
       "key": "movie:nashville:1976",
@@ -11348,7 +11396,7 @@
       "nominationIds": [
         "360798"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Navalny",
@@ -11431,7 +11479,7 @@
       "nominationIds": [
         "340597"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Nobody Waved Goodbye",
@@ -11905,7 +11953,7 @@
       "nominationIds": [
         "340037"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "On the Bowery",
@@ -11960,76 +12008,15 @@
         "353101"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 381073,
-          "title": "Operator",
-          "originalTitle": "Operator",
-          "releaseYear": 2016,
-          "imdbId": "tt5052524",
-          "awardWindowPlausible": true,
-          "popularity": 1.1456
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 362185,
-          "title": "Operator",
-          "originalTitle": "Operator",
-          "releaseYear": 2015,
-          "imdbId": "tt3849692",
-          "awardWindowPlausible": true,
-          "popularity": 1.9492
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 377600,
-          "title": "Operator",
-          "originalTitle": "Operator",
-          "releaseYear": 2015,
-          "imdbId": "tt4795680",
-          "awardWindowPlausible": true,
-          "popularity": 1.0254
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 483303,
-          "title": "Operator",
-          "originalTitle": "Operator",
-          "releaseYear": 2013,
-          "imdbId": "tt2667186",
-          "awardWindowPlausible": true,
-          "popularity": 0.9197
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 395986,
-          "title": "Operator",
-          "originalTitle": "Operator",
-          "releaseYear": 2009,
-          "awardWindowPlausible": false,
-          "popularity": 0.6863
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 802148,
-          "title": "Operator",
-          "originalTitle": "Operator",
-          "releaseYear": 2020,
-          "imdbId": "tt12600184",
-          "awardWindowPlausible": false,
-          "popularity": 1.5885
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1215275,
-          "title": "Operator",
-          "originalTitle": "Operator",
-          "imdbId": "tt27300788",
-          "awardWindowPlausible": false,
-          "popularity": 0.439
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Operator",
+        "releaseYear": 2015,
+        "tmdbId": 377600,
+        "imdbId": "tt4795680",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Caroline Bartleet and Rebecca Morgan identify the 2015 British short Operator, IMDb tt4795680."
     },
     {
       "key": "movie:oppenheimer:2024",
@@ -12204,17 +12191,15 @@
         "340090"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 947932,
-          "title": "Pan-tele-tron",
-          "originalTitle": "Pan-tele-tron",
-          "releaseYear": 1957,
-          "awardWindowPlausible": true,
-          "popularity": 0.5872
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Pan-tele-tron",
+        "releaseYear": 1957,
+        "tmdbId": 947932,
+        "imdbId": "tt0360861",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Digby Turpin's credited winner is the 1957 animated short Pan-tele-tron; the award-year key is one year later."
     },
     {
       "key": "movie:parasite:2020",
@@ -12273,9 +12258,9 @@
       }
     },
     {
-      "key": "movie:petentilliecharleyvarrick:1974",
+      "key": "movie:petentillie:1974",
       "titles": [
-        "Pete 'N' Tillie/Charley Varrick"
+        "Pete 'N' Tillie"
       ],
       "programmes": [
         "film"
@@ -12290,7 +12275,14 @@
         "341170"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Pete 'n' Tillie",
+        "releaseYear": 1972,
+        "tmdbId": 107774,
+        "imdbId": "tt0069080",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:phantomthread:2018",
@@ -12554,7 +12546,7 @@
       "nominationIds": [
         "356557"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Poles Apart",
@@ -12752,7 +12744,15 @@
         "342016"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Kiss of the Spider Woman",
+        "releaseYear": 1985,
+        "tmdbId": 11703,
+        "imdbId": "tt0089424",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Prizzi's Honour is the UK spelling of the 1985 feature stored by TMDB as Prizzi's Honor."
     },
     {
       "key": "movie:prologue:1970",
@@ -12771,7 +12771,7 @@
       "nominationIds": [
         "340932"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Prologue",
@@ -12994,7 +12994,14 @@
         "342561"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Raise the Red Lantern",
+        "releaseYear": 1991,
+        "tmdbId": 10404,
+        "imdbId": "tt0101640",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:ran:1987",
@@ -13377,17 +13384,15 @@
         "340675"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 948331,
-          "title": "Rig Move",
-          "originalTitle": "Rig Move",
-          "releaseYear": 1965,
-          "awardWindowPlausible": true,
-          "popularity": 0.9612
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Rig Move",
+        "releaseYear": 1965,
+        "tmdbId": 948331,
+        "imdbId": "tt0793570",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Don Higgins's credited winner is the 1965 documentary short Rig Move; the award-year key is one year later."
     },
     {
       "key": "movie:roadtoperdition:2003",
@@ -13742,7 +13747,7 @@
       "nominationIds": [
         "357309"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Roughhouse",
@@ -13770,7 +13775,14 @@
         "339762"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "La Ronde",
+        "releaseYear": 1950,
+        "tmdbId": 50030,
+        "imdbId": "tt0042906",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:royaljourney:1953",
@@ -13789,7 +13801,7 @@
       "nominationIds": [
         "339790"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Royal Journey",
@@ -13816,7 +13828,7 @@
       "nominationIds": [
         "351445"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Rupert and the Frog Song",
@@ -13870,7 +13882,7 @@
       "nominationIds": [
         "341005"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Sad Song of Yellow Skin",
@@ -14030,7 +14042,11 @@
           "awardWindowPlausible": false,
           "popularity": 2.8665
         }
-      ]
+      ],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "The 1989 NFTS short Say Goodbye is verified as the 1991 BAFTA winner and as TMDB movie 1211818, but that reviewed record has no IMDb title relationship; it cannot be emitted through the add-on's cross-provider IMDb catalogue contract."
+      }
     },
     {
       "key": "movie:schindlerslist:1994",
@@ -14072,6 +14088,33 @@
       }
     },
     {
+      "key": "movie:seanceonawetafternoon:1965",
+      "titles": [
+        "Séance On A Wet Afternoon"
+      ],
+      "programmes": [
+        "film"
+      ],
+      "years": [
+        1965
+      ],
+      "categoryIds": [
+        "film-leading-actor"
+      ],
+      "nominationIds": [
+        "340539"
+      ],
+      "mediaScope": "movie",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Seance on a Wet Afternoon",
+        "releaseYear": 1964,
+        "tmdbId": 3092,
+        "imdbId": "tt0058557",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
       "key": "movie:searchingforsugarman:2013",
       "titles": [
         "Searching For Sugar Man"
@@ -14088,7 +14131,7 @@
       "nominationIds": [
         "350668"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Searching for Sugar Man",
@@ -14148,7 +14191,7 @@
         "344421",
         "344425"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Senna",
@@ -14261,17 +14304,15 @@
         "340285"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 411648,
-          "title": "Seven Cities of Antarctica",
-          "originalTitle": "Seven Cities of Antarctica",
-          "releaseYear": 1958,
-          "awardWindowPlausible": true,
-          "popularity": 0.7046
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Seven Cities of Antarctica",
+        "releaseYear": 1958,
+        "tmdbId": 411648,
+        "imdbId": "tt26440800",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The credited Walt Disney production is the 1958 documentary short Seven Cities of Antarctica; the two-year award gap is explicitly reviewed."
     },
     {
       "key": "movie:shadowlands:1994",
@@ -14601,38 +14642,16 @@
       "nominationIds": [
         "352002"
       ],
-      "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 378219,
-          "title": "Sleeping with the Fishes",
-          "originalTitle": "Sleeping with the Fishes",
-          "releaseYear": 2013,
-          "imdbId": "tt3244652",
-          "awardWindowPlausible": true,
-          "popularity": 1.0281
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 291375,
-          "title": "Sleeping with the Fishes",
-          "originalTitle": "Sleeping with the Fishes",
-          "releaseYear": 2013,
-          "imdbId": "tt2286988",
-          "awardWindowPlausible": true,
-          "popularity": 0.9262
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1565182,
-          "title": "Sleeping with the Fishes",
-          "originalTitle": "Sleeping with the Fishes",
-          "releaseYear": 2024,
-          "awardWindowPlausible": false,
-          "popularity": 0.2907
-        }
-      ]
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Sleeping with the Fishes",
+        "releaseYear": 2013,
+        "tmdbId": 378219,
+        "imdbId": "tt3244652",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "James Walker, Sarah Woolner and Yousif Al-Khalifa identify the 2013 animated short, IMDb tt3244652."
     },
     {
       "key": "movie:sleepyhollow:2000",
@@ -14719,7 +14738,7 @@
       "nominationIds": [
         "341739"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Soldier Girls",
@@ -14774,7 +14793,15 @@
         "339885"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Song of the Prairie",
+        "releaseYear": 1949,
+        "tmdbId": 92824,
+        "imdbId": "tt0247179",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The bilingual title identifies the 1949 Czech animated short Song of the Prairie; the historical BAFTA award gap is explicitly reviewed."
     },
     {
       "key": "movie:sonofsaul:2017",
@@ -14988,7 +15015,7 @@
       "nominationIds": [
         "342998"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Stage Fright",
@@ -15183,7 +15210,7 @@
       "nominationIds": [
         "360100"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Summer of Soul (...Or, When the Revolution Could Not Be Televised)",
@@ -15272,7 +15299,7 @@
       "nominationIds": [
         "366355"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Super/Man: The Christopher Reeve Story",
@@ -15299,18 +15326,15 @@
       "nominationIds": [
         "351469"
       ],
-      "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 514757,
-          "title": "Superted",
-          "originalTitle": "Superted",
-          "releaseYear": 1975,
-          "awardWindowPlausible": false,
-          "popularity": 0.7786
-        }
-      ]
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "series",
+        "title": "SuperTed",
+        "releaseYear": 1983,
+        "tmdbId": 705,
+        "imdbId": "tt0085096",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:swimmer:2013",
@@ -15359,7 +15383,14 @@
         "343487"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Talk to Her",
+        "releaseYear": 2002,
+        "tmdbId": 64,
+        "imdbId": "tt0287467",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:tar:2023",
@@ -15400,10 +15431,12 @@
         1977
       ],
       "categoryIds": [
-        "film-original-score"
+        "film-original-score",
+        "film-supporting-actress"
       ],
       "nominationIds": [
-        "341390"
+        "341390",
+        "341439"
       ],
       "mediaScope": "movie",
       "resolution": {
@@ -15470,6 +15503,35 @@
       }
     },
     {
+      "key": "movie:tellthemwillieboyishere:1971",
+      "titles": [
+        "Tell Them Willie Boy Is Here"
+      ],
+      "programmes": [
+        "film"
+      ],
+      "years": [
+        1971
+      ],
+      "categoryIds": [
+        "film-leading-actor",
+        "film-leading-actress"
+      ],
+      "nominationIds": [
+        "340963",
+        "340968"
+      ],
+      "mediaScope": "movie",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Tell Them Willie Boy Is Here",
+        "releaseYear": 1969,
+        "tmdbId": 42619,
+        "imdbId": "tt0065079",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
       "key": "movie:tenet:2021",
       "titles": [
         "Tenet"
@@ -15516,7 +15578,15 @@
         "342512"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Terminator 2: Judgment Day",
+        "releaseYear": 1991,
+        "tmdbId": 280,
+        "imdbId": "tt0103064",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA title uses the UK spelling 'Judgement'; the reviewed identity is Terminator 2: Judgment Day (1991)."
     },
     {
       "key": "movie:terminus:1962",
@@ -15589,7 +15659,7 @@
       "nominationIds": [
         "351912"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "The Act of Killing",
@@ -15735,7 +15805,14 @@
         "342979"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Apartment",
+        "releaseYear": 1996,
+        "tmdbId": 12531,
+        "imdbId": "tt0115561",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:theapple:1963",
@@ -15914,7 +15991,14 @@
         "343792"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Beat That My Heart Skipped",
+        "releaseYear": 2005,
+        "tmdbId": 1553,
+        "imdbId": "tt0411270",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:thebestyearsofourlives:1949",
@@ -15960,7 +16044,7 @@
       "nominationIds": [
         "352614"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "The Bigger Picture",
@@ -16014,7 +16098,7 @@
       "nominationIds": [
         "342746"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "The Big Story",
@@ -16042,7 +16126,14 @@
         "340452"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Birdman of Alcatraz",
+        "releaseYear": 1962,
+        "tmdbId": 898,
+        "imdbId": "tt0055798",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:theblackcop:2022",
@@ -16225,7 +16316,7 @@
       "nominationIds": [
         "360770"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "The Boy, the Mole, the Fox and the Horse",
@@ -16316,8 +16407,15 @@
       "nominationIds": [
         "341416"
       ],
-      "mediaScope": "movie",
-      "candidates": []
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Los Canadienses",
+        "releaseYear": 1976,
+        "imdbId": "tt0215590",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The bilingual BAFTA title identifies Albert Kish's 1976 documentary Los Canadienses, which has a verified IMDb identity but no reviewed TMDB relationship."
     },
     {
       "key": "movie:thecandyshow:1990",
@@ -16363,7 +16461,7 @@
       "nominationIds": [
         "343083"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "The Canterbury Tales",
@@ -16506,7 +16604,7 @@
       "nominationIds": [
         "339838"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "The Conquest of Everest",
@@ -16903,9 +17001,9 @@
       }
     },
     {
-      "key": "movie:thediscreetcharmofthebourgeoisielecharmediscretdelabourgeoisiejustbeforenightfall:1974",
+      "key": "movie:thediscreetcharmofthebourgeoisielecharmediscretdelabourgeoisie:1974",
       "titles": [
-        "The Discreet Charm Of The Bourgeoisie (Le Charme Discret De La Bourgeoisie)/Just Before Nightfall"
+        "The Discreet Charm Of The Bourgeoisie (Le Charme Discret De La Bourgeoisie)"
       ],
       "programmes": [
         "film"
@@ -16920,7 +17018,14 @@
         "341173"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Discreet Charm of the Bourgeoisie",
+        "releaseYear": 1972,
+        "tmdbId": 4593,
+        "imdbId": "tt0068361",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:thedividedheart:1955",
@@ -17048,7 +17153,7 @@
       "nominationIds": [
         "344363"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "The Eagleman Stag",
@@ -17075,18 +17180,16 @@
       "nominationIds": [
         "341357"
       ],
-      "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 949437,
-          "title": "The Early Americans",
-          "originalTitle": "The Early Americans",
-          "releaseYear": 1975,
-          "awardWindowPlausible": true,
-          "popularity": 0.5639
-        }
-      ]
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Early Americans",
+        "releaseYear": 1975,
+        "tmdbId": 949437,
+        "imdbId": "tt0215736",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The shortened BAFTA title identifies the 1975 documentary short In Search of the Early Americans; the award-year key is one year later."
     },
     {
       "key": "movie:theeb:2016",
@@ -17425,9 +17528,11 @@
         1973
       ],
       "categoryIds": [
-        "film-editing"
+        "film-editing",
+        "film-leading-actor"
       ],
       "nominationIds": [
+        "341104",
         "341137"
       ],
       "mediaScope": "movie",
@@ -17439,26 +17544,6 @@
         "imdbId": "tt0067116",
         "method": "tmdb-exact-title-media-and-award-window"
       }
-    },
-    {
-      "key": "movie:thefrenchconnectiontheposeidonadventure:1973",
-      "titles": [
-        "The French Connection/The Poseidon Adventure"
-      ],
-      "programmes": [
-        "film"
-      ],
-      "years": [
-        1973
-      ],
-      "categoryIds": [
-        "film-leading-actor"
-      ],
-      "nominationIds": [
-        "341104"
-      ],
-      "mediaScope": "movie",
-      "candidates": []
     },
     {
       "key": "movie:thefrenchlieutenantswoman:1982",
@@ -17633,9 +17718,9 @@
       }
     },
     {
-      "key": "movie:thegodfatherpartiidogdayafternoon:1976",
+      "key": "movie:thegodfatherpartii:1976",
       "titles": [
-        "The Godfather Part II/Dog Day Afternoon"
+        "The Godfather Part II"
       ],
       "programmes": [
         "film"
@@ -17650,7 +17735,14 @@
         "341314"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Godfather Part II",
+        "releaseYear": 1974,
+        "tmdbId": 240,
+        "imdbId": "tt0071562",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:thegoldencompass:2008",
@@ -17789,8 +17881,15 @@
       "nominationIds": [
         "339909"
       ],
-      "mediaScope": "movie",
-      "candidates": []
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Great Adventure",
+        "releaseYear": 1953,
+        "tmdbId": 119555,
+        "imdbId": "tt0046373",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:thegreatbeauty:2014",
@@ -17897,18 +17996,15 @@
         "343268"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 360920,
-          "title": "The Grinch",
-          "originalTitle": "The Grinch",
-          "releaseYear": 2018,
-          "imdbId": "tt2709692",
-          "awardWindowPlausible": false,
-          "popularity": 15.1449
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "How the Grinch Stole Christmas",
+        "releaseYear": 2000,
+        "tmdbId": 8871,
+        "imdbId": "tt0170016",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The shortened BAFTA make-up category title identifies the 2000 feature How the Grinch Stole Christmas."
     },
     {
       "key": "movie:thehandmaiden:2018",
@@ -17982,17 +18078,15 @@
         "342506"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1211857,
-          "title": "The Harmfulness of Tobacco",
-          "originalTitle": "The Harmfulness of Tobacco",
-          "releaseYear": 1991,
-          "awardWindowPlausible": true,
-          "popularity": 1.0131
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Harmfulness of Tobacco",
+        "releaseYear": 1991,
+        "tmdbId": 1211857,
+        "imdbId": "tt0206000",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Nick Hamm and Barry Palin's credited winner is the 1991 British short The Harmfulness of Tobacco; the award-year key is one year later."
     },
     {
       "key": "movie:thehatefuleight:2016",
@@ -18038,7 +18132,7 @@
       "nominationIds": [
         "341076"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "The Hellstrom Chronicle",
@@ -18119,7 +18213,7 @@
       "nominationIds": [
         "351455"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "The Hill Farm",
@@ -18478,9 +18572,9 @@
       }
     },
     {
-      "key": "movie:thekillerscatballou:1966",
+      "key": "movie:thekillers:1966",
       "titles": [
-        "The Killers/Cat Ballou"
+        "The Killers"
       ],
       "programmes": [
         "film"
@@ -18495,7 +18589,14 @@
         "340658"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Killers",
+        "releaseYear": 1964,
+        "tmdbId": 24229,
+        "imdbId": "tt0058262",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:thekillingfields:1985",
@@ -18630,9 +18731,9 @@
       }
     },
     {
-      "key": "movie:thelastdetailchinatown:1975",
+      "key": "movie:thelastdetail:1975",
       "titles": [
-        "The Last Detail/Chinatown"
+        "The Last Detail"
       ],
       "programmes": [
         "film"
@@ -18647,7 +18748,14 @@
         "341242"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Last Detail",
+        "releaseYear": 1973,
+        "tmdbId": 14886,
+        "imdbId": "tt0070290",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:thelastemperor:1989",
@@ -18787,87 +18895,15 @@
         "343235"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1120382,
-          "title": "The Last Resort",
-          "originalTitle": "Paradis",
-          "releaseYear": 2026,
-          "imdbId": "tt27552049",
-          "awardWindowPlausible": false,
-          "popularity": 2.7345
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1587839,
-          "title": "The Last Resort",
-          "originalTitle": "The Last Resort",
-          "releaseYear": 2025,
-          "imdbId": "tt39045361",
-          "awardWindowPlausible": false,
-          "popularity": 1.4059
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1337446,
-          "title": "The Last Resort",
-          "originalTitle": "The Last Resort",
-          "imdbId": "tt33143737",
-          "awardWindowPlausible": false,
-          "popularity": 0.9538
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1179356,
-          "title": "The Last Resort",
-          "originalTitle": "The Last Resort",
-          "releaseYear": 2023,
-          "imdbId": "tt29432212",
-          "awardWindowPlausible": false,
-          "popularity": 0.9099
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 392824,
-          "title": "The Last Resort",
-          "originalTitle": "L'ultima spiaggia",
-          "releaseYear": 2016,
-          "imdbId": "tt5721728",
-          "awardWindowPlausible": false,
-          "popularity": 0.8753
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 21166,
-          "title": "The Last Resort",
-          "originalTitle": "The Last Resort",
-          "releaseYear": 2009,
-          "imdbId": "tt1124048",
-          "awardWindowPlausible": false,
-          "popularity": 0.8039
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 514758,
-          "title": "The Last Resort",
-          "originalTitle": "The Last Resort",
-          "releaseYear": 2018,
-          "imdbId": "tt7958740",
-          "awardWindowPlausible": false,
-          "popularity": 0.774
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 758195,
-          "title": "The Last Resort",
-          "originalTitle": "The Last Resort",
-          "releaseYear": 2014,
-          "imdbId": "tt3592520",
-          "awardWindowPlausible": false,
-          "popularity": 0.6148
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Last Resort",
+        "releaseYear": 2000,
+        "tmdbId": 31875,
+        "imdbId": "tt0258761",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Paweł Pawlikowski's credited Outstanding Debut identifies his 2000 feature Last Resort, IMDb tt0258761."
     },
     {
       "key": "movie:thelavenderhillmob:1952",
@@ -18935,9 +18971,11 @@
         1969
       ],
       "categoryIds": [
+        "film-leading-actress",
         "film-original-score"
       ],
       "nominationIds": [
+        "340825",
         "340832"
       ],
       "mediaScope": "movie",
@@ -18949,26 +18987,6 @@
         "imdbId": "tt0063227",
         "method": "tmdb-exact-title-media-and-award-window"
       }
-    },
-    {
-      "key": "movie:thelioninwinterguesswhoscomingtodinner:1969",
-      "titles": [
-        "The Lion In Winter/Guess Who's Coming To Dinner?"
-      ],
-      "programmes": [
-        "film"
-      ],
-      "years": [
-        1969
-      ],
-      "categoryIds": [
-        "film-leading-actress"
-      ],
-      "nominationIds": [
-        "340825"
-      ],
-      "mediaScope": "movie",
-      "candidates": []
     },
     {
       "key": "movie:thelittleisland:1959",
@@ -19221,7 +19239,7 @@
       "nominationIds": [
         "350749"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "The Making Of Longbird",
@@ -19275,7 +19293,7 @@
       "nominationIds": [
         "343180"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "The Man with the Beautiful Eyes",
@@ -19303,7 +19321,14 @@
         "341396"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Marquise of O",
+        "releaseYear": 1976,
+        "tmdbId": 48205,
+        "imdbId": "tt0074870",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:thematrix:2000",
@@ -19412,7 +19437,14 @@
         "343687"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Motorcycle Diaries",
+        "releaseYear": 2004,
+        "tmdbId": 1653,
+        "imdbId": "tt0318462",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:thenameoftherose:1988",
@@ -19461,7 +19493,14 @@
         "342483"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Nasty Girl",
+        "releaseYear": 1990,
+        "tmdbId": 4339,
+        "imdbId": "tt0100557",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:thenunsstory:1960",
@@ -19534,7 +19573,7 @@
       "nominationIds": [
         "342911"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "The Old Lady and the Pigeons",
@@ -19561,7 +19600,7 @@
       "nominationIds": [
         "359642"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "The Owl and the Pussycat",
@@ -19615,7 +19654,7 @@
       "nominationIds": [
         "344030"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "The Pearce Sisters",
@@ -19742,6 +19781,33 @@
       }
     },
     {
+      "key": "movie:theposeidonadventure:1973",
+      "titles": [
+        "The Poseidon Adventure"
+      ],
+      "programmes": [
+        "film"
+      ],
+      "years": [
+        1973
+      ],
+      "categoryIds": [
+        "film-leading-actor"
+      ],
+      "nominationIds": [
+        "341104"
+      ],
+      "mediaScope": "movie",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Poseidon Adventure",
+        "releaseYear": 1972,
+        "tmdbId": 551,
+        "imdbId": "tt0069113",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
       "key": "movie:thepostmanilpostino:1996",
       "titles": [
         "The Postman (Il Postino)"
@@ -19763,7 +19829,14 @@
         "342813"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Postman",
+        "releaseYear": 1994,
+        "tmdbId": 11010,
+        "imdbId": "tt0110877",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:thepowerofthedog:2022",
@@ -19812,85 +19885,15 @@
         "359648"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 708049,
-          "title": "The Present",
-          "originalTitle": "The Present",
-          "releaseYear": 2020,
-          "awardWindowPlausible": true,
-          "popularity": 0.7287
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 639271,
-          "title": "The Present",
-          "originalTitle": "선물",
-          "releaseYear": 2019,
-          "imdbId": "tt11821176",
-          "awardWindowPlausible": true,
-          "popularity": 0.8936
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1457858,
-          "title": "The Present",
-          "originalTitle": "The Present",
-          "releaseYear": 2019,
-          "awardWindowPlausible": true,
-          "popularity": 0.5501
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 635007,
-          "title": "The Present",
-          "originalTitle": "The Present",
-          "releaseYear": 2018,
-          "imdbId": "tt8614886",
-          "awardWindowPlausible": true,
-          "popularity": 0.6195
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 379779,
-          "title": "The Present",
-          "originalTitle": "The Present",
-          "releaseYear": 2014,
-          "imdbId": "tt3682556",
-          "awardWindowPlausible": false,
-          "popularity": 1.8468
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 302289,
-          "title": "The Present",
-          "originalTitle": "The Present",
-          "releaseYear": 2014,
-          "imdbId": "tt3780366",
-          "awardWindowPlausible": false,
-          "popularity": 1.0643
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 377787,
-          "title": "The Present",
-          "originalTitle": "禮物",
-          "releaseYear": 2013,
-          "imdbId": "tt2543714",
-          "awardWindowPlausible": false,
-          "popularity": 1.0387
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 731681,
-          "title": "The Present",
-          "originalTitle": "선물",
-          "releaseYear": 2009,
-          "awardWindowPlausible": false,
-          "popularity": 0.7033
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Present",
+        "releaseYear": 2020,
+        "tmdbId": 678801,
+        "imdbId": "tt11474480",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Recipient Farah Nabulsi identifies her 2020 Palestinian short The Present, IMDb tt11474480."
     },
     {
       "key": "movie:theprimeofmissjeanbrodie:1970",
@@ -20081,7 +20084,7 @@
       "nominationIds": [
         "351477"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "The Reluctant Dragon",
@@ -20225,7 +20228,14 @@
         "342186"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Sacrifice",
+        "releaseYear": 1986,
+        "tmdbId": 24657,
+        "imdbId": "tt0091670",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:thesavageeye:1960",
@@ -20244,7 +20254,7 @@
       "nominationIds": [
         "340280"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "The Savage Eye",
@@ -20414,7 +20424,7 @@
       "nominationIds": [
         "341549"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "The Silent Witness",
@@ -20526,11 +20536,13 @@
       ],
       "categoryIds": [
         "film-cinematography",
+        "film-leading-actor",
         "film-outstanding-british-film",
         "film-production-design"
       ],
       "nominationIds": [
         "340686",
+        "340687",
         "340698",
         "340714"
       ],
@@ -20543,26 +20555,6 @@
         "imdbId": "tt0059749",
         "method": "tmdb-exact-title-media-and-award-window"
       }
-    },
-    {
-      "key": "movie:thespywhocameinfromthecoldwhosafraidofvirginiawoolf:1967",
-      "titles": [
-        "The Spy Who Came In From The Cold/Who's Afraid Of Virginia Woolf?"
-      ],
-      "programmes": [
-        "film"
-      ],
-      "years": [
-        1967
-      ],
-      "categoryIds": [
-        "film-leading-actor"
-      ],
-      "nominationIds": [
-        "340687"
-      ],
-      "mediaScope": "movie",
-      "candidates": []
     },
     {
       "key": "movie:thestationagent:2004",
@@ -20796,9 +20788,11 @@
         1976
       ],
       "categoryIds": [
+        "film-original-score",
         "film-supporting-actor"
       ],
       "nominationIds": [
+        "341322",
         "341370"
       ],
       "mediaScope": "movie",
@@ -20828,7 +20822,7 @@
       "nominationIds": [
         "341614"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "The Tree of Wooden Clogs",
@@ -20940,7 +20934,7 @@
       "nominationIds": [
         "339728"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "The Undefeated",
@@ -21023,7 +21017,7 @@
       "nominationIds": [
         "339978"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "The Vanishing Prairie",
@@ -21107,28 +21101,15 @@
         "343436"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 23305,
-          "title": "The Warrior",
-          "originalTitle": "The Warrior",
-          "releaseYear": 2001,
-          "imdbId": "tt0295682",
-          "awardWindowPlausible": true,
-          "popularity": 1.6879
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1436,
-          "title": "The Warrior",
-          "originalTitle": "무사",
-          "releaseYear": 2001,
-          "imdbId": "tt0275083",
-          "awardWindowPlausible": true,
-          "popularity": 1.6763
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Warrior",
+        "releaseYear": 2001,
+        "tmdbId": 23305,
+        "imdbId": "tt0295682",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Bertrand Faivre and Outstanding Debut recipient Asif Kapadia identify the 2001 feature The Warrior."
     },
     {
       "key": "movie:thewhisperers:1968",
@@ -21206,7 +21187,14 @@
         "340143"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Witches of Salem",
+        "releaseYear": 1957,
+        "tmdbId": 4300,
+        "imdbId": "tt0050997",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:theworldisrich:1949",
@@ -21225,7 +21213,7 @@
       "nominationIds": [
         "351015"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "The World Is Rich",
@@ -21306,7 +21294,7 @@
       "nominationIds": [
         "342667"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "The Wrong Trousers",
@@ -21421,18 +21409,15 @@
         "373461"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 956976,
-          "title": "This Is Endometriosis",
-          "originalTitle": "This Is Endometriosis",
-          "releaseYear": 2022,
-          "imdbId": "tt35875811",
-          "awardWindowPlausible": false,
-          "popularity": 0.7412
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "This Is Endometriosis",
+        "releaseYear": 2022,
+        "tmdbId": 956976,
+        "imdbId": "tt35875811",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The credited BAFTA team identifies the 2022 documentary short This Is Endometriosis, IMDb tt35875811; the four-year award gap is explicitly reviewed."
     },
     {
       "key": "movie:thisisengland:2008",
@@ -21506,7 +21491,15 @@
         "340642"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Those Magnificent Men in Their Flying Machines or How I Flew from London to Paris in 25 Hours 11 Minutes",
+        "releaseYear": 1965,
+        "tmdbId": 10338,
+        "imdbId": "tt0059797",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The costume-design recipients identify the 1965 feature Those Magnificent Men in Their Flying Machines, IMDb tt0059797."
     },
     {
       "key": "movie:threebillboardsoutsideebbingmissouri:2018",
@@ -21590,19 +21583,16 @@
       "nominationIds": [
         "340808"
       ],
-      "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 116684,
-          "title": "To Die in Madrid",
-          "originalTitle": "Mourir à Madrid",
-          "releaseYear": 1963,
-          "imdbId": "tt0057327",
-          "awardWindowPlausible": false,
-          "popularity": 1.1586
-        }
-      ]
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "To Die in Madrid",
+        "releaseYear": 1963,
+        "tmdbId": 116684,
+        "imdbId": "tt0057327",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The exact title identifies the 1963 documentary To Die in Madrid; the historical BAFTA award gap is explicitly reviewed."
     },
     {
       "key": "movie:tokyoolympiad:1966",
@@ -21621,7 +21611,7 @@
       "nominationIds": [
         "340673"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Tokyo Olympiad",
@@ -21649,7 +21639,14 @@
         "342729"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "To Live",
+        "releaseYear": 1994,
+        "tmdbId": 31439,
+        "imdbId": "tt0110081",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:tomjones:1964",
@@ -21780,7 +21777,7 @@
       "nominationIds": [
         "342428"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Toxic",
@@ -22001,33 +21998,20 @@
         "340133"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 269981,
-          "title": "Twelve Angry Men",
-          "originalTitle": "Twelve Angry Men",
-          "releaseYear": 1954,
-          "imdbId": "tt0122737",
-          "awardWindowPlausible": false,
-          "popularity": 1.2857
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1362990,
-          "title": "Twelve Angry Men",
-          "originalTitle": "Tolv edsvorne menn",
-          "releaseYear": 1982,
-          "imdbId": "tt0495537",
-          "awardWindowPlausible": false,
-          "popularity": 0.7941
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "12 Angry Men",
+        "releaseYear": 1957,
+        "tmdbId": 389,
+        "imdbId": "tt0050083",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Leading Actor recipient context identifies Sidney Lumet's 1957 feature 12 Angry Men rather than the title-similar television productions."
     },
     {
-      "key": "movie:twistednervecharliebubbles:1969",
+      "key": "movie:twistednerve:1969",
       "titles": [
-        "Twisted Nerve/Charlie Bubbles"
+        "Twisted Nerve"
       ],
       "programmes": [
         "film"
@@ -22042,7 +22026,14 @@
         "340887"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Twisted Nerve",
+        "releaseYear": 1968,
+        "tmdbId": 56092,
+        "imdbId": "tt0063729",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:twister:1997",
@@ -22088,7 +22079,7 @@
       "nominationIds": [
         "373457"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Two Black Boys in Paradise",
@@ -22253,18 +22244,14 @@
         "340295"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1374460,
-          "title": "Universe",
-          "originalTitle": "Universe",
-          "releaseYear": 2007,
-          "imdbId": "tt6127072",
-          "awardWindowPlausible": false,
-          "popularity": 0.9289
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Universe",
+        "releaseYear": 1960,
+        "imdbId": "tt0054429",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Colin Low and Roman Kroitor's credited winner is the 1960 National Film Board of Canada short Universe, which has a verified IMDb identity but no reviewed TMDB relationship."
     },
     {
       "key": "movie:untiltheriverrunsred:2011",
@@ -22532,8 +22519,15 @@
       "nominationIds": [
         "340403"
       ],
-      "mediaScope": "movie",
-      "candidates": []
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Les rendez-vous du diable",
+        "releaseYear": 1959,
+        "imdbId": "tt0052127",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The bilingual BAFTA title Volcano (Les rendez-vous du diable) identifies Haroun Tazieff's 1959 documentary feature; the three-year award gap is explicitly reviewed."
     },
     {
       "key": "movie:wagesoffearlesalairedelapeur:1955",
@@ -22553,7 +22547,14 @@
         "339931"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Wages of Fear",
+        "releaseYear": 1953,
+        "tmdbId": 204,
+        "imdbId": "tt0046268",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:walktheline:2006",
@@ -22601,8 +22602,16 @@
       "nominationIds": [
         "344143"
       ],
-      "mediaScope": "movie",
-      "candidates": []
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "A Matter of Loaf and Death",
+        "releaseYear": 2008,
+        "tmdbId": 14447,
+        "imdbId": "tt1118511",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA display title expands the character names; the reviewed identity is A Matter of Loaf and Death (2008)."
     },
     {
       "key": "movie:wallaceandgromitthecurseofthewererabbit:2006",
@@ -22622,7 +22631,15 @@
         "343756"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Wallace & Gromit: The Curse of the Were-Rabbit",
+        "releaseYear": 2005,
+        "tmdbId": 533,
+        "imdbId": "tt0312004",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The reviewed identity is the 2005 feature Wallace & Gromit: The Curse of the Were-Rabbit."
     },
     {
       "key": "movie:wallacegromitvengeancemostfowl:2025",
@@ -22671,7 +22688,15 @@
         "344062"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "WALL·E",
+        "releaseYear": 2008,
+        "tmdbId": 10681,
+        "imdbId": "tt0910970",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The exact BAFTA title and existing Academy identity identify Pixar's 2008 feature WALL-E."
     },
     {
       "key": "movie:wandertowonder:2025",
@@ -22690,7 +22715,7 @@
       "nominationIds": [
         "366321"
       ],
-      "mediaScope": "movie",
+      "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
         "title": "Wander to Wonder",
@@ -22747,86 +22772,15 @@
         "340988"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 33157,
-          "title": "Waterloo",
-          "originalTitle": "Waterloo",
-          "releaseYear": 1970,
-          "imdbId": "tt0066549",
-          "awardWindowPlausible": true,
-          "popularity": 4.0129
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 288959,
-          "title": "Waterloo",
-          "originalTitle": "Waterloo",
-          "releaseYear": 1969,
-          "imdbId": "tt0300637",
-          "awardWindowPlausible": true,
-          "popularity": 0.4332
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 874600,
-          "title": "Waterloo",
-          "originalTitle": "Waterloo",
-          "releaseYear": 1967,
-          "imdbId": "tt3962742",
-          "awardWindowPlausible": false,
-          "popularity": 0.6894
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1461875,
-          "title": "Waterloo",
-          "originalTitle": "Waterloo",
-          "releaseYear": 1957,
-          "imdbId": "tt0284633",
-          "awardWindowPlausible": false,
-          "popularity": 1.7613
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 424840,
-          "title": "Waterloo",
-          "originalTitle": "Waterloo",
-          "releaseYear": 1929,
-          "imdbId": "tt0019552",
-          "awardWindowPlausible": false,
-          "popularity": 0.8349
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1472396,
-          "title": "Waterloo",
-          "originalTitle": "Waterloo",
-          "releaseYear": 1997,
-          "imdbId": "tt0122796",
-          "awardWindowPlausible": false,
-          "popularity": 0.78
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 712269,
-          "title": "Waterloo",
-          "originalTitle": "Waterloo",
-          "releaseYear": 1981,
-          "awardWindowPlausible": false,
-          "popularity": 0.4527
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 797929,
-          "title": "Waterloo",
-          "originalTitle": "Waterloo",
-          "releaseYear": 2012,
-          "awardWindowPlausible": false,
-          "popularity": 0.398
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Waterloo",
+        "releaseYear": 1970,
+        "tmdbId": 33157,
+        "imdbId": "tt0066549",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Mario Garbuglia and Maria De Matteis identify Sergei Bondarchuk's 1970 epic Waterloo."
     },
     {
       "key": "movie:westsidestory:2022",
@@ -22955,9 +22909,11 @@
       ],
       "categoryIds": [
         "film-best-film",
+        "film-leading-actor",
         "film-leading-actress"
       ],
       "nominationIds": [
+        "340687",
         "340694",
         "340726"
       ],
@@ -23078,7 +23034,15 @@
         "342995"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Romeo + Juliet",
+        "releaseYear": 1996,
+        "tmdbId": 454,
+        "imdbId": "tt0117509",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA display title identifies Baz Luhrmann's 1996 feature stored by TMDB as Romeo + Juliet."
     },
     {
       "key": "movie:wishyouwerehere:1988",
@@ -23125,7 +23089,15 @@
         "342146"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Witches of Eastwick",
+        "releaseYear": 1987,
+        "tmdbId": 6069,
+        "imdbId": "tt0094332",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The visual-effects recipients identify George Miller's 1987 feature The Witches of Eastwick, IMDb tt0094332."
     },
     {
       "key": "movie:witness:1986",
@@ -23201,12 +23173,19 @@
         "340585"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Yesterday, Today and Tomorrow",
+        "releaseYear": 1963,
+        "tmdbId": 42801,
+        "imdbId": "tt0057171",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
-      "key": "movie:youngwinstonmacbethalicesadventuresinwonderland:1973",
+      "key": "movie:youngwinston:1973",
       "titles": [
-        "Young Winston/Macbeth/Alice's Adventures In Wonderland"
+        "Young Winston"
       ],
       "programmes": [
         "film"
@@ -23221,7 +23200,14 @@
         "341125"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Young Winston",
+        "releaseYear": 1972,
+        "tmdbId": 66775,
+        "imdbId": "tt0069528",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "movie:z:1970",
@@ -23241,38 +23227,15 @@
         "340903"
       ],
       "mediaScope": "movie",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 126963,
-          "title": "Dragon Ball Z: Battle of Gods",
-          "originalTitle": "ドラゴンボールZ 神と神",
-          "releaseYear": 2013,
-          "imdbId": "tt2263944",
-          "awardWindowPlausible": false,
-          "popularity": 6.8643
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 35648,
-          "title": "Roujin Z",
-          "originalTitle": "老人Z",
-          "releaseYear": 1991,
-          "imdbId": "tt0102812",
-          "awardWindowPlausible": false,
-          "popularity": 3.2244
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 277519,
-          "title": "Z Storm",
-          "originalTitle": "Z 風暴",
-          "releaseYear": 2014,
-          "imdbId": "tt3469440",
-          "awardWindowPlausible": false,
-          "popularity": 2.1376
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Z",
+        "releaseYear": 1969,
+        "tmdbId": 2721,
+        "imdbId": "tt0065234",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The one-character BAFTA title is the 1969 political thriller Z, matching the reviewed Golden Globes identity."
     },
     {
       "key": "movie:zinkyboysgounderground:1995",
@@ -23319,7 +23282,15 @@
         "373449"
       ],
       "mediaScope": "movie",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Zootopia 2",
+        "releaseYear": 2025,
+        "tmdbId": 1084242,
+        "imdbId": "tt26443597",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Zootropolis 2 is the UK release title of the 2025 animated feature stored by TMDB as Zootopia 2, IMDb tt26443597."
     },
     {
       "key": "television:1971theyearthatmusicchangedeverything:2022",

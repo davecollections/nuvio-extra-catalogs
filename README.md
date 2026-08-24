@@ -4,10 +4,11 @@ An independent Stremio-compatible catalogue add-on intended to provide collectio
 
 ## Current catalogues
 
-The all-awards manifest exposes 57 catalogues:
+The all-awards manifest exposes 84 catalogues:
 
 - 24 winner-film catalogues for all current competitive Academy Award categories; and
-- 33 Golden Globes catalogues (22 movie and 11 series) covering the 27 current category lineages that map to Stremio media types.
+- 33 Golden Globes catalogues (22 movie and 11 series) covering the 27 current category lineages that map to Stremio media types; and
+- 27 BAFTA Film catalogues (25 movie and 2 series) covering all 25 reviewed current Film lineages.
 
 The Academy catalogues include:
 
@@ -18,7 +19,9 @@ The Academy catalogues include:
 
 Golden Globes coverage follows the current 2026 film and television categories back through their defensible historical predecessors from 1944 onward. Mixed limited-series/television-movie histories are split by each winning work's actual `movie` or `series` identity. Best Podcast is retained in canonical data but has no Stremio catalogue media type.
 
-The original V0.1 seed proved the integration path in Nuvio. V0.2–V0.5 established the canonical Awards model and six complete picture/acting/directing histories. V1.0 completed all current Academy categories. V1.1 applies the same authority, identity, and deterministic-output contracts to the first mixed film/television award body.
+BAFTA Film coverage follows all 25 selected current lineages across the official 1949–2026 archive. British Short Animation and Documentary contain four reviewed historical series identities, so those lineages publish separate movie and series catalogues. The verified 1989 short *Say Goodbye* remains in canonical history but has no compatible IMDb relationship and is the sole reviewed non-catalogue work.
+
+The original V0.1 seed proved the integration path in Nuvio. V0.2–V0.5 established the canonical Awards model and six complete picture/acting/directing histories. V1.0 completed all current Academy categories, V1.1 added Golden Globes film and television, and V1.2 adds the complete BAFTA Film scope.
 
 ## What V0.1 proved
 
@@ -43,10 +46,12 @@ nuvio-extra-catalogs/
 ├── data/
 │   └── awards/
 │       ├── academy-awards/
-│       └── golden-globes/
+│       ├── golden-globes/
+│       └── bafta-film/
 ├── presets/
 │   ├── academy/
-│   └── golden-globes/
+│   ├── golden-globes/
+│   └── bafta-film/
 ├── docs/
 ├── examples/
 ├── schema/
@@ -58,7 +63,7 @@ nuvio-extra-catalogs/
 └── manifest.json
 ```
 
-Released Academy IDs retain their existing `academy-...` names. Golden Globes IDs use the stable `golden-globes-{category}-winning-films` or `golden-globes-{category}-winning-series` convention. Every declared ID maps directly to:
+Released Academy IDs retain their existing `academy-...` names. Golden Globes and BAFTA Film IDs use stable award-prefixed `...-winning-films` or `...-winning-series` conventions. Every declared ID maps directly to:
 
 ```text
 /catalog/{movie|series}/{catalogue-id}.json

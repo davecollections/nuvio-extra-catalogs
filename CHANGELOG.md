@@ -4,7 +4,25 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ## [Unreleased]
 
-No changes yet.
+### Added
+
+- Complete BAFTA Film winner histories for all 25 reviewed current lineages across the official 1949–2026 archive: 1,302 canonical winner records and 1,321 associated work links.
+- Twenty-seven deterministic BAFTA Film catalogues: 25 movie outputs plus series splits for the historically mixed British Short Animation and Documentary lineages.
+- A distinct BAFTA Film preset manifest with its own add-on identity and byte-matched catalogue routes.
+- A fail-closed BAFTA Film identity gate covering 822 award-year-scoped work identities: 821 catalogue-compatible IMDb relationships and one explicitly reviewed non-catalogue outcome.
+
+### Changed
+
+- The all-awards manifest advances to `1.2.0` with 84 catalogues: 71 movie and 13 series outputs across Academy Awards, Golden Globes, and BAFTA Film.
+- The landing page adds BAFTA Film to the compact award disclosures and manifest selector.
+- Historical Film records classified as television series remain in their official BAFTA Film lineages and publish through separate series catalogues rather than being forced into movie identities.
+- CI now requires complete BAFTA Film work review and reproduces the canonical import, catalogue outputs, preset routes, and repository-wide manifest contracts offline.
+
+### Validated locally for V1.2 preview
+
+- Shared canonical validation passes with 3 award bodies, 77 categories, 259 ceremonies, 5,061 results, 5,082 work links, and 6,139 person links.
+- BAFTA Film contracts pass with 78 archive years, 1,302 results, 1,321 work links, and 27 generated catalogue payloads.
+- The all-awards manifest and all three award presets pass exact route, payload-shape, media-type, byte-equality, and catalogue-set validation with 4,963 total Meta Preview items.
 
 ## [1.1.0] - 2026-08-22
 

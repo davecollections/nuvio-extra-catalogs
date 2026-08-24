@@ -7,32 +7,30 @@ The committed BAFTA snapshots decide award facts. This report inventories only w
 ## Summary
 
 - Selected work-linked winner records: **2,831**
-- Award-year-scoped work identities: **2,041**
-- Resolved identities: **1,417** (870 movies; 547 series)
-- Unresolved identities: **624**
+- Selected work links: **2,850**
+- Award-year-scoped work identities: **2,044**
+- Resolved identities: **1,540** (989 movies; 551 series)
+- Reviewed non-catalogue outcomes: **1**
+- Unresolved identities: **503**
 - Unattempted identities: **0**
-- No exact-title candidate: **407**
-- Multiple plausible exact-title candidates: **106**
-- Candidate evidence without an acceptable IMDb/date relationship: **111**
+- No exact-title candidate: **325**
+- Multiple plausible exact-title candidates: **94**
+- Candidate evidence without an acceptable IMDb/date relationship: **84**
 
-## Multiple plausible candidates (106)
+## Reviewed non-catalogue outcomes (1)
+
+These winner facts remain preserved, but no compatible IMDb-backed catalogue identity was found during explicit review.
+
+| Source work | Context | Reviewed outcome |
+| --- | --- | --- |
+| Say Goodbye | film; award 1991; film-british-short-film; nomination 342432 | no-compatible-imdb-identity: The 1989 NFTS short Say Goodbye is verified as the 1991 BAFTA winner and as TMDB movie 1211818, but that reviewed record has no IMDb title relationship; it cannot be emitted through the add-on's cross-provider IMDb catalogue contract. |
+
+## Multiple plausible candidates (94)
 
 Each row has more than one exact-title candidate inside the award window and needs an explicit reviewed choice.
 
 | Source work | Context | Candidate evidence |
 | --- | --- | --- |
-| Aftersun | film; award 2023; film-outstanding-debut; nomination 360851 | [movie TMDB 965150 / tt19770238](https://www.themoviedb.org/movie/965150) Aftersun (2022)<br>[movie TMDB 969829 / tt19512922](https://www.themoviedb.org/movie/969829) Aftersun (2022)<br>[movie TMDB 1098585 / tt0825223](https://www.themoviedb.org/movie/1098585) Aftersun (2006) — outside award window<br>[movie TMDB 1624266](https://www.themoviedb.org/movie/1624266) Aftersun (2024) — outside award window, no IMDb ID |
-| Brooklyn | film; award 2016; film-outstanding-british-film; nomination 353083 | [movie TMDB 167073 / tt2381111](https://www.themoviedb.org/movie/167073) Brooklyn (2015)<br>[movie TMDB 291678 / tt3184798](https://www.themoviedb.org/movie/291678) Brooklyn (2015)<br>[movie TMDB 1389305 / tt30624677](https://www.themoviedb.org/movie/1389305) Brooklyn (2024) — outside award window |
-| Carmen | film; award 1985; film-film-not-english-language; nomination 341951 | [movie TMDB 111322 / tt0872315](https://www.themoviedb.org/movie/111322) Carmen (1985)<br>[movie TMDB 21193 / tt0087034](https://www.themoviedb.org/movie/21193) Carmen (1984)<br>[movie TMDB 146114 / tt2662562](https://www.themoviedb.org/movie/146114) Carmen (2011) (2011) — outside award window<br>[movie TMDB 25911 / tt0352230](https://www.themoviedb.org/movie/25911) Carmen (2003) — outside award window |
-| Hunger | film; award 2009; film-outstanding-debut; nomination 344073 | [movie TMDB 173672 / tt1176252](https://www.themoviedb.org/movie/173672) Hunger (2009)<br>[movie TMDB 10360 / tt0986233](https://www.themoviedb.org/movie/10360) Hunger (2008)<br>[movie TMDB 76105 / tt0237320](https://www.themoviedb.org/movie/76105) Hunger (2001) — outside award window<br>[movie TMDB 76235 / tt0061042](https://www.themoviedb.org/movie/76235) Hunger (1966) — outside award window |
-| I Swear | film; award 2026; film-casting, film-leading-actor; nomination 373463, 373503 | [movie TMDB 1317149 / tt31514146](https://www.themoviedb.org/movie/1317149) I Swear (2025)<br>[movie TMDB 1409966 / tt34361658](https://www.themoviedb.org/movie/1409966) I Swear (2025)<br>[movie TMDB 1044736 / tt27005178](https://www.themoviedb.org/movie/1044736) I Swear (2025) |
-| Jesus Christ Superstar | film; award 1974; film-sound; nomination 341223 | [movie TMDB 12545 / tt0070239](https://www.themoviedb.org/movie/12545) Jesus Christ Superstar (1973)<br>[movie TMDB 334243 / tt0474753](https://www.themoviedb.org/movie/334243) Jesus Christ Superstar (1972)<br>[movie TMDB 718328](https://www.themoviedb.org/movie/718328) Jesus Christ Superstar (1992) — outside award window, no IMDb ID<br>[movie TMDB 47980 / tt0275434](https://www.themoviedb.org/movie/47980) Jesus Christ Superstar (2000) — outside award window |
-| Lion | film; award 2017; film-adapted-screenplay, film-supporting-actor; nomination 355824, 355925 | [movie TMDB 1182214 / tt5480036](https://www.themoviedb.org/movie/1182214) Lion (2017)<br>[movie TMDB 334543 / tt3741834](https://www.themoviedb.org/movie/334543) Lion (2016) |
-| Operator | film; award 2016; film-british-short-film; nomination 353101 | [movie TMDB 381073 / tt5052524](https://www.themoviedb.org/movie/381073) Operator (2016)<br>[movie TMDB 362185 / tt3849692](https://www.themoviedb.org/movie/362185) Operator (2015)<br>[movie TMDB 377600 / tt4795680](https://www.themoviedb.org/movie/377600) Operator (2015)<br>[movie TMDB 483303 / tt2667186](https://www.themoviedb.org/movie/483303) Operator (2013) |
-| Sleeping With The Fishes | film; award 2014; film-british-short-animation; nomination 352002 | [movie TMDB 378219 / tt3244652](https://www.themoviedb.org/movie/378219) Sleeping with the Fishes (2013)<br>[movie TMDB 291375 / tt2286988](https://www.themoviedb.org/movie/291375) Sleeping with the Fishes (2013)<br>[movie TMDB 1565182](https://www.themoviedb.org/movie/1565182) Sleeping with the Fishes (2024) — outside award window, no IMDb ID |
-| The Present | film; award 2021; film-british-short-film; nomination 359648 | [movie TMDB 708049](https://www.themoviedb.org/movie/708049) The Present (2020) — no IMDb ID<br>[movie TMDB 639271 / tt11821176](https://www.themoviedb.org/movie/639271) The Present (2019)<br>[movie TMDB 1457858](https://www.themoviedb.org/movie/1457858) The Present (2019) — no IMDb ID<br>[movie TMDB 635007 / tt8614886](https://www.themoviedb.org/movie/635007) The Present (2018) |
-| The Warrior | film; award 2003; film-outstanding-british-film, film-outstanding-debut; nomination 343432, 343436 | [movie TMDB 23305 / tt0295682](https://www.themoviedb.org/movie/23305) The Warrior (2001)<br>[movie TMDB 1436 / tt0275083](https://www.themoviedb.org/movie/1436) The Warrior (2001) |
-| Waterloo | film; award 1971; film-costume-design, film-production-design; nomination 340980, 340988 | [movie TMDB 33157 / tt0066549](https://www.themoviedb.org/movie/33157) Waterloo (1970)<br>[movie TMDB 288959 / tt0300637](https://www.themoviedb.org/movie/288959) Waterloo (1969)<br>[movie TMDB 874600 / tt3962742](https://www.themoviedb.org/movie/874600) Waterloo (1967) — outside award window<br>[movie TMDB 1461875 / tt0284633](https://www.themoviedb.org/movie/1461875) Waterloo (1957) — outside award window |
 | Ambulance | television; award 2018; television-factual-series; nomination 356770 | [movie TMDB 529759](https://www.themoviedb.org/movie/529759) Ambulance (2018) — no IMDb ID<br>[series TMDB 67946 / tt6079604](https://www.themoviedb.org/tv/67946) Ambulance (2016)<br>[movie TMDB 462068 / tt5050756](https://www.themoviedb.org/movie/462068) Ambulance (2016)<br>[movie TMDB 1061492 / tt5672020](https://www.themoviedb.org/movie/1061492) Ambulance (2016) |
 | Antony And Cleopatra | television; award 1975; television-limited-drama; nomination 345906 | [movie TMDB 233748 / tt0175447](https://www.themoviedb.org/movie/233748) Antony and Cleopatra (1975)<br>[movie TMDB 98632 / tt0068920](https://www.themoviedb.org/movie/98632) Antony and Cleopatra (1972)<br>[movie TMDB 1710353](https://www.themoviedb.org/movie/1710353) Antony and Cleopatra (1962) — outside award window, no IMDb ID<br>[movie TMDB 1243415 / tt3508918](https://www.themoviedb.org/movie/1243415) Antony and Cleopatra (1959) — outside award window |
 | Arena | television; award 1989; television-factual-series; nomination 346868 | [movie TMDB 44796 / tt0101366](https://www.themoviedb.org/movie/44796) Arena (1989)<br>[movie TMDB 172648 / tt0254123](https://www.themoviedb.org/movie/172648) Arena (1985) — outside award window<br>[series TMDB 2050 / tt0199184](https://www.themoviedb.org/tv/2050) Arena (1975)<br>[series TMDB 107271 / tt1325046](https://www.themoviedb.org/tv/107271) Arena (1993) — outside award window |
@@ -128,94 +126,12 @@ Each row has more than one exact-title candidate inside the award window and nee
 | Wilderness | television-craft; award 2024; television-craft-titles-graphic-identity; nomination 361779 | [movie TMDB 1443265 / tt21978094](https://www.themoviedb.org/movie/1443265) Wilderness (2024)<br>[series TMDB 204276 / tt15426714](https://www.themoviedb.org/tv/204276) Wilderness (2023)<br>[movie TMDB 640236 / tt11203998](https://www.themoviedb.org/movie/640236) Wilderness (2020) — outside award window<br>[movie TMDB 446846 / tt6469284](https://www.themoviedb.org/movie/446846) Wilderness (2017) — outside award window |
 | Would I Lie to You? | television; award 2025; television-entertainment; nomination 368225 | [series TMDB 158741 / tt17640316](https://www.themoviedb.org/tv/158741) Would I Lie to You? (2022)<br>[series TMDB 158196 / tt14369390](https://www.themoviedb.org/tv/158196) Would I Lie to You? (2022) — outside award window<br>[series TMDB 4775 / tt1055238](https://www.themoviedb.org/tv/4775) Would I Lie to You? (2007)<br>[movie TMDB 69320 / tt0295697](https://www.themoviedb.org/movie/69320) Would I Lie to You? (2005) — outside award window |
 
-## No exact-title candidate (407)
+## No exact-title candidate (325)
 
 These commonly need a title alias, parent-series relationship, event/episode reconciliation, or a documented non-catalogue outcome.
 
 | Source work | Context | Candidate evidence |
 | --- | --- | --- |
-| Alias The Jester | film; award 1986; film-british-short-animation; nomination 351448 | No exact-title TMDB candidate |
-| All About My Mother (Todo Sobre Mi Madre) | film; award 2000; film-director, film-film-not-english-language; nomination 343146, 343163 | No exact-title TMDB candidate |
-| A Man And A Woman (Un Homme Et Une Femme) | film; award 1968; film-leading-actress; nomination 340798 | No exact-title TMDB candidate |
-| Babette's Feast (Babettes Gæstebud) | film; award 1989; film-film-not-english-language; nomination 342256 | No exact-title TMDB candidate |
-| Back To The Future II | film; award 1990; film-special-visual-effects; nomination 342289 | No exact-title TMDB candidate |
-| Ballad Of A Soldier (Ballada O Soldate) | film; award 1962; film-best-film; nomination 340377 | No exact-title TMDB candidate |
-| Be Careful Boys | film; award 1966; film-animated-film; nomination 340612 | No exact-title TMDB candidate |
-| Bicycle Thieves (Ladri Di Biciclette) | film; award 1950; film-best-film; nomination 339707 | No exact-title TMDB candidate |
-| Bugsy Malone/Taxi Driver | film; award 1977; film-supporting-actress; nomination 341439 | No exact-title TMDB candidate |
-| Butch Cassidy And The Sundance Kid/Tell Them Willie Boy Is Here | film; award 1971; film-leading-actress; nomination 340968 | No exact-title TMDB candidate |
-| Butch Cassidy And The Sundance Kid/Tell Them Willie Boy Is Here/Downhill Racer | film; award 1971; film-leading-actor; nomination 340963 | No exact-title TMDB candidate |
-| Cabaret/Alice's Adventures In Wonderland | film; award 1973; film-cinematography; nomination 341119 | No exact-title TMDB candidate |
-| Central Station (Central Do Brasil) | film; award 1999; film-film-not-english-language; nomination 343068 | No exact-title TMDB candidate |
-| Christ Stopped At Eboli (Cristo Si È Fermato A Eboli) | film; award 1983; film-film-not-english-language; nomination 341785 | No exact-title TMDB candidate |
-| City Of God (Cidade De Deus) | film; award 2003; film-editing; nomination 343453 | No exact-title TMDB candidate |
-| Colonel Redl (Oberst Redl) | film; award 1986; film-film-not-english-language; nomination 342036 | No exact-title TMDB candidate |
-| Crouching Tiger, Hidden Dragon (Wo Hu Cang Long) | film; award 2001; film-costume-design, film-director, film-film-not-english-language, film-original-score; nomination 343228, 343245, 343250, 343265 | No exact-title TMDB candidate |
-| Dance For Two (Pas De Deux) | film; award 1969; film-animated-film; nomination 340829 | No exact-title TMDB candidate |
-| Day For Night (La Nuit Américaine) | film; award 1974; film-best-film, film-director, film-supporting-actress; nomination 341195, 341199, 341232 | No exact-title TMDB candidate |
-| Defence Counsel Sedov (Zashchitnik Sedov) | film; award 1989; film-british-short-film; nomination 342277 | No exact-title TMDB candidate |
-| Divorce, Italian Style (Divorzio All'Italiana) | film; award 1964; film-leading-actor; nomination 340520 | No exact-title TMDB candidate |
-| Dr Strangelove | film; award 1965; film-best-film, film-outstanding-british-film, film-production-design; nomination 340547, 340572, 340580 | No exact-title TMDB candidate |
-| Farewell My Concubine (Ba Wang Bie Ji) | film; award 1994; film-film-not-english-language; nomination 342642 | No exact-title TMDB candidate |
-| Fellini's Casanova (Il Casanova Di Federico Fellini) | film; award 1978; film-costume-design, film-production-design; nomination 341459, 341487 | No exact-title TMDB candidate |
-| Forbidden Games (Jeux Interdits) | film; award 1954; film-best-film; nomination 339856 | No exact-title TMDB candidate |
-| Glass (Glas) | film; award 1959; film-documentary; nomination 340178 | No exact-title TMDB candidate |
-| Goal! The World Cup | film; award 1967; film-documentary; nomination 340740 | No exact-title TMDB candidate |
-| Golden Helmet (Casque D'Or) | film; award 1953; film-leading-actress; nomination 339818 | No exact-title TMDB candidate |
-| Goodbye, Children (Au Revoir Les Enfants) | film; award 1989; film-director; nomination 342211 | No exact-title TMDB candidate |
-| Great | film; award 1976; film-animated-film; nomination 341319 | No exact-title TMDB candidate |
-| Guns At Batasi/Séance On A Wet Afternoon | film; award 1965; film-leading-actor; nomination 340539 | No exact-title TMDB candidate |
-| Henry Nine 'Til Five | film; award 1971; film-animated-film; nomination 340971 | No exact-title TMDB candidate |
-| Henry's Cat | film; award 1984; film-british-short-animation; nomination 351441 | No exact-title TMDB candidate |
-| Hunger (La Faim) | film; award 1975; film-animated-film; nomination 341249 | No exact-title TMDB candidate |
-| Incident At Owl Creek (La Rivière Du Hibou) | film; award 1963; film-british-short-film; nomination 340469 | No exact-title TMDB candidate |
-| Jaws/The Towering Inferno | film; award 1976; film-original-score; nomination 341322 | No exact-title TMDB candidate |
-| Kenojuak | film; award 1965; film-british-short-film; nomination 340599 | No exact-title TMDB candidate |
-| Le Mans '66 | film; award 2020; film-editing; nomination 358752 | No exact-title TMDB candidate |
-| Life And Nothing But (La Vie Et Rien D'Autre) | film; award 1990; film-film-not-english-language; nomination 342329 | No exact-title TMDB candidate |
-| Life Is Beautiful (La Vita E Bella) | film; award 1999; film-leading-actor; nomination 343012 | No exact-title TMDB candidate |
-| Majorettes In Space (Des Majorettes Dans L'Espace) | film; award 1997; film-british-short-film; nomination 342919 | No exact-title TMDB candidate |
-| Midnight Cowboy/John And Mary | film; award 1970; film-leading-actor; nomination 340893 | No exact-title TMDB candidate |
-| My Left Foot | film; award 1990; film-leading-actor, film-supporting-actor; nomination 342293, 342298 | No exact-title TMDB candidate |
-| My Wrongs 8245-8249 And 117 | film; award 2003; film-british-short-film; nomination 343496 | No exact-title TMDB candidate |
-| Pete 'N' Tillie/Charley Varrick | film; award 1974; film-leading-actor; nomination 341170 | No exact-title TMDB candidate |
-| Prizzi's Honour | film; award 1986; film-adapted-screenplay; nomination 342016 | No exact-title TMDB candidate |
-| Raise The Red Lantern (Da Hong Deng Long Gao Gao Gua) | film; award 1993; film-film-not-english-language; nomination 342561 | No exact-title TMDB candidate |
-| Roundabout (La Ronde) | film; award 1952; film-best-film; nomination 339762 | No exact-title TMDB candidate |
-| Song Of The Prairie (Arie Prerie) | film; award 1955; film-animated-film; nomination 339885 | No exact-title TMDB candidate |
-| Talk To Her (Hable Con Ella) | film; award 2003; film-film-not-english-language, film-original-screenplay; nomination 343464, 343487 | No exact-title TMDB candidate |
-| Terminator 2: Judgement Day | film; award 1992; film-sound, film-special-visual-effects; nomination 342440, 342512 | No exact-title TMDB candidate |
-| The Apartment (L'Appartement) | film; award 1998; film-film-not-english-language; nomination 342979 | No exact-title TMDB candidate |
-| The Beat That My Heart Skipped (De Battre Mon Coeur S’Est Arrêté) | film; award 2006; film-film-not-english-language; nomination 343792 | No exact-title TMDB candidate |
-| The Birdman Of Alcatraz | film; award 1963; film-leading-actor; nomination 340452 | No exact-title TMDB candidate |
-| The Canadians (Los Canadienses) | film; award 1977; film-documentary; nomination 341416 | No exact-title TMDB candidate |
-| The Discreet Charm Of The Bourgeoisie (Le Charme Discret De La Bourgeoisie)/Just Before Nightfall | film; award 1974; film-leading-actress; nomination 341173 | No exact-title TMDB candidate |
-| The French Connection/The Poseidon Adventure | film; award 1973; film-leading-actor; nomination 341104 | No exact-title TMDB candidate |
-| The Godfather Part II/Dog Day Afternoon | film; award 1976; film-leading-actor; nomination 341314 | No exact-title TMDB candidate |
-| The Great Adventure (Det Stora Äventyret) | film; award 1955; film-documentary; nomination 339909 | No exact-title TMDB candidate |
-| The Killers/Cat Ballou | film; award 1966; film-leading-actor; nomination 340658 | No exact-title TMDB candidate |
-| The Last Detail/Chinatown | film; award 1975; film-leading-actor; nomination 341242 | No exact-title TMDB candidate |
-| The Lion In Winter/Guess Who's Coming To Dinner? | film; award 1969; film-leading-actress; nomination 340825 | No exact-title TMDB candidate |
-| The Marquise Of O (Die Marquise Von O) | film; award 1977; film-costume-design; nomination 341396 | No exact-title TMDB candidate |
-| The Motorcycle Diaries (Diarios De Motocicleta) | film; award 2005; film-film-not-english-language, film-original-score; nomination 343653, 343687 | No exact-title TMDB candidate |
-| The Nasty Girl (Das Schreckliche Mädchen) | film; award 1992; film-film-not-english-language; nomination 342483 | No exact-title TMDB candidate |
-| The Postman (Il Postino) | film; award 1996; film-director, film-film-not-english-language, film-original-score; nomination 342790, 342802, 342813 | No exact-title TMDB candidate |
-| The Sacrifice (Offret) | film; award 1988; film-film-not-english-language; nomination 342186 | No exact-title TMDB candidate |
-| The Spy Who Came In From The Cold/Who's Afraid Of Virginia Woolf? | film; award 1967; film-leading-actor; nomination 340687 | No exact-title TMDB candidate |
-| The Witches Of Salem (Les Sorcières De Salem) | film; award 1958; film-leading-actress; nomination 340143 | No exact-title TMDB candidate |
-| Those Magnificent Men In Their Flying Machines | film; award 1966; film-costume-design; nomination 340642 | No exact-title TMDB candidate |
-| To Live (Huozhe) | film; award 1995; film-film-not-english-language; nomination 342729 | No exact-title TMDB candidate |
-| Twisted Nerve/Charlie Bubbles | film; award 1969; film-supporting-actress; nomination 340887 | No exact-title TMDB candidate |
-| Volcano (Les Rendez-vous Du Diable) | film; award 1962; film-documentary; nomination 340403 | No exact-title TMDB candidate |
-| Wages Of Fear (Le Salaire De La Peur) | film; award 1955; film-best-film; nomination 339931 | No exact-title TMDB candidate |
-| Wallace And Gromit: A Matter Of Loaf And Death | film; award 2009; film-british-short-animation; nomination 344143 | No exact-title TMDB candidate |
-| Wallace And Gromit: The Curse Of The Were-Rabbit | film; award 2006; film-outstanding-british-film; nomination 343756 | No exact-title TMDB candidate |
-| WALL-E | film; award 2009; film-animated-film; nomination 344062 | No exact-title TMDB candidate |
-| William Shakespeare's Romeo And Juliet | film; award 1998; film-adapted-screenplay, film-director, film-original-score, film-production-design; nomination 342947, 342958, 342970, 342995 | No exact-title TMDB candidate |
-| Witches Of Eastwick | film; award 1988; film-special-visual-effects; nomination 342146 | No exact-title TMDB candidate |
-| Yesterday, Today And Tomorrow (Ieri, Oggi, Domani) | film; award 1965; film-leading-actor; nomination 340585 | No exact-title TMDB candidate |
-| Young Winston/Macbeth/Alice's Adventures In Wonderland | film; award 1973; film-costume-design; nomination 341125 | No exact-title TMDB candidate |
-| Zootropolis 2 | film; award 2026; film-animated-film; nomination 373449 | No exact-title TMDB candidate |
 | 2014 FA Cup Final | television-craft; award 2015; television-craft-director-multi-camera; nomination 352674 | No exact-title TMDB candidate |
 | 2018 World Cup Quarter Final: England v Sweden | television; award 2019; television-sports-coverage; nomination 357657 | No exact-title TMDB candidate |
 | 2019 Rugby World Cup Final: England v South Africa | television; award 2020; television-sports-coverage; nomination 358990 | No exact-title TMDB candidate |
@@ -542,39 +458,12 @@ These commonly need a title alias, parent-series relationship, event/episode rec
 | Yes, Minster | television; award 1982; television-entertainment-performance, television-scripted-comedy; nomination 346387, 346408 | No exact-title TMDB candidate |
 | Yorkshire Ripper Files: A Vey British Crime Story | television; award 2020; television-specialist-factual; nomination 358989 | No exact-title TMDB candidate |
 
-## Candidate evidence rejected by the automatic contract (111)
+## Candidate evidence rejected by the automatic contract (84)
 
 These candidates lack a usable IMDb ID or fall outside the accepted award window and require explicit review.
 
 | Source work | Context | Candidate evidence |
 | --- | --- | --- |
-| Alaska: The Great Land | film; award 1972; film-british-short-film; nomination 341081 | [movie TMDB 948991](https://www.themoviedb.org/movie/948991) Alaska: The Great Land (1971) — no IMDb ID |
-| A Love Story | film; award 2017; film-british-short-animation; nomination 355831 | [movie TMDB 676815 / tt1034045](https://www.themoviedb.org/movie/676815) A Love Story (2005) — outside award window<br>[movie TMDB 1269161](https://www.themoviedb.org/movie/1269161) A Love Story (2022) — outside award window, no IMDb ID |
-| Artisten | film; award 1988; film-british-short-film; nomination 342203 | [movie TMDB 1209875](https://www.themoviedb.org/movie/1209875) The Artist (1987) — no IMDb ID<br>[movie TMDB 263254 / tt0026083](https://www.themoviedb.org/movie/263254) Artisten (1935) — outside award window<br>[movie TMDB 517221 / tt2372215](https://www.themoviedb.org/movie/517221) Artists (2011) — outside award window |
-| Beast | film; award 2019; film-outstanding-debut; nomination 357215 | [movie TMDB 1292415 / tt7708226](https://www.themoviedb.org/movie/1292415) Beast (2026) — outside award window<br>[movie TMDB 760741 / tt13223398](https://www.themoviedb.org/movie/760741) Beast (2022) — outside award window<br>[movie TMDB 828751 / tt14825950](https://www.themoviedb.org/movie/828751) Beast (2022) — outside award window |
-| Butch Minds The Baby | film; award 1980; film-british-short-film; nomination 341619 | [movie TMDB 953772](https://www.themoviedb.org/movie/953772) Butch Minds the Baby (1979) — no IMDb ID<br>[movie TMDB 98000 / tt0034560](https://www.themoviedb.org/movie/98000) Butch Minds the Baby (1942) — outside award window |
-| Careless Talk | film; award 1986; film-british-short-film; nomination 342055 | [movie TMDB 955602](https://www.themoviedb.org/movie/955602) Careless Talk (1985) — no IMDb ID |
-| Dog | film; award 2002; film-british-short-animation; nomination 343389 | [movie TMDB 626735 / tt11252248](https://www.themoviedb.org/movie/626735) Dog (2022) — outside award window |
-| Fish Never Sleep | film; award 2003; film-british-short-animation; nomination 343490 | [movie TMDB 880286 / tt14963372](https://www.themoviedb.org/movie/880286) Fish Never Sleep (2021) — outside award window<br>[movie TMDB 438389 / tt0396596](https://www.themoviedb.org/movie/438389) Fish Never Sleep (2004) — outside award window |
-| Franz Kafka's It's A Wonderful Life | film; award 1994; film-british-short-film; nomination 342668 | [movie TMDB 47981 / tt0106961](https://www.themoviedb.org/movie/47981) Franz Kafka's It's a Wonderful Life (1995) — outside award window |
-| Home | film; award 1999; film-british-short-film; nomination 343089 | [movie TMDB 228161 / tt2224026](https://www.themoviedb.org/movie/228161) Home (2015) — outside award window |
-| Indus Waters | film; award 1968; film-british-short-film; nomination 340809 | [movie TMDB 948542](https://www.themoviedb.org/movie/948542) Indus Waters (1967) — no IMDb ID |
-| In Need Of Special Care | film; award 1969; film-documentary; nomination 340863 | [movie TMDB 1262280](https://www.themoviedb.org/movie/1262280) In Need of Special Care (1968) — no IMDb ID |
-| La Boule | film; award 1987; film-british-short-film; nomination 342127 | [movie TMDB 1504480](https://www.themoviedb.org/movie/1504480) The Ball (1986) — no IMDb ID<br>[movie TMDB 963652](https://www.themoviedb.org/movie/963652) The Ball (1984) — no IMDb ID |
-| Pan-Tele-Tron | film; award 1958; film-animated-film; nomination 340090 | [movie TMDB 947932](https://www.themoviedb.org/movie/947932) Pan-tele-tron (1957) — no IMDb ID |
-| Rig Move | film; award 1966; film-british-short-film; nomination 340675 | [movie TMDB 948331](https://www.themoviedb.org/movie/948331) Rig Move (1965) — no IMDb ID |
-| Say Goodbye | film; award 1991; film-british-short-film; nomination 342432 | [movie TMDB 1211818](https://www.themoviedb.org/movie/1211818) Say Goodbye (1989) — no IMDb ID<br>[movie TMDB 460524](https://www.themoviedb.org/movie/460524) Say Goodbye (1975) — outside award window, no IMDb ID<br>[movie TMDB 149322 / tt0066336](https://www.themoviedb.org/movie/149322) Say Goodbye (1971) — outside award window<br>[movie TMDB 702949](https://www.themoviedb.org/movie/702949) Say Goodbye! — outside award window, no IMDb ID |
-| Seven Cities of Antarctica | film; award 1960; film-british-short-film; nomination 340285 | [movie TMDB 411648](https://www.themoviedb.org/movie/411648) Seven Cities of Antarctica (1958) — no IMDb ID |
-| Superted | film; award 1987; film-british-short-animation; nomination 351469 | [movie TMDB 514757](https://www.themoviedb.org/movie/514757) Superted (1975) — outside award window, no IMDb ID |
-| The Early Americans | film; award 1976; film-documentary; nomination 341357 | [movie TMDB 949437](https://www.themoviedb.org/movie/949437) The Early Americans (1975) — no IMDb ID |
-| The Grinch | film; award 2001; film-make-up-hair; nomination 343268 | [movie TMDB 360920 / tt2709692](https://www.themoviedb.org/movie/360920) The Grinch (2018) — outside award window |
-| The Harmfulness Of Tobacco | film; award 1992; film-british-short-film; nomination 342506 | [movie TMDB 1211857](https://www.themoviedb.org/movie/1211857) The Harmfulness of Tobacco (1991) — no IMDb ID |
-| The Last Resort | film; award 2001; film-outstanding-debut; nomination 343235 | [movie TMDB 1120382 / tt27552049](https://www.themoviedb.org/movie/1120382) The Last Resort (2026) — outside award window<br>[movie TMDB 1587839 / tt39045361](https://www.themoviedb.org/movie/1587839) The Last Resort (2025) — outside award window<br>[movie TMDB 1337446 / tt33143737](https://www.themoviedb.org/movie/1337446) The Last Resort — outside award window<br>[movie TMDB 1179356 / tt29432212](https://www.themoviedb.org/movie/1179356) The Last Resort (2023) — outside award window |
-| This Is Endometriosis | film; award 2026; film-british-short-film; nomination 373461 | [movie TMDB 956976 / tt35875811](https://www.themoviedb.org/movie/956976) This Is Endometriosis (2022) — outside award window |
-| To Die In Madrid | film; award 1968; film-documentary; nomination 340808 | [movie TMDB 116684 / tt0057327](https://www.themoviedb.org/movie/116684) To Die in Madrid (1963) — outside award window |
-| Twelve Angry Men | film; award 1958; film-leading-actor; nomination 340133 | [movie TMDB 269981 / tt0122737](https://www.themoviedb.org/movie/269981) Twelve Angry Men (1954) — outside award window<br>[movie TMDB 1362990 / tt0495537](https://www.themoviedb.org/movie/1362990) Twelve Angry Men (1982) — outside award window |
-| Universe | film; award 1961; film-animated-film; nomination 340295 | [movie TMDB 1374460 / tt6127072](https://www.themoviedb.org/movie/1374460) Universe (2007) — outside award window |
-| Z | film; award 1970; film-original-score; nomination 340903 | [movie TMDB 126963 / tt2263944](https://www.themoviedb.org/movie/126963) Dragon Ball Z: Battle of Gods (2013) — outside award window<br>[movie TMDB 35648 / tt0102812](https://www.themoviedb.org/movie/35648) Roujin Z (1991) — outside award window<br>[movie TMDB 277519 / tt3469440](https://www.themoviedb.org/movie/277519) Z Storm (2014) — outside award window |
 | After Lockerbie | television; award 1999; television-single-documentary; nomination 347497 | [series TMDB 47602](https://www.themoviedb.org/tv/47602) After Lockerbie — outside award window, no IMDb ID |
 | Aquarius | television; award 1975; television-specialist-factual; nomination 345919 | [series TMDB 89078 / tt0247852](https://www.themoviedb.org/tv/89078) Aquarius (1970) — outside award window<br>[movie TMDB 815233 / tt0145655](https://www.themoviedb.org/movie/815233) Aquarius (1966) — outside award window<br>[movie TMDB 1171707](https://www.themoviedb.org/movie/1171707) Aquarius (1955) — outside award window, no IMDb ID<br>[series TMDB 61239 / tt3768572](https://www.themoviedb.org/tv/61239) Aquarius (2015) — outside award window |
 | As Seen On TV | television; award 1995; television-childrens-non-scripted; nomination 347215 | [movie TMDB 474153](https://www.themoviedb.org/movie/474153) As Seen on TV (1986) — outside award window, no IMDb ID<br>[series TMDB 21682](https://www.themoviedb.org/tv/21682) As Seen on TV (2009) — outside award window, no IMDb ID<br>[movie TMDB 1479012](https://www.themoviedb.org/movie/1479012) As Seen On TV — outside award window, no IMDb ID<br>[movie TMDB 67272 / tt0271031](https://www.themoviedb.org/movie/67272) As Seen On Tv (2001) — outside award window |

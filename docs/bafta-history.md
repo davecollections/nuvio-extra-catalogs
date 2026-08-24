@@ -1,14 +1,16 @@
-# BAFTA film and television winner histories
+# BAFTA screen-awards source audit and Film publication
 
 Issue: #33
 
 ## Scope
 
-V1.2 covers the three main BAFTA screen programmes that can produce Stremio-compatible movie or series catalogues:
+The shared source audit covers the three main BAFTA screen programmes that can produce Stremio-compatible movie or series catalogues:
 
 - BAFTA Film Awards;
 - BAFTA Television Awards; and
 - BAFTA Television Craft Awards.
+
+V1.2 publishes the complete **BAFTA Film Awards** programme only: all 25 work-associated current Film lineages. BAFTA Television is deferred to V1.3 and BAFTA Television Craft to V1.4 so each distinct awards programme can be completed, tested, and installed independently. Their pinned source snapshots, category lineages, and existing identity evidence remain preserved; the release split does not discard or rewrite that reviewed work.
 
 The 2026 official result pages expose 81 categories in total. The initial publication audit retains 75 work-associated current lineages before historical lineage review or movie/series splitting:
 
@@ -88,7 +90,7 @@ python scripts/validate_bafta_lineage_decisions.py --complete
 python scripts/build_bafta_lineage_audit.py --check
 ```
 
-`data/sources/bafta/category-definitions.json` freezes the 75 accepted current categories into stable local IDs and records the source programme, canonical media scope, recipient kind, credit role, and deterministic work field. It maps the 75 current labels plus 119 accepted historical labels to 2,831 work-linked winner records. Forty-nine explicit source overrides cover label-wide historical layouts, isolated BAFTA card reversals, and the reversed 2019 Television Craft cards. Fifty-five early Television records repeat only the credited person or team instead of identifying a work; their exact nomination IDs are preserved as explicit no-work omissions rather than fabricated titles.
+`data/sources/bafta/category-definitions.json` freezes the 75 audited current categories into stable local IDs and records the source programme, canonical media scope, recipient kind, credit role, and deterministic work field. It maps the 75 current labels plus 119 accepted historical labels to 2,831 work-linked winner records. Forty-nine explicit source overrides cover label-wide historical layouts, isolated BAFTA card reversals, and the reversed 2019 Television Craft cards. Seventeen older Film winner records credit one recipient for two or three slash-delimited films; their exact source values are split into individual work links by an explicit contract. Fifty-five early Television records repeat only the credited person or team instead of identifying a work; their exact nomination IDs are preserved as explicit no-work omissions rather than fabricated titles.
 
 Validate the registry, every accepted source label, all selected work references, and the omission contract with:
 
@@ -96,7 +98,7 @@ Validate the registry, every accepted source label, all selected work references
 python scripts/validate_bafta_category_definitions.py
 ```
 
-`data/sources/bafta/identity-map.json` is the deterministic identity inventory for the 2,831 selected results. It contains 2,041 award-year-scoped work candidates and 3,754 credited-recipient strings, retaining exact nomination IDs, programmes, category IDs, years, title/name variants, credit roles, and canonical media scope. Award-year scoping prevents unrelated television adaptations with the same title from collapsing before identity review; resolved canonical outputs later deduplicate repeated wins by IMDb identity. Generic team labels are nomination-scoped so unrelated production teams cannot collapse into one identity. Regenerate or verify the inventory offline with:
+`data/sources/bafta/identity-map.json` is the deterministic identity inventory for the 2,831 selected results. It contains 2,044 award-year-scoped work candidates and 3,754 credited-recipient strings, retaining exact nomination IDs, programmes, category IDs, years, title/name variants, credit roles, and canonical media scope. Award-year scoping prevents unrelated television adaptations with the same title from collapsing before identity review; resolved canonical outputs later deduplicate repeated wins by IMDb identity. Generic team labels are nomination-scoped so unrelated production teams cannot collapse into one identity. Regenerate or verify the inventory offline with:
 
 ```bash
 python scripts/build_bafta_identity_seed.py --write
@@ -111,11 +113,21 @@ python scripts/enrich_bafta_identities.py --tmdb --limit 25
 python scripts/enrich_bafta_identities.py --reuse-canonical
 ```
 
-The initial live pass has attempted all 2,041 work identities. It accepted 1,389 unambiguous live identities, then safely reused 28 reviewed Academy/Golden Globes identities that exactly matched BAFTA's plausible candidates. The committed map therefore contains 1,417 resolved identities (870 movies and 547 series) and 624 fail-closed review cases: 407 without an exact-title candidate, 106 with multiple plausible candidates, and 111 whose candidate evidence lacks an acceptable IMDb relationship or award-date window. `reports/bafta-identity-review.md` is the generated review queue; keep it current with:
+The initial live pass attempted every work identity in the pre-publication audit. It accepted 1,389 unambiguous live identities, then safely reused 28 reviewed Academy/Golden Globes identities that exactly matched BAFTA's plausible candidates. Subsequent deterministic source corrections may change the inventory counts, so the generated reports are the controlling current totals. `reports/bafta-identity-review.md` retains the complete cross-programme queue and `reports/bafta-film-identity-review.md` is the V1.2 publication queue; keep both current with:
 
 ```bash
 python scripts/build_bafta_identity_review.py --write
 python scripts/build_bafta_identity_review.py --check
+```
+
+The completed V1.2 Film review contains 822 award-year-scoped identities. Eight hundred and twenty-one resolve to compatible IMDb title IDs: 817 movies and four series. The series are three historical British Short Animation winners and the 1968 documentary *In Need of Special Care*; their official Film lineage is preserved while output routing follows the reviewed media type. The 1989 NFTS short *Say Goodbye* is the single reviewed non-catalogue outcome because its verified TMDB record has no IMDb relationship.
+
+Canonical Film generation produces 78 ceremony-year files, 1,302 winner records, and 1,321 work links. Twenty-five category lineages generate 27 catalogues because the two mixed lineages split by media type. Reproduce the canonical import and catalogue payloads with:
+
+```bash
+python scripts/build_bafta_film_canonical.py --write --check
+python scripts/build_bafta_film_outputs.py
+python scripts/build_bafta_film_outputs.py --check
 ```
 
 ## Movie and series classification
@@ -138,13 +150,13 @@ Movie and series artwork follows the established MetaHub-by-IMDb route with expl
 
 ## Implementation gates
 
-Before V1.2 publication:
+Before V1.2 BAFTA Film publication:
 
 1. Pin and validate the winner-only BAFTA source snapshot.
 2. Finish all Film, Television, and Television Craft lineage decisions and exclusions.
-3. Resolve work media types and IMDb/TMDB identities with explicit ambiguity overrides.
-4. Generate deterministic canonical records and per-lineage output contracts.
-5. Add BAFTA movie/series catalogues, a distinct BAFTA preset manifest, and compact landing-page metadata.
+3. Resolve or explicitly classify every BAFTA Film work identity with reviewed ambiguity overrides.
+4. Generate deterministic canonical Film records and per-lineage output contracts.
+5. Add BAFTA Film movie catalogues, a distinct BAFTA Film preset manifest, and compact landing-page metadata.
 6. Run the full offline validation sequence and publish an immutable preview.
-7. Test representative Film, Television, Television Craft, mixed-media, preset, metadata-provider, and Refresh Add-on behaviour in Nuvio.
+7. Test representative Film lineages, the BAFTA Film preset, metadata-provider behaviour, and Refresh Add-on behaviour in Nuvio.
 8. Merge only after GitHub Pages and deployed byte-match checks pass, then preserve a V1.2 rollback point.

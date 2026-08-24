@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#06111a">
   <meta name="color-scheme" content="dark">
-  <meta name="description" content="Academy Awards and Golden Globes film and television catalog sources for Nuvio collections.">
+  <meta name="description" content="Academy Awards, Golden Globes and BAFTA Film catalogue sources for Nuvio collections.">
   <title>Xtra — Award Catalogues for Nuvio</title>
   <style>
     :root {
@@ -137,6 +137,7 @@
       font-size:1rem; font-weight:950; background:linear-gradient(145deg,var(--cyan-bright),var(--green)); border-radius:9px;
     }
     .catalog-summary-mark.golden { background:linear-gradient(145deg,var(--amber),var(--green)); }
+    .catalog-summary-mark.bafta { background:linear-gradient(145deg,#7c6cff,var(--cyan-bright)); }
     .catalog-summary-copy,.catalog-summary-title,.catalog-summary-meta { display:block; }
     .catalog-summary-title { font-size:.94rem; font-weight:850; letter-spacing:-.015em; }
     .catalog-summary-meta { margin-top:2px; color:var(--muted); font-size:.67rem; line-height:1.35; }
@@ -206,7 +207,7 @@
       </div>
       <p class="hero-copy">An independent, lightweight, Stremio-compatible add-on for useful film and television catalogue sources that are not currently exposed by Nuvio's standard TMDB catalogue experience. The first focus is awards data.</p>
       <div class="status-row" aria-label="Project status">
-        <span class="status-chip">v1.1 Academy Awards + Golden Globes</span>
+        <span class="status-chip">v1.2 Academy + Golden Globes + BAFTA Film</span>
         <span class="status-chip">Catalog-only architecture</span>
         <span class="status-chip">Hosted on GitHub Pages</span>
       </div>
@@ -221,6 +222,7 @@
           <button class="manifest-choice" type="button" aria-pressed="true" data-manifest-url="https://davecollections.github.io/nuvio-extra-catalogs/manifest.json" data-manifest-href="./manifest.json">All awards</button>
           <button class="manifest-choice" type="button" aria-pressed="false" data-manifest-url="https://davecollections.github.io/nuvio-extra-catalogs/presets/academy/manifest.json" data-manifest-href="./presets/academy/manifest.json">Academy Awards</button>
           <button class="manifest-choice" type="button" aria-pressed="false" data-manifest-url="https://davecollections.github.io/nuvio-extra-catalogs/presets/golden-globes/manifest.json" data-manifest-href="./presets/golden-globes/manifest.json">Golden Globes</button>
+          <button class="manifest-choice" type="button" aria-pressed="false" data-manifest-url="https://davecollections.github.io/nuvio-extra-catalogs/presets/bafta-film/manifest.json" data-manifest-href="./presets/bafta-film/manifest.json">BAFTA Film Awards</button>
         </div>
         <div class="manifest-box">
           <span>Manifest URL</span>
@@ -312,6 +314,44 @@
               <div class="catalog-item"><strong>Female Actor — Limited, Anthology, or TV Movie</strong><span>Film + series</span></div>
               <div class="catalog-item"><strong>Male Actor — Limited, Anthology, or TV Movie</strong><span>Film + series</span></div>
               <div class="catalog-item"><strong>Stand-Up Comedy on Television</strong><span>Film</span></div>
+            </div>
+          </details>
+          <details class="catalog-disclosure">
+            <summary class="catalog-summary">
+              <span class="catalog-summary-mark bafta" aria-hidden="true">B</span>
+              <span class="catalog-summary-copy">
+                <span class="catalog-summary-title" role="heading" aria-level="2">BAFTA Film Awards</span>
+                <span class="catalog-summary-meta">Reviewed current lineages across the official 1949–2026 archive</span>
+              </span>
+              <span class="catalog-count">27 catalogues</span>
+            </summary>
+            <p class="catalog-intro">Twenty-five Film category lineages. Historical British Short Animation and Documentary winners split into film and series catalogues using each work's reviewed media type. One verified 1989 short remains preserved in canonical history but has no compatible IMDb catalogue identity.</p>
+            <div class="catalog-list" aria-label="BAFTA Film catalogue categories">
+              <div class="catalog-item"><strong>Adapted Screenplay</strong><span>1984–2026</span></div>
+              <div class="catalog-item"><strong>Animated Film</strong><span>1955–2026</span></div>
+              <div class="catalog-item"><strong>Best Film</strong><span>1949–2026</span></div>
+              <div class="catalog-item"><strong>British Short Animation</strong><span>Film + series</span></div>
+              <div class="catalog-item"><strong>British Short Film</strong><span>1960–2026</span></div>
+              <div class="catalog-item"><strong>Casting</strong><span>2020–2026</span></div>
+              <div class="catalog-item"><strong>Children’s &amp; Family Film</strong><span>2025–2026</span></div>
+              <div class="catalog-item"><strong>Cinematography</strong><span>1964–2026</span></div>
+              <div class="catalog-item"><strong>Costume Design</strong><span>1965–2026</span></div>
+              <div class="catalog-item"><strong>Director</strong><span>1969–2026</span></div>
+              <div class="catalog-item"><strong>Documentary</strong><span>Film + series</span></div>
+              <div class="catalog-item"><strong>Editing</strong><span>1967–2026</span></div>
+              <div class="catalog-item"><strong>Film Not in the English Language</strong><span>1983–2026</span></div>
+              <div class="catalog-item"><strong>Leading Actor</strong><span>1953–2026</span></div>
+              <div class="catalog-item"><strong>Leading Actress</strong><span>1953–2026</span></div>
+              <div class="catalog-item"><strong>Make Up &amp; Hair</strong><span>1983–2026</span></div>
+              <div class="catalog-item"><strong>Original Score</strong><span>1969–2026</span></div>
+              <div class="catalog-item"><strong>Original Screenplay</strong><span>1984–2026</span></div>
+              <div class="catalog-item"><strong>Outstanding British Film</strong><span>1949–2026</span></div>
+              <div class="catalog-item"><strong>Outstanding Debut</strong><span>1999–2026</span></div>
+              <div class="catalog-item"><strong>Production Design</strong><span>1965–2026</span></div>
+              <div class="catalog-item"><strong>Sound</strong><span>1969–2026</span></div>
+              <div class="catalog-item"><strong>Special Visual Effects</strong><span>1983–2026</span></div>
+              <div class="catalog-item"><strong>Supporting Actor</strong><span>1969–2026</span></div>
+              <div class="catalog-item"><strong>Supporting Actress</strong><span>1969–2026</span></div>
             </div>
           </details>
         </div>

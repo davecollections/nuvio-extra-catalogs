@@ -22,14 +22,16 @@ from enrich_golden_globes_identities import (
     candidate_titles,
     clean_text,
     normalized_title,
-    title_variants,
+    title_variants as shared_title_variants,
     tmdb_json,
 )
 
 
 IDENTITY_MAP_PATH = SOURCE_DIR / "identity-map.json"
+OVERRIDES_PATH = SOURCE_DIR / "identity-overrides.json"
 TOKEN_ENV = "TMDB_API_READ_TOKEN"
 IMDB_TITLE_RE = re.compile(r"tt\d+")
+ALTERNATE_TITLE_RE = re.compile(r"^(?P<title>.+?)\s*\((?P<alternate>[^()]+)\)\s*$")
 CANONICAL_RESULTS_ROOT = ROOT / "data" / "awards"
 
 
@@ -51,6 +53,23 @@ def year_from(value: object) -> int | None:
     if isinstance(value, str) and len(value) >= 4 and value[:4].isdigit():
         return int(value[:4])
     return None
+
+
+def title_variants(value: str) -> list[str]:
+    """Add reviewed BAFTA display-title forms to the shared query variants."""
+    variants = shared_title_variants(value)
+    match = ALTERNATE_TITLE_RE.fullmatch(clean_text(value))
+    if match:
+        for part in (match.group("title"), match.group("alternate")):
+            cleaned = clean_text(part)
+            if cleaned and cleaned not in variants:
+                variants.append(cleaned)
+    for variant in list(variants):
+        if variant.casefold().startswith("the ") and len(variant) > 4:
+            without_article = variant[4:]
+            if without_article not in variants:
+                variants.append(without_article)
+    return variants
 
 
 def allowed_media(entry: dict, candidate: dict) -> bool:
@@ -189,6 +208,7 @@ def enrich_works(
     offset: int,
     limit: int | None,
     retry_candidates: bool,
+    programme: str | None,
 ) -> None:
     token = os.environ.get(TOKEN_ENV)
     if not token:
@@ -196,7 +216,9 @@ def enrich_works(
     pending = [
         entry
         for entry in identity_map["works"]
-        if "resolution" not in entry and (retry_candidates or "candidates" not in entry)
+        if "resolution" not in entry
+        and (programme is None or programme in entry.get("programmes", []))
+        and (retry_candidates or "candidates" not in entry)
     ]
     pending = pending[offset : offset + limit if limit is not None else None]
     results: dict[str, tuple[dict | None, list[dict]]] = {}
@@ -282,6 +304,186 @@ def reuse_canonical_works(identity_map: dict) -> int:
     return reused
 
 
+def load_overrides() -> dict:
+    payload = load_json(OVERRIDES_PATH)
+    if set(payload) != {"schemaVersion", "awardBodyId", "works", "omissions"}:
+        raise IdentityError(f"{OVERRIDES_PATH}: invalid top-level keys")
+    if payload["schemaVersion"] != 1 or payload["awardBodyId"] != "bafta":
+        raise IdentityError(f"{OVERRIDES_PATH}: invalid identity-override contract")
+    if not isinstance(payload["works"], list) or not isinstance(payload["omissions"], list):
+        raise IdentityError(f"{OVERRIDES_PATH}: works and omissions must be arrays")
+    return payload
+
+
+def apply_overrides(identity_map: dict) -> tuple[int, int]:
+    payload = load_overrides()
+    token = os.environ.get(TOKEN_ENV)
+    if any("tmdbId" in override for override in payload["works"]) and not token:
+        raise IdentityError(f"{TOKEN_ENV} is required for --apply-overrides")
+    by_key = {entry["key"]: entry for entry in identity_map["works"]}
+    applied = 0
+    omitted = 0
+    for override in payload["works"]:
+        key = override["key"]
+        entry = by_key.get(key)
+        if entry is None:
+            raise IdentityError(f"{OVERRIDES_PATH}: unknown work key {key!r}")
+        media_type = override["mediaType"]
+        tmdb_id = override.get("tmdbId")
+        if tmdb_id is not None:
+            tmdb_type = "tv" if media_type == "series" else "movie"
+            details = api_json(
+                f"/{tmdb_type}/{tmdb_id}",
+                token,
+                {"append_to_response": "external_ids", "language": "en-US"},
+            )
+            tmdb_imdb_id = details.get("external_ids", {}).get("imdb_id") or details.get(
+                "imdb_id"
+            )
+            override_imdb_id = override.get("imdbId")
+            if tmdb_imdb_id and override_imdb_id and tmdb_imdb_id != override_imdb_id:
+                raise IdentityError(
+                    f"{OVERRIDES_PATH}: IMDb ID for {key} conflicts with TMDB {tmdb_type}/{tmdb_id}"
+                )
+            imdb_id = tmdb_imdb_id or override_imdb_id
+            if not isinstance(imdb_id, str) or not IMDB_TITLE_RE.fullmatch(imdb_id):
+                raise IdentityError(f"TMDB {tmdb_type}/{tmdb_id} has no reviewed IMDb ID")
+            release_value = (
+                details.get("first_air_date")
+                if media_type == "series"
+                else details.get("release_date")
+            )
+            release_year = year_from(release_value)
+            if release_year is None:
+                raise IdentityError(f"TMDB {tmdb_type}/{tmdb_id} has no release year")
+            resolution = {
+                "mediaType": media_type,
+                "title": clean_text(
+                    details.get("name") or details.get("title") or entry["titles"][0]
+                ),
+                "releaseYear": release_year,
+                "tmdbId": tmdb_id,
+                "imdbId": imdb_id,
+                "method": "reviewed-manual-override",
+            }
+        else:
+            resolution = {
+                "mediaType": media_type,
+                "title": clean_text(override.get("title") or entry["titles"][0]),
+                "releaseYear": override["releaseYear"],
+                "imdbId": override["imdbId"],
+                "method": "reviewed-imdb-override",
+            }
+        entry["resolution"] = resolution
+        entry["reviewNote"] = override["reviewNote"]
+        entry.pop("candidates", None)
+        entry.pop("reviewOutcome", None)
+        applied += 1
+    for override in payload["omissions"]:
+        key = override["key"]
+        entry = by_key.get(key)
+        if entry is None:
+            raise IdentityError(f"{OVERRIDES_PATH}: unknown omission key {key!r}")
+        entry.pop("resolution", None)
+        entry.pop("reviewNote", None)
+        entry["reviewOutcome"] = {
+            "disposition": override["disposition"],
+            "reason": override["reviewNote"],
+        }
+        omitted += 1
+    return applied, omitted
+
+
+def validate_overrides(identity_map: dict) -> None:
+    payload = load_overrides()
+    by_key = {entry["key"]: entry for entry in identity_map["works"]}
+    all_keys: set[str] = set()
+    work_keys = [entry.get("key") for entry in payload["works"]]
+    omission_keys = [entry.get("key") for entry in payload["omissions"]]
+    if work_keys != sorted(work_keys) or omission_keys != sorted(omission_keys):
+        raise IdentityError(f"{OVERRIDES_PATH}: works and omissions must be sorted by key")
+    for override in payload["works"]:
+        if set(override) - {
+            "key",
+            "mediaType",
+            "title",
+            "releaseYear",
+            "tmdbId",
+            "imdbId",
+            "reviewNote",
+            "evidenceUrls",
+        }:
+            raise IdentityError(f"{OVERRIDES_PATH}: unsupported work override keys")
+        key = override.get("key")
+        if not isinstance(key, str) or key not in by_key or key in all_keys:
+            raise IdentityError(f"{OVERRIDES_PATH}: invalid or duplicate work key {key!r}")
+        all_keys.add(key)
+        if override.get("mediaType") not in {"movie", "series"}:
+            raise IdentityError(f"{OVERRIDES_PATH}: invalid media type for {key}")
+        tmdb_id = override.get("tmdbId")
+        if tmdb_id is not None and (not isinstance(tmdb_id, int) or tmdb_id <= 0):
+            raise IdentityError(f"{OVERRIDES_PATH}: invalid TMDB ID for {key}")
+        if "imdbId" in override and (
+            not isinstance(override["imdbId"], str)
+            or not IMDB_TITLE_RE.fullmatch(override["imdbId"])
+        ):
+            raise IdentityError(f"{OVERRIDES_PATH}: invalid IMDb ID for {key}")
+        if not isinstance(override.get("reviewNote"), str) or not override["reviewNote"].strip():
+            raise IdentityError(f"{OVERRIDES_PATH}: review note required for {key}")
+        if tmdb_id is None:
+            if "imdbId" not in override:
+                raise IdentityError(f"{OVERRIDES_PATH}: IMDb-only override requires IMDb ID for {key}")
+            if not isinstance(override.get("releaseYear"), int):
+                raise IdentityError(f"{OVERRIDES_PATH}: IMDb-only override requires release year for {key}")
+            evidence_urls = override.get("evidenceUrls")
+            if not isinstance(evidence_urls, list) or not evidence_urls or not all(
+                isinstance(value, str) and value.startswith("https://")
+                for value in evidence_urls
+            ):
+                raise IdentityError(f"{OVERRIDES_PATH}: IMDb-only override requires evidence URLs for {key}")
+        resolution = by_key[key].get("resolution")
+        if not isinstance(resolution, dict) or resolution.get("mediaType") != override["mediaType"]:
+            raise IdentityError(f"{OVERRIDES_PATH}: unapplied work override {key}")
+        expected_method = (
+            "reviewed-manual-override" if tmdb_id is not None else "reviewed-imdb-override"
+        )
+        if resolution.get("method") != expected_method:
+            raise IdentityError(f"{OVERRIDES_PATH}: wrong resolution method for {key}")
+        if tmdb_id is not None and resolution.get("tmdbId") != tmdb_id:
+            raise IdentityError(f"{OVERRIDES_PATH}: stale TMDB resolution for {key}")
+        if tmdb_id is None and (
+            "tmdbId" in resolution
+            or resolution.get("imdbId") != override["imdbId"]
+            or resolution.get("releaseYear") != override["releaseYear"]
+        ):
+            raise IdentityError(f"{OVERRIDES_PATH}: stale IMDb-only resolution for {key}")
+        if by_key[key].get("reviewNote") != override["reviewNote"]:
+            raise IdentityError(f"{OVERRIDES_PATH}: stale review note for {key}")
+    for override in payload["omissions"]:
+        if set(override) != {"key", "disposition", "reviewNote", "evidenceUrls"}:
+            raise IdentityError(f"{OVERRIDES_PATH}: invalid omission keys")
+        key = override.get("key")
+        if not isinstance(key, str) or key not in by_key or key in all_keys:
+            raise IdentityError(f"{OVERRIDES_PATH}: invalid or duplicate omission key {key!r}")
+        all_keys.add(key)
+        if override.get("disposition") != "no-compatible-imdb-identity":
+            raise IdentityError(f"{OVERRIDES_PATH}: invalid omission disposition for {key}")
+        if not isinstance(override.get("reviewNote"), str) or not override["reviewNote"].strip():
+            raise IdentityError(f"{OVERRIDES_PATH}: review note required for {key}")
+        evidence_urls = override.get("evidenceUrls")
+        if not isinstance(evidence_urls, list) or not evidence_urls or not all(
+            isinstance(value, str) and value.startswith("https://") for value in evidence_urls
+        ):
+            raise IdentityError(f"{OVERRIDES_PATH}: evidence URLs required for {key}")
+        if "resolution" in by_key[key]:
+            raise IdentityError(f"{OVERRIDES_PATH}: omitted work is also resolved: {key}")
+        if by_key[key].get("reviewOutcome") != {
+            "disposition": override["disposition"],
+            "reason": override["reviewNote"],
+        }:
+            raise IdentityError(f"{OVERRIDES_PATH}: unapplied omission {key}")
+
+
 def validate_resolution(entry: dict) -> bool:
     resolution = entry.get("resolution")
     if resolution is None:
@@ -296,8 +498,9 @@ def validate_resolution(entry: dict) -> bool:
         raise IdentityError(f"{entry.get('key')}: resolved work has no title")
     if not isinstance(resolution.get("releaseYear"), int):
         raise IdentityError(f"{entry.get('key')}: resolved work has no release year")
-    if not isinstance(resolution.get("tmdbId"), int) or resolution["tmdbId"] <= 0:
-        raise IdentityError(f"{entry.get('key')}: resolved work has no valid TMDB ID")
+    tmdb_id = resolution.get("tmdbId")
+    if tmdb_id is not None and (not isinstance(tmdb_id, int) or tmdb_id <= 0):
+        raise IdentityError(f"{entry.get('key')}: resolved work has invalid TMDB ID")
     if not isinstance(resolution.get("imdbId"), str) or not IMDB_TITLE_RE.fullmatch(
         resolution["imdbId"]
     ):
@@ -353,8 +556,23 @@ def validate_candidates(entry: dict) -> bool:
     return True
 
 
+def validate_review_outcome(entry: dict) -> bool:
+    outcome = entry.get("reviewOutcome")
+    if outcome is None:
+        return False
+    if "resolution" in entry:
+        raise IdentityError(f"{entry.get('key')}: work cannot be resolved and omitted")
+    if not isinstance(outcome, dict) or set(outcome) != {"disposition", "reason"}:
+        raise IdentityError(f"{entry.get('key')}: invalid review outcome")
+    if outcome["disposition"] != "no-compatible-imdb-identity":
+        raise IdentityError(f"{entry.get('key')}: invalid review disposition")
+    if not isinstance(outcome["reason"], str) or not outcome["reason"].strip():
+        raise IdentityError(f"{entry.get('key')}: review outcome requires a reason")
+    return True
+
+
 def validate_map(
-    identity_map: dict, complete: bool, attempted: bool
+    identity_map: dict, complete: bool, attempted: bool, programme: str | None
 ) -> tuple[int, int, int, int]:
     works = identity_map.get("works")
     recipients = identity_map.get("recipients")
@@ -362,6 +580,7 @@ def validate_map(
         raise IdentityError("BAFTA identity map has invalid work or recipient arrays")
     resolved_works = 0
     attempted_works = 0
+    reviewed_outcomes = 0
     tmdb_relationships: dict[tuple[str, int], str] = {}
     imdb_relationships: dict[str, tuple[str, int]] = {}
     for entry in works:
@@ -369,24 +588,48 @@ def validate_map(
             resolved_works += 1
             attempted_works += 1
             resolution = entry["resolution"]
-            tmdb_key = (resolution["mediaType"], resolution["tmdbId"])
-            previous_imdb = tmdb_relationships.get(tmdb_key)
-            if previous_imdb is not None and previous_imdb != resolution["imdbId"]:
-                raise IdentityError(f"{entry.get('key')}: TMDB identity maps to conflicting IMDb IDs")
-            tmdb_relationships[tmdb_key] = resolution["imdbId"]
+            tmdb_id = resolution.get("tmdbId")
+            tmdb_key = (
+                (resolution["mediaType"], tmdb_id) if tmdb_id is not None else None
+            )
+            if tmdb_key is not None:
+                previous_imdb = tmdb_relationships.get(tmdb_key)
+                if previous_imdb is not None and previous_imdb != resolution["imdbId"]:
+                    raise IdentityError(f"{entry.get('key')}: TMDB identity maps to conflicting IMDb IDs")
+                tmdb_relationships[tmdb_key] = resolution["imdbId"]
             previous_tmdb = imdb_relationships.get(resolution["imdbId"])
-            if previous_tmdb is not None and previous_tmdb != tmdb_key:
+            if previous_tmdb is not None and tmdb_key is not None and previous_tmdb != tmdb_key:
                 raise IdentityError(f"{entry.get('key')}: IMDb identity maps to conflicting TMDB IDs")
-            imdb_relationships[resolution["imdbId"]] = tmdb_key
+            if tmdb_key is not None:
+                imdb_relationships[resolution["imdbId"]] = tmdb_key
+        elif validate_review_outcome(entry):
+            reviewed_outcomes += 1
+            attempted_works += 1
         elif validate_candidates(entry):
             attempted_works += 1
     resolved_recipients = sum(
         isinstance(entry.get("resolution"), dict) for entry in recipients
     )
-    if complete and resolved_works != len(works):
-        raise IdentityError(f"{len(works) - resolved_works} work identities remain unresolved")
-    if attempted and attempted_works != len(works):
-        raise IdentityError(f"{len(works) - attempted_works} work identities have not been attempted")
+    scoped_works = [
+        entry
+        for entry in works
+        if programme is None or programme in entry.get("programmes", [])
+    ]
+    scoped_complete = sum(
+        "resolution" in entry or "reviewOutcome" in entry for entry in scoped_works
+    )
+    scoped_attempted = sum(
+        "resolution" in entry or "candidates" in entry for entry in scoped_works
+    )
+    scope_label = programme or "BAFTA"
+    if complete and scoped_complete != len(scoped_works):
+        raise IdentityError(
+            f"{len(scoped_works) - scoped_complete} {scope_label} work identities remain unreviewed"
+        )
+    if attempted and scoped_attempted != len(scoped_works):
+        raise IdentityError(
+            f"{len(scoped_works) - scoped_attempted} {scope_label} work identities have not been attempted"
+        )
     return len(works), resolved_works, len(recipients), resolved_recipients
 
 
@@ -400,6 +643,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--tmdb", action="store_true")
     parser.add_argument("--reuse-canonical", action="store_true")
+    parser.add_argument("--apply-overrides", action="store_true")
     parser.add_argument("--check", action="store_true")
     parser.add_argument("--complete", action="store_true")
     parser.add_argument("--attempted", action="store_true")
@@ -407,14 +651,19 @@ def main() -> int:
     parser.add_argument("--offset", type=int, default=0)
     parser.add_argument("--limit", type=int)
     parser.add_argument("--retry-candidates", action="store_true")
+    parser.add_argument(
+        "--programme", choices=("film", "television", "television-craft")
+    )
     args = parser.parse_args()
-    if not (args.tmdb or args.reuse_canonical or args.check):
-        parser.error("choose --tmdb, --reuse-canonical, or --check")
+    if not (args.tmdb or args.reuse_canonical or args.apply_overrides or args.check):
+        parser.error("choose --tmdb, --reuse-canonical, --apply-overrides, or --check")
     if args.workers < 1 or args.offset < 0 or (args.limit is not None and args.limit < 1):
         parser.error("workers and limit must be positive; offset cannot be negative")
     try:
         identity_map = load_json(IDENTITY_MAP_PATH)
         reused = 0
+        applied = 0
+        omitted = 0
         if args.reuse_canonical:
             reused = reuse_canonical_works(identity_map)
         if args.tmdb:
@@ -424,17 +673,23 @@ def main() -> int:
                 args.offset,
                 args.limit,
                 args.retry_candidates,
+                args.programme,
             )
+        if args.apply_overrides:
+            applied, omitted = apply_overrides(identity_map)
         work_count, resolved_works, recipient_count, resolved_recipients = validate_map(
-            identity_map, args.complete, args.attempted
+            identity_map, args.complete, args.attempted, args.programme
         )
-        if args.tmdb or args.reuse_canonical:
+        if args.apply_overrides or args.check:
+            validate_overrides(identity_map)
+        if args.tmdb or args.reuse_canonical or args.apply_overrides:
             write_map(identity_map)
         print(
             "BAFTA identity map: "
             f"{resolved_works}/{work_count} works resolved; "
             f"{resolved_recipients}/{recipient_count} credited recipients resolved"
-            f"; {reused} existing canonical identities reused."
+            f"; {reused} existing canonical identities reused; "
+            f"{applied} manual overrides and {omitted} reviewed omissions applied."
         )
         return 0
     except (IdentityError, KeyError, OSError, TypeError, ValueError, json.JSONDecodeError) as exc:

@@ -68,8 +68,17 @@ jobs:
       - name: Validate BAFTA reviewed identities
         run: python scripts/enrich_bafta_identities.py --check --attempted
 
+      - name: Require complete BAFTA Film identity review
+        run: python scripts/enrich_bafta_identities.py --check --complete --programme film
+
       - name: Check BAFTA identity review report
         run: python scripts/build_bafta_identity_review.py --check
+
+      - name: Check BAFTA Film canonical import
+        run: python scripts/build_bafta_film_canonical.py --check
+
+      - name: Check BAFTA Film generated outputs
+        run: python scripts/build_bafta_film_outputs.py --check
 
       - name: Check BAFTA category lineage audit inventory
         run: python scripts/build_bafta_lineage_audit.py --check

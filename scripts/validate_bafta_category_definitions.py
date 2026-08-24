@@ -59,8 +59,22 @@ def main() -> None:
     decisions = load_json(DECISIONS_PATH)
     exact_keys(
         definitions,
-        {"schemaVersion", "awardBodyId", "programmes", "sourceOverrides", "workOmissions"},
-        {"schemaVersion", "awardBodyId", "programmes", "sourceOverrides", "workOmissions"},
+        {
+            "schemaVersion",
+            "awardBodyId",
+            "programmes",
+            "sourceOverrides",
+            "workSplits",
+            "workOmissions",
+        },
+        {
+            "schemaVersion",
+            "awardBodyId",
+            "programmes",
+            "sourceOverrides",
+            "workSplits",
+            "workOmissions",
+        },
         "category definitions",
     )
     require(definitions["schemaVersion"] == 1, "category definitions schemaVersion must be 1")
@@ -100,7 +114,13 @@ def main() -> None:
             require(category_id.startswith(f"{programme_id}-"), f"{label}: ID must use programme prefix")
             require(category_id not in all_ids, f"duplicate BAFTA category ID {category_id}")
             require(category["mediaType"] in MEDIA_TYPES, f"{label}: invalid mediaType")
-            expected_media_type = "movie" if programme_id == "film" else "mixed"
+            expected_media_type = (
+                "movie"
+                if programme_id == "film"
+                and category_id
+                not in {"film-british-short-animation", "film-documentary"}
+                else "mixed"
+            )
             require(category["mediaType"] == expected_media_type, f"{label}: unexpected mediaType")
             require(category["recipientKind"] in RECIPIENT_KINDS, f"{label}: invalid recipientKind")
             require(category["workField"] in WORK_FIELDS, f"{label}: invalid workField")
@@ -187,9 +207,71 @@ def main() -> None:
         )
         override_fields[key] = entry["workField"]
 
+    work_splits = definitions["workSplits"]
+    require(isinstance(work_splits, list), "workSplits must be an array")
+    programme_order = {programme_id: index for index, programme_id in enumerate(EXPECTED_PROGRAMMES)}
+    require(
+        [
+            (programme_order.get(entry.get("programme"), 99), int(entry.get("nominationId", "0")))
+            for entry in work_splits
+        ]
+        == sorted(
+            (programme_order.get(entry.get("programme"), 99), int(entry.get("nominationId", "0")))
+            for entry in work_splits
+        ),
+        "workSplits must be sorted by programme and nominationId",
+    )
+    split_values: dict[tuple[str, str], list[str]] = {}
+    for entry in work_splits:
+        exact_keys(
+            entry,
+            {"programme", "nominationId", "sourceValue", "values", "reason"},
+            {"programme", "nominationId", "sourceValue", "values", "reason"},
+            "work split",
+        )
+        programme_id = entry["programme"]
+        nomination_id = entry["nominationId"]
+        require(programme_id in EXPECTED_PROGRAMMES, "work split has unknown programme")
+        require(
+            isinstance(nomination_id, str) and nomination_id.isdigit(),
+            "work split has invalid nominationId",
+        )
+        key = (programme_id, nomination_id)
+        require(key not in split_values, f"duplicate work split: {key}")
+        winner = snapshot_winners.get(key)
+        require(winner is not None, f"work split has unknown nominationId: {key}")
+        category = source_mapping.get((programme_id, winner["category"]))
+        require(category is not None, f"work split is not in an included lineage: {key}")
+        field = override_fields.get(
+            (programme_id, winner["category"], nomination_id),
+            override_fields.get(
+                (programme_id, winner["category"], None), category["workField"]
+            ),
+        )
+        raw_values = [winner["heading"]] if field == "heading" else winner["details"]
+        require(
+            raw_values == [entry["sourceValue"]],
+            f"work split source value does not match the official snapshot: {key}",
+        )
+        values = entry["values"]
+        require(
+            isinstance(values, list)
+            and len(values) >= 2
+            and all(isinstance(value, str) and value.strip() == value for value in values),
+            f"work split requires at least two exact values: {key}",
+        )
+        require(
+            "/".join(values) == entry["sourceValue"],
+            f"work split values do not reconstruct the official source value: {key}",
+        )
+        require(
+            isinstance(entry["reason"], str) and entry["reason"].strip() == entry["reason"],
+            f"work split requires a reason: {key}",
+        )
+        split_values[key] = values
+
     omissions = definitions["workOmissions"]
     require(isinstance(omissions, list), "workOmissions must be an array")
-    programme_order = {programme_id: index for index, programme_id in enumerate(EXPECTED_PROGRAMMES)}
     require(
         [(programme_order.get(entry.get("programme"), 99), int(entry.get("nominationId", "0"))) for entry in omissions]
         == sorted(
@@ -258,17 +340,22 @@ def main() -> None:
                 f"{programme_id}/{winner['nominationId']}: record repeats the credited name and requires an explicit work omission",
             )
             selected += 1
-            work_references += len(values)
+            work_references += len(split_values.get(omission_key, values))
         selected_by_programme[programme_id] = selected
         selected_results += selected
 
     require(len(all_ids) == 75, f"expected 75 stable category IDs, found {len(all_ids)}")
     require(len(source_mapping) == 194, f"expected 194 included source labels, found {len(source_mapping)}")
     require(seen_omissions == omission_keys, "one or more work omissions do not reference selected winner records")
+    require(
+        set(split_values).isdisjoint(omission_keys),
+        "a work split cannot also be a no-work omission",
+    )
     print(
         "BAFTA category definitions are valid: "
         f"{len(all_ids)} categories, {len(source_mapping)} included source labels, "
         f"{selected_results} selected winner records, {work_references} work references, "
+        f"{len(work_splits)} explicit multi-work splits, "
         f"{len(omission_keys)} explicit no-work omissions "
         f"({selected_by_programme['film']} Film, {selected_by_programme['television']} Television, "
         f"{selected_by_programme['television-craft']} Television Craft)."
