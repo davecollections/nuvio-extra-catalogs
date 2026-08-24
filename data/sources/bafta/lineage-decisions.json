@@ -380,10 +380,58 @@
       "expectedHistoricalLabelCount": 95,
       "decisions": [
         {
+          "label": "Actor",
+          "historyPage": "https://www.bafta.org/awards/television/actor-television/",
+          "disposition": "current-lineage",
+          "currentCategory": "Leading Actor"
+        },
+        {
+          "label": "Actress",
+          "historyPage": "https://www.bafta.org/awards/television/actress-television/",
+          "disposition": "current-lineage",
+          "currentCategory": "Leading Actress"
+        },
+        {
           "label": "Alan Clarke Award",
           "historyPage": "https://www.bafta.org/awards/television/alan-clarke-award/",
           "disposition": "excluded",
           "reason": "Person-only contribution award; the official records do not identify associated winning works."
+        },
+        {
+          "label": "Children's Programme - Documentary - Educational",
+          "historyPage": "https://www.bafta.org/awards/television/childrens-programme-documentary-educational/",
+          "disposition": "current-lineage",
+          "currentCategory": "Children's: Non-Scripted"
+        },
+        {
+          "label": "Children's Programme - Factual",
+          "historyPage": "https://www.bafta.org/awards/television/childrens-programme-factual/",
+          "disposition": "current-lineage",
+          "currentCategory": "Children's: Non-Scripted"
+        },
+        {
+          "label": "Comedy - Programme or Series",
+          "historyPage": "https://www.bafta.org/awards/television/comedy-programme-or-series/",
+          "disposition": "current-lineage",
+          "currentCategory": "Scripted Comedy"
+        },
+        {
+          "label": "Comedy Series",
+          "historyPage": "https://www.bafta.org/awards/television/comedy-series/",
+          "disposition": "current-lineage",
+          "currentCategory": "Scripted Comedy"
+        },
+        {
+          "label": "Continuing Drama",
+          "historyPage": "https://www.bafta.org/awards/television/continuing-drama/",
+          "disposition": "current-lineage",
+          "currentCategory": "Soap"
+        },
+        {
+          "label": "Current Events",
+          "historyPage": "https://www.bafta.org/awards/television/current-events/",
+          "disposition": "current-lineage",
+          "currentCategory": "Current Affairs"
         },
         {
           "label": "Dennis Potter Award",
@@ -404,16 +452,118 @@
           "reason": "Person-only contribution award; the official records do not identify associated winning works."
         },
         {
+          "label": "Documentary",
+          "historyPage": "https://www.bafta.org/awards/television/documentary-programme/",
+          "disposition": "current-lineage",
+          "currentCategory": "Single Documentary"
+        },
+        {
+          "label": "Drama Serial",
+          "historyPage": "https://www.bafta.org/awards/television/drama-serial/",
+          "disposition": "current-lineage",
+          "currentCategory": "Limited Drama"
+        },
+        {
           "label": "Factual Personality",
           "historyPage": "https://www.bafta.org/awards/television/factual-personality/",
           "disposition": "excluded",
           "reason": "Person-only performance recognition; every official record identifies a recipient but no associated work."
         },
         {
+          "label": "Factual: Current Affairs",
+          "historyPage": "https://www.bafta.org/awards/television/factual-current-affairs/",
+          "disposition": "current-lineage",
+          "currentCategory": "Current Affairs"
+        },
+        {
+          "label": "Factual: Documentary",
+          "historyPage": "https://www.bafta.org/awards/television/factual-documentary/",
+          "disposition": "current-lineage",
+          "currentCategory": "Single Documentary"
+        },
+        {
+          "label": "Features",
+          "historyPage": "https://www.bafta.org/awards/television/features/",
+          "disposition": "current-lineage",
+          "currentCategory": "Factual Entertainment"
+        },
+        {
+          "label": "Female Performance in a Comedy",
+          "historyPage": "https://www.bafta.org/awards/television/female-performance-in-a-comedy/",
+          "disposition": "current-lineage",
+          "currentCategory": "Actress in a Comedy"
+        },
+        {
+          "label": "Flaherty Documentary Award",
+          "historyPage": "https://www.bafta.org/awards/television/flaherty-documentary-award/",
+          "disposition": "current-lineage",
+          "currentCategory": "Single Documentary"
+        },
+        {
+          "label": "Foreign Television Programme",
+          "historyPage": "https://www.bafta.org/awards/television/foreign-television-programme/",
+          "disposition": "current-lineage",
+          "currentCategory": "International"
+        },
+        {
+          "label": "Huw Wheldon Award For Specialised Programme or Series",
+          "historyPage": "https://www.bafta.org/awards/television/huw-wheldon-award-for-factual-series-or-strand/",
+          "disposition": "current-lineage",
+          "currentCategory": "Specialist Factual"
+        },
+        {
+          "label": "Huw Wheldon Award For Specialist Factual",
+          "historyPage": "https://www.bafta.org/awards/television/huw-wheldon-award-for-specialist-factual/",
+          "disposition": "current-lineage",
+          "currentCategory": "Specialist Factual"
+        },
+        {
+          "label": "Huw Wheldon Award For The Best Arts Programme",
+          "historyPage": "https://www.bafta.org/awards/television/huw-wheldon-award-for-the-best-arts-programme/",
+          "disposition": "current-lineage",
+          "currentCategory": "Specialist Factual"
+        },
+        {
+          "label": "Lew Grade Award For Entertainment Programme or Series",
+          "historyPage": "https://www.bafta.org/awards/television/lew-grade-award-for-entertainment-programme-or-series/",
+          "disposition": "current-lineage",
+          "currentCategory": "Entertainment"
+        },
+        {
+          "label": "Light Entertainment",
+          "historyPage": "https://www.bafta.org/awards/television/light-entertainment/",
+          "disposition": "current-lineage",
+          "currentCategory": "Entertainment"
+        },
+        {
           "label": "Light Entertainment Artist",
           "historyPage": "https://www.bafta.org/awards/television/light-entertainment-artist/",
           "disposition": "excluded",
           "reason": "Person-only performance recognition; every official record identifies a recipient but no associated work."
+        },
+        {
+          "label": "Light Entertainment Performance",
+          "historyPage": "https://www.bafta.org/awards/television/light-entertainment-performance/",
+          "disposition": "current-lineage",
+          "currentCategory": "Entertainment Performance"
+        },
+        {
+          "label": "Live Outside Broadcast Coverage",
+          "historyPage": "https://www.bafta.org/awards/television/live-outside-broadcast-coverage/",
+          "disposition": "current-lineage",
+          "currentCategory": "Live Event Coverage"
+        },
+        {
+          "label": "Male Performance in a Comedy",
+          "historyPage": "https://www.bafta.org/awards/television/male-performance-in-a-comedy/",
+          "disposition": "current-lineage",
+          "currentCategory": "Actor in a Comedy"
+        },
+        {
+          "label": "Mini-Series",
+          "historyPage": "https://www.bafta.org/awards/television/mini-series/",
+          "disposition": "current-lineage",
+          "currentCategory": "Limited Drama"
         },
         {
           "label": "Personality",
@@ -428,10 +578,64 @@
           "reason": "Person-only historical production award; every official record identifies a recipient but no associated work."
         },
         {
+          "label": "Reality & Constructed Factual",
+          "historyPage": "https://www.bafta.org/awards/television/reality-constructed-factual/",
+          "disposition": "current-lineage",
+          "currentCategory": "Reality"
+        },
+        {
           "label": "Richard Dimbleby Award",
           "historyPage": "https://www.bafta.org/awards/television/richard-dimbleby-award/",
           "disposition": "excluded",
           "reason": "Person-only presenter recognition; the official records do not identify associated winning works."
+        },
+        {
+          "label": "Single Drama",
+          "historyPage": "https://www.bafta.org/awards/television/single-drama/",
+          "disposition": "current-lineage",
+          "currentCategory": "Limited Drama"
+        },
+        {
+          "label": "Single Play",
+          "historyPage": "https://www.bafta.org/awards/television/single-play/",
+          "disposition": "current-lineage",
+          "currentCategory": "Limited Drama"
+        },
+        {
+          "label": "Situation Comedy",
+          "historyPage": "https://www.bafta.org/awards/television/situation-comedy/",
+          "disposition": "current-lineage",
+          "currentCategory": "Scripted Comedy"
+        },
+        {
+          "label": "Soap & Continuing Drama",
+          "historyPage": "https://www.bafta.org/awards/television/soap-continuing-drama/",
+          "disposition": "current-lineage",
+          "currentCategory": "Soap"
+        },
+        {
+          "label": "Soap And Continuing Drama",
+          "historyPage": "https://www.bafta.org/awards/television/soap-and-continuing-drama/",
+          "disposition": "current-lineage",
+          "currentCategory": "Soap"
+        },
+        {
+          "label": "Specialised Production",
+          "historyPage": "https://www.bafta.org/awards/television/specialised-production/",
+          "disposition": "current-lineage",
+          "currentCategory": "Specialist Factual"
+        },
+        {
+          "label": "Specialised Programme",
+          "historyPage": "https://www.bafta.org/awards/television/specialised-programme/",
+          "disposition": "current-lineage",
+          "currentCategory": "Specialist Factual"
+        },
+        {
+          "label": "Specialised Series",
+          "historyPage": "https://www.bafta.org/awards/television/specialised-series/",
+          "disposition": "current-lineage",
+          "currentCategory": "Specialist Factual"
         },
         {
           "label": "Writer",
