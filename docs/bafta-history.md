@@ -73,7 +73,7 @@ Every accepted lineage will be exact-label based and independently frozen in out
 
 `data/sources/bafta/category-page-evidence.json` records exact first-party page identities for all 210 historical labels. Every record is tied to an exact winner nomination ID and winner-filtered search result; all 210 resolved with no unresolved page identities.
 
-`data/sources/bafta/lineage-decisions.json` is the fail-closed decision layer. Each evidenced historical page must be mapped to one named current included category or explicitly excluded from this current-lineage milestone. The initial decision pass excludes 15 person-only, scholarship, contribution, or special-recognition pages whose official records never identify an associated winning work. Mixed pages remain pending rather than losing their work-linked results.
+`data/sources/bafta/lineage-decisions.json` is the fail-closed decision layer. Each evidenced historical page must be mapped to one named current included category or explicitly excluded from this current-lineage milestone. A mapping may name another BAFTA programme when a category moved between the Television and Television Craft awards; cross-programme targets are explicit rather than inferred. Mixed pages remain pending rather than losing their work-linked results.
 
 Validate the evidence and incremental decisions with:
 

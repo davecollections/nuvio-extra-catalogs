@@ -95,7 +95,13 @@ def build_report() -> str:
                         state = "excluded historical"
                         priority = 2
                     else:
-                        state = f"mapped to current: {decision['currentCategory']}"
+                        target_programme_id = decision.get("currentProgramme", programme["id"])
+                        target = decision["currentCategory"]
+                        if target_programme_id == programme["id"]:
+                            state = f"mapped to current: {target}"
+                        else:
+                            target_programme = registry_by_id[target_programme_id]["name"]
+                            state = f"mapped to current: {target_programme} — {target}"
                         priority = 2
                 else:
                     state = "history page unresolved"

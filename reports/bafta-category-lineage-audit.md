@@ -7,9 +7,9 @@ Generated from the reviewed BAFTA winner snapshots, complete first-party categor
 | Programme | Winners | Source labels | Current included | Current excluded | Historical evidenced | Historical decided | Pending decisions |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | BAFTA Film Awards | 1,634 | 89 | 25 | 3 | 61 | 61 | 0 |
-| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 95 | 44 | 51 |
+| BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 95 | 95 | 0 |
 | BAFTA Television Craft Awards | 757 | 78 | 23 | 1 | 54 | 1 | 53 |
-| **Total** | **3,911** | **291** | **75** | **6** | **210** | **106** | **104** |
+| **Total** | **3,911** | **291** | **75** | **6** | **210** | **157** | **53** |
 
 ## BAFTA Film Awards
 
@@ -140,18 +140,32 @@ Generated from the reviewed BAFTA winner snapshots, complete first-party categor
 | Special Award | 1957 | 2026 | 60 | excluded current | — |
 | Female Performance in a Comedy | 2010 | 2025 | 16 | mapped to current: Actress in a Comedy | [BAFTA page](https://www.bafta.org/awards/television/female-performance-in-a-comedy/) |
 | Male Performance in a Comedy | 2010 | 2025 | 16 | mapped to current: Actor in a Comedy | [BAFTA page](https://www.bafta.org/awards/television/male-performance-in-a-comedy/) |
+| Comedy Entertainment | 2018 | 2024 | 7 | mapped to current: Entertainment | [BAFTA page](https://www.bafta.org/awards/television/comedy-entertainment/) |
 | Features | 1999 | 2023 | 25 | mapped to current: Factual Entertainment | [BAFTA page](https://www.bafta.org/awards/television/features/) |
 | Mini-Series | 2012 | 2023 | 12 | mapped to current: Limited Drama | [BAFTA page](https://www.bafta.org/awards/television/mini-series/) |
 | Reality & Constructed Factual | 2012 | 2023 | 12 | mapped to current: Reality | [BAFTA page](https://www.bafta.org/awards/television/reality-constructed-factual/) |
 | Single Drama | 1983 | 2023 | 41 | mapped to current: Limited Drama | [BAFTA page](https://www.bafta.org/awards/television/single-drama/) |
 | Soap & Continuing Drama | 2018 | 2023 | 6 | mapped to current: Soap | [BAFTA page](https://www.bafta.org/awards/television/soap-continuing-drama/) |
+| Virgin Media's Must-See Moment | 2019 | 2022 | 4 | mapped to current: P&O Cruises Memorable Moment | [BAFTA page](https://www.bafta.org/awards/television/virgin-medias-must-see-moment/) |
+| Virgin TV's Must See Moment | 2017 | 2018 | 2 | mapped to current: P&O Cruises Memorable Moment | [BAFTA page](https://www.bafta.org/awards/television/virgin-tvs-must-see-moment/) |
+| Comedy and Comedy Entertainment Programme | 2014 | 2017 | 4 | mapped to current: Entertainment | [BAFTA page](https://www.bafta.org/awards/television/comedy-and-comedy-entertainment-programme/) |
 | Soap And Continuing Drama | 2012 | 2017 | 6 | mapped to current: Soap | [BAFTA page](https://www.bafta.org/awards/television/soap-and-continuing-drama/) |
+| Radio Times Audience Award | 2013 | 2016 | 4 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/radio-times-audience-award/) |
+| Sport And Live Event | 2012 | 2015 | 4 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/sport-and-live-events/) |
 | Actor | 1954 | 2014 | 56 | mapped to current: Leading Actor | [BAFTA page](https://www.bafta.org/awards/television/actor-television/) |
 | Actress | 1954 | 2014 | 55 | mapped to current: Leading Actress | [BAFTA page](https://www.bafta.org/awards/television/actress-television/) |
 | Situation Comedy | 1973 | 2014 | 23 | mapped to current: Scripted Comedy | [BAFTA page](https://www.bafta.org/awards/television/situation-comedy/) |
+| Comedy | 1966 | 2013 | 9 | mapped to current: Entertainment | [BAFTA page](https://www.bafta.org/awards/television/comedy/) |
+| New Media | 2010 | 2012 | 3 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/new-media/) |
+| YouTube Audience Award | 2010 | 2012 | 3 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/youtube-audience-award/) |
 | Continuing Drama | 2004 | 2011 | 8 | mapped to current: Soap | [BAFTA page](https://www.bafta.org/awards/television/continuing-drama/) |
 | Drama Serial | 1992 | 2011 | 20 | mapped to current: Limited Drama | [BAFTA page](https://www.bafta.org/awards/television/drama-serial/) |
 | Alan Clarke Award | 1992 | 2009 | 18 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/alan-clarke-award/) |
+| Comedy Performance | 1995 | 2009 | 14 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/comedy-performance/) |
+| Interactivity | 2006 | 2009 | 4 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/interactivity/) |
+| Philips Audience Award | 2009 | 2009 | 1 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/philips-audience-award/) |
+| Sky+ Audience Award | 2008 | 2008 | 1 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/sky-audience-award/) |
+| Pioneer Audience Award | 2006 | 2007 | 2 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/pioneer-audience-award/) |
 | Dennis Potter Award | 1994 | 2006 | 12 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/dennis-potter-award/) |
 | Flaherty Documentary Award | 1984 | 2006 | 32 | mapped to current: Single Documentary | [BAFTA page](https://www.bafta.org/awards/television/flaherty-documentary-award/) |
 | Huw Wheldon Award For Specialist Factual | 2002 | 2006 | 3 | mapped to current: Specialist Factual | [BAFTA page](https://www.bafta.org/awards/television/huw-wheldon-award-for-specialist-factual/) |
@@ -159,80 +173,66 @@ Generated from the reviewed BAFTA winner snapshots, complete first-party categor
 | Richard Dimbleby Award | 1966 | 2006 | 38 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/richard-dimbleby-award/) |
 | Comedy - Programme or Series | 1992 | 2005 | 14 | mapped to current: Scripted Comedy | [BAFTA page](https://www.bafta.org/awards/television/comedy-programme-or-series/) |
 | Huw Wheldon Award For Specialised Programme or Series | 2001 | 2004 | 3 | mapped to current: Specialist Factual | [BAFTA page](https://www.bafta.org/awards/television/huw-wheldon-award-for-factual-series-or-strand/) |
+| Innovation | 2000 | 2002 | 3 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/innovation/) |
+| Richard Dimbleby Award For The Best Presenter - Factual, Features And News | 2000 | 2002 | 3 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/richard-dimbleby-award-for-the-best-presenter-factual-features-and-news/) |
+| Lew Grade Audience Award As Voted By Readers Of The Radio Times | 2000 | 2001 | 2 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/lew-grade-audience-award-as-voted-by-readers-of-the-radio-times/) |
+| News And Current Affairs Journalism | 1993 | 2001 | 6 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/news-and-current-affairs-journalism/) |
 | Huw Wheldon Award For The Best Arts Programme | 1987 | 2000 | 11 | mapped to current: Specialist Factual | [BAFTA page](https://www.bafta.org/awards/television/huw-wheldon-award-for-the-best-arts-programme/) |
 | Light Entertainment | 1957 | 1999 | 44 | mapped to current: Entertainment | [BAFTA page](https://www.bafta.org/awards/television/light-entertainment/) |
 | Light Entertainment Performance | 1965 | 1999 | 31 | mapped to current: Entertainment Performance | [BAFTA page](https://www.bafta.org/awards/television/light-entertainment-performance/) |
 | Live Outside Broadcast Coverage | 1998 | 1999 | 2 | mapped to current: Live Event Coverage | [BAFTA page](https://www.bafta.org/awards/television/live-outside-broadcast-coverage/) |
+| Originality | 1986 | 1999 | 10 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/originality/) |
+| Lew Grade Award For A Significant And Popular Programme | 1995 | 1998 | 4 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/lew-grade-award-for-a-significant-and-popular-programme/) |
+| Children's Programme | 1997 | 1997 | 1 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/childrens-programme/) |
 | Foreign Television Programme | 1963 | 1997 | 23 | mapped to current: International | [BAFTA page](https://www.bafta.org/awards/television/foreign-television-programme/) |
+| Sports/Events Coverage In Real Time | 1995 | 1997 | 3 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/sports-events-coverage-in-real-time/) |
+| Talk Show | 1997 | 1997 | 1 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/talk-show/) |
 | Children's Programme - Factual | 1987 | 1996 | 5 | mapped to current: Children's: Non-Scripted | [BAFTA page](https://www.bafta.org/awards/television/childrens-programme-factual/) |
+| Children's Programme - Fiction or Entertainment | 1992 | 1996 | 4 | mapped to current: Children's: Scripted | [BAFTA page](https://www.bafta.org/awards/television/childrens-programme-fiction-or-entertainment/) |
+| Lloyds Bank People's Vote For The Most Popular Television Programme | 1995 | 1996 | 2 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/lloyds-bank-peoples-vote-for-favourite-tv-programme/) |
+| Original Television Music | 1981 | 1993 | 13 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/original-television-music/) |
 | Writer | 1954 | 1993 | 19 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/writer-television/) |
+| Actuality Coverage | 1978 | 1992 | 9 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/actuality-coverage/) |
+| Arts Programme | 1989 | 1991 | 3 | mapped to current: Specialist Factual | [BAFTA page](https://www.bafta.org/awards/television/arts-programme/) |
 | Children's Programme - Documentary - Educational | 1983 | 1991 | 8 | mapped to current: Children's: Non-Scripted | [BAFTA page](https://www.bafta.org/awards/television/childrens-programme-documentary-educational/) |
+| Children's Programme - Entertainment/Drama | 1983 | 1991 | 9 | mapped to current: Children's: Scripted | [BAFTA page](https://www.bafta.org/awards/television/childrens-programme-entertainment-drama/) |
 | Comedy Series | 1964 | 1991 | 14 | mapped to current: Scripted Comedy | [BAFTA page](https://www.bafta.org/awards/television/comedy-series/) |
 | Desmond Davis Award | 1960 | 1991 | 30 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/desmond-davis-award/) |
+| Drama Series or Serial | 1973 | 1991 | 17 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/drama-series-or-serial/) |
+| News or Outside Broadcast Coverage | 1986 | 1991 | 6 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/news-or-outside-broadcast-coverage/) |
+| Short Animation | 1984 | 1991 | 8 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/short-animated-film-television/) |
+| Programme/Series Without Category | 1980 | 1985 | 6 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/programme-series-without-category/) |
+| Shell International Award | 1966 | 1984 | 19 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/shell-international-award/) |
 | Documentary | 1963 | 1983 | 12 | mapped to current: Single Documentary | [BAFTA page](https://www.bafta.org/awards/television/documentary-programme/) |
+| Design | 1964 | 1982 | 18 | mapped to current: BAFTA Television Craft Awards — Production Design | [BAFTA page](https://www.bafta.org/awards/television/design/) |
+| Rediffusion Star Awards: Flame Of Knowledge | 1970 | 1982 | 13 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/rediffusion-star-awards-flame-of-knowledge/) |
+| Rediffusion Star Awards: Harlequin | 1970 | 1982 | 14 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/rediffusion-star-awards-harlequin/) |
+| Rediffusion Star Awards: Harlequin - Drama/Light Entertainment | 1976 | 1982 | 7 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/rediffusion-star-awards-harlequin-drama-light-entertainment/) |
 | Single Play | 1973 | 1982 | 10 | mapped to current: Limited Drama | [BAFTA page](https://www.bafta.org/awards/television/single-play/) |
+| Most Original Programme/Series | 1979 | 1979 | 1 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/most-original-programme-series/) |
+| Original Programme/Series | 1978 | 1978 | 1 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/original-programme-series/) |
+| Factual | 1957 | 1977 | 17 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/factual/) |
+| Outside Broadcast | 1963 | 1977 | 6 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/outside-broadcast-programe/) |
 | Specialised Programme | 1963 | 1977 | 14 | mapped to current: Specialist Factual | [BAFTA page](https://www.bafta.org/awards/television/specialised-programme/) |
+| Technical Craft Award | 1973 | 1977 | 6 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/technical-craft-award/) |
 | Specialised Series | 1973 | 1976 | 4 | mapped to current: Specialist Factual | [BAFTA page](https://www.bafta.org/awards/television/specialised-series/) |
+| Drama Production | 1957 | 1972 | 16 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/drama/) |
+| Factual Production | 1971 | 1972 | 3 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/factual-production/) |
+| General | 1966 | 1972 | 6 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/general/) |
+| Script | 1960 | 1972 | 7 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/script/) |
 | Specialised Production | 1971 | 1972 | 2 | mapped to current: Specialist Factual | [BAFTA page](https://www.bafta.org/awards/television/specialised-production/) |
+| Mullard Award | 1965 | 1971 | 6 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/mullard-award/) |
 | Factual: Current Affairs | 1970 | 1970 | 1 | mapped to current: Current Affairs | [BAFTA page](https://www.bafta.org/awards/television/factual-current-affairs/) |
 | Factual: Documentary | 1970 | 1970 | 1 | mapped to current: Single Documentary | [BAFTA page](https://www.bafta.org/awards/television/factual-documentary/) |
+| Light Entertainment Personality | 1961 | 1970 | 6 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/light-entertainment-personality/) |
+| Adult Education Award | 1966 | 1967 | 2 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/adult-education-award/) |
+| Scriptwriter | 1956 | 1966 | 10 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/scriptwriter/) |
 | Factual Personality | 1963 | 1965 | 3 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/factual-personality/) |
 | Designer | 1954 | 1963 | 10 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/designer/) |
 | Current Events | 1960 | 1961 | 2 | mapped to current: Current Affairs | [BAFTA page](https://www.bafta.org/awards/television/current-events/) |
 | Light Entertainment Artist | 1957 | 1960 | 4 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/light-entertainment-artist/) |
 | Personality | 1954 | 1960 | 7 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/personality/) |
 | Production | 1954 | 1956 | 3 | excluded historical | [BAFTA page](https://www.bafta.org/awards/television/production/) |
-| Comedy Entertainment | 2018 | 2024 | 7 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/comedy-entertainment/) |
-| Virgin Media's Must-See Moment | 2019 | 2022 | 4 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/virgin-medias-must-see-moment/) |
-| Virgin TV's Must See Moment | 2017 | 2018 | 2 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/virgin-tvs-must-see-moment/) |
-| Comedy and Comedy Entertainment Programme | 2014 | 2017 | 4 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/comedy-and-comedy-entertainment-programme/) |
-| Radio Times Audience Award | 2013 | 2016 | 4 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/radio-times-audience-award/) |
-| Sport And Live Event | 2012 | 2015 | 4 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/sport-and-live-events/) |
-| Comedy | 1966 | 2013 | 9 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/comedy/) |
-| New Media | 2010 | 2012 | 3 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/new-media/) |
-| YouTube Audience Award | 2010 | 2012 | 3 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/youtube-audience-award/) |
-| Comedy Performance | 1995 | 2009 | 14 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/comedy-performance/) |
-| Interactivity | 2006 | 2009 | 4 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/interactivity/) |
-| Philips Audience Award | 2009 | 2009 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/philips-audience-award/) |
-| Sky+ Audience Award | 2008 | 2008 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/sky-audience-award/) |
-| Pioneer Audience Award | 2006 | 2007 | 2 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/pioneer-audience-award/) |
-| Innovation | 2000 | 2002 | 3 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/innovation/) |
-| Richard Dimbleby Award For The Best Presenter - Factual, Features And News | 2000 | 2002 | 3 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/richard-dimbleby-award-for-the-best-presenter-factual-features-and-news/) |
-| Lew Grade Audience Award As Voted By Readers Of The Radio Times | 2000 | 2001 | 2 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/lew-grade-audience-award-as-voted-by-readers-of-the-radio-times/) |
-| News And Current Affairs Journalism | 1993 | 2001 | 6 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/news-and-current-affairs-journalism/) |
-| Originality | 1986 | 1999 | 10 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/originality/) |
-| Lew Grade Award For A Significant And Popular Programme | 1995 | 1998 | 4 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/lew-grade-award-for-a-significant-and-popular-programme/) |
-| Children's Programme | 1997 | 1997 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/childrens-programme/) |
-| Sports/Events Coverage In Real Time | 1995 | 1997 | 3 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/sports-events-coverage-in-real-time/) |
-| Talk Show | 1997 | 1997 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/talk-show/) |
-| Children's Programme - Fiction or Entertainment | 1992 | 1996 | 4 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/childrens-programme-fiction-or-entertainment/) |
-| Lloyds Bank People's Vote For The Most Popular Television Programme | 1995 | 1996 | 2 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/lloyds-bank-peoples-vote-for-favourite-tv-programme/) |
-| Original Television Music | 1981 | 1993 | 13 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/original-television-music/) |
-| Actuality Coverage | 1978 | 1992 | 9 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/actuality-coverage/) |
-| Arts Programme | 1989 | 1991 | 3 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/arts-programme/) |
-| Children's Programme - Entertainment/Drama | 1983 | 1991 | 9 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/childrens-programme-entertainment-drama/) |
-| Drama Series or Serial | 1973 | 1991 | 17 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/drama-series-or-serial/) |
-| News or Outside Broadcast Coverage | 1986 | 1991 | 6 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/news-or-outside-broadcast-coverage/) |
-| Short Animation | 1984 | 1991 | 8 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/short-animated-film-television/) |
-| Programme/Series Without Category | 1980 | 1985 | 6 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/programme-series-without-category/) |
-| Shell International Award | 1966 | 1984 | 19 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/shell-international-award/) |
-| Design | 1964 | 1982 | 18 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/design/) |
-| Rediffusion Star Awards: Flame Of Knowledge | 1970 | 1982 | 13 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/rediffusion-star-awards-flame-of-knowledge/) |
-| Rediffusion Star Awards: Harlequin | 1970 | 1982 | 14 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/rediffusion-star-awards-harlequin/) |
-| Rediffusion Star Awards: Harlequin - Drama/Light Entertainment | 1976 | 1982 | 7 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/rediffusion-star-awards-harlequin-drama-light-entertainment/) |
-| Most Original Programme/Series | 1979 | 1979 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/most-original-programme-series/) |
-| Original Programme/Series | 1978 | 1978 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/original-programme-series/) |
-| Factual | 1957 | 1977 | 17 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/factual/) |
-| Outside Broadcast | 1963 | 1977 | 6 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/outside-broadcast-programe/) |
-| Technical Craft Award | 1973 | 1977 | 6 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/technical-craft-award/) |
-| Drama Production | 1957 | 1972 | 16 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/drama/) |
-| Factual Production | 1971 | 1972 | 3 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/factual-production/) |
-| General | 1966 | 1972 | 6 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/general/) |
-| Script | 1960 | 1972 | 7 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/script/) |
-| Mullard Award | 1965 | 1971 | 6 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/mullard-award/) |
-| Light Entertainment Personality | 1961 | 1970 | 6 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/light-entertainment-personality/) |
-| Adult Education Award | 1966 | 1967 | 2 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/adult-education-award/) |
-| Scriptwriter | 1956 | 1966 | 10 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/television/scriptwriter/) |
 
 ## BAFTA Television Craft Awards
 

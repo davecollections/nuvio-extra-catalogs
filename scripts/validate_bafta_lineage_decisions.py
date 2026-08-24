@@ -76,8 +76,6 @@ def main() -> None:
             and all(entry["status"] == "resolved" for entry in evidence_entries.values()),
             f"{programme_id}: category-page evidence must be complete before lineage decisions",
         )
-        current_included = {entry["name"] for entry in registry_programme["included"]}
-
         entries = programme.get("decisions")
         require(isinstance(entries, list), f"{programme_id}: decisions must be an array")
         require(
@@ -100,9 +98,23 @@ def main() -> None:
 
             if disposition == "current-lineage":
                 target = entry.get("currentCategory")
+                target_programme_id = entry.get("currentProgramme", programme_id)
+                require(
+                    target_programme_id in registry_by_id,
+                    f"{programme_id}: {label} maps to unknown current programme {target_programme_id!r}",
+                )
+                if "currentProgramme" in entry:
+                    require(
+                        target_programme_id != programme_id,
+                        f"{programme_id}: {label} must omit redundant currentProgramme",
+                    )
+                current_included = {
+                    item["name"] for item in registry_by_id[target_programme_id]["included"]
+                }
                 require(
                     target in current_included,
-                    f"{programme_id}: {label} maps to unknown current included category {target!r}",
+                    f"{programme_id}: {label} maps to unknown current included category "
+                    f"{target_programme_id}/{target!r}",
                 )
                 require("reason" not in entry, f"{programme_id}: mapped {label} must not have an exclusion reason")
             else:
@@ -112,12 +124,14 @@ def main() -> None:
                     f"{programme_id}: excluded {label} requires a reason",
                 )
                 require("currentCategory" not in entry, f"{programme_id}: excluded {label} cannot map to a current category")
+                require("currentProgramme" not in entry, f"{programme_id}: excluded {label} cannot map to a current programme")
 
             extra = set(entry) - {
                 "label",
                 "historyPage",
                 "disposition",
                 "currentCategory",
+                "currentProgramme",
                 "reason",
                 "notes",
             }
