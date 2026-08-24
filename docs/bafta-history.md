@@ -73,13 +73,13 @@ Every accepted lineage will be exact-label based and independently frozen in out
 
 `data/sources/bafta/category-page-evidence.json` records exact first-party page identities for all 210 historical labels. Every record is tied to an exact winner nomination ID and winner-filtered search result; all 210 resolved with no unresolved page identities.
 
-`data/sources/bafta/lineage-decisions.json` is the fail-closed decision layer. Each evidenced historical page must be mapped to one named current included category or explicitly excluded from this current-lineage milestone. A mapping may name another BAFTA programme when a category moved between the Television and Television Craft awards; cross-programme targets are explicit rather than inferred. Mixed pages remain pending rather than losing their work-linked results.
+`data/sources/bafta/lineage-decisions.json` is the fail-closed decision layer. Each evidenced historical page must be mapped to one named current included category or explicitly excluded from this current-lineage milestone. A mapping may name another BAFTA programme when a category moved between the Television and Television Craft awards; cross-programme targets are explicit rather than inferred. All 210 historical pages now have final decisions: 119 current-lineage mappings and 91 explicit exclusions. Mixed pages that cross modern branches remain preserved in the source snapshot but are excluded from current-lineage outputs rather than guessed into one branch.
 
-Validate the evidence and incremental decisions with:
+Validate the evidence and completed decisions with:
 
 ```bash
 python scripts/validate_bafta_category_page_evidence.py
-python scripts/validate_bafta_lineage_decisions.py
+python scripts/validate_bafta_lineage_decisions.py --complete
 ```
 
 `reports/bafta-category-lineage-audit.md` is the generated review inventory for all 291 labels, their winner counts, first/last result years, page evidence, and current decision state. Keep it current with:

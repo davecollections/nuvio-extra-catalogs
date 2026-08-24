@@ -44,7 +44,7 @@ def build_report() -> str:
     lines = [
         "# BAFTA category lineage audit",
         "",
-        "Generated from the reviewed BAFTA winner snapshots, complete first-party category-page evidence, and incremental lineage decisions. Historical pages remain fail-closed until they are mapped to one current included category or explicitly excluded from this current-lineage milestone.",
+        "Generated from the reviewed BAFTA winner snapshots, complete first-party category-page evidence, and completed lineage decisions. Historical pages remain fail-closed unless they are mapped to one current included category or explicitly excluded from this current-lineage milestone.",
         "",
         "## Summary",
         "",
@@ -173,7 +173,7 @@ def build_report() -> str:
             "",
             "## Completion contract",
             "",
-            "The category-page evidence gate is complete. The lineage gate is complete only when every `lineage decision pending` row is mapped to one named current included category or explicitly excluded from this current-lineage milestone. Similar wording or adjacent years alone are not sufficient evidence.",
+            "The category-page evidence and lineage-decision gates are complete. Every historical page is mapped to one named current included category or explicitly excluded from this current-lineage milestone. Similar wording or adjacent years alone are not sufficient evidence.",
             "",
         ]
     )

@@ -1,6 +1,6 @@
 # BAFTA category lineage audit
 
-Generated from the reviewed BAFTA winner snapshots, complete first-party category-page evidence, and incremental lineage decisions. Historical pages remain fail-closed until they are mapped to one current included category or explicitly excluded from this current-lineage milestone.
+Generated from the reviewed BAFTA winner snapshots, complete first-party category-page evidence, and completed lineage decisions. Historical pages remain fail-closed unless they are mapped to one current included category or explicitly excluded from this current-lineage milestone.
 
 ## Summary
 
@@ -8,8 +8,8 @@ Generated from the reviewed BAFTA winner snapshots, complete first-party categor
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | BAFTA Film Awards | 1,634 | 89 | 25 | 3 | 61 | 61 | 0 |
 | BAFTA Television Awards | 1,520 | 124 | 27 | 2 | 95 | 95 | 0 |
-| BAFTA Television Craft Awards | 757 | 78 | 23 | 1 | 54 | 1 | 53 |
-| **Total** | **3,911** | **291** | **75** | **6** | **210** | **157** | **53** |
+| BAFTA Television Craft Awards | 757 | 78 | 23 | 1 | 54 | 54 | 0 |
+| **Total** | **3,911** | **291** | **75** | **6** | **210** | **210** | **0** |
 
 ## BAFTA Film Awards
 
@@ -262,61 +262,61 @@ Generated from the reviewed BAFTA winner snapshots, complete first-party categor
 | Writer: Comedy | 2013 | 2026 | 14 | included current | [BAFTA page](https://www.bafta.org/awards/tvcraft/writer-comedy/) |
 | Writer: Drama | 2013 | 2026 | 14 | included current | [BAFTA page](https://www.bafta.org/awards/tvcraft/writer-drama/) |
 | Special Award | 2000 | 2026 | 30 | excluded current | — |
+| Director: Fiction, sponsored by 3 Mills Studios | 2025 | 2025 | 1 | mapped to current: Director: Fiction | [BAFTA page](https://www.bafta.org/awards/tvcraft/director-fiction-sponsored-by-3-mills-studios/) |
+| Emerging Talent: Fiction, sponsored by Sara Putt Associates | 2025 | 2025 | 1 | mapped to current: Emerging Talent: Fiction | [BAFTA page](https://www.bafta.org/awards/tvcraft/emerging-talent-fiction-sponsored-by-sara-putt-associates/) |
+| Entertainment Craft Team, sponsored by Hotcam | 2025 | 2025 | 1 | mapped to current: Entertainment Craft Team | [BAFTA page](https://www.bafta.org/awards/tvcraft/entertainment-craft-team-sponsored-by-hotcam/) |
+| Production Design, sponsored by Microsoft | 2025 | 2025 | 1 | mapped to current: Production Design | [BAFTA page](https://www.bafta.org/awards/tvcraft/production-design-sponsored-by-microsoft/) |
+| Original Music | 1994 | 2022 | 28 | excluded historical | [BAFTA page](https://www.bafta.org/awards/tvcraft/original-music-tvcraft/) |
+| Breakthrough Talent | 2008 | 2020 | 13 | excluded historical | [BAFTA page](https://www.bafta.org/awards/tvcraft/breakthrough-talent/) |
+| Digital Creativity | 2011 | 2017 | 7 | excluded historical | [BAFTA page](https://www.bafta.org/awards/tvcraft/digital-creativity/) |
+| Titles | 2006 | 2015 | 6 | mapped to current: Titles & Graphic Identity | [BAFTA page](https://www.bafta.org/awards/tvcraft/titles/) |
+| Visual Effects And Graphic Design | 2001 | 2013 | 3 | mapped to current: Special, Visual And Graphic Effects | [BAFTA page](https://www.bafta.org/awards/tvcraft/visual-effects-and-graphic-design/) |
+| Director - Fiction/Entertainment | 2009 | 2012 | 4 | mapped to current: Director: Fiction | [BAFTA page](https://www.bafta.org/awards/tvcraft/director-fiction-entertainment/) |
+| Visual Effects | 2003 | 2012 | 10 | mapped to current: Special, Visual And Graphic Effects | [BAFTA page](https://www.bafta.org/awards/tvcraft/visual-effects/) |
+| Writer | 2006 | 2012 | 7 | mapped to current: Writer: Drama | [BAFTA page](https://www.bafta.org/awards/tvcraft/writer-tvcraft/) |
 | BBC Blast and BAFTA Screen-Skills Award | 2010 | 2010 | 1 | excluded historical | [BAFTA page](https://www.bafta.org/awards/tvcraft/bbc-blast-and-bafta-screen-skills-award/) |
-| Director: Fiction, sponsored by 3 Mills Studios | 2025 | 2025 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/director-fiction-sponsored-by-3-mills-studios/) |
-| Emerging Talent: Fiction, sponsored by Sara Putt Associates | 2025 | 2025 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/emerging-talent-fiction-sponsored-by-sara-putt-associates/) |
-| Entertainment Craft Team, sponsored by Hotcam | 2025 | 2025 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/entertainment-craft-team-sponsored-by-hotcam/) |
-| Production Design, sponsored by Microsoft | 2025 | 2025 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/production-design-sponsored-by-microsoft/) |
-| Original Music | 1994 | 2022 | 28 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/original-music-tvcraft/) |
-| Breakthrough Talent | 2008 | 2020 | 13 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/breakthrough-talent/) |
-| Digital Creativity | 2011 | 2017 | 7 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/digital-creativity/) |
-| Titles | 2006 | 2015 | 6 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/titles/) |
-| Visual Effects And Graphic Design | 2001 | 2013 | 3 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/visual-effects-and-graphic-design/) |
-| Director - Fiction/Entertainment | 2009 | 2012 | 4 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/director-fiction-entertainment/) |
-| Visual Effects | 2003 | 2012 | 10 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/visual-effects/) |
-| Writer | 2006 | 2012 | 7 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/writer-tvcraft/) |
-| Editing - Fiction/Entertainment | 1995 | 2010 | 15 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/editing-fiction-entertainment/) |
-| Entertainment Production Team | 2010 | 2010 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/entertainment-production-team/) |
-| Interactive Creative Contribution | 2008 | 2010 | 3 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/interactive-creative-contribution/) |
-| Sound - Fiction/Entertainment | 1994 | 2010 | 14 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/sound-fiction-entertainment/) |
-| Interactive Innovation - Service/Platform | 2008 | 2009 | 2 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/interactive-innovation-service-platform/) |
-| Interactive Innovation - Content | 2008 | 2008 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/interactive-innovation-content/) |
-| Sound - Fiction/Entertainment sponsored by Munro Acoustics | 2008 | 2008 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/sound-fiction-entertainment-sponsored-by-munro-acoustics/) |
-| Breakthrough Talent sponsored by HBO Films | 2006 | 2007 | 2 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/breakthrough-talent-sponsored-by-hbo-films/) |
-| Director | 2007 | 2007 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/director-tvcraft/) |
-| Interactive Innovation | 2006 | 2007 | 2 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/interactive-innovation/) |
-| New Media Developer | 2006 | 2007 | 2 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/new-media-developer/) |
-| Director sponsored by Sony Pictures Television International | 2006 | 2006 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/director-sponsored-by-sony-pictures-television-international/) |
-| Editing Fiction/Entertainment sponsored by Pepper Post Production | 2006 | 2006 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/editing-fiction-entertainment-sponsored-by-pepper-post-production/) |
-| Original Television Music sponsored by Sebastian McLean International | 2006 | 2006 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/original-television-music-sponsored-by-sebastian-mclean-international/) |
-| Photography And Lighting Fiction/Entertainment | 2006 | 2006 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/photography-and-lighting-fiction-entertainment/) |
-| Anthony Asquith Award For New British Composer | 2005 | 2005 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/anthony-asquith-award-for-new-british-composer/) |
-| Graphic Design | 1994 | 2005 | 10 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/graphic-design/) |
-| New Director - Factual | 2001 | 2005 | 5 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/new-director-factual/) |
-| New Director - Fiction | 2001 | 2005 | 5 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/new-director-fiction/) |
-| New Writer | 2001 | 2005 | 5 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/new-writer/) |
-| Sound - Entertainment | 2002 | 2002 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/sound-entertainment/) |
-| Design | 1983 | 2000 | 18 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/design-tvcraft/) |
-| Photography - Fiction/Entertainment | 1999 | 1999 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/photography-fiction-entertainment/) |
-| Film or Video Editor - Factual | 1992 | 1994 | 3 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-or-video-editor-factual/) |
-| Film or Video Editor - Fiction/Entertainment | 1994 | 1994 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-or-video-editor-fiction-entertainment/) |
-| Film or Video Photography - Factual | 1992 | 1994 | 3 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-or-video-photography-factual/) |
-| Film Or Video Photography - Fiction/Entertainment | 1992 | 1994 | 3 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-or-video-photography-fiction/) |
-| Video Lighting | 1981 | 1994 | 14 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/video-lighting/) |
-| Film or Video Editor - Fiction | 1992 | 1993 | 2 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-or-video-editor-fiction/) |
-| Graphics | 1978 | 1993 | 14 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/graphics/) |
-| Film Cameraman | 1978 | 1991 | 14 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-cameraman/) |
-| Film Editor | 1978 | 1991 | 12 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-editor-tvcraft/) |
-| Film Sound | 1978 | 1991 | 13 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-sound/) |
-| Sound Supervisor | 1979 | 1991 | 12 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/sound-supervisor/) |
-| VTR Editor | 1978 | 1991 | 14 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/vtr-editor/) |
-| Video Cameraman | 1983 | 1990 | 6 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/video-cameraman/) |
-| Television Cameraman | 1978 | 1982 | 5 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/tv-cameraman/) |
-| TV Lighting | 1980 | 1980 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/tv-lighting/) |
-| Film Sound - Recordist/Dubbing | 1979 | 1979 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-sound-recordist-dubbing/) |
-| Lighting | 1978 | 1978 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/lighting-tvcraft/) |
-| Special Lighting Effects | 1978 | 1978 | 1 | lineage decision pending | [BAFTA page](https://www.bafta.org/awards/tvcraft/special-lighting-effects/) |
+| Editing - Fiction/Entertainment | 1995 | 2010 | 15 | mapped to current: Editing: Fiction | [BAFTA page](https://www.bafta.org/awards/tvcraft/editing-fiction-entertainment/) |
+| Entertainment Production Team | 2010 | 2010 | 1 | mapped to current: Entertainment Craft Team | [BAFTA page](https://www.bafta.org/awards/tvcraft/entertainment-production-team/) |
+| Interactive Creative Contribution | 2008 | 2010 | 3 | excluded historical | [BAFTA page](https://www.bafta.org/awards/tvcraft/interactive-creative-contribution/) |
+| Sound - Fiction/Entertainment | 1994 | 2010 | 14 | mapped to current: Sound: Fiction | [BAFTA page](https://www.bafta.org/awards/tvcraft/sound-fiction-entertainment/) |
+| Interactive Innovation - Service/Platform | 2008 | 2009 | 2 | excluded historical | [BAFTA page](https://www.bafta.org/awards/tvcraft/interactive-innovation-service-platform/) |
+| Interactive Innovation - Content | 2008 | 2008 | 1 | excluded historical | [BAFTA page](https://www.bafta.org/awards/tvcraft/interactive-innovation-content/) |
+| Sound - Fiction/Entertainment sponsored by Munro Acoustics | 2008 | 2008 | 1 | mapped to current: Sound: Fiction | [BAFTA page](https://www.bafta.org/awards/tvcraft/sound-fiction-entertainment-sponsored-by-munro-acoustics/) |
+| Breakthrough Talent sponsored by HBO Films | 2006 | 2007 | 2 | excluded historical | [BAFTA page](https://www.bafta.org/awards/tvcraft/breakthrough-talent-sponsored-by-hbo-films/) |
+| Director | 2007 | 2007 | 1 | mapped to current: Director: Fiction | [BAFTA page](https://www.bafta.org/awards/tvcraft/director-tvcraft/) |
+| Interactive Innovation | 2006 | 2007 | 2 | excluded historical | [BAFTA page](https://www.bafta.org/awards/tvcraft/interactive-innovation/) |
+| New Media Developer | 2006 | 2007 | 2 | excluded historical | [BAFTA page](https://www.bafta.org/awards/tvcraft/new-media-developer/) |
+| Director sponsored by Sony Pictures Television International | 2006 | 2006 | 1 | mapped to current: Director: Fiction | [BAFTA page](https://www.bafta.org/awards/tvcraft/director-sponsored-by-sony-pictures-television-international/) |
+| Editing Fiction/Entertainment sponsored by Pepper Post Production | 2006 | 2006 | 1 | mapped to current: Editing: Fiction | [BAFTA page](https://www.bafta.org/awards/tvcraft/editing-fiction-entertainment-sponsored-by-pepper-post-production/) |
+| Original Television Music sponsored by Sebastian McLean International | 2006 | 2006 | 1 | excluded historical | [BAFTA page](https://www.bafta.org/awards/tvcraft/original-television-music-sponsored-by-sebastian-mclean-international/) |
+| Photography And Lighting Fiction/Entertainment | 2006 | 2006 | 1 | mapped to current: Photography & Lighting: Fiction | [BAFTA page](https://www.bafta.org/awards/tvcraft/photography-and-lighting-fiction-entertainment/) |
+| Anthony Asquith Award For New British Composer | 2005 | 2005 | 1 | excluded historical | [BAFTA page](https://www.bafta.org/awards/tvcraft/anthony-asquith-award-for-new-british-composer/) |
+| Graphic Design | 1994 | 2005 | 10 | excluded historical | [BAFTA page](https://www.bafta.org/awards/tvcraft/graphic-design/) |
+| New Director - Factual | 2001 | 2005 | 5 | mapped to current: Emerging Talent: Factual | [BAFTA page](https://www.bafta.org/awards/tvcraft/new-director-factual/) |
+| New Director - Fiction | 2001 | 2005 | 5 | mapped to current: Emerging Talent: Fiction | [BAFTA page](https://www.bafta.org/awards/tvcraft/new-director-fiction/) |
+| New Writer | 2001 | 2005 | 5 | mapped to current: Emerging Talent: Fiction | [BAFTA page](https://www.bafta.org/awards/tvcraft/new-writer/) |
+| Sound - Entertainment | 2002 | 2002 | 1 | mapped to current: Sound: Fiction | [BAFTA page](https://www.bafta.org/awards/tvcraft/sound-entertainment/) |
+| Design | 1983 | 2000 | 18 | mapped to current: Production Design | [BAFTA page](https://www.bafta.org/awards/tvcraft/design-tvcraft/) |
+| Photography - Fiction/Entertainment | 1999 | 1999 | 1 | mapped to current: Photography & Lighting: Fiction | [BAFTA page](https://www.bafta.org/awards/tvcraft/photography-fiction-entertainment/) |
+| Film or Video Editor - Factual | 1992 | 1994 | 3 | mapped to current: Editing: Factual | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-or-video-editor-factual/) |
+| Film or Video Editor - Fiction/Entertainment | 1994 | 1994 | 1 | mapped to current: Editing: Fiction | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-or-video-editor-fiction-entertainment/) |
+| Film or Video Photography - Factual | 1992 | 1994 | 3 | mapped to current: Photography: Factual | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-or-video-photography-factual/) |
+| Film Or Video Photography - Fiction/Entertainment | 1992 | 1994 | 3 | mapped to current: Photography & Lighting: Fiction | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-or-video-photography-fiction/) |
+| Video Lighting | 1981 | 1994 | 14 | mapped to current: Photography & Lighting: Fiction | [BAFTA page](https://www.bafta.org/awards/tvcraft/video-lighting/) |
+| Film or Video Editor - Fiction | 1992 | 1993 | 2 | mapped to current: Editing: Fiction | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-or-video-editor-fiction/) |
+| Graphics | 1978 | 1993 | 14 | excluded historical | [BAFTA page](https://www.bafta.org/awards/tvcraft/graphics/) |
+| Film Cameraman | 1978 | 1991 | 14 | excluded historical | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-cameraman/) |
+| Film Editor | 1978 | 1991 | 12 | excluded historical | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-editor-tvcraft/) |
+| Film Sound | 1978 | 1991 | 13 | excluded historical | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-sound/) |
+| Sound Supervisor | 1979 | 1991 | 12 | excluded historical | [BAFTA page](https://www.bafta.org/awards/tvcraft/sound-supervisor/) |
+| VTR Editor | 1978 | 1991 | 14 | excluded historical | [BAFTA page](https://www.bafta.org/awards/tvcraft/vtr-editor/) |
+| Video Cameraman | 1983 | 1990 | 6 | mapped to current: Photography & Lighting: Fiction | [BAFTA page](https://www.bafta.org/awards/tvcraft/video-cameraman/) |
+| Television Cameraman | 1978 | 1982 | 5 | mapped to current: Photography & Lighting: Fiction | [BAFTA page](https://www.bafta.org/awards/tvcraft/tv-cameraman/) |
+| TV Lighting | 1980 | 1980 | 1 | mapped to current: Photography & Lighting: Fiction | [BAFTA page](https://www.bafta.org/awards/tvcraft/tv-lighting/) |
+| Film Sound - Recordist/Dubbing | 1979 | 1979 | 1 | mapped to current: Sound: Fiction | [BAFTA page](https://www.bafta.org/awards/tvcraft/film-sound-recordist-dubbing/) |
+| Lighting | 1978 | 1978 | 1 | mapped to current: Photography & Lighting: Fiction | [BAFTA page](https://www.bafta.org/awards/tvcraft/lighting-tvcraft/) |
+| Special Lighting Effects | 1978 | 1978 | 1 | mapped to current: Photography & Lighting: Fiction | [BAFTA page](https://www.bafta.org/awards/tvcraft/special-lighting-effects/) |
 
 ## Completion contract
 
-The category-page evidence gate is complete. The lineage gate is complete only when every `lineage decision pending` row is mapped to one named current included category or explicitly excluded from this current-lineage milestone. Similar wording or adjacent years alone are not sufficient evidence.
+The category-page evidence and lineage-decision gates are complete. Every historical page is mapped to one named current included category or explicitly excluded from this current-lineage milestone. Similar wording or adjacent years alone are not sufficient evidence.

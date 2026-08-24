@@ -959,10 +959,335 @@
       "expectedHistoricalLabelCount": 54,
       "decisions": [
         {
+          "label": "Anthony Asquith Award For New British Composer",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/anthony-asquith-award-for-new-british-composer/",
+          "disposition": "excluded",
+          "reason": "Discontinued composer-specific newcomer award with no current Television Craft counterpart."
+        },
+        {
           "label": "BBC Blast and BAFTA Screen-Skills Award",
           "historyPage": "https://www.bafta.org/awards/tvcraft/bbc-blast-and-bafta-screen-skills-award/",
           "disposition": "excluded",
           "reason": "Person-only skills award; the official record does not identify an associated winning work."
+        },
+        {
+          "label": "Breakthrough Talent",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/breakthrough-talent/",
+          "disposition": "excluded",
+          "reason": "Generic historical emerging-talent category contains both factual and fiction work and cannot be assigned authoritatively to one current branch."
+        },
+        {
+          "label": "Breakthrough Talent sponsored by HBO Films",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/breakthrough-talent-sponsored-by-hbo-films/",
+          "disposition": "excluded",
+          "reason": "Sponsored form of the generic emerging-talent category contains both factual and fiction work and cannot be assigned authoritatively to one current branch."
+        },
+        {
+          "label": "Design",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/design-tvcraft/",
+          "disposition": "current-lineage",
+          "currentCategory": "Production Design"
+        },
+        {
+          "label": "Digital Creativity",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/digital-creativity/",
+          "disposition": "excluded",
+          "reason": "Discontinued interactive and online companion-content category with no current Television Craft counterpart."
+        },
+        {
+          "label": "Director",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/director-tvcraft/",
+          "disposition": "current-lineage",
+          "currentCategory": "Director: Fiction",
+          "notes": "The sole official winner is the fiction work Soundproof, immediately before the current fiction-labelled page begins."
+        },
+        {
+          "label": "Director - Fiction/Entertainment",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/director-fiction-entertainment/",
+          "disposition": "current-lineage",
+          "currentCategory": "Director: Fiction"
+        },
+        {
+          "label": "Director sponsored by Sony Pictures Television International",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/director-sponsored-by-sony-pictures-television-international/",
+          "disposition": "current-lineage",
+          "currentCategory": "Director: Fiction",
+          "notes": "The sole official winner is the fiction work Much Ado About Nothing, immediately before the current fiction-labelled page begins."
+        },
+        {
+          "label": "Director: Fiction, sponsored by 3 Mills Studios",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/director-fiction-sponsored-by-3-mills-studios/",
+          "disposition": "current-lineage",
+          "currentCategory": "Director: Fiction"
+        },
+        {
+          "label": "Editing - Fiction/Entertainment",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/editing-fiction-entertainment/",
+          "disposition": "current-lineage",
+          "currentCategory": "Editing: Fiction"
+        },
+        {
+          "label": "Editing Fiction/Entertainment sponsored by Pepper Post Production",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/editing-fiction-entertainment-sponsored-by-pepper-post-production/",
+          "disposition": "current-lineage",
+          "currentCategory": "Editing: Fiction"
+        },
+        {
+          "label": "Emerging Talent: Fiction, sponsored by Sara Putt Associates",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/emerging-talent-fiction-sponsored-by-sara-putt-associates/",
+          "disposition": "current-lineage",
+          "currentCategory": "Emerging Talent: Fiction"
+        },
+        {
+          "label": "Entertainment Craft Team, sponsored by Hotcam",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/entertainment-craft-team-sponsored-by-hotcam/",
+          "disposition": "current-lineage",
+          "currentCategory": "Entertainment Craft Team"
+        },
+        {
+          "label": "Entertainment Production Team",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/entertainment-production-team/",
+          "disposition": "current-lineage",
+          "currentCategory": "Entertainment Craft Team"
+        },
+        {
+          "label": "Film Cameraman",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-cameraman/",
+          "disposition": "excluded",
+          "reason": "Historical medium-based photography category contains both factual and fiction work and cannot be assigned authoritatively to one current branch."
+        },
+        {
+          "label": "Film Editor",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-editor-tvcraft/",
+          "disposition": "excluded",
+          "reason": "Historical medium-based editing category predates the factual and fiction split and cannot be assigned authoritatively to one current branch."
+        },
+        {
+          "label": "Film or Video Editor - Factual",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-or-video-editor-factual/",
+          "disposition": "current-lineage",
+          "currentCategory": "Editing: Factual"
+        },
+        {
+          "label": "Film or Video Editor - Fiction",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-or-video-editor-fiction/",
+          "disposition": "current-lineage",
+          "currentCategory": "Editing: Fiction"
+        },
+        {
+          "label": "Film or Video Editor - Fiction/Entertainment",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-or-video-editor-fiction-entertainment/",
+          "disposition": "current-lineage",
+          "currentCategory": "Editing: Fiction"
+        },
+        {
+          "label": "Film or Video Photography - Factual",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-or-video-photography-factual/",
+          "disposition": "current-lineage",
+          "currentCategory": "Photography: Factual"
+        },
+        {
+          "label": "Film Or Video Photography - Fiction/Entertainment",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-or-video-photography-fiction/",
+          "disposition": "current-lineage",
+          "currentCategory": "Photography & Lighting: Fiction"
+        },
+        {
+          "label": "Film Sound",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-sound/",
+          "disposition": "excluded",
+          "reason": "Historical medium-based sound category contains both factual and fiction work and cannot be assigned authoritatively to one current branch."
+        },
+        {
+          "label": "Film Sound - Recordist/Dubbing",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-sound-recordist-dubbing/",
+          "disposition": "current-lineage",
+          "currentCategory": "Sound: Fiction",
+          "notes": "The sole official winner is the fiction production Schubert."
+        },
+        {
+          "label": "Graphic Design",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/graphic-design/",
+          "disposition": "excluded",
+          "reason": "Historical graphic-design category contains titles, channel identity, and visual-effects work and cannot be assigned authoritatively to one current branch."
+        },
+        {
+          "label": "Graphics",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/graphics/",
+          "disposition": "excluded",
+          "reason": "Historical graphics category contains titles, channel identity, and visual-effects work and cannot be assigned authoritatively to one current branch."
+        },
+        {
+          "label": "Interactive Creative Contribution",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/interactive-creative-contribution/",
+          "disposition": "excluded",
+          "reason": "Discontinued interactive companion-content category with no current Television Craft counterpart."
+        },
+        {
+          "label": "Interactive Innovation",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/interactive-innovation/",
+          "disposition": "excluded",
+          "reason": "Discontinued interactive category with no current Television Craft counterpart."
+        },
+        {
+          "label": "Interactive Innovation - Content",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/interactive-innovation-content/",
+          "disposition": "excluded",
+          "reason": "Discontinued interactive-content category with no current Television Craft counterpart."
+        },
+        {
+          "label": "Interactive Innovation - Service/Platform",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/interactive-innovation-service-platform/",
+          "disposition": "excluded",
+          "reason": "Discontinued service-and-platform category with no current Television Craft counterpart."
+        },
+        {
+          "label": "Lighting",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/lighting-tvcraft/",
+          "disposition": "current-lineage",
+          "currentCategory": "Photography & Lighting: Fiction"
+        },
+        {
+          "label": "New Director - Factual",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/new-director-factual/",
+          "disposition": "current-lineage",
+          "currentCategory": "Emerging Talent: Factual"
+        },
+        {
+          "label": "New Director - Fiction",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/new-director-fiction/",
+          "disposition": "current-lineage",
+          "currentCategory": "Emerging Talent: Fiction"
+        },
+        {
+          "label": "New Media Developer",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/new-media-developer/",
+          "disposition": "excluded",
+          "reason": "Discontinued interactive-development category with no current Television Craft counterpart."
+        },
+        {
+          "label": "New Writer",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/new-writer/",
+          "disposition": "current-lineage",
+          "currentCategory": "Emerging Talent: Fiction",
+          "notes": "All five official winners are writers of fiction works."
+        },
+        {
+          "label": "Original Music",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/original-music-tvcraft/",
+          "disposition": "excluded",
+          "reason": "Generic historical music category contains factual and fiction work and cannot be assigned authoritatively to either current Original Music branch."
+        },
+        {
+          "label": "Original Television Music sponsored by Sebastian McLean International",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/original-television-music-sponsored-by-sebastian-mclean-international/",
+          "disposition": "excluded",
+          "reason": "Sponsored form of the generic historical music category predates the factual and fiction split and cannot establish a separate current lineage."
+        },
+        {
+          "label": "Photography - Fiction/Entertainment",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/photography-fiction-entertainment/",
+          "disposition": "current-lineage",
+          "currentCategory": "Photography & Lighting: Fiction"
+        },
+        {
+          "label": "Photography And Lighting Fiction/Entertainment",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/photography-and-lighting-fiction-entertainment/",
+          "disposition": "current-lineage",
+          "currentCategory": "Photography & Lighting: Fiction"
+        },
+        {
+          "label": "Production Design, sponsored by Microsoft",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/production-design-sponsored-by-microsoft/",
+          "disposition": "current-lineage",
+          "currentCategory": "Production Design"
+        },
+        {
+          "label": "Sound - Entertainment",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/sound-entertainment/",
+          "disposition": "current-lineage",
+          "currentCategory": "Sound: Fiction",
+          "notes": "The sole official winner is the fiction series Clocking Off."
+        },
+        {
+          "label": "Sound - Fiction/Entertainment",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/sound-fiction-entertainment/",
+          "disposition": "current-lineage",
+          "currentCategory": "Sound: Fiction"
+        },
+        {
+          "label": "Sound - Fiction/Entertainment sponsored by Munro Acoustics",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/sound-fiction-entertainment-sponsored-by-munro-acoustics/",
+          "disposition": "current-lineage",
+          "currentCategory": "Sound: Fiction"
+        },
+        {
+          "label": "Sound Supervisor",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/sound-supervisor/",
+          "disposition": "excluded",
+          "reason": "Historical sound-supervision category contains fiction, entertainment, and live-performance work and cannot be assigned authoritatively to one current branch."
+        },
+        {
+          "label": "Special Lighting Effects",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/special-lighting-effects/",
+          "disposition": "current-lineage",
+          "currentCategory": "Photography & Lighting: Fiction",
+          "notes": "The sole official winner is lighting work for the fiction series Rock Follies of '77."
+        },
+        {
+          "label": "Television Cameraman",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/tv-cameraman/",
+          "disposition": "current-lineage",
+          "currentCategory": "Photography & Lighting: Fiction"
+        },
+        {
+          "label": "Titles",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/titles/",
+          "disposition": "current-lineage",
+          "currentCategory": "Titles & Graphic Identity"
+        },
+        {
+          "label": "TV Lighting",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/tv-lighting/",
+          "disposition": "current-lineage",
+          "currentCategory": "Photography & Lighting: Fiction"
+        },
+        {
+          "label": "Video Cameraman",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/video-cameraman/",
+          "disposition": "current-lineage",
+          "currentCategory": "Photography & Lighting: Fiction"
+        },
+        {
+          "label": "Video Lighting",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/video-lighting/",
+          "disposition": "current-lineage",
+          "currentCategory": "Photography & Lighting: Fiction"
+        },
+        {
+          "label": "Visual Effects",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/visual-effects/",
+          "disposition": "current-lineage",
+          "currentCategory": "Special, Visual And Graphic Effects"
+        },
+        {
+          "label": "Visual Effects And Graphic Design",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/visual-effects-and-graphic-design/",
+          "disposition": "current-lineage",
+          "currentCategory": "Special, Visual And Graphic Effects"
+        },
+        {
+          "label": "VTR Editor",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/vtr-editor/",
+          "disposition": "excluded",
+          "reason": "Historical medium-based editing category contains fiction, entertainment, and factual work and cannot be assigned authoritatively to one current branch."
+        },
+        {
+          "label": "Writer",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/writer-tvcraft/",
+          "disposition": "current-lineage",
+          "currentCategory": "Writer: Drama",
+          "notes": "All seven official winners are writers of drama works immediately before the current Writer: Drama page begins."
         }
       ]
     }

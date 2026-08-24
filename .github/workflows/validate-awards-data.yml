@@ -57,7 +57,7 @@ jobs:
         run: python scripts/validate_bafta_category_page_evidence.py
 
       - name: Validate BAFTA lineage decisions
-        run: python scripts/validate_bafta_lineage_decisions.py
+        run: python scripts/validate_bafta_lineage_decisions.py --complete
 
       - name: Check BAFTA category lineage audit inventory
         run: python scripts/build_bafta_lineage_audit.py --check
