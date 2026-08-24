@@ -96,6 +96,13 @@ Validate the registry, every accepted source label, all selected work references
 python scripts/validate_bafta_category_definitions.py
 ```
 
+`data/sources/bafta/identity-map.json` is the deterministic, initially unresolved identity inventory for the 2,860 selected results. It currently contains 1,984 unique work candidates and 3,812 credited-recipient strings, retaining exact nomination IDs, programmes, category IDs, years, title/name variants, credit roles, and canonical media scope. Generic team labels are nomination-scoped so unrelated production teams cannot collapse into one identity. Regenerate or verify the inventory offline with:
+
+```bash
+python scripts/build_bafta_identity_seed.py --write
+python scripts/build_bafta_identity_seed.py --check
+```
+
 ## Movie and series classification
 
 Film results are expected to produce movie outputs. Television and Television Craft results may refer to continuing series, limited series, television movies, documentaries, specials, episodes, or individual programmes. The official programme name does not by itself decide Stremio media type.

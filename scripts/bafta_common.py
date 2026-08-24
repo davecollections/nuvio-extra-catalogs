@@ -1,0 +1,97 @@
+"""Shared deterministic BAFTA source-selection helpers."""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+from typing import Iterator
+
+from enrich_golden_globes_identities import clean_text, normalized_title
+
+
+ROOT = Path(__file__).resolve().parents[1]
+SOURCE_DIR = ROOT / "data" / "sources" / "bafta"
+DEFINITIONS_PATH = SOURCE_DIR / "category-definitions.json"
+DECISIONS_PATH = SOURCE_DIR / "lineage-decisions.json"
+SNAPSHOTS = {
+    "film": SOURCE_DIR / "winners-film.json",
+    "television": SOURCE_DIR / "winners-television.json",
+    "television-craft": SOURCE_DIR / "winners-television-craft.json",
+}
+
+
+def load_json(path: Path) -> dict:
+    value = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(value, dict):
+        raise ValueError(f"{path}: expected a JSON object")
+    return value
+
+
+def load_category_contract() -> tuple[
+    dict,
+    dict[tuple[str, str], dict],
+    dict[tuple[str, str], str],
+    set[tuple[str, str]],
+]:
+    definitions = load_json(DEFINITIONS_PATH)
+    decisions = load_json(DECISIONS_PATH)
+    categories_by_programme = {
+        programme["id"]: {category["name"]: category for category in programme["categories"]}
+        for programme in definitions["programmes"]
+    }
+    source_mapping: dict[tuple[str, str], dict] = {}
+    for programme_id, categories in categories_by_programme.items():
+        for name, category in categories.items():
+            source_mapping[(programme_id, name)] = category
+    for programme in decisions["programmes"]:
+        programme_id = programme["id"]
+        for decision in programme["decisions"]:
+            if decision["disposition"] != "current-lineage":
+                continue
+            target_programme = decision.get("currentProgramme", programme_id)
+            source_mapping[(programme_id, decision["label"])] = categories_by_programme[
+                target_programme
+            ][decision["currentCategory"]]
+    overrides = {
+        (entry["programme"], entry["label"]): entry["workField"]
+        for entry in definitions["sourceOverrides"]
+    }
+    omissions = {
+        (entry["programme"], entry["nominationId"])
+        for entry in definitions["workOmissions"]
+    }
+    return definitions, source_mapping, overrides, omissions
+
+
+def selected_winners() -> Iterator[dict]:
+    _, source_mapping, overrides, omissions = load_category_contract()
+    for programme_id, snapshot_path in SNAPSHOTS.items():
+        snapshot = load_json(snapshot_path)
+        for winner in snapshot["winners"]:
+            source_key = (programme_id, winner["category"])
+            category = source_mapping.get(source_key)
+            if category is None or (programme_id, winner["nominationId"]) in omissions:
+                continue
+            work_field = overrides.get(source_key, category["workField"])
+            work_values = [winner["heading"]] if work_field == "heading" else winner["details"]
+            if len(work_values) != 1:
+                raise ValueError(
+                    f"{programme_id}/{winner['nominationId']}: expected exactly one work reference"
+                )
+            recipient_values = winner["details"] if work_field == "heading" else [winner["heading"]]
+            yield {
+                "programme": programme_id,
+                "category": category,
+                "sourceCategory": winner["category"],
+                "nominationId": winner["nominationId"],
+                "year": winner["year"],
+                "workTitle": clean_text(work_values[0]),
+                "recipientValues": [clean_text(value) for value in recipient_values],
+            }
+
+
+def work_key(entry: dict) -> str:
+    title = normalized_title(entry["workTitle"])
+    if entry["category"]["mediaType"] == "movie":
+        return f"movie:{title}:{entry['year']}"
+    return f"television:{title}"

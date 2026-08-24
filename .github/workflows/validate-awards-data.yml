@@ -62,6 +62,9 @@ jobs:
       - name: Validate BAFTA category definitions
         run: python scripts/validate_bafta_category_definitions.py
 
+      - name: Check BAFTA identity inventory
+        run: python scripts/build_bafta_identity_seed.py --check
+
       - name: Check BAFTA category lineage audit inventory
         run: python scripts/build_bafta_lineage_audit.py --check
 
