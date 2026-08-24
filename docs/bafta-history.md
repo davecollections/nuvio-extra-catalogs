@@ -88,6 +88,12 @@ python scripts/validate_bafta_lineage_decisions.py --complete
 python scripts/build_bafta_lineage_audit.py --check
 ```
 
+`data/sources/bafta/category-definitions.json` freezes the 75 accepted current categories into stable local IDs and records the source programme, canonical media scope, recipient kind, credit role, and deterministic work field. It maps the 75 current labels plus 119 accepted historical labels to 2,886 selected winner records. Five explicit source overrides cover historical Television Craft pages whose heading/detail layout differs from the current category page. Validate the registry, every accepted source label, and all selected work references with:
+
+```bash
+python scripts/validate_bafta_category_definitions.py
+```
+
 ## Movie and series classification
 
 Film results are expected to produce movie outputs. Television and Television Craft results may refer to continuing series, limited series, television movies, documentaries, specials, episodes, or individual programmes. The official programme name does not by itself decide Stremio media type.

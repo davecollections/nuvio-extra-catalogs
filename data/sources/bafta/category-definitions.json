@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "awardBodyId": "bafta",
+  "programmes": [
+    {
+      "id": "film",
+      "categories": [
+        {"id":"film-adapted-screenplay","name":"Adapted Screenplay","mediaType":"movie","recipientKind":"team","creditRole":"writer","workField":"heading"},
+        {"id":"film-animated-film","name":"Animated Film","mediaType":"movie","recipientKind":"work","workField":"heading"},
+        {"id":"film-best-film","name":"Best Film","mediaType":"movie","recipientKind":"work","workField":"heading"},
+        {"id":"film-british-short-animation","name":"British Short Animation","mediaType":"movie","recipientKind":"work","workField":"heading"},
+        {"id":"film-british-short-film","name":"British Short Film","mediaType":"movie","recipientKind":"work","workField":"heading"},
+        {"id":"film-casting","name":"Casting","mediaType":"movie","recipientKind":"team","creditRole":"other","workField":"heading"},
+        {"id":"film-childrens-family-film","name":"Children’s & Family Film","mediaType":"movie","recipientKind":"work","workField":"heading"},
+        {"id":"film-cinematography","name":"Cinematography","mediaType":"movie","recipientKind":"team","creditRole":"cinematographer","workField":"heading"},
+        {"id":"film-costume-design","name":"Costume Design","mediaType":"movie","recipientKind":"team","creditRole":"other","workField":"heading"},
+        {"id":"film-director","name":"Director","mediaType":"movie","recipientKind":"person","creditRole":"director","workField":"details"},
+        {"id":"film-documentary","name":"Documentary","mediaType":"movie","recipientKind":"work","workField":"heading"},
+        {"id":"film-editing","name":"Editing","mediaType":"movie","recipientKind":"team","creditRole":"editor","workField":"heading"},
+        {"id":"film-film-not-english-language","name":"Film Not in the English Language","mediaType":"movie","recipientKind":"work","workField":"heading"},
+        {"id":"film-leading-actor","name":"Leading Actor","mediaType":"movie","recipientKind":"person","creditRole":"actor","workField":"details"},
+        {"id":"film-leading-actress","name":"Leading Actress","mediaType":"movie","recipientKind":"person","creditRole":"actor","workField":"details"},
+        {"id":"film-make-up-hair","name":"Make Up & Hair","mediaType":"movie","recipientKind":"team","creditRole":"other","workField":"heading"},
+        {"id":"film-original-score","name":"Original Score","mediaType":"movie","recipientKind":"team","creditRole":"composer","workField":"heading"},
+        {"id":"film-original-screenplay","name":"Original Screenplay","mediaType":"movie","recipientKind":"team","creditRole":"writer","workField":"heading"},
+        {"id":"film-outstanding-british-film","name":"Outstanding British Film","mediaType":"movie","recipientKind":"work","workField":"heading"},
+        {"id":"film-outstanding-debut","name":"Outstanding Debut By A British Writer, Director or Producer","mediaType":"movie","recipientKind":"team","creditRole":"other","workField":"heading"},
+        {"id":"film-production-design","name":"Production Design","mediaType":"movie","recipientKind":"team","creditRole":"other","workField":"heading"},
+        {"id":"film-sound","name":"Sound","mediaType":"movie","recipientKind":"team","creditRole":"other","workField":"heading"},
+        {"id":"film-special-visual-effects","name":"Special Visual Effects","mediaType":"movie","recipientKind":"team","creditRole":"other","workField":"heading"},
+        {"id":"film-supporting-actor","name":"Supporting Actor","mediaType":"movie","recipientKind":"person","creditRole":"actor","workField":"details"},
+        {"id":"film-supporting-actress","name":"Supporting Actress","mediaType":"movie","recipientKind":"person","creditRole":"actor","workField":"details"}
+      ]
+    },
+    {
+      "id": "television",
+      "categories": [
+        {"id":"television-actor-comedy","name":"Actor in a Comedy","mediaType":"mixed","recipientKind":"person","creditRole":"actor","workField":"details"},
+        {"id":"television-actress-comedy","name":"Actress in a Comedy","mediaType":"mixed","recipientKind":"person","creditRole":"actor","workField":"details"},
+        {"id":"television-childrens-non-scripted","name":"Children's: Non-Scripted","mediaType":"mixed","recipientKind":"work","workField":"heading"},
+        {"id":"television-childrens-scripted","name":"Children's: Scripted","mediaType":"mixed","recipientKind":"work","workField":"heading"},
+        {"id":"television-current-affairs","name":"Current Affairs","mediaType":"mixed","recipientKind":"work","workField":"heading"},
+        {"id":"television-daytime","name":"Daytime","mediaType":"mixed","recipientKind":"work","workField":"heading"},
+        {"id":"television-drama-series","name":"Drama Series","mediaType":"mixed","recipientKind":"work","workField":"heading"},
+        {"id":"television-entertainment","name":"Entertainment","mediaType":"mixed","recipientKind":"work","workField":"heading"},
+        {"id":"television-entertainment-performance","name":"Entertainment Performance","mediaType":"mixed","recipientKind":"person","creditRole":"actor","workField":"details"},
+        {"id":"television-factual-entertainment","name":"Factual Entertainment","mediaType":"mixed","recipientKind":"work","workField":"heading"},
+        {"id":"television-factual-series","name":"Factual Series","mediaType":"mixed","recipientKind":"work","workField":"heading"},
+        {"id":"television-international","name":"International","mediaType":"mixed","recipientKind":"work","workField":"heading"},
+        {"id":"television-leading-actor","name":"Leading Actor","mediaType":"mixed","recipientKind":"person","creditRole":"actor","workField":"details"},
+        {"id":"television-leading-actress","name":"Leading Actress","mediaType":"mixed","recipientKind":"person","creditRole":"actor","workField":"details"},
+        {"id":"television-limited-drama","name":"Limited Drama","mediaType":"mixed","recipientKind":"work","workField":"heading"},
+        {"id":"television-live-event-coverage","name":"Live Event Coverage","mediaType":"mixed","recipientKind":"work","workField":"heading"},
+        {"id":"television-news-coverage","name":"News Coverage","mediaType":"mixed","recipientKind":"work","workField":"heading"},
+        {"id":"television-memorable-moment","name":"P&O Cruises Memorable Moment","mediaType":"mixed","recipientKind":"work","workField":"heading"},
+        {"id":"television-reality","name":"Reality","mediaType":"mixed","recipientKind":"work","workField":"heading"},
+        {"id":"television-scripted-comedy","name":"Scripted Comedy","mediaType":"mixed","recipientKind":"work","workField":"heading"},
+        {"id":"television-short-form","name":"Short Form","mediaType":"mixed","recipientKind":"work","workField":"heading"},
+        {"id":"television-single-documentary","name":"Single Documentary","mediaType":"mixed","recipientKind":"work","workField":"heading"},
+        {"id":"television-soap","name":"Soap","mediaType":"mixed","recipientKind":"work","workField":"heading"},
+        {"id":"television-specialist-factual","name":"Specialist Factual","mediaType":"mixed","recipientKind":"work","workField":"heading"},
+        {"id":"television-sports-coverage","name":"Sports Coverage","mediaType":"mixed","recipientKind":"work","workField":"heading"},
+        {"id":"television-supporting-actor","name":"Supporting Actor","mediaType":"mixed","recipientKind":"person","creditRole":"actor","workField":"details"},
+        {"id":"television-supporting-actress","name":"Supporting Actress","mediaType":"mixed","recipientKind":"person","creditRole":"actor","workField":"details"}
+      ]
+    },
+    {
+      "id": "television-craft",
+      "categories": [
+        {"id":"television-craft-childrens-craft-team","name":"Children's Craft Team","mediaType":"mixed","recipientKind":"team","creditRole":"other","workField":"heading"},
+        {"id":"television-craft-costume-design","name":"Costume Design","mediaType":"mixed","recipientKind":"team","creditRole":"other","workField":"heading"},
+        {"id":"television-craft-director-factual","name":"Director: Factual","mediaType":"mixed","recipientKind":"team","creditRole":"director","workField":"heading"},
+        {"id":"television-craft-director-fiction","name":"Director: Fiction","mediaType":"mixed","recipientKind":"team","creditRole":"director","workField":"heading"},
+        {"id":"television-craft-director-multi-camera","name":"Director: Multi-Camera","mediaType":"mixed","recipientKind":"team","creditRole":"director","workField":"heading"},
+        {"id":"television-craft-editing-factual","name":"Editing: Factual","mediaType":"mixed","recipientKind":"team","creditRole":"editor","workField":"heading"},
+        {"id":"television-craft-editing-fiction","name":"Editing: Fiction","mediaType":"mixed","recipientKind":"team","creditRole":"editor","workField":"heading"},
+        {"id":"television-craft-emerging-talent-factual","name":"Emerging Talent: Factual","mediaType":"mixed","recipientKind":"person","creditRole":"other","workField":"details"},
+        {"id":"television-craft-emerging-talent-fiction","name":"Emerging Talent: Fiction","mediaType":"mixed","recipientKind":"person","creditRole":"other","workField":"details"},
+        {"id":"television-craft-entertainment-craft-team","name":"Entertainment Craft Team","mediaType":"mixed","recipientKind":"team","creditRole":"other","workField":"heading"},
+        {"id":"television-craft-make-up-hair-design","name":"Make Up & Hair Design","mediaType":"mixed","recipientKind":"team","creditRole":"other","workField":"heading"},
+        {"id":"television-craft-original-music-factual","name":"Original Music: Factual","mediaType":"mixed","recipientKind":"team","creditRole":"composer","workField":"heading"},
+        {"id":"television-craft-original-music-fiction","name":"Original Music: Fiction","mediaType":"mixed","recipientKind":"team","creditRole":"composer","workField":"heading"},
+        {"id":"television-craft-photography-lighting-fiction","name":"Photography & Lighting: Fiction","mediaType":"mixed","recipientKind":"team","creditRole":"cinematographer","workField":"heading"},
+        {"id":"television-craft-photography-factual","name":"Photography: Factual","mediaType":"mixed","recipientKind":"team","creditRole":"cinematographer","workField":"heading"},
+        {"id":"television-craft-production-design","name":"Production Design","mediaType":"mixed","recipientKind":"team","creditRole":"other","workField":"heading"},
+        {"id":"television-craft-scripted-casting","name":"Scripted Casting","mediaType":"mixed","recipientKind":"team","creditRole":"other","workField":"heading"},
+        {"id":"television-craft-sound-factual","name":"Sound: Factual","mediaType":"mixed","recipientKind":"team","creditRole":"other","workField":"heading"},
+        {"id":"television-craft-sound-fiction","name":"Sound: Fiction","mediaType":"mixed","recipientKind":"team","creditRole":"other","workField":"heading"},
+        {"id":"television-craft-special-visual-graphic-effects","name":"Special, Visual And Graphic Effects","mediaType":"mixed","recipientKind":"team","creditRole":"other","workField":"heading"},
+        {"id":"television-craft-titles-graphic-identity","name":"Titles & Graphic Identity","mediaType":"mixed","recipientKind":"team","creditRole":"other","workField":"heading"},
+        {"id":"television-craft-writer-comedy","name":"Writer: Comedy","mediaType":"mixed","recipientKind":"team","creditRole":"writer","workField":"heading"},
+        {"id":"television-craft-writer-drama","name":"Writer: Drama","mediaType":"mixed","recipientKind":"team","creditRole":"writer","workField":"heading"}
+      ]
+    }
+  ],
+  "sourceOverrides": [
+    {"programme":"television-craft","label":"Director","workField":"details"},
+    {"programme":"television-craft","label":"Director sponsored by Sony Pictures Television International","workField":"details"},
+    {"programme":"television-craft","label":"New Director - Factual","workField":"heading"},
+    {"programme":"television-craft","label":"New Director - Fiction","workField":"heading"},
+    {"programme":"television-craft","label":"Writer","workField":"details"}
+  ]
+}
