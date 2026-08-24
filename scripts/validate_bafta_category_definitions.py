@@ -59,8 +59,8 @@ def main() -> None:
     decisions = load_json(DECISIONS_PATH)
     exact_keys(
         definitions,
-        {"schemaVersion", "awardBodyId", "programmes", "sourceOverrides"},
-        {"schemaVersion", "awardBodyId", "programmes", "sourceOverrides"},
+        {"schemaVersion", "awardBodyId", "programmes", "sourceOverrides", "workOmissions"},
+        {"schemaVersion", "awardBodyId", "programmes", "sourceOverrides", "workOmissions"},
         "category definitions",
     )
     require(definitions["schemaVersion"] == 1, "category definitions schemaVersion must be 1")
@@ -146,9 +146,38 @@ def main() -> None:
         )
         override_fields[key] = entry["workField"]
 
+    omissions = definitions["workOmissions"]
+    require(isinstance(omissions, list), "workOmissions must be an array")
+    programme_order = {programme_id: index for index, programme_id in enumerate(EXPECTED_PROGRAMMES)}
+    require(
+        [(programme_order.get(entry.get("programme"), 99), int(entry.get("nominationId", "0"))) for entry in omissions]
+        == sorted(
+            (programme_order.get(entry.get("programme"), 99), int(entry.get("nominationId", "0")))
+            for entry in omissions
+        ),
+        "workOmissions must be sorted by programme and nominationId",
+    )
+    omission_keys: set[tuple[str, str]] = set()
+    for entry in omissions:
+        exact_keys(
+            entry,
+            {"programme", "nominationId", "reason"},
+            {"programme", "nominationId", "reason"},
+            "work omission",
+        )
+        programme_id = entry["programme"]
+        nomination_id = entry["nominationId"]
+        require(programme_id in EXPECTED_PROGRAMMES, "work omission has unknown programme")
+        require(isinstance(nomination_id, str) and nomination_id.isdigit(), "work omission has invalid nominationId")
+        require(isinstance(entry["reason"], str) and entry["reason"].strip() == entry["reason"], "work omission requires a reason")
+        key = (programme_id, nomination_id)
+        require(key not in omission_keys, f"duplicate work omission: {key}")
+        omission_keys.add(key)
+
     selected_results = 0
     work_references = 0
     selected_by_programme: dict[str, int] = {}
+    seen_omissions: set[tuple[str, str]] = set()
     for programme_id, snapshot_path in SNAPSHOTS.items():
         snapshot = load_json(snapshot_path)
         selected = 0
@@ -167,6 +196,24 @@ def main() -> None:
                 all(isinstance(value, str) and value.strip() for value in values),
                 f"{programme_id}/{winner['nominationId']}: invalid work value",
             )
+            normalized_heading = re.sub(r"[^a-z0-9]+", "", winner["heading"].casefold())
+            repeats_person = (
+                category["recipientKind"] == "person"
+                and field == "details"
+                and all(
+                    re.sub(r"[^a-z0-9]+", "", value.casefold()) == normalized_heading
+                    for value in values
+                )
+            )
+            omission_key = (programme_id, winner["nominationId"])
+            if omission_key in omission_keys:
+                require(repeats_person, f"{programme_id}/{winner['nominationId']}: work omission is no longer justified")
+                seen_omissions.add(omission_key)
+                continue
+            require(
+                not repeats_person,
+                f"{programme_id}/{winner['nominationId']}: person record repeats the recipient and requires an explicit work omission",
+            )
             selected += 1
             work_references += len(values)
         selected_by_programme[programme_id] = selected
@@ -174,10 +221,12 @@ def main() -> None:
 
     require(len(all_ids) == 75, f"expected 75 stable category IDs, found {len(all_ids)}")
     require(len(source_mapping) == 194, f"expected 194 included source labels, found {len(source_mapping)}")
+    require(seen_omissions == omission_keys, "one or more work omissions do not reference selected winner records")
     print(
         "BAFTA category definitions are valid: "
         f"{len(all_ids)} categories, {len(source_mapping)} included source labels, "
-        f"{selected_results} selected winner records, {work_references} work references "
+        f"{selected_results} selected winner records, {work_references} work references, "
+        f"{len(omission_keys)} explicit no-work omissions "
         f"({selected_by_programme['film']} Film, {selected_by_programme['television']} Television, "
         f"{selected_by_programme['television-craft']} Television Craft)."
     )

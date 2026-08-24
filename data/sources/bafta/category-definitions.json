@@ -99,5 +99,33 @@
     {"programme":"television-craft","label":"New Director - Factual","workField":"heading"},
     {"programme":"television-craft","label":"New Director - Fiction","workField":"heading"},
     {"programme":"television-craft","label":"Writer","workField":"details"}
+  ],
+  "workOmissions": [
+    {"programme":"television","nominationId":"345487","reason":"The official winner record repeats the recipient name and does not identify an associated work."},
+    {"programme":"television","nominationId":"345488","reason":"The official winner record repeats the recipient name and does not identify an associated work."},
+    {"programme":"television","nominationId":"345493","reason":"The official winner record repeats the recipient name and does not identify an associated work."},
+    {"programme":"television","nominationId":"345494","reason":"The official winner record repeats the recipient name and does not identify an associated work."},
+    {"programme":"television","nominationId":"345499","reason":"The official winner record repeats the recipient name and does not identify an associated work."},
+    {"programme":"television","nominationId":"345503","reason":"The official winner record repeats the recipient name and does not identify an associated work."},
+    {"programme":"television","nominationId":"345511","reason":"The official winner record repeats the recipient name and does not identify an associated work."},
+    {"programme":"television","nominationId":"345512","reason":"The official winner record repeats the recipient name and does not identify an associated work."},
+    {"programme":"television","nominationId":"345521","reason":"The official winner record repeats the recipient name and does not identify an associated work."},
+    {"programme":"television","nominationId":"345522","reason":"The official winner record repeats the recipient name and does not identify an associated work."},
+    {"programme":"television","nominationId":"345530","reason":"The official winner record repeats the recipient name and does not identify an associated work."},
+    {"programme":"television","nominationId":"345531","reason":"The official winner record repeats the recipient name and does not identify an associated work."},
+    {"programme":"television","nominationId":"345538","reason":"The official winner record repeats the recipient name and does not identify an associated work."},
+    {"programme":"television","nominationId":"345539","reason":"The official winner record repeats the recipient name and does not identify an associated work."},
+    {"programme":"television","nominationId":"345547","reason":"The official winner record repeats the recipient name and does not identify an associated work."},
+    {"programme":"television","nominationId":"345548","reason":"The official winner record repeats the recipient name and does not identify an associated work."},
+    {"programme":"television","nominationId":"345556","reason":"The official winner record repeats the recipient name and does not identify an associated work."},
+    {"programme":"television","nominationId":"345557","reason":"The official winner record repeats the recipient name and does not identify an associated work."},
+    {"programme":"television","nominationId":"345586","reason":"The official winner record repeats the recipient name and does not identify an associated work."},
+    {"programme":"television","nominationId":"345587","reason":"The official winner record repeats the recipient name and does not identify an associated work."},
+    {"programme":"television","nominationId":"345598","reason":"The official winner record repeats the recipient name and does not identify an associated work."},
+    {"programme":"television","nominationId":"345599","reason":"The official winner record repeats the recipient name and does not identify an associated work."},
+    {"programme":"television","nominationId":"356857","reason":"The official winner record repeats the recipient name and does not identify an associated work."},
+    {"programme":"television","nominationId":"356858","reason":"The official winner record repeats the recipient name and does not identify an associated work."},
+    {"programme":"television","nominationId":"356868","reason":"The official winner record repeats the recipient name and does not identify an associated work."},
+    {"programme":"television","nominationId":"356881","reason":"The official winner record repeats the recipient name and does not identify an associated work."}
   ]
 }

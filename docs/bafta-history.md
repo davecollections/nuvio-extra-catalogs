@@ -88,7 +88,9 @@ python scripts/validate_bafta_lineage_decisions.py --complete
 python scripts/build_bafta_lineage_audit.py --check
 ```
 
-`data/sources/bafta/category-definitions.json` freezes the 75 accepted current categories into stable local IDs and records the source programme, canonical media scope, recipient kind, credit role, and deterministic work field. It maps the 75 current labels plus 119 accepted historical labels to 2,886 selected winner records. Five explicit source overrides cover historical Television Craft pages whose heading/detail layout differs from the current category page. Validate the registry, every accepted source label, and all selected work references with:
+`data/sources/bafta/category-definitions.json` freezes the 75 accepted current categories into stable local IDs and records the source programme, canonical media scope, recipient kind, credit role, and deterministic work field. It maps the 75 current labels plus 119 accepted historical labels to 2,860 work-linked winner records. Five explicit source overrides cover historical Television Craft pages whose heading/detail layout differs from the current category page. Twenty-six early Television person-award records repeat the recipient instead of identifying a work; their exact nomination IDs are preserved as explicit no-work omissions rather than fabricated titles.
+
+Validate the registry, every accepted source label, all selected work references, and the omission contract with:
 
 ```bash
 python scripts/validate_bafta_category_definitions.py
