@@ -101,13 +101,21 @@ python scripts/validate_bafta_category_definitions.py
 ```bash
 python scripts/build_bafta_identity_seed.py --write
 python scripts/build_bafta_identity_seed.py --check
-python scripts/enrich_bafta_identities.py --check
+python scripts/enrich_bafta_identities.py --check --attempted
 ```
 
 Live TMDB enrichment is an owner-reviewed maintenance step and is never run in CI or at add-on runtime. The matcher accepts only one exact-title candidate with the required media scope, a valid TMDB-to-IMDb relationship, and a plausible release/broadcast window around the BAFTA award year. Ambiguous results remain as candidate evidence for explicit review:
 
 ```bash
 python scripts/enrich_bafta_identities.py --tmdb --limit 25
+python scripts/enrich_bafta_identities.py --reuse-canonical
+```
+
+The initial live pass has attempted all 2,041 work identities. It accepted 1,389 unambiguous live identities, then safely reused 28 reviewed Academy/Golden Globes identities that exactly matched BAFTA's plausible candidates. The committed map therefore contains 1,417 resolved identities (870 movies and 547 series) and 624 fail-closed review cases: 407 without an exact-title candidate, 106 with multiple plausible candidates, and 111 whose candidate evidence lacks an acceptable IMDb relationship or award-date window. `reports/bafta-identity-review.md` is the generated review queue; keep it current with:
+
+```bash
+python scripts/build_bafta_identity_review.py --write
+python scripts/build_bafta_identity_review.py --check
 ```
 
 ## Movie and series classification

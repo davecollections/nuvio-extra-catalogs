@@ -66,7 +66,10 @@ jobs:
         run: python scripts/build_bafta_identity_seed.py --check
 
       - name: Validate BAFTA reviewed identities
-        run: python scripts/enrich_bafta_identities.py --check
+        run: python scripts/enrich_bafta_identities.py --check --attempted
+
+      - name: Check BAFTA identity review report
+        run: python scripts/build_bafta_identity_review.py --check
 
       - name: Check BAFTA category lineage audit inventory
         run: python scripts/build_bafta_lineage_audit.py --check
