@@ -1,0 +1,1499 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-08-23",
+  "authority": {
+    "name": "British Academy of Film and Television Arts",
+    "searchPage": "https://www.bafta.org/awards/search/"
+  },
+  "method": "Rendered official BAFTA awards-search winner cards; each category link is retained as BAFTA's first-party history-page identity.",
+  "programmes": [
+    {
+      "id": "film",
+      "expectedHistoricalLabelCount": 61,
+      "labels": [
+        {
+          "label": "Achievement in Direction",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/achievement-in-direction/",
+          "evidenceNominationId": "342364",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Martin%20Scorsese%20Goodfellas&type=Film&winner=winner"
+        },
+        {
+          "label": "Achievement in Special Visual Effects",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/achievement-in-special-visual-effects/",
+          "evidenceNominationId": "343835",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Pirates%20Dead%20Man%20Chest&type=Film&winner=winner"
+        },
+        {
+          "label": "Achievements in Special Effects",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/achievements-in-special-effects/",
+          "evidenceNominationId": "342516",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Death%20Becomes%20Her&type=Film&winner=winner"
+        },
+        {
+          "label": "Actor",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/actor/",
+          "evidenceNominationId": "341921",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Haing%20S%20Ngor&type=Film&winner=winner"
+        },
+        {
+          "label": "Actress",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/actress/",
+          "evidenceNominationId": "341925",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Maggie%20Smith&type=Film&winner=winner"
+        },
+        {
+          "label": "Alexander Korda Award for the outstanding British Film of the Year",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/alexander-korda-award-for-the-outstanding-british-film-of-the-year/",
+          "evidenceNominationId": "343863",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Last%20King%20Of%20Scotland&type=Film&winner=winner"
+        },
+        {
+          "label": "Anthony Asquith Award for Original Film Music",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/anthony-asquith-award-for-achievement-in-film-music/",
+          "evidenceNominationId": "343870",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Babel%20Gustavo%20Santaolalla&type=Film&winner=winner"
+        },
+        {
+          "label": "Anthony Asquith Memorial Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/anthony-asquith-memorial-award/",
+          "evidenceNominationId": "341390",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Bernard%20Herrmann&type=Film&winner=winner"
+        },
+        {
+          "label": "Art Direction",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/art-direction/",
+          "evidenceNominationId": "341327",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Rollerball%20John%20Box&type=Film&winner=winner"
+        },
+        {
+          "label": "BAFTA/Orange 60 Seconds Of Fame",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/bafta-orange-60-seconds-of-fame/",
+          "evidenceNominationId": "343952",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Polar%20Showtime%20Dancers&type=Film&winner=winner"
+        },
+        {
+          "label": "Best Cinematography - Black and White",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/best-cinematography-black-and-white/",
+          "evidenceNominationId": "340686",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Oswald%20Morris%20Spy%20Cold&type=Film&winner=winner"
+        },
+        {
+          "label": "British Actor",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/british-actor/",
+          "evidenceNominationId": "340760",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Paul%20Scofield&type=Film&winner=winner"
+        },
+        {
+          "label": "British Actress",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/british-actress/",
+          "evidenceNominationId": "340761",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Edith%20Evans%20Whisperers&type=Film&winner=winner"
+        },
+        {
+          "label": "British Art Direction - Black and White",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/british-art-direction-black-and-white/",
+          "evidenceNominationId": "340698",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Tambi%20Larsen&type=Film&winner=winner"
+        },
+        {
+          "label": "British Art Direction - Colour",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/british-art-direction-colour/",
+          "evidenceNominationId": "340766",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=John%20Box&type=Film&winner=winner"
+        },
+        {
+          "label": "British Cinematography",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/british-cinematography/",
+          "evidenceNominationId": "340842",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Geoffrey%20Unsworth&type=Film&winner=winner"
+        },
+        {
+          "label": "British Cinematography - Black and White",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/british-cinematography-black-and-white/",
+          "evidenceNominationId": "340771",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Gerry%20Turpin%20Whisperers&type=Film&winner=winner"
+        },
+        {
+          "label": "British Cinematography - Colour",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/british-cinematography-colour/",
+          "evidenceNominationId": "340775",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Ted%20Moore&type=Film&winner=winner"
+        },
+        {
+          "label": "British Costume Design - Black and White",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/british-costume-design-black-and-white/",
+          "evidenceNominationId": "340776",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Jocelyn%20Rickards&type=Film&winner=winner"
+        },
+        {
+          "label": "British Costume Design - Colour",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/british-costume-design-colour/",
+          "evidenceNominationId": "340781",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Elizabeth%20Haffenden&type=Film&winner=winner"
+        },
+        {
+          "label": "British Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/british-film/",
+          "evidenceNominationId": "343957",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=This%20Is%20England&type=Film&winner=winner"
+        },
+        {
+          "label": "British Screenplay",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/british-screenplay/",
+          "evidenceNominationId": "340788",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Robert%20Bolt&type=Film&winner=winner"
+        },
+        {
+          "label": "Carl Foreman Award for Special Achievement by a British Director, Writer or Producer in their First Feature Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/carl-foreman-award-for-special-achievement-by-british-director-writer-or-producer-first-feature/",
+          "evidenceNominationId": "344073",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Steve%20McQueen%20Hunger&type=Film&winner=winner"
+        },
+        {
+          "label": "Carl Foreman Award for the Most Promising Newcomer in British Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/carl-foreman-award-for-the-most-promising-newcomer-in-british-film/",
+          "evidenceNominationId": "343235",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Pawel%20Pawlikowski&type=Film&winner=winner"
+        },
+        {
+          "label": "Certificate Of Merit",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/certificate-of-merit/",
+          "evidenceNominationId": "339834",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Elizabeth%20Is%20Queen&type=Film&winner=winner"
+        },
+        {
+          "label": "David Lean Award for Achievement in Direction",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/david-lean-award-for-achievement-in-direction/",
+          "evidenceNominationId": "343895",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=United%2093&type=Film&winner=winner"
+        },
+        {
+          "label": "Direction",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/direction/",
+          "evidenceNominationId": "341942",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Paris%20Texas%20Wim%20Wenders&type=Film&winner=winner"
+        },
+        {
+          "label": "Editing - for best film editing of a British Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/editing-for-best-film-editing-of-a-british-film/",
+          "evidenceNominationId": "340721",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Tom%20Priestley%20Morgan&type=Film&winner=winner"
+        },
+        {
+          "label": "EE Rising Star Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/ee-rising-star-award/",
+          "evidenceNominationId": "366443",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=David%20Jonsson&type=Film&winner=winner"
+        },
+        {
+          "label": "Factual Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/factual-film/",
+          "evidenceNominationId": "341467",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=The%20Living%20City&type=Film&winner=winner"
+        },
+        {
+          "label": "Fictional Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/fictional-film/",
+          "evidenceNominationId": "341471",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=The%20Bead%20Game&type=Film&winner=winner"
+        },
+        {
+          "label": "Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/film/",
+          "evidenceNominationId": "355865",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=La%20La%20Land&type=Film&winner=winner"
+        },
+        {
+          "label": "Film Editing",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/film-editing/",
+          "evidenceNominationId": "341783",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Missing%20Francoise%20Bonnot&type=Film&winner=winner"
+        },
+        {
+          "label": "Film From Any Source",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/film-and-british-film/",
+          "evidenceNominationId": "340517",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Tom%20Jones&type=Film&winner=winner"
+        },
+        {
+          "label": "Foreign Actor",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/foreign-actor/",
+          "evidenceNominationId": "340796",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Rod%20Steiger%20Heat%20Night&type=Film&winner=winner"
+        },
+        {
+          "label": "Foreign Actress",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/foreign-actress/",
+          "evidenceNominationId": "340798",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Anouk%20Aimee%20Man%20Woman&type=Film&winner=winner"
+        },
+        {
+          "label": "Foreign Language Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/foreign-language-film/",
+          "evidenceNominationId": "342186",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=The%20Sacrifice%20Offret&type=Film&winner=winner"
+        },
+        {
+          "label": "John Grierson Award (Short Film)",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/john-grierson-award-short-film/",
+          "evidenceNominationId": "341351",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Sea%20Area%20Forties&type=Film&winner=winner"
+        },
+        {
+          "label": "Lloyds Bank People's Vote For The Most Popular Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/lloyds-bank-peoples-vote-for-the-most-popular-film/",
+          "evidenceNominationId": "342816",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Braveheart&type=Film&winner=winner"
+        },
+        {
+          "label": "Make-Up Artist",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/make-up-artist/",
+          "evidenceNominationId": "342411",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Dick%20Tracy&type=Film&winner=winner"
+        },
+        {
+          "label": "Most Promising Newcomer To Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/most-promising-newcomer-to-film/",
+          "evidenceNominationId": "341961",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Haing%20S%20Ngor&type=Film&winner=winner"
+        },
+        {
+          "label": "Most Promising Newcomer To Leading Film Roles",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/most-promising-newcomer-to-leading-film-roles/",
+          "evidenceNominationId": "341797",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Ben%20Kingsley%20Gandhi&type=Film&winner=winner"
+        },
+        {
+          "label": "Music",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/music/",
+          "evidenceNominationId": "344226",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Michael%20Giacchino&type=Film&winner=winner"
+        },
+        {
+          "label": "Orange Film Of The Year",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/orange-film-of-the-year/",
+          "evidenceNominationId": "343696",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Prisoner%20Azkaban&type=Film&winner=winner"
+        },
+        {
+          "label": "Original Film Music",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/original-film-music/",
+          "evidenceNominationId": "342571",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Strictly%20Ballroom&type=Film&winner=winner"
+        },
+        {
+          "label": "Original Film Score",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/original-film-score/",
+          "evidenceNominationId": "342414",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Cinema%20Paradiso&type=Film&winner=winner"
+        },
+        {
+          "label": "Original Music",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/original-music/",
+          "evidenceNominationId": "357271",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=A%20Star%20Is%20Born&type=Film&winner=winner"
+        },
+        {
+          "label": "Original Song Written for a Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/original-song-written-for-a-film/",
+          "evidenceNominationId": "341967",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Ghostbusters%20Ray%20Parker&type=Film&winner=winner"
+        },
+        {
+          "label": "Post Office BAFTA Scholarship",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/post-office-bafta-scholarship/",
+          "evidenceNominationId": "342267",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Gillian%20Wilkinson&type=Film&winner=winner"
+        },
+        {
+          "label": "Robert Flaherty Award (Feature Length Film, Documentary In Content)",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/robert-flaherty-award/",
+          "evidenceNominationId": "341805",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Burden%20Of%20Dreams&type=Film&winner=winner"
+        },
+        {
+          "label": "Score For A Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/score-for-a-film/",
+          "evidenceNominationId": "342662",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=John%20Williams&type=Film&winner=winner"
+        },
+        {
+          "label": "Screenplay",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/screenplay/",
+          "evidenceNominationId": "341814",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Missing%20Costa%20Gavras&type=Film&winner=winner"
+        },
+        {
+          "label": "Short Animation",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/short-animated-film/",
+          "evidenceNominationId": "350749",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Making%20Of%20Longbird&type=Film&winner=winner"
+        },
+        {
+          "label": "Short Factual Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/short-factual-film/",
+          "evidenceNominationId": "341554",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Hokusai%20Animated%20Sketchbook&type=Film&winner=winner"
+        },
+        {
+          "label": "Short Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/short-film/",
+          "evidenceNominationId": "350752",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Swimmer&type=Film&winner=winner"
+        },
+        {
+          "label": "Soundtrack",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/soundtrack/",
+          "evidenceNominationId": "341623",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Alien%20Derrick%20Leather&type=Film&winner=winner"
+        },
+        {
+          "label": "Special Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/competitive-special-award/",
+          "evidenceNominationId": "366202",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Roger%20Pratt&type=Film&winner=winner"
+        },
+        {
+          "label": "Special Award for Craft",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/special-award-for-craft/",
+          "evidenceNominationId": "358436",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Phyllis%20Dalton&type=Film&winner=winner"
+        },
+        {
+          "label": "Specialised Film",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/specialised-film/",
+          "evidenceNominationId": "341565",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Twenty%20Times%20More%20Likely&type=Film&winner=winner"
+        },
+        {
+          "label": "Supporting Artist",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/supporting-artist/",
+          "evidenceNominationId": "341754",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Ian%20Holm&type=Film&winner=winner"
+        },
+        {
+          "label": "United Nations Award - for the best Film embodying one or more of the principles of the United Nations Charter",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/film/united-nations-award/",
+          "evidenceNominationId": "341442",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=United%20Nations%20Award&type=Film&winner=winner"
+        }
+      ]
+    },
+    {
+      "id": "television",
+      "expectedHistoricalLabelCount": 95,
+      "labels": [
+        {
+          "label": "Actor",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/actor-television/",
+          "evidenceNominationId": "352184",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Sean%20Harris&type=Television&winner=winner"
+        },
+        {
+          "label": "Actress",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/actress-television/",
+          "evidenceNominationId": "352188",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Olivia%20Colman&type=Television&winner=winner"
+        },
+        {
+          "label": "Actuality Coverage",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/actuality-coverage/",
+          "evidenceNominationId": "347029",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Brent%20Sadler&type=Television&winner=winner"
+        },
+        {
+          "label": "Adult Education Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/adult-education-award/",
+          "evidenceNominationId": "345600",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=James%20McCloy&type=Television&winner=winner"
+        },
+        {
+          "label": "Alan Clarke Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/alan-clarke-award/",
+          "evidenceNominationId": "351361",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Jane%20Tranter&type=Television&winner=winner"
+        },
+        {
+          "label": "Arts Programme",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/arts-programme/",
+          "evidenceNominationId": "346970",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=David%20Thomas&type=Television&winner=winner"
+        },
+        {
+          "label": "Children's Programme",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/childrens-programme/",
+          "evidenceNominationId": "347352",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Andrew%20Chater&type=Television&winner=winner"
+        },
+        {
+          "label": "Children's Programme - Documentary - Educational",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/childrens-programme-documentary-educational/",
+          "evidenceNominationId": "346972",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Madeline%20Wiltshire&type=Television&winner=winner"
+        },
+        {
+          "label": "Children's Programme - Entertainment/Drama",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/childrens-programme-entertainment-drama/",
+          "evidenceNominationId": "346978",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Press%20Gang&type=Television&winner=winner"
+        },
+        {
+          "label": "Children's Programme - Factual",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/childrens-programme-factual/",
+          "evidenceNominationId": "347283",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Roy%20Milani&type=Television&winner=winner"
+        },
+        {
+          "label": "Children's Programme - Fiction or Entertainment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/childrens-programme-fiction-or-entertainment/",
+          "evidenceNominationId": "347286",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Coping%20With%20Christmas&type=Television&winner=winner"
+        },
+        {
+          "label": "Comedy",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/comedy/",
+          "evidenceNominationId": "351307",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Jolyon%20Rubinstein&type=Television&winner=winner"
+        },
+        {
+          "label": "Comedy - Programme or Series",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/comedy-programme-or-series/",
+          "evidenceNominationId": "347930",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Little%20Britain&type=Television&winner=winner"
+        },
+        {
+          "label": "Comedy and Comedy Entertainment Programme",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/comedy-and-comedy-entertainment-programme/",
+          "evidenceNominationId": "356124",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=2016%20Wipe&type=Television&winner=winner"
+        },
+        {
+          "label": "Comedy Entertainment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/comedy-entertainment/",
+          "evidenceNominationId": "361589",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Rob%20Romesh&type=Television&winner=winner"
+        },
+        {
+          "label": "Comedy Performance",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/comedy-performance/",
+          "evidenceNominationId": "348250",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=David%20Mitchell&type=Television&winner=winner"
+        },
+        {
+          "label": "Comedy Series",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/comedy-series/",
+          "evidenceNominationId": "346981",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=New%20Statesman&type=Television&winner=winner"
+        },
+        {
+          "label": "Continuing Drama",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/continuing-drama/",
+          "evidenceNominationId": "348430",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=EastEnders&type=Television&winner=winner"
+        },
+        {
+          "label": "Current Events",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/current-events/",
+          "evidenceNominationId": "345532",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Bill%20Allenby&type=Television&winner=winner"
+        },
+        {
+          "label": "Dennis Potter Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/dennis-potter-award/",
+          "evidenceNominationId": "351411",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Russell%20T%20Davies&type=Television&winner=winner"
+        },
+        {
+          "label": "Design",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/design/",
+          "evidenceNominationId": "346391",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Brideshead%20Revisited&type=Television&winner=winner"
+        },
+        {
+          "label": "Designer",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/designer/",
+          "evidenceNominationId": "345549",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Richard%20Henry&type=Television&winner=winner"
+        },
+        {
+          "label": "Desmond Davis Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/desmond-davis-award/",
+          "evidenceNominationId": "351343",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Ray%20Fitzwalter&type=Television&winner=winner"
+        },
+        {
+          "label": "Documentary",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/documentary-programme/",
+          "evidenceNominationId": "346474",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Melvyn%20Bragg&type=Television&winner=winner"
+        },
+        {
+          "label": "Drama Production",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/drama/",
+          "evidenceNominationId": "345747",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Edna%20Inebriate%20Woman&type=Television&winner=winner"
+        },
+        {
+          "label": "Drama Serial",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/drama-serial/",
+          "evidenceNominationId": "348436",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Any%20Human%20Heart&type=Television&winner=winner"
+        },
+        {
+          "label": "Drama Series or Serial",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/drama-series-or-serial/",
+          "evidenceNominationId": "346987",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Beeban%20Kidron&type=Television&winner=winner"
+        },
+        {
+          "label": "Factual",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/factual/",
+          "evidenceNominationId": "346014",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Sailor%20Rescue&type=Television&winner=winner"
+        },
+        {
+          "label": "Factual Personality",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/factual-personality/",
+          "evidenceNominationId": "345579",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Malcolm%20Muggeridge&type=Television&winner=winner"
+        },
+        {
+          "label": "Factual Production",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/factual-production/",
+          "evidenceNominationId": "345755",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Women%20In%20Prison&type=Television&winner=winner"
+        },
+        {
+          "label": "Factual: Current Affairs",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/factual-current-affairs/",
+          "evidenceNominationId": "345653",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=News%20At%20Ten&type=Television&winner=winner"
+        },
+        {
+          "label": "Factual: Documentary",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/factual-documentary/",
+          "evidenceNominationId": "345650",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Paul%20Watson&type=Television&winner=winner"
+        },
+        {
+          "label": "Features",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/features/",
+          "evidenceNominationId": "361114",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Joe%20Lycett%20Beckham&type=Television&winner=winner"
+        },
+        {
+          "label": "Female Performance in a Comedy",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/female-performance-in-a-comedy/",
+          "evidenceNominationId": "368244",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Ruth%20Jones&type=Television&winner=winner"
+        },
+        {
+          "label": "Flaherty Documentary Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/flaherty-documentary-award/",
+          "evidenceNominationId": "348033",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Make%20Me%20Normal&type=Television&winner=winner"
+        },
+        {
+          "label": "Foreign Television Programme",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/foreign-television-programme/",
+          "evidenceNominationId": "347377",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Murder%20One&type=Television&winner=winner"
+        },
+        {
+          "label": "General",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/general/",
+          "evidenceNominationId": "345759",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=News%20Teams&type=Television&winner=winner"
+        },
+        {
+          "label": "Huw Wheldon Award For Specialised Programme or Series",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/huw-wheldon-award-for-factual-series-or-strand/",
+          "evidenceNominationId": "347893",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=The%20National%20Trust&type=Television&winner=winner"
+        },
+        {
+          "label": "Huw Wheldon Award For Specialist Factual",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/huw-wheldon-award-for-specialist-factual/",
+          "evidenceNominationId": "348038",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Auschwitz&type=Television&winner=winner"
+        },
+        {
+          "label": "Huw Wheldon Award For The Best Arts Programme",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/huw-wheldon-award-for-the-best-arts-programme/",
+          "evidenceNominationId": "347584",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=This%20Is%20Modern%20Art&type=Television&winner=winner"
+        },
+        {
+          "label": "Innovation",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/innovation/",
+          "evidenceNominationId": "347755",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Double%20Take&type=Television&winner=winner"
+        },
+        {
+          "label": "Interactivity",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/interactivity/",
+          "evidenceNominationId": "348289",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Embarrassing%20Bodies&type=Television&winner=winner"
+        },
+        {
+          "label": "Lew Grade Audience Award As Voted By Readers Of The Radio Times",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/lew-grade-audience-award-as-voted-by-readers-of-the-radio-times/",
+          "evidenceNominationId": "347672",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Inspector%20Morse&type=Television&winner=winner"
+        },
+        {
+          "label": "Lew Grade Award For A Significant And Popular Programme",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/lew-grade-award-for-a-significant-and-popular-programme/",
+          "evidenceNominationId": "347444",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=A%20Touch%20Of%20Frost&type=Television&winner=winner"
+        },
+        {
+          "label": "Lew Grade Award For Entertainment Programme or Series",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/lew-grade-award-for-entertainment-programme-or-series/",
+          "evidenceNominationId": "348047",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=The%20X%20Factor&type=Television&winner=winner"
+        },
+        {
+          "label": "Light Entertainment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/light-entertainment/",
+          "evidenceNominationId": "347516",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Millionaire&type=Television&winner=winner"
+        },
+        {
+          "label": "Light Entertainment Artist",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/light-entertainment-artist/",
+          "evidenceNominationId": "345527",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Stanley%20Baxter&type=Television&winner=winner"
+        },
+        {
+          "label": "Light Entertainment Performance",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/light-entertainment-performance/",
+          "evidenceNominationId": "347512",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Michael%20Parkinson&type=Television&winner=winner"
+        },
+        {
+          "label": "Light Entertainment Personality",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/light-entertainment-personality/",
+          "evidenceNominationId": "345666",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Eric%20Morecambe&type=Television&winner=winner"
+        },
+        {
+          "label": "Live Outside Broadcast Coverage",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/live-outside-broadcast-coverage/",
+          "evidenceNominationId": "347517",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Derby%20Day&type=Television&winner=winner"
+        },
+        {
+          "label": "Lloyds Bank People's Vote For The Most Popular Television Programme",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/lloyds-bank-peoples-vote-for-favourite-tv-programme/",
+          "evidenceNominationId": "347327",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=X%20Files&type=Television&winner=winner"
+        },
+        {
+          "label": "Male Performance in a Comedy",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/male-performance-in-a-comedy/",
+          "evidenceNominationId": "368272",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Danny%20Dyer&type=Television&winner=winner"
+        },
+        {
+          "label": "Mini-Series",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/mini-series/",
+          "evidenceNominationId": "361151",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Mood&type=Television&winner=winner"
+        },
+        {
+          "label": "Most Original Programme/Series",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/most-original-programme-series/",
+          "evidenceNominationId": "346192",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Pennies%20From%20Heaven&type=Television&winner=winner"
+        },
+        {
+          "label": "Mullard Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/mullard-award/",
+          "evidenceNominationId": "345721",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Philip%20Daly&type=Television&winner=winner"
+        },
+        {
+          "label": "New Media",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/new-media/",
+          "evidenceNominationId": "348577",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Psychoville&type=Television&winner=winner"
+        },
+        {
+          "label": "News And Current Affairs Journalism",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/news-and-current-affairs-journalism/",
+          "evidenceNominationId": "347678",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Sorious%20Samura&type=Television&winner=winner"
+        },
+        {
+          "label": "News or Outside Broadcast Coverage",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/news-or-outside-broadcast-coverage/",
+          "evidenceNominationId": "347006",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Channel%204%20News&type=Television&winner=winner"
+        },
+        {
+          "label": "Original Programme/Series",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/original-programme-series/",
+          "evidenceNominationId": "346111",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Muppet%20Show&type=Television&winner=winner"
+        },
+        {
+          "label": "Original Television Music",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/original-television-music/",
+          "evidenceNominationId": "347140",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Jeff%20Beck&type=Television&winner=winner"
+        },
+        {
+          "label": "Originality",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/originality/",
+          "evidenceNominationId": "347527",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Richard%20Dale&type=Television&winner=winner"
+        },
+        {
+          "label": "Outside Broadcast",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/outside-broadcast-programe/",
+          "evidenceNominationId": "346032",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=1976%20FA%20Cup%20Final&type=Television&winner=winner"
+        },
+        {
+          "label": "Personality",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/personality/",
+          "evidenceNominationId": "345528",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Eamonn%20Andrews&type=Television&winner=winner"
+        },
+        {
+          "label": "Philips Audience Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/philips-audience-award/",
+          "evidenceNominationId": "348303",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Skins&type=Television&winner=winner"
+        },
+        {
+          "label": "Pioneer Audience Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/pioneer-audience-award/",
+          "evidenceNominationId": "348130",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Life%20On%20Mars&type=Television&winner=winner"
+        },
+        {
+          "label": "Production",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/production/",
+          "evidenceNominationId": "345497",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Joy%20Harington&type=Television&winner=winner"
+        },
+        {
+          "label": "Programme/Series Without Category",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/programme-series-without-category/",
+          "evidenceNominationId": "346624",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=John%20Archer&type=Television&winner=winner"
+        },
+        {
+          "label": "Radio Times Audience Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/radio-times-audience-award/",
+          "evidenceNominationId": "353475",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Poldark&type=Television&winner=winner"
+        },
+        {
+          "label": "Reality & Constructed Factual",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/reality-constructed-factual/",
+          "evidenceNominationId": "361159",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=The%20Traitors&type=Television&winner=winner"
+        },
+        {
+          "label": "Rediffusion Star Awards: Flame Of Knowledge",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/rediffusion-star-awards-flame-of-knowledge/",
+          "evidenceNominationId": "346423",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Charlotte%20And%20Jane&type=Television&winner=winner"
+        },
+        {
+          "label": "Rediffusion Star Awards: Harlequin",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/rediffusion-star-awards-harlequin/",
+          "evidenceNominationId": "346429",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Biddy%20Baxter&type=Television&winner=winner"
+        },
+        {
+          "label": "Rediffusion Star Awards: Harlequin - Drama/Light Entertainment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/rediffusion-star-awards-harlequin-drama-light-entertainment/",
+          "evidenceNominationId": "346438",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Pied%20Piper%20Hamelin&type=Television&winner=winner"
+        },
+        {
+          "label": "Richard Dimbleby Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/richard-dimbleby-award/",
+          "evidenceNominationId": "351399",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Jamie%20Oliver&type=Television&winner=winner"
+        },
+        {
+          "label": "Richard Dimbleby Award For The Best Presenter - Factual, Features And News",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/richard-dimbleby-award-for-the-best-presenter-factual-features-and-news/",
+          "evidenceNominationId": "347763",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Louis%20Theroux&type=Television&winner=winner"
+        },
+        {
+          "label": "Script",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/script/",
+          "evidenceNominationId": "345770",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Benny%20Hill%20Show&type=Television&winner=winner"
+        },
+        {
+          "label": "Scriptwriter",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/scriptwriter/",
+          "evidenceNominationId": "345595",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Dennis%20Potter&type=Television&winner=winner"
+        },
+        {
+          "label": "Shell International Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/shell-international-award/",
+          "evidenceNominationId": "346559",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Graham%20Ironside&type=Television&winner=winner"
+        },
+        {
+          "label": "Short Animation",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/short-animated-film-television/",
+          "evidenceNominationId": "351462",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Andrew%20McEwan%20Toxic&type=Television&winner=winner"
+        },
+        {
+          "label": "Single Drama",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/single-drama/",
+          "evidenceNominationId": "361173",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=I%20Am%20Ruth&type=Television&winner=winner"
+        },
+        {
+          "label": "Single Play",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/single-play/",
+          "evidenceNominationId": "346443",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Going%20Gently&type=Television&winner=winner"
+        },
+        {
+          "label": "Situation Comedy",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/situation-comedy/",
+          "evidenceNominationId": "352273",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Him%20Her%20Wedding&type=Television&winner=winner"
+        },
+        {
+          "label": "Sky+ Audience Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/sky-audience-award/",
+          "evidenceNominationId": "348230",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Gavin%20Stacey&type=Television&winner=winner"
+        },
+        {
+          "label": "Soap & Continuing Drama",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/soap-continuing-drama/",
+          "evidenceNominationId": "361176",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Casualty&type=Television&winner=winner"
+        },
+        {
+          "label": "Soap And Continuing Drama",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/soap-and-continuing-drama/",
+          "evidenceNominationId": "356201",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Emmerdale&type=Television&winner=winner"
+        },
+        {
+          "label": "Specialised Production",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/specialised-production/",
+          "evidenceNominationId": "345776",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Omnibus%20Norman%20Swallow&type=Television&winner=winner"
+        },
+        {
+          "label": "Specialised Programme",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/specialised-programme/",
+          "evidenceNominationId": "346069",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=David%20Hargreaves&type=Television&winner=winner"
+        },
+        {
+          "label": "Specialised Series",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/specialised-series/",
+          "evidenceNominationId": "345991",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Michael%20Latham&type=Television&winner=winner"
+        },
+        {
+          "label": "Sport And Live Event",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/sport-and-live-events/",
+          "evidenceNominationId": "352820",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=WW1%20Remembered&type=Television&winner=winner"
+        },
+        {
+          "label": "Sports/Events Coverage In Real Time",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/sports-events-coverage-in-real-time/",
+          "evidenceNominationId": "347399",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=BBC1%20Euro%2096&type=Television&winner=winner"
+        },
+        {
+          "label": "Talk Show",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/talk-show/",
+          "evidenceNominationId": "347405",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Mrs%20Merton%20Christmas&type=Television&winner=winner"
+        },
+        {
+          "label": "Technical Craft Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/technical-craft-award/",
+          "evidenceNominationId": "346072",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Mike%20Billings&type=Television&winner=winner"
+        },
+        {
+          "label": "Virgin Media's Must-See Moment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/virgin-medias-must-see-moment/",
+          "evidenceNominationId": "360415",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Rose%20Giovanni&type=Television&winner=winner"
+        },
+        {
+          "label": "Virgin TV's Must See Moment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/virgin-tvs-must-see-moment/",
+          "evidenceNominationId": "356846",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Mother%20Pilot%20Whale&type=Television&winner=winner"
+        },
+        {
+          "label": "Writer",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/writer-television/",
+          "evidenceNominationId": "351428",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Laurence%20Marks&type=Television&winner=winner"
+        },
+        {
+          "label": "YouTube Audience Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/television/youtube-audience-award/",
+          "evidenceNominationId": "348618",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Celebrity%20Juice&type=Television&winner=winner"
+        }
+      ]
+    },
+    {
+      "id": "television-craft",
+      "expectedHistoricalLabelCount": 54,
+      "labels": [
+        {
+          "label": "Anthony Asquith Award For New British Composer",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/anthony-asquith-award-for-new-british-composer/",
+          "evidenceNominationId": "349950",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Jane%20Antonia%20Cornish&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "BBC Blast and BAFTA Screen-Skills Award",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/bbc-blast-and-bafta-screen-skills-award/",
+          "evidenceNominationId": "350295",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Sam%20Shetabi&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Breakthrough Talent",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/breakthrough-talent/",
+          "evidenceNominationId": "359008",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=This%20Way%20Up&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Breakthrough Talent sponsored by HBO Films",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/breakthrough-talent-sponsored-by-hbo-films/",
+          "evidenceNominationId": "350081",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Sharon%20Foster&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Design",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/design-tvcraft/",
+          "evidenceNominationId": "349681",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Wives%20And%20Daughters&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Digital Creativity",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/digital-creativity/",
+          "evidenceNominationId": "356048",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Alchemy%20VR&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Director",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/director-tvcraft/",
+          "evidenceNominationId": "350087",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Edmund%20Coulthard&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Director - Fiction/Entertainment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/director-fiction-entertainment/",
+          "evidenceNominationId": "350465",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=The%20Shadow%20Line&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Director sponsored by Sony Pictures Television International",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/director-sponsored-by-sony-pictures-television-international/",
+          "evidenceNominationId": "350026",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Brian%20Percival&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Director: Fiction, sponsored by 3 Mills Studios",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/director-fiction-sponsored-by-3-mills-studios/",
+          "evidenceNominationId": "368337",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Baby%20Reindeer&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Editing - Fiction/Entertainment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/editing-fiction-entertainment/",
+          "evidenceNominationId": "350317",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Kristina%20Hetherington&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Editing Fiction/Entertainment sponsored by Pepper Post Production",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/editing-fiction-entertainment-sponsored-by-pepper-post-production/",
+          "evidenceNominationId": "350033",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Paul%20Knight&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Emerging Talent: Fiction, sponsored by Sara Putt Associates",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/emerging-talent-fiction-sponsored-by-sara-putt-associates/",
+          "evidenceNominationId": "368358",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Lucia%20Keskin&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Entertainment Craft Team, sponsored by Hotcam",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/entertainment-craft-team-sponsored-by-hotcam/",
+          "evidenceNominationId": "368362",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Taskmaster&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Entertainment Production Team",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/entertainment-production-team/",
+          "evidenceNominationId": "350324",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=The%20X%20Factor&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Film Cameraman",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-cameraman/",
+          "evidenceNominationId": "349282",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Trials%20Of%20Life&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Film Editor",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-editor-tvcraft/",
+          "evidenceNominationId": "349286",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Dick%20Allen&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Film or Video Editor - Factual",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-or-video-editor-factual/",
+          "evidenceNominationId": "349415",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Alan%20Lygo&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Film or Video Editor - Fiction",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-or-video-editor-fiction/",
+          "evidenceNominationId": "349378",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Frances%20Parker&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Film or Video Editor - Fiction/Entertainment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-or-video-editor-fiction-entertainment/",
+          "evidenceNominationId": "349419",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Mick%20Audsley&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Film or Video Photography - Factual",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-or-video-photography-factual/",
+          "evidenceNominationId": "349423",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Life%20In%20The%20Freezer&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Film Or Video Photography - Fiction/Entertainment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-or-video-photography-fiction/",
+          "evidenceNominationId": "349429",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Cracker%20Ivan%20Strasburg&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Film Sound",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-sound/",
+          "evidenceNominationId": "349293",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Aad%20Wirtz&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Film Sound - Recordist/Dubbing",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-sound-recordist-dubbing/",
+          "evidenceNominationId": "348743",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=John%20Murphy&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Graphic Design",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/graphic-design/",
+          "evidenceNominationId": "349968",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=The%20Long%20Firm&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Graphics",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/graphics/",
+          "evidenceNominationId": "349389",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Jeeves%20And%20Wooster&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Interactive Creative Contribution",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/interactive-creative-contribution/",
+          "evidenceNominationId": "350328",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Embarrassing%20Bodies&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Interactive Innovation",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/interactive-innovation/",
+          "evidenceNominationId": "350100",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Four%20Docs&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Interactive Innovation - Content",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/interactive-innovation-content/",
+          "evidenceNominationId": "350176",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Spooks%20Interactive&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Interactive Innovation - Service/Platform",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/interactive-innovation-service-platform/",
+          "evidenceNominationId": "350250",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Mi%20Vida%20Loca&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Lighting",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/lighting-tvcraft/",
+          "evidenceNominationId": "348698",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=John%20Treays%20Macbeth&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "New Director - Factual",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/new-director-factual/",
+          "evidenceNominationId": "349976",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Patrick%20Collerton&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "New Director - Fiction",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/new-director-fiction/",
+          "evidenceNominationId": "349981",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Daniel%20Percival&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "New Media Developer",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/new-media-developer/",
+          "evidenceNominationId": "350108",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Peter%20Drake&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "New Writer",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/new-writer/",
+          "evidenceNominationId": "349982",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Brian%20Dooley&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Original Music",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/original-music-tvcraft/",
+          "evidenceNominationId": "360456",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Landscapers&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Original Television Music sponsored by Sebastian McLean International",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/original-television-music-sponsored-by-sebastian-mclean-international/",
+          "evidenceNominationId": "350045",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Elizabeth%20I%20Rob%20Lane&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Photography - Fiction/Entertainment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/photography-fiction-entertainment/",
+          "evidenceNominationId": "349663",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=John%20Daly&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Photography And Lighting Fiction/Entertainment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/photography-and-lighting-fiction-entertainment/",
+          "evidenceNominationId": "350054",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Chris%20Seager&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Production Design, sponsored by Microsoft",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/production-design-sponsored-by-microsoft/",
+          "evidenceNominationId": "368386",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Rivals&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Sound - Entertainment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/sound-entertainment/",
+          "evidenceNominationId": "349823",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Clocking%20Off&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Sound - Fiction/Entertainment",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/sound-fiction-entertainment/",
+          "evidenceNominationId": "350358",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Wallander%20Paul%20Hamblin&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Sound - Fiction/Entertainment sponsored by Munro Acoustics",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/sound-fiction-entertainment-sponsored-by-munro-acoustics/",
+          "evidenceNominationId": "350205",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Cranford%20Paul%20Hamblin&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Sound Supervisor",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/sound-supervisor/",
+          "evidenceNominationId": "349305",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Graham%20Haines&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Special Lighting Effects",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/special-lighting-effects/",
+          "evidenceNominationId": "348714",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Bob%20Simmons&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Television Cameraman",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/tv-cameraman/",
+          "evidenceNominationId": "348880",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Jim%20Atkinson%20Othello&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Titles",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/titles/",
+          "evidenceNominationId": "352725",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Winter%20Olympics%202014&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "TV Lighting",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/tv-lighting/",
+          "evidenceNominationId": "348790",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Dave%20Sydenham&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Video Cameraman",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/video-cameraman/",
+          "evidenceNominationId": "349262",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Ron%20Green&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Video Lighting",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/video-lighting/",
+          "evidenceNominationId": "349454",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Chris%20Townsend&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Visual Effects",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/visual-effects/",
+          "evidenceNominationId": "350512",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Great%20Expectations&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Visual Effects And Graphic Design",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/visual-effects-and-graphic-design/",
+          "evidenceNominationId": "351206",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Titanic&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "VTR Editor",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/vtr-editor/",
+          "evidenceNominationId": "349314",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Malcolm%20Banthorpe&type=TV%20Craft&winner=winner"
+        },
+        {
+          "label": "Writer",
+          "status": "resolved",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/writer-tvcraft/",
+          "evidenceNominationId": "350518",
+          "evidenceSearchPage": "https://www.bafta.org/awards/search/?search=Steven%20Moffat%20Sherlock&type=TV%20Craft&winner=winner"
+        }
+      ]
+    }
+  ]
+}

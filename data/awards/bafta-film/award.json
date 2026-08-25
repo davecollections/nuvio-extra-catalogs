@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "bafta-film",
+  "name": "BAFTA Film Awards",
+  "organization": "British Academy of Film and Television Arts",
+  "authoritativeSources": [
+    {
+      "name": "British Academy of Film and Television Arts",
+      "reference": "https://www.bafta.org/awards/film/"
+    }
+  ],
+  "ceremonyCoverage": {
+    "firstCeremonyNumber": 2,
+    "lastCeremonyNumber": 79
+  }
+}

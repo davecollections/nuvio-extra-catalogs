@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "awardBodyId": "bafta-film",
+  "categories": [
+    {
+      "id": "film-adapted-screenplay",
+      "name": "Adapted Screenplay",
+      "aliases": [],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "writer"
+    },
+    {
+      "id": "film-animated-film",
+      "name": "Animated Film",
+      "aliases": [],
+      "mediaType": "movie",
+      "recipientKind": "work"
+    },
+    {
+      "id": "film-best-film",
+      "name": "Best Film",
+      "aliases": [
+        "Film",
+        "Film From Any Source"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "work"
+    },
+    {
+      "id": "film-british-short-animation",
+      "name": "British Short Animation",
+      "aliases": [
+        "Short Animation"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "work"
+    },
+    {
+      "id": "film-british-short-film",
+      "name": "British Short Film",
+      "aliases": [
+        "Short Film"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "work"
+    },
+    {
+      "id": "film-casting",
+      "name": "Casting",
+      "aliases": [],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "other"
+    },
+    {
+      "id": "film-childrens-family-film",
+      "name": "Children’s & Family Film",
+      "aliases": [],
+      "mediaType": "movie",
+      "recipientKind": "work"
+    },
+    {
+      "id": "film-cinematography",
+      "name": "Cinematography",
+      "aliases": [
+        "Best Cinematography - Black and White",
+        "British Cinematography",
+        "British Cinematography - Black and White",
+        "British Cinematography - Colour"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "cinematographer"
+    },
+    {
+      "id": "film-costume-design",
+      "name": "Costume Design",
+      "aliases": [
+        "British Costume Design - Black and White",
+        "British Costume Design - Colour"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "other"
+    },
+    {
+      "id": "film-director",
+      "name": "Director",
+      "aliases": [
+        "Achievement in Direction",
+        "David Lean Award for Achievement in Direction",
+        "Direction"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "person",
+      "creditRole": "director"
+    },
+    {
+      "id": "film-documentary",
+      "name": "Documentary",
+      "aliases": [
+        "Robert Flaherty Award (Feature Length Film, Documentary In Content)"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "work"
+    },
+    {
+      "id": "film-editing",
+      "name": "Editing",
+      "aliases": [
+        "Editing - for best film editing of a British Film",
+        "Film Editing"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "editor"
+    },
+    {
+      "id": "film-film-not-english-language",
+      "name": "Film Not in the English Language",
+      "aliases": [
+        "Foreign Language Film"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "work"
+    },
+    {
+      "id": "film-leading-actor",
+      "name": "Leading Actor",
+      "aliases": [
+        "Actor",
+        "British Actor",
+        "Foreign Actor"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
+      "id": "film-leading-actress",
+      "name": "Leading Actress",
+      "aliases": [
+        "Actress",
+        "British Actress",
+        "Foreign Actress"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
+      "id": "film-make-up-hair",
+      "name": "Make Up & Hair",
+      "aliases": [
+        "Make-Up Artist"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "other"
+    },
+    {
+      "id": "film-original-score",
+      "name": "Original Score",
+      "aliases": [
+        "Anthony Asquith Award for Original Film Music",
+        "Anthony Asquith Memorial Award",
+        "Music",
+        "Original Film Music",
+        "Original Film Score",
+        "Original Music",
+        "Score For A Film"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "composer"
+    },
+    {
+      "id": "film-original-screenplay",
+      "name": "Original Screenplay",
+      "aliases": [],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "writer"
+    },
+    {
+      "id": "film-outstanding-british-film",
+      "name": "Outstanding British Film",
+      "aliases": [
+        "Alexander Korda Award for the outstanding British Film of the Year",
+        "British Film"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "work"
+    },
+    {
+      "id": "film-outstanding-debut",
+      "name": "Outstanding Debut By A British Writer, Director or Producer",
+      "aliases": [
+        "Carl Foreman Award for Special Achievement by a British Director, Writer or Producer in their First Feature Film",
+        "Carl Foreman Award for the Most Promising Newcomer in British Film"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "other"
+    },
+    {
+      "id": "film-production-design",
+      "name": "Production Design",
+      "aliases": [
+        "Art Direction",
+        "British Art Direction - Black and White",
+        "British Art Direction - Colour"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "other"
+    },
+    {
+      "id": "film-sound",
+      "name": "Sound",
+      "aliases": [
+        "Soundtrack"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "other"
+    },
+    {
+      "id": "film-special-visual-effects",
+      "name": "Special Visual Effects",
+      "aliases": [
+        "Achievement in Special Visual Effects",
+        "Achievements in Special Effects"
+      ],
+      "mediaType": "movie",
+      "recipientKind": "team",
+      "creditRole": "other"
+    },
+    {
+      "id": "film-supporting-actor",
+      "name": "Supporting Actor",
+      "aliases": [],
+      "mediaType": "movie",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
+      "id": "film-supporting-actress",
+      "name": "Supporting Actress",
+      "aliases": [],
+      "mediaType": "movie",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    }
+  ]
+}

@@ -35,6 +35,16 @@ For the Golden Globes, use this hierarchy:
 
 The Issue #27 import pins a complete winner-only first-party snapshot checked on 2026-08-21: 2,029 winner records across all 83 ceremonies from 1944 through 2026. The scoped canonical history follows the 28 categories awarded in 2026 and their documented predecessor labels. Unrelated discontinued honours are retained in the source snapshot but are not silently merged into current lineages.
 
+For BAFTA, use this hierarchy:
+
+| Role | Source | Policy |
+| --- | --- | --- |
+| Award authority | [BAFTA Awards Database](https://www.bafta.org/awards/search/) and official [Film](https://www.bafta.org/awards/film/), [Television](https://www.bafta.org/awards/television/), and [Television Craft](https://www.bafta.org/awards/tv-craft/) result histories | Decide winner status, official programme, year, source category wording, credited recipient, and associated work. BAFTA's winners lists and press releases are definitive. |
+| Work identity enrichment | [TMDB API](https://developer.themoviedb.org/docs/finding-data) | Supplies movie/series classification, TMDB identity, release metadata, and supported IMDb external IDs. It does not decide award status. |
+| External identity confirmation | [IMDb](https://www.imdb.com/) | Confirms reviewed title and person identities when same-title programmes, episode wording, release context, or TMDB candidates disagree. |
+
+Issue #33 covers the three main BAFTA screen programmes under one source model. The 2026 official pages expose 25 Film, 27 Television, and 23 Television Craft work-associated current categories after explicit person-only and special-honour exclusions. BAFTA currently presents a browser check to direct non-browser requests and restricts anonymous WordPress REST access. Reviewed maintenance therefore exports a minimal winner-only snapshot from rendered first-party pages and commits it for offline use; the project does not bypass site controls or make a browser session a CI/runtime dependency. The exact acquisition, lineage, and exclusion contract is documented in [`bafta-history.md`](bafta-history.md).
+
 ## Separation of responsibilities
 
 ```text
@@ -210,4 +220,4 @@ The correction log is append-only in meaning: if a prior correction needs amendm
 
 ## Current expansion gate
 
-All 24 current Academy categories and the 28 current Golden Globes lineages are reference implementations. Issue #20 demonstrates native actor/director output and strict People artwork integration; Issue #24 demonstrates a single large milestone whose 18 categories still retain independent counts, lineages, no-award gaps, identity review, and deterministic output contracts. Issue #27 demonstrates a first-party snapshot, mixed movie/series classification, and award-body manifest presets without adding a runtime People-artwork dependency. New person-recipient outputs must pass the same identity, membership, artwork, and fallback review before publication. Additional award bodies may be grouped when they share one source model and validation path, but every included category must remain independently auditable.
+All 24 current Academy categories and the 28 current Golden Globes lineages are reference implementations. Issue #20 demonstrates native actor/director output and strict People artwork integration; Issue #24 demonstrates a single large milestone whose 18 categories still retain independent counts, lineages, no-award gaps, identity review, and deterministic output contracts. Issue #27 demonstrates a first-party snapshot, mixed movie/series classification, and award-body manifest presets without adding a runtime People-artwork dependency. Issue #33 applies those controls to BAFTA Film, Television, and Television Craft through one shared first-party page model while keeping all 75 initial work-associated lineages independently auditable. New person-recipient outputs must pass the same identity, membership, artwork, and fallback review before publication. Additional award bodies may be grouped when they share one source model and validation path, but every included category must remain independently auditable.

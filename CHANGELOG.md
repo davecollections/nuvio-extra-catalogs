@@ -4,7 +4,31 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ## [Unreleased]
 
-No changes yet.
+### Added
+
+- Complete BAFTA Film winner histories for all 25 reviewed current lineages across the official 1949–2026 archive: 1,302 canonical winner records and 1,321 associated work links.
+- Twenty-seven deterministic BAFTA Film catalogues: 25 movie outputs plus series splits for the historically mixed British Short Animation and Documentary lineages.
+- A distinct BAFTA Film preset manifest with its own add-on identity and byte-matched catalogue routes.
+- A fail-closed BAFTA Film identity gate covering 822 award-year-scoped work identities: 821 catalogue-compatible IMDb relationships and one explicitly reviewed non-catalogue outcome.
+- A reproducible live BAFTA Film artwork auditor and machine-readable report covering every unique published IMDb title through the production MetaHub route.
+
+### Changed
+
+- The all-awards manifest advances to `1.2.0` with 84 catalogues: 71 movie and 13 series outputs across Academy Awards, Golden Globes, and BAFTA Film.
+- The landing page adds BAFTA Film to the compact award disclosures and manifest selector.
+- Historical Film records classified as television series remain in their official BAFTA Film lineages and publish through separate series catalogues rather than being forced into movie identities.
+- Pre-release artwork review corrected the 1986 Adapted Screenplay winner *Prizzi's Honour* from an accidental *Kiss of the Spider Woman* identity collision to TMDB `2075` / IMDb `tt0089841`.
+- Two verified TMDB poster fallbacks cover *Careless Talk* and *Seven Cities of Antarctica*; 21 principally archival short-form titles remain explicitly documented as having no poster in either reviewed source.
+- CI now requires complete BAFTA Film work review and reproduces the canonical import, catalogue outputs, preset routes, and repository-wide manifest contracts offline.
+
+### Validated for V1.2 release
+
+- Shared canonical validation passes with 3 award bodies, 77 categories, 259 ceremonies, 5,061 results, 5,082 work links, and 6,139 person links.
+- BAFTA Film contracts pass with 78 archive years, 1,302 results, 1,321 work links, and 27 generated catalogue payloads.
+- The all-awards manifest and all three award presets pass exact route, payload-shape, media-type, byte-equality, and catalogue-set validation with 4,963 total Meta Preview items.
+- Live artwork review checks all 821 unique published BAFTA Film titles: 798 resolve directly through MetaHub, two use reviewed TMDB fallbacks, and 21 are explicit unavailable-poster outcomes.
+- GitHub CI passed for immutable preview commit `89b830a2977b87b72751756942e557d8c234af9a`, and every one of its 173 landing-page, manifest, preset, and catalogue routes returned HTTP 200 with exact committed bytes.
+- The owner accepted the immutable preview in Nuvio after representative movie and mixed-series browsing. The British Short Animation series split resolved *SuperTed*, *Alias the Jester*, and *Henry's Cat* with artwork; the Documentary series split retained *In Need of Special Care* with its accurate identity and expected documented unavailable-poster state.
 
 ## [1.1.0] - 2026-08-22
 

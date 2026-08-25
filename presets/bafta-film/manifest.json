@@ -1,0 +1,150 @@
+{
+  "id": "com.davecollections.nuvio.extra.baftafilm",
+  "version": "1.2.0",
+  "name": "Xtra — BAFTA Film Awards",
+  "description": "Independent Xtra preset with complete BAFTA Film winner catalogues for Nuvio and other compatible clients.",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie",
+    "series"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "bafta-film-adapted-screenplay-winning-films",
+      "name": "BAFTA Film — Adapted Screenplay Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-film-animated-film-winners",
+      "name": "BAFTA Film — Animated Film Winners"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-film-best-film-winners",
+      "name": "BAFTA Film — Best Film Winners"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-film-british-short-animation-winning-films",
+      "name": "BAFTA Film — British Short Animation Winning Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-film-british-short-animation-winning-series",
+      "name": "BAFTA Film — British Short Animation Winning Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-film-british-short-film-winners",
+      "name": "BAFTA Film — British Short Film Winners"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-film-casting-winning-films",
+      "name": "BAFTA Film — Casting Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-film-childrens-family-film-winners",
+      "name": "BAFTA Film — Children’s & Family Film Winners"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-film-cinematography-winning-films",
+      "name": "BAFTA Film — Cinematography Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-film-costume-design-winning-films",
+      "name": "BAFTA Film — Costume Design Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-film-director-winning-films",
+      "name": "BAFTA Film — Director Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-film-documentary-winning-films",
+      "name": "BAFTA Film — Documentary Winning Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-film-documentary-winning-series",
+      "name": "BAFTA Film — Documentary Winning Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-film-editing-winning-films",
+      "name": "BAFTA Film — Editing Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-film-not-in-the-english-language-winning-films",
+      "name": "BAFTA Film — Film Not in the English Language Winners"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-film-leading-actor-winning-films",
+      "name": "BAFTA Film — Leading Actor Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-film-leading-actress-winning-films",
+      "name": "BAFTA Film — Leading Actress Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-film-make-up-hair-winning-films",
+      "name": "BAFTA Film — Make Up & Hair Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-film-original-score-winning-films",
+      "name": "BAFTA Film — Original Score Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-film-original-screenplay-winning-films",
+      "name": "BAFTA Film — Original Screenplay Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-film-outstanding-british-film-winners",
+      "name": "BAFTA Film — Outstanding British Film Winners"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-film-outstanding-debut-winning-films",
+      "name": "BAFTA Film — Outstanding Debut Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-film-production-design-winning-films",
+      "name": "BAFTA Film — Production Design Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-film-sound-winning-films",
+      "name": "BAFTA Film — Sound Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-film-special-visual-effects-winning-films",
+      "name": "BAFTA Film — Special Visual Effects Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-film-supporting-actor-winning-films",
+      "name": "BAFTA Film — Supporting Actor Winning Films"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-film-supporting-actress-winning-films",
+      "name": "BAFTA Film — Supporting Actress Winning Films"
+    }
+  ]
+}

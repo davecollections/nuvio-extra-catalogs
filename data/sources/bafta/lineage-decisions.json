@@ -1,0 +1,1295 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-08-24",
+  "policy": "Each evidenced historical BAFTA category page must be mapped to one named current included category, with an explicit target programme when the category moved between BAFTA programmes, or explicitly excluded from this current-lineage milestone. Similar wording and adjacent years are not sufficient to merge distinct first-party pages.",
+  "programmes": [
+    {
+      "id": "film",
+      "expectedHistoricalLabelCount": 61,
+      "decisions": [
+        {
+          "label": "Achievement in Direction",
+          "historyPage": "https://www.bafta.org/awards/film/achievement-in-direction/",
+          "disposition": "current-lineage",
+          "currentCategory": "Director"
+        },
+        {
+          "label": "Achievement in Special Visual Effects",
+          "historyPage": "https://www.bafta.org/awards/film/achievement-in-special-visual-effects/",
+          "disposition": "current-lineage",
+          "currentCategory": "Special Visual Effects"
+        },
+        {
+          "label": "Achievements in Special Effects",
+          "historyPage": "https://www.bafta.org/awards/film/achievements-in-special-effects/",
+          "disposition": "current-lineage",
+          "currentCategory": "Special Visual Effects"
+        },
+        {
+          "label": "Actor",
+          "historyPage": "https://www.bafta.org/awards/film/actor/",
+          "disposition": "current-lineage",
+          "currentCategory": "Leading Actor"
+        },
+        {
+          "label": "Actress",
+          "historyPage": "https://www.bafta.org/awards/film/actress/",
+          "disposition": "current-lineage",
+          "currentCategory": "Leading Actress"
+        },
+        {
+          "label": "Alexander Korda Award for the outstanding British Film of the Year",
+          "historyPage": "https://www.bafta.org/awards/film/alexander-korda-award-for-the-outstanding-british-film-of-the-year/",
+          "disposition": "current-lineage",
+          "currentCategory": "Outstanding British Film"
+        },
+        {
+          "label": "Anthony Asquith Award for Original Film Music",
+          "historyPage": "https://www.bafta.org/awards/film/anthony-asquith-award-for-achievement-in-film-music/",
+          "disposition": "current-lineage",
+          "currentCategory": "Original Score"
+        },
+        {
+          "label": "Anthony Asquith Memorial Award",
+          "historyPage": "https://www.bafta.org/awards/film/anthony-asquith-memorial-award/",
+          "disposition": "current-lineage",
+          "currentCategory": "Original Score"
+        },
+        {
+          "label": "Art Direction",
+          "historyPage": "https://www.bafta.org/awards/film/art-direction/",
+          "disposition": "current-lineage",
+          "currentCategory": "Production Design"
+        },
+        {
+          "label": "BAFTA/Orange 60 Seconds Of Fame",
+          "historyPage": "https://www.bafta.org/awards/film/bafta-orange-60-seconds-of-fame/",
+          "disposition": "excluded",
+          "reason": "Discontinued regional public short-film competition outside the current British Short Film lineage."
+        },
+        {
+          "label": "Best Cinematography - Black and White",
+          "historyPage": "https://www.bafta.org/awards/film/best-cinematography-black-and-white/",
+          "disposition": "current-lineage",
+          "currentCategory": "Cinematography"
+        },
+        {
+          "label": "British Actor",
+          "historyPage": "https://www.bafta.org/awards/film/british-actor/",
+          "disposition": "current-lineage",
+          "currentCategory": "Leading Actor"
+        },
+        {
+          "label": "British Actress",
+          "historyPage": "https://www.bafta.org/awards/film/british-actress/",
+          "disposition": "current-lineage",
+          "currentCategory": "Leading Actress"
+        },
+        {
+          "label": "British Art Direction - Black and White",
+          "historyPage": "https://www.bafta.org/awards/film/british-art-direction-black-and-white/",
+          "disposition": "current-lineage",
+          "currentCategory": "Production Design"
+        },
+        {
+          "label": "British Art Direction - Colour",
+          "historyPage": "https://www.bafta.org/awards/film/british-art-direction-colour/",
+          "disposition": "current-lineage",
+          "currentCategory": "Production Design"
+        },
+        {
+          "label": "British Cinematography",
+          "historyPage": "https://www.bafta.org/awards/film/british-cinematography/",
+          "disposition": "current-lineage",
+          "currentCategory": "Cinematography"
+        },
+        {
+          "label": "British Cinematography - Black and White",
+          "historyPage": "https://www.bafta.org/awards/film/british-cinematography-black-and-white/",
+          "disposition": "current-lineage",
+          "currentCategory": "Cinematography"
+        },
+        {
+          "label": "British Cinematography - Colour",
+          "historyPage": "https://www.bafta.org/awards/film/british-cinematography-colour/",
+          "disposition": "current-lineage",
+          "currentCategory": "Cinematography"
+        },
+        {
+          "label": "British Costume Design - Black and White",
+          "historyPage": "https://www.bafta.org/awards/film/british-costume-design-black-and-white/",
+          "disposition": "current-lineage",
+          "currentCategory": "Costume Design"
+        },
+        {
+          "label": "British Costume Design - Colour",
+          "historyPage": "https://www.bafta.org/awards/film/british-costume-design-colour/",
+          "disposition": "current-lineage",
+          "currentCategory": "Costume Design"
+        },
+        {
+          "label": "British Film",
+          "historyPage": "https://www.bafta.org/awards/film/british-film/",
+          "disposition": "current-lineage",
+          "currentCategory": "Outstanding British Film"
+        },
+        {
+          "label": "British Screenplay",
+          "historyPage": "https://www.bafta.org/awards/film/british-screenplay/",
+          "disposition": "excluded",
+          "reason": "Generic historical screenplay category cannot be assigned authoritatively to either current Adapted Screenplay or Original Screenplay."
+        },
+        {
+          "label": "Carl Foreman Award for Special Achievement by a British Director, Writer or Producer in their First Feature Film",
+          "historyPage": "https://www.bafta.org/awards/film/carl-foreman-award-for-special-achievement-by-british-director-writer-or-producer-first-feature/",
+          "disposition": "current-lineage",
+          "currentCategory": "Outstanding Debut By A British Writer, Director or Producer"
+        },
+        {
+          "label": "Carl Foreman Award for the Most Promising Newcomer in British Film",
+          "historyPage": "https://www.bafta.org/awards/film/carl-foreman-award-for-the-most-promising-newcomer-in-british-film/",
+          "disposition": "current-lineage",
+          "currentCategory": "Outstanding Debut By A British Writer, Director or Producer"
+        },
+        {
+          "label": "Certificate Of Merit",
+          "historyPage": "https://www.bafta.org/awards/film/certificate-of-merit/",
+          "disposition": "excluded",
+          "reason": "Discontinued mixed merit recognition with no current competitive category lineage."
+        },
+        {
+          "label": "David Lean Award for Achievement in Direction",
+          "historyPage": "https://www.bafta.org/awards/film/david-lean-award-for-achievement-in-direction/",
+          "disposition": "current-lineage",
+          "currentCategory": "Director"
+        },
+        {
+          "label": "Direction",
+          "historyPage": "https://www.bafta.org/awards/film/direction/",
+          "disposition": "current-lineage",
+          "currentCategory": "Director"
+        },
+        {
+          "label": "Editing - for best film editing of a British Film",
+          "historyPage": "https://www.bafta.org/awards/film/editing-for-best-film-editing-of-a-british-film/",
+          "disposition": "current-lineage",
+          "currentCategory": "Editing"
+        },
+        {
+          "label": "EE Rising Star Award",
+          "historyPage": "https://www.bafta.org/awards/film/ee-rising-star-award/",
+          "disposition": "excluded",
+          "reason": "Person-only public-vote award; the official records do not identify an associated winning work."
+        },
+        {
+          "label": "Factual Film",
+          "historyPage": "https://www.bafta.org/awards/film/factual-film/",
+          "disposition": "excluded",
+          "reason": "Discontinued short-film branch not established as the current Documentary or British Short Film lineage."
+        },
+        {
+          "label": "Fictional Film",
+          "historyPage": "https://www.bafta.org/awards/film/fictional-film/",
+          "disposition": "excluded",
+          "reason": "Discontinued short-film branch not established as the current British Short Film or British Short Animation lineage."
+        },
+        {
+          "label": "Film",
+          "historyPage": "https://www.bafta.org/awards/film/film/",
+          "disposition": "current-lineage",
+          "currentCategory": "Best Film"
+        },
+        {
+          "label": "Film Editing",
+          "historyPage": "https://www.bafta.org/awards/film/film-editing/",
+          "disposition": "current-lineage",
+          "currentCategory": "Editing"
+        },
+        {
+          "label": "Film From Any Source",
+          "historyPage": "https://www.bafta.org/awards/film/film-and-british-film/",
+          "disposition": "current-lineage",
+          "currentCategory": "Best Film"
+        },
+        {
+          "label": "Foreign Actor",
+          "historyPage": "https://www.bafta.org/awards/film/foreign-actor/",
+          "disposition": "current-lineage",
+          "currentCategory": "Leading Actor"
+        },
+        {
+          "label": "Foreign Actress",
+          "historyPage": "https://www.bafta.org/awards/film/foreign-actress/",
+          "disposition": "current-lineage",
+          "currentCategory": "Leading Actress"
+        },
+        {
+          "label": "Foreign Language Film",
+          "historyPage": "https://www.bafta.org/awards/film/foreign-language-film/",
+          "disposition": "current-lineage",
+          "currentCategory": "Film Not in the English Language"
+        },
+        {
+          "label": "John Grierson Award (Short Film)",
+          "historyPage": "https://www.bafta.org/awards/film/john-grierson-award-short-film/",
+          "disposition": "excluded",
+          "reason": "Discontinued documentary-short award not established as the current British Short Film or Documentary lineage."
+        },
+        {
+          "label": "Lloyds Bank People's Vote For The Most Popular Film",
+          "historyPage": "https://www.bafta.org/awards/film/lloyds-bank-peoples-vote-for-the-most-popular-film/",
+          "disposition": "excluded",
+          "reason": "Discontinued audience-vote category with no current Film counterpart."
+        },
+        {
+          "label": "Make-Up Artist",
+          "historyPage": "https://www.bafta.org/awards/film/make-up-artist/",
+          "disposition": "current-lineage",
+          "currentCategory": "Make Up & Hair"
+        },
+        {
+          "label": "Most Promising Newcomer To Film",
+          "historyPage": "https://www.bafta.org/awards/film/most-promising-newcomer-to-film/",
+          "disposition": "excluded",
+          "reason": "Person-recipient newcomer award; the related current EE Rising Star Award is excluded and no work-category lineage is established."
+        },
+        {
+          "label": "Most Promising Newcomer To Leading Film Roles",
+          "historyPage": "https://www.bafta.org/awards/film/most-promising-newcomer-to-leading-film-roles/",
+          "disposition": "excluded",
+          "reason": "Person-recipient newcomer award; the related current EE Rising Star Award is excluded and no work-category lineage is established."
+        },
+        {
+          "label": "Music",
+          "historyPage": "https://www.bafta.org/awards/film/music/",
+          "disposition": "current-lineage",
+          "currentCategory": "Original Score"
+        },
+        {
+          "label": "Orange Film Of The Year",
+          "historyPage": "https://www.bafta.org/awards/film/orange-film-of-the-year/",
+          "disposition": "excluded",
+          "reason": "Discontinued audience-vote category with no current Film counterpart."
+        },
+        {
+          "label": "Original Film Music",
+          "historyPage": "https://www.bafta.org/awards/film/original-film-music/",
+          "disposition": "current-lineage",
+          "currentCategory": "Original Score"
+        },
+        {
+          "label": "Original Film Score",
+          "historyPage": "https://www.bafta.org/awards/film/original-film-score/",
+          "disposition": "current-lineage",
+          "currentCategory": "Original Score"
+        },
+        {
+          "label": "Original Music",
+          "historyPage": "https://www.bafta.org/awards/film/original-music/",
+          "disposition": "current-lineage",
+          "currentCategory": "Original Score"
+        },
+        {
+          "label": "Original Song Written for a Film",
+          "historyPage": "https://www.bafta.org/awards/film/original-song-written-for-a-film/",
+          "disposition": "excluded",
+          "reason": "Discontinued song category with no current Film counterpart."
+        },
+        {
+          "label": "Post Office BAFTA Scholarship",
+          "historyPage": "https://www.bafta.org/awards/film/post-office-bafta-scholarship/",
+          "disposition": "excluded",
+          "reason": "Person-only scholarship; the official record does not identify an associated winning work."
+        },
+        {
+          "label": "Robert Flaherty Award (Feature Length Film, Documentary In Content)",
+          "historyPage": "https://www.bafta.org/awards/film/robert-flaherty-award/",
+          "disposition": "current-lineage",
+          "currentCategory": "Documentary"
+        },
+        {
+          "label": "Score For A Film",
+          "historyPage": "https://www.bafta.org/awards/film/score-for-a-film/",
+          "disposition": "current-lineage",
+          "currentCategory": "Original Score"
+        },
+        {
+          "label": "Screenplay",
+          "historyPage": "https://www.bafta.org/awards/film/screenplay/",
+          "disposition": "excluded",
+          "reason": "Generic historical screenplay category cannot be assigned authoritatively to either current Adapted Screenplay or Original Screenplay."
+        },
+        {
+          "label": "Short Animation",
+          "historyPage": "https://www.bafta.org/awards/film/short-animated-film/",
+          "disposition": "current-lineage",
+          "currentCategory": "British Short Animation"
+        },
+        {
+          "label": "Short Factual Film",
+          "historyPage": "https://www.bafta.org/awards/film/short-factual-film/",
+          "disposition": "excluded",
+          "reason": "Discontinued factual-short branch not established as the current British Short Film or Documentary lineage."
+        },
+        {
+          "label": "Short Film",
+          "historyPage": "https://www.bafta.org/awards/film/short-film/",
+          "disposition": "current-lineage",
+          "currentCategory": "British Short Film"
+        },
+        {
+          "label": "Soundtrack",
+          "historyPage": "https://www.bafta.org/awards/film/soundtrack/",
+          "disposition": "current-lineage",
+          "currentCategory": "Sound"
+        },
+        {
+          "label": "Special Award",
+          "historyPage": "https://www.bafta.org/awards/film/competitive-special-award/",
+          "disposition": "excluded",
+          "reason": "Special recognition awarded to people, teams, or organisations without an authoritative associated work."
+        },
+        {
+          "label": "Special Award for Craft",
+          "historyPage": "https://www.bafta.org/awards/film/special-award-for-craft/",
+          "disposition": "excluded",
+          "reason": "Person-only craft recognition; the official records do not identify associated winning works."
+        },
+        {
+          "label": "Specialised Film",
+          "historyPage": "https://www.bafta.org/awards/film/specialised-film/",
+          "disposition": "excluded",
+          "reason": "Discontinued specialised-film category with no current Film counterpart."
+        },
+        {
+          "label": "Supporting Artist",
+          "historyPage": "https://www.bafta.org/awards/film/supporting-artist/",
+          "disposition": "excluded",
+          "reason": "Single gender-neutral historical result cannot be assigned authoritatively to either current Supporting Actor or Supporting Actress."
+        },
+        {
+          "label": "United Nations Award - for the best Film embodying one or more of the principles of the United Nations Charter",
+          "historyPage": "https://www.bafta.org/awards/film/united-nations-award/",
+          "disposition": "excluded",
+          "reason": "Discontinued thematic award with no current Film counterpart; the explicit no-award record remains preserved in the source snapshot."
+        }
+      ]
+    },
+    {
+      "id": "television",
+      "expectedHistoricalLabelCount": 95,
+      "decisions": [
+        {
+          "label": "Actor",
+          "historyPage": "https://www.bafta.org/awards/television/actor-television/",
+          "disposition": "current-lineage",
+          "currentCategory": "Leading Actor"
+        },
+        {
+          "label": "Actress",
+          "historyPage": "https://www.bafta.org/awards/television/actress-television/",
+          "disposition": "current-lineage",
+          "currentCategory": "Leading Actress"
+        },
+        {
+          "label": "Actuality Coverage",
+          "historyPage": "https://www.bafta.org/awards/television/actuality-coverage/",
+          "disposition": "excluded",
+          "reason": "Historical combined coverage category contains news, sport, and live-event winners and cannot be assigned authoritatively to one current coverage category."
+        },
+        {
+          "label": "Adult Education Award",
+          "historyPage": "https://www.bafta.org/awards/television/adult-education-award/",
+          "disposition": "excluded",
+          "reason": "Discontinued adult-education category with no current Television counterpart."
+        },
+        {
+          "label": "Alan Clarke Award",
+          "historyPage": "https://www.bafta.org/awards/television/alan-clarke-award/",
+          "disposition": "excluded",
+          "reason": "Person-only contribution award; the official records do not identify associated winning works."
+        },
+        {
+          "label": "Arts Programme",
+          "historyPage": "https://www.bafta.org/awards/television/arts-programme/",
+          "disposition": "current-lineage",
+          "currentCategory": "Specialist Factual"
+        },
+        {
+          "label": "Children's Programme",
+          "historyPage": "https://www.bafta.org/awards/television/childrens-programme/",
+          "disposition": "excluded",
+          "reason": "Undifferentiated historical children's category cannot be assigned authoritatively to either current Scripted or Non-Scripted branch."
+        },
+        {
+          "label": "Children's Programme - Documentary - Educational",
+          "historyPage": "https://www.bafta.org/awards/television/childrens-programme-documentary-educational/",
+          "disposition": "current-lineage",
+          "currentCategory": "Children's: Non-Scripted"
+        },
+        {
+          "label": "Children's Programme - Entertainment/Drama",
+          "historyPage": "https://www.bafta.org/awards/television/childrens-programme-entertainment-drama/",
+          "disposition": "current-lineage",
+          "currentCategory": "Children's: Scripted"
+        },
+        {
+          "label": "Children's Programme - Factual",
+          "historyPage": "https://www.bafta.org/awards/television/childrens-programme-factual/",
+          "disposition": "current-lineage",
+          "currentCategory": "Children's: Non-Scripted"
+        },
+        {
+          "label": "Children's Programme - Fiction or Entertainment",
+          "historyPage": "https://www.bafta.org/awards/television/childrens-programme-fiction-or-entertainment/",
+          "disposition": "current-lineage",
+          "currentCategory": "Children's: Scripted"
+        },
+        {
+          "label": "Comedy",
+          "historyPage": "https://www.bafta.org/awards/television/comedy/",
+          "disposition": "current-lineage",
+          "currentCategory": "Entertainment"
+        },
+        {
+          "label": "Comedy - Programme or Series",
+          "historyPage": "https://www.bafta.org/awards/television/comedy-programme-or-series/",
+          "disposition": "current-lineage",
+          "currentCategory": "Scripted Comedy"
+        },
+        {
+          "label": "Comedy and Comedy Entertainment Programme",
+          "historyPage": "https://www.bafta.org/awards/television/comedy-and-comedy-entertainment-programme/",
+          "disposition": "current-lineage",
+          "currentCategory": "Entertainment"
+        },
+        {
+          "label": "Comedy Entertainment",
+          "historyPage": "https://www.bafta.org/awards/television/comedy-entertainment/",
+          "disposition": "current-lineage",
+          "currentCategory": "Entertainment"
+        },
+        {
+          "label": "Comedy Performance",
+          "historyPage": "https://www.bafta.org/awards/television/comedy-performance/",
+          "disposition": "excluded",
+          "reason": "Gender-neutral performance category cannot be assigned authoritatively to either current Actor in a Comedy or Actress in a Comedy branch."
+        },
+        {
+          "label": "Comedy Series",
+          "historyPage": "https://www.bafta.org/awards/television/comedy-series/",
+          "disposition": "current-lineage",
+          "currentCategory": "Scripted Comedy"
+        },
+        {
+          "label": "Continuing Drama",
+          "historyPage": "https://www.bafta.org/awards/television/continuing-drama/",
+          "disposition": "current-lineage",
+          "currentCategory": "Soap"
+        },
+        {
+          "label": "Current Events",
+          "historyPage": "https://www.bafta.org/awards/television/current-events/",
+          "disposition": "current-lineage",
+          "currentCategory": "Current Affairs"
+        },
+        {
+          "label": "Dennis Potter Award",
+          "historyPage": "https://www.bafta.org/awards/television/dennis-potter-award/",
+          "disposition": "excluded",
+          "reason": "Person-only writing recognition; the official records do not identify associated winning works."
+        },
+        {
+          "label": "Design",
+          "historyPage": "https://www.bafta.org/awards/television/design/",
+          "disposition": "current-lineage",
+          "currentProgramme": "television-craft",
+          "currentCategory": "Production Design"
+        },
+        {
+          "label": "Designer",
+          "historyPage": "https://www.bafta.org/awards/television/designer/",
+          "disposition": "excluded",
+          "reason": "Person-only historical craft award; every official record identifies a recipient but no associated work."
+        },
+        {
+          "label": "Desmond Davis Award",
+          "historyPage": "https://www.bafta.org/awards/television/desmond-davis-award/",
+          "disposition": "excluded",
+          "reason": "Person-only contribution award; the official records do not identify associated winning works."
+        },
+        {
+          "label": "Documentary",
+          "historyPage": "https://www.bafta.org/awards/television/documentary-programme/",
+          "disposition": "current-lineage",
+          "currentCategory": "Single Documentary"
+        },
+        {
+          "label": "Drama Production",
+          "historyPage": "https://www.bafta.org/awards/television/drama/",
+          "disposition": "excluded",
+          "reason": "Historical production category combines single plays, serials, and series and cannot be assigned authoritatively to one current drama branch."
+        },
+        {
+          "label": "Drama Serial",
+          "historyPage": "https://www.bafta.org/awards/television/drama-serial/",
+          "disposition": "current-lineage",
+          "currentCategory": "Limited Drama"
+        },
+        {
+          "label": "Drama Series or Serial",
+          "historyPage": "https://www.bafta.org/awards/television/drama-series-or-serial/",
+          "disposition": "excluded",
+          "reason": "Combined historical category spans both ongoing series and finite serials and cannot be assigned authoritatively to either current Drama Series or Limited Drama."
+        },
+        {
+          "label": "Factual",
+          "historyPage": "https://www.bafta.org/awards/television/factual/",
+          "disposition": "excluded",
+          "reason": "Undifferentiated historical factual category spans multiple current factual branches."
+        },
+        {
+          "label": "Factual Personality",
+          "historyPage": "https://www.bafta.org/awards/television/factual-personality/",
+          "disposition": "excluded",
+          "reason": "Person-only performance recognition; every official record identifies a recipient but no associated work."
+        },
+        {
+          "label": "Factual Production",
+          "historyPage": "https://www.bafta.org/awards/television/factual-production/",
+          "disposition": "excluded",
+          "reason": "Undifferentiated historical factual-production category cannot be assigned authoritatively to one current factual branch."
+        },
+        {
+          "label": "Factual: Current Affairs",
+          "historyPage": "https://www.bafta.org/awards/television/factual-current-affairs/",
+          "disposition": "current-lineage",
+          "currentCategory": "Current Affairs"
+        },
+        {
+          "label": "Factual: Documentary",
+          "historyPage": "https://www.bafta.org/awards/television/factual-documentary/",
+          "disposition": "current-lineage",
+          "currentCategory": "Single Documentary"
+        },
+        {
+          "label": "Features",
+          "historyPage": "https://www.bafta.org/awards/television/features/",
+          "disposition": "current-lineage",
+          "currentCategory": "Factual Entertainment"
+        },
+        {
+          "label": "Female Performance in a Comedy",
+          "historyPage": "https://www.bafta.org/awards/television/female-performance-in-a-comedy/",
+          "disposition": "current-lineage",
+          "currentCategory": "Actress in a Comedy"
+        },
+        {
+          "label": "Flaherty Documentary Award",
+          "historyPage": "https://www.bafta.org/awards/television/flaherty-documentary-award/",
+          "disposition": "current-lineage",
+          "currentCategory": "Single Documentary"
+        },
+        {
+          "label": "Foreign Television Programme",
+          "historyPage": "https://www.bafta.org/awards/television/foreign-television-programme/",
+          "disposition": "current-lineage",
+          "currentCategory": "International"
+        },
+        {
+          "label": "General",
+          "historyPage": "https://www.bafta.org/awards/television/general/",
+          "disposition": "excluded",
+          "reason": "Historical miscellaneous recognition combines work and person recipients across unrelated disciplines and has no current category lineage."
+        },
+        {
+          "label": "Huw Wheldon Award For Specialised Programme or Series",
+          "historyPage": "https://www.bafta.org/awards/television/huw-wheldon-award-for-factual-series-or-strand/",
+          "disposition": "current-lineage",
+          "currentCategory": "Specialist Factual"
+        },
+        {
+          "label": "Huw Wheldon Award For Specialist Factual",
+          "historyPage": "https://www.bafta.org/awards/television/huw-wheldon-award-for-specialist-factual/",
+          "disposition": "current-lineage",
+          "currentCategory": "Specialist Factual"
+        },
+        {
+          "label": "Huw Wheldon Award For The Best Arts Programme",
+          "historyPage": "https://www.bafta.org/awards/television/huw-wheldon-award-for-the-best-arts-programme/",
+          "disposition": "current-lineage",
+          "currentCategory": "Specialist Factual"
+        },
+        {
+          "label": "Innovation",
+          "historyPage": "https://www.bafta.org/awards/television/innovation/",
+          "disposition": "excluded",
+          "reason": "Discontinued cross-genre innovation category with no current Television counterpart."
+        },
+        {
+          "label": "Interactivity",
+          "historyPage": "https://www.bafta.org/awards/television/interactivity/",
+          "disposition": "excluded",
+          "reason": "Discontinued interactive companion-content category with no current Television counterpart."
+        },
+        {
+          "label": "Lew Grade Audience Award As Voted By Readers Of The Radio Times",
+          "historyPage": "https://www.bafta.org/awards/television/lew-grade-audience-award-as-voted-by-readers-of-the-radio-times/",
+          "disposition": "excluded",
+          "reason": "Discontinued programme-level audience award predates the current memorable-moment format launched under P&O Cruises in 2023."
+        },
+        {
+          "label": "Lew Grade Award For A Significant And Popular Programme",
+          "historyPage": "https://www.bafta.org/awards/television/lew-grade-award-for-a-significant-and-popular-programme/",
+          "disposition": "excluded",
+          "reason": "Discontinued popular-programme recognition with no current juried category lineage."
+        },
+        {
+          "label": "Lew Grade Award For Entertainment Programme or Series",
+          "historyPage": "https://www.bafta.org/awards/television/lew-grade-award-for-entertainment-programme-or-series/",
+          "disposition": "current-lineage",
+          "currentCategory": "Entertainment"
+        },
+        {
+          "label": "Light Entertainment",
+          "historyPage": "https://www.bafta.org/awards/television/light-entertainment/",
+          "disposition": "current-lineage",
+          "currentCategory": "Entertainment"
+        },
+        {
+          "label": "Light Entertainment Artist",
+          "historyPage": "https://www.bafta.org/awards/television/light-entertainment-artist/",
+          "disposition": "excluded",
+          "reason": "Person-only performance recognition; every official record identifies a recipient but no associated work."
+        },
+        {
+          "label": "Light Entertainment Performance",
+          "historyPage": "https://www.bafta.org/awards/television/light-entertainment-performance/",
+          "disposition": "current-lineage",
+          "currentCategory": "Entertainment Performance"
+        },
+        {
+          "label": "Light Entertainment Personality",
+          "historyPage": "https://www.bafta.org/awards/television/light-entertainment-personality/",
+          "disposition": "excluded",
+          "reason": "Historical person category overlapped the separate Light Entertainment Performance award and is not an authoritative predecessor of the current performance category."
+        },
+        {
+          "label": "Live Outside Broadcast Coverage",
+          "historyPage": "https://www.bafta.org/awards/television/live-outside-broadcast-coverage/",
+          "disposition": "current-lineage",
+          "currentCategory": "Live Event Coverage"
+        },
+        {
+          "label": "Lloyds Bank People's Vote For The Most Popular Television Programme",
+          "historyPage": "https://www.bafta.org/awards/television/lloyds-bank-peoples-vote-for-favourite-tv-programme/",
+          "disposition": "excluded",
+          "reason": "Discontinued programme-level audience award predates the current memorable-moment format launched under P&O Cruises in 2023."
+        },
+        {
+          "label": "Male Performance in a Comedy",
+          "historyPage": "https://www.bafta.org/awards/television/male-performance-in-a-comedy/",
+          "disposition": "current-lineage",
+          "currentCategory": "Actor in a Comedy"
+        },
+        {
+          "label": "Mini-Series",
+          "historyPage": "https://www.bafta.org/awards/television/mini-series/",
+          "disposition": "current-lineage",
+          "currentCategory": "Limited Drama"
+        },
+        {
+          "label": "Most Original Programme/Series",
+          "historyPage": "https://www.bafta.org/awards/television/most-original-programme-series/",
+          "disposition": "excluded",
+          "reason": "Discontinued cross-genre originality recognition with no current Television counterpart."
+        },
+        {
+          "label": "Mullard Award",
+          "historyPage": "https://www.bafta.org/awards/television/mullard-award/",
+          "disposition": "excluded",
+          "reason": "Discontinued sponsored science-programme award with no established current category lineage."
+        },
+        {
+          "label": "New Media",
+          "historyPage": "https://www.bafta.org/awards/television/new-media/",
+          "disposition": "excluded",
+          "reason": "Discontinued cross-platform companion-content category with no current Television counterpart."
+        },
+        {
+          "label": "News And Current Affairs Journalism",
+          "historyPage": "https://www.bafta.org/awards/television/news-and-current-affairs-journalism/",
+          "disposition": "excluded",
+          "reason": "Combined historical category spans both current News Coverage and Current Affairs branches."
+        },
+        {
+          "label": "News or Outside Broadcast Coverage",
+          "historyPage": "https://www.bafta.org/awards/television/news-or-outside-broadcast-coverage/",
+          "disposition": "excluded",
+          "reason": "Combined historical category spans news and live outside-broadcast work and cannot be assigned authoritatively to one current coverage branch."
+        },
+        {
+          "label": "Original Programme/Series",
+          "historyPage": "https://www.bafta.org/awards/television/original-programme-series/",
+          "disposition": "excluded",
+          "reason": "Discontinued cross-genre originality recognition with no current Television counterpart."
+        },
+        {
+          "label": "Original Television Music",
+          "historyPage": "https://www.bafta.org/awards/television/original-television-music/",
+          "disposition": "excluded",
+          "reason": "Historical music category contains fiction, factual, and news work and cannot be assigned authoritatively to either current Television Craft Original Music branch."
+        },
+        {
+          "label": "Originality",
+          "historyPage": "https://www.bafta.org/awards/television/originality/",
+          "disposition": "excluded",
+          "reason": "Discontinued cross-genre originality recognition with no current Television counterpart."
+        },
+        {
+          "label": "Outside Broadcast",
+          "historyPage": "https://www.bafta.org/awards/television/outside-broadcast-programe/",
+          "disposition": "excluded",
+          "reason": "Historical outside-broadcast category combines sport and non-sport live events and cannot be assigned authoritatively to one current coverage branch."
+        },
+        {
+          "label": "Personality",
+          "historyPage": "https://www.bafta.org/awards/television/personality/",
+          "disposition": "excluded",
+          "reason": "Person-only recognition; every official record identifies a recipient but no associated work."
+        },
+        {
+          "label": "Philips Audience Award",
+          "historyPage": "https://www.bafta.org/awards/television/philips-audience-award/",
+          "disposition": "excluded",
+          "reason": "Discontinued programme-level audience award predates the current memorable-moment format launched under P&O Cruises in 2023."
+        },
+        {
+          "label": "Pioneer Audience Award",
+          "historyPage": "https://www.bafta.org/awards/television/pioneer-audience-award/",
+          "disposition": "excluded",
+          "reason": "Discontinued programme-level audience award predates the current memorable-moment format launched under P&O Cruises in 2023."
+        },
+        {
+          "label": "Production",
+          "historyPage": "https://www.bafta.org/awards/television/production/",
+          "disposition": "excluded",
+          "reason": "Person-only historical production award; every official record identifies a recipient but no associated work."
+        },
+        {
+          "label": "Programme/Series Without Category",
+          "historyPage": "https://www.bafta.org/awards/television/programme-series-without-category/",
+          "disposition": "excluded",
+          "reason": "Historical catch-all category was explicitly for programmes without another category and cannot establish a current lineage."
+        },
+        {
+          "label": "Radio Times Audience Award",
+          "historyPage": "https://www.bafta.org/awards/television/radio-times-audience-award/",
+          "disposition": "excluded",
+          "reason": "Discontinued programme-level audience award predates the current memorable-moment format launched under P&O Cruises in 2023."
+        },
+        {
+          "label": "Reality & Constructed Factual",
+          "historyPage": "https://www.bafta.org/awards/television/reality-constructed-factual/",
+          "disposition": "current-lineage",
+          "currentCategory": "Reality"
+        },
+        {
+          "label": "Rediffusion Star Awards: Flame Of Knowledge",
+          "historyPage": "https://www.bafta.org/awards/television/rediffusion-star-awards-flame-of-knowledge/",
+          "disposition": "excluded",
+          "reason": "Historical children's education award includes both scripted and non-scripted work and cannot be assigned authoritatively to one current children's branch."
+        },
+        {
+          "label": "Rediffusion Star Awards: Harlequin",
+          "historyPage": "https://www.bafta.org/awards/television/rediffusion-star-awards-harlequin/",
+          "disposition": "excluded",
+          "reason": "Historical children's award includes both scripted and non-scripted work and cannot be assigned authoritatively to one current children's branch."
+        },
+        {
+          "label": "Rediffusion Star Awards: Harlequin - Drama/Light Entertainment",
+          "historyPage": "https://www.bafta.org/awards/television/rediffusion-star-awards-harlequin-drama-light-entertainment/",
+          "disposition": "excluded",
+          "reason": "Historical combined children's category includes scripted drama and non-scripted entertainment and cannot be assigned authoritatively to one current children's branch."
+        },
+        {
+          "label": "Richard Dimbleby Award",
+          "historyPage": "https://www.bafta.org/awards/television/richard-dimbleby-award/",
+          "disposition": "excluded",
+          "reason": "Person-only presenter recognition; the official records do not identify associated winning works."
+        },
+        {
+          "label": "Richard Dimbleby Award For The Best Presenter - Factual, Features And News",
+          "historyPage": "https://www.bafta.org/awards/television/richard-dimbleby-award-for-the-best-presenter-factual-features-and-news/",
+          "disposition": "excluded",
+          "reason": "Discontinued presenter-performance category with no current Television counterpart."
+        },
+        {
+          "label": "Script",
+          "historyPage": "https://www.bafta.org/awards/television/script/",
+          "disposition": "excluded",
+          "reason": "Historical writing category contains comedy, drama, and factual work and cannot be assigned authoritatively to one current Television Craft writer branch."
+        },
+        {
+          "label": "Scriptwriter",
+          "historyPage": "https://www.bafta.org/awards/television/scriptwriter/",
+          "disposition": "excluded",
+          "reason": "Historical person-recipient writing category does not preserve a consistent associated work and cannot be assigned to one current Television Craft writer branch."
+        },
+        {
+          "label": "Shell International Award",
+          "historyPage": "https://www.bafta.org/awards/television/shell-international-award/",
+          "disposition": "excluded",
+          "reason": "Discontinued sponsored business-and-industry programme award with no established current category lineage."
+        },
+        {
+          "label": "Short Animation",
+          "historyPage": "https://www.bafta.org/awards/television/short-animated-film-television/",
+          "disposition": "excluded",
+          "reason": "Discontinued animation-specific category is not the lineage of the duration-based current Short Form award."
+        },
+        {
+          "label": "Single Drama",
+          "historyPage": "https://www.bafta.org/awards/television/single-drama/",
+          "disposition": "current-lineage",
+          "currentCategory": "Limited Drama"
+        },
+        {
+          "label": "Single Play",
+          "historyPage": "https://www.bafta.org/awards/television/single-play/",
+          "disposition": "current-lineage",
+          "currentCategory": "Limited Drama"
+        },
+        {
+          "label": "Situation Comedy",
+          "historyPage": "https://www.bafta.org/awards/television/situation-comedy/",
+          "disposition": "current-lineage",
+          "currentCategory": "Scripted Comedy"
+        },
+        {
+          "label": "Sky+ Audience Award",
+          "historyPage": "https://www.bafta.org/awards/television/sky-audience-award/",
+          "disposition": "excluded",
+          "reason": "Discontinued programme-level audience award predates the current memorable-moment format launched under P&O Cruises in 2023."
+        },
+        {
+          "label": "Soap & Continuing Drama",
+          "historyPage": "https://www.bafta.org/awards/television/soap-continuing-drama/",
+          "disposition": "current-lineage",
+          "currentCategory": "Soap"
+        },
+        {
+          "label": "Soap And Continuing Drama",
+          "historyPage": "https://www.bafta.org/awards/television/soap-and-continuing-drama/",
+          "disposition": "current-lineage",
+          "currentCategory": "Soap"
+        },
+        {
+          "label": "Specialised Production",
+          "historyPage": "https://www.bafta.org/awards/television/specialised-production/",
+          "disposition": "current-lineage",
+          "currentCategory": "Specialist Factual"
+        },
+        {
+          "label": "Specialised Programme",
+          "historyPage": "https://www.bafta.org/awards/television/specialised-programme/",
+          "disposition": "current-lineage",
+          "currentCategory": "Specialist Factual"
+        },
+        {
+          "label": "Specialised Series",
+          "historyPage": "https://www.bafta.org/awards/television/specialised-series/",
+          "disposition": "current-lineage",
+          "currentCategory": "Specialist Factual"
+        },
+        {
+          "label": "Sport And Live Event",
+          "historyPage": "https://www.bafta.org/awards/television/sport-and-live-events/",
+          "disposition": "excluded",
+          "reason": "Combined historical category contains both sport and non-sport live events and cannot be assigned authoritatively to one current coverage branch."
+        },
+        {
+          "label": "Sports/Events Coverage In Real Time",
+          "historyPage": "https://www.bafta.org/awards/television/sports-events-coverage-in-real-time/",
+          "disposition": "excluded",
+          "reason": "Combined historical category contains both sport and non-sport live events and cannot be assigned authoritatively to one current coverage branch."
+        },
+        {
+          "label": "Talk Show",
+          "historyPage": "https://www.bafta.org/awards/television/talk-show/",
+          "disposition": "excluded",
+          "reason": "Discontinued stand-alone talk-show category with no established current category lineage."
+        },
+        {
+          "label": "Technical Craft Award",
+          "historyPage": "https://www.bafta.org/awards/television/technical-craft-award/",
+          "disposition": "excluded",
+          "reason": "Generic historical craft recognition spans people and works across multiple current Television Craft disciplines."
+        },
+        {
+          "label": "Virgin Media's Must-See Moment",
+          "historyPage": "https://www.bafta.org/awards/television/virgin-medias-must-see-moment/",
+          "disposition": "current-lineage",
+          "currentCategory": "P&O Cruises Memorable Moment",
+          "notes": "Immediate predecessor memorable-moment format before P&O Cruises launched its sponsored edition in 2023."
+        },
+        {
+          "label": "Virgin TV's Must See Moment",
+          "historyPage": "https://www.bafta.org/awards/television/virgin-tvs-must-see-moment/",
+          "disposition": "current-lineage",
+          "currentCategory": "P&O Cruises Memorable Moment",
+          "notes": "Immediate predecessor memorable-moment format before P&O Cruises launched its sponsored edition in 2023."
+        },
+        {
+          "label": "Writer",
+          "historyPage": "https://www.bafta.org/awards/television/writer-television/",
+          "disposition": "excluded",
+          "reason": "Person-only historical writing award; the official records identify recipients but no associated works."
+        },
+        {
+          "label": "YouTube Audience Award",
+          "historyPage": "https://www.bafta.org/awards/television/youtube-audience-award/",
+          "disposition": "excluded",
+          "reason": "Discontinued programme-level audience award predates the current memorable-moment format launched under P&O Cruises in 2023."
+        }
+      ]
+    },
+    {
+      "id": "television-craft",
+      "expectedHistoricalLabelCount": 54,
+      "decisions": [
+        {
+          "label": "Anthony Asquith Award For New British Composer",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/anthony-asquith-award-for-new-british-composer/",
+          "disposition": "excluded",
+          "reason": "Discontinued composer-specific newcomer award with no current Television Craft counterpart."
+        },
+        {
+          "label": "BBC Blast and BAFTA Screen-Skills Award",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/bbc-blast-and-bafta-screen-skills-award/",
+          "disposition": "excluded",
+          "reason": "Person-only skills award; the official record does not identify an associated winning work."
+        },
+        {
+          "label": "Breakthrough Talent",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/breakthrough-talent/",
+          "disposition": "excluded",
+          "reason": "Generic historical emerging-talent category contains both factual and fiction work and cannot be assigned authoritatively to one current branch."
+        },
+        {
+          "label": "Breakthrough Talent sponsored by HBO Films",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/breakthrough-talent-sponsored-by-hbo-films/",
+          "disposition": "excluded",
+          "reason": "Sponsored form of the generic emerging-talent category contains both factual and fiction work and cannot be assigned authoritatively to one current branch."
+        },
+        {
+          "label": "Design",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/design-tvcraft/",
+          "disposition": "current-lineage",
+          "currentCategory": "Production Design"
+        },
+        {
+          "label": "Digital Creativity",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/digital-creativity/",
+          "disposition": "excluded",
+          "reason": "Discontinued interactive and online companion-content category with no current Television Craft counterpart."
+        },
+        {
+          "label": "Director",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/director-tvcraft/",
+          "disposition": "current-lineage",
+          "currentCategory": "Director: Fiction",
+          "notes": "The sole official winner is the fiction work Soundproof, immediately before the current fiction-labelled page begins."
+        },
+        {
+          "label": "Director - Fiction/Entertainment",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/director-fiction-entertainment/",
+          "disposition": "current-lineage",
+          "currentCategory": "Director: Fiction"
+        },
+        {
+          "label": "Director sponsored by Sony Pictures Television International",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/director-sponsored-by-sony-pictures-television-international/",
+          "disposition": "current-lineage",
+          "currentCategory": "Director: Fiction",
+          "notes": "The sole official winner is the fiction work Much Ado About Nothing, immediately before the current fiction-labelled page begins."
+        },
+        {
+          "label": "Director: Fiction, sponsored by 3 Mills Studios",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/director-fiction-sponsored-by-3-mills-studios/",
+          "disposition": "current-lineage",
+          "currentCategory": "Director: Fiction"
+        },
+        {
+          "label": "Editing - Fiction/Entertainment",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/editing-fiction-entertainment/",
+          "disposition": "current-lineage",
+          "currentCategory": "Editing: Fiction"
+        },
+        {
+          "label": "Editing Fiction/Entertainment sponsored by Pepper Post Production",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/editing-fiction-entertainment-sponsored-by-pepper-post-production/",
+          "disposition": "current-lineage",
+          "currentCategory": "Editing: Fiction"
+        },
+        {
+          "label": "Emerging Talent: Fiction, sponsored by Sara Putt Associates",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/emerging-talent-fiction-sponsored-by-sara-putt-associates/",
+          "disposition": "current-lineage",
+          "currentCategory": "Emerging Talent: Fiction"
+        },
+        {
+          "label": "Entertainment Craft Team, sponsored by Hotcam",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/entertainment-craft-team-sponsored-by-hotcam/",
+          "disposition": "current-lineage",
+          "currentCategory": "Entertainment Craft Team"
+        },
+        {
+          "label": "Entertainment Production Team",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/entertainment-production-team/",
+          "disposition": "current-lineage",
+          "currentCategory": "Entertainment Craft Team"
+        },
+        {
+          "label": "Film Cameraman",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-cameraman/",
+          "disposition": "excluded",
+          "reason": "Historical medium-based photography category contains both factual and fiction work and cannot be assigned authoritatively to one current branch."
+        },
+        {
+          "label": "Film Editor",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-editor-tvcraft/",
+          "disposition": "excluded",
+          "reason": "Historical medium-based editing category predates the factual and fiction split and cannot be assigned authoritatively to one current branch."
+        },
+        {
+          "label": "Film or Video Editor - Factual",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-or-video-editor-factual/",
+          "disposition": "current-lineage",
+          "currentCategory": "Editing: Factual"
+        },
+        {
+          "label": "Film or Video Editor - Fiction",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-or-video-editor-fiction/",
+          "disposition": "current-lineage",
+          "currentCategory": "Editing: Fiction"
+        },
+        {
+          "label": "Film or Video Editor - Fiction/Entertainment",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-or-video-editor-fiction-entertainment/",
+          "disposition": "current-lineage",
+          "currentCategory": "Editing: Fiction"
+        },
+        {
+          "label": "Film or Video Photography - Factual",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-or-video-photography-factual/",
+          "disposition": "current-lineage",
+          "currentCategory": "Photography: Factual"
+        },
+        {
+          "label": "Film Or Video Photography - Fiction/Entertainment",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-or-video-photography-fiction/",
+          "disposition": "current-lineage",
+          "currentCategory": "Photography & Lighting: Fiction"
+        },
+        {
+          "label": "Film Sound",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-sound/",
+          "disposition": "excluded",
+          "reason": "Historical medium-based sound category contains both factual and fiction work and cannot be assigned authoritatively to one current branch."
+        },
+        {
+          "label": "Film Sound - Recordist/Dubbing",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/film-sound-recordist-dubbing/",
+          "disposition": "current-lineage",
+          "currentCategory": "Sound: Fiction",
+          "notes": "The sole official winner is the fiction production Schubert."
+        },
+        {
+          "label": "Graphic Design",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/graphic-design/",
+          "disposition": "excluded",
+          "reason": "Historical graphic-design category contains titles, channel identity, and visual-effects work and cannot be assigned authoritatively to one current branch."
+        },
+        {
+          "label": "Graphics",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/graphics/",
+          "disposition": "excluded",
+          "reason": "Historical graphics category contains titles, channel identity, and visual-effects work and cannot be assigned authoritatively to one current branch."
+        },
+        {
+          "label": "Interactive Creative Contribution",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/interactive-creative-contribution/",
+          "disposition": "excluded",
+          "reason": "Discontinued interactive companion-content category with no current Television Craft counterpart."
+        },
+        {
+          "label": "Interactive Innovation",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/interactive-innovation/",
+          "disposition": "excluded",
+          "reason": "Discontinued interactive category with no current Television Craft counterpart."
+        },
+        {
+          "label": "Interactive Innovation - Content",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/interactive-innovation-content/",
+          "disposition": "excluded",
+          "reason": "Discontinued interactive-content category with no current Television Craft counterpart."
+        },
+        {
+          "label": "Interactive Innovation - Service/Platform",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/interactive-innovation-service-platform/",
+          "disposition": "excluded",
+          "reason": "Discontinued service-and-platform category with no current Television Craft counterpart."
+        },
+        {
+          "label": "Lighting",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/lighting-tvcraft/",
+          "disposition": "current-lineage",
+          "currentCategory": "Photography & Lighting: Fiction"
+        },
+        {
+          "label": "New Director - Factual",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/new-director-factual/",
+          "disposition": "current-lineage",
+          "currentCategory": "Emerging Talent: Factual"
+        },
+        {
+          "label": "New Director - Fiction",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/new-director-fiction/",
+          "disposition": "current-lineage",
+          "currentCategory": "Emerging Talent: Fiction"
+        },
+        {
+          "label": "New Media Developer",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/new-media-developer/",
+          "disposition": "excluded",
+          "reason": "Discontinued interactive-development category with no current Television Craft counterpart."
+        },
+        {
+          "label": "New Writer",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/new-writer/",
+          "disposition": "current-lineage",
+          "currentCategory": "Emerging Talent: Fiction",
+          "notes": "All five official winners are writers of fiction works."
+        },
+        {
+          "label": "Original Music",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/original-music-tvcraft/",
+          "disposition": "excluded",
+          "reason": "Generic historical music category contains factual and fiction work and cannot be assigned authoritatively to either current Original Music branch."
+        },
+        {
+          "label": "Original Television Music sponsored by Sebastian McLean International",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/original-television-music-sponsored-by-sebastian-mclean-international/",
+          "disposition": "excluded",
+          "reason": "Sponsored form of the generic historical music category predates the factual and fiction split and cannot establish a separate current lineage."
+        },
+        {
+          "label": "Photography - Fiction/Entertainment",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/photography-fiction-entertainment/",
+          "disposition": "current-lineage",
+          "currentCategory": "Photography & Lighting: Fiction"
+        },
+        {
+          "label": "Photography And Lighting Fiction/Entertainment",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/photography-and-lighting-fiction-entertainment/",
+          "disposition": "current-lineage",
+          "currentCategory": "Photography & Lighting: Fiction"
+        },
+        {
+          "label": "Production Design, sponsored by Microsoft",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/production-design-sponsored-by-microsoft/",
+          "disposition": "current-lineage",
+          "currentCategory": "Production Design"
+        },
+        {
+          "label": "Sound - Entertainment",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/sound-entertainment/",
+          "disposition": "current-lineage",
+          "currentCategory": "Sound: Fiction",
+          "notes": "The sole official winner is the fiction series Clocking Off."
+        },
+        {
+          "label": "Sound - Fiction/Entertainment",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/sound-fiction-entertainment/",
+          "disposition": "current-lineage",
+          "currentCategory": "Sound: Fiction"
+        },
+        {
+          "label": "Sound - Fiction/Entertainment sponsored by Munro Acoustics",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/sound-fiction-entertainment-sponsored-by-munro-acoustics/",
+          "disposition": "current-lineage",
+          "currentCategory": "Sound: Fiction"
+        },
+        {
+          "label": "Sound Supervisor",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/sound-supervisor/",
+          "disposition": "excluded",
+          "reason": "Historical sound-supervision category contains fiction, entertainment, and live-performance work and cannot be assigned authoritatively to one current branch."
+        },
+        {
+          "label": "Special Lighting Effects",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/special-lighting-effects/",
+          "disposition": "current-lineage",
+          "currentCategory": "Photography & Lighting: Fiction",
+          "notes": "The sole official winner is lighting work for the fiction series Rock Follies of '77."
+        },
+        {
+          "label": "Television Cameraman",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/tv-cameraman/",
+          "disposition": "current-lineage",
+          "currentCategory": "Photography & Lighting: Fiction"
+        },
+        {
+          "label": "Titles",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/titles/",
+          "disposition": "current-lineage",
+          "currentCategory": "Titles & Graphic Identity"
+        },
+        {
+          "label": "TV Lighting",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/tv-lighting/",
+          "disposition": "current-lineage",
+          "currentCategory": "Photography & Lighting: Fiction"
+        },
+        {
+          "label": "Video Cameraman",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/video-cameraman/",
+          "disposition": "current-lineage",
+          "currentCategory": "Photography & Lighting: Fiction"
+        },
+        {
+          "label": "Video Lighting",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/video-lighting/",
+          "disposition": "current-lineage",
+          "currentCategory": "Photography & Lighting: Fiction"
+        },
+        {
+          "label": "Visual Effects",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/visual-effects/",
+          "disposition": "current-lineage",
+          "currentCategory": "Special, Visual And Graphic Effects"
+        },
+        {
+          "label": "Visual Effects And Graphic Design",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/visual-effects-and-graphic-design/",
+          "disposition": "current-lineage",
+          "currentCategory": "Special, Visual And Graphic Effects"
+        },
+        {
+          "label": "VTR Editor",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/vtr-editor/",
+          "disposition": "excluded",
+          "reason": "Historical medium-based editing category contains fiction, entertainment, and factual work and cannot be assigned authoritatively to one current branch."
+        },
+        {
+          "label": "Writer",
+          "historyPage": "https://www.bafta.org/awards/tvcraft/writer-tvcraft/",
+          "disposition": "current-lineage",
+          "currentCategory": "Writer: Drama",
+          "notes": "All seven official winners are writers of drama works immediately before the current Writer: Drama page begins."
+        }
+      ]
+    }
+  ]
+}

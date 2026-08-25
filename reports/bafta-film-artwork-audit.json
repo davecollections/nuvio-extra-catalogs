@@ -1,0 +1,342 @@
+{
+  "schemaVersion": 1,
+  "awardBodyId": "bafta-film",
+  "checkedAt": "2026-08-25",
+  "productionPosterTemplate": "https://images.metahub.space/poster/medium/{imdb_id}/img",
+  "publishedUniqueTitleCount": 821,
+  "metaHubAvailableCount": 798,
+  "metaHubMissingCount": 23,
+  "tmdbFallbackCount": 2,
+  "knownUnavailableCount": 21,
+  "fallbackReview": [
+    {
+      "imdbId": "tt0064847",
+      "title": "Prologue",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-film-documentary-winning-films"
+      ],
+      "workKey": "movie:prologue:1970",
+      "tmdbId": 432098,
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0092583",
+      "title": "The Artist",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-film-british-short-film-winners"
+      ],
+      "workKey": "movie:artisten:1988",
+      "tmdbId": 1209875,
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0145743",
+      "title": "Do Be Careful Boys",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-film-animated-film-winners"
+      ],
+      "workKey": "movie:becarefulboys:1966",
+      "tmdbId": null,
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0162925",
+      "title": "The Deadness of Dad",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-film-british-short-film-winners"
+      ],
+      "workKey": "movie:thedeadnessofdad:1998",
+      "tmdbId": 338316,
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0206000",
+      "title": "The Harmfulness of Tobacco",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-film-british-short-film-winners"
+      ],
+      "workKey": "movie:theharmfulnessoftobacco:1992",
+      "tmdbId": 1211857,
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0215490",
+      "title": "Alaska: The Great Land",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-film-british-short-film-winners"
+      ],
+      "workKey": "movie:alaskathegreatland:1972",
+      "tmdbId": 948991,
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0215587",
+      "title": "Butch Minds the Baby",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-film-british-short-film-winners"
+      ],
+      "workKey": "movie:butchmindsthebaby:1980",
+      "tmdbId": 953772,
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0215591",
+      "title": "The Candy Show",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-film-british-short-film-winners"
+      ],
+      "workKey": "movie:thecandyshow:1990",
+      "tmdbId": 919247,
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0215594",
+      "title": "Careless Talk",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-film-british-short-film-winners"
+      ],
+      "workKey": "movie:carelesstalk:1986",
+      "tmdbId": 955602,
+      "posterPath": "/sFGK71ovi7Ng75qCErNAG1327rR.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/sFGK71ovi7Ng75qCErNAG1327rR.jpg",
+      "fallbackNote": "TMDB supplies an explicit poster fallback."
+    },
+    {
+      "imdbId": "tt0215736",
+      "title": "The Early Americans",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-film-documentary-winning-films"
+      ],
+      "workKey": "movie:theearlyamericans:1976",
+      "tmdbId": 949437,
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0247500",
+      "title": "The Man with the Beautiful Eyes",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-film-british-short-animation-winning-films"
+      ],
+      "workKey": "movie:themanwiththebeautifuleyes:2000",
+      "tmdbId": 226429,
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0275669",
+      "title": "Shadowscan",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-film-british-short-film-winners"
+      ],
+      "workKey": "movie:shadowscan:2001",
+      "tmdbId": 928932,
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0309929",
+      "title": "Notes on a Triangle",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-film-animated-film-winners"
+      ],
+      "workKey": "movie:notesonatriangle:1968",
+      "tmdbId": 377947,
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0360861",
+      "title": "Pan-tele-tron",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-film-animated-film-winners"
+      ],
+      "workKey": "movie:panteletron:1958",
+      "tmdbId": 947932,
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0396515",
+      "title": "Brown Paper Bag",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-film-british-short-film-winners"
+      ],
+      "workKey": "movie:brownpaperbag:2004",
+      "tmdbId": 1001013,
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0793531",
+      "title": "Indus Waters",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-film-british-short-film-winners"
+      ],
+      "workKey": "movie:induswaters:1968",
+      "tmdbId": 948542,
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0793570",
+      "title": "Rig Move",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-film-british-short-film-winners"
+      ],
+      "workKey": "movie:rigmove:1966",
+      "tmdbId": 948331,
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt1032863",
+      "title": "Do Not Erase",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-film-british-short-film-winners"
+      ],
+      "workKey": "movie:donoterase:2007",
+      "tmdbId": 1123893,
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt1517092",
+      "title": "I Do Air",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-film-british-short-film-winners"
+      ],
+      "workKey": "movie:idoair:2010",
+      "tmdbId": 72181,
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt1943839",
+      "title": "The Making Of Longbird",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-film-british-short-animation-winning-films"
+      ],
+      "workKey": "movie:themakingoflongbird:2013",
+      "tmdbId": 210656,
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt26440800",
+      "title": "Seven Cities of Antarctica",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-film-british-short-film-winners"
+      ],
+      "workKey": "movie:sevencitiesofantarctica:1960",
+      "tmdbId": 411648,
+      "posterPath": "/3Yc5gmbHDwXAFi4ngNBcJYDYMqq.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/3Yc5gmbHDwXAFi4ngNBcJYDYMqq.jpg",
+      "fallbackNote": "TMDB supplies an explicit poster fallback."
+    },
+    {
+      "imdbId": "tt2780146",
+      "title": "The Ball",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-film-british-short-film-winners"
+      ],
+      "workKey": "movie:laboule:1987",
+      "tmdbId": 1504480,
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt39045767",
+      "title": "In Need of Special Care",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-film-documentary-winning-series"
+      ],
+      "workKey": "movie:inneedofspecialcare:1969",
+      "tmdbId": null,
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    }
+  ],
+  "expectedContract": {
+    "posterOverrides": {
+      "tt0215594": "https://image.tmdb.org/t/p/w500/sFGK71ovi7Ng75qCErNAG1327rR.jpg",
+      "tt26440800": "https://image.tmdb.org/t/p/w500/3Yc5gmbHDwXAFi4ngNBcJYDYMqq.jpg"
+    },
+    "knownUnavailablePosters": [
+      "tt0064847",
+      "tt0092583",
+      "tt0145743",
+      "tt0162925",
+      "tt0206000",
+      "tt0215490",
+      "tt0215587",
+      "tt0215591",
+      "tt0215736",
+      "tt0247500",
+      "tt0275669",
+      "tt0309929",
+      "tt0360861",
+      "tt0396515",
+      "tt0793531",
+      "tt0793570",
+      "tt1032863",
+      "tt1517092",
+      "tt1943839",
+      "tt2780146",
+      "tt39045767"
+    ]
+  },
+  "currentContractMatchesLiveReview": true
+}
