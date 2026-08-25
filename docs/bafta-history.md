@@ -122,6 +122,8 @@ python scripts/build_bafta_identity_review.py --check
 
 The completed V1.2 Film review contains 822 award-year-scoped identities. Eight hundred and twenty-one resolve to compatible IMDb title IDs: 817 movies and four series. The series are three historical British Short Animation winners and the 1968 documentary *In Need of Special Care*; their official Film lineage is preserved while output routing follows the reviewed media type. The 1989 NFTS short *Say Goodbye* is the single reviewed non-catalogue outcome because its verified TMDB record has no IMDb relationship.
 
+The pre-release artwork audit also exposed an identity collision in the 1986 Adapted Screenplay result. The source winner *Prizzi's Honour* now resolves to TMDB movie `2075` / IMDb `tt0089841`; it no longer repeats the same identity as the separate Leading Actor winner *Kiss of the Spider Woman*.
+
 Canonical Film generation produces 78 ceremony-year files, 1,302 winner records, and 1,321 work links. Twenty-five category lineages generate 27 catalogues because the two mixed lineages split by media type. Reproduce the canonical import and catalogue payloads with:
 
 ```bash
@@ -147,6 +149,15 @@ Episode or moment wording must resolve to the parent movie or series only when t
 Credited recipients are preserved as identities for future Nuvio integration and auditability. V1.2 publishes work catalogues, not native person catalogues, so person artwork is not a publication gate and no runtime connection to the People artwork repository is added.
 
 Movie and series artwork follows the established MetaHub-by-IMDb route with explicit reviewed fallbacks only when live acceptance proves they are necessary. Missing artwork is documented; it is never replaced with unrelated imagery.
+
+The V1.2 live audit checks all 821 unique published IMDb titles through that production route. Seven hundred and ninety-eight return MetaHub images. *Careless Talk* and *Seven Cities of Antarctica* use verified TMDB image-CDN fallbacks. Twenty-one principally archival short-form works have no poster in either reviewed source and remain explicit `knownUnavailablePosters` outcomes. The complete evidence is committed in `reports/bafta-film-artwork-audit.json` and can be refreshed with:
+
+```bash
+python scripts/audit_bafta_film_artwork.py
+python scripts/audit_bafta_film_artwork.py --offline-check
+```
+
+The first command is an intentionally networked maintenance review. The second is the deterministic CI gate that checks the committed evidence against the published title set and poster contracts without external requests.
 
 ## Implementation gates
 

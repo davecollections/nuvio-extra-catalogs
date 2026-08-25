@@ -193,6 +193,24 @@ python scripts/build_manifest_presets.py --check
 
 Networked snapshot refresh, TMDB candidate discovery, manual-override verification, and mixed-media audits are explicit reviewed maintenance operations. See `docs/golden-globes-history.md` for the source authority, category lineages, identity exceptions, and film/series classification process.
 
+BAFTA Film uses the shared pinned BAFTA snapshot and reviewed identity inventory. Reproduce its normal offline publication checks with:
+
+```bash
+python scripts/enrich_bafta_identities.py --check --complete --programme film
+python scripts/build_bafta_film_canonical.py --check
+python scripts/build_bafta_film_outputs.py --check
+python scripts/audit_bafta_film_artwork.py --offline-check
+python scripts/build_manifest_presets.py --check
+```
+
+The separate networked artwork maintenance pass checks all published BAFTA Film IMDb poster routes and records reviewed TMDB fallbacks or unavailable-poster outcomes:
+
+```bash
+python scripts/audit_bafta_film_artwork.py
+```
+
+See `docs/bafta-history.md` and `reports/bafta-film-artwork-audit.json` for the lineage, identity, classification, and artwork evidence.
+
 ## GitHub Pages URLs
 
 Landing page:
@@ -212,6 +230,7 @@ Award-only manifest presets:
 ```text
 https://davecollections.github.io/nuvio-extra-catalogs/presets/academy/manifest.json
 https://davecollections.github.io/nuvio-extra-catalogs/presets/golden-globes/manifest.json
+https://davecollections.github.io/nuvio-extra-catalogs/presets/bafta-film/manifest.json
 ```
 
 Catalogue response pattern:

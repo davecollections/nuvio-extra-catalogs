@@ -1,8 +1,33 @@
 {
   "schemaVersion": 1,
   "awardBodyId": "bafta-film",
-  "posterOverrides": {},
-  "knownUnavailablePosters": [],
+  "posterOverrides": {
+    "tt0215594": "https://image.tmdb.org/t/p/w500/sFGK71ovi7Ng75qCErNAG1327rR.jpg",
+    "tt26440800": "https://image.tmdb.org/t/p/w500/3Yc5gmbHDwXAFi4ngNBcJYDYMqq.jpg"
+  },
+  "knownUnavailablePosters": [
+    "tt0064847",
+    "tt0092583",
+    "tt0145743",
+    "tt0162925",
+    "tt0206000",
+    "tt0215490",
+    "tt0215587",
+    "tt0215591",
+    "tt0215736",
+    "tt0247500",
+    "tt0275669",
+    "tt0309929",
+    "tt0360861",
+    "tt0396515",
+    "tt0793531",
+    "tt0793570",
+    "tt1032863",
+    "tt1517092",
+    "tt1943839",
+    "tt2780146",
+    "tt39045767"
+  ],
   "categories": [
     {"categoryId":"film-adapted-screenplay","firstCeremony":37,"lastCeremony":79,"expectedResults":43,"expectedWorkLinks":43,"catalogs":[{"mediaType":"movie","id":"bafta-film-adapted-screenplay-winning-films","name":"BAFTA Film — Adapted Screenplay Winning Films","expectedWorkLinks":43,"expectedItems":43}]},
     {"categoryId":"film-animated-film","firstCeremony":8,"lastCeremony":79,"expectedResults":41,"expectedWorkLinks":41,"catalogs":[{"mediaType":"movie","id":"bafta-film-animated-film-winners","name":"BAFTA Film — Animated Film Winners","expectedWorkLinks":41,"expectedItems":41}]},

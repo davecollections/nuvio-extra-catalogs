@@ -20,9 +20,18 @@ SEMVER_RE = re.compile(r"^\d+\.\d+\.\d+$")
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 IMDB_RE = re.compile(r"^tt\d+$")
 POSTER_TEMPLATE = "https://images.metahub.space/poster/medium/{imdb_id}/img"
-GOLDEN_CONTRACTS_PATH = (
-    REPO_ROOT / "data" / "awards" / "golden-globes" / "output-contracts.json"
-)
+POSTER_CONTRACT_PATHS = {
+    "golden-globes-": REPO_ROOT
+    / "data"
+    / "awards"
+    / "golden-globes"
+    / "output-contracts.json",
+    "bafta-film-": REPO_ROOT
+    / "data"
+    / "awards"
+    / "bafta-film"
+    / "output-contracts.json",
+}
 
 
 class ValidationError(RuntimeError):
@@ -94,7 +103,9 @@ def validate_manifest(
 
 
 def validate_catalogue(
-    path: Path, media_type: str, poster_overrides: dict[str, str]
+    path: Path,
+    media_type: str,
+    poster_overrides_by_prefix: dict[str, dict[str, str]],
 ) -> int:
     value = load_json(path)
     if set(value) != {"metas"} or not isinstance(value["metas"], list):
@@ -113,10 +124,16 @@ def validate_catalogue(
             raise ValidationError(f"{path}: metas[{index}].type must be {media_type}")
         if not isinstance(meta.get("name"), str) or not meta["name"].strip():
             raise ValidationError(f"{path}: metas[{index}].name is invalid")
-        expected_poster = (
-            poster_overrides.get(imdb_id, POSTER_TEMPLATE.format(imdb_id=imdb_id))
-            if path.name.startswith("golden-globes-")
-            else POSTER_TEMPLATE.format(imdb_id=imdb_id)
+        poster_overrides = next(
+            (
+                overrides
+                for prefix, overrides in poster_overrides_by_prefix.items()
+                if path.name.startswith(prefix)
+            ),
+            {},
+        )
+        expected_poster = poster_overrides.get(
+            imdb_id, POSTER_TEMPLATE.format(imdb_id=imdb_id)
         )
         if meta.get("poster") != expected_poster:
             raise ValidationError(f"{path}: metas[{index}].poster is not the contracted URL")
@@ -142,9 +159,14 @@ def expected_files(root: Path, identities: list[tuple[str, str]]) -> set[Path]:
 
 def main() -> int:
     try:
-        poster_overrides = load_json(GOLDEN_CONTRACTS_PATH).get("posterOverrides", {})
-        if not isinstance(poster_overrides, dict):
-            raise ValidationError(f"{GOLDEN_CONTRACTS_PATH}: posterOverrides must be an object")
+        poster_overrides_by_prefix: dict[str, dict[str, str]] = {}
+        for prefix, contracts_path in POSTER_CONTRACT_PATHS.items():
+            poster_overrides = load_json(contracts_path).get("posterOverrides", {})
+            if not isinstance(poster_overrides, dict):
+                raise ValidationError(
+                    f"{contracts_path}: posterOverrides must be an object"
+                )
+            poster_overrides_by_prefix[prefix] = poster_overrides
         root_manifest, root_catalogs = validate_manifest(ROOT_MANIFEST_PATH)
         root_files = catalogue_files(REPO_ROOT)
         if root_files != expected_files(REPO_ROOT, root_catalogs):
@@ -153,7 +175,7 @@ def main() -> int:
             validate_catalogue(
                 REPO_ROOT / "catalog" / media_type / f"{catalog_id}.json",
                 media_type,
-                poster_overrides,
+                poster_overrides_by_prefix,
             )
             for media_type, catalog_id in root_catalogs
         )
@@ -176,7 +198,9 @@ def main() -> int:
                 root_path = REPO_ROOT / "catalog" / media_type / f"{catalog_id}.json"
                 if preset_path.read_bytes() != root_path.read_bytes():
                     raise ValidationError(f"{preset_path}: does not byte-match root catalogue")
-                validate_catalogue(preset_path, media_type, poster_overrides)
+                validate_catalogue(
+                    preset_path, media_type, poster_overrides_by_prefix
+                )
             preset_catalog_union.update(catalogs)
         if preset_catalog_union != set(root_catalogs):
             raise ValidationError("award presets do not partition the all-awards manifest")

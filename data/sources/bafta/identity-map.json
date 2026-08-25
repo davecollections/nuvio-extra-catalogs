@@ -12746,13 +12746,13 @@
       "mediaScope": "movie",
       "resolution": {
         "mediaType": "movie",
-        "title": "Kiss of the Spider Woman",
+        "title": "Prizzi's Honor",
         "releaseYear": 1985,
-        "tmdbId": 11703,
-        "imdbId": "tt0089424",
+        "tmdbId": 2075,
+        "imdbId": "tt0089841",
         "method": "reviewed-manual-override"
       },
-      "reviewNote": "Prizzi's Honour is the UK spelling of the 1985 feature stored by TMDB as Prizzi's Honor."
+      "reviewNote": "Prizzi's Honour is the UK spelling of the 1985 feature stored by TMDB as Prizzi's Honor (IMDb tt0089841)."
     },
     {
       "key": "movie:prologue:1970",
