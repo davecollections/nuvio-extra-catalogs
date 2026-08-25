@@ -171,3 +171,5 @@ Before V1.2 BAFTA Film publication:
 6. Run the full offline validation sequence and publish an immutable preview.
 7. Test representative Film lineages, the BAFTA Film preset, metadata-provider behaviour, and Refresh Add-on behaviour in Nuvio.
 8. Merge only after GitHub Pages and deployed byte-match checks pass, then preserve a V1.2 rollback point.
+
+Owner acceptance completed against immutable preview commit `89b830a2977b87b72751756942e557d8c234af9a`. Representative movie and mixed-series histories resolved through the installed metadata provider. The British Short Animation series split rendered *SuperTed*, *Alias the Jester*, and *Henry's Cat* with artwork; the Documentary series split correctly retained *In Need of Special Care* with its documented unavailable-poster outcome. The preview's 173 published routes returned HTTP 200 and byte-matched the accepted commit before merge.

@@ -21,12 +21,14 @@ All notable project milestones are recorded here. This project uses semantic ver
 - Two verified TMDB poster fallbacks cover *Careless Talk* and *Seven Cities of Antarctica*; 21 principally archival short-form titles remain explicitly documented as having no poster in either reviewed source.
 - CI now requires complete BAFTA Film work review and reproduces the canonical import, catalogue outputs, preset routes, and repository-wide manifest contracts offline.
 
-### Validated locally for V1.2 preview
+### Validated for V1.2 release
 
 - Shared canonical validation passes with 3 award bodies, 77 categories, 259 ceremonies, 5,061 results, 5,082 work links, and 6,139 person links.
 - BAFTA Film contracts pass with 78 archive years, 1,302 results, 1,321 work links, and 27 generated catalogue payloads.
 - The all-awards manifest and all three award presets pass exact route, payload-shape, media-type, byte-equality, and catalogue-set validation with 4,963 total Meta Preview items.
 - Live artwork review checks all 821 unique published BAFTA Film titles: 798 resolve directly through MetaHub, two use reviewed TMDB fallbacks, and 21 are explicit unavailable-poster outcomes.
+- GitHub CI passed for immutable preview commit `89b830a2977b87b72751756942e557d8c234af9a`, and every one of its 173 landing-page, manifest, preset, and catalogue routes returned HTTP 200 with exact committed bytes.
+- The owner accepted the immutable preview in Nuvio after representative movie and mixed-series browsing. The British Short Animation series split resolved *SuperTed*, *Alias the Jester*, and *Henry's Cat* with artwork; the Documentary series split retained *In Need of Special Care* with its accurate identity and expected documented unavailable-poster state.
 
 ## [1.1.0] - 2026-08-22
 
