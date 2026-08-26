@@ -7,13 +7,20 @@ import argparse
 import sys
 from pathlib import Path
 
-from bafta_common import SOURCE_DIR, load_json
+from bafta_common import (
+    SOURCE_DIR,
+    current_programme_for_category,
+    load_json,
+    selected_winners,
+    work_key,
+)
 
 
 ROOT = Path(__file__).resolve().parents[1]
 IDENTITY_MAP_PATH = SOURCE_DIR / "identity-map.json"
 REPORT_PATH = ROOT / "reports" / "bafta-identity-review.md"
 FILM_REPORT_PATH = ROOT / "reports" / "bafta-film-identity-review.md"
+TELEVISION_REPORT_PATH = ROOT / "reports" / "bafta-television-identity-review.md"
 
 
 def escaped(value: object) -> str:
@@ -64,11 +71,20 @@ def evidence(entry: dict) -> str:
 
 
 def report_content(identity_map: dict, programme: str | None = None) -> str:
-    works = [
-        entry
-        for entry in identity_map["works"]
-        if programme is None or programme in entry["programmes"]
-    ]
+    if programme is None:
+        works = identity_map["works"]
+        selected_records = identity_map["selectedWinnerRecords"]
+        selected_work_links = identity_map["selectedWorkLinks"]
+    else:
+        selected = [
+            entry
+            for entry in selected_winners()
+            if current_programme_for_category(entry["category"]["id"]) == programme
+        ]
+        scoped_keys = {work_key(entry) for entry in selected}
+        works = [entry for entry in identity_map["works"] if entry["key"] in scoped_keys]
+        selected_records = len({entry["nominationId"] for entry in selected})
+        selected_work_links = len(selected)
     resolved = [entry for entry in works if "resolution" in entry]
     reviewed_outcomes = [entry for entry in works if "reviewOutcome" in entry]
     unresolved = [
@@ -86,23 +102,13 @@ def report_content(identity_map: dict, programme: str | None = None) -> str:
     movies = sum(entry["resolution"]["mediaType"] == "movie" for entry in resolved)
     series = sum(entry["resolution"]["mediaType"] == "series" for entry in resolved)
     unattempted = sum("candidates" not in entry for entry in unresolved)
-    selected_records = (
-        identity_map["selectedWinnerRecords"]
-        if programme is None
-        else len(
-            {
-                nomination_id
-                for entry in works
-                for nomination_id in entry["nominationIds"]
-            }
-        )
-    )
-    selected_work_links = (
-        identity_map["selectedWorkLinks"]
-        if programme is None
-        else sum(len(entry["nominationIds"]) for entry in works)
-    )
-    label = "BAFTA" if programme is None else "BAFTA Film"
+    labels = {
+        None: "BAFTA",
+        "film": "BAFTA Film",
+        "television": "BAFTA Television",
+        "television-craft": "BAFTA Television Craft",
+    }
+    label = labels[programme]
     lines = [
         f"# {label} work identity review",
         "",
@@ -203,6 +209,10 @@ def main() -> int:
         reports = (
             (REPORT_PATH, report_content(identity_map)),
             (FILM_REPORT_PATH, report_content(identity_map, "film")),
+            (
+                TELEVISION_REPORT_PATH,
+                report_content(identity_map, "television"),
+            ),
         )
         for path, content in reports:
             if args.write:

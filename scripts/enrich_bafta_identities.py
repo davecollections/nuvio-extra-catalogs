@@ -16,7 +16,7 @@ import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-from bafta_common import ROOT, SOURCE_DIR, load_json
+from bafta_common import ROOT, SOURCE_DIR, identity_in_current_programme, load_json
 from enrich_golden_globes_identities import (
     IdentityError,
     candidate_titles,
@@ -217,7 +217,7 @@ def enrich_works(
         entry
         for entry in identity_map["works"]
         if "resolution" not in entry
-        and (programme is None or programme in entry.get("programmes", []))
+        and (programme is None or identity_in_current_programme(entry, programme))
         and (retry_candidates or "candidates" not in entry)
     ]
     pending = pending[offset : offset + limit if limit is not None else None]
@@ -613,7 +613,7 @@ def validate_map(
     scoped_works = [
         entry
         for entry in works
-        if programme is None or programme in entry.get("programmes", [])
+        if programme is None or identity_in_current_programme(entry, programme)
     ]
     scoped_complete = sum(
         "resolution" in entry or "reviewOutcome" in entry for entry in scoped_works
