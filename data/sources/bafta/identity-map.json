@@ -24805,87 +24805,15 @@
         "345906"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 233748,
-          "title": "Antony and Cleopatra",
-          "originalTitle": "Antony and Cleopatra",
-          "releaseYear": 1975,
-          "imdbId": "tt0175447",
-          "awardWindowPlausible": true,
-          "popularity": 1.2702
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 98632,
-          "title": "Antony and Cleopatra",
-          "originalTitle": "Antony and Cleopatra",
-          "releaseYear": 1972,
-          "imdbId": "tt0068920",
-          "awardWindowPlausible": true,
-          "popularity": 2.3105
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1710353,
-          "title": "Antony and Cleopatra",
-          "originalTitle": "Antony and Cleopatra",
-          "releaseYear": 1962,
-          "awardWindowPlausible": false,
-          "popularity": 1.1023
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1243415,
-          "title": "Antony and Cleopatra",
-          "originalTitle": "Antony and Cleopatra",
-          "releaseYear": 1959,
-          "imdbId": "tt3508918",
-          "awardWindowPlausible": false,
-          "popularity": 0.9861
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 279054,
-          "title": "Antony and Cleopatra",
-          "originalTitle": "Antony and Cleopatra",
-          "releaseYear": 1914,
-          "imdbId": "tt1223220",
-          "awardWindowPlausible": false,
-          "popularity": 0.3004
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 550856,
-          "title": "Antony and Cleopatra",
-          "originalTitle": "Antony and Cleopatra",
-          "releaseYear": 1908,
-          "imdbId": "tt0000634",
-          "awardWindowPlausible": false,
-          "popularity": 0.9053
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1231732,
-          "title": "Antony and Cleopatra",
-          "originalTitle": "Антоний и Клеопатра",
-          "releaseYear": 1980,
-          "imdbId": "tt15128566",
-          "awardWindowPlausible": false,
-          "popularity": 1.2232
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 233750,
-          "title": "Antony and Cleopatra",
-          "originalTitle": "Antony and Cleopatra",
-          "releaseYear": 1983,
-          "imdbId": "tt0085176",
-          "awardWindowPlausible": false,
-          "popularity": 1.0296
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Antony and Cleopatra",
+        "releaseYear": 1975,
+        "tmdbId": 233748,
+        "imdbId": "tt0175447",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Recipient Jon Scoffield identifies the 1974 ATV television film Antony and Cleopatra, IMDb tt0175447, not the unrelated 1972 feature."
     },
     {
       "key": "television:anungentlemanlyact:1993",
@@ -28000,16 +27928,14 @@
         "347517"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 47614,
-          "title": "Channel 4 Racing: Derby Day",
-          "originalTitle": "Channel 4 Racing: Derby Day",
-          "awardWindowPlausible": false,
-          "popularity": 0.3455
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Channel 4 Racing",
+        "releaseYear": 1984,
+        "imdbId": "tt5448310",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Derby Day is an identified broadcast of the long-running Channel 4 Racing programme; IMDb supplies the compatible parent-series identity."
     },
     {
       "key": "television:charlesiithepowerandthepassion:2004",
@@ -28757,16 +28683,14 @@
         "347219"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 47655,
-          "title": "Coping With Grown-Ups",
-          "originalTitle": "Coping With Grown-Ups",
-          "awardWindowPlausible": false,
-          "popularity": 0.3174
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Coping with Grown Ups",
+        "releaseYear": 1994,
+        "imdbId": "tt20447178",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Sue Nott, Brian Lighthill and Peter Corey identify the 1994 BBC television film Coping with Grown Ups."
     },
     {
       "key": "television:coronationstreet:2003",
@@ -32418,29 +32342,15 @@
         "346240"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 272286,
-          "title": "Fred Dibnah, Steeplejack",
-          "originalTitle": "Fred Dibnah, Steeplejack",
-          "releaseYear": 1979,
-          "lastAirYear": 1979,
-          "imdbId": "tt0437194",
-          "awardWindowPlausible": true,
-          "popularity": 0.7919
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 220988,
-          "title": "Fred Dibnah, Steeplejack",
-          "originalTitle": "Fred Dibnah, Steeplejack",
-          "releaseYear": 1979,
-          "imdbId": "tt0437194",
-          "awardWindowPlausible": true,
-          "popularity": 0.469
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Fred Dibnah, Steeplejack",
+        "releaseYear": 1979,
+        "tmdbId": 220988,
+        "imdbId": "tt0437194",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Don Haworth's Documentary winner is the 1979 BBC television film Fred Dibnah, Steeplejack, IMDb tt0437194; movie media follows IMDb's television-movie classification."
     },
     {
       "key": "television:frenchandsaunders:1994",
@@ -32480,18 +32390,14 @@
         "361084"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 22701,
-          "title": "Friday Night Live",
-          "originalTitle": "Friday Night Live",
-          "releaseYear": 1988,
-          "lastAirYear": 1988,
-          "awardWindowPlausible": false,
-          "popularity": 3.4523
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Friday Night Live",
+        "releaseYear": 2022,
+        "imdbId": "tt22987508",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Geoff Posner, Susie Hall, Lucy Ansbro, Shane Allen and Ben Elton identify Channel 4's 2022 live comedy special Friday Night Live."
     },
     {
       "key": "television:fridaynightwithjonathanross:2004",
@@ -32888,16 +32794,14 @@
         "345679"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 48063,
-          "title": "Girls Wanted Istanbul",
-          "originalTitle": "Girls Wanted Istanbul",
-          "awardWindowPlausible": false,
-          "popularity": 0.3995
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Girls Wanted, Istanbul",
+        "releaseYear": 1969,
+        "imdbId": "tt32189654",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Wendy Toye identifies the 1969 television film Girls Wanted, Istanbul."
     },
     {
       "key": "television:glastonbury2019:2020",
@@ -34952,17 +34856,15 @@
         "346938"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1717283,
-          "title": "Hôtel Terminus",
-          "originalTitle": "Hôtel Terminus",
-          "releaseYear": 2026,
-          "awardWindowPlausible": false,
-          "popularity": 2.3212
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Hôtel Terminus: The Life and Times of Klaus Barbie",
+        "releaseYear": 1988,
+        "tmdbId": 41954,
+        "imdbId": "tt0095341",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The International winner is Marcel Ophuls's 1988 documentary Hotel Terminus: The Life and Times of Klaus Barbie, IMDb tt0095341."
     },
     {
       "key": "television:hotshoeshow:1984",
@@ -36031,34 +35933,14 @@
         "346972"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1565764,
-          "title": "Ipso Facto",
-          "originalTitle": "Ipso Facto",
-          "awardWindowPlausible": false,
-          "popularity": 1.226
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1144564,
-          "title": "Ipso Facto",
-          "originalTitle": "Ipso Facto",
-          "releaseYear": 2011,
-          "imdbId": "tt1575573",
-          "awardWindowPlausible": false,
-          "popularity": 0.3897
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 47748,
-          "title": "Ipso Facto",
-          "originalTitle": "Ipso Facto",
-          "awardWindowPlausible": false,
-          "popularity": 0.3377
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Ipso Facto",
+        "releaseYear": 1989,
+        "imdbId": "tt13801796",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Madeline Wiltshire identifies the 1989 youth factual series Ipso Facto."
     },
     {
       "key": "television:irelandatelevisionhistoryepisodes513:1982",
@@ -37325,18 +37207,15 @@
         "348215"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1178065,
-          "title": "Lie of the Land",
-          "originalTitle": "Lie of the Land",
-          "releaseYear": 2023,
-          "imdbId": "tt22990502",
-          "awardWindowPlausible": false,
-          "popularity": 1.3027
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Lie of the Land",
+        "releaseYear": 2007,
+        "tmdbId": 297765,
+        "imdbId": "tt1020045",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Molly Dineen and the credited team identify the 2007 television documentary The Lie of the Land, IMDb tt1020045."
     },
     {
       "key": "television:lifeanddeathingazastoryville:2025",
@@ -41010,75 +40889,14 @@
         "346069"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 679889,
-          "title": "On the Move",
-          "originalTitle": "On the Move",
-          "releaseYear": 1970,
-          "imdbId": "tt1959494",
-          "awardWindowPlausible": false,
-          "popularity": 0.6065
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 662327,
-          "title": "On the Move",
-          "originalTitle": "Útközben",
-          "releaseYear": 1979,
-          "imdbId": "tt0080070",
-          "awardWindowPlausible": false,
-          "popularity": 2.8835
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 544191,
-          "title": "On The Move",
-          "originalTitle": "On The Move",
-          "releaseYear": 2008,
-          "imdbId": "tt1340103",
-          "awardWindowPlausible": false,
-          "popularity": 0.9259
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 79304,
-          "title": "On the Move",
-          "originalTitle": "Die Abfahrer",
-          "releaseYear": 1978,
-          "imdbId": "tt0077117",
-          "awardWindowPlausible": false,
-          "popularity": 0.7342
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1060959,
-          "title": "On the Move",
-          "originalTitle": "On the Move",
-          "releaseYear": 2018,
-          "imdbId": "tt9074820",
-          "awardWindowPlausible": false,
-          "popularity": 0.6813
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 47959,
-          "title": "On the Move",
-          "originalTitle": "On the Move",
-          "imdbId": "tt0480065",
-          "awardWindowPlausible": false,
-          "popularity": 0.4581
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 45727,
-          "title": "On The Move",
-          "originalTitle": "On The Move",
-          "awardWindowPlausible": false,
-          "popularity": 0.4078
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "On the Move",
+        "releaseYear": 1975,
+        "imdbId": "tt0480065",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The Specialist Factual winner is the 1975 BBC adult-literacy series On the Move starring Bob Hoskins; TMDB's matching legacy record has no release date."
     },
     {
       "key": "television:ontrialthechicagoconspiracytrial:1971",
@@ -42592,38 +42410,15 @@
         "368290"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1003722,
-          "title": "Quiet Life",
-          "originalTitle": "Quiet Life",
-          "releaseYear": 2025,
-          "imdbId": "tt33030320",
-          "awardWindowPlausible": true,
-          "popularity": 1.653
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1262191,
-          "title": "Quiet Life",
-          "originalTitle": "Quiet Life",
-          "releaseYear": 2024,
-          "imdbId": "tt31389354",
-          "awardWindowPlausible": true,
-          "popularity": 0.6197
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 573714,
-          "title": "Quiet Life",
-          "originalTitle": "Мирная жизнь",
-          "releaseYear": 2019,
-          "imdbId": "tt39898421",
-          "awardWindowPlausible": false,
-          "popularity": 0.7068
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Quiet Life",
+        "releaseYear": 2024,
+        "tmdbId": 1262191,
+        "imdbId": "tt31389354",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Ruth Pickett, Luke Rollason and Alex Bruce identify the 2024 BBC comedy short Quiet Life, IMDb tt31389354, not the unrelated feature film."
     },
     {
       "key": "television:raceacrosstheworld:2020",
@@ -43309,16 +43104,14 @@
         "346603"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 47775,
-          "title": "River Journeys",
-          "originalTitle": "River Journeys",
-          "awardWindowPlausible": false,
-          "popularity": 0.3804
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "River Journeys",
+        "releaseYear": 1984,
+        "imdbId": "tt28500169",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Roger Laughton and David Wallace identify the 1984 BBC documentary series River Journeys."
     },
     {
       "key": "television:robandrylansgrandtour:2025",
@@ -44027,88 +43820,15 @@
         "374730"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1618612,
-          "title": "See No Evil",
-          "originalTitle": "See No Evil",
-          "releaseYear": 2026,
-          "awardWindowPlausible": true,
-          "popularity": 0.6104
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1504505,
-          "title": "See No Evil",
-          "originalTitle": "See No Evil",
-          "releaseYear": 2025,
-          "awardWindowPlausible": true,
-          "popularity": 1.4221
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 308746,
-          "title": "See No Evil",
-          "originalTitle": "See No Evil",
-          "releaseYear": 2025,
-          "lastAirYear": 2025,
-          "imdbId": "tt39151138",
-          "awardWindowPlausible": true,
-          "popularity": 1.1156
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1703303,
-          "title": "See No Evil",
-          "originalTitle": "See No Evil",
-          "releaseYear": 2025,
-          "imdbId": "tt39151138",
-          "awardWindowPlausible": true,
-          "popularity": 0.4872
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1045221,
-          "title": "See No Evil",
-          "originalTitle": "Betur Sjá Augu",
-          "releaseYear": 2022,
-          "imdbId": "tt13729976",
-          "awardWindowPlausible": false,
-          "popularity": 0.5596
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 65824,
-          "title": "See No Evil",
-          "originalTitle": "See No Evil",
-          "releaseYear": 2015,
-          "lastAirYear": 2025,
-          "imdbId": "tt4189570",
-          "awardWindowPlausible": true,
-          "popularity": 11.1966
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 228236,
-          "title": "See No evil",
-          "originalTitle": "See No evil",
-          "releaseYear": 2014,
-          "lastAirYear": 2015,
-          "awardWindowPlausible": false,
-          "popularity": 1.163
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 255896,
-          "title": "See No Evil",
-          "originalTitle": "See No Evil",
-          "releaseYear": 2014,
-          "imdbId": "tt3508850",
-          "awardWindowPlausible": false,
-          "popularity": 0.6447
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "See No Evil",
+        "releaseYear": 2025,
+        "tmdbId": 308746,
+        "imdbId": "tt39151138",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Factual Series winner is Channel 4's 2025 two-part documentary See No Evil about John Smyth, IMDb tt39151138; series media preserves its two-part programme form."
     },
     {
       "key": "television:seenoevilthemoorsmurders:2007",
@@ -48127,16 +47847,14 @@
         "346808"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 47734,
-          "title": "The Duty Men",
-          "originalTitle": "The Duty Men",
-          "awardWindowPlausible": false,
-          "popularity": 0.2789
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Duty Men",
+        "releaseYear": 1987,
+        "imdbId": "tt8039182",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Paul Hamann identifies the 1987 BBC factual miniseries The Duty Men."
     },
     {
       "key": "television:theearthshotprize2021:2022",
@@ -50550,19 +50268,15 @@
         "345715"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 231511,
-          "title": "The Morecambe and Wise Show",
-          "originalTitle": "The Morecambe and Wise Show",
-          "releaseYear": 1980,
-          "lastAirYear": 1983,
-          "imdbId": "tt0240285",
-          "awardWindowPlausible": false,
-          "popularity": 5.5674
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Morecambe & Wise Show",
+        "releaseYear": 1968,
+        "tmdbId": 154702,
+        "imdbId": "tt0063930",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Eric Morecambe and Ernie Wise identify the BBC series The Morecambe & Wise Show, first released in 1968, not the later Thames series."
     },
     {
       "key": "television:themorecambeandwiseshow:1973",
@@ -50582,19 +50296,15 @@
         "345799"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 231511,
-          "title": "The Morecambe and Wise Show",
-          "originalTitle": "The Morecambe and Wise Show",
-          "releaseYear": 1980,
-          "lastAirYear": 1983,
-          "imdbId": "tt0240285",
-          "awardWindowPlausible": false,
-          "popularity": 5.5674
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Morecambe & Wise Show",
+        "releaseYear": 1968,
+        "tmdbId": 154702,
+        "imdbId": "tt0063930",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Eric Morecambe and Ernie Wise identify the established BBC series The Morecambe & Wise Show, matching the reviewed 1971 identity."
     },
     {
       "key": "television:themorecambeandwiseshow:1974",
@@ -50614,19 +50324,15 @@
         "345845"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 231511,
-          "title": "The Morecambe and Wise Show",
-          "originalTitle": "The Morecambe and Wise Show",
-          "releaseYear": 1980,
-          "lastAirYear": 1983,
-          "imdbId": "tt0240285",
-          "awardWindowPlausible": false,
-          "popularity": 5.5674
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Morecambe & Wise Show",
+        "releaseYear": 1968,
+        "tmdbId": 154702,
+        "imdbId": "tt0063930",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Eric Morecambe and Ernie Wise identify the established BBC series The Morecambe & Wise Show, matching the reviewed earlier identities."
     },
     {
       "key": "television:themrsmertonshow:1996",
@@ -53081,90 +52787,15 @@
         "346997"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 292678,
-          "title": "The Ten Commandments",
-          "originalTitle": "The Ten Commandments",
-          "releaseYear": 1971,
-          "lastAirYear": 1971,
-          "imdbId": "tt0927036",
-          "awardWindowPlausible": false,
-          "popularity": 2.7155
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 6844,
-          "title": "The Ten Commandments",
-          "originalTitle": "The Ten Commandments",
-          "releaseYear": 1956,
-          "imdbId": "tt0049833",
-          "awardWindowPlausible": false,
-          "popularity": 13.7264
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 24805,
-          "title": "The Ten Commandments",
-          "originalTitle": "The Ten Commandments",
-          "releaseYear": 1923,
-          "imdbId": "tt0014532",
-          "awardWindowPlausible": false,
-          "popularity": 2.0631
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 9199,
-          "title": "The Ten Commandments",
-          "originalTitle": "The Ten Commandments",
-          "releaseYear": 2006,
-          "lastAirYear": 2006,
-          "imdbId": "tt0443412",
-          "awardWindowPlausible": false,
-          "popularity": 3.0801
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 22331,
-          "title": "The Ten Commandments",
-          "originalTitle": "The Ten Commandments",
-          "releaseYear": 2007,
-          "imdbId": "tt0955411",
-          "awardWindowPlausible": false,
-          "popularity": 2.0606
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 61726,
-          "title": "The Ten Commandments",
-          "originalTitle": "I dieci comandamenti",
-          "releaseYear": 2014,
-          "lastAirYear": 2014,
-          "awardWindowPlausible": false,
-          "popularity": 1.7044
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 68355,
-          "title": "The Ten Commandments",
-          "originalTitle": "Les dix commandements",
-          "releaseYear": 2001,
-          "imdbId": "tt4117030",
-          "awardWindowPlausible": false,
-          "popularity": 1.0254
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1410075,
-          "title": "The Ten Commandments",
-          "originalTitle": "I Dieci Comandamenti",
-          "releaseYear": 2000,
-          "imdbId": "tt15471780",
-          "awardWindowPlausible": false,
-          "popularity": 0.8658
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Dekalog",
+        "releaseYear": 1989,
+        "tmdbId": 42699,
+        "imdbId": "tt0092337",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Recipient Krzysztof Kieślowski identifies the Polish television miniseries Dekalog, also released internationally as The Ten Commandments, IMDb tt0092337."
     },
     {
       "key": "television:thethickofit:2006",
@@ -55418,87 +55049,15 @@
         "347121"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 646360,
-          "title": "Tosca",
-          "originalTitle": "Tosca",
-          "releaseYear": 1986,
-          "awardWindowPlausible": false,
-          "popularity": 0.5557
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 475528,
-          "title": "Tosca",
-          "originalTitle": "Tosca",
-          "releaseYear": 1985,
-          "imdbId": "tt0500167",
-          "awardWindowPlausible": false,
-          "popularity": 0.5794
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 554362,
-          "title": "Tosca",
-          "originalTitle": "Tosca",
-          "releaseYear": 1978,
-          "imdbId": "tt0307581",
-          "awardWindowPlausible": false,
-          "popularity": 0.4871
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 144003,
-          "title": "Tosca",
-          "originalTitle": "Tosca",
-          "releaseYear": 1976,
-          "imdbId": "tt0257232",
-          "awardWindowPlausible": false,
-          "popularity": 0.7056
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 579464,
-          "title": "Tosca",
-          "originalTitle": "Tosca",
-          "releaseYear": 1956,
-          "imdbId": "tt0049864",
-          "awardWindowPlausible": false,
-          "popularity": 0.5797
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 444999,
-          "title": "Tosca",
-          "originalTitle": "Tosca",
-          "releaseYear": 1941,
-          "imdbId": "tt0033177",
-          "awardWindowPlausible": false,
-          "popularity": 0.619
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 382182,
-          "title": "Tosca",
-          "originalTitle": "Tosca",
-          "releaseYear": 2012,
-          "imdbId": "tt2266522",
-          "awardWindowPlausible": false,
-          "popularity": 2.8296
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 88500,
-          "title": "Tosca",
-          "originalTitle": "Tosca",
-          "releaseYear": 2001,
-          "imdbId": "tt0240122",
-          "awardWindowPlausible": false,
-          "popularity": 0.9398
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Tosca: In the Settings and at the Times of Tosca",
+        "releaseYear": 1993,
+        "tmdbId": 1103936,
+        "imdbId": "tt0105625",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Andrea Andermann and Brian Large identify the 1992 live television film Tosca: In the Settings and at the Times of Tosca, IMDb tt0105625."
     },
     {
       "key": "television:traffik:1990",
@@ -56705,90 +56264,15 @@
         "345786"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 29266,
-          "title": "War and Peace",
-          "originalTitle": "Война и мир",
-          "releaseYear": 1968,
-          "imdbId": "tt0063794",
-          "awardWindowPlausible": false,
-          "popularity": 2.7702
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 11706,
-          "title": "War and Peace",
-          "originalTitle": "War and Peace",
-          "releaseYear": 1956,
-          "imdbId": "tt0049934",
-          "awardWindowPlausible": false,
-          "popularity": 4.9082
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 834994,
-          "title": "War and Peace",
-          "originalTitle": "戦争と平和",
-          "releaseYear": 1947,
-          "imdbId": "tt0342973",
-          "awardWindowPlausible": false,
-          "popularity": 0.6787
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 415649,
-          "title": "War and Peace",
-          "originalTitle": "Война и мир",
-          "releaseYear": 1915,
-          "imdbId": "tt0006241",
-          "awardWindowPlausible": false,
-          "popularity": 0.6227
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 64099,
-          "title": "War and Peace",
-          "originalTitle": "War and Peace",
-          "releaseYear": 2016,
-          "lastAirYear": 2016,
-          "imdbId": "tt3910804",
-          "awardWindowPlausible": false,
-          "popularity": 10.8952
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 35486,
-          "title": "War and Peace",
-          "originalTitle": "War and Peace",
-          "releaseYear": 2007,
-          "lastAirYear": 2007,
-          "imdbId": "tt0495055",
-          "awardWindowPlausible": false,
-          "popularity": 3.9608
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 152273,
-          "title": "War and Peace",
-          "originalTitle": "大世界",
-          "releaseYear": 2016,
-          "lastAirYear": 2016,
-          "awardWindowPlausible": false,
-          "popularity": 2.7084
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1530395,
-          "title": "War and Peace",
-          "originalTitle": "Война и мир",
-          "releaseYear": 2027,
-          "imdbId": "tt32760397",
-          "awardWindowPlausible": false,
-          "popularity": 2.4289
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "War & Peace",
+        "releaseYear": 1972,
+        "tmdbId": 2498,
+        "imdbId": "tt0069654",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Anthony Hopkins and production designer Don Homfray identify the 1972 BBC adaptation War & Peace, IMDb tt0069654."
     },
     {
       "key": "television:waroratorio:2008",

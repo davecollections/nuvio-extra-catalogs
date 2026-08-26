@@ -9,24 +9,20 @@ The committed BAFTA snapshots decide award facts. This report inventories only w
 - Selected work-linked winner records: **939**
 - Selected work links: **939**
 - Award-year-scoped work identities: **855**
-- Resolved identities: **640** (126 movies; 514 series)
+- Resolved identities: **660** (135 movies; 525 series)
 - Reviewed non-catalogue outcomes: **0**
-- Unresolved identities: **215**
+- Unresolved identities: **195**
 - Unattempted identities: **0**
 - No exact-title candidate: **170**
-- Multiple plausible exact-title candidates: **4**
-- Candidate evidence without an acceptable IMDb/date relationship: **41**
+- Multiple plausible exact-title candidates: **0**
+- Candidate evidence without an acceptable IMDb/date relationship: **25**
 
-## Multiple plausible candidates (4)
+## Multiple plausible candidates (0)
 
 Each row has more than one exact-title candidate inside the award window and needs an explicit reviewed choice.
 
 | Source work | Context | Candidate evidence |
 | --- | --- | --- |
-| Antony And Cleopatra | television; award 1975; television-limited-drama; nomination 345906 | [movie TMDB 233748 / tt0175447](https://www.themoviedb.org/movie/233748) Antony and Cleopatra (1975)<br>[movie TMDB 98632 / tt0068920](https://www.themoviedb.org/movie/98632) Antony and Cleopatra (1972)<br>[movie TMDB 1710353](https://www.themoviedb.org/movie/1710353) Antony and Cleopatra (1962) — outside award window, no IMDb ID<br>[movie TMDB 1243415 / tt3508918](https://www.themoviedb.org/movie/1243415) Antony and Cleopatra (1959) — outside award window |
-| Fred Dibnah, Steeplejack | television; award 1980; television-single-documentary; nomination 346240 | [series TMDB 272286 / tt0437194](https://www.themoviedb.org/tv/272286) Fred Dibnah, Steeplejack (1979)<br>[movie TMDB 220988 / tt0437194](https://www.themoviedb.org/movie/220988) Fred Dibnah, Steeplejack (1979) |
-| Quiet Life | television; award 2025; television-short-form; nomination 368290 | [movie TMDB 1003722 / tt33030320](https://www.themoviedb.org/movie/1003722) Quiet Life (2025)<br>[movie TMDB 1262191 / tt31389354](https://www.themoviedb.org/movie/1262191) Quiet Life (2024)<br>[movie TMDB 573714 / tt39898421](https://www.themoviedb.org/movie/573714) Quiet Life (2019) — outside award window |
-| See No Evil | television; award 2026; television-factual-series; nomination 374730 | [movie TMDB 1618612](https://www.themoviedb.org/movie/1618612) See No Evil (2026) — no IMDb ID<br>[movie TMDB 1504505](https://www.themoviedb.org/movie/1504505) See No Evil (2025) — no IMDb ID<br>[series TMDB 308746 / tt39151138](https://www.themoviedb.org/tv/308746) See No Evil (2025)<br>[movie TMDB 1703303 / tt39151138](https://www.themoviedb.org/movie/1703303) See No Evil (2025) |
 
 ## No exact-title candidate (170)
 
@@ -205,7 +201,7 @@ These commonly need a title alias, parent-series relationship, event/episode rec
 | World War One Remembered: Passchendaele | television, television-craft; award 2018; television-craft-director-multi-camera, television-craft-entertainment-craft-team, television-live-event-coverage; nomination 356689, 356702, 356797 | No exact-title TMDB candidate |
 | W Somerset Maugham Series | television; award 1970; television-drama-series; nomination 345646 | No exact-title TMDB candidate |
 
-## Candidate evidence rejected by the automatic contract (41)
+## Candidate evidence rejected by the automatic contract (25)
 
 These candidates lack a usable IMDb ID or fall outside the accepted award window and require explicit review.
 
@@ -216,39 +212,23 @@ These candidates lack a usable IMDb ID or fall outside the accepted award window
 | A Year In The Life | television; award 1970; television-single-documentary; nomination 345650 | [series TMDB 10756 / tt0092488](https://www.themoviedb.org/tv/10756) A Year in the Life (1987) — outside award window<br>[series TMDB 77044 / tt0090549](https://www.themoviedb.org/tv/77044) A Year in the Life (1986) — outside award window |
 | Brief Lives | television; award 1969; television-leading-actor; nomination 345614 | [series TMDB 49086](https://www.themoviedb.org/tv/49086) Brief Lives — outside award window, no IMDb ID |
 | Channel 4 Cricket | television; award 2002; television-sports-coverage; nomination 347777 | [series TMDB 47554](https://www.themoviedb.org/tv/47554) Channel 4 Cricket — outside award window, no IMDb ID |
-| Channel 4 Racing: Derby Day | television; award 1999; television-live-event-coverage; nomination 347517 | [series TMDB 47614](https://www.themoviedb.org/tv/47614) Channel 4 Racing: Derby Day — outside award window, no IMDb ID |
 | Circuit 11 Miami | television; award 1980; television-factual-series; nomination 346247 | [series TMDB 49076](https://www.themoviedb.org/tv/49076) Circuit 11 Miami — outside award window, no IMDb ID |
-| Coping With Grown-Ups | television; award 1995; television-childrens-scripted; nomination 347219 | [series TMDB 47655](https://www.themoviedb.org/tv/47655) Coping With Grown-Ups — outside award window, no IMDb ID |
 | Explorers | television; award 1976; television-specialist-factual; nomination 345991 | [movie TMDB 9872 / tt0089114](https://www.themoviedb.org/movie/9872) Explorers (1985) — outside award window<br>[movie TMDB 457370](https://www.themoviedb.org/movie/457370) Explorers (2016) — outside award window, no IMDb ID<br>[series TMDB 96719](https://www.themoviedb.org/tv/96719) Explorers — outside award window, no IMDb ID<br>[movie TMDB 650296 / tt7341460](https://www.themoviedb.org/movie/650296) Explorers (2017) — outside award window |
-| Friday Night Live | television; award 2023; television-entertainment; nomination 361084 | [series TMDB 22701](https://www.themoviedb.org/tv/22701) Friday Night Live (1988) — outside award window, no IMDb ID |
-| Girls Wanted Istanbul | television; award 1970; television-specialist-factual; nomination 345679 | [series TMDB 48063](https://www.themoviedb.org/tv/48063) Girls Wanted Istanbul — outside award window, no IMDb ID |
 | Hospital: Casualty | television; award 1978; television-single-documentary; nomination 346091 | [series TMDB 47920](https://www.themoviedb.org/tv/47920) Hospital: Casualty — outside award window, no IMDb ID |
-| Hotel Terminus | television; award 1990; television-international; nomination 346938 | [movie TMDB 1717283](https://www.themoviedb.org/movie/1717283) Hôtel Terminus (2026) — outside award window, no IMDb ID |
-| Ipso Facto | television; award 1991; television-childrens-non-scripted; nomination 346972 | [movie TMDB 1565764](https://www.themoviedb.org/movie/1565764) Ipso Facto — outside award window, no IMDb ID<br>[movie TMDB 1144564 / tt1575573](https://www.themoviedb.org/movie/1144564) Ipso Facto (2011) — outside award window<br>[series TMDB 47748](https://www.themoviedb.org/tv/47748) Ipso Facto — outside award window, no IMDb ID |
 | Jennie | television; award 1975; television-leading-actress; nomination 345875 | [movie TMDB 490656 / tt0032648](https://www.themoviedb.org/movie/490656) Jennie (1940) — outside award window<br>[movie TMDB 847178 / tt12986322](https://www.themoviedb.org/movie/847178) Jennie (2021) — outside award window |
 | L'Aiguille Du Midi | television; award 1963; television-international; nomination 356874 | [series TMDB 48129](https://www.themoviedb.org/tv/48129) L'aiguille Du Midi — outside award window, no IMDb ID |
 | Laurence Olivier - A Life | television; award 1983; television-single-documentary; nomination 346474 | [movie TMDB 1489005](https://www.themoviedb.org/movie/1489005) Laurence Olivier: A Life (1982) — no IMDb ID |
-| Lie Of The Land | television; award 2008; television-single-documentary; nomination 348215 | [movie TMDB 1178065 / tt22990502](https://www.themoviedb.org/movie/1178065) Lie of the Land (2023) — outside award window |
 | Living Camera | television; award 1965; television-international; nomination 345580 | [series TMDB 48109](https://www.themoviedb.org/tv/48109) Living Camera — outside award window, no IMDb ID |
 | News At Ten | television; award 1970; television-current-affairs; nomination 345653 | [series TMDB 247546](https://www.themoviedb.org/tv/247546) News at Ten (1967) — outside award window, no IMDb ID |
 | News Hounds | television; award 1991; television-limited-drama; nomination 347016 | [movie TMDB 310969](https://www.themoviedb.org/movie/310969) News Hounds (1990) — no IMDb ID<br>[movie TMDB 91728 / tt0039656](https://www.themoviedb.org/movie/91728) News Hounds (1947) — outside award window |
-| On The Move | television; award 1977; television-specialist-factual; nomination 346069 | [movie TMDB 679889 / tt1959494](https://www.themoviedb.org/movie/679889) On the Move (1970) — outside award window<br>[movie TMDB 662327 / tt0080070](https://www.themoviedb.org/movie/662327) On the Move (1979) — outside award window<br>[movie TMDB 544191 / tt1340103](https://www.themoviedb.org/movie/544191) On The Move (2008) — outside award window<br>[movie TMDB 79304 / tt0077117](https://www.themoviedb.org/movie/79304) On the Move (1978) — outside award window |
 | Police | television; award 1983; television-factual-series; nomination 346483 | [movie TMDB 53414 / tt0007194](https://www.themoviedb.org/movie/53414) Police (1916) — outside award window<br>[movie TMDB 660330 / tt9850344](https://www.themoviedb.org/movie/660330) Night Shift (2020) — outside award window |
-| River Journeys | television; award 1985; television-factual-series; nomination 346603 | [series TMDB 47775](https://www.themoviedb.org/tv/47775) River Journeys — outside award window, no IMDb ID |
 | The Accountant | television; award 1990; television-limited-drama; nomination 346955 | [movie TMDB 331244](https://www.themoviedb.org/movie/331244) The Accountant (1989) — no IMDb ID<br>[movie TMDB 302946 / tt2140479](https://www.themoviedb.org/movie/302946) The Accountant (2016) — outside award window<br>[movie TMDB 36733 / tt0222675](https://www.themoviedb.org/movie/36733) The Accountant (2001) — outside award window |
-| The Duty Men | television; award 1988; television-factual-series; nomination 346808 | [series TMDB 47734](https://www.themoviedb.org/tv/47734) The Duty Men — outside award window, no IMDb ID |
 | The First Television Pictures From The Moon | television; award 1970; television-international; nomination 345654 | [series TMDB 48039](https://www.themoviedb.org/tv/48039) The First Television Pictures From The Moon — outside award window, no IMDb ID |
 | The Grand National | television; award 2018; television-sports-coverage; nomination 356836 | [series TMDB 47634](https://www.themoviedb.org/tv/47634) The Grand National — outside award window, no IMDb ID |
-| The Morecambe And Wise Show | television; award 1971; television-entertainment-performance; nomination 345715 | [series TMDB 231511 / tt0240285](https://www.themoviedb.org/tv/231511) The Morecambe and Wise Show (1980) — outside award window |
-| The Morecambe And Wise Show | television; award 1973; television-entertainment-performance; nomination 345799 | [series TMDB 231511 / tt0240285](https://www.themoviedb.org/tv/231511) The Morecambe and Wise Show (1980) — outside award window |
-| The Morecambe And Wise Show | television; award 1974; television-entertainment-performance; nomination 345845 | [series TMDB 231511 / tt0240285](https://www.themoviedb.org/tv/231511) The Morecambe and Wise Show (1980) — outside award window |
 | The National Trust | television; award 2004; television-specialist-factual; nomination 347893 | [series TMDB 16892](https://www.themoviedb.org/tv/16892) The National Trust (2003) — no IMDb ID |
 | The Stanley Baxter Series | television; award 1982; television-entertainment; nomination 346409 | [series TMDB 23569](https://www.themoviedb.org/tv/23569) The Stanley Baxter Series (1981) — no IMDb ID |
-| The Ten Commandments | television; award 1991; television-international; nomination 346997 | [series TMDB 292678 / tt0927036](https://www.themoviedb.org/tv/292678) The Ten Commandments (1971) — outside award window<br>[movie TMDB 6844 / tt0049833](https://www.themoviedb.org/movie/6844) The Ten Commandments (1956) — outside award window<br>[movie TMDB 24805 / tt0014532](https://www.themoviedb.org/movie/24805) The Ten Commandments (1923) — outside award window<br>[series TMDB 9199 / tt0443412](https://www.themoviedb.org/tv/9199) The Ten Commandments (2006) — outside award window |
 | The Trust | television; award 2003; television-specialist-factual; nomination 347827 | [movie TMDB 708824 / tt0108401](https://www.themoviedb.org/movie/708824) The Trust (1993) — outside award window<br>[series TMDB 220306 / tt26697171](https://www.themoviedb.org/tv/220306) The Trust (2023) — outside award window<br>[series TMDB 241168 / tt30342862](https://www.themoviedb.org/tv/241168) The Trust (2024) — outside award window<br>[movie TMDB 301608 / tt3733774](https://www.themoviedb.org/movie/301608) The Trust (2016) — outside award window |
 | The World Of Coppard | television; award 1969; television-specialist-factual; nomination 345627 | [series TMDB 48171 / tt0841050](https://www.themoviedb.org/tv/48171) The World of Coppard — outside award window |
 | Timmy's Story | television; award 1986; television-childrens-non-scripted; nomination 346647 | [series TMDB 47755](https://www.themoviedb.org/tv/47755) Timmy's Story — outside award window, no IMDb ID |
-| Tosca | television; award 1993; television-international; nomination 347121 | [movie TMDB 646360](https://www.themoviedb.org/movie/646360) Tosca (1986) — outside award window, no IMDb ID<br>[movie TMDB 475528 / tt0500167](https://www.themoviedb.org/movie/475528) Tosca (1985) — outside award window<br>[movie TMDB 554362 / tt0307581](https://www.themoviedb.org/movie/554362) Tosca (1978) — outside award window<br>[movie TMDB 144003 / tt0257232](https://www.themoviedb.org/movie/144003) Tosca (1976) — outside award window |
-| War And Peace | television; award 1973; television-craft-production-design, television-leading-actor; nomination 345779, 345786 | [movie TMDB 29266 / tt0063794](https://www.themoviedb.org/movie/29266) War and Peace (1968) — outside award window<br>[movie TMDB 11706 / tt0049934](https://www.themoviedb.org/movie/11706) War and Peace (1956) — outside award window<br>[movie TMDB 834994 / tt0342973](https://www.themoviedb.org/movie/834994) War and Peace (1947) — outside award window<br>[movie TMDB 415649 / tt0006241](https://www.themoviedb.org/movie/415649) War and Peace (1915) — outside award window |
 | Wounded | television; award 2010; television-single-documentary; nomination 348393 | [movie TMDB 207177 / tt0120534](https://www.themoviedb.org/movie/207177) Wounded (1997) — outside award window<br>[series TMDB 221404](https://www.themoviedb.org/tv/221404) Wounded (2023) — outside award window, no IMDb ID<br>[movie TMDB 209418 / tt2721712](https://www.themoviedb.org/movie/209418) Wounded (2013) — outside award window<br>[movie TMDB 1689355](https://www.themoviedb.org/movie/1689355) Wounded (2026) — outside award window, no IMDb ID |
 | Zimbabwe's Forgotten Children | television; award 2011; television-current-affairs; nomination 348435 | [movie TMDB 48424](https://www.themoviedb.org/movie/48424) Zimbabwe's Forgotten Children (2010) — no IMDb ID |
