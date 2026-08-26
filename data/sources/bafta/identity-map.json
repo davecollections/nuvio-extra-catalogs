@@ -23684,7 +23684,15 @@
         "345571"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "ITV Play of the Week",
+        "releaseYear": 1955,
+        "tmdbId": 48104,
+        "imdbId": "tt0914702",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "A Couple of Dry Martinis is an identified 1964 production from the ITV anthology series ITV Play of the Week; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:acreamcrackerunderthesettee:1989",
@@ -26787,7 +26795,15 @@
         "346227"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Blue Peter Special Assignment",
+        "releaseYear": 1973,
+        "tmdbId": 31932,
+        "imdbId": "tt1817823",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Duke of Wellington is an identified edition of the BBC documentary series Blue Peter Special Assignment."
     },
     {
       "key": "television:blueplanetii:2018",
@@ -28918,7 +28934,15 @@
         "345573"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Comedy Playhouse",
+        "releaseYear": 1961,
+        "tmdbId": 3073,
+        "imdbId": "tt0861749",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Sam the Samaritan is an identified production from the BBC anthology series Comedy Playhouse; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:complicit:2014",
@@ -32114,16 +32138,14 @@
         "345571"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 48607,
-          "title": "Famous Gossips",
-          "originalTitle": "Famous Gossips",
-          "awardWindowPlausible": false,
-          "popularity": 0.4198
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Famous Gossips",
+        "releaseYear": 1965,
+        "imdbId": "tt1646040",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The credited 1965 Acting and Light Entertainment results identify the BBC historical comedy series Famous Gossips; TMDB's matching legacy record has no usable release date or external IMDb relationship."
     },
     {
       "key": "television:farfromthemaddingcrowd:1999",
@@ -38680,58 +38702,15 @@
         "345572"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 80181,
-          "title": "Madam Cutie On Duty",
-          "originalTitle": "師奶MADAM",
-          "releaseYear": 2015,
-          "lastAirYear": 2015,
-          "awardWindowPlausible": false,
-          "popularity": 4.2614
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 256720,
-          "title": "Madam",
-          "originalTitle": "Madam",
-          "releaseYear": 2024,
-          "lastAirYear": 2024,
-          "imdbId": "tt29338758",
-          "awardWindowPlausible": false,
-          "popularity": 3.9376
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 414887,
-          "title": "Madam",
-          "originalTitle": "마님",
-          "releaseYear": 2015,
-          "awardWindowPlausible": false,
-          "popularity": 2.3849
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 290622,
-          "title": "Madam",
-          "originalTitle": "夫人",
-          "releaseYear": 2025,
-          "lastAirYear": 2025,
-          "awardWindowPlausible": false,
-          "popularity": 1.8548
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 483666,
-          "title": "Madam",
-          "originalTitle": "Madam",
-          "releaseYear": 1994,
-          "imdbId": "tt0252671",
-          "awardWindowPlausible": false,
-          "popularity": 0.8115
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Armchair Mystery Theatre",
+        "releaseYear": 1960,
+        "tmdbId": 48689,
+        "imdbId": "tt0309129",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Madam is an identified 1965 episode of Armchair Mystery Theatre; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:madeinchelsea:2013",
@@ -39039,65 +39018,14 @@
         "345571"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 372108,
-          "title": "Meeting Point",
-          "originalTitle": "Treffpunkt Aimée",
-          "releaseYear": 1956,
-          "imdbId": "tt0230894",
-          "awardWindowPlausible": false,
-          "popularity": 1.7795
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 956810,
-          "title": "Meeting Point",
-          "originalTitle": "Punto de encuentro",
-          "releaseYear": 2022,
-          "imdbId": "tt21933728",
-          "awardWindowPlausible": false,
-          "popularity": 3.5539
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1214401,
-          "title": "Meeting Point",
-          "originalTitle": "Meeting Point",
-          "releaseYear": 2024,
-          "imdbId": "tt33372743",
-          "awardWindowPlausible": false,
-          "popularity": 1.8691
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 877787,
-          "title": "Meeting Point",
-          "originalTitle": "Kimya",
-          "releaseYear": 2021,
-          "imdbId": "tt15484242",
-          "awardWindowPlausible": false,
-          "popularity": 0.8345
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 876256,
-          "title": "Meeting Point",
-          "originalTitle": "Meeting Point",
-          "awardWindowPlausible": false,
-          "popularity": 0.405
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1585173,
-          "title": "Meeting Point",
-          "originalTitle": "Meeting Point",
-          "releaseYear": 1978,
-          "awardWindowPlausible": false,
-          "popularity": 0.3568
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Meeting Point",
+        "releaseYear": 1957,
+        "imdbId": "tt0913749",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The credited 1965 Current Events result identifies the long-running British religious and current-affairs series Meeting Point, first broadcast in 1957; no reviewed TMDB relationship is available."
     },
     {
       "key": "television:mementomori:1993",
@@ -40972,7 +40900,14 @@
         "345571"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Not So Much a Programme, More a Way of Life",
+        "releaseYear": 1964,
+        "imdbId": "tt0294156",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The abbreviated BAFTA credit identifies the 1964 BBC satirical series Not So Much a Programme, More a Way of Life; no reviewed TMDB relationship is available."
     },
     {
       "key": "television:notthenineoclocknews:1981",
@@ -41302,7 +41237,15 @@
         "345632"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Omnibus",
+        "releaseYear": 1967,
+        "tmdbId": 5674,
+        "imdbId": "tt0200358",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "A Dream Divided is an identified edition of the BBC arts documentary strand Omnibus."
     },
     {
       "key": "television:omnibusadreamdividedomnibusdownthesemeanstreetsamanmustgo:1970",
@@ -47159,7 +47102,15 @@
         "345572"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Blackmail",
+        "releaseYear": 1965,
+        "tmdbId": 25020,
+        "imdbId": "tt0367292",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Take Care of Madam is an identified 1965 episode of the ITV anthology series Blackmail; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:takehart:1984",
@@ -48362,7 +48313,14 @@
         "345572"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Rise and Fall of César Birotteau",
+        "releaseYear": 1965,
+        "imdbId": "tt0499367",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The abbreviated BAFTA credit identifies the 1965 BBC serial The Rise and Fall of César Birotteau; no reviewed TMDB relationship is available."
     },
     {
       "key": "television:thechangeling:1965",
@@ -48876,7 +48834,15 @@
         "346074"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Play for Today",
+        "releaseYear": 1970,
+        "tmdbId": 13654,
+        "imdbId": "tt0165592",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Country Party is an identified 1977 episode of the BBC drama anthology Play for Today; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:thecrimsonpetalandthewhite:2012",
@@ -53145,88 +53111,15 @@
         "345572"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 776,
-          "title": "The Rules of the Game",
-          "originalTitle": "La Règle du jeu",
-          "releaseYear": 1939,
-          "imdbId": "tt0031885",
-          "awardWindowPlausible": false,
-          "popularity": 2.8449
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 63817,
-          "title": "Rules of the Game",
-          "originalTitle": "A Regra do Jogo",
-          "releaseYear": 2015,
-          "lastAirYear": 2016,
-          "imdbId": "tt4986278",
-          "awardWindowPlausible": false,
-          "popularity": 10.1007
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 154390,
-          "title": "Rules of the Game",
-          "originalTitle": "Rules of the Game",
-          "releaseYear": 2022,
-          "lastAirYear": 2022,
-          "imdbId": "tt14466362",
-          "awardWindowPlausible": false,
-          "popularity": 2.2209
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1566520,
-          "title": "Rules of the Game",
-          "originalTitle": "Zasady gry",
-          "releaseYear": 2013,
-          "awardWindowPlausible": false,
-          "popularity": 1.5761
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 626830,
-          "title": "Rules of the Game",
-          "originalTitle": "Reglur Leiksins",
-          "releaseYear": 2018,
-          "imdbId": "tt7970690",
-          "awardWindowPlausible": false,
-          "popularity": 1.466
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 75983,
-          "title": "The Rules of the Game",
-          "originalTitle": "新家法",
-          "releaseYear": 1999,
-          "imdbId": "tt0885523",
-          "awardWindowPlausible": false,
-          "popularity": 1.1585
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 316632,
-          "title": "The Rules of the Game",
-          "originalTitle": "The Rules of the Game",
-          "releaseYear": 1975,
-          "imdbId": "tt0213204",
-          "awardWindowPlausible": false,
-          "popularity": 1.0962
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1450545,
-          "title": "The Rules of the Game",
-          "originalTitle": "Las reglas del juego",
-          "releaseYear": 2025,
-          "awardWindowPlausible": false,
-          "popularity": 1.0326
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "ITV Play of the Week",
+        "releaseYear": 1955,
+        "tmdbId": 48104,
+        "imdbId": "tt0914702",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Rules of the Game is an identified 1965 production from the ITV anthology series ITV Play of the Week; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:theschoolthattriedtoendracism:2021",
@@ -56325,86 +56218,15 @@
         "345622"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1206632,
-          "title": "Till Death Do Us Part",
-          "originalTitle": "Till Death Do Us Part",
-          "releaseYear": 1959,
-          "imdbId": "tt3539482",
-          "awardWindowPlausible": false,
-          "popularity": 0.6544
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 117252,
-          "title": "Till Death Do Us Part",
-          "originalTitle": "婚內情",
-          "releaseYear": 2019,
-          "lastAirYear": 2019,
-          "awardWindowPlausible": false,
-          "popularity": 2.1213
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 418032,
-          "title": "Till Death Do Us Part",
-          "originalTitle": "我愛你",
-          "releaseYear": 1998,
-          "imdbId": "tt0147608",
-          "awardWindowPlausible": false,
-          "popularity": 1.4586
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 687182,
-          "title": "Till Death Do Us Part",
-          "originalTitle": "Till Death Do Us Part",
-          "releaseYear": 2020,
-          "awardWindowPlausible": false,
-          "popularity": 1.2552
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1128836,
-          "title": "Till Death Do Us Part",
-          "originalTitle": "Sehidup Semati",
-          "releaseYear": 2024,
-          "imdbId": "tt27799266",
-          "awardWindowPlausible": false,
-          "popularity": 1.208
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1267857,
-          "title": "'Till Death Do us Part",
-          "originalTitle": "'Till Death Do us Part",
-          "releaseYear": 2023,
-          "awardWindowPlausible": false,
-          "popularity": 1.178
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 85201,
-          "title": "Till Death Do Us Part",
-          "originalTitle": "Till Death Do Us Part",
-          "releaseYear": 1982,
-          "imdbId": "tt0084795",
-          "awardWindowPlausible": false,
-          "popularity": 1.1215
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 281530,
-          "title": "Till Death Do Us Part",
-          "originalTitle": "Till Death Do Us Part",
-          "releaseYear": 2008,
-          "imdbId": "tt1362318",
-          "awardWindowPlausible": false,
-          "popularity": 1.0115
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Till Death Us Do Part",
+        "releaseYear": 1966,
+        "tmdbId": 550,
+        "imdbId": "tt0060035",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit's title variant identifies the BBC sitcom Till Death Us Do Part, first released in 1966."
     },
     {
       "key": "television:time:2022",
