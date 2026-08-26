@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "sourceCheckedAt": "2026-08-22",
-  "inputSha256": "6e603ddfcf3bc106b8b5b0cf8d4596d13db560617c36d797938d9febda72c1ed",
+  "inputSha256": "fecb4fa34dbb82976476ffac1db953e0c42e47812945e1f2b0d9d5003f0a1008",
   "selectedWinnerRecords": 2831,
-  "selectedWorkLinks": 2850,
+  "selectedWorkLinks": 2889,
   "works": [
     {
       "key": "movie:12yearsaslave:2014",
@@ -23489,6 +23489,26 @@
       }
     },
     {
+      "key": "television:90yearsonchurchillbirthdayprogramme:1965",
+      "titles": [
+        "90 Years On - Churchill Birthday Programme"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1965
+      ],
+      "categoryIds": [
+        "television-scripted-comedy"
+      ],
+      "nominationIds": [
+        "345573"
+      ],
+      "mediaScope": "mixed",
+      "candidates": []
+    },
+    {
       "key": "television:911insidethepresidentswarroom:2022",
       "titles": [
         "9/11: Inside the President's War Room"
@@ -23541,6 +23561,26 @@
         "imdbId": "tt0808138",
         "method": "tmdb-exact-title-media-and-award-window"
       }
+    },
+    {
+      "key": "television:abitofaholiday:1970",
+      "titles": [
+        "A Bit Of A Holiday"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1970
+      ],
+      "categoryIds": [
+        "television-leading-actor"
+      ],
+      "nominationIds": [
+        "345632"
+      ],
+      "mediaScope": "mixed",
+      "candidates": []
     },
     {
       "key": "television:absolutelyfabulous:1993",
@@ -23625,6 +23665,26 @@
         "method": "reviewed-manual-override"
       },
       "reviewNote": "Supporting Actress winner Olivia Colman identifies Mo's Story as an episode of Jimmy McGovern's BBC anthology series Accused."
+    },
+    {
+      "key": "television:acoupleofdrymartinis:1965",
+      "titles": [
+        "A Couple Of Dry Martinis"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1965
+      ],
+      "categoryIds": [
+        "television-leading-actor"
+      ],
+      "nominationIds": [
+        "345571"
+      ],
+      "mediaScope": "mixed",
+      "candidates": []
     },
     {
       "key": "television:acreamcrackerunderthesettee:1989",
@@ -23716,6 +23776,33 @@
         "releaseYear": 2025,
         "tmdbId": 249042,
         "imdbId": "tt31806037",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
+      "key": "television:afineromance:1982",
+      "titles": [
+        "A Fine Romance"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1982
+      ],
+      "categoryIds": [
+        "television-leading-actress"
+      ],
+      "nominationIds": [
+        "346377"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "series",
+        "title": "A Fine Romance",
+        "releaseYear": 1981,
+        "tmdbId": 5105,
+        "imdbId": "tt0083416",
         "method": "tmdb-exact-title-media-and-award-window"
       }
     },
@@ -24608,6 +24695,33 @@
         "releaseYear": 1992,
         "tmdbId": 17827,
         "imdbId": "tt0204136",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
+      "key": "television:anidealhusband:1971",
+      "titles": [
+        "An Ideal Husband"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1971
+      ],
+      "categoryIds": [
+        "television-leading-actor"
+      ],
+      "nominationIds": [
+        "345688"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "An Ideal Husband",
+        "releaseYear": 1969,
+        "tmdbId": 405728,
+        "imdbId": "tt0064468",
         "method": "tmdb-exact-title-media-and-award-window"
       }
     },
@@ -26399,6 +26513,33 @@
       }
     },
     {
+      "key": "television:bladeonthefeather:1981",
+      "titles": [
+        "Blade On The Feather"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1981
+      ],
+      "categoryIds": [
+        "television-leading-actor"
+      ],
+      "nominationIds": [
+        "346290"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Blade on the Feather",
+        "releaseYear": 1980,
+        "tmdbId": 120212,
+        "imdbId": "tt0080443",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
       "key": "television:bleakhouse:1986",
       "titles": [
         "Bleak House"
@@ -26627,6 +26768,26 @@
         "imdbId": "tt0051257",
         "method": "tmdb-exact-title-media-and-award-window"
       }
+    },
+    {
+      "key": "television:bluepeterspecialassignmentthedukeofwellington:1980",
+      "titles": [
+        "Blue Peter Special Assignment: The Duke Of Wellington"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1980
+      ],
+      "categoryIds": [
+        "television-leading-actress"
+      ],
+      "nominationIds": [
+        "346227"
+      ],
+      "mediaScope": "mixed",
+      "candidates": []
     },
     {
       "key": "television:blueplanetii:2018",
@@ -27355,9 +27516,9 @@
       }
     },
     {
-      "key": "television:callanomnibusadreamdividedabitofaholiday:1970",
+      "key": "television:callan:1970",
       "titles": [
-        "Callan/Omnibus: A Dream Divided/A Bit Of A Holiday"
+        "Callan"
       ],
       "programmes": [
         "television"
@@ -27372,7 +27533,14 @@
         "345632"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Callan",
+        "releaseYear": 1967,
+        "tmdbId": 4371,
+        "imdbId": "tt0061238",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "television:callthemidwife:2013",
@@ -27422,6 +27590,103 @@
       ],
       "mediaScope": "mixed",
       "candidates": []
+    },
+    {
+      "key": "television:candide:1974",
+      "titles": [
+        "Candide"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1974
+      ],
+      "categoryIds": [
+        "television-leading-actor"
+      ],
+      "nominationIds": [
+        "345819"
+      ],
+      "mediaScope": "mixed",
+      "candidates": [
+        {
+          "mediaType": "movie",
+          "tmdbId": 1285049,
+          "title": "Candide",
+          "originalTitle": "Candide",
+          "releaseYear": 2023,
+          "imdbId": "tt28042000",
+          "awardWindowPlausible": false,
+          "popularity": 1.594
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 473607,
+          "title": "Candide",
+          "originalTitle": "Candide",
+          "releaseYear": 1988,
+          "awardWindowPlausible": false,
+          "popularity": 1.5742
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 1092195,
+          "title": "Candide",
+          "originalTitle": "Candide",
+          "releaseYear": 1986,
+          "imdbId": "tt0290155",
+          "awardWindowPlausible": false,
+          "popularity": 1.4895
+        },
+        {
+          "mediaType": "series",
+          "tmdbId": 100646,
+          "title": "Candide",
+          "originalTitle": "Candide",
+          "releaseYear": 2018,
+          "lastAirYear": 2018,
+          "awardWindowPlausible": false,
+          "popularity": 1.447
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 624486,
+          "title": "Candide",
+          "originalTitle": "Candide",
+          "releaseYear": 2007,
+          "awardWindowPlausible": false,
+          "popularity": 1.2666
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 684239,
+          "title": "Candide",
+          "originalTitle": "Candide",
+          "releaseYear": 2018,
+          "awardWindowPlausible": false,
+          "popularity": 1.1909
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 368683,
+          "title": "Candide",
+          "originalTitle": "Candide",
+          "releaseYear": 2005,
+          "imdbId": "tt0446839",
+          "awardWindowPlausible": false,
+          "popularity": 0.9429
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 714682,
+          "title": "Candide",
+          "originalTitle": "Candide",
+          "releaseYear": 2018,
+          "awardWindowPlausible": false,
+          "popularity": 0.8724
+        }
+      ]
     },
     {
       "key": "television:care:2001",
@@ -27671,9 +27936,11 @@
         1981
       ],
       "categoryIds": [
+        "television-leading-actress",
         "television-limited-drama"
       ],
       "nominationIds": [
+        "346294",
         "346369"
       ],
       "mediaScope": "mixed",
@@ -27685,26 +27952,6 @@
         "imdbId": "tt0080507",
         "method": "tmdb-exact-title-media-and-award-window"
       }
-    },
-    {
-      "key": "television:caughtonatraincreaminmycoffee:1981",
-      "titles": [
-        "Caught On A Train/Cream In My Coffee"
-      ],
-      "programmes": [
-        "television"
-      ],
-      "years": [
-        1981
-      ],
-      "categoryIds": [
-        "television-leading-actress"
-      ],
-      "nominationIds": [
-        "346294"
-      ],
-      "mediaScope": "mixed",
-      "candidates": []
     },
     {
       "key": "television:cbeebiesasyoulikeitatshakespearesglobe:2025",
@@ -28654,6 +28901,26 @@
       ]
     },
     {
+      "key": "television:comedyplayhousesamthesamaritan:1965",
+      "titles": [
+        "Comedy Playhouse: Sam The Samaritan"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1965
+      ],
+      "categoryIds": [
+        "television-scripted-comedy"
+      ],
+      "nominationIds": [
+        "345573"
+      ],
+      "mediaScope": "mixed",
+      "candidates": []
+    },
+    {
       "key": "television:complicit:2014",
       "titles": [
         "Complicit"
@@ -29088,6 +29355,33 @@
         "releaseYear": 2007,
         "tmdbId": 14264,
         "imdbId": "tt0974077",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
+      "key": "television:creaminmycoffee:1981",
+      "titles": [
+        "Cream In My Coffee"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1981
+      ],
+      "categoryIds": [
+        "television-leading-actress"
+      ],
+      "nominationIds": [
+        "346294"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Cream in My Coffee",
+        "releaseYear": 1980,
+        "tmdbId": 120216,
+        "imdbId": "tt0080567",
         "method": "tmdb-exact-title-media-and-award-window"
       }
     },
@@ -31250,6 +31544,37 @@
       }
     },
     {
+      "key": "television:endofterm:1965",
+      "titles": [
+        "End Of Term"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1965
+      ],
+      "categoryIds": [
+        "television-leading-actress"
+      ],
+      "nominationIds": [
+        "345572"
+      ],
+      "mediaScope": "mixed",
+      "candidates": [
+        {
+          "mediaType": "movie",
+          "tmdbId": 979051,
+          "title": "End of Term",
+          "originalTitle": "End of Term",
+          "releaseYear": 2021,
+          "imdbId": "tt6044276",
+          "awardWindowPlausible": false,
+          "popularity": 1.0495
+        }
+      ]
+    },
+    {
       "key": "television:englandvwestindiestestcricket:2021",
       "titles": [
         "England v West Indies Test Cricket"
@@ -31768,6 +32093,35 @@
           "imdbId": "tt0073992",
           "awardWindowPlausible": false,
           "popularity": 11.4032
+        }
+      ]
+    },
+    {
+      "key": "television:famousgossips:1965",
+      "titles": [
+        "Famous Gossips"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1965
+      ],
+      "categoryIds": [
+        "television-leading-actor"
+      ],
+      "nominationIds": [
+        "345571"
+      ],
+      "mediaScope": "mixed",
+      "candidates": [
+        {
+          "mediaType": "series",
+          "tmdbId": 48607,
+          "title": "Famous Gossips",
+          "originalTitle": "Famous Gossips",
+          "awardWindowPlausible": false,
+          "popularity": 0.4198
         }
       ]
     },
@@ -32355,6 +32709,7 @@
         "Fortunes Of War"
       ],
       "programmes": [
+        "television",
         "television-craft"
       ],
       "years": [
@@ -32362,9 +32717,11 @@
       ],
       "categoryIds": [
         "television-craft-costume-design",
-        "television-craft-production-design"
+        "television-craft-production-design",
+        "television-leading-actress"
       ],
       "nominationIds": [
+        "346789",
         "349140",
         "349144"
       ],
@@ -32377,26 +32734,6 @@
         "imdbId": "tt0092353",
         "method": "tmdb-exact-title-media-and-award-window"
       }
-    },
-    {
-      "key": "television:fortunesofwartuttifrutti:1988",
-      "titles": [
-        "Fortunes Of War/Tutti Frutti"
-      ],
-      "programmes": [
-        "television"
-      ],
-      "years": [
-        1988
-      ],
-      "categoryIds": [
-        "television-leading-actress"
-      ],
-      "nominationIds": [
-        "346789"
-      ],
-      "mediaScope": "mixed",
-      "candidates": []
     },
     {
       "key": "television:fortyminuntes:1986",
@@ -32834,9 +33171,9 @@
       }
     },
     {
-      "key": "television:gentlefolkinhidingbladeonthefeatherthestinker:1981",
+      "key": "television:gentlefolk:1981",
       "titles": [
-        "Gentle Folk/In Hiding/Blade On The Feather/The Stinker"
+        "Gentle Folk"
       ],
       "programmes": [
         "television"
@@ -32851,7 +33188,17 @@
         "346290"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "candidates": [
+        {
+          "mediaType": "movie",
+          "tmdbId": 1056876,
+          "title": "Gentle Folk",
+          "originalTitle": "Gentle Folk",
+          "releaseYear": 1980,
+          "awardWindowPlausible": true,
+          "popularity": 0.7433
+        }
+      ]
     },
     {
       "key": "television:gettingon:2011",
@@ -33117,9 +33464,11 @@
         1982
       ],
       "categoryIds": [
+        "television-leading-actress",
         "television-limited-drama"
       ],
       "nominationIds": [
+        "346377",
         "346443"
       ],
       "mediaScope": "mixed",
@@ -33133,26 +33482,6 @@
       }
     },
     {
-      "key": "television:goinggentlyafineromancethecherryorchard:1982",
-      "titles": [
-        "Going Gently, A Fine Romance, The Cherry Orchard"
-      ],
-      "programmes": [
-        "television"
-      ],
-      "years": [
-        1982
-      ],
-      "categoryIds": [
-        "television-leading-actress"
-      ],
-      "nominationIds": [
-        "346377"
-      ],
-      "mediaScope": "mixed",
-      "candidates": []
-    },
-    {
       "key": "television:goingstraight:1979",
       "titles": [
         "Going Straight"
@@ -33164,9 +33493,11 @@
         1979
       ],
       "categoryIds": [
+        "television-entertainment-performance",
         "television-scripted-comedy"
       ],
       "nominationIds": [
+        "346180",
         "346220"
       ],
       "mediaScope": "mixed",
@@ -33178,26 +33509,6 @@
         "imdbId": "tt0077016",
         "method": "tmdb-exact-title-media-and-award-window"
       }
-    },
-    {
-      "key": "television:goingstraightthetworonnies:1979",
-      "titles": [
-        "Going Straight/The Two Ronnies"
-      ],
-      "programmes": [
-        "television"
-      ],
-      "years": [
-        1979
-      ],
-      "categoryIds": [
-        "television-entertainment-performance"
-      ],
-      "nominationIds": [
-        "346180"
-      ],
-      "mediaScope": "mixed",
-      "candidates": []
     },
     {
       "key": "television:gormenghast:2001",
@@ -35187,6 +35498,33 @@
       }
     },
     {
+      "key": "television:howgreenwasmyvalley:1977",
+      "titles": [
+        "How Green Was My Valley"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1977
+      ],
+      "categoryIds": [
+        "television-leading-actress"
+      ],
+      "nominationIds": [
+        "346003"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "series",
+        "title": "How Green Was My Valley",
+        "releaseYear": 1975,
+        "tmdbId": 21962,
+        "imdbId": "tt0072513",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
       "key": "television:howtobeaperson:2023",
       "titles": [
         "How To Be A Person"
@@ -35359,10 +35697,12 @@
       ],
       "categoryIds": [
         "television-craft-production-design",
-        "television-leading-actor"
+        "television-leading-actor",
+        "television-leading-actress"
       ],
       "nominationIds": [
         "345998",
+        "346003",
         "346005"
       ],
       "mediaScope": "mixed",
@@ -35374,26 +35714,6 @@
         "imdbId": "tt0074006",
         "method": "tmdb-exact-title-media-and-award-window"
       }
-    },
-    {
-      "key": "television:iclaudiushowgreenwasmyvalley:1977",
-      "titles": [
-        "I, Claudius/How Green Was My Valley"
-      ],
-      "programmes": [
-        "television"
-      ],
-      "years": [
-        1977
-      ],
-      "categoryIds": [
-        "television-leading-actress"
-      ],
-      "nominationIds": [
-        "346003"
-      ],
-      "mediaScope": "mixed",
-      "candidates": []
     },
     {
       "key": "television:ihatesuzie:2021",
@@ -35689,6 +36009,46 @@
         "method": "reviewed-manual-override"
       },
       "reviewNote": "Leading Actress winner Marisa Abela identifies the BBC/HBO drama series Industry, first released in 2020."
+    },
+    {
+      "key": "television:inhiding:1981",
+      "titles": [
+        "In Hiding"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1981
+      ],
+      "categoryIds": [
+        "television-leading-actor"
+      ],
+      "nominationIds": [
+        "346290"
+      ],
+      "mediaScope": "mixed",
+      "candidates": [
+        {
+          "mediaType": "movie",
+          "tmdbId": 1367169,
+          "title": "In Hiding",
+          "originalTitle": "In Hiding",
+          "releaseYear": 1980,
+          "awardWindowPlausible": true,
+          "popularity": 1.024
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 226962,
+          "title": "In Hiding",
+          "originalTitle": "W ukryciu",
+          "releaseYear": 2013,
+          "imdbId": "tt3074328",
+          "awardWindowPlausible": false,
+          "popularity": 0.0583
+        }
+      ]
     },
     {
       "key": "television:inmyskin:2022",
@@ -37609,15 +37969,18 @@
         "Lillie"
       ],
       "programmes": [
+        "television",
         "television-craft"
       ],
       "years": [
         1979
       ],
       "categoryIds": [
-        "television-craft-make-up-hair-design"
+        "television-craft-make-up-hair-design",
+        "television-leading-actress"
       ],
       "nominationIds": [
+        "346156",
         "348748"
       ],
       "mediaScope": "mixed",
@@ -37629,26 +37992,6 @@
         "imdbId": "tt0077042",
         "method": "tmdb-exact-title-media-and-award-window"
       }
-    },
-    {
-      "key": "television:lilliethecomedyoferrors:1979",
-      "titles": [
-        "Lillie/The Comedy Of Errors"
-      ],
-      "programmes": [
-        "television"
-      ],
-      "years": [
-        1979
-      ],
-      "categoryIds": [
-        "television-leading-actress"
-      ],
-      "nominationIds": [
-        "346156"
-      ],
-      "mediaScope": "mixed",
-      "candidates": []
     },
     {
       "key": "television:littleboyblue:2018",
@@ -38320,6 +38663,77 @@
       ]
     },
     {
+      "key": "television:madam:1965",
+      "titles": [
+        "Madam"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1965
+      ],
+      "categoryIds": [
+        "television-leading-actress"
+      ],
+      "nominationIds": [
+        "345572"
+      ],
+      "mediaScope": "mixed",
+      "candidates": [
+        {
+          "mediaType": "series",
+          "tmdbId": 80181,
+          "title": "Madam Cutie On Duty",
+          "originalTitle": "師奶MADAM",
+          "releaseYear": 2015,
+          "lastAirYear": 2015,
+          "awardWindowPlausible": false,
+          "popularity": 4.2614
+        },
+        {
+          "mediaType": "series",
+          "tmdbId": 256720,
+          "title": "Madam",
+          "originalTitle": "Madam",
+          "releaseYear": 2024,
+          "lastAirYear": 2024,
+          "imdbId": "tt29338758",
+          "awardWindowPlausible": false,
+          "popularity": 3.9376
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 414887,
+          "title": "Madam",
+          "originalTitle": "마님",
+          "releaseYear": 2015,
+          "awardWindowPlausible": false,
+          "popularity": 2.3849
+        },
+        {
+          "mediaType": "series",
+          "tmdbId": 290622,
+          "title": "Madam",
+          "originalTitle": "夫人",
+          "releaseYear": 2025,
+          "lastAirYear": 2025,
+          "awardWindowPlausible": false,
+          "popularity": 1.8548
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 483666,
+          "title": "Madam",
+          "originalTitle": "Madam",
+          "releaseYear": 1994,
+          "imdbId": "tt0252671",
+          "awardWindowPlausible": false,
+          "popularity": 0.8115
+        }
+      ]
+    },
+    {
       "key": "television:madeinchelsea:2013",
       "titles": [
         "Made in Chelsea"
@@ -38448,6 +38862,33 @@
       "candidates": []
     },
     {
+      "key": "television:maliceaforethought:1980",
+      "titles": [
+        "Malice Aforethought"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1980
+      ],
+      "categoryIds": [
+        "television-leading-actress"
+      ],
+      "nominationIds": [
+        "346227"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "series",
+        "title": "Malice Aforethought",
+        "releaseYear": 1979,
+        "tmdbId": 75648,
+        "imdbId": "tt0162096",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
       "key": "television:martinchuzzlewit:1995",
       "titles": [
         "Martin Chuzzlewit"
@@ -38475,9 +38916,9 @@
       }
     },
     {
-      "key": "television:martytilldeathdouspart:1969",
+      "key": "television:marty:1969",
       "titles": [
-        "Marty/Till Death Do Us Part"
+        "Marty"
       ],
       "programmes": [
         "television"
@@ -38492,7 +38933,14 @@
         "345622"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Marty",
+        "releaseYear": 1968,
+        "tmdbId": 12295,
+        "imdbId": "tt0129696",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "television:marvellous:2015",
@@ -38572,6 +39020,84 @@
       ],
       "mediaScope": "mixed",
       "candidates": []
+    },
+    {
+      "key": "television:meetingpoint:1965",
+      "titles": [
+        "Meeting Point"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1965
+      ],
+      "categoryIds": [
+        "television-leading-actor"
+      ],
+      "nominationIds": [
+        "345571"
+      ],
+      "mediaScope": "mixed",
+      "candidates": [
+        {
+          "mediaType": "movie",
+          "tmdbId": 372108,
+          "title": "Meeting Point",
+          "originalTitle": "Treffpunkt Aimée",
+          "releaseYear": 1956,
+          "imdbId": "tt0230894",
+          "awardWindowPlausible": false,
+          "popularity": 1.7795
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 956810,
+          "title": "Meeting Point",
+          "originalTitle": "Punto de encuentro",
+          "releaseYear": 2022,
+          "imdbId": "tt21933728",
+          "awardWindowPlausible": false,
+          "popularity": 3.5539
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 1214401,
+          "title": "Meeting Point",
+          "originalTitle": "Meeting Point",
+          "releaseYear": 2024,
+          "imdbId": "tt33372743",
+          "awardWindowPlausible": false,
+          "popularity": 1.8691
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 877787,
+          "title": "Meeting Point",
+          "originalTitle": "Kimya",
+          "releaseYear": 2021,
+          "imdbId": "tt15484242",
+          "awardWindowPlausible": false,
+          "popularity": 0.8345
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 876256,
+          "title": "Meeting Point",
+          "originalTitle": "Meeting Point",
+          "awardWindowPlausible": false,
+          "popularity": 0.405
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 1585173,
+          "title": "Meeting Point",
+          "originalTitle": "Meeting Point",
+          "releaseYear": 1978,
+          "awardWindowPlausible": false,
+          "popularity": 0.3568
+        }
+      ]
     },
     {
       "key": "television:mementomori:1993",
@@ -40182,6 +40708,35 @@
       ]
     },
     {
+      "key": "television:nijinskygodofthedance:1976",
+      "titles": [
+        "Nijinsky, God Of The Dance"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1976
+      ],
+      "categoryIds": [
+        "television-leading-actor"
+      ],
+      "nominationIds": [
+        "345926"
+      ],
+      "mediaScope": "mixed",
+      "candidates": [
+        {
+          "mediaType": "series",
+          "tmdbId": 48360,
+          "title": "Nijinsky, God Of The Dance",
+          "originalTitle": "Nijinsky, God Of The Dance",
+          "awardWindowPlausible": false,
+          "popularity": 0.4105
+        }
+      ]
+    },
+    {
       "key": "television:nochildofmine:1998",
       "titles": [
         "No Child Of Mine"
@@ -40318,6 +40873,33 @@
       }
     },
     {
+      "key": "television:notonlybutalso:1965",
+      "titles": [
+        "Not Only But Also…"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1965
+      ],
+      "categoryIds": [
+        "television-entertainment"
+      ],
+      "nominationIds": [
+        "345581"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "series",
+        "title": "Not Only... But Also",
+        "releaseYear": 1964,
+        "tmdbId": 11459,
+        "imdbId": "tt0128004",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
       "key": "television:notonlybutalsoandscript:1965",
       "titles": [
         "Not Only But Also… (And Script)"
@@ -40346,26 +40928,6 @@
       "reviewNote": "The performance and script record identifies the BBC sketch series Not Only... But Also."
     },
     {
-      "key": "television:notonlybutalsothebignoiselast4:1965",
-      "titles": [
-        "Not Only But Also…/The Big Noise (Last 4)"
-      ],
-      "programmes": [
-        "television"
-      ],
-      "years": [
-        1965
-      ],
-      "categoryIds": [
-        "television-entertainment"
-      ],
-      "nominationIds": [
-        "345581"
-      ],
-      "mediaScope": "mixed",
-      "candidates": []
-    },
-    {
       "key": "television:notonlybutalways:2005",
       "titles": [
         "Not Only But Always"
@@ -40391,6 +40953,26 @@
         "imdbId": "tt0408046",
         "method": "tmdb-exact-title-media-and-award-window"
       }
+    },
+    {
+      "key": "television:notsomuchaprogramme:1965",
+      "titles": [
+        "Not So Much A Programme…"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1965
+      ],
+      "categoryIds": [
+        "television-leading-actor"
+      ],
+      "nominationIds": [
+        "345571"
+      ],
+      "mediaScope": "mixed",
+      "candidates": []
     },
     {
       "key": "television:notthenineoclocknews:1981",
@@ -40701,6 +41283,26 @@
         "method": "reviewed-manual-override"
       },
       "reviewNote": "The Specialist Factual winner is the BBC arts documentary strand Omnibus, first released in 1967, not the unrelated exact-title film."
+    },
+    {
+      "key": "television:omnibusadreamdivided:1970",
+      "titles": [
+        "Omnibus: A Dream Divided"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1970
+      ],
+      "categoryIds": [
+        "television-leading-actor"
+      ],
+      "nominationIds": [
+        "345632"
+      ],
+      "mediaScope": "mixed",
+      "candidates": []
     },
     {
       "key": "television:omnibusadreamdividedomnibusdownthesemeanstreetsamanmustgo:1970",
@@ -41662,6 +42264,35 @@
       }
     },
     {
+      "key": "television:paradisestreet:1965",
+      "titles": [
+        "Paradise Street"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1965
+      ],
+      "categoryIds": [
+        "television-single-documentary"
+      ],
+      "nominationIds": [
+        "345575"
+      ],
+      "mediaScope": "mixed",
+      "candidates": [
+        {
+          "mediaType": "series",
+          "tmdbId": 48091,
+          "title": "Paradise Street",
+          "originalTitle": "Paradise Street",
+          "awardWindowPlausible": false,
+          "popularity": 0.4605
+        }
+      ]
+    },
+    {
       "key": "television:parallelworldsparallellives:2008",
       "titles": [
         "Parallel Worlds, Parallel Lives"
@@ -41709,9 +42340,9 @@
       "candidates": []
     },
     {
-      "key": "television:paris1900thechangelingmackieonlywomenbewarewomenmackieonlytheoldboysthebabysitternarizzanoonly:1965",
+      "key": "television:paris1900:1965",
       "titles": [
-        "Paris 1900/The Changeling (Mackie Only)/Women Beware Women (Mackie Only)/The Old Boys, The Babysitter (Narizzano Only)"
+        "Paris 1900"
       ],
       "programmes": [
         "television"
@@ -41726,7 +42357,37 @@
         "345577"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "candidates": [
+        {
+          "mediaType": "movie",
+          "tmdbId": 114073,
+          "title": "Paris 1900",
+          "originalTitle": "Paris 1900",
+          "releaseYear": 1948,
+          "imdbId": "tt0040683",
+          "awardWindowPlausible": false,
+          "popularity": 0.9826
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 640586,
+          "title": "Paris 1900",
+          "originalTitle": "Une si belle époque ! La France d'avant 1914",
+          "releaseYear": 2019,
+          "imdbId": "tt10250836",
+          "awardWindowPlausible": false,
+          "popularity": 1.2712
+        },
+        {
+          "mediaType": "series",
+          "tmdbId": 48107,
+          "title": "Paris 1900",
+          "originalTitle": "Paris 1900",
+          "imdbId": "tt1371604",
+          "awardWindowPlausible": false,
+          "popularity": 0.5616
+        }
+      ]
     },
     {
       "key": "television:paris2024olympicsbbcone:2025",
@@ -42407,6 +43068,33 @@
       }
     },
     {
+      "key": "television:porridge:1978",
+      "titles": [
+        "Porridge"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1978
+      ],
+      "categoryIds": [
+        "television-entertainment-performance"
+      ],
+      "nominationIds": [
+        "346103"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "series",
+        "title": "Porridge",
+        "releaseYear": 1974,
+        "tmdbId": 2292,
+        "imdbId": "tt0071036",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
       "key": "television:porridgespecial:1977",
       "titles": [
         "Porridge (Special)"
@@ -42715,9 +43403,9 @@
       }
     },
     {
-      "key": "television:professionalfoulthecountryparty:1978",
+      "key": "television:professionalfoul:1978",
       "titles": [
-        "Professional Foul/The Country Party"
+        "Professional Foul"
       ],
       "programmes": [
         "television"
@@ -42732,7 +43420,14 @@
         "346074"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Professional Foul",
+        "releaseYear": 1977,
+        "tmdbId": 213575,
+        "imdbId": "tt0186466",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "television:quietlife:2025",
@@ -43685,9 +44380,9 @@
       }
     },
     {
-      "key": "television:rorybremnerwhoelsethelongjohns:1997",
+      "key": "television:rorybremnerwhoelse:1997",
       "titles": [
-        "Rory Bremner…Who Else?/The Long Johns"
+        "Rory Bremner…Who Else?"
       ],
       "programmes": [
         "television"
@@ -43702,7 +44397,14 @@
         "347384"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Rory Bremner...Who Else?",
+        "releaseYear": 1993,
+        "tmdbId": 24798,
+        "imdbId": "tt0295815",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "television:rosskempinafghanistan:2009",
@@ -44001,6 +44703,26 @@
         "method": "reviewed-manual-override"
       },
       "reviewNote": "Save Me Too is the second series of Lennie James's Sky Atlantic drama Save Me."
+    },
+    {
+      "key": "television:savingitforalbie:1978",
+      "titles": [
+        "Saving It For Albie"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1978
+      ],
+      "categoryIds": [
+        "television-leading-actress"
+      ],
+      "nominationIds": [
+        "346079"
+      ],
+      "mediaScope": "mixed",
+      "candidates": []
     },
     {
       "key": "television:scaminterceptors:2024",
@@ -46420,6 +47142,26 @@
       ]
     },
     {
+      "key": "television:takecareofmadam:1965",
+      "titles": [
+        "Take Care Of Madam"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1965
+      ],
+      "categoryIds": [
+        "television-leading-actress"
+      ],
+      "nominationIds": [
+        "345572"
+      ],
+      "mediaScope": "mixed",
+      "candidates": []
+    },
+    {
       "key": "television:takehart:1984",
       "titles": [
         "Take Hart"
@@ -46767,9 +47509,11 @@
       ],
       "categoryIds": [
         "television-craft-costume-design",
-        "television-craft-production-design"
+        "television-craft-production-design",
+        "television-leading-actress"
       ],
       "nominationIds": [
+        "346227",
         "346236",
         "348768"
       ],
@@ -46782,26 +47526,6 @@
         "imdbId": "tt0078699",
         "method": "tmdb-exact-title-media-and-award-window"
       }
-    },
-    {
-      "key": "television:testamentofyouthbluepeterspecialassignmentthedukeofwellingtonmaliceaforethought:1980",
-      "titles": [
-        "Testament Of Youth/Blue Peter Special Assignment: The Duke Of Wellington/Malice Aforethought"
-      ],
-      "programmes": [
-        "television"
-      ],
-      "years": [
-        1980
-      ],
-      "categoryIds": [
-        "television-leading-actress"
-      ],
-      "nominationIds": [
-        "346227"
-      ],
-      "mediaScope": "mixed",
-      "candidates": []
     },
     {
       "key": "television:testamentofyouthmatildasengland:1980",
@@ -46919,9 +47643,9 @@
       "reviewNote": "The Accountant is an identified 1989 instalment of the BBC drama anthology Screen One; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
-      "key": "television:theadventuresofdonquixotecandidethedeathofadolfhitler:1974",
+      "key": "television:theadventuresofdonquixote:1974",
       "titles": [
-        "The Adventures Of Don Quixote/Candide/The Death Of Adolf Hitler"
+        "The Adventures Of Don Quixote"
       ],
       "programmes": [
         "television"
@@ -46936,7 +47660,14 @@
         "345819"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Adventures Of Don Quixote",
+        "releaseYear": 1973,
+        "tmdbId": 458658,
+        "imdbId": "tt0069680",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "television:theandersonplatoon:1967",
@@ -47122,6 +47853,107 @@
       "candidates": []
     },
     {
+      "key": "television:thebabysitter:1965",
+      "titles": [
+        "The Babysitter"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1965
+      ],
+      "categoryIds": [
+        "television-drama-series"
+      ],
+      "nominationIds": [
+        "345577"
+      ],
+      "mediaScope": "mixed",
+      "candidates": [
+        {
+          "mediaType": "movie",
+          "tmdbId": 419479,
+          "title": "The Babysitter",
+          "originalTitle": "The Babysitter",
+          "releaseYear": 2017,
+          "imdbId": "tt4225622",
+          "awardWindowPlausible": false,
+          "popularity": 6.8066
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 37141,
+          "title": "The Babysitter",
+          "originalTitle": "The Babysitter",
+          "releaseYear": 1995,
+          "imdbId": "tt0112438",
+          "awardWindowPlausible": false,
+          "popularity": 3.3526
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 766394,
+          "title": "The Babysitter",
+          "originalTitle": "The Babysitter",
+          "releaseYear": 2020,
+          "imdbId": "tt11948650",
+          "awardWindowPlausible": false,
+          "popularity": 2.1123
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 94129,
+          "title": "The Babysitter",
+          "originalTitle": "La Baby-Sitter",
+          "releaseYear": 1975,
+          "imdbId": "tt0073205",
+          "awardWindowPlausible": false,
+          "popularity": 1.8124
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 67968,
+          "title": "The Babysitter",
+          "originalTitle": "The Babysitter",
+          "releaseYear": 1969,
+          "imdbId": "tt0064055",
+          "awardWindowPlausible": false,
+          "popularity": 1.3559
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 1169949,
+          "title": "The Babysitter",
+          "originalTitle": "The Babysitter",
+          "releaseYear": 2017,
+          "imdbId": "tt7520372",
+          "awardWindowPlausible": false,
+          "popularity": 1.3452
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 276530,
+          "title": "The Babysitter",
+          "originalTitle": "The Babysitter",
+          "releaseYear": 1980,
+          "imdbId": "tt0080407",
+          "awardWindowPlausible": false,
+          "popularity": 1.1679
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 374805,
+          "title": "The Babysitter",
+          "originalTitle": "The Babysitter",
+          "releaseYear": 2008,
+          "imdbId": "tt1198187",
+          "awardWindowPlausible": false,
+          "popularity": 0.9275
+        }
+      ]
+    },
+    {
       "key": "television:theballroomofromance:1983",
       "titles": [
         "The Ballroom Of Romance"
@@ -47226,6 +48058,33 @@
         "releaseYear": 2018,
         "tmdbId": 98898,
         "imdbId": "tt8430272",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
+      "key": "television:thebignoise:1965",
+      "titles": [
+        "The Big Noise"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1965
+      ],
+      "categoryIds": [
+        "television-entertainment"
+      ],
+      "nominationIds": [
+        "345581"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Big Noise",
+        "releaseYear": 1964,
+        "tmdbId": 22697,
+        "imdbId": "tt0057734",
         "method": "tmdb-exact-title-media-and-award-window"
       }
     },
@@ -47486,9 +48345,9 @@
       }
     },
     {
-      "key": "television:thecesarbirotteaumadamendoftermtakecareofmadamtherulesofthegame:1965",
+      "key": "television:thecesarbirotteau:1965",
       "titles": [
-        "The Cesar Birotteau/Madam/End Of Term/Take Care Of Madam/The Rules Of The Game"
+        "The Cesar Birotteau"
       ],
       "programmes": [
         "television"
@@ -47504,6 +48363,107 @@
       ],
       "mediaScope": "mixed",
       "candidates": []
+    },
+    {
+      "key": "television:thechangeling:1965",
+      "titles": [
+        "The Changeling"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1965
+      ],
+      "categoryIds": [
+        "television-drama-series"
+      ],
+      "nominationIds": [
+        "345577"
+      ],
+      "mediaScope": "mixed",
+      "candidates": [
+        {
+          "mediaType": "series",
+          "tmdbId": 131992,
+          "title": "The Changeling",
+          "originalTitle": "The Changeling",
+          "releaseYear": 2023,
+          "lastAirYear": 2023,
+          "imdbId": "tt8559532",
+          "awardWindowPlausible": false,
+          "popularity": 8.3201
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 3580,
+          "title": "Changeling",
+          "originalTitle": "Changeling",
+          "releaseYear": 2008,
+          "imdbId": "tt0824747",
+          "awardWindowPlausible": false,
+          "popularity": 7.1244
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 13550,
+          "title": "The Changeling",
+          "originalTitle": "The Changeling",
+          "releaseYear": 1980,
+          "imdbId": "tt0080516",
+          "awardWindowPlausible": false,
+          "popularity": 3.9799
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 342384,
+          "title": "The Changeling",
+          "originalTitle": "Der Wechselbalg",
+          "releaseYear": 2011,
+          "imdbId": "tt2002649",
+          "awardWindowPlausible": false,
+          "popularity": 2.4495
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 233563,
+          "title": "The Changeling",
+          "originalTitle": "The Changeling",
+          "releaseYear": 1993,
+          "imdbId": "tt0109397",
+          "awardWindowPlausible": false,
+          "popularity": 1.3333
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 465714,
+          "title": "The Changeling",
+          "originalTitle": "Двойник",
+          "releaseYear": 2017,
+          "imdbId": "tt5902772",
+          "awardWindowPlausible": false,
+          "popularity": 1.1304
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 270078,
+          "title": "The Changeling",
+          "originalTitle": "The Changeling",
+          "releaseYear": 1974,
+          "imdbId": "tt0071302",
+          "awardWindowPlausible": false,
+          "popularity": 0.9596
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 642641,
+          "title": "The Changeling",
+          "originalTitle": "The Changeling",
+          "releaseYear": 2019,
+          "awardWindowPlausible": false,
+          "popularity": 0.4365
+        }
+      ]
     },
     {
       "key": "television:thecharmer:1988",
@@ -47560,6 +48520,33 @@
         "method": "reviewed-manual-override"
       },
       "reviewNote": "The Daytime winner is the original UK ITV quiz show The Chase hosted by Bradley Walsh, not an international adaptation."
+    },
+    {
+      "key": "television:thecherryorchard:1982",
+      "titles": [
+        "The Cherry Orchard"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1982
+      ],
+      "categoryIds": [
+        "television-leading-actress"
+      ],
+      "nominationIds": [
+        "346377"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Cherry Orchard",
+        "releaseYear": 1981,
+        "tmdbId": 120203,
+        "imdbId": "tt0488991",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "television:thecherryorchardthejournalofbridgethitler:1982",
@@ -47713,6 +48700,33 @@
       "reviewNote": "The International winner is Ken Burns's 1990 US documentary miniseries The Civil War, not an exact-title film."
     },
     {
+      "key": "television:thecomedyoferrors:1979",
+      "titles": [
+        "The Comedy Of Errors"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1979
+      ],
+      "categoryIds": [
+        "television-leading-actress"
+      ],
+      "nominationIds": [
+        "346156"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Comedy of Errors",
+        "releaseYear": 1978,
+        "tmdbId": 141231,
+        "imdbId": "tt0077359",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
       "key": "television:thecommonwealthgames:2003",
       "titles": [
         "The Commonwealth Games"
@@ -47818,9 +48832,9 @@
       ]
     },
     {
-      "key": "television:thecountofmontecristomeetingpointacoupleofdrymartinisnotsomuchaprogrammefamousgossips:1965",
+      "key": "television:thecountofmontecristo:1965",
       "titles": [
-        "The Count Of Monte Cristo/Meeting Point/A Couple Of Dry Martinis/Not So Much A Programme…/Famous Gossips"
+        "The Count Of Monte Cristo"
       ],
       "programmes": [
         "television"
@@ -47833,6 +48847,33 @@
       ],
       "nominationIds": [
         "345571"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Count of Monte Cristo",
+        "releaseYear": 1964,
+        "tmdbId": 232490,
+        "imdbId": "tt0148018",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
+      "key": "television:thecountryparty:1978",
+      "titles": [
+        "The Country Party"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1978
+      ],
+      "categoryIds": [
+        "television-leading-actor"
+      ],
+      "nominationIds": [
+        "346074"
       ],
       "mediaScope": "mixed",
       "candidates": []
@@ -48051,6 +49092,33 @@
         "releaseYear": 2003,
         "tmdbId": 43699,
         "imdbId": "tt0381131",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
+      "key": "television:thedeathofadolfhitler:1974",
+      "titles": [
+        "The Death Of Adolf Hitler"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1974
+      ],
+      "categoryIds": [
+        "television-leading-actor"
+      ],
+      "nominationIds": [
+        "345819"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Death of Adolf Hitler",
+        "releaseYear": 1973,
+        "tmdbId": 371398,
+        "imdbId": "tt0283307",
         "method": "tmdb-exact-title-media-and-award-window"
       }
     },
@@ -48949,9 +50017,9 @@
       }
     },
     {
-      "key": "television:thegraftersparadisestreet:1965",
+      "key": "television:thegrafters:1965",
       "titles": [
-        "The Grafters/Paradise Street"
+        "The Grafters"
       ],
       "programmes": [
         "television"
@@ -48966,7 +50034,16 @@
         "345575"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "candidates": [
+        {
+          "mediaType": "series",
+          "tmdbId": 48090,
+          "title": "The Grafters",
+          "originalTitle": "The Grafters",
+          "awardWindowPlausible": false,
+          "popularity": 0.3035
+        }
+      ]
     },
     {
       "key": "television:thegrahamnortonshow:2011",
@@ -50321,6 +51398,36 @@
       }
     },
     {
+      "key": "television:thelongjohns:1997",
+      "titles": [
+        "The Long Johns"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1997
+      ],
+      "categoryIds": [
+        "television-entertainment-performance"
+      ],
+      "nominationIds": [
+        "347384"
+      ],
+      "mediaScope": "mixed",
+      "candidates": [
+        {
+          "mediaType": "series",
+          "tmdbId": 26852,
+          "title": "The Long Johns",
+          "originalTitle": "The Long Johns",
+          "imdbId": "tt0388616",
+          "awardWindowPlausible": false,
+          "popularity": 0.4006
+        }
+      ]
+    },
+    {
       "key": "television:thelongshadowepisode6:2024",
       "titles": [
         "The Long Shadow (Episode 6)"
@@ -50912,9 +52019,9 @@
       }
     },
     {
-      "key": "television:thenakedcivilservantnijinskygodofthedance:1976",
+      "key": "television:thenakedcivilservant:1976",
       "titles": [
-        "The Naked Civil Servant/Nijinsky, God Of The Dance"
+        "The Naked Civil Servant"
       ],
       "programmes": [
         "television"
@@ -50929,7 +52036,14 @@
         "345926"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Naked Civil Servant",
+        "releaseYear": 1975,
+        "tmdbId": 40950,
+        "imdbId": "tt0073438",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "television:thenationaltrust:2004",
@@ -51072,9 +52186,9 @@
       "candidates": []
     },
     {
-      "key": "television:thenormanconquestssavingitforalbie:1978",
+      "key": "television:thenormanconquests:1978",
       "titles": [
-        "The Norman Conquests/Saving It For Albie"
+        "The Norman Conquests"
       ],
       "programmes": [
         "television"
@@ -51089,7 +52203,14 @@
         "346079"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Norman Conquests",
+        "releaseYear": 1977,
+        "tmdbId": 47924,
+        "imdbId": "tt4322992",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "television:theoffice:2002",
@@ -51172,6 +52293,46 @@
         "method": "reviewed-manual-override"
       },
       "reviewNote": "The Christmas Special is the concluding instalment of the original UK BBC sitcom The Office."
+    },
+    {
+      "key": "television:theoldboys:1965",
+      "titles": [
+        "The Old Boys"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1965
+      ],
+      "categoryIds": [
+        "television-drama-series"
+      ],
+      "nominationIds": [
+        "345577"
+      ],
+      "mediaScope": "mixed",
+      "candidates": [
+        {
+          "mediaType": "movie",
+          "tmdbId": 348180,
+          "title": "The Old Boys",
+          "originalTitle": "The Old Boys",
+          "releaseYear": 2015,
+          "awardWindowPlausible": false,
+          "popularity": 0.8344
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 65681,
+          "title": "Old Boys",
+          "originalTitle": "11度青春之老男孩",
+          "releaseYear": 2010,
+          "imdbId": "tt10811140",
+          "awardWindowPlausible": false,
+          "popularity": 0.7288
+        }
+      ]
     },
     {
       "key": "television:theopen:2017",
@@ -51967,6 +53128,107 @@
       "reviewNote": "The Queen of Sheba is a special episode of the established BBC sitcom The Royle Family."
     },
     {
+      "key": "television:therulesofthegame:1965",
+      "titles": [
+        "The Rules Of The Game"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1965
+      ],
+      "categoryIds": [
+        "television-leading-actress"
+      ],
+      "nominationIds": [
+        "345572"
+      ],
+      "mediaScope": "mixed",
+      "candidates": [
+        {
+          "mediaType": "movie",
+          "tmdbId": 776,
+          "title": "The Rules of the Game",
+          "originalTitle": "La Règle du jeu",
+          "releaseYear": 1939,
+          "imdbId": "tt0031885",
+          "awardWindowPlausible": false,
+          "popularity": 2.8449
+        },
+        {
+          "mediaType": "series",
+          "tmdbId": 63817,
+          "title": "Rules of the Game",
+          "originalTitle": "A Regra do Jogo",
+          "releaseYear": 2015,
+          "lastAirYear": 2016,
+          "imdbId": "tt4986278",
+          "awardWindowPlausible": false,
+          "popularity": 10.1007
+        },
+        {
+          "mediaType": "series",
+          "tmdbId": 154390,
+          "title": "Rules of the Game",
+          "originalTitle": "Rules of the Game",
+          "releaseYear": 2022,
+          "lastAirYear": 2022,
+          "imdbId": "tt14466362",
+          "awardWindowPlausible": false,
+          "popularity": 2.2209
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 1566520,
+          "title": "Rules of the Game",
+          "originalTitle": "Zasady gry",
+          "releaseYear": 2013,
+          "awardWindowPlausible": false,
+          "popularity": 1.5761
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 626830,
+          "title": "Rules of the Game",
+          "originalTitle": "Reglur Leiksins",
+          "releaseYear": 2018,
+          "imdbId": "tt7970690",
+          "awardWindowPlausible": false,
+          "popularity": 1.466
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 75983,
+          "title": "The Rules of the Game",
+          "originalTitle": "新家法",
+          "releaseYear": 1999,
+          "imdbId": "tt0885523",
+          "awardWindowPlausible": false,
+          "popularity": 1.1585
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 316632,
+          "title": "The Rules of the Game",
+          "originalTitle": "The Rules of the Game",
+          "releaseYear": 1975,
+          "imdbId": "tt0213204",
+          "awardWindowPlausible": false,
+          "popularity": 1.0962
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 1450545,
+          "title": "The Rules of the Game",
+          "originalTitle": "Las reglas del juego",
+          "releaseYear": 2025,
+          "awardWindowPlausible": false,
+          "popularity": 1.0326
+        }
+      ]
+    },
+    {
       "key": "television:theschoolthattriedtoendracism:2021",
       "titles": [
         "The School That Tried To End Racism"
@@ -52339,9 +53601,9 @@
       }
     },
     {
-      "key": "television:thesixwivesofhenryviiianidealhusband:1971",
+      "key": "television:thesixwivesofhenryviii:1971",
       "titles": [
-        "The Six Wives Of Henry VIII/An Ideal Husband"
+        "The Six Wives Of Henry VIII"
       ],
       "programmes": [
         "television"
@@ -52356,7 +53618,14 @@
         "345688"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Six Wives of Henry VIII",
+        "releaseYear": 1970,
+        "tmdbId": 13833,
+        "imdbId": "tt0066714",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "television:thesixwivesofhenryviiibiographybeethovenbiographyimeasuredtheskieskeplerputoutmoreflags:1971",
@@ -52887,6 +54156,37 @@
         "imdbId": "tt22266226",
         "method": "tmdb-exact-title-media-and-award-window"
       }
+    },
+    {
+      "key": "television:thestinker:1981",
+      "titles": [
+        "The Stinker"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1981
+      ],
+      "categoryIds": [
+        "television-leading-actor"
+      ],
+      "nominationIds": [
+        "346290"
+      ],
+      "mediaScope": "mixed",
+      "candidates": [
+        {
+          "mediaType": "movie",
+          "tmdbId": 1447070,
+          "title": "Stinker",
+          "originalTitle": "Sasyq",
+          "releaseYear": 2025,
+          "imdbId": "tt33029167",
+          "awardWindowPlausible": false,
+          "popularity": 1.6874
+        }
+      ]
     },
     {
       "key": "television:thestoryteller:1989",
@@ -53526,9 +54826,9 @@
       }
     },
     {
-      "key": "television:thetworonniesporridge:1978",
+      "key": "television:thetworonnies:1978",
       "titles": [
-        "The Two Ronnies/Porridge"
+        "The Two Ronnies"
       ],
       "programmes": [
         "television"
@@ -53543,7 +54843,41 @@
         "346103"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Two Ronnies",
+        "releaseYear": 1971,
+        "tmdbId": 2690,
+        "imdbId": "tt0066721",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
+      "key": "television:thetworonnies:1979",
+      "titles": [
+        "The Two Ronnies"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1979
+      ],
+      "categoryIds": [
+        "television-entertainment-performance"
+      ],
+      "nominationIds": [
+        "346180"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Two Ronnies",
+        "releaseYear": 1971,
+        "tmdbId": 2690,
+        "imdbId": "tt0066721",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "television:theundergroundrailroad:2022",
@@ -53977,9 +55311,9 @@
       ]
     },
     {
-      "key": "television:theworldofwoostercomedyplayhousesamthesamaritan90yearsonchurchillbirthdayprogramme:1965",
+      "key": "television:theworldofwooster:1965",
       "titles": [
-        "The World Of Wooster/Comedy Playhouse: Sam The Samaritan/90 Years On - Churchill Birthday Programme"
+        "The World Of Wooster"
       ],
       "programmes": [
         "television"
@@ -53994,7 +55328,14 @@
         "345573"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The World of Wooster",
+        "releaseYear": 1965,
+        "tmdbId": 24314,
+        "imdbId": "tt0058856",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "television:thexfactor:2006",
@@ -54965,6 +56306,105 @@
         "imdbId": "tt0081946",
         "method": "tmdb-exact-title-media-and-award-window"
       }
+    },
+    {
+      "key": "television:tilldeathdouspart:1969",
+      "titles": [
+        "Till Death Do Us Part"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1969
+      ],
+      "categoryIds": [
+        "television-entertainment"
+      ],
+      "nominationIds": [
+        "345622"
+      ],
+      "mediaScope": "mixed",
+      "candidates": [
+        {
+          "mediaType": "movie",
+          "tmdbId": 1206632,
+          "title": "Till Death Do Us Part",
+          "originalTitle": "Till Death Do Us Part",
+          "releaseYear": 1959,
+          "imdbId": "tt3539482",
+          "awardWindowPlausible": false,
+          "popularity": 0.6544
+        },
+        {
+          "mediaType": "series",
+          "tmdbId": 117252,
+          "title": "Till Death Do Us Part",
+          "originalTitle": "婚內情",
+          "releaseYear": 2019,
+          "lastAirYear": 2019,
+          "awardWindowPlausible": false,
+          "popularity": 2.1213
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 418032,
+          "title": "Till Death Do Us Part",
+          "originalTitle": "我愛你",
+          "releaseYear": 1998,
+          "imdbId": "tt0147608",
+          "awardWindowPlausible": false,
+          "popularity": 1.4586
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 687182,
+          "title": "Till Death Do Us Part",
+          "originalTitle": "Till Death Do Us Part",
+          "releaseYear": 2020,
+          "awardWindowPlausible": false,
+          "popularity": 1.2552
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 1128836,
+          "title": "Till Death Do Us Part",
+          "originalTitle": "Sehidup Semati",
+          "releaseYear": 2024,
+          "imdbId": "tt27799266",
+          "awardWindowPlausible": false,
+          "popularity": 1.208
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 1267857,
+          "title": "'Till Death Do us Part",
+          "originalTitle": "'Till Death Do us Part",
+          "releaseYear": 2023,
+          "awardWindowPlausible": false,
+          "popularity": 1.178
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 85201,
+          "title": "Till Death Do Us Part",
+          "originalTitle": "Till Death Do Us Part",
+          "releaseYear": 1982,
+          "imdbId": "tt0084795",
+          "awardWindowPlausible": false,
+          "popularity": 1.1215
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 281530,
+          "title": "Till Death Do Us Part",
+          "originalTitle": "Till Death Do Us Part",
+          "releaseYear": 2008,
+          "imdbId": "tt1362318",
+          "awardWindowPlausible": false,
+          "popularity": 1.0115
+        }
+      ]
     },
     {
       "key": "television:time:2022",
@@ -56004,9 +57444,11 @@
       ],
       "categoryIds": [
         "television-craft-make-up-hair-design",
-        "television-drama-series"
+        "television-drama-series",
+        "television-leading-actress"
       ],
       "nominationIds": [
+        "346789",
         "346806",
         "349163"
       ],
@@ -57554,6 +58996,26 @@
         "imdbId": "tt3556920",
         "method": "tmdb-exact-title-media-and-award-window"
       }
+    },
+    {
+      "key": "television:womenbewarewomen:1965",
+      "titles": [
+        "Women Beware Women"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1965
+      ],
+      "categoryIds": [
+        "television-drama-series"
+      ],
+      "nominationIds": [
+        "345577"
+      ],
+      "mediaScope": "mixed",
+      "candidates": []
     },
     {
       "key": "television:worldathleticschampionships:2010",
