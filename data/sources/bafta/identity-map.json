@@ -23644,7 +23644,15 @@
         "346844"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Talking Heads",
+        "releaseYear": 1988,
+        "tmdbId": 6075,
+        "imdbId": "tt0092462",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "A Cream Cracker Under the Settee is Thora Hird's monologue from Alan Bennett's 1988 BBC anthology series Talking Heads."
     },
     {
       "key": "television:adancetothemusicoftime:1998",
@@ -23994,7 +24002,15 @@
         "347792"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Big Impression",
+        "releaseYear": 2000,
+        "tmdbId": 2662,
+        "imdbId": "tt0211948",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Scripted Comedy winner is the BBC sketch series stored by TMDB under its later title The Big Impression."
     },
     {
       "key": "television:alittleprincess:1988",
@@ -26811,7 +26827,14 @@
         "346459"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Book Tower",
+        "releaseYear": 1979,
+        "imdbId": "tt0367296",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The Children's Non-Scripted winner is the ITV children's literature series The Book Tower, presented by BAFTA without the opening article."
     },
     {
       "key": "television:boon:1991",
@@ -28372,7 +28395,15 @@
         "346943"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Clive James on Television",
+        "releaseYear": 1982,
+        "tmdbId": 47718,
+        "imdbId": "tt0224848",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Entertainment winner is an edition of the ITV review series Clive James on Television."
     },
     {
       "key": "television:clivemyriescaribbeanadventure:2025",
@@ -28663,7 +28694,14 @@
         "347286"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Coping with Christmas",
+        "releaseYear": 1995,
+        "imdbId": "tt0305390",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The Children's Scripted winner is the 1995 BBC television film Coping with Christmas; IMDb supplies the compatible title identity absent from TMDB."
     },
     {
       "key": "television:copingwithgrownups:1995",
@@ -30953,7 +30991,15 @@
         "345933"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Edward the Seventh",
+        "releaseYear": 1975,
+        "tmdbId": 13271,
+        "imdbId": "tt0072925",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Leading Actress winner Annette Crosbie identifies the 1975 ATV historical series Edward the Seventh, presented by BAFTA as Edward VII."
     },
     {
       "key": "television:elgarthemanbehindthemask:2011",
@@ -31332,7 +31378,15 @@
         "350443"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Eric & Ernie",
+        "releaseYear": 2011,
+        "tmdbId": 52929,
+        "imdbId": "tt1719681",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Leading Actor winner Daniel Rigby identifies the 2011 BBC television film Eric & Ernie, IMDb tt1719681."
     },
     {
       "key": "television:eurovisionsongcontest2023:2024",
@@ -32282,7 +32336,15 @@
         "346661"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "40 Minutes",
+        "releaseYear": 1981,
+        "tmdbId": 32329,
+        "imdbId": "tt0429290",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The source typo identifies the BBC documentary strand 40 Minutes, first released in 1981."
     },
     {
       "key": "television:fortyminutes:1984",
@@ -32302,7 +32364,15 @@
         "346535"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "40 Minutes",
+        "releaseYear": 1981,
+        "tmdbId": 32329,
+        "imdbId": "tt0429290",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Factual Series winner is the BBC documentary strand 40 Minutes, first released in 1981."
     },
     {
       "key": "television:fortyminutesseries1:1990",
@@ -32322,7 +32392,15 @@
         "346932"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "40 Minutes",
+        "releaseYear": 1981,
+        "tmdbId": 32329,
+        "imdbId": "tt0429290",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The parenthetical lineage wording identifies the established BBC documentary strand 40 Minutes."
     },
     {
       "key": "television:freddibnahsteeplejack:1980",
@@ -35960,7 +36038,15 @@
         "346402"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Ireland: A Television History",
+        "releaseYear": 1980,
+        "tmdbId": 47819,
+        "imdbId": "tt1426944",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Episodes 5–13 belong to Robert Kee's 1980 BBC documentary series Ireland: A Television History."
     },
     {
       "key": "television:itncoverageofthecrisisinrwanda:1995",
@@ -37391,7 +37477,15 @@
         "346839"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Life Story",
+        "releaseYear": 1987,
+        "tmdbId": 55829,
+        "imdbId": "tt0093815",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Limited Drama winner is Mick Jackson's 1987 BBC television film Life Story, IMDb tt0093815, presented by BAFTA as Lifestory."
     },
     {
       "key": "television:lightweightcamerawork:1980",
@@ -37984,7 +38078,15 @@
         "346815"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Günter Wallraff: Lowest of the Low",
+        "releaseYear": 1986,
+        "tmdbId": 369881,
+        "imdbId": "tt0292533",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The International winner is the 1986 Günter Wallraff documentary stored by TMDB as Günter Wallraff: Lowest of the Low, IMDb tt0292533."
     },
     {
       "key": "television:lslowryasimpleman:1988",
@@ -38813,7 +38915,15 @@
         "346108"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Morecambe & Wise Show",
+        "releaseYear": 1968,
+        "tmdbId": 154702,
+        "imdbId": "tt0063930",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Christmas Show is a special of the established BBC series The Morecambe & Wise Show."
     },
     {
       "key": "television:morganarobinsonssummer:2018",
@@ -39226,7 +39336,15 @@
         "347787"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Murder",
+        "releaseYear": 2002,
+        "tmdbId": 47557,
+        "imdbId": "tt0318469",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Leading Actress winner Julie Walters identifies the 2002 BBC television miniseries Murder, IMDb tt0318469."
     },
     {
       "key": "television:murder:2013",
@@ -39246,7 +39364,15 @@
         "351252"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Murder",
+        "releaseYear": 2016,
+        "tmdbId": 65789,
+        "imdbId": "tt5541800",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Limited Drama winner is Birger Larsen's 2012 BBC pilot Murder, represented by the resulting anthology series identity IMDb tt5541800."
     },
     {
       "key": "television:murderedbymyboyfriend:2015",
@@ -39475,7 +39601,15 @@
         "347707"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Strange Relations",
+        "releaseYear": 2001,
+        "tmdbId": 292082,
+        "imdbId": "tt0299163",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Leading Actress winner Julie Walters identifies the 2001 television film released as My Beautiful Son in the UK and stored by TMDB as Strange Relations, IMDb tt0299163."
     },
     {
       "key": "television:myboyjack:2008",
@@ -42090,7 +42224,15 @@
         "346065"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Porridge",
+        "releaseYear": 1974,
+        "tmdbId": 2292,
+        "imdbId": "tt0071036",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The winning special belongs to the established BBC sitcom Porridge."
     },
     {
       "key": "television:porterhouseblue:1988",
@@ -46666,7 +46808,15 @@
         "347501"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Arena",
+        "releaseYear": 1975,
+        "tmdbId": 2050,
+        "imdbId": "tt0199184",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Brian Epstein Story is an identified edition of the BBC arts documentary strand Arena."
     },
     {
       "key": "television:theark:1994",
@@ -47089,7 +47239,15 @@
         "347855"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Canterbury Tales",
+        "releaseYear": 2003,
+        "tmdbId": 14098,
+        "imdbId": "tt0353045",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Leading Actress winner Julie Walters identifies The Wife of Bath as an episode of the 2003 BBC miniseries Canterbury Tales."
     },
     {
       "key": "television:thecelebritytraitors:2026",
@@ -52020,7 +52178,15 @@
         "345689"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Six Wives of Henry VIII",
+        "releaseYear": 1970,
+        "tmdbId": 13833,
+        "imdbId": "tt0066714",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Annette Crosbie's Catherine of Aragon performance belongs to the 1970 BBC historical series The Six Wives of Henry VIII."
     },
     {
       "key": "television:thesketchshow:2002",
@@ -54573,7 +54739,15 @@
         "360364"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Time",
+        "releaseYear": 2021,
+        "tmdbId": 126116,
+        "imdbId": "tt13138834",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Leading Actor winner Sean Bean and the Limited Drama record identify Jimmy McGovern's 2021 BBC prison anthology series Time."
     },
     {
       "key": "television:timewatchthemysteriouscareerofleeharveyoswald:1994",
@@ -56364,7 +56538,15 @@
         "349716"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Warriors",
+        "releaseYear": 1999,
+        "tmdbId": 6268,
+        "imdbId": "tt0119873",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Limited Drama winner is Peter Kosminsky's 1999 BBC miniseries Warriors, IMDb tt0119873; series media preserves the original programme form rather than its duplicate movie-style record."
     },
     {
       "key": "television:waysofseeingjohnberger:1973",
@@ -56384,7 +56566,15 @@
         "345816"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Ways of Seeing",
+        "releaseYear": 1972,
+        "tmdbId": 48003,
+        "imdbId": "tt1302546",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "John Berger identifies the 1972 BBC documentary series Ways of Seeing."
     },
     {
       "key": "television:weareladyparts:2022",
@@ -56435,7 +56625,15 @@
         "359803"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Welcome to Chechnya",
+        "releaseYear": 2020,
+        "tmdbId": 653579,
+        "imdbId": "tt11394200",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The International winner is David France's 2020 documentary Welcome to Chechnya, presented in the UK through the Storyville strand."
     },
     {
       "key": "television:welcometolagos:2011",
