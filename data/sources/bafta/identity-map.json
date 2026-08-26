@@ -24242,87 +24242,15 @@
         "356770"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 529759,
-          "title": "Ambulance",
-          "originalTitle": "Ambulance",
-          "releaseYear": 2018,
-          "awardWindowPlausible": true,
-          "popularity": 0.4466
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 67946,
-          "title": "Ambulance",
-          "originalTitle": "Ambulance",
-          "releaseYear": 2016,
-          "lastAirYear": 2026,
-          "imdbId": "tt6079604",
-          "awardWindowPlausible": true,
-          "popularity": 7.9309
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 462068,
-          "title": "Ambulance",
-          "originalTitle": "Ambulanse",
-          "releaseYear": 2016,
-          "imdbId": "tt5050756",
-          "awardWindowPlausible": true,
-          "popularity": 0.6888
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1061492,
-          "title": "Ambulance",
-          "originalTitle": "Ambulance",
-          "releaseYear": 2016,
-          "imdbId": "tt5672020",
-          "awardWindowPlausible": true,
-          "popularity": 0.4051
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 958543,
-          "title": "Ambulance",
-          "originalTitle": "앰뷸런스",
-          "releaseYear": 2012,
-          "awardWindowPlausible": false,
-          "popularity": 0.8254
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 243461,
-          "title": "Ambulance",
-          "originalTitle": "Ambulans",
-          "releaseYear": 1961,
-          "imdbId": "tt0172112",
-          "awardWindowPlausible": false,
-          "popularity": 0.6612
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 448587,
-          "title": "Ambulance",
-          "originalTitle": "Скорая помощь",
-          "releaseYear": 1949,
-          "imdbId": "tt6052526",
-          "awardWindowPlausible": false,
-          "popularity": 0.548
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 763285,
-          "title": "Ambulance",
-          "originalTitle": "Ambulance",
-          "releaseYear": 2022,
-          "imdbId": "tt4998632",
-          "awardWindowPlausible": false,
-          "popularity": 8.4335
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Ambulance",
+        "releaseYear": 2016,
+        "tmdbId": 67946,
+        "imdbId": "tt6079604",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Factual Series winner is the BBC documentary series Ambulance, first released in 2016, rather than any exact-title film."
     },
     {
       "key": "television:americaswaronabortionexposure:2021",
@@ -25152,90 +25080,15 @@
         "346868"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 44796,
-          "title": "Arena",
-          "originalTitle": "Arena",
-          "releaseYear": 1989,
-          "imdbId": "tt0101366",
-          "awardWindowPlausible": true,
-          "popularity": 1.7722
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 172648,
-          "title": "Arena",
-          "originalTitle": "Arena",
-          "releaseYear": 1985,
-          "imdbId": "tt0254123",
-          "awardWindowPlausible": false,
-          "popularity": 1.5066
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 2050,
-          "title": "Arena",
-          "originalTitle": "Arena",
-          "releaseYear": 1975,
-          "lastAirYear": 2024,
-          "imdbId": "tt0199184",
-          "awardWindowPlausible": true,
-          "popularity": 33.5816
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 107271,
-          "title": "Arena",
-          "originalTitle": "Arena",
-          "releaseYear": 1993,
-          "lastAirYear": 2024,
-          "imdbId": "tt1325046",
-          "awardWindowPlausible": false,
-          "popularity": 40.8423
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 12348,
-          "title": "Arena",
-          "originalTitle": "Arena",
-          "releaseYear": 2002,
-          "lastAirYear": 2005,
-          "awardWindowPlausible": false,
-          "popularity": 4.7345
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 71254,
-          "title": "Arena",
-          "originalTitle": "Arena",
-          "releaseYear": 2011,
-          "imdbId": "tt1117581",
-          "awardWindowPlausible": false,
-          "popularity": 3.0117
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1474975,
-          "title": "Arena",
-          "originalTitle": "Arena",
-          "releaseYear": 2025,
-          "imdbId": "tt15679168",
-          "awardWindowPlausible": false,
-          "popularity": 1.8955
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 557594,
-          "title": "Arena",
-          "originalTitle": "Arena",
-          "releaseYear": 2013,
-          "imdbId": "tt2545762",
-          "awardWindowPlausible": false,
-          "popularity": 0.882
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Arena",
+        "releaseYear": 1975,
+        "tmdbId": 2050,
+        "imdbId": "tt0199184",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Factual Series winner is the long-running BBC arts documentary strand Arena, first released in 1975."
     },
     {
       "key": "television:arenascarfeonscarfe:1987",
@@ -26091,78 +25944,15 @@
         "352234"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 136809,
-          "title": "Bedlam",
-          "originalTitle": "Bedlam",
-          "releaseYear": 2013,
-          "lastAirYear": 2013,
-          "imdbId": "tt3322274",
-          "awardWindowPlausible": true,
-          "popularity": 0.7913
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 37618,
-          "title": "Bedlam",
-          "originalTitle": "Bedlam",
-          "releaseYear": 2011,
-          "lastAirYear": 2012,
-          "imdbId": "tt1822448",
-          "awardWindowPlausible": true,
-          "popularity": 4.0249
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1225608,
-          "title": "Bedlam",
-          "originalTitle": "Bedlam",
-          "releaseYear": 1991,
-          "awardWindowPlausible": false,
-          "popularity": 0.5463
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 24111,
-          "title": "Bedlam",
-          "originalTitle": "Bedlam",
-          "releaseYear": 1946,
-          "imdbId": "tt0038343",
-          "awardWindowPlausible": false,
-          "popularity": 1.7463
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1429638,
-          "title": "Bedlam",
-          "originalTitle": "Bedlam",
-          "imdbId": "tt38264318",
-          "awardWindowPlausible": false,
-          "popularity": 1.8759
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 263865,
-          "title": "Bedlam",
-          "originalTitle": "Bedlam",
-          "releaseYear": 2015,
-          "imdbId": "tt1784359",
-          "awardWindowPlausible": false,
-          "popularity": 0.6575
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 565717,
-          "title": "Bedlam",
-          "originalTitle": "Bedlam",
-          "releaseYear": 2019,
-          "imdbId": "tt9358042",
-          "awardWindowPlausible": false,
-          "popularity": 0.6287
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Bedlam",
+        "releaseYear": 2013,
+        "tmdbId": 136809,
+        "imdbId": "tt3322274",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Factual Series winner is the 2013 Channel 4 documentary series Bedlam, not the unrelated 2011 drama or exact-title films."
     },
     {
       "key": "television:betweenlifeanddeath:2011",
@@ -26774,29 +26564,15 @@
         "368218"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1229873,
-          "title": "Blue Lights",
-          "originalTitle": "Luces azules",
-          "releaseYear": 2024,
-          "imdbId": "tt30831095",
-          "awardWindowPlausible": true,
-          "popularity": 1.4624
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 218344,
-          "title": "Blue Lights",
-          "originalTitle": "Blue Lights",
-          "releaseYear": 2023,
-          "lastAirYear": 2025,
-          "imdbId": "tt14466018",
-          "awardWindowPlausible": true,
-          "popularity": 10.002
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Blue Lights",
+        "releaseYear": 2023,
+        "tmdbId": 218344,
+        "imdbId": "tt14466018",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Drama Series winner is the BBC Northern Ireland police drama Blue Lights, first released in 2023, not the exact-title film."
     },
     {
       "key": "television:bluepeter:1970",
@@ -27453,29 +27229,15 @@
         "348178"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 17088,
-          "title": "Britz",
-          "originalTitle": "Britz",
-          "releaseYear": 2007,
-          "lastAirYear": 2007,
-          "imdbId": "tt0991005",
-          "awardWindowPlausible": true,
-          "popularity": 1.9019
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 130983,
-          "title": "Britz",
-          "originalTitle": "Britz",
-          "releaseYear": 2007,
-          "imdbId": "tt0991005",
-          "awardWindowPlausible": true,
-          "popularity": 0.9777
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Britz",
+        "releaseYear": 2007,
+        "tmdbId": 17088,
+        "imdbId": "tt0991005",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Limited Drama winner is Peter Kosminsky's 2007 Channel 4 miniseries Britz; series media preserves the programme form rather than its duplicate movie-style TMDB record."
     },
     {
       "key": "television:broadchurch:2014",
@@ -28789,89 +28551,15 @@
         "347726"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 13181,
-          "title": "Cold Feet",
-          "originalTitle": "Cold Feet",
-          "releaseYear": 1999,
-          "lastAirYear": 1999,
-          "imdbId": "tt0209582",
-          "awardWindowPlausible": false,
-          "popularity": 1.3397
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 587512,
-          "title": "Cold Feet",
-          "originalTitle": "Cold Feet",
-          "releaseYear": 1999,
-          "imdbId": "tt0211316",
-          "awardWindowPlausible": true,
-          "popularity": 0.623
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 749,
-          "title": "Cold Feet",
-          "originalTitle": "Cold Feet",
-          "releaseYear": 1998,
-          "lastAirYear": 2020,
-          "imdbId": "tt0168596",
-          "awardWindowPlausible": true,
-          "popularity": 7.4626
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 88658,
-          "title": "Cold Feet",
-          "originalTitle": "Cold Feet",
-          "releaseYear": 1989,
-          "imdbId": "tt0097076",
-          "awardWindowPlausible": false,
-          "popularity": 1.4371
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 279816,
-          "title": "Cold Feet",
-          "originalTitle": "Cold Feet",
-          "releaseYear": 1984,
-          "imdbId": "tt0087070",
-          "awardWindowPlausible": false,
-          "popularity": 0.874
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1403020,
-          "title": "Cold Feet",
-          "originalTitle": "Cold Feet",
-          "releaseYear": 1960,
-          "awardWindowPlausible": false,
-          "popularity": 0.2896
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 166523,
-          "title": "Cold Feet",
-          "originalTitle": "Cold Feet",
-          "releaseYear": 1930,
-          "imdbId": "tt0142187",
-          "awardWindowPlausible": false,
-          "popularity": 0.4259
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1034148,
-          "title": "Cold Feet",
-          "originalTitle": "Cold Feet",
-          "releaseYear": 1922,
-          "imdbId": "tt0428412",
-          "awardWindowPlausible": false,
-          "popularity": 0.5979
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Cold Feet",
+        "releaseYear": 1998,
+        "tmdbId": 749,
+        "imdbId": "tt0168596",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Drama Series winner is the ITV comedy-drama Cold Feet, first released in 1998, not the unrelated exact-title candidates."
     },
     {
       "key": "television:colditz:2006",
@@ -28944,74 +28632,15 @@
         "352212"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 172008,
-          "title": "Complicit",
-          "originalTitle": "Complicit",
-          "releaseYear": 2013,
-          "imdbId": "tt2224119",
-          "awardWindowPlausible": true,
-          "popularity": 1.2637
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1121428,
-          "title": "Complicit",
-          "originalTitle": "Complicit",
-          "releaseYear": 2013,
-          "imdbId": "tt2934896",
-          "awardWindowPlausible": true,
-          "popularity": 0.3302
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 446814,
-          "title": "Complicit",
-          "originalTitle": "Complicit",
-          "releaseYear": 2017,
-          "imdbId": "tt6441102",
-          "awardWindowPlausible": false,
-          "popularity": 1.6296
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1750487,
-          "title": "Complicit",
-          "originalTitle": "Complicit",
-          "awardWindowPlausible": false,
-          "popularity": 1.0272
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1304570,
-          "title": "Complicit",
-          "originalTitle": "Complicit",
-          "releaseYear": 2024,
-          "imdbId": "tt32614746",
-          "awardWindowPlausible": false,
-          "popularity": 0.626
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1663916,
-          "title": "COMPLICIT",
-          "originalTitle": "COMPLICIT",
-          "releaseYear": 2026,
-          "awardWindowPlausible": false,
-          "popularity": 0.4173
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 332308,
-          "title": "Complicit",
-          "originalTitle": "Complicit",
-          "imdbId": "tt44409983",
-          "awardWindowPlausible": false,
-          "popularity": 0.4139
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Complicit",
+        "releaseYear": 2013,
+        "tmdbId": 172008,
+        "imdbId": "tt2224119",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Limited Drama winner is Niall MacCormick's 2013 Channel 4 television film Complicit, IMDb tt2224119."
     },
     {
       "key": "television:conspiracy:2003",
@@ -29695,39 +29324,15 @@
         "345717"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 20051,
-          "title": "Dad's Army",
-          "originalTitle": "Dad's Army",
-          "releaseYear": 1971,
-          "imdbId": "tt0066963",
-          "awardWindowPlausible": true,
-          "popularity": 1.2531
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 505,
-          "title": "Dad's Army",
-          "originalTitle": "Dad's Army",
-          "releaseYear": 1968,
-          "lastAirYear": 1977,
-          "imdbId": "tt0062552",
-          "awardWindowPlausible": true,
-          "popularity": 15.797
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 332721,
-          "title": "Dad's Army",
-          "originalTitle": "Dad's Army",
-          "releaseYear": 2016,
-          "imdbId": "tt4104054",
-          "awardWindowPlausible": false,
-          "popularity": 3.0741
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Dad's Army",
+        "releaseYear": 1968,
+        "tmdbId": 505,
+        "imdbId": "tt0062552",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Entertainment winner is the BBC sitcom Dad's Army, first released in 1968, not the 1971 feature film."
     },
     {
       "key": "television:dahmermonsterthejeffreydahmerstory:2023",
@@ -32382,90 +31987,15 @@
         "353439"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 84443,
-          "title": "First Dates",
-          "originalTitle": "First Dates",
-          "releaseYear": 2016,
-          "lastAirYear": 2025,
-          "imdbId": "tt6317622",
-          "awardWindowPlausible": true,
-          "popularity": 24.6375
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 103692,
-          "title": "First Dates",
-          "originalTitle": "First Dates",
-          "releaseYear": 2016,
-          "lastAirYear": 2018,
-          "awardWindowPlausible": true,
-          "popularity": 1.1756
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 103681,
-          "title": "First Dates",
-          "originalTitle": "First Dates",
-          "releaseYear": 2015,
-          "lastAirYear": 2015,
-          "awardWindowPlausible": true,
-          "popularity": 1.6428
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 62470,
-          "title": "First Dates",
-          "originalTitle": "First Dates",
-          "releaseYear": 2013,
-          "lastAirYear": 2026,
-          "imdbId": "tt2980110",
-          "awardWindowPlausible": true,
-          "popularity": 16.106
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1214966,
-          "title": "First Dates",
-          "originalTitle": "First Dates",
-          "releaseYear": 2010,
-          "imdbId": "tt1592258",
-          "awardWindowPlausible": false,
-          "popularity": 0.9678
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 119175,
-          "title": "First Dates",
-          "originalTitle": "First Dates",
-          "releaseYear": 2020,
-          "lastAirYear": 2025,
-          "imdbId": "tt12220626",
-          "awardWindowPlausible": false,
-          "popularity": 10.65
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1286486,
-          "title": "First Dates",
-          "originalTitle": "First Dates",
-          "awardWindowPlausible": false,
-          "popularity": 2.1288
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 71273,
-          "title": "First Dates",
-          "originalTitle": "First Dates",
-          "releaseYear": 2017,
-          "lastAirYear": 2017,
-          "imdbId": "tt5673878",
-          "awardWindowPlausible": false,
-          "popularity": 1.4131
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "First Dates",
+        "releaseYear": 2013,
+        "tmdbId": 62470,
+        "imdbId": "tt2980110",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Reality winner is the original UK Channel 4 series First Dates, first released in 2013, not an international adaptation."
     },
     {
       "key": "television:firsttuesdayfourhoursinmylai:1990",
@@ -34200,59 +33730,15 @@
         "352777"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 61244,
-          "title": "Happy Valley",
-          "originalTitle": "Happy Valley",
-          "releaseYear": 2014,
-          "lastAirYear": 2023,
-          "imdbId": "tt3428912",
-          "awardWindowPlausible": true,
-          "popularity": 11.5844
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 250745,
-          "title": "Happy Valley",
-          "originalTitle": "Happy Valley",
-          "releaseYear": 2014,
-          "imdbId": "tt2171902",
-          "awardWindowPlausible": true,
-          "popularity": 0.6993
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 543817,
-          "title": "Happy Valley",
-          "originalTitle": "喜洋塘",
-          "releaseYear": 2009,
-          "imdbId": "tt2282346",
-          "awardWindowPlausible": false,
-          "popularity": 0.395
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 246948,
-          "title": "Happy Valley",
-          "originalTitle": "Happy Valley",
-          "releaseYear": 2008,
-          "imdbId": "tt1263682",
-          "awardWindowPlausible": false,
-          "popularity": 0.4282
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 677813,
-          "title": "Happy Valley",
-          "originalTitle": "Happy Valley",
-          "releaseYear": 2021,
-          "imdbId": "tt13886834",
-          "awardWindowPlausible": false,
-          "popularity": 0.425
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Happy Valley",
+        "releaseYear": 2014,
+        "tmdbId": 61244,
+        "imdbId": "tt3428912",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Drama Series and drama-writing records identify Sally Wainwright's BBC series Happy Valley, not the unrelated exact-title film."
     },
     {
       "key": "television:happyvalley:2017",
@@ -34837,83 +34323,15 @@
         "348208"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 5365,
-          "title": "Heroes",
-          "originalTitle": "Héroes",
-          "releaseYear": 2007,
-          "lastAirYear": 2009,
-          "imdbId": "tt1042704",
-          "awardWindowPlausible": true,
-          "popularity": 3.2157
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 1639,
-          "title": "Heroes",
-          "originalTitle": "Heroes",
-          "releaseYear": 2006,
-          "lastAirYear": 2010,
-          "imdbId": "tt0813715",
-          "awardWindowPlausible": true,
-          "popularity": 67.4737
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 83061,
-          "title": "Heroes",
-          "originalTitle": "Heroes",
-          "releaseYear": 1977,
-          "imdbId": "tt0076138",
-          "awardWindowPlausible": false,
-          "popularity": 1.4399
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 106617,
-          "title": "Heroes",
-          "originalTitle": "大侠霍元甲",
-          "releaseYear": 2020,
-          "lastAirYear": 2020,
-          "imdbId": "tt12793360",
-          "awardWindowPlausible": false,
-          "popularity": 9.9395
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 113193,
-          "title": "Heroes",
-          "originalTitle": "说英雄谁是英雄",
-          "releaseYear": 2022,
-          "lastAirYear": 2022,
-          "imdbId": "tt20672760",
-          "awardWindowPlausible": false,
-          "popularity": 5.8635
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 39406,
-          "title": "Heroes",
-          "originalTitle": "영웅호걸",
-          "releaseYear": 2010,
-          "lastAirYear": 2011,
-          "imdbId": "tt3112688",
-          "awardWindowPlausible": false,
-          "popularity": 3.185
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 130415,
-          "title": "Heroes",
-          "originalTitle": "闪亮的名字",
-          "releaseYear": 2019,
-          "lastAirYear": 2019,
-          "awardWindowPlausible": false,
-          "popularity": 2.0809
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Heroes",
+        "releaseYear": 2006,
+        "tmdbId": 1639,
+        "imdbId": "tt0813715",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The International winner is the US NBC drama series Heroes, first released in 2006, not the unrelated 2007 Russian series."
     },
     {
       "key": "television:hidehi:1984",
@@ -35850,52 +35268,15 @@
         "347813"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 18650,
-          "title": "I'm a Celebrity...Get Me Out of Here!",
-          "originalTitle": "I'm a Celebrity...Get Me Out of Here!",
-          "releaseYear": 2003,
-          "lastAirYear": 2009,
-          "imdbId": "tt0355096",
-          "awardWindowPlausible": true,
-          "popularity": 8.4662
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 30901,
-          "title": "I'm a Celebrity...Get Me Out of Here!",
-          "originalTitle": "I'm a Celebrity...Get Me Out of Here!",
-          "releaseYear": 2002,
-          "lastAirYear": 2025,
-          "imdbId": "tt0338616",
-          "awardWindowPlausible": true,
-          "popularity": 18.224
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 61913,
-          "title": "I'm a Celebrity: Get Me Out of Here!",
-          "originalTitle": "I'm a Celebrity: Get Me Out of Here!",
-          "releaseYear": 2015,
-          "lastAirYear": 2026,
-          "imdbId": "tt4422950",
-          "awardWindowPlausible": false,
-          "popularity": 29.8478
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 62775,
-          "title": "I'm a Celebrity: Get Me Out of Here!",
-          "originalTitle": "Sunt celebru, scoate-mă de aici!",
-          "releaseYear": 2015,
-          "lastAirYear": 2022,
-          "imdbId": "tt6623974",
-          "awardWindowPlausible": false,
-          "popularity": 2.9031
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "I'm a Celebrity...Get Me Out of Here!",
+        "releaseYear": 2002,
+        "tmdbId": 30901,
+        "imdbId": "tt0338616",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Entertainment winner is the original UK ITV series I'm a Celebrity... Get Me Out of Here!, first released in 2002."
     },
     {
       "key": "television:imacelebritygetmeoutofhere:2005",
@@ -35915,52 +35296,15 @@
         "347969"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 18650,
-          "title": "I'm a Celebrity...Get Me Out of Here!",
-          "originalTitle": "I'm a Celebrity...Get Me Out of Here!",
-          "releaseYear": 2003,
-          "lastAirYear": 2009,
-          "imdbId": "tt0355096",
-          "awardWindowPlausible": true,
-          "popularity": 8.4662
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 30901,
-          "title": "I'm a Celebrity...Get Me Out of Here!",
-          "originalTitle": "I'm a Celebrity...Get Me Out of Here!",
-          "releaseYear": 2002,
-          "lastAirYear": 2025,
-          "imdbId": "tt0338616",
-          "awardWindowPlausible": true,
-          "popularity": 18.224
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 61913,
-          "title": "I'm a Celebrity: Get Me Out of Here!",
-          "originalTitle": "I'm a Celebrity: Get Me Out of Here!",
-          "releaseYear": 2015,
-          "lastAirYear": 2026,
-          "imdbId": "tt4422950",
-          "awardWindowPlausible": false,
-          "popularity": 29.8478
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 62775,
-          "title": "I'm a Celebrity: Get Me Out of Here!",
-          "originalTitle": "Sunt celebru, scoate-mă de aici!",
-          "releaseYear": 2015,
-          "lastAirYear": 2022,
-          "imdbId": "tt6623974",
-          "awardWindowPlausible": false,
-          "popularity": 2.9031
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "I'm a Celebrity...Get Me Out of Here!",
+        "releaseYear": 2002,
+        "tmdbId": 30901,
+        "imdbId": "tt0338616",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Entertainment winner is the original UK ITV series I'm a Celebrity... Get Me Out of Here!, matching the reviewed 2003 identity."
     },
     {
       "key": "television:imacelebritygetmeoutofhere:2010",
@@ -36008,52 +35352,15 @@
         "357629"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 61913,
-          "title": "I'm a Celebrity: Get Me Out of Here!",
-          "originalTitle": "I'm a Celebrity: Get Me Out of Here!",
-          "releaseYear": 2015,
-          "lastAirYear": 2026,
-          "imdbId": "tt4422950",
-          "awardWindowPlausible": true,
-          "popularity": 29.8478
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 62775,
-          "title": "I'm a Celebrity: Get Me Out of Here!",
-          "originalTitle": "Sunt celebru, scoate-mă de aici!",
-          "releaseYear": 2015,
-          "lastAirYear": 2022,
-          "imdbId": "tt6623974",
-          "awardWindowPlausible": true,
-          "popularity": 2.9031
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 18650,
-          "title": "I'm a Celebrity...Get Me Out of Here!",
-          "originalTitle": "I'm a Celebrity...Get Me Out of Here!",
-          "releaseYear": 2003,
-          "lastAirYear": 2009,
-          "imdbId": "tt0355096",
-          "awardWindowPlausible": false,
-          "popularity": 8.4662
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 30901,
-          "title": "I'm a Celebrity...Get Me Out of Here!",
-          "originalTitle": "I'm a Celebrity...Get Me Out of Here!",
-          "releaseYear": 2002,
-          "lastAirYear": 2025,
-          "imdbId": "tt0338616",
-          "awardWindowPlausible": true,
-          "popularity": 18.224
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "I'm a Celebrity...Get Me Out of Here!",
+        "releaseYear": 2002,
+        "tmdbId": 30901,
+        "imdbId": "tt0338616",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Reality winner is the long-running UK ITV series I'm a Celebrity... Get Me Out of Here!, not an international adaptation."
     },
     {
       "key": "television:imacelebritygetmeoutofhere:2021",
@@ -36232,87 +35539,15 @@
         "360497"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 750534,
-          "title": "In My Skin",
-          "originalTitle": "Dentro da Minha Pele",
-          "releaseYear": 2020,
-          "imdbId": "tt13351512",
-          "awardWindowPlausible": true,
-          "popularity": 0.5566
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1117207,
-          "title": "In My Skin",
-          "originalTitle": "Medo Na Minha Pele",
-          "releaseYear": 2019,
-          "awardWindowPlausible": true,
-          "popularity": 0.5521
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 610396,
-          "title": "In My Skin",
-          "originalTitle": "In My Skin",
-          "releaseYear": 2019,
-          "imdbId": "tt10524196",
-          "awardWindowPlausible": true,
-          "popularity": 0.5303
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 101797,
-          "title": "In My Skin",
-          "originalTitle": "In My Skin",
-          "releaseYear": 2018,
-          "lastAirYear": 2021,
-          "imdbId": "tt8594528",
-          "awardWindowPlausible": true,
-          "popularity": 2.2546
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 655752,
-          "title": "In My Skin",
-          "originalTitle": "In My Skin",
-          "releaseYear": 2013,
-          "imdbId": "tt3176468",
-          "awardWindowPlausible": false,
-          "popularity": 0.2269
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1836,
-          "title": "In My Skin",
-          "originalTitle": "Dans ma peau",
-          "releaseYear": 2002,
-          "imdbId": "tt0337961",
-          "awardWindowPlausible": false,
-          "popularity": 2.1518
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1619488,
-          "title": "In My Skin",
-          "originalTitle": "În pielea mea",
-          "releaseYear": 2026,
-          "imdbId": "tt38784577",
-          "awardWindowPlausible": false,
-          "popularity": 2.468
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1493911,
-          "title": "In My Skin",
-          "originalTitle": "In My Skin",
-          "releaseYear": 2025,
-          "awardWindowPlausible": false,
-          "popularity": 1.093
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "In My Skin",
+        "releaseYear": 2018,
+        "tmdbId": 101797,
+        "imdbId": "tt8594528",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Drama Series and drama-writing records identify the BBC Three series In My Skin, not any exact-title film."
     },
     {
       "key": "television:insidenaturesgiants:2010",
@@ -39609,89 +38844,15 @@
         "360374"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1144684,
-          "title": "Motherland",
-          "originalTitle": "Motherland",
-          "releaseYear": 2022,
-          "imdbId": "tt18162654",
-          "awardWindowPlausible": true,
-          "popularity": 1.4828
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1476922,
-          "title": "Motherland",
-          "originalTitle": "Motherland",
-          "releaseYear": 2021,
-          "imdbId": "tt4168692",
-          "awardWindowPlausible": true,
-          "popularity": 1.0309
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 628742,
-          "title": "Motherland",
-          "originalTitle": "Gimtinė",
-          "releaseYear": 2019,
-          "imdbId": "tt10805618",
-          "awardWindowPlausible": true,
-          "popularity": 1.2531
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 67804,
-          "title": "Motherland",
-          "originalTitle": "Motherland",
-          "releaseYear": 2017,
-          "lastAirYear": 2021,
-          "imdbId": "tt6006350",
-          "awardWindowPlausible": true,
-          "popularity": 5.5114
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 433088,
-          "title": "Motherland",
-          "originalTitle": "Bayang Ina Mo",
-          "releaseYear": 2017,
-          "imdbId": "tt6333078",
-          "awardWindowPlausible": false,
-          "popularity": 1.7082
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 559138,
-          "title": "Motherland",
-          "originalTitle": "Motherland",
-          "releaseYear": 2016,
-          "awardWindowPlausible": false,
-          "popularity": 0.4385
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 363846,
-          "title": "Motherland",
-          "originalTitle": "Родина",
-          "releaseYear": 2015,
-          "imdbId": "tt3626076",
-          "awardWindowPlausible": false,
-          "popularity": 0.8469
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 231881,
-          "title": "Motherland",
-          "originalTitle": "سرزمین مادری",
-          "releaseYear": 2012,
-          "lastAirYear": 2024,
-          "imdbId": "tt3744792",
-          "awardWindowPlausible": true,
-          "popularity": 0.9834
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Motherland",
+        "releaseYear": 2017,
+        "tmdbId": 67804,
+        "imdbId": "tt6006350",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Scripted Comedy winner is the BBC sitcom Motherland, first released in 2017, not any exact-title film."
     },
     {
       "key": "television:motherlove:1990",
@@ -40463,60 +39624,15 @@
         "356176"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 77191,
-          "title": "National Treasure",
-          "originalTitle": "国家宝藏",
-          "releaseYear": 2017,
-          "lastAirYear": 2024,
-          "imdbId": "tt13788996",
-          "awardWindowPlausible": true,
-          "popularity": 10.6688
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 67716,
-          "title": "National Treasure",
-          "originalTitle": "National Treasure",
-          "releaseYear": 2016,
-          "lastAirYear": 2016,
-          "imdbId": "tt5571524",
-          "awardWindowPlausible": true,
-          "popularity": 3.2096
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 2059,
-          "title": "National Treasure",
-          "originalTitle": "National Treasure",
-          "releaseYear": 2004,
-          "imdbId": "tt0368891",
-          "awardWindowPlausible": false,
-          "popularity": 14.854
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1059278,
-          "title": "National Treasure",
-          "originalTitle": "瑰宝",
-          "releaseYear": 1983,
-          "imdbId": "tt8292728",
-          "awardWindowPlausible": false,
-          "popularity": 1.0898
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 194719,
-          "title": "National Treasure",
-          "originalTitle": "Tesouro Perdido",
-          "releaseYear": 1927,
-          "imdbId": "tt0018478",
-          "awardWindowPlausible": false,
-          "popularity": 3.0168
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "National Treasure",
+        "releaseYear": 2016,
+        "tmdbId": 67716,
+        "imdbId": "tt5571524",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Limited Drama and fiction-directing records identify Jack Thorne's 2016 Channel 4 miniseries National Treasure, not the unrelated adventure film."
     },
     {
       "key": "television:navigators:2002",
@@ -41106,87 +40222,15 @@
         "348338"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 8287,
-          "title": "Occupation",
-          "originalTitle": "Occupation",
-          "releaseYear": 2009,
-          "lastAirYear": 2009,
-          "imdbId": "tt1253869",
-          "awardWindowPlausible": true,
-          "popularity": 1.9376
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 215781,
-          "title": "Occupation",
-          "originalTitle": "Occupation",
-          "releaseYear": 2009,
-          "imdbId": "tt1253869",
-          "awardWindowPlausible": true,
-          "popularity": 0.7352
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1300430,
-          "title": "Occupation",
-          "originalTitle": "Okkupation",
-          "releaseYear": 1991,
-          "imdbId": "tt27951221",
-          "awardWindowPlausible": false,
-          "popularity": 1.7844
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 696162,
-          "title": "Occupation",
-          "originalTitle": "Occupation",
-          "releaseYear": 1970,
-          "imdbId": "tt0227163",
-          "awardWindowPlausible": false,
-          "popularity": 1.265
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 503346,
-          "title": "Occupation",
-          "originalTitle": "Occupation",
-          "releaseYear": 2018,
-          "imdbId": "tt6774786",
-          "awardWindowPlausible": false,
-          "popularity": 3.4488
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1701666,
-          "title": "Occupation",
-          "originalTitle": "Occupation",
-          "releaseYear": 2026,
-          "awardWindowPlausible": false,
-          "popularity": 2.3821
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1034543,
-          "title": "Occupation",
-          "originalTitle": "Occupation",
-          "releaseYear": 2020,
-          "imdbId": "tt12357594",
-          "awardWindowPlausible": false,
-          "popularity": 1.561
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 755943,
-          "title": "Occupation",
-          "originalTitle": "Occupation",
-          "releaseYear": 2020,
-          "awardWindowPlausible": false,
-          "popularity": 1.2804
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Occupation",
+        "releaseYear": 2009,
+        "tmdbId": 8287,
+        "imdbId": "tt1253869",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Limited Drama winner is the 2009 BBC miniseries Occupation; series media preserves the programme form rather than its duplicate movie-style TMDB record."
     },
     {
       "key": "television:olivertwist:2008",
@@ -41377,88 +40421,15 @@
         "345776"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 341280,
-          "title": "Omnibus",
-          "originalTitle": "Omnibus",
-          "releaseYear": 1972,
-          "imdbId": "tt14074730",
-          "awardWindowPlausible": true,
-          "popularity": 0.8266
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 5674,
-          "title": "Omnibus",
-          "originalTitle": "Omnibus",
-          "releaseYear": 1967,
-          "lastAirYear": 2003,
-          "imdbId": "tt0200358",
-          "awardWindowPlausible": true,
-          "popularity": 38.7211
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 3768,
-          "title": "Omnibus",
-          "originalTitle": "Omnibus",
-          "releaseYear": 1952,
-          "lastAirYear": 1961,
-          "imdbId": "tt0044284",
-          "awardWindowPlausible": false,
-          "popularity": 14.9329
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 244740,
-          "title": "Omnibus",
-          "originalTitle": "Omnibus",
-          "releaseYear": 1992,
-          "imdbId": "tt0105051",
-          "awardWindowPlausible": false,
-          "popularity": 1.2738
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 998270,
-          "title": "Omnibus",
-          "originalTitle": "Omnibus",
-          "releaseYear": 2008,
-          "imdbId": "tt1358867",
-          "awardWindowPlausible": false,
-          "popularity": 0.6406
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 49344,
-          "title": "Omnibus",
-          "originalTitle": "Omnibus",
-          "releaseYear": 1980,
-          "lastAirYear": 1980,
-          "imdbId": "tt0276374",
-          "awardWindowPlausible": false,
-          "popularity": 0.5505
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 18365,
-          "title": "Omnibus",
-          "originalTitle": "Omnibus",
-          "awardWindowPlausible": false,
-          "popularity": 0.2911
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1450201,
-          "title": "OMNIBUS",
-          "originalTitle": "OMNIBUS",
-          "releaseYear": 2025,
-          "awardWindowPlausible": false,
-          "popularity": 0.2907
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Omnibus",
+        "releaseYear": 1967,
+        "tmdbId": 5674,
+        "imdbId": "tt0200358",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Specialist Factual winner is the BBC arts documentary strand Omnibus, first released in 1967, not the unrelated exact-title film."
     },
     {
       "key": "television:omnibusadreamdividedomnibusdownthesemeanstreetsamanmustgo:1970",
@@ -41639,29 +40610,15 @@
         "359789"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 105978,
-          "title": "Once Upon a Time in Iraq",
-          "originalTitle": "Once Upon a Time in Iraq",
-          "releaseYear": 2020,
-          "lastAirYear": 2020,
-          "imdbId": "tt12747876",
-          "awardWindowPlausible": true,
-          "popularity": 1.8831
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1476889,
-          "title": "Once Upon a Time in Iraq",
-          "originalTitle": "Once Upon a Time in Iraq",
-          "releaseYear": 2020,
-          "imdbId": "tt12297652",
-          "awardWindowPlausible": true,
-          "popularity": 0.8731
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Once Upon a Time in Iraq",
+        "releaseYear": 2020,
+        "tmdbId": 105978,
+        "imdbId": "tt12747876",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Factual Series winner is the 2020 BBC documentary miniseries Once Upon a Time in Iraq, not its duplicate movie-style record."
     },
     {
       "key": "television:onceuponatimeinnorthernireland:2024",
@@ -42357,89 +41314,15 @@
         "347115"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 5877,
-          "title": "Pandora's Box",
-          "originalTitle": "Pandora's Box",
-          "releaseYear": 1992,
-          "lastAirYear": 1992,
-          "imdbId": "tt0437029",
-          "awardWindowPlausible": true,
-          "popularity": 1.5021
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 856578,
-          "title": "Pandora's Box",
-          "originalTitle": "La Caja de Pandora",
-          "releaseYear": 1991,
-          "imdbId": "tt0388809",
-          "awardWindowPlausible": true,
-          "popularity": 1.6115
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 351526,
-          "title": "Pandora's Box",
-          "originalTitle": "Pandora's Box",
-          "releaseYear": 1943,
-          "imdbId": "tt0145954",
-          "awardWindowPlausible": false,
-          "popularity": 0.4879
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 905,
-          "title": "Pandora's Box",
-          "originalTitle": "Die Büchse der Pandora",
-          "releaseYear": 1929,
-          "imdbId": "tt0018737",
-          "awardWindowPlausible": false,
-          "popularity": 2.3302
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1191869,
-          "title": "Pandora’s Box",
-          "originalTitle": "Pandora’s Box",
-          "releaseYear": 1912,
-          "imdbId": "tt0192422",
-          "awardWindowPlausible": false,
-          "popularity": 0.3498
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 132043,
-          "title": "Pandora's Box",
-          "originalTitle": "天目危机",
-          "releaseYear": 2021,
-          "lastAirYear": 2021,
-          "awardWindowPlausible": false,
-          "popularity": 2.5766
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 37584,
-          "title": "Pandora's Box",
-          "originalTitle": "Pandora'nın Kutusu",
-          "releaseYear": 2008,
-          "imdbId": "tt1285130",
-          "awardWindowPlausible": false,
-          "popularity": 1.8612
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 92384,
-          "title": "Pandora's Box",
-          "originalTitle": "Trois 2: Pandora's Box",
-          "releaseYear": 2002,
-          "imdbId": "tt0285869",
-          "awardWindowPlausible": false,
-          "popularity": 1.4438
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Pandora's Box",
+        "releaseYear": 1992,
+        "tmdbId": 5877,
+        "imdbId": "tt0437029",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Factual Series winner is Adam Curtis's 1992 BBC documentary series Pandora's Box, not an exact-title film."
     },
     {
       "key": "television:panoramaundercovercaretheabuseexposed:2012",
@@ -42762,89 +41645,15 @@
         "348224"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 230001,
-          "title": "Peep Show",
-          "originalTitle": "Peep Show",
-          "releaseYear": 2008,
-          "imdbId": "tt1526623",
-          "awardWindowPlausible": true,
-          "popularity": 0.6716
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 365644,
-          "title": "Peep Show",
-          "originalTitle": "Peep Show",
-          "releaseYear": 2004,
-          "imdbId": "tt0441891",
-          "awardWindowPlausible": false,
-          "popularity": 0.4394
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 815,
-          "title": "Peep Show",
-          "originalTitle": "Peep Show",
-          "releaseYear": 2003,
-          "lastAirYear": 2015,
-          "imdbId": "tt0387764",
-          "awardWindowPlausible": true,
-          "popularity": 18.2685
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 103360,
-          "title": "Peep Show",
-          "originalTitle": "Peep Show",
-          "releaseYear": 2002,
-          "imdbId": "tt0341517",
-          "awardWindowPlausible": false,
-          "popularity": 0.6738
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1248676,
-          "title": "Peep Show",
-          "originalTitle": "Peep Show",
-          "releaseYear": 2002,
-          "awardWindowPlausible": false,
-          "popularity": 0.364
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 284760,
-          "title": "Peep Show",
-          "originalTitle": "Voglia di guardare",
-          "releaseYear": 1986,
-          "imdbId": "tt0092180",
-          "awardWindowPlausible": false,
-          "popularity": 2.1587
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 330539,
-          "title": "Peep Show",
-          "originalTitle": "Peep Show",
-          "releaseYear": 1981,
-          "imdbId": "tt0082891",
-          "awardWindowPlausible": false,
-          "popularity": 1.078
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 12063,
-          "title": "Peep Show",
-          "originalTitle": "Peep Show",
-          "releaseYear": 1975,
-          "lastAirYear": 1976,
-          "imdbId": "tt0250905",
-          "awardWindowPlausible": false,
-          "popularity": 2.4926
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Peep Show",
+        "releaseYear": 2003,
+        "tmdbId": 815,
+        "imdbId": "tt0387764",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Scripted Comedy winner is the Channel 4 sitcom Peep Show, first released in 2003, not an exact-title film."
     },
     {
       "key": "television:pennydreadful:2015",
@@ -45578,88 +44387,15 @@
         "347390"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 470507,
-          "title": "Shooting Stars",
-          "originalTitle": "Le ciel est à nous",
-          "releaseYear": 1997,
-          "imdbId": "tt0118854",
-          "awardWindowPlausible": true,
-          "popularity": 0.9556
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 816,
-          "title": "Shooting Stars",
-          "originalTitle": "Shooting Stars",
-          "releaseYear": 1993,
-          "lastAirYear": 2011,
-          "imdbId": "tt0106131",
-          "awardWindowPlausible": true,
-          "popularity": 11.6764
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 531282,
-          "title": "Shooting Stars",
-          "originalTitle": "Shooting Stars",
-          "releaseYear": 1990,
-          "imdbId": "tt0182420",
-          "awardWindowPlausible": false,
-          "popularity": 0.8636
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 328209,
-          "title": "Shooting Stars",
-          "originalTitle": "Shooting Stars",
-          "releaseYear": 1983,
-          "imdbId": "tt0086307",
-          "awardWindowPlausible": false,
-          "popularity": 1.2253
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1586942,
-          "title": "Shooting Stars",
-          "originalTitle": "Shooting Stars",
-          "releaseYear": 1950,
-          "awardWindowPlausible": false,
-          "popularity": 1.7092
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1645084,
-          "title": "Shooting Stars",
-          "originalTitle": "Shooting Stars",
-          "releaseYear": 1937,
-          "awardWindowPlausible": false,
-          "popularity": 0.2392
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 222220,
-          "title": "Shooting Stars",
-          "originalTitle": "Shooting Stars",
-          "releaseYear": 1928,
-          "imdbId": "tt0018392",
-          "awardWindowPlausible": false,
-          "popularity": 1.8042
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 127231,
-          "title": "Shooting Stars",
-          "originalTitle": "골 때리는 그녀들",
-          "releaseYear": 2021,
-          "lastAirYear": 2026,
-          "imdbId": "tt33044879",
-          "awardWindowPlausible": false,
-          "popularity": 8.8441
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Shooting Stars",
+        "releaseYear": 1993,
+        "tmdbId": 816,
+        "imdbId": "tt0106131",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Entertainment winner is the BBC panel show Shooting Stars, first released in 1993, not an exact-title film."
     },
     {
       "key": "television:shootthemessenger:2007",
@@ -47641,51 +46377,15 @@
         "358905"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 78841,
-          "title": "Taskmaster",
-          "originalTitle": "Taskmaster",
-          "releaseYear": 2018,
-          "lastAirYear": 2018,
-          "imdbId": "tt8272292",
-          "awardWindowPlausible": true,
-          "popularity": 2.7196
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 63404,
-          "title": "Taskmaster",
-          "originalTitle": "Taskmaster",
-          "releaseYear": 2015,
-          "lastAirYear": 2026,
-          "imdbId": "tt4934214",
-          "awardWindowPlausible": true,
-          "popularity": 36.6531
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 195531,
-          "title": "Taskmaster Portugal",
-          "originalTitle": "Taskmaster",
-          "releaseYear": 2022,
-          "lastAirYear": 2026,
-          "imdbId": "tt18935036",
-          "awardWindowPlausible": false,
-          "popularity": 10.1374
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 320166,
-          "title": "Taskmaster Poland",
-          "originalTitle": "Taskmaster",
-          "releaseYear": 2026,
-          "imdbId": "tt42371777",
-          "awardWindowPlausible": false,
-          "popularity": 3.2297
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Taskmaster",
+        "releaseYear": 2015,
+        "tmdbId": 63404,
+        "imdbId": "tt4934214",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Entertainment winner is the original UK comedy game show Taskmaster, first released in 2015, not an international adaptation."
     },
     {
       "key": "television:taskmaster:2025",
@@ -48622,93 +47322,15 @@
         "360305"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 120456,
-          "title": "The Chase",
-          "originalTitle": "The Chase",
-          "releaseYear": 2021,
-          "lastAirYear": 2023,
-          "imdbId": "tt13496094",
-          "awardWindowPlausible": true,
-          "popularity": 4.1875
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 87694,
-          "title": "The Chase",
-          "originalTitle": "המרדף",
-          "releaseYear": 2017,
-          "lastAirYear": 2025,
-          "imdbId": "tt8005240",
-          "awardWindowPlausible": true,
-          "popularity": 3.4958
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 488621,
-          "title": "The Chase",
-          "originalTitle": "반드시 잡는다",
-          "releaseYear": 2017,
-          "imdbId": "tt8088944",
-          "awardWindowPlausible": false,
-          "popularity": 2.0844
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 54807,
-          "title": "The Chase",
-          "originalTitle": "The Chase",
-          "releaseYear": 2013,
-          "lastAirYear": 2015,
-          "imdbId": "tt3077336",
-          "awardWindowPlausible": false,
-          "popularity": 2.7567
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 21502,
-          "title": "The Chase",
-          "originalTitle": "The Chase",
-          "releaseYear": 2009,
-          "lastAirYear": 2025,
-          "imdbId": "tt1502749",
-          "awardWindowPlausible": true,
-          "popularity": 37.0199
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 1053,
-          "title": "The Chase",
-          "originalTitle": "The Chase",
-          "releaseYear": 2006,
-          "lastAirYear": 2007,
-          "imdbId": "tt0778536",
-          "awardWindowPlausible": false,
-          "popularity": 4.354
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 10694,
-          "title": "The Chase",
-          "originalTitle": "The Chase",
-          "releaseYear": 1994,
-          "imdbId": "tt0109402",
-          "awardWindowPlausible": false,
-          "popularity": 3.0343
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 220396,
-          "title": "The Chase",
-          "originalTitle": "The Chase",
-          "releaseYear": 1991,
-          "imdbId": "tt0101566",
-          "awardWindowPlausible": false,
-          "popularity": 1.1624
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Chase",
+        "releaseYear": 2009,
+        "tmdbId": 21502,
+        "imdbId": "tt1502749",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Daytime winner is the original UK ITV quiz show The Chase hosted by Bradley Walsh, not an international adaptation."
     },
     {
       "key": "television:thecherryorchardthejournalofbridgethitler:1982",
@@ -48748,58 +47370,15 @@
         "348113"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 159184,
-          "title": "The Choir",
-          "originalTitle": "The Choir",
-          "releaseYear": 2007,
-          "imdbId": "tt0929735",
-          "awardWindowPlausible": true,
-          "popularity": 0.7728
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 30817,
-          "title": "The Choir",
-          "originalTitle": "The Choir",
-          "releaseYear": 2006,
-          "lastAirYear": 2020,
-          "imdbId": "tt2012508",
-          "awardWindowPlausible": true,
-          "popularity": 3.4976
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1230813,
-          "title": "The Choir",
-          "originalTitle": "The Choir",
-          "releaseYear": 2002,
-          "imdbId": "tt0377646",
-          "awardWindowPlausible": false,
-          "popularity": 0.6486
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 17839,
-          "title": "The Choir",
-          "originalTitle": "The Choir",
-          "releaseYear": 1995,
-          "lastAirYear": 1995,
-          "imdbId": "tt0111918",
-          "awardWindowPlausible": false,
-          "popularity": 2.0359
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 300342,
-          "title": "The Choir",
-          "originalTitle": "The Choir",
-          "awardWindowPlausible": false,
-          "popularity": 0.6943
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Choir",
+        "releaseYear": 2006,
+        "tmdbId": 30817,
+        "imdbId": "tt2012508",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Factual Entertainment winner is Gareth Malone's BBC series The Choir, first released in 2006, not an exact-title film."
     },
     {
       "key": "television:thechoirboysdontsing:2009",
@@ -48886,38 +47465,15 @@
         "347061"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 580299,
-          "title": "The Civil War",
-          "originalTitle": "The Civil War",
-          "releaseYear": 1991,
-          "imdbId": "tt8152660",
-          "awardWindowPlausible": true,
-          "popularity": 0.5089
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 9693,
-          "title": "The Civil War",
-          "originalTitle": "The Civil War",
-          "releaseYear": 1990,
-          "lastAirYear": 1990,
-          "imdbId": "tt0098769",
-          "awardWindowPlausible": true,
-          "popularity": 7.57
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1109979,
-          "title": "The Civil War",
-          "originalTitle": "The Civil War",
-          "releaseYear": 1954,
-          "awardWindowPlausible": false,
-          "popularity": 0.4228
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Civil War",
+        "releaseYear": 1990,
+        "tmdbId": 9693,
+        "imdbId": "tt0098769",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The International winner is Ken Burns's 1990 US documentary miniseries The Civil War, not an exact-title film."
     },
     {
       "key": "television:thecommonwealthgames:2003",
@@ -49279,29 +47835,15 @@
         "347305"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 8943,
-          "title": "The Death of Yugoslavia",
-          "originalTitle": "The Death of Yugoslavia",
-          "releaseYear": 1995,
-          "lastAirYear": 1995,
-          "imdbId": "tt0283181",
-          "awardWindowPlausible": true,
-          "popularity": 1.9847
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 269393,
-          "title": "The Death of Yugoslavia",
-          "originalTitle": "The Death of Yugoslavia",
-          "releaseYear": 1995,
-          "imdbId": "tt0283181",
-          "awardWindowPlausible": true,
-          "popularity": 0.9529
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Death of Yugoslavia",
+        "releaseYear": 1995,
+        "tmdbId": 8943,
+        "imdbId": "tt0283181",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Factual Series winner is the 1995 BBC documentary miniseries The Death of Yugoslavia; series media preserves the programme form rather than its duplicate movie-style record."
     },
     {
       "key": "television:thedetectivestakingdownanocg:2024",
@@ -50992,51 +49534,15 @@
         "348466"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 34415,
-          "title": "The Killing",
-          "originalTitle": "The Killing",
-          "releaseYear": 2011,
-          "lastAirYear": 2014,
-          "imdbId": "tt1637727",
-          "awardWindowPlausible": true,
-          "popularity": 24.9193
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 32368,
-          "title": "The Killing",
-          "originalTitle": "Forbrydelsen",
-          "releaseYear": 2007,
-          "lastAirYear": 2012,
-          "imdbId": "tt0826760",
-          "awardWindowPlausible": true,
-          "popularity": 21.7937
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 247,
-          "title": "The Killing",
-          "originalTitle": "The Killing",
-          "releaseYear": 1956,
-          "imdbId": "tt0049406",
-          "awardWindowPlausible": false,
-          "popularity": 5.8385
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 203570,
-          "title": "The Killing",
-          "originalTitle": "منعطف خطر",
-          "releaseYear": 2022,
-          "lastAirYear": 2022,
-          "imdbId": "tt20854884",
-          "awardWindowPlausible": false,
-          "popularity": 4.7436
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Killing",
+        "releaseYear": 2007,
+        "tmdbId": 32368,
+        "imdbId": "tt0826760",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The International winner is the original Danish series The Killing, first released in 2007, not the 2011 US adaptation."
     },
     {
       "key": "television:thelakes:1998",
@@ -51758,63 +50264,15 @@
         "361108"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 114860,
-          "title": "The Masked Singer",
-          "originalTitle": "The Masked Singer",
-          "releaseYear": 2020,
-          "lastAirYear": 2026,
-          "imdbId": "tt16994140",
-          "awardWindowPlausible": true,
-          "popularity": 10.1732
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 96907,
-          "title": "The Masked Singer",
-          "originalTitle": "The Masked Singer",
-          "releaseYear": 2020,
-          "lastAirYear": 2026,
-          "imdbId": "tt10477884",
-          "awardWindowPlausible": true,
-          "popularity": 8.4094
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 84910,
-          "title": "The Masked Singer",
-          "originalTitle": "The Masked Singer",
-          "releaseYear": 2019,
-          "lastAirYear": 2026,
-          "imdbId": "tt7670568",
-          "awardWindowPlausible": true,
-          "popularity": 25.3783
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 90368,
-          "title": "The Masked Singer",
-          "originalTitle": "The Masked Singer",
-          "releaseYear": 2019,
-          "lastAirYear": 2025,
-          "imdbId": "tt10745342",
-          "awardWindowPlausible": true,
-          "popularity": 7.4689
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 132346,
-          "title": "The Masked Singer",
-          "originalTitle": "The Masked Singer",
-          "releaseYear": 2019,
-          "lastAirYear": 2026,
-          "imdbId": "tt11050916",
-          "awardWindowPlausible": true,
-          "popularity": 7.04
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Masked Singer",
+        "releaseYear": 2020,
+        "tmdbId": 96907,
+        "imdbId": "tt10477884",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Entertainment winner is the UK ITV adaptation of The Masked Singer, IMDb tt10477884, not another national version."
     },
     {
       "key": "television:themayfairset:2000",
@@ -53279,30 +51737,15 @@
         "359836"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 133363,
-          "title": "The School That Tried to End Racism",
-          "originalTitle": "The School That Tried to End Racism",
-          "releaseYear": 2021,
-          "lastAirYear": 2021,
-          "imdbId": "tt15831522",
-          "awardWindowPlausible": true,
-          "popularity": 1.2926
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 105277,
-          "title": "The School That Tried To End Racism",
-          "originalTitle": "The School That Tried To End Racism",
-          "releaseYear": 2020,
-          "lastAirYear": 2020,
-          "imdbId": "tt12775806",
-          "awardWindowPlausible": true,
-          "popularity": 1.1207
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The School That Tried To End Racism",
+        "releaseYear": 2020,
+        "tmdbId": 105277,
+        "imdbId": "tt12775806",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Reality winner is the 2020 Channel 4 documentary series The School That Tried to End Racism, not the later Australian adaptation."
     },
     {
       "key": "television:thesecretlifeoftheberlinwall:2010",
@@ -55073,89 +53516,15 @@
         "346526"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 11688,
-          "title": "The Wind in the Willows",
-          "originalTitle": "The Wind in the Willows",
-          "releaseYear": 1984,
-          "lastAirYear": 1990,
-          "imdbId": "tt0086829",
-          "awardWindowPlausible": true,
-          "popularity": 5.7134
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 75523,
-          "title": "The Wind in the Willows",
-          "originalTitle": "The Wind in the Willows",
-          "releaseYear": 1983,
-          "imdbId": "tt0094326",
-          "awardWindowPlausible": true,
-          "popularity": 1.8391
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 38782,
-          "title": "The Wind in the Willows",
-          "originalTitle": "The Wind in the Willows",
-          "releaseYear": 1983,
-          "imdbId": "tt0086590",
-          "awardWindowPlausible": true,
-          "popularity": 1.0812
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 456377,
-          "title": "The Wind In The Willows",
-          "originalTitle": "The Wind In The Willows",
-          "releaseYear": 1983,
-          "imdbId": "tt0367236",
-          "awardWindowPlausible": true,
-          "popularity": 0.6506
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 125244,
-          "title": "The Wind in the Willows",
-          "originalTitle": "The Wind in the Willows",
-          "releaseYear": 1949,
-          "imdbId": "tt0042044",
-          "awardWindowPlausible": false,
-          "popularity": 1.506
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 47168,
-          "title": "The Wind in the Willows",
-          "originalTitle": "The Wind in the Willows",
-          "releaseYear": 1996,
-          "imdbId": "tt0118172",
-          "awardWindowPlausible": false,
-          "popularity": 2.5172
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 59178,
-          "title": "The Wind in the Willows",
-          "originalTitle": "The Wind in the Willows",
-          "releaseYear": 1995,
-          "imdbId": "tt0192802",
-          "awardWindowPlausible": false,
-          "popularity": 2.265
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 36602,
-          "title": "The Wind in the Willows",
-          "originalTitle": "The Wind in the Willows",
-          "releaseYear": 2006,
-          "imdbId": "tt0825347",
-          "awardWindowPlausible": false,
-          "popularity": 1.4481
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Wind in the Willows",
+        "releaseYear": 1983,
+        "tmdbId": 38782,
+        "imdbId": "tt0086590",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Children's Programme winner is the 1983 Cosgrove Hall television film The Wind in the Willows, IMDb tt0086590, not the subsequent series or other duplicates."
     },
     {
       "key": "television:thewitcher:2022",
@@ -55404,80 +53773,15 @@
         "348047"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 10485,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2005,
-          "lastAirYear": 2016,
-          "imdbId": "tt0450950",
-          "awardWindowPlausible": true,
-          "popularity": 15.9831
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 13999,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2004,
-          "lastAirYear": 2018,
-          "imdbId": "tt0423776",
-          "awardWindowPlausible": true,
-          "popularity": 30.0123
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 625726,
-          "title": "The X-Factor",
-          "originalTitle": "The X-Factor",
-          "releaseYear": 2003,
-          "awardWindowPlausible": true,
-          "popularity": 0.4609
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 31832,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2011,
-          "lastAirYear": 2013,
-          "imdbId": "tt1582461",
-          "awardWindowPlausible": false,
-          "popularity": 5.826
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 84462,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2011,
-          "lastAirYear": 2011,
-          "awardWindowPlausible": false,
-          "popularity": 2.0306
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 7952,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2008,
-          "lastAirYear": 2022,
-          "awardWindowPlausible": false,
-          "popularity": 1.3055
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 33981,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2013,
-          "lastAirYear": 2015,
-          "awardWindowPlausible": false,
-          "popularity": 0.6188
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The X Factor",
+        "releaseYear": 2004,
+        "tmdbId": 13999,
+        "imdbId": "tt0423776",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Entertainment winner is the original UK ITV series The X Factor, IMDb tt0423776, not an international adaptation."
     },
     {
       "key": "television:thexfactor:2007",
@@ -55497,80 +53801,15 @@
         "348107"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 10485,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2005,
-          "lastAirYear": 2016,
-          "imdbId": "tt0450950",
-          "awardWindowPlausible": true,
-          "popularity": 15.9831
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 13999,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2004,
-          "lastAirYear": 2018,
-          "imdbId": "tt0423776",
-          "awardWindowPlausible": true,
-          "popularity": 30.0123
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 625726,
-          "title": "The X-Factor",
-          "originalTitle": "The X-Factor",
-          "releaseYear": 2003,
-          "awardWindowPlausible": false,
-          "popularity": 0.4609
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 31832,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2011,
-          "lastAirYear": 2013,
-          "imdbId": "tt1582461",
-          "awardWindowPlausible": false,
-          "popularity": 5.826
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 84462,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2011,
-          "lastAirYear": 2011,
-          "awardWindowPlausible": false,
-          "popularity": 2.0306
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 7952,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2008,
-          "lastAirYear": 2022,
-          "awardWindowPlausible": false,
-          "popularity": 1.3055
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 33981,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2013,
-          "lastAirYear": 2015,
-          "awardWindowPlausible": false,
-          "popularity": 0.6188
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The X Factor",
+        "releaseYear": 2004,
+        "tmdbId": 13999,
+        "imdbId": "tt0423776",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Entertainment winner is the original UK ITV series The X Factor, matching the reviewed 2006 identity."
     },
     {
       "key": "television:thexfactor:2009",
@@ -55590,80 +53829,15 @@
         "348279"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 7952,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2008,
-          "lastAirYear": 2022,
-          "awardWindowPlausible": true,
-          "popularity": 1.3055
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 10485,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2005,
-          "lastAirYear": 2016,
-          "imdbId": "tt0450950",
-          "awardWindowPlausible": true,
-          "popularity": 15.9831
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 13999,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2004,
-          "lastAirYear": 2018,
-          "imdbId": "tt0423776",
-          "awardWindowPlausible": true,
-          "popularity": 30.0123
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 625726,
-          "title": "The X-Factor",
-          "originalTitle": "The X-Factor",
-          "releaseYear": 2003,
-          "awardWindowPlausible": false,
-          "popularity": 0.4609
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 31832,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2011,
-          "lastAirYear": 2013,
-          "imdbId": "tt1582461",
-          "awardWindowPlausible": false,
-          "popularity": 5.826
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 84462,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2011,
-          "lastAirYear": 2011,
-          "awardWindowPlausible": false,
-          "popularity": 2.0306
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 33981,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2013,
-          "lastAirYear": 2015,
-          "awardWindowPlausible": false,
-          "popularity": 0.6188
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The X Factor",
+        "releaseYear": 2004,
+        "tmdbId": 13999,
+        "imdbId": "tt0423776",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Entertainment winner is the original UK ITV series The X Factor, matching the reviewed earlier identities."
     },
     {
       "key": "television:thexfactor:2010",
@@ -57890,79 +56064,15 @@
         "360323"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 129411,
-          "title": "Uprising",
-          "originalTitle": "Uprising",
-          "releaseYear": 2021,
-          "lastAirYear": 2021,
-          "imdbId": "tt15046042",
-          "awardWindowPlausible": true,
-          "popularity": 1.9597
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1074092,
-          "title": "Uprising!",
-          "originalTitle": "Uprising!",
-          "releaseYear": 2020,
-          "imdbId": "tt15708226",
-          "awardWindowPlausible": true,
-          "popularity": 0.5716
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 31010,
-          "title": "Uprising",
-          "originalTitle": "Uprising",
-          "releaseYear": 2001,
-          "imdbId": "tt0250798",
-          "awardWindowPlausible": false,
-          "popularity": 3.4103
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 303605,
-          "title": "Uprising",
-          "originalTitle": "Uprising",
-          "releaseYear": 2001,
-          "lastAirYear": 2001,
-          "imdbId": "tt0250798",
-          "awardWindowPlausible": false,
-          "popularity": 3.1182
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1075676,
-          "title": "Uprising",
-          "originalTitle": "전,란",
-          "releaseYear": 2024,
-          "imdbId": "tt27987046",
-          "awardWindowPlausible": false,
-          "popularity": 4.0548
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1510913,
-          "title": "Uprising",
-          "originalTitle": "Soulèvements",
-          "releaseYear": 2026,
-          "imdbId": "tt37833058",
-          "awardWindowPlausible": false,
-          "popularity": 2.2577
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1729348,
-          "title": "Uprising",
-          "originalTitle": "La Bola",
-          "releaseYear": 2026,
-          "awardWindowPlausible": false,
-          "popularity": 0.7072
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Uprising",
+        "releaseYear": 2021,
+        "tmdbId": 129411,
+        "imdbId": "tt15046042",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Factual Series winner is Steve McQueen's 2021 BBC documentary miniseries Uprising, not an exact-title film."
     },
     {
       "key": "television:vanityfair:2019",
@@ -58313,30 +56423,15 @@
         "350279"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 7263,
-          "title": "Wallander",
-          "originalTitle": "Wallander",
-          "releaseYear": 2008,
-          "lastAirYear": 2016,
-          "imdbId": "tt1178618",
-          "awardWindowPlausible": true,
-          "popularity": 10.8753
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 31766,
-          "title": "Wallander",
-          "originalTitle": "Wallander",
-          "releaseYear": 2005,
-          "lastAirYear": 2013,
-          "imdbId": "tt0907702",
-          "awardWindowPlausible": true,
-          "popularity": 14.3173
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Wallander",
+        "releaseYear": 2008,
+        "tmdbId": 7263,
+        "imdbId": "tt1178618",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Drama Series and craft records identify the English-language BBC series Wallander, distinct from the Swedish television adaptations."
     },
     {
       "key": "television:wallander:2010",
@@ -58837,95 +56932,15 @@
         "356151"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 427213,
-          "title": "Who Do You Think You Are?",
-          "originalTitle": "Fais pas genre",
-          "releaseYear": 2013,
-          "imdbId": "tt3520190",
-          "awardWindowPlausible": false,
-          "popularity": 0.7305
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 76245,
-          "title": "Who Do You Think You Are?",
-          "originalTitle": "Hvem tror du at du er?",
-          "releaseYear": 2011,
-          "lastAirYear": 2017,
-          "imdbId": "tt7762940",
-          "awardWindowPlausible": true,
-          "popularity": 2.276
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 29009,
-          "title": "Who Do You Think You Are?",
-          "originalTitle": "Who Do You Think You Are?",
-          "releaseYear": 2010,
-          "lastAirYear": 2022,
-          "imdbId": "tt1365047",
-          "awardWindowPlausible": true,
-          "popularity": 13.6213
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 60529,
-          "title": "Who Do You Think You Are?",
-          "originalTitle": "Vem tror du att du är?",
-          "releaseYear": 2009,
-          "lastAirYear": 2023,
-          "imdbId": "tt19868680",
-          "awardWindowPlausible": true,
-          "popularity": 10.2358
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 6952,
-          "title": "Who Do You Think You Are?",
-          "originalTitle": "Who Do You Think You Are?",
-          "releaseYear": 2008,
-          "lastAirYear": 2026,
-          "imdbId": "tt1152296",
-          "awardWindowPlausible": true,
-          "popularity": 7.6594
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 8322,
-          "title": "Who Do You Think You Are?",
-          "originalTitle": "Who Do You Think You Are?",
-          "releaseYear": 2008,
-          "lastAirYear": 2009,
-          "imdbId": "tt1294601",
-          "awardWindowPlausible": false,
-          "popularity": 2.2623
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 15059,
-          "title": "Who Do You Think You Are?",
-          "originalTitle": "Who Do You Think You Are?",
-          "releaseYear": 2007,
-          "lastAirYear": 2008,
-          "imdbId": "tt1318797",
-          "awardWindowPlausible": false,
-          "popularity": 1.4024
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 3956,
-          "title": "Who Do You Think You Are?",
-          "originalTitle": "Who Do You Think You Are?",
-          "releaseYear": 2004,
-          "lastAirYear": 2025,
-          "imdbId": "tt0429466",
-          "awardWindowPlausible": true,
-          "popularity": 14.2741
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Who Do You Think You Are?",
+        "releaseYear": 2004,
+        "tmdbId": 3956,
+        "imdbId": "tt0429466",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Factual Entertainment winner is the original British genealogy series Who Do You Think You Are?, first released in 2004, not an international adaptation."
     },
     {
       "key": "television:whodoyouthinkyouare:2019",
@@ -58945,95 +56960,15 @@
         "357595"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 427213,
-          "title": "Who Do You Think You Are?",
-          "originalTitle": "Fais pas genre",
-          "releaseYear": 2013,
-          "imdbId": "tt3520190",
-          "awardWindowPlausible": false,
-          "popularity": 0.7305
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 76245,
-          "title": "Who Do You Think You Are?",
-          "originalTitle": "Hvem tror du at du er?",
-          "releaseYear": 2011,
-          "lastAirYear": 2017,
-          "imdbId": "tt7762940",
-          "awardWindowPlausible": true,
-          "popularity": 2.276
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 29009,
-          "title": "Who Do You Think You Are?",
-          "originalTitle": "Who Do You Think You Are?",
-          "releaseYear": 2010,
-          "lastAirYear": 2022,
-          "imdbId": "tt1365047",
-          "awardWindowPlausible": true,
-          "popularity": 13.6213
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 60529,
-          "title": "Who Do You Think You Are?",
-          "originalTitle": "Vem tror du att du är?",
-          "releaseYear": 2009,
-          "lastAirYear": 2023,
-          "imdbId": "tt19868680",
-          "awardWindowPlausible": true,
-          "popularity": 10.2358
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 6952,
-          "title": "Who Do You Think You Are?",
-          "originalTitle": "Who Do You Think You Are?",
-          "releaseYear": 2008,
-          "lastAirYear": 2026,
-          "imdbId": "tt1152296",
-          "awardWindowPlausible": true,
-          "popularity": 7.6594
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 8322,
-          "title": "Who Do You Think You Are?",
-          "originalTitle": "Who Do You Think You Are?",
-          "releaseYear": 2008,
-          "lastAirYear": 2009,
-          "imdbId": "tt1294601",
-          "awardWindowPlausible": false,
-          "popularity": 2.2623
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 15059,
-          "title": "Who Do You Think You Are?",
-          "originalTitle": "Who Do You Think You Are?",
-          "releaseYear": 2007,
-          "lastAirYear": 2008,
-          "imdbId": "tt1318797",
-          "awardWindowPlausible": false,
-          "popularity": 1.4024
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 3956,
-          "title": "Who Do You Think You Are?",
-          "originalTitle": "Who Do You Think You Are?",
-          "releaseYear": 2004,
-          "lastAirYear": 2025,
-          "imdbId": "tt0429466",
-          "awardWindowPlausible": true,
-          "popularity": 14.2741
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Who Do You Think You Are?",
+        "releaseYear": 2004,
+        "tmdbId": 3956,
+        "imdbId": "tt0429466",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Factual Entertainment winner is the original British genealogy series Who Do You Think You Are?, matching the reviewed 2017 identity."
     },
     {
       "key": "television:whoselineisitanyway:1991",
@@ -59080,93 +57015,14 @@
         "347516"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 2225,
-          "title": "Who Wants to Be a Millionaire?",
-          "originalTitle": "Who Wants to Be a Millionaire?",
-          "releaseYear": 1999,
-          "lastAirYear": 2009,
-          "imdbId": "tt0211178",
-          "awardWindowPlausible": true,
-          "popularity": 39.6788
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 7944,
-          "title": "Who Wants to Be a Millionaire?",
-          "originalTitle": "מי רוצה להיות מליונר?",
-          "releaseYear": 1999,
-          "lastAirYear": 2020,
-          "imdbId": "tt0231033",
-          "awardWindowPlausible": true,
-          "popularity": 1.6372
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 6890,
-          "title": "Who Wants to Be a Millionaire?",
-          "originalTitle": "Who Wants to Be a Millionaire?",
-          "releaseYear": 1999,
-          "lastAirYear": 1999,
-          "imdbId": "tt0197194",
-          "awardWindowPlausible": true,
-          "popularity": 0.9783
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 8277,
-          "title": "Who Wants to Be a Millionaire?",
-          "originalTitle": "Who Wants to Be a Millionaire?",
-          "releaseYear": 1999,
-          "lastAirYear": 1999,
-          "awardWindowPlausible": true,
-          "popularity": 0.5213
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 55089,
-          "title": "Who Wants to Be a Millionaire?",
-          "originalTitle": "Who Wants to Be a Millionaire?",
-          "releaseYear": 1998,
-          "lastAirYear": 2026,
-          "imdbId": "tt0166064",
-          "awardWindowPlausible": true,
-          "popularity": 21.923
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 103934,
-          "title": "Who Wants to Be a Millionaire",
-          "originalTitle": "Who Wants to Be a Millionaire",
-          "releaseYear": 2020,
-          "lastAirYear": 2026,
-          "imdbId": "tt12057284",
-          "awardWindowPlausible": false,
-          "popularity": 13.8067
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 322373,
-          "title": "Who Wants to Be a Millionaire?",
-          "originalTitle": "Kim Milyoner Olmak İster?",
-          "releaseYear": 2011,
-          "lastAirYear": 2026,
-          "awardWindowPlausible": false,
-          "popularity": 8.4301
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 305938,
-          "title": "Who Wants to Be a Millionaire",
-          "originalTitle": "Who Wants to Be a Millionaire",
-          "lastAirYear": 2015,
-          "imdbId": "tt0321019",
-          "awardWindowPlausible": false,
-          "popularity": 3.7592
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Who Wants to Be a Millionaire?",
+        "releaseYear": 1998,
+        "imdbId": "tt0166064",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The Entertainment winner is the original UK ITV quiz show hosted by Chris Tarrant, first released in 1998; the exact-title TMDB candidates are international adaptations."
     },
     {
       "key": "television:wifeswap:2004",
