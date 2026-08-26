@@ -173,3 +173,5 @@ Before V1.2 BAFTA Film publication:
 8. Merge only after GitHub Pages and deployed byte-match checks pass, then preserve a V1.2 rollback point.
 
 Owner acceptance completed against immutable preview commit `89b830a2977b87b72751756942e557d8c234af9a`. Representative movie and mixed-series histories resolved through the installed metadata provider. The British Short Animation series split rendered *SuperTed*, *Alias the Jester*, and *Henry's Cat* with artwork; the Documentary series split correctly retained *In Need of Special Care* with its documented unavailable-poster outcome. The preview's 173 published routes returned HTTP 200 and byte-matched the accepted commit before merge.
+
+PR #34 subsequently merged as `6a956d934e0ffcd9f56cab9835970a0ab18f5b2c`. Main CI and GitHub Pages passed, all 173 deployed files byte-matched that merge, and the owner confirmed the live release. The known-good V1.2 state is preserved by annotated tag `v1.2.0` and its corresponding GitHub Release.

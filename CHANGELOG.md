@@ -4,6 +4,8 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-08-26
+
 ### Added
 
 - Complete BAFTA Film winner histories for all 25 reviewed current lineages across the official 1949–2026 archive: 1,302 canonical winner records and 1,321 associated work links.
@@ -29,6 +31,10 @@ All notable project milestones are recorded here. This project uses semantic ver
 - Live artwork review checks all 821 unique published BAFTA Film titles: 798 resolve directly through MetaHub, two use reviewed TMDB fallbacks, and 21 are explicit unavailable-poster outcomes.
 - GitHub CI passed for immutable preview commit `89b830a2977b87b72751756942e557d8c234af9a`, and every one of its 173 landing-page, manifest, preset, and catalogue routes returned HTTP 200 with exact committed bytes.
 - The owner accepted the immutable preview in Nuvio after representative movie and mixed-series browsing. The British Short Animation series split resolved *SuperTed*, *Alias the Jester*, and *Henry's Cat* with artwork; the Documentary series split retained *In Need of Special Care* with its accurate identity and expected documented unavailable-poster state.
+
+### Known-good rollback point
+
+The exact owner-accepted V1.2 state is preserved by annotated tag `v1.2.0` and its corresponding GitHub Release. Main CI and GitHub Pages passed, and all 173 deployed files byte-match accepted merge commit `6a956d934e0ffcd9f56cab9835970a0ab18f5b2c`.
 
 ## [1.1.0] - 2026-08-22
 
@@ -66,7 +72,7 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ### Known-good rollback point
 
-The exact live-tested V1.1 state is preserved on branch `release/v1.1.0` and annotated tag `v1.1.0`, both pointing to merge commit `bbb606999cdbff8a7d97d1fb61db2ced8c3f43c5`. The corresponding GitHub release records the accepted installation URLs and behaviour.
+The exact live-tested V1.1 state is preserved by annotated tag `v1.1.0`, pointing to merge commit `bbb606999cdbff8a7d97d1fb61db2ced8c3f43c5`. The corresponding GitHub Release records the accepted installation URLs and behaviour.
 
 ## [1.0.0] - 2026-08-21
 
@@ -105,7 +111,7 @@ The exact live-tested V1.1 state is preserved on branch `release/v1.1.0` and ann
 
 ### Known-good rollback point
 
-The exact live-tested V1.0 state is preserved on branch `release/v1.0.0`, pointing to merge commit `a49585b53bcfd95cadfb8f9a2077a02f41d82310`.
+The exact live-tested V1.0 state is preserved by annotated tag `v1.0.0` and its corresponding GitHub Release, pointing to merge commit `a49585b53bcfd95cadfb8f9a2077a02f41d82310`.
 
 ## [0.5.0] - 2026-08-21
 
@@ -137,7 +143,7 @@ The exact live-tested V1.0 state is preserved on branch `release/v1.0.0`, pointi
 
 ### Known-good rollback point
 
-The exact live-tested V0.5 state is preserved on branch `release/v0.5.0`, pointing to merge commit `03fd3da79eda999154cefca7809cc7cef5421619`.
+The exact live-tested V0.5 state is preserved by annotated tag `v0.5.0` and its corresponding GitHub Release, pointing to merge commit `03fd3da79eda999154cefca7809cc7cef5421619`.
 
 ## [0.4.0] - 2026-08-20
 
@@ -180,7 +186,7 @@ The exact live-tested V0.5 state is preserved on branch `release/v0.5.0`, pointi
 
 ### Known-good rollback point
 
-The exact live-tested V0.4 state is preserved on branch `release/v0.4.0`, pointing to merge commit `e01244f61104735852bf0b00c603c3381760e0a5`.
+The exact live-tested V0.4 state is preserved by annotated tag `v0.4.0` and its corresponding GitHub Release, pointing to merge commit `e01244f61104735852bf0b00c603c3381760e0a5`.
 
 ### Deferred
 
@@ -213,7 +219,7 @@ The exact live-tested V0.4 state is preserved on branch `release/v0.4.0`, pointi
 
 ### Known-good rollback point
 
-The exact live-tested V0.3 state is preserved on branch `release/v0.3.0`, pointing to merge commit `a5bb59cbcb8d9500a9be279db000df5837a32967`.
+The exact live-tested V0.3 state is preserved by annotated tag `v0.3.0` and its corresponding GitHub Release, pointing to merge commit `a5bb59cbcb8d9500a9be279db000df5837a32967`.
 
 ## [0.2.0] - 2026-08-16
 
@@ -244,7 +250,7 @@ The exact live-tested V0.3 state is preserved on branch `release/v0.3.0`, pointi
 
 ### Known-good rollback point
 
-The exact tested V0.2 state is preserved on branch `release/v0.2.0`, pointing to commit `50ab94008b1a4691e9a13a13a35fd9fe39dc5488`.
+The exact tested V0.2 state is preserved by annotated tag `v0.2.0` and its corresponding GitHub Release, pointing to commit `50ab94008b1a4691e9a13a13a35fd9fe39dc5488`.
 
 ## [0.1.0] - 2026-08-15
 
@@ -267,4 +273,4 @@ The exact tested V0.2 state is preserved on branch `release/v0.2.0`, pointing to
 
 ### Known-good rollback point
 
-The exact tested V0.1 state is preserved on branch `release/v0.1.0`, pointing to commit `45e571a537c3fc89d3f4fee2b37b59b387ca4b8d`.
+The exact tested V0.1 state is preserved by annotated tag `v0.1.0` and its corresponding GitHub Release, pointing to commit `45e571a537c3fc89d3f4fee2b37b59b387ca4b8d`.

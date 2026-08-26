@@ -6,7 +6,7 @@ This repository provides additional Stremio-compatible catalog sources for Nuvio
 
 ## Current phase
 
-V1.1 is complete and preserved on `release/v1.1.0` and annotated tag `v1.1.0`; both point to accepted merge commit `bbb606999cdbff8a7d97d1fb61db2ced8c3f43c5`. Issue #33 has completed the shared BAFTA Film, Television, and Television Craft source and lineage audit and the V1.2 BAFTA Film implementation. All 25 Film lineages now produce 27 deterministic catalogues from 1,302 canonical winner records and 1,321 work links; 821 of 822 Film identity units have compatible IMDb relationships and the remaining verified short is an explicit non-catalogue outcome. Live artwork review covers all 821 published titles: 798 use MetaHub, two use verified TMDB fallbacks, and 21 are explicit unavailable-poster outcomes. The review also corrected *Prizzi's Honour* to TMDB `2075` / IMDb `tt0089841`. The all-awards manifest is staged at `1.2.0` with 84 catalogues and a distinct BAFTA Film preset. CI passed and the owner accepted immutable preview commit `89b830a2977b87b72751756942e557d8c234af9a` in Nuvio, including representative movie and mixed-series outputs, the expected documented unavailable-poster behaviour, and metadata resolution through the installed provider. The next gate is merge, deployed byte-match verification, and V1.2 release preservation. BAFTA Television remains V1.3 and Television Craft remains V1.4; preserve their reviewed snapshots, lineage decisions, and identity evidence. Refresh Add-on changed the existing installation to the independent working `Xtra` identity without reinstallation. `Xtra` is not yet a locked final name: do not rename the repository, GitHub Pages path, or other stable routes until the owner explicitly approves the final brand.
+V1.2 BAFTA Film is complete and owner-accepted. PR #34 merged as `6a956d934e0ffcd9f56cab9835970a0ab18f5b2c`; main CI and GitHub Pages passed, and all 173 deployed landing-page, manifest, preset, and catalogue files byte-match that accepted merge. All 25 Film lineages produce 27 deterministic catalogues from 1,302 canonical winner records and 1,321 work links; 821 of 822 Film identity units have compatible IMDb relationships and the remaining verified short is an explicit non-catalogue outcome. Live artwork review covers all 821 published titles: 798 use MetaHub, two use verified TMDB fallbacks, and 21 are explicit unavailable-poster outcomes. The all-awards manifest is `1.2.0` with 84 catalogues and a distinct BAFTA Film preset. Known-good milestones are preserved by annotated semantic-version tags and GitHub Releases rather than permanent release branches. BAFTA Television is the V1.3 implementation target and Television Craft remains V1.4; preserve their reviewed snapshots, lineage decisions, and identity evidence. `Xtra` remains a working identity: do not rename the repository, GitHub Pages path, or other stable routes until the owner explicitly approves the final brand.
 
 ## Guardrails
 
@@ -42,6 +42,14 @@ Before creating a new file format, helper, mapping, validator, artwork lookup, s
 - Preserve known-good release points so rollback is straightforward.
 - Do not change a released catalogue ID without an explicit migration plan.
 
+## Release preservation
+
+- Preserve every owner-accepted milestone with an annotated semantic-version tag and a corresponding GitHub Release.
+- Verify the tag resolves to the exact accepted commit before deleting any branch that previously preserved that release.
+- Permanent `release/*` branches are not required for rollback. Create a temporary maintenance branch from the annotated tag only when an older version genuinely needs a patch, and delete it after the maintenance work is merged or otherwise preserved.
+- GitHub's automatically generated source archives are sufficient unless a release needs an additional purpose-built asset.
+- Never move or reuse a published release tag. Corrections require a new semantic version.
+
 ## Post-merge housekeeping
 
 After a pull request is merged:
@@ -52,7 +60,7 @@ After a pull request is merged:
 - Delete the merged local feature branch once it is no longer needed and there are no uncommitted changes on it.
 - Delete the merged remote feature branch unless it is intentionally retained.
 - Prune stale remote-tracking branches so deleted remote branches do not remain visible locally.
-- Do not delete `main`, release branches such as `release/v0.1.0`, or branches intentionally preserved as rollback points.
+- Do not delete `main`, published release tags, or branches that still contain unmerged work. Redundant release or maintenance branches may be deleted only after their accepted commit is protected by a verified annotated tag and GitHub Release.
 - If the merged work changes the live manifest/catalogue, confirm GitHub Pages has deployed successfully and perform the relevant Nuvio smoke test.
 - Update `CHANGELOG.md` when the merge completes a notable milestone or changes released behaviour.
 - Create or preserve an appropriate version/tag/release point when the merged work represents a meaningful known-good release.
@@ -92,8 +100,17 @@ After a pull request is merged:
 - The deployed landing page uses the independent working `Xtra` identity and explicitly states that the project is not affiliated with or endorsed by Nuvio.
 - Refresh Add-on changed the existing installation to `Xtra` without requiring reinstallation and retained both award bodies.
 - Main CI and GitHub Pages passed, and all 118 deployed files byte-match accepted merge commit `bbb606999cdbff8a7d97d1fb61db2ced8c3f43c5`.
-- The known-good release is preserved on branch `release/v1.1.0`, annotated tag `v1.1.0`, and the corresponding GitHub release.
+- The known-good release is preserved by annotated tag `v1.1.0` and its corresponding GitHub Release at accepted merge commit `bbb606999cdbff8a7d97d1fb61db2ced8c3f43c5`.
+
+## Validated behaviour through V1.2
+
+- Manifest version `1.2.0` installs and validates with 84 catalogues: 71 movie and 13 series outputs containing 4,963 all-awards Meta Preview items.
+- BAFTA Film coverage spans all 25 reviewed current lineages across the official 1949–2026 archive, retaining 1,302 canonical winner records and 1,321 work links across 27 catalogue outputs.
+- The BAFTA Film preset installs independently, while the all-awards manifest retains Academy Awards and Golden Globes alongside BAFTA Film.
+- Owner acceptance covered representative movie and mixed-series histories through the installed metadata provider, including *SuperTed*, *Alias the Jester*, *Henry's Cat*, and the documented unavailable-poster outcome for *In Need of Special Care*.
+- Main CI and GitHub Pages passed, and all 173 deployed files byte-match accepted merge commit `6a956d934e0ffcd9f56cab9835970a0ab18f5b2c`.
+- The known-good release is preserved by annotated tag `v1.2.0` and its corresponding GitHub Release.
 
 ## Next milestone
 
-Merge the owner-accepted Issue #33 V1.2 BAFTA Film preview, confirm CI and GitHub Pages, byte-match the deployed landing page, manifests, and catalogue routes to the accepted merge commit, and preserve the known-good V1.2 release point. BAFTA Television and Television Craft remain deferred to V1.3 and V1.4 respectively. `Xtra` remains a working identity; do not rename the repository, GitHub Pages path, manifest routes, or stable add-on/catalogue IDs until the owner locks and explicitly approves the final brand and migration plan.
+Implement BAFTA Television as V1.3 using the already reviewed source snapshot, lineage decisions, and identity evidence. Keep BAFTA Television Craft deferred to V1.4 so each programme remains independently testable and installable. `Xtra` remains a working identity; do not rename the repository, GitHub Pages path, manifest routes, or stable add-on/catalogue IDs until the owner locks and explicitly approves the final brand and migration plan.
