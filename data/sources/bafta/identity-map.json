@@ -23616,7 +23616,15 @@
         "351236"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Accused",
+        "releaseYear": 2010,
+        "tmdbId": 32940,
+        "imdbId": "tt1769411",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Supporting Actress winner Olivia Colman identifies Mo's Story as an episode of Jimmy McGovern's BBC anthology series Accused."
     },
     {
       "key": "television:acreamcrackerunderthesettee:1989",
@@ -24624,7 +24632,15 @@
         "352202"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Ant & Dec's Saturday Night Takeaway",
+        "releaseYear": 2002,
+        "tmdbId": 2564,
+        "imdbId": "tt0324692",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Entertainment Performance winner is the established ITV series Ant & Dec's Saturday Night Takeaway."
     },
     {
       "key": "television:antanddecssaturdaynighttakeaway:2015",
@@ -24646,7 +24662,15 @@
         "352821"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Ant & Dec's Saturday Night Takeaway",
+        "releaseYear": 2002,
+        "tmdbId": 2564,
+        "imdbId": "tt0324692",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Entertainment and performance records identify the established ITV series Ant & Dec's Saturday Night Takeaway."
     },
     {
       "key": "television:antdecssaturdaynighttakeaway:2014",
@@ -25108,7 +25132,15 @@
         "346743"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Arena",
+        "releaseYear": 1975,
+        "tmdbId": 2050,
+        "imdbId": "tt0199184",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Scarfe on Scarfe is an identified edition of the BBC arts documentary strand Arena."
     },
     {
       "key": "television:arenathemanylivesofrichardattenborough:2004",
@@ -25148,7 +25180,15 @@
         "347748"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Arena",
+        "releaseYear": 1975,
+        "tmdbId": 2050,
+        "imdbId": "tt0199184",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Private Dirk Bogarde is an identified edition of the BBC arts documentary strand Arena."
     },
     {
       "key": "television:arenawisconsindeathtrip:2001",
@@ -26288,7 +26328,15 @@
         "346939"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Blackadder",
+        "releaseYear": 1983,
+        "tmdbId": 7246,
+        "imdbId": "tt0084988",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The performance and Scripted Comedy records identify Blackadder Goes Forth as the fourth series of the BBC programme Blackadder."
     },
     {
       "key": "television:blackadderthethird:1988",
@@ -26713,18 +26761,15 @@
         "358946"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 87876,
-          "title": "Blue Planet Live",
-          "originalTitle": "Blue Planet Live",
-          "releaseYear": 2019,
-          "lastAirYear": 2019,
-          "awardWindowPlausible": true,
-          "popularity": 0.9438
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Blue Planet Live",
+        "releaseYear": 2019,
+        "tmdbId": 87876,
+        "imdbId": "tt10137860",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Live Event Coverage winner is the 2019 BBC miniseries Blue Planet Live; IMDb supplies the compatible title relationship absent from TMDB."
     },
     {
       "key": "television:bluerememberedhills:1980",
@@ -27090,18 +27135,15 @@
         "353427"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 197916,
-          "title": "Britain's Forgotten Slave Owners",
-          "originalTitle": "Britain's Forgotten Slave Owners",
-          "releaseYear": 2015,
-          "lastAirYear": 2015,
-          "awardWindowPlausible": true,
-          "popularity": 0.9483
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Britain's Forgotten Slave Owners",
+        "releaseYear": 2015,
+        "tmdbId": 197916,
+        "imdbId": "tt5123004",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "David Olusoga identifies the 2015 BBC documentary miniseries Britain's Forgotten Slave Owners; IMDb supplies the compatible relationship absent from TMDB."
     },
     {
       "key": "television:britainsgottalent:2010",
@@ -28019,7 +28061,15 @@
         "356124"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Charlie Brooker's Yearly Wipe",
+        "releaseYear": 2010,
+        "tmdbId": 72961,
+        "imdbId": "tt2071195",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Charlie Brooker's 2016 Wipe is the 2016 edition of the BBC annual review series Charlie Brooker's Yearly Wipe."
     },
     {
       "key": "television:cheltenhamfestivaldayoneitvsport:2024",
@@ -29352,18 +29402,15 @@
         "361123"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 113988,
-          "title": "DAHMER - Monster: The Jeffrey Dahmer Story",
-          "originalTitle": "DAHMER - Monster: The Jeffrey Dahmer Story",
-          "releaseYear": 2022,
-          "lastAirYear": 2022,
-          "awardWindowPlausible": true,
-          "popularity": 35.0666
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "DAHMER - Monster: The Jeffrey Dahmer Story",
+        "releaseYear": 2022,
+        "tmdbId": 113988,
+        "imdbId": "tt13207736",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The International winner is the 2022 Netflix series Monster: The Jeffrey Dahmer Story; IMDb supplies the compatible relationship absent from TMDB."
     },
     {
       "key": "television:damilolaourlovedboy:2017",
@@ -31436,7 +31483,15 @@
         "356145"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Exodus: Our Journey",
+        "releaseYear": 2016,
+        "tmdbId": 74776,
+        "imdbId": "tt5905508",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Factual Series and factual-directing records identify the 2016 BBC documentary miniseries Exodus: Our Journey."
     },
     {
       "key": "television:explorers:1976",
@@ -31790,7 +31845,15 @@
         "347478"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Father Ted",
+        "releaseYear": 1995,
+        "tmdbId": 1813,
+        "imdbId": "tt0111958",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Scripted Comedy winner is series three of the established Channel 4 sitcom Father Ted."
     },
     {
       "key": "television:fawltytowers:1976",
@@ -32117,7 +32180,15 @@
         "348501"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Flying Monsters 3D with David Attenborough",
+        "releaseYear": 2011,
+        "tmdbId": 46060,
+        "imdbId": "tt1777610",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Specialist Factual winner is the 2011 David Attenborough television film Flying Monsters 3D with David Attenborough."
     },
     {
       "key": "television:fonejacker:2008",
@@ -32631,17 +32702,15 @@
         "368244"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1752932,
-          "title": "Gavin & Stacey: The Finale",
-          "originalTitle": "Gavin & Stacey: The Finale",
-          "releaseYear": 2024,
-          "awardWindowPlausible": true,
-          "popularity": 2.975
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Gavin & Stacey",
+        "releaseYear": 2007,
+        "tmdbId": 3696,
+        "imdbId": "tt0908454",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Finale is the concluding special of the established BBC series Gavin & Stacey and is therefore represented by its authoritative parent-series identity."
     },
     {
       "key": "television:gazadoctorsunderattack:2026",
@@ -33928,7 +33997,15 @@
         "348252"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Harry & Paul",
+        "releaseYear": 2005,
+        "tmdbId": 4704,
+        "imdbId": "tt0976015",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Entertainment winner is the BBC sketch series Harry & Paul."
     },
     {
       "key": "television:harryandpaul:2011",
@@ -33948,7 +34025,15 @@
         "348427"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Harry & Paul",
+        "releaseYear": 2005,
+        "tmdbId": 4704,
+        "imdbId": "tt0976015",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Entertainment winner is the established BBC sketch series Harry & Paul, matching its reviewed 2009 identity."
     },
     {
       "key": "television:harryhillstvburp:2008",
@@ -34255,28 +34340,15 @@
         "351233"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1273486,
-          "title": "Henry IV: Part 2",
-          "originalTitle": "Henry IV: Part 2",
-          "releaseYear": 1991,
-          "imdbId": "tt1196919",
-          "awardWindowPlausible": false,
-          "popularity": 0.5729
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 106851,
-          "title": "Henry IV Part 2",
-          "originalTitle": "Henry IV Part 2",
-          "releaseYear": 1979,
-          "imdbId": "tt0079288",
-          "awardWindowPlausible": false,
-          "popularity": 0.9436
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Hollow Crown",
+        "releaseYear": 2012,
+        "tmdbId": 44037,
+        "imdbId": "tt2262456",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Supporting Actor winner Simon Russell Beale identifies Henry IV Part 2 as an instalment of the 2012 BBC Shakespeare series The Hollow Crown."
     },
     {
       "key": "television:herewego:2026",
@@ -34460,7 +34532,15 @@
         "352273"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Him & Her",
+        "releaseYear": 2010,
+        "tmdbId": 33829,
+        "imdbId": "tt1493923",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Wedding is the concluding special of the BBC Three sitcom Him & Her and is represented by its authoritative parent-series identity."
     },
     {
       "key": "television:hiroshima:2006",
@@ -34758,7 +34838,15 @@
         "347375"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Horizon",
+        "releaseYear": 1964,
+        "tmdbId": 1966,
+        "imdbId": "tt0318224",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Fermat's Last Theorem is an identified edition of the long-running BBC documentary series Horizon."
     },
     {
       "key": "television:horizonjoey:1975",
@@ -34778,7 +34866,15 @@
         "345915"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Horizon",
+        "releaseYear": 1964,
+        "tmdbId": 1966,
+        "imdbId": "tt0318224",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Joey is an identified edition of the long-running BBC documentary series Horizon."
     },
     {
       "key": "television:hospitalcasualty:1978",
@@ -34993,7 +35089,15 @@
         "347666"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Big Bangs",
+        "releaseYear": 2000,
+        "tmdbId": 18978,
+        "imdbId": "tt0282381",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Howard Goodall identifies the 2000 music documentary series Big Bangs."
     },
     {
       "key": "television:howareyouitsalanpartridge:2026",
@@ -35172,7 +35276,15 @@
         "361173"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "I Am...",
+        "releaseYear": 2019,
+        "tmdbId": 91605,
+        "imdbId": "tt9165134",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "I Am Ruth is an instalment of Dominic Savage's Channel 4 anthology series I Am..., identified by its leading-actress and Limited Drama records."
     },
     {
       "key": "television:iclaudius:1977",
@@ -36277,7 +36389,15 @@
         "347037"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Storyteller: Greek Myths",
+        "releaseYear": 1991,
+        "tmdbId": 95712,
+        "imdbId": "tt0098834",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Children's Programme winner is Jim Henson's 1991 series The Storyteller: Greek Myths."
     },
     {
       "key": "television:jimmysavileabritishhorrorstory:2023",
@@ -36846,7 +36966,15 @@
         "347622"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Last of the Blonde Bombshells",
+        "releaseYear": 2000,
+        "tmdbId": 40632,
+        "imdbId": "tt0220608",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Leading Actress winner Judi Dench identifies the 2000 television film The Last of the Blonde Bombshells."
     },
     {
       "key": "television:lastonelaughing:2026",
@@ -37248,18 +37376,15 @@
         "352791"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 282290,
-          "title": "Life and Death Row",
-          "originalTitle": "Life and Death Row",
-          "releaseYear": 2014,
-          "lastAirYear": 2025,
-          "awardWindowPlausible": true,
-          "popularity": 1.6037
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Life and Death Row",
+        "releaseYear": 2014,
+        "tmdbId": 282290,
+        "imdbId": "tt3638350",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Factual Series winner is the 2014 BBC documentary series Life and Death Row; IMDb supplies the compatible relationship absent from TMDB."
     },
     {
       "key": "television:lifeincoldblood:2009",
@@ -37830,18 +37955,15 @@
         "359791"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 131427,
-          "title": "Long Lost Family: Born Without Trace",
-          "originalTitle": "Long Lost Family: Born Without Trace",
-          "releaseYear": 2019,
-          "lastAirYear": 2025,
-          "awardWindowPlausible": true,
-          "popularity": 4.1532
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Long Lost Family: Born Without Trace",
+        "releaseYear": 2019,
+        "tmdbId": 131427,
+        "imdbId": "tt38526010",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Factual Entertainment winner is the ITV series Long Lost Family: Born Without Trace; IMDb supplies the compatible relationship absent from TMDB."
     },
     {
       "key": "television:lostforwords:2000",
@@ -37888,7 +38010,15 @@
         "357590"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Louis Theroux: Altered States",
+        "releaseYear": 2018,
+        "tmdbId": 83745,
+        "imdbId": "tt9199032",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Factual Series winner is the 2018 BBC documentary miniseries Louis Theroux: Altered States."
     },
     {
       "key": "television:lovebitesgonow:1996",
@@ -40852,7 +40982,15 @@
         "346863"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Only Fools and Horses",
+        "releaseYear": 1981,
+        "tmdbId": 72,
+        "imdbId": "tt0081912",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Christmas Special is an instalment of the established BBC sitcom Only Fools and Horses."
     },
     {
       "key": "television:onthemove:1977",
@@ -41476,39 +41614,15 @@
         "347512"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 213221,
-          "title": "Parkinson",
-          "originalTitle": "Parkinson",
-          "releaseYear": 1998,
-          "lastAirYear": 2004,
-          "awardWindowPlausible": true,
-          "popularity": 46.6875
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 2561,
-          "title": "Parkinson",
-          "originalTitle": "Parkinson",
-          "releaseYear": 1971,
-          "lastAirYear": 1982,
-          "imdbId": "tt0168358",
-          "awardWindowPlausible": false,
-          "popularity": 11.3634
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 213222,
-          "title": "Parkinson",
-          "originalTitle": "Parkinson",
-          "releaseYear": 2004,
-          "lastAirYear": 2006,
-          "awardWindowPlausible": false,
-          "popularity": 12.0074
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Parkinson",
+        "releaseYear": 1971,
+        "tmdbId": 2561,
+        "imdbId": "tt0168358",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Michael Parkinson's Entertainment Performance record identifies the original BBC interview series Parkinson, first released in 1971."
     },
     {
       "key": "television:patrickmelrose:2019",
@@ -42308,7 +42422,15 @@
         "347087"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Prime Suspect",
+        "releaseYear": 1991,
+        "tmdbId": 2583,
+        "imdbId": "tt0098898",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Prime Suspect 2 is the second serial of the ITV crime drama Prime Suspect, again identified by Leading Actress winner Helen Mirren."
     },
     {
       "key": "television:primesuspect3:1994",
@@ -42330,7 +42452,15 @@
         "347169"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Prime Suspect",
+        "releaseYear": 1991,
+        "tmdbId": 2583,
+        "imdbId": "tt0098898",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Prime Suspect 3 is the third serial of the ITV crime drama Prime Suspect, identified by Helen Mirren and the Limited Drama record."
     },
     {
       "key": "television:primesuspect:1992",
@@ -42705,7 +42835,15 @@
         "350303"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Red Riding: The Year of Our Lord 1974",
+        "releaseYear": 2009,
+        "tmdbId": 291081,
+        "imdbId": "tt1259574",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The costume-design and Supporting Actress records identify the 2009 television film Red Riding: The Year of Our Lord 1974."
     },
     {
       "key": "television:redriding1983:2010",
@@ -42905,7 +43043,15 @@
         "351222"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Hollow Crown",
+        "releaseYear": 2012,
+        "tmdbId": 44037,
+        "imdbId": "tt2262456",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Richard II is an instalment of the 2012 BBC Shakespeare series The Hollow Crown, identified by Ben Whishaw's Leading Actor record."
     },
     {
       "key": "television:rillingtonplace:2017",
@@ -43703,7 +43849,15 @@
         "359774"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Save Me",
+        "releaseYear": 2018,
+        "tmdbId": 75789,
+        "imdbId": "tt6538034",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Save Me Too is the second series of Lennie James's Sky Atlantic drama Save Me."
     },
     {
       "key": "television:scaminterceptors:2024",
@@ -43825,7 +43979,15 @@
         "347266"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Skallagrigg",
+        "releaseYear": 1994,
+        "tmdbId": 518832,
+        "imdbId": "tt0111210",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Limited Drama winner is the 1994 BBC television film Skallagrigg, presented within the Screen Two anthology."
     },
     {
       "key": "television:secretworldofsoundwithdavidattenborough:2025",
@@ -44442,44 +44604,15 @@
         "347283"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 34181,
-          "title": "Short Change",
-          "originalTitle": "Short Change",
-          "releaseYear": 1994,
-          "lastAirYear": 2005,
-          "awardWindowPlausible": true,
-          "popularity": 7.1766
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1321015,
-          "title": "Short Change",
-          "originalTitle": "Short Change",
-          "imdbId": "tt0190792",
-          "awardWindowPlausible": false,
-          "popularity": 0.3329
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 413294,
-          "title": "Short Change",
-          "originalTitle": "Short Change",
-          "releaseYear": 2012,
-          "awardWindowPlausible": false,
-          "popularity": 0.3023
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1139496,
-          "title": "Short Change",
-          "originalTitle": "Short Change",
-          "awardWindowPlausible": false,
-          "popularity": 0.2959
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Short Change",
+        "releaseYear": 1994,
+        "tmdbId": 34181,
+        "imdbId": "tt0329927",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Children's Non-Scripted winner is the 1994 BBC consumer series Short Change; IMDb supplies the compatible relationship absent from TMDB."
     },
     {
       "key": "television:silo:2024",
@@ -45306,7 +45439,15 @@
         "359817"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Springwatch",
+        "releaseYear": 2005,
+        "tmdbId": 3061,
+        "imdbId": "tt0815420",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Springwatch 2020 is the 2020 live-event series of the established BBC nature programme Springwatch."
     },
     {
       "key": "television:spy:2012",
@@ -46330,7 +46471,15 @@
         "347470"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Talking Heads",
+        "releaseYear": 1988,
+        "tmdbId": 6075,
+        "imdbId": "tt0092462",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Waiting for the Telegram is an identified monologue from Alan Bennett's BBC anthology series Talking Heads."
     },
     {
       "key": "television:tanner:1989",
@@ -47398,7 +47547,15 @@
         "348286"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Choir",
+        "releaseYear": 2006,
+        "tmdbId": 30817,
+        "imdbId": "tt2012508",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Boys Don't Sing is the second series of Gareth Malone's BBC programme The Choir."
     },
     {
       "key": "television:thechroniclesofnarnia:1989",
@@ -50940,7 +51097,15 @@
         "347910"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Office",
+        "releaseYear": 2001,
+        "tmdbId": 2996,
+        "imdbId": "tt0290978",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Christmas Special is the concluding instalment of the original UK BBC sitcom The Office."
     },
     {
       "key": "television:theopen:2017",
@@ -51099,7 +51264,15 @@
         "356156"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "American Crime Story",
+        "releaseYear": 2016,
+        "tmdbId": 64513,
+        "imdbId": "tt2788432",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The International winner is The People v O. J. Simpson, the first season of the FX anthology series American Crime Story."
     },
     {
       "key": "television:theplottobringdownbritainsplanes:2013",
@@ -51717,7 +51890,15 @@
         "348145"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Royle Family",
+        "releaseYear": 1998,
+        "tmdbId": 4388,
+        "imdbId": "tt0129711",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Queen of Sheba is a special episode of the established BBC sitcom The Royle Family."
     },
     {
       "key": "television:theschoolthattriedtoendracism:2021",
@@ -52361,7 +52542,15 @@
         "346850"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The South Bank Show",
+        "releaseYear": 1978,
+        "tmdbId": 2448,
+        "imdbId": "tt0077082",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Bertolucci and the Last Emperor is an identified edition of ITV's arts documentary series The South Bank Show."
     },
     {
       "key": "television:thesouthbankshowgilbertandgeorge:1998",
@@ -52381,7 +52570,15 @@
         "347442"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The South Bank Show",
+        "releaseYear": 1978,
+        "tmdbId": 2448,
+        "imdbId": "tt0077082",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Gilbert and George is an identified edition of ITV's arts documentary series The South Bank Show."
     },
     {
       "key": "television:thesouthbankshowsimonrattleonjudithweir:2001",
@@ -52421,7 +52618,15 @@
         "346970"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The South Bank Show",
+        "releaseYear": 1978,
+        "tmdbId": 2448,
+        "imdbId": "tt0077082",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Partnership Between Robert Bolt and Sir David Lean is an identified edition of ITV's arts documentary series The South Bank Show."
     },
     {
       "key": "television:thestanleybaxterbigpictureshow:1974",
@@ -54961,40 +55166,14 @@
         "360388"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 64157,
-          "title": "Together",
-          "originalTitle": "Together",
-          "releaseYear": 2015,
-          "lastAirYear": 2015,
-          "imdbId": "tt5091820",
-          "awardWindowPlausible": false,
-          "popularity": 1.9695
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 231328,
-          "title": "Together",
-          "originalTitle": "Together",
-          "releaseYear": 1980,
-          "lastAirYear": 1981,
-          "imdbId": "tt1003253",
-          "awardWindowPlausible": false,
-          "popularity": 3.8921
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1242011,
-          "title": "Together",
-          "originalTitle": "Together",
-          "releaseYear": 2025,
-          "imdbId": "tt31184028",
-          "awardWindowPlausible": false,
-          "popularity": 14.0661
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Together",
+        "releaseYear": 2021,
+        "imdbId": "tt14640242",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Sharon Horgan and James McAvoy identify the 2021 BBC television film Together; the exact-title TMDB candidates do not represent this production."
     },
     {
       "key": "television:tokyo2020:2022",
@@ -55575,7 +55754,14 @@
         "347662"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "True Stories",
+        "releaseYear": 1988,
+        "imdbId": "tt0296446",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "100% White is an identified edition of the Channel 4 documentary strand True Stories; IMDb supplies the usable parent identity because TMDB's legacy series record has no release date."
     },
     {
       "key": "television:truestorieschosen:2009",
@@ -55595,7 +55781,14 @@
         "348307"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "True Stories",
+        "releaseYear": 1988,
+        "imdbId": "tt0296446",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Chosen is an identified edition of the Channel 4 documentary strand True Stories; IMDb supplies the usable parent identity because TMDB's legacy series record has no release date."
     },
     {
       "key": "television:truestoriescrimeofthewolf:1997",
@@ -55635,7 +55828,14 @@
         "347579"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "True Stories",
+        "releaseYear": 1988,
+        "imdbId": "tt0296446",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Divorce Iranian Style is an identified edition of the Channel 4 documentary strand True Stories; IMDb supplies the usable parent identity because TMDB's legacy series record has no release date."
     },
     {
       "key": "television:truestoriesthebetrayed:1996",
@@ -55660,7 +55860,14 @@
         "349529"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "True Stories",
+        "releaseYear": 1988,
+        "imdbId": "tt0296446",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The Betrayed is an identified edition of the Channel 4 documentary strand True Stories; IMDb supplies the usable parent identity because TMDB's legacy series record has no release date."
     },
     {
       "key": "television:truestoriesthegrave:1998",
@@ -55680,7 +55887,14 @@
         "347437"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "True Stories",
+        "releaseYear": 1988,
+        "imdbId": "tt0296446",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The Grave is an identified edition of the Channel 4 documentary strand True Stories; IMDb supplies the usable parent identity because TMDB's legacy series record has no release date."
     },
     {
       "key": "television:truestoriestheunforgiving:1994",
@@ -55700,7 +55914,14 @@
         "347182"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "True Stories",
+        "releaseYear": 1988,
+        "imdbId": "tt0296446",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The Unforgiving is an identified edition of the Channel 4 documentary strand True Stories; IMDb supplies the usable parent identity because TMDB's legacy series record has no release date."
     },
     {
       "key": "television:tsunami7hoursonboxingday:2006",
@@ -57738,7 +57959,15 @@
         "346408"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Yes Minister",
+        "releaseYear": 1980,
+        "tmdbId": 4549,
+        "imdbId": "tt0080306",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The source typo 'Yes, Minster' identifies the established BBC political sitcom Yes Minister."
     },
     {
       "key": "television:yesprimeminister:1987",
@@ -57812,7 +58041,15 @@
         "358989"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Yorkshire Ripper Files: A Very British Crime Story",
+        "releaseYear": 2019,
+        "tmdbId": 113383,
+        "imdbId": "tt9100704",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The source typo 'A Vey British Crime Story' identifies the 2019 BBC documentary miniseries The Yorkshire Ripper Files: A Very British Crime Story."
     },
     {
       "key": "television:youngapprentice:2012",
