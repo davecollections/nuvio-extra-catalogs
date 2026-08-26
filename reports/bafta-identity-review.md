@@ -9,13 +9,13 @@ The committed BAFTA snapshots decide award facts. This report inventories only w
 - Selected work-linked winner records: **2,831**
 - Selected work links: **2,850**
 - Award-year-scoped work identities: **2,044**
-- Resolved identities: **1,746** (1,015 movies; 731 series)
+- Resolved identities: **1,758** (1,020 movies; 738 series)
 - Reviewed non-catalogue outcomes: **1**
-- Unresolved identities: **297**
+- Unresolved identities: **285**
 - Unattempted identities: **0**
-- No exact-title candidate: **223**
+- No exact-title candidate: **212**
 - Multiple plausible exact-title candidates: **33**
-- Candidate evidence without an acceptable IMDb/date relationship: **41**
+- Candidate evidence without an acceptable IMDb/date relationship: **40**
 
 ## Reviewed non-catalogue outcomes (1)
 
@@ -65,7 +65,7 @@ Each row has more than one exact-title candidate inside the award window and nee
 | Unnatural Pursuits | television-craft; award 1993; television-craft-editing-fiction; nomination 349378 | [series TMDB 47677 / tt0103171](https://www.themoviedb.org/tv/47677) Unnatural Pursuits (1992)<br>[movie TMDB 241336 / tt0103171](https://www.themoviedb.org/movie/241336) Unnatural Pursuits (1992) |
 | Wilderness | television-craft; award 2024; television-craft-titles-graphic-identity; nomination 361779 | [movie TMDB 1443265 / tt21978094](https://www.themoviedb.org/movie/1443265) Wilderness (2024)<br>[series TMDB 204276 / tt15426714](https://www.themoviedb.org/tv/204276) Wilderness (2023)<br>[movie TMDB 640236 / tt11203998](https://www.themoviedb.org/movie/640236) Wilderness (2020) — outside award window<br>[movie TMDB 446846 / tt6469284](https://www.themoviedb.org/movie/446846) Wilderness (2017) — outside award window |
 
-## No exact-title candidate (223)
+## No exact-title candidate (212)
 
 These commonly need a title alias, parent-series relationship, event/episode reconciliation, or a documented non-catalogue outcome.
 
@@ -161,7 +161,6 @@ These commonly need a title alias, parent-series relationship, event/episode rec
 | John & Joe Bishop: Life After Deaf | television-craft; award 2023; television-craft-emerging-talent-factual; nomination 361021 | No exact-title TMDB candidate |
 | Just Pet (Musical) | television; award 1970; television-entertainment; nomination 345658 | No exact-title TMDB candidate |
 | La Ronde/John David/Too Late To Talk To Billy/Frost In May | television-craft; award 1983; television-craft-photography-lighting-fiction; nomination 348932 | No exact-title TMDB candidate |
-| Last One Laughing | television; award 2026; television-entertainment, television-entertainment-performance; nomination 374715, 374719 | No exact-title TMDB candidate |
 | Life and Death in Gaza (Storyville) | television-craft; award 2025; television-craft-editing-factual; nomination 368346 | No exact-title TMDB candidate |
 | Light Weight Camerawork | television-craft; award 1980; television-craft-photography-lighting-fiction; nomination 348800 | No exact-title TMDB candidate |
 | Lillie/The Comedy Of Errors | television; award 1979; television-leading-actress; nomination 346156 | No exact-title TMDB candidate |
@@ -174,11 +173,9 @@ These commonly need a title alias, parent-series relationship, event/episode rec
 | Messiah at the Foundling Hospital | television-craft; award 2015; television-craft-sound-factual; nomination 352712 | No exact-title TMDB candidate |
 | Metalhead (Black Mirror) | television-craft; award 2018; television-craft-special-visual-graphic-effects; nomination 356735 | No exact-title TMDB candidate |
 | Middle English: Kurt, Mungo, BP And Me | television; award 1985; television-childrens-non-scripted; nomination 346585 | No exact-title TMDB candidate |
-| Morgana Robinson's Summer | television; award 2018; television-short-form; nomination 356820 | No exact-title TMDB candidate |
 | Near And Far, Now And Then: Going To School | television; award 1989; television-childrens-non-scripted; nomination 346855 | No exact-title TMDB candidate |
 | News At Ten - Chinese Earthquake | television; award 2009; television-news-coverage; nomination 348297 | No exact-title TMDB candidate |
 | Newsnight: A Family Affair (Special) | television-craft; award 2001; television-craft-emerging-talent-factual; nomination 349736 | No exact-title TMDB candidate |
-| Not Only But Also… (And Script) | television; award 1965; television-entertainment-performance; nomination 356887 | No exact-title TMDB candidate |
 | Not Only But Also…/The Big Noise (Last 4) | television; award 1965; television-entertainment; nomination 345581 | No exact-title TMDB candidate |
 | Olympics 2004 - Matthew Pinsent's Rowing For Gold | television; award 2005; television-sports-coverage; nomination 347987 | No exact-title TMDB candidate |
 | Olympics 2008 | television-craft; award 2009; television-craft-titles-graphic-identity; nomination 350281 | No exact-title TMDB candidate |
@@ -201,7 +198,6 @@ These commonly need a title alias, parent-series relationship, event/episode rec
 | Rory Bremner…Who Else?/The Long Johns | television; award 1997; television-entertainment-performance; nomination 347384 | No exact-title TMDB candidate |
 | Royal British Legion Festival of Remembrance 2016 | television-craft; award 2017; television-craft-entertainment-craft-team; nomination 356072 | No exact-title TMDB candidate |
 | Rugby World Cup Final | television; award 2004; television-sports-coverage; nomination 347914 | No exact-title TMDB candidate |
-| Safe (Screeplay) | television; award 1994; television-limited-drama; nomination 347203 | No exact-title TMDB candidate |
 | San Junipero (Black Mirror) | television-craft; award 2017; television-craft-make-up-hair-design; nomination 356078 | No exact-title TMDB candidate |
 | SAS Embassy Seige | television-craft; award 2003; television-craft-editing-factual; nomination 349837 | No exact-title TMDB candidate |
 | Schubert | television-craft; award 1979; television-craft-sound-fiction; nomination 348743 | No exact-title TMDB candidate |
@@ -258,9 +254,6 @@ These commonly need a title alias, parent-series relationship, event/episode rec
 | The Six Wives Of Henry VIII/An Ideal Husband | television; award 1971; television-leading-actor; nomination 345688 | No exact-title TMDB candidate |
 | The Six Wives Of Henry VIII/Biography: Beethoven/Biography: I Measured The Skies - Kepler/Put Out More Flags | television; award 1971; television-craft-production-design; nomination 345696 | No exact-title TMDB candidate |
 | The South Bank Show: Simon Rattle On Judith Weir | television-craft; award 2001; television-craft-sound-factual; nomination 349765 | No exact-title TMDB candidate |
-| The Stanley Baxter Big Picture Show | television; award 1974; television-entertainment; nomination 345848 | No exact-title TMDB candidate |
-| The Stanley Baxter Big Picture Show | television; award 1975; television-craft-production-design; nomination 345881 | No exact-title TMDB candidate |
-| The Stanley Baxter Moving Picture Show | television; award 1975; television-entertainment, television-entertainment-performance; nomination 345895, 345900 | No exact-title TMDB candidate |
 | The Tea Party/Progress To The Park/Summer Of The 17th Doll/The Tap On The Shoulder/Ashes To Ashes/Auto Stop | television; award 1965; television-craft-production-design; nomination 345574 | No exact-title TMDB candidate |
 | The Two Ronnies/Porridge | television; award 1978; television-entertainment-performance; nomination 346103 | No exact-title TMDB candidate |
 | The Witcher (Episode 1) | television-craft; award 2022; television-craft-special-visual-graphic-effects; nomination 360487 | No exact-title TMDB candidate |
@@ -268,7 +261,6 @@ These commonly need a title alias, parent-series relationship, event/episode rec
 | The X Factor Final | television-craft; award 2012; television-craft-director-multi-camera; nomination 350470 | No exact-title TMDB candidate |
 | The Year London Blew Up: 1974 | television-craft; award 2006; television-craft-editing-factual; nomination 350027 | No exact-title TMDB candidate |
 | This Week: Death On The Rock | television; award 1989; television-single-documentary; nomination 346874, 351507 | No exact-title TMDB candidate |
-| Three Fights, Two Weddings And A Funeral | television; award 1995; television-scripted-comedy; nomination 347229 | No exact-title TMDB candidate |
 | Timewatch: The Stolen Child | television-craft; award 1994; television-craft-editing-factual; nomination 349415 | No exact-title TMDB candidate |
 | Tokyo 2020 | television-craft; award 2022; television-craft-titles-graphic-identity; nomination 360491 | No exact-title TMDB candidate |
 | Torvill And Dean: Facing The Music | television-craft; award 1995; television-craft-sound-factual; nomination 349493 | No exact-title TMDB candidate |
@@ -281,10 +273,8 @@ These commonly need a title alias, parent-series relationship, event/episode rec
 | VE Day 80: A Celebration to Remember | television; award 2026; television-live-event-coverage; nomination 374756 | No exact-title TMDB candidate |
 | Venice: Death | television-craft; award 2005; television-craft-photography-factual; nomination 349991 | No exact-title TMDB candidate |
 | Victoria Derbyshire: Footballers' Abuse | television; award 2017; television-news-coverage; nomination 356182 | No exact-title TMDB candidate |
-| Victoria Wood On TV Special | television; award 1988; television-entertainment; nomination 346827 | No exact-title TMDB candidate |
 | Walking With Dinosars: The Giant Claw (Special) | television-craft; award 2003; television-craft-special-visual-graphic-effects; nomination 349889 | No exact-title TMDB candidate |
 | Walking With Dinosaurs: Sea Monsters (Trilogy) | television-craft; award 2004; television-craft-special-visual-graphic-effects; nomination 349949 | No exact-title TMDB candidate |
-| Welcome to the Places of My Life | television; award 2013; television-actor-comedy; nomination 351249 | No exact-title TMDB candidate |
 | Wildlife: Polar Bear (Special) | television-craft; award 1998; television-craft-photography-factual; nomination 349614 | No exact-title TMDB candidate |
 | Wildlife: Tiger (Special) | television-craft; award 2000; television-craft-photography-factual; nomination 349703 | No exact-title TMDB candidate |
 | Winter Olympics 2014 | television-craft; award 2015; television-craft-titles-graphic-identity; nomination 352725 | No exact-title TMDB candidate |
@@ -292,10 +282,9 @@ These commonly need a title alias, parent-series relationship, event/episode rec
 | World Athletics Championships | television; award 2010; television-sports-coverage; nomination 348409 | No exact-title TMDB candidate |
 | World. War. Me. (Sky Kids Investigates) | television; award 2026; television-childrens-non-scripted; nomination 374697 | No exact-title TMDB candidate |
 | World War One Remembered: Passchendaele | television, television-craft; award 2018; television-craft-director-multi-camera, television-craft-entertainment-craft-team, television-live-event-coverage; nomination 356689, 356702, 356797 | No exact-title TMDB candidate |
-| W Somerset Maugham Series | television; award 1970; television-drama-series; nomination 345646 | No exact-title TMDB candidate |
 | Yellowstone: Winter | television-craft; award 2010; television-craft-photography-factual; nomination 350338 | No exact-title TMDB candidate |
 
-## Candidate evidence rejected by the automatic contract (41)
+## Candidate evidence rejected by the automatic contract (40)
 
 These candidates lack a usable IMDb ID or fall outside the accepted award window and require explicit review.
 
@@ -324,7 +313,6 @@ These candidates lack a usable IMDb ID or fall outside the accepted award window
 | News Hounds | television; award 1991; television-limited-drama; nomination 347016 | [movie TMDB 310969](https://www.themoviedb.org/movie/310969) News Hounds (1990) — no IMDb ID<br>[movie TMDB 91728 / tt0039656](https://www.themoviedb.org/movie/91728) News Hounds (1947) — outside award window |
 | Nicholas Nickleby | television-craft; award 1983; television-craft-costume-design, television-craft-photography-lighting-fiction; nomination 348894, 348928 | [series TMDB 27611 / tt0077055](https://www.themoviedb.org/tv/27611) Nicholas Nickleby (1977) — outside award window<br>[series TMDB 24111 / tt0498745](https://www.themoviedb.org/tv/24111) Nicholas Nickleby (1968) — outside award window<br>[series TMDB 21862 / tt0979074](https://www.themoviedb.org/tv/21862) Nicholas Nickleby (1957) — outside award window<br>[movie TMDB 193875 / tt0247577](https://www.themoviedb.org/movie/193875) Nicholas Nickleby (1912) — outside award window |
 | Police | television; award 1983; television-factual-series; nomination 346483 | [movie TMDB 53414 / tt0007194](https://www.themoviedb.org/movie/53414) Police (1916) — outside award window<br>[movie TMDB 660330 / tt9850344](https://www.themoviedb.org/movie/660330) Night Shift (2020) — outside award window |
-| The Accountant | television; award 1990; television-limited-drama; nomination 346955 | [movie TMDB 331244](https://www.themoviedb.org/movie/331244) The Accountant (1989) — no IMDb ID<br>[movie TMDB 302946 / tt2140479](https://www.themoviedb.org/movie/302946) The Accountant (2016) — outside award window<br>[movie TMDB 36733 / tt0222675](https://www.themoviedb.org/movie/36733) The Accountant (2001) — outside award window |
 | The Coronation of TM The King and Queen Camilla | television-craft; award 2024; television-craft-sound-factual; nomination 361766 | [series TMDB 225873](https://www.themoviedb.org/tv/225873) The Coronation of TM The King and Queen Camilla (2023) — no IMDb ID |
 | The First Television Pictures From The Moon | television; award 1970; television-international; nomination 345654 | [series TMDB 48039](https://www.themoviedb.org/tv/48039) The First Television Pictures From The Moon — outside award window, no IMDb ID |
 | The Grand National | television; award 2018; television-sports-coverage; nomination 356836 | [series TMDB 47634](https://www.themoviedb.org/tv/47634) The Grand National — outside award window, no IMDb ID |

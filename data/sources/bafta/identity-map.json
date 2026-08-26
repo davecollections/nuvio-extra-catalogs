@@ -37052,7 +37052,15 @@
         "374719"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "LOL: Last One Laughing UK",
+        "releaseYear": 2025,
+        "tmdbId": 262819,
+        "imdbId": "tt35050741",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The 2026 Entertainment winner is the 2025 UK Prime Video series LOL: Last One Laughing UK, IMDb tt35050741."
     },
     {
       "key": "television:lasttangoinhalifax:2013",
@@ -39039,7 +39047,15 @@
         "356820"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Summer Comedy Shorts",
+        "releaseYear": 2017,
+        "tmdbId": 298532,
+        "imdbId": "tt7176698",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Morgana Robinson's Summer is an identified instalment of the 2017 BBC anthology series Summer Comedy Shorts."
     },
     {
       "key": "television:motherland:2022",
@@ -40319,7 +40335,15 @@
         "356887"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Not Only... But Also",
+        "releaseYear": 1964,
+        "tmdbId": 11459,
+        "imdbId": "tt0128004",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The performance and script record identifies the BBC sketch series Not Only... But Also."
     },
     {
       "key": "television:notonlybutalsothebignoiselast4:1965",
@@ -43819,7 +43843,15 @@
         "347203"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "ScreenPlay",
+        "releaseYear": 1986,
+        "tmdbId": 103981,
+        "imdbId": "tt1049304",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The source typo identifies Safe as an episode of the BBC drama anthology ScreenPlay, represented by its compatible parent-series identity."
     },
     {
       "key": "television:saharawithmichaelpalin:2003",
@@ -46876,37 +46908,15 @@
         "346955"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 331244,
-          "title": "The Accountant",
-          "originalTitle": "The Accountant",
-          "releaseYear": 1989,
-          "awardWindowPlausible": true,
-          "popularity": 0.9168
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 302946,
-          "title": "The Accountant",
-          "originalTitle": "The Accountant",
-          "releaseYear": 2016,
-          "imdbId": "tt2140479",
-          "awardWindowPlausible": false,
-          "popularity": 14.2134
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 36733,
-          "title": "The Accountant",
-          "originalTitle": "The Accountant",
-          "releaseYear": 2001,
-          "imdbId": "tt0222675",
-          "awardWindowPlausible": false,
-          "popularity": 1.2887
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Screen One",
+        "releaseYear": 1989,
+        "tmdbId": 32970,
+        "imdbId": "tt0297625",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Accountant is an identified 1989 instalment of the BBC drama anthology Screen One; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:theadventuresofdonquixotecandidethedeathofadolfhitler:1974",
@@ -52726,7 +52736,14 @@
         "345848"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Stanley Baxter Big Picture Show",
+        "releaseYear": 1973,
+        "imdbId": "tt0296863",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "David Bell identifies the 1973 television special The Stanley Baxter Big Picture Show."
     },
     {
       "key": "television:thestanleybaxterbigpictureshow:1975",
@@ -52746,7 +52763,14 @@
         "345881"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Stanley Baxter Big Picture Show",
+        "releaseYear": 1973,
+        "imdbId": "tt0296863",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Bill McPherson's production-design record identifies the same 1973 television special The Stanley Baxter Big Picture Show."
     },
     {
       "key": "television:thestanleybaxterhour:1983",
@@ -52795,7 +52819,14 @@
         "345900"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Stanley Baxter Moving Picture Show",
+        "releaseYear": 1974,
+        "imdbId": "tt0296864",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Stanley Baxter and David Bell identify the 1974 television special The Stanley Baxter Moving Picture Show."
     },
     {
       "key": "television:thestanleybaxterseries:1982",
@@ -54808,7 +54839,15 @@
         "347229"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Pauline Calf's Wedding Video",
+        "releaseYear": 1994,
+        "tmdbId": 137025,
+        "imdbId": "tt0110800",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Scripted Comedy winner is Steve Coogan's 1994 television special stored by TMDB as Pauline Calf's Wedding Video, IMDb tt0110800."
     },
     {
       "key": "television:threegirls:2018",
@@ -56441,7 +56480,15 @@
         "346827"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Victoria Wood: As Seen on TV",
+        "releaseYear": 1985,
+        "tmdbId": 11238,
+        "imdbId": "tt0149542",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Entertainment winner is the television special from Victoria Wood: As Seen on TV, represented by its compatible parent-series identity."
     },
     {
       "key": "television:videodiariesthemanwholovesgarylineker:1993",
@@ -56920,7 +56967,15 @@
         "351249"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Alan Partridge: Welcome to the Places of My Life",
+        "releaseYear": 2012,
+        "tmdbId": 455644,
+        "imdbId": "tt2227372",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Actor in a Comedy Programme winner is Steve Coogan's 2012 special Alan Partridge: Welcome to the Places of My Life, IMDb tt2227372."
     },
     {
       "key": "television:whateverhappenedtothelikelylads:1974",
@@ -57807,7 +57862,15 @@
         "345646"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "W. Somerset Maugham",
+        "releaseYear": 1969,
+        "tmdbId": 45772,
+        "imdbId": "tt0958966",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Drama Series winner is the 1969 BBC anthology W. Somerset Maugham, IMDb tt0958966."
     },
     {
       "key": "television:yellowstonewinter:2010",

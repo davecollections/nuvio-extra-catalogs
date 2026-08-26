@@ -9,13 +9,13 @@ The committed BAFTA snapshots decide award facts. This report inventories only w
 - Selected work-linked winner records: **939**
 - Selected work links: **939**
 - Award-year-scoped work identities: **855**
-- Resolved identities: **718** (141 movies; 577 series)
+- Resolved identities: **729** (145 movies; 584 series)
 - Reviewed non-catalogue outcomes: **0**
-- Unresolved identities: **137**
+- Unresolved identities: **126**
 - Unattempted identities: **0**
-- No exact-title candidate: **112**
+- No exact-title candidate: **102**
 - Multiple plausible exact-title candidates: **0**
-- Candidate evidence without an acceptable IMDb/date relationship: **25**
+- Candidate evidence without an acceptable IMDb/date relationship: **24**
 
 ## Multiple plausible candidates (0)
 
@@ -24,7 +24,7 @@ Each row has more than one exact-title candidate inside the award window and nee
 | Source work | Context | Candidate evidence |
 | --- | --- | --- |
 
-## No exact-title candidate (112)
+## No exact-title candidate (102)
 
 These commonly need a title alias, parent-series relationship, event/episode reconciliation, or a documented non-catalogue outcome.
 
@@ -77,15 +77,12 @@ These commonly need a title alias, parent-series relationship, event/episode rec
 | Joe Lycett vs Beckham: Got Your Back at Xmas | television; award 2023; television-factual-entertainment; nomination 361114 | No exact-title TMDB candidate |
 | John Bird | television; award 1966; television-entertainment; nomination 357157 | No exact-title TMDB candidate |
 | Just Pet (Musical) | television; award 1970; television-entertainment; nomination 345658 | No exact-title TMDB candidate |
-| Last One Laughing | television; award 2026; television-entertainment, television-entertainment-performance; nomination 374715, 374719 | No exact-title TMDB candidate |
 | Lillie/The Comedy Of Errors | television; award 1979; television-leading-actress; nomination 346156 | No exact-title TMDB candidate |
 | Make Me Normal | television; award 2006; television-single-documentary; nomination 348033 | No exact-title TMDB candidate |
 | Marty/Till Death Do Us Part | television; award 1969; television-entertainment; nomination 345622 | No exact-title TMDB candidate |
 | Middle English: Kurt, Mungo, BP And Me | television; award 1985; television-childrens-non-scripted; nomination 346585 | No exact-title TMDB candidate |
-| Morgana Robinson's Summer | television; award 2018; television-short-form; nomination 356820 | No exact-title TMDB candidate |
 | Near And Far, Now And Then: Going To School | television; award 1989; television-childrens-non-scripted; nomination 346855 | No exact-title TMDB candidate |
 | News At Ten - Chinese Earthquake | television; award 2009; television-news-coverage; nomination 348297 | No exact-title TMDB candidate |
-| Not Only But Also… (And Script) | television; award 1965; television-entertainment-performance; nomination 356887 | No exact-title TMDB candidate |
 | Not Only But Also…/The Big Noise (Last 4) | television; award 1965; television-entertainment; nomination 345581 | No exact-title TMDB candidate |
 | Olympics 2004 - Matthew Pinsent's Rowing For Gold | television; award 2005; television-sports-coverage; nomination 347987 | No exact-title TMDB candidate |
 | On Trial: The Chicago Conspiracy Trial | television; award 1971; television-specialist-factual; nomination 345733 | No exact-title TMDB candidate |
@@ -97,7 +94,6 @@ These commonly need a title alias, parent-series relationship, event/episode rec
 | Professional Foul/The Country Party | television; award 1978; television-leading-actor; nomination 346074 | No exact-title TMDB candidate |
 | Rory Bremner…Who Else?/The Long Johns | television; award 1997; television-entertainment-performance; nomination 347384 | No exact-title TMDB candidate |
 | Rugby World Cup Final | television; award 2004; television-sports-coverage; nomination 347914 | No exact-title TMDB candidate |
-| Safe (Screeplay) | television; award 1994; television-limited-drama; nomination 347203 | No exact-title TMDB candidate |
 | Sky News - Glasgow Airport Attack | television; award 2008; television-news-coverage; nomination 348213 | No exact-title TMDB candidate |
 | Sky News: Inside Idlib | television; award 2021; television-news-coverage; nomination 359831 | No exact-title TMDB candidate |
 | Sky News Live At Five: Ebola | television; award 2015; television-news-coverage; nomination 352816 | No exact-title TMDB candidate |
@@ -126,24 +122,18 @@ These commonly need a title alias, parent-series relationship, event/episode rec
 | The Rohingya Crisis (Sky News) | television; award 2018; television-news-coverage; nomination 356809 | No exact-title TMDB candidate |
 | The Sextet (8 Plays) | television; award 1973; television-leading-actress; nomination 345783 | No exact-title TMDB candidate |
 | The Six Wives Of Henry VIII/An Ideal Husband | television; award 1971; television-leading-actor; nomination 345688 | No exact-title TMDB candidate |
-| The Stanley Baxter Big Picture Show | television; award 1974; television-entertainment; nomination 345848 | No exact-title TMDB candidate |
-| The Stanley Baxter Moving Picture Show | television; award 1975; television-entertainment, television-entertainment-performance; nomination 345895, 345900 | No exact-title TMDB candidate |
 | The Two Ronnies/Porridge | television; award 1978; television-entertainment-performance; nomination 346103 | No exact-title TMDB candidate |
 | The World Of Wooster/Comedy Playhouse: Sam The Samaritan/90 Years On - Churchill Birthday Programme | television; award 1965; television-scripted-comedy; nomination 345573 | No exact-title TMDB candidate |
 | This Week: Death On The Rock | television; award 1989; television-single-documentary; nomination 346874, 351507 | No exact-title TMDB candidate |
-| Three Fights, Two Weddings And A Funeral | television; award 1995; television-scripted-comedy; nomination 347229 | No exact-title TMDB candidate |
 | UEFA Women's EURO 2022 | television; award 2023; television-sports-coverage; nomination 361184 | No exact-title TMDB candidate |
 | UEFA Women's Euro 2025 | television, television-craft; award 2026; television-craft-titles-graphic-identity, television-sports-coverage; nomination 374670, 374785 | No exact-title TMDB candidate |
 | VE Day 80: A Celebration to Remember | television; award 2026; television-live-event-coverage; nomination 374756 | No exact-title TMDB candidate |
 | Victoria Derbyshire: Footballers' Abuse | television; award 2017; television-news-coverage; nomination 356182 | No exact-title TMDB candidate |
-| Victoria Wood On TV Special | television; award 1988; television-entertainment; nomination 346827 | No exact-title TMDB candidate |
-| Welcome to the Places of My Life | television; award 2013; television-actor-comedy; nomination 351249 | No exact-title TMDB candidate |
 | World Athletics Championships | television; award 2010; television-sports-coverage; nomination 348409 | No exact-title TMDB candidate |
 | World. War. Me. (Sky Kids Investigates) | television; award 2026; television-childrens-non-scripted; nomination 374697 | No exact-title TMDB candidate |
 | World War One Remembered: Passchendaele | television, television-craft; award 2018; television-craft-director-multi-camera, television-craft-entertainment-craft-team, television-live-event-coverage; nomination 356689, 356702, 356797 | No exact-title TMDB candidate |
-| W Somerset Maugham Series | television; award 1970; television-drama-series; nomination 345646 | No exact-title TMDB candidate |
 
-## Candidate evidence rejected by the automatic contract (25)
+## Candidate evidence rejected by the automatic contract (24)
 
 These candidates lack a usable IMDb ID or fall outside the accepted award window and require explicit review.
 
@@ -164,7 +154,6 @@ These candidates lack a usable IMDb ID or fall outside the accepted award window
 | News At Ten | television; award 1970; television-current-affairs; nomination 345653 | [series TMDB 247546](https://www.themoviedb.org/tv/247546) News at Ten (1967) — outside award window, no IMDb ID |
 | News Hounds | television; award 1991; television-limited-drama; nomination 347016 | [movie TMDB 310969](https://www.themoviedb.org/movie/310969) News Hounds (1990) — no IMDb ID<br>[movie TMDB 91728 / tt0039656](https://www.themoviedb.org/movie/91728) News Hounds (1947) — outside award window |
 | Police | television; award 1983; television-factual-series; nomination 346483 | [movie TMDB 53414 / tt0007194](https://www.themoviedb.org/movie/53414) Police (1916) — outside award window<br>[movie TMDB 660330 / tt9850344](https://www.themoviedb.org/movie/660330) Night Shift (2020) — outside award window |
-| The Accountant | television; award 1990; television-limited-drama; nomination 346955 | [movie TMDB 331244](https://www.themoviedb.org/movie/331244) The Accountant (1989) — no IMDb ID<br>[movie TMDB 302946 / tt2140479](https://www.themoviedb.org/movie/302946) The Accountant (2016) — outside award window<br>[movie TMDB 36733 / tt0222675](https://www.themoviedb.org/movie/36733) The Accountant (2001) — outside award window |
 | The First Television Pictures From The Moon | television; award 1970; television-international; nomination 345654 | [series TMDB 48039](https://www.themoviedb.org/tv/48039) The First Television Pictures From The Moon — outside award window, no IMDb ID |
 | The Grand National | television; award 2018; television-sports-coverage; nomination 356836 | [series TMDB 47634](https://www.themoviedb.org/tv/47634) The Grand National — outside award window, no IMDb ID |
 | The National Trust | television; award 2004; television-specialist-factual; nomination 347893 | [series TMDB 16892](https://www.themoviedb.org/tv/16892) The National Trust (2003) — no IMDb ID |
