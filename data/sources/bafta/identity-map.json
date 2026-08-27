@@ -31610,18 +31610,15 @@
         "345572"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 979051,
-          "title": "End of Term",
-          "originalTitle": "End of Term",
-          "releaseYear": 2021,
-          "imdbId": "tt6044276",
-          "awardWindowPlausible": false,
-          "popularity": 1.0495
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Boyd Q.C.",
+        "releaseYear": 1956,
+        "tmdbId": 18443,
+        "imdbId": "tt0159852",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Gwen Watford's credited work End of Term is an identified 1963 episode of the ITV legal-drama series Boyd Q.C.; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:englandvwestindiestestcricket:2021",
@@ -33235,17 +33232,15 @@
         "346290"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1056876,
-          "title": "Gentle Folk",
-          "originalTitle": "Gentle Folk",
-          "releaseYear": 1980,
-          "awardWindowPlausible": true,
-          "popularity": 0.7433
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Playhouse",
+        "releaseYear": 1974,
+        "tmdbId": 30504,
+        "imdbId": "tt0762803",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Denholm Elliott's credited work Gentle Folk is an identified 1980 episode of the BBC anthology series Playhouse; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:gettingon:2011",
@@ -36091,27 +36086,15 @@
         "346290"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1367169,
-          "title": "In Hiding",
-          "originalTitle": "In Hiding",
-          "releaseYear": 1980,
-          "awardWindowPlausible": true,
-          "popularity": 1.024
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 226962,
-          "title": "In Hiding",
-          "originalTitle": "W ukryciu",
-          "releaseYear": 2013,
-          "imdbId": "tt3074328",
-          "awardWindowPlausible": false,
-          "popularity": 0.0583
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Playhouse",
+        "releaseYear": 1974,
+        "tmdbId": 30504,
+        "imdbId": "tt0762803",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Denholm Elliott's credited work In Hiding is an identified 1980 episode of the BBC anthology series Playhouse; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:inmyskin:2022",
@@ -42881,28 +42864,14 @@
         "346483"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 53414,
-          "title": "Police",
-          "originalTitle": "Police",
-          "releaseYear": 1916,
-          "imdbId": "tt0007194",
-          "awardWindowPlausible": false,
-          "popularity": 1.2716
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 660330,
-          "title": "Night Shift",
-          "originalTitle": "Police",
-          "releaseYear": 2020,
-          "imdbId": "tt9850344",
-          "awardWindowPlausible": false,
-          "popularity": 1.7811
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Police",
+        "releaseYear": 1982,
+        "imdbId": "tt3013722",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Roger Graef and Charles Stewart identify the 1982 British documentary series Police following Thames Valley Police; IMDb supplies the compatible series identity because no reviewed TMDB relationship is available."
     },
     {
       "key": "television:popidol:2002",
@@ -50200,16 +50169,14 @@
         "356836"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 47634,
-          "title": "The Grand National",
-          "originalTitle": "The Grand National",
-          "awardWindowPlausible": false,
-          "popularity": 0.3149
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Grand National",
+        "releaseYear": 1948,
+        "imdbId": "tt6433734",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The 2018 Sports Coverage winner is an edition of the long-running Grand National broadcast coverage; IMDb supplies the compatible parent event-series identity because TMDB's legacy record has no usable date or external relationship."
     },
     {
       "key": "television:thegreat:2024",
@@ -54101,18 +54068,15 @@
         "346290"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1447070,
-          "title": "Stinker",
-          "originalTitle": "Sasyq",
-          "releaseYear": 2025,
-          "imdbId": "tt33029167",
-          "awardWindowPlausible": false,
-          "popularity": 1.6874
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Tales of the Unexpected",
+        "releaseYear": 1979,
+        "tmdbId": 2199,
+        "imdbId": "tt0075592",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Denholm Elliott's credited work The Stinker is an identified 1980 episode of the anthology series Tales of the Unexpected; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:thestoryteller:1989",

@@ -9,13 +9,13 @@ The committed BAFTA snapshots decide award facts. This report inventories only w
 - Selected work-linked winner records: **2,831**
 - Selected work links: **2,889**
 - Award-year-scoped work identities: **2,075**
-- Resolved identities: **1,825** (1,030 movies; 795 series)
+- Resolved identities: **1,831** (1,030 movies; 801 series)
 - Reviewed non-catalogue outcomes: **1**
-- Unresolved identities: **249**
+- Unresolved identities: **243**
 - Unattempted identities: **0**
 - No exact-title candidate: **171**
 - Multiple plausible exact-title candidates: **33**
-- Candidate evidence without an acceptable IMDb/date relationship: **45**
+- Candidate evidence without an acceptable IMDb/date relationship: **39**
 
 ## Reviewed non-catalogue outcomes (1)
 
@@ -243,7 +243,7 @@ These commonly need a title alias, parent-series relationship, event/episode rec
 | World War One Remembered: Passchendaele | television, television-craft; award 2018; television-craft-director-multi-camera, television-craft-entertainment-craft-team, television-live-event-coverage; nomination 356689, 356702, 356797 | No exact-title TMDB candidate |
 | Yellowstone: Winter | television-craft; award 2010; television-craft-photography-factual; nomination 350338 | No exact-title TMDB candidate |
 
-## Candidate evidence rejected by the automatic contract (45)
+## Candidate evidence rejected by the automatic contract (39)
 
 These candidates lack a usable IMDb ID or fall outside the accepted award window and require explicit review.
 
@@ -255,13 +255,10 @@ These candidates lack a usable IMDb ID or fall outside the accepted award window
 | Brief Lives | television; award 1969; television-leading-actor; nomination 345614 | [series TMDB 49086](https://www.themoviedb.org/tv/49086) Brief Lives — outside award window, no IMDb ID |
 | Channel 4 Cricket | television; award 2002; television-sports-coverage; nomination 347777 | [series TMDB 47554](https://www.themoviedb.org/tv/47554) Channel 4 Cricket — outside award window, no IMDb ID |
 | Circuit 11 Miami | television; award 1980; television-factual-series; nomination 346247 | [series TMDB 49076](https://www.themoviedb.org/tv/49076) Circuit 11 Miami — outside award window, no IMDb ID |
-| End Of Term | television; award 1965; television-leading-actress; nomination 345572 | [movie TMDB 979051 / tt6044276](https://www.themoviedb.org/movie/979051) End of Term (2021) — outside award window |
 | Explorers | television; award 1976; television-specialist-factual; nomination 345991 | [movie TMDB 9872 / tt0089114](https://www.themoviedb.org/movie/9872) Explorers (1985) — outside award window<br>[movie TMDB 457370](https://www.themoviedb.org/movie/457370) Explorers (2016) — outside award window, no IMDb ID<br>[series TMDB 96719](https://www.themoviedb.org/tv/96719) Explorers — outside award window, no IMDb ID<br>[movie TMDB 650296 / tt7341460](https://www.themoviedb.org/movie/650296) Explorers (2017) — outside award window |
 | Falling Apart | television-craft; award 2003; television-craft-emerging-talent-fiction; nomination 349855, 349859 | [movie TMDB 813717](https://www.themoviedb.org/movie/813717) Falling Apart (2013) — outside award window, no IMDb ID<br>[movie TMDB 332332 / tt0340105](https://www.themoviedb.org/movie/332332) Falling Apart (2006) — outside award window<br>[movie TMDB 750424](https://www.themoviedb.org/movie/750424) Falling Apart (2020) — outside award window, no IMDb ID |
 | Family | television-craft; award 1995; television-craft-photography-lighting-fiction, television-craft-sound-fiction; nomination 349486, 349496 | [series TMDB 10738 / tt0073992](https://www.themoviedb.org/tv/10738) Family (1976) — outside award window |
-| Gentle Folk | television; award 1981; television-leading-actor; nomination 346290 | [movie TMDB 1056876](https://www.themoviedb.org/movie/1056876) Gentle Folk (1980) — no IMDb ID |
 | Hospital: Casualty | television; award 1978; television-single-documentary; nomination 346091 | [series TMDB 47920](https://www.themoviedb.org/tv/47920) Hospital: Casualty — outside award window, no IMDb ID |
-| In Hiding | television; award 1981; television-leading-actor; nomination 346290 | [movie TMDB 1367169](https://www.themoviedb.org/movie/1367169) In Hiding (1980) — no IMDb ID<br>[movie TMDB 226962 / tt3074328](https://www.themoviedb.org/movie/226962) In Hiding (2013) — outside award window |
 | Jungle | television-craft; award 2023; television-craft-photography-lighting-fiction; nomination 361045 | [movie TMDB 390062 / tt3758172](https://www.themoviedb.org/movie/390062) Jungle (2017) — outside award window |
 | L'Aiguille Du Midi | television; award 1963; television-international; nomination 356874 | [series TMDB 48129](https://www.themoviedb.org/tv/48129) L'aiguille Du Midi — outside award window, no IMDb ID |
 | Later Live with Jools Holland | television-craft; award 2019; television-craft-sound-factual; nomination 357548 | [series TMDB 35132](https://www.themoviedb.org/tv/35132) Later Live… with Jools Holland (2008) — no IMDb ID |
@@ -272,19 +269,16 @@ These candidates lack a usable IMDb ID or fall outside the accepted award window
 | Nicholas Nickleby | television-craft; award 1983; television-craft-costume-design, television-craft-photography-lighting-fiction; nomination 348894, 348928 | [series TMDB 27611 / tt0077055](https://www.themoviedb.org/tv/27611) Nicholas Nickleby (1977) — outside award window<br>[series TMDB 24111 / tt0498745](https://www.themoviedb.org/tv/24111) Nicholas Nickleby (1968) — outside award window<br>[series TMDB 21862 / tt0979074](https://www.themoviedb.org/tv/21862) Nicholas Nickleby (1957) — outside award window<br>[movie TMDB 193875 / tt0247577](https://www.themoviedb.org/movie/193875) Nicholas Nickleby (1912) — outside award window |
 | Nijinsky, God Of The Dance | television; award 1976; television-leading-actor; nomination 345926 | [series TMDB 48360](https://www.themoviedb.org/tv/48360) Nijinsky, God Of The Dance — outside award window, no IMDb ID |
 | Paradise Street | television; award 1965; television-single-documentary; nomination 345575 | [series TMDB 48091](https://www.themoviedb.org/tv/48091) Paradise Street — outside award window, no IMDb ID |
-| Police | television; award 1983; television-factual-series; nomination 346483 | [movie TMDB 53414 / tt0007194](https://www.themoviedb.org/movie/53414) Police (1916) — outside award window<br>[movie TMDB 660330 / tt9850344](https://www.themoviedb.org/movie/660330) Night Shift (2020) — outside award window |
 | The Babysitter | television; award 1965; television-drama-series; nomination 345577 | [movie TMDB 419479 / tt4225622](https://www.themoviedb.org/movie/419479) The Babysitter (2017) — outside award window<br>[movie TMDB 37141 / tt0112438](https://www.themoviedb.org/movie/37141) The Babysitter (1995) — outside award window<br>[movie TMDB 766394 / tt11948650](https://www.themoviedb.org/movie/766394) The Babysitter (2020) — outside award window<br>[movie TMDB 94129 / tt0073205](https://www.themoviedb.org/movie/94129) The Babysitter (1975) — outside award window |
 | The Changeling | television; award 1965; television-drama-series; nomination 345577 | [series TMDB 131992 / tt8559532](https://www.themoviedb.org/tv/131992) The Changeling (2023) — outside award window<br>[movie TMDB 3580 / tt0824747](https://www.themoviedb.org/movie/3580) Changeling (2008) — outside award window<br>[movie TMDB 13550 / tt0080516](https://www.themoviedb.org/movie/13550) The Changeling (1980) — outside award window<br>[movie TMDB 342384 / tt2002649](https://www.themoviedb.org/movie/342384) The Changeling (2011) — outside award window |
 | The Coronation of TM The King and Queen Camilla | television-craft; award 2024; television-craft-sound-factual; nomination 361766 | [series TMDB 225873](https://www.themoviedb.org/tv/225873) The Coronation of TM The King and Queen Camilla (2023) — no IMDb ID |
 | The First Television Pictures From The Moon | television; award 1970; television-international; nomination 345654 | [series TMDB 48039](https://www.themoviedb.org/tv/48039) The First Television Pictures From The Moon — outside award window, no IMDb ID |
 | The Grafters | television; award 1965; television-single-documentary; nomination 345575 | [series TMDB 48090](https://www.themoviedb.org/tv/48090) The Grafters — outside award window, no IMDb ID |
-| The Grand National | television; award 2018; television-sports-coverage; nomination 356836 | [series TMDB 47634](https://www.themoviedb.org/tv/47634) The Grand National — outside award window, no IMDb ID |
 | The National Trust | television; award 2004; television-specialist-factual; nomination 347893 | [series TMDB 16892](https://www.themoviedb.org/tv/16892) The National Trust (2003) — no IMDb ID |
 | The Old Boys | television; award 1965; television-drama-series; nomination 345577 | [movie TMDB 348180](https://www.themoviedb.org/movie/348180) The Old Boys (2015) — outside award window, no IMDb ID<br>[movie TMDB 65681 / tt10811140](https://www.themoviedb.org/movie/65681) Old Boys (2010) — outside award window |
 | The Plot to Bring Down Britain's Planes | television-craft; award 2013; television-craft-director-factual; nomination 351152 | [series TMDB 47836](https://www.themoviedb.org/tv/47836) The Plot to Bring Down Britain's Planes — outside award window, no IMDb ID |
 | The Show Must Go On | television-craft; award 2002; television-craft-editing-factual; nomination 349778 | [movie TMDB 1702024](https://www.themoviedb.org/movie/1702024) The Show Must Go On (1994) — outside award window, no IMDb ID<br>[movie TMDB 968148 / tt0205157](https://www.themoviedb.org/movie/968148) The Show Must Go On (1952) — outside award window<br>[movie TMDB 55771 / tt1038110](https://www.themoviedb.org/movie/55771) The Show Must Go On (2007) — outside award window<br>[movie TMDB 1015249 / tt21849170](https://www.themoviedb.org/movie/1015249) The Show Must Go On (2022) — outside award window |
 | The Stanley Baxter Series | television; award 1982; television-entertainment; nomination 346409 | [series TMDB 23569](https://www.themoviedb.org/tv/23569) The Stanley Baxter Series (1981) — no IMDb ID |
-| The Stinker | television; award 1981; television-leading-actor; nomination 346290 | [movie TMDB 1447070 / tt33029167](https://www.themoviedb.org/movie/1447070) Stinker (2025) — outside award window |
 | The System | television-craft; award 1997; television-craft-editing-factual; nomination 349552 | [movie TMDB 165020 / tt0060461](https://www.themoviedb.org/movie/165020) The System (1964) — outside award window<br>[movie TMDB 45679 / tt0046389](https://www.themoviedb.org/movie/45679) The System (1953) — outside award window<br>[movie TMDB 1024627 / tt14037272](https://www.themoviedb.org/movie/1024627) The System (2022) — outside award window<br>[movie TMDB 1528843 / tt37578802](https://www.themoviedb.org/movie/1528843) The System (2025) — outside award window |
 | The Trust | television; award 2003; television-specialist-factual; nomination 347827 | [movie TMDB 708824 / tt0108401](https://www.themoviedb.org/movie/708824) The Trust (1993) — outside award window<br>[series TMDB 220306 / tt26697171](https://www.themoviedb.org/tv/220306) The Trust (2023) — outside award window<br>[series TMDB 241168 / tt30342862](https://www.themoviedb.org/tv/241168) The Trust (2024) — outside award window<br>[movie TMDB 301608 / tt3733774](https://www.themoviedb.org/movie/301608) The Trust (2016) — outside award window |
 | Timmy's Story | television; award 1986; television-childrens-non-scripted; nomination 346647 | [series TMDB 47755](https://www.themoviedb.org/tv/47755) Timmy's Story — outside award window, no IMDb ID |
