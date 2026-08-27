@@ -25958,7 +25958,15 @@
         "368277"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "BBC Breakfast",
+        "releaseYear": 2000,
+        "tmdbId": 2535,
+        "imdbId": "tt0262152",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Post Office Special is an identified edition of the continuing BBC Breakfast news programme."
     },
     {
       "key": "television:bbcnewsnightbsecoverage:1997",
@@ -25978,7 +25986,15 @@
         "347391"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Newsnight",
+        "releaseYear": 1980,
+        "tmdbId": 841,
+        "imdbId": "tt0163471",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BSE Coverage winner is an identified edition of the BBC current-affairs programme Newsnight."
     },
     {
       "key": "television:bbctenoclocknews7july2005londonbombs:2006",
@@ -25998,7 +26014,15 @@
         "348048"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "BBC News at Ten",
+        "releaseYear": 2000,
+        "tmdbId": 3919,
+        "imdbId": "tt0283706",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The 7 July 2005 London Bombs coverage is an identified edition of BBC News at Ten, also titled BBC News at Ten O'Clock by IMDb."
     },
     {
       "key": "television:bbctenoclocknewsmadridbombing:2005",
@@ -26018,7 +26042,15 @@
         "347973"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "BBC News at Ten",
+        "releaseYear": 2000,
+        "tmdbId": 3919,
+        "imdbId": "tt0283706",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Madrid Bombing coverage is an identified edition of BBC News at Ten, also titled BBC News at Ten O'Clock by IMDb."
     },
     {
       "key": "television:bbcwinterolympics:2010",
@@ -27605,7 +27637,15 @@
         "357625"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Channel 4 News",
+        "releaseYear": 1982,
+        "tmdbId": 38962,
+        "imdbId": "tt0239164",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "BAFTA's winner announcement and acceptance speech identify Cambridge Analytica Uncovered as Channel 4 News reporting; the compatible parent-series identity represents that edition."
     },
     {
       "key": "television:candide:1974",
@@ -28090,7 +28130,15 @@
         "347330"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Channel 4 News",
+        "releaseYear": 1982,
+        "tmdbId": 38962,
+        "imdbId": "tt0239164",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Coverage of War Crimes in Former Yugoslavia is an identified edition of Channel 4 News."
     },
     {
       "key": "television:channel4newsfallofsaddam:2004",
@@ -28110,7 +28158,15 @@
         "347900"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Channel 4 News",
+        "releaseYear": 1982,
+        "tmdbId": 38962,
+        "imdbId": "tt0239164",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Fall of Saddam is an identified edition of Channel 4 News."
     },
     {
       "key": "television:channel4newsinsidegazaisraelandhamasatwar:2024",
@@ -28130,7 +28186,15 @@
         "361659"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Channel 4 News",
+        "releaseYear": 1982,
+        "tmdbId": 38962,
+        "imdbId": "tt0239164",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Inside Gaza: Israel and Hamas at War is an identified edition of Channel 4 News."
     },
     {
       "key": "television:channel4newsisraeliranthetwelvedaywar:2026",
@@ -28150,7 +28214,15 @@
         "374758"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Channel 4 News",
+        "releaseYear": 1982,
+        "tmdbId": 38962,
+        "imdbId": "tt0239164",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Israel-Iran: The Twelve Day War is an identified edition of Channel 4 News."
     },
     {
       "key": "television:channel4newsjapanearthquake:2012",
@@ -28170,7 +28242,15 @@
         "348579"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Channel 4 News",
+        "releaseYear": 1982,
+        "tmdbId": 38962,
+        "imdbId": "tt0239164",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Japan Earthquake is an identified edition of Channel 4 News."
     },
     {
       "key": "television:channel4newsliveinkyiv:2023",
@@ -28190,7 +28270,15 @@
         "361155"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Channel 4 News",
+        "releaseYear": 1982,
+        "tmdbId": 38962,
+        "imdbId": "tt0239164",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Live in Kyiv is an identified edition of Channel 4 News."
     },
     {
       "key": "television:channel4newsparismassacre:2016",
@@ -28210,7 +28298,15 @@
         "353448"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Channel 4 News",
+        "releaseYear": 1982,
+        "tmdbId": 38962,
+        "imdbId": "tt0239164",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Paris Massacre is an identified edition of Channel 4 News."
     },
     {
       "key": "television:channel4racingderbyday:1999",
@@ -33657,7 +33753,15 @@
         "348126"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Granada Reports",
+        "releaseYear": 1992,
+        "tmdbId": 830,
+        "imdbId": "tt0479832",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Morecambe Bay coverage is an identified edition of the ITV regional news programme Granada Reports."
     },
     {
       "key": "television:granddesigns:2015",
@@ -34907,7 +35011,15 @@
         "351296"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Granada Reports",
+        "releaseYear": 1992,
+        "tmdbId": 830,
+        "imdbId": "tt0479832",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "BAFTA identifies Hillsborough – The Truth at Last as an edition of the ITV regional news programme Granada Reports."
     },
     {
       "key": "television:himherthewedding:2014",
@@ -36625,7 +36737,15 @@
         "348388"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "ITV News at Ten",
+        "releaseYear": 2008,
+        "tmdbId": 3679,
+        "imdbId": "tt0229912",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Haiti coverage is an identified edition of the continuing ITV News at Ten programme; IMDb preserves the series from its 1967 origin."
     },
     {
       "key": "television:itvnewsattenstormingofthecapitol:2022",
@@ -36645,7 +36765,15 @@
         "360367"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "ITV News at Ten",
+        "releaseYear": 2008,
+        "tmdbId": 3679,
+        "imdbId": "tt0229912",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Storming of the Capitol is an identified edition of the continuing ITV News at Ten programme; IMDb preserves the series from its 1967 origin."
     },
     {
       "key": "television:itvnewsattenthecumbriamurders:2011",
@@ -36665,7 +36793,15 @@
         "348486"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "ITV News at Ten",
+        "releaseYear": 2008,
+        "tmdbId": 3679,
+        "imdbId": "tt0229912",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Cumbria Murders coverage is an identified edition of the continuing ITV News at Ten programme; IMDb preserves the series from its 1967 origin."
     },
     {
       "key": "television:itvnewsattenwoolwichattacks:2014",
@@ -36685,7 +36821,15 @@
         "352257"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "ITV News at Ten",
+        "releaseYear": 2008,
+        "tmdbId": 3679,
+        "imdbId": "tt0229912",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Woolwich Attacks coverage is an identified edition of the continuing ITV News at Ten programme; IMDb preserves the series from its 1967 origin."
     },
     {
       "key": "television:jamiesschooldinners:2006",
@@ -40429,18 +40573,14 @@
         "345653"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 247546,
-          "title": "News at Ten",
-          "originalTitle": "News at Ten",
-          "releaseYear": 1967,
-          "lastAirYear": 1967,
-          "awardWindowPlausible": false,
-          "popularity": 0.4165
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "News at Ten",
+        "releaseYear": 1967,
+        "imdbId": "tt0229912",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The 1970 Current Affairs winner is the long-running ITN programme News at Ten, first broadcast in 1967; IMDb supplies the historically accurate start date."
     },
     {
       "key": "television:newsattenchineseearthquake:2009",
@@ -40460,7 +40600,15 @@
         "348297"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "ITV News at Ten",
+        "releaseYear": 2008,
+        "tmdbId": 3679,
+        "imdbId": "tt0229912",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Chinese Earthquake coverage is an identified edition of the continuing ITV News at Ten programme; IMDb preserves the series from its 1967 origin."
     },
     {
       "key": "television:newshounds:1991",
@@ -45616,7 +45764,14 @@
         "352816"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Sky News: Live at Five",
+        "releaseYear": 1990,
+        "imdbId": "tt0357396",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The Ebola coverage is an identified edition of Sky News: Live at Five; IMDb supplies the compatible parent-series identity absent from TMDB."
     },
     {
       "key": "television:skynewsseptember11th12th:2002",
@@ -56023,7 +56178,14 @@
         "351507"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "This Week",
+        "releaseYear": 1956,
+        "imdbId": "tt0294205",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Death on the Rock is an identified edition of the ITV current-affairs strand This Week; IMDb supplies the compatible parent-series identity because TMDB's legacy record has no usable release date."
     },
     {
       "key": "television:threads:1985",
@@ -57668,7 +57830,15 @@
         "356182"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Victoria Derbyshire",
+        "releaseYear": 2015,
+        "tmdbId": 83355,
+        "imdbId": "tt4956964",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Footballers' Abuse is an identified edition of the BBC news and current-affairs programme Victoria Derbyshire."
     },
     {
       "key": "television:victoriawoodasseenontv:1986",

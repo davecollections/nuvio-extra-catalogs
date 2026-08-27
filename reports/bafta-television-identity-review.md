@@ -9,13 +9,13 @@ The committed BAFTA snapshots decide award facts. This report inventories only w
 - Selected work-linked winner records: **939**
 - Selected work links: **978**
 - Award-year-scoped work identities: **889**
-- Resolved identities: **769** (154 movies; 615 series)
+- Resolved identities: **792** (154 movies; 638 series)
 - Reviewed non-catalogue outcomes: **0**
-- Unresolved identities: **120**
+- Unresolved identities: **97**
 - Unattempted identities: **0**
-- No exact-title candidate: **83**
+- No exact-title candidate: **61**
 - Multiple plausible exact-title candidates: **0**
-- Candidate evidence without an acceptable IMDb/date relationship: **37**
+- Candidate evidence without an acceptable IMDb/date relationship: **36**
 
 ## Multiple plausible candidates (0)
 
@@ -24,7 +24,7 @@ Each row has more than one exact-title candidate inside the award window and nee
 | Source work | Context | Candidate evidence |
 | --- | --- | --- |
 
-## No exact-title candidate (83)
+## No exact-title candidate (61)
 
 These commonly need a title alias, parent-series relationship, event/episode reconciliation, or a documented non-catalogue outcome.
 
@@ -35,19 +35,7 @@ These commonly need a title alias, parent-series relationship, event/episode rec
 | 90 Years On - Churchill Birthday Programme | television; award 1965; television-scripted-comedy; nomination 345573 | No exact-title TMDB candidate |
 | A Bit Of A Holiday | television; award 1970; television-leading-actor; nomination 345632 | No exact-title TMDB candidate |
 | Baka - People Of The Rain Forest | television; award 1988; television-single-documentary; nomination 346811, 351500 | No exact-title TMDB candidate |
-| BBC Breakfast: Post Office Special | television; award 2025; television-news-coverage; nomination 368277 | No exact-title TMDB candidate |
-| BBC Newsnight: BSE Coverage | television; award 1997; television-news-coverage; nomination 347391 | No exact-title TMDB candidate |
-| BBC Ten O'Clock News - 7 July 2005: London Bombs | television; award 2006; television-news-coverage; nomination 348048 | No exact-title TMDB candidate |
-| BBC Ten O'Clock News: Madrid Bombing | television; award 2005; television-news-coverage; nomination 347973 | No exact-title TMDB candidate |
-| Cambridge Analytica Uncovered | television; award 2019; television-news-coverage; nomination 357625 | No exact-title TMDB candidate |
 | CBeebies As You Like It at Shakespeare's Globe | television; award 2025; television-childrens-scripted; nomination 368206 | No exact-title TMDB candidate |
-| Channel 4 News Coverage Of War Crimes In Former Yugoslavia | television; award 1996; television-news-coverage; nomination 347330 | No exact-title TMDB candidate |
-| Channel 4 News - Fall Of Saddam | television; award 2004; television-news-coverage; nomination 347900 | No exact-title TMDB candidate |
-| Channel 4 News - Inside Gaza: Israel and Hamas at War | television; award 2024; television-news-coverage; nomination 361659 | No exact-title TMDB candidate |
-| Channel 4 News: Israel-Iran: The Twelve Day War | television; award 2026; television-news-coverage; nomination 374758 | No exact-title TMDB candidate |
-| Channel 4 News: Japan Earthquake | television; award 2012; television-news-coverage; nomination 348579 | No exact-title TMDB candidate |
-| Channel 4 News: Live in Kyiv | television; award 2023; television-news-coverage; nomination 361155 | No exact-title TMDB candidate |
-| Channel 4 News: Paris Massacre | television; award 2016; television-news-coverage; nomination 353448 | No exact-title TMDB candidate |
 | Cheltenham Festival Day One - ITV Sport | television; award 2024; television-sports-coverage; nomination 361685 | No exact-title TMDB candidate |
 | Deutsche Olympische Zentrum (Munich Olympic Games) | television; award 1973; television-international; nomination 345796 | No exact-title TMDB candidate |
 | Disability and Me (FYI Investigates) | television; award 2025; television-childrens-non-scripted; nomination 368203 | No exact-title TMDB candidate |
@@ -58,24 +46,17 @@ These commonly need a title alias, parent-series relationship, event/episode rec
 | F1: Hungarian Grand Prix - Jenson Button's First Win | television; award 2007; television-sports-coverage; nomination 348151 | No exact-title TMDB candidate |
 | Formula 1: The Abu Dhabi Grand Prix | television; award 2011; television-sports-coverage; nomination 348506 | No exact-title TMDB candidate |
 | Glastonbury 2024 | television, television-craft; award 2025; television-craft-director-multi-camera, television-live-event-coverage; nomination 368269, 368343 | No exact-title TMDB candidate |
-| Granada Reports: Morecambe Bay | television; award 2007; television-news-coverage; nomination 348126 | No exact-title TMDB candidate |
-| Hillsborough - The Truth at Last (Granada Reports) | television; award 2013; television-news-coverage; nomination 351296 | No exact-title TMDB candidate |
 | Holocaust - A Music Memorial Film From Auschwitz | television; award 2006; television-specialist-factual; nomination 348038 | No exact-title TMDB candidate |
 | Hong Kong Protests | television; award 2020; television-news-coverage; nomination 358958 | No exact-title TMDB candidate |
 | ITN Coverage Of The Crisis In Rwanda | television; award 1995; television-news-coverage; nomination 347262 | No exact-title TMDB candidate |
 | ITV1 F1: Brazilian Grand Prix 2008 | television; award 2009; television-sports-coverage; nomination 348323 | No exact-title TMDB candidate |
 | ITV F1: Canadian Grand Prix Live | television; award 2008; television-sports-coverage; nomination 348237 | No exact-title TMDB candidate |
-| ITV News At Ten - Haiti | television; award 2010; television-news-coverage; nomination 348388 | No exact-title TMDB candidate |
-| ITV News at Ten: Storming of the Capitol | television; award 2022; television-news-coverage; nomination 360367 | No exact-title TMDB candidate |
-| ITV News At Ten: The Cumbria Murders | television; award 2011; television-news-coverage; nomination 348486 | No exact-title TMDB candidate |
-| ITV News At Ten: Woolwich Attacks | television; award 2014; television-news-coverage; nomination 352257 | No exact-title TMDB candidate |
 | Joe Lycett vs Beckham: Got Your Back at Xmas | television; award 2023; television-factual-entertainment; nomination 361114 | No exact-title TMDB candidate |
 | John Bird | television; award 1966; television-entertainment; nomination 357157 | No exact-title TMDB candidate |
 | Just Pet (Musical) | television; award 1970; television-entertainment; nomination 345658 | No exact-title TMDB candidate |
 | Make Me Normal | television; award 2006; television-single-documentary; nomination 348033 | No exact-title TMDB candidate |
 | Middle English: Kurt, Mungo, BP And Me | television; award 1985; television-childrens-non-scripted; nomination 346585 | No exact-title TMDB candidate |
 | Near And Far, Now And Then: Going To School | television; award 1989; television-childrens-non-scripted; nomination 346855 | No exact-title TMDB candidate |
-| News At Ten - Chinese Earthquake | television; award 2009; television-news-coverage; nomination 348297 | No exact-title TMDB candidate |
 | Olympics 2004 - Matthew Pinsent's Rowing For Gold | television; award 2005; television-sports-coverage; nomination 347987 | No exact-title TMDB candidate |
 | On Trial: The Chicago Conspiracy Trial | television; award 1971; television-specialist-factual; nomination 345733 | No exact-title TMDB candidate |
 | Opium: The Warlords | television; award 1979; television-single-documentary; nomination 346170 | No exact-title TMDB candidate |
@@ -86,7 +67,6 @@ These commonly need a title alias, parent-series relationship, event/episode rec
 | Saving It For Albie | television; award 1978; television-leading-actress; nomination 346079 | No exact-title TMDB candidate |
 | Sky News - Glasgow Airport Attack | television; award 2008; television-news-coverage; nomination 348213 | No exact-title TMDB candidate |
 | Sky News: Inside Idlib | television; award 2021; television-news-coverage; nomination 359831 | No exact-title TMDB candidate |
-| Sky News Live At Five: Ebola | television; award 2015; television-news-coverage; nomination 352816 | No exact-title TMDB candidate |
 | Sky News: September 11th/12th | television; award 2002; television-news-coverage; nomination 347759 | No exact-title TMDB candidate |
 | Sky Rugby Union | television; award 1998; television-live-event-coverage; nomination 347456 | No exact-title TMDB candidate |
 | Soham - August 16/17 | television; award 2003; television-news-coverage; nomination 347831 | No exact-title TMDB candidate |
@@ -104,17 +84,15 @@ These commonly need a title alias, parent-series relationship, event/episode rec
 | The Repair Shop: A Royal Visit | television; award 2023; television-daytime; nomination 361094 | No exact-title TMDB candidate |
 | The Rohingya Crisis (Sky News) | television; award 2018; television-news-coverage; nomination 356809 | No exact-title TMDB candidate |
 | The Sextet (8 Plays) | television; award 1973; television-leading-actress; nomination 345783 | No exact-title TMDB candidate |
-| This Week: Death On The Rock | television; award 1989; television-single-documentary; nomination 346874, 351507 | No exact-title TMDB candidate |
 | UEFA Women's EURO 2022 | television; award 2023; television-sports-coverage; nomination 361184 | No exact-title TMDB candidate |
 | UEFA Women's Euro 2025 | television, television-craft; award 2026; television-craft-titles-graphic-identity, television-sports-coverage; nomination 374670, 374785 | No exact-title TMDB candidate |
 | VE Day 80: A Celebration to Remember | television; award 2026; television-live-event-coverage; nomination 374756 | No exact-title TMDB candidate |
-| Victoria Derbyshire: Footballers' Abuse | television; award 2017; television-news-coverage; nomination 356182 | No exact-title TMDB candidate |
 | Women Beware Women | television; award 1965; television-drama-series; nomination 345577 | No exact-title TMDB candidate |
 | World Athletics Championships | television; award 2010; television-sports-coverage; nomination 348409 | No exact-title TMDB candidate |
 | World. War. Me. (Sky Kids Investigates) | television; award 2026; television-childrens-non-scripted; nomination 374697 | No exact-title TMDB candidate |
 | World War One Remembered: Passchendaele | television, television-craft; award 2018; television-craft-director-multi-camera, television-craft-entertainment-craft-team, television-live-event-coverage; nomination 356689, 356702, 356797 | No exact-title TMDB candidate |
 
-## Candidate evidence rejected by the automatic contract (37)
+## Candidate evidence rejected by the automatic contract (36)
 
 These candidates lack a usable IMDb ID or fall outside the accepted award window and require explicit review.
 
@@ -136,7 +114,6 @@ These candidates lack a usable IMDb ID or fall outside the accepted award window
 | L'Aiguille Du Midi | television; award 1963; television-international; nomination 356874 | [series TMDB 48129](https://www.themoviedb.org/tv/48129) L'aiguille Du Midi — outside award window, no IMDb ID |
 | Laurence Olivier - A Life | television; award 1983; television-single-documentary; nomination 346474 | [movie TMDB 1489005](https://www.themoviedb.org/movie/1489005) Laurence Olivier: A Life (1982) — no IMDb ID |
 | Living Camera | television; award 1965; television-international; nomination 345580 | [series TMDB 48109](https://www.themoviedb.org/tv/48109) Living Camera — outside award window, no IMDb ID |
-| News At Ten | television; award 1970; television-current-affairs; nomination 345653 | [series TMDB 247546](https://www.themoviedb.org/tv/247546) News at Ten (1967) — outside award window, no IMDb ID |
 | News Hounds | television; award 1991; television-limited-drama; nomination 347016 | [movie TMDB 310969](https://www.themoviedb.org/movie/310969) News Hounds (1990) — no IMDb ID<br>[movie TMDB 91728 / tt0039656](https://www.themoviedb.org/movie/91728) News Hounds (1947) — outside award window |
 | Nijinsky, God Of The Dance | television; award 1976; television-leading-actor; nomination 345926 | [series TMDB 48360](https://www.themoviedb.org/tv/48360) Nijinsky, God Of The Dance — outside award window, no IMDb ID |
 | Paradise Street | television; award 1965; television-single-documentary; nomination 345575 | [series TMDB 48091](https://www.themoviedb.org/tv/48091) Paradise Street — outside award window, no IMDb ID |
