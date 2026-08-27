@@ -209,3 +209,14 @@ Before V1.2 BAFTA Film publication:
 Owner acceptance completed against immutable preview commit `89b830a2977b87b72751756942e557d8c234af9a`. Representative movie and mixed-series histories resolved through the installed metadata provider. The British Short Animation series split rendered *SuperTed*, *Alias the Jester*, and *Henry's Cat* with artwork; the Documentary series split correctly retained *In Need of Special Care* with its documented unavailable-poster outcome. The preview's 173 published routes returned HTTP 200 and byte-matched the accepted commit before merge.
 
 PR #34 subsequently merged as `6a956d934e0ffcd9f56cab9835970a0ab18f5b2c`. Main CI and GitHub Pages passed, all 173 deployed files byte-matched that merge, and the owner confirmed the live release. The known-good V1.2 state is preserved by annotated tag `v1.2.0` and its corresponding GitHub Release.
+
+Before V1.3 BAFTA Television publication:
+
+1. Complete the reviewed Television identity set and deterministically generate all 27 current lineages.
+2. Audit every published work through the production artwork and metadata paths.
+3. Add exact static metadata fallbacks only for reviewed IDs that the recommended provider does not return.
+4. Publish the all-awards and BAFTA Television preset manifests from an immutable preview commit.
+5. Pass repository validation and verify provider-resolved, movie-fallback, and series-fallback detail routes in Nuvio.
+6. Merge only after owner acceptance, then confirm main CI, GitHub Pages, and deployed byte equality before preserving V1.3.
+
+Owner acceptance completed against corrected immutable preview commit `e8da9ad671648fe3915255aaa98a51681268b38a`. Nuvio loaded compact movie fallbacks for *Friday Night Live* and both Stanley Baxter titles, the compact series fallback for *Timmy and Vicki*, and full provider metadata for *Robbie the Reindeer: Hooves of Fire*. PR #38 subsequently merged as `860a79cff358393137b4a28ad25d60b5a1faf2a1`; main CI and GitHub Pages passed, and all 367 deployed landing-page, manifest, preset, catalogue, and metadata routes byte-matched that merge. The known-good V1.3 state is preserved by annotated tag `v1.3.0` and its corresponding GitHub Release.

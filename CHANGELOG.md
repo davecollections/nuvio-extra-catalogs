@@ -4,6 +4,8 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ## [Unreleased]
 
+## [1.3.0] - 2026-08-27
+
 ### Added
 
 - Complete BAFTA Television winner histories for all 27 reviewed current lineages: 931 canonical winner records and 970 work links after seven exact duplicate archive records are collapsed.
@@ -22,13 +24,19 @@ All notable project milestones are recorded here. This project uses semantic ver
 - CI now requires complete BAFTA Television work review and reproduces its canonical import, catalogue outputs, artwork and metadata evidence, exact static fallbacks, preset routes, and repository-wide manifest contracts offline.
 - The manifest remains catalogue-led but now advertises a narrowly filtered `meta` resource for the 51 exact IMDb IDs that Nuvio's recommended provider does not return. Other title metadata continues to come from installed providers.
 
-### Validated for V1.3 preview
+### Validated for V1.3 release
 
 - Shared canonical validation passes with 4 award bodies, 104 categories, 337 ceremony files, 5,992 results, 6,052 work links, and 7,995 person links.
 - BAFTA Television contracts pass with 78 archive years, 931 canonical results, 970 work links, and 45 generated catalogue payloads.
 - The all-awards manifest and all four award presets pass exact route, payload-shape, media-type, byte-equality, and catalogue-set validation with 5,751 total Meta Preview items.
 - Live artwork review checks all 667 unique published BAFTA Television titles: 563 resolve directly through MetaHub, eight use reviewed TMDB fallbacks, and 96 are explicit unavailable-poster outcomes.
-- Live metadata review resolves 616 titles through Nuvio's provider. Of its 51 gaps, 39 also resolve through Cinemeta and 12 do not; all 51 now have deterministic compact fallbacks ready for corrected-preview acceptance testing.
+- Live metadata review resolves 616 titles through Nuvio's provider. Of its 51 gaps, 39 also resolve through Cinemeta and 12 do not; all 51 have deterministic compact fallbacks.
+- GitHub CI passed for corrected immutable preview commit `e8da9ad671648fe3915255aaa98a51681268b38a`. The owner accepted compact movie fallbacks for *Friday Night Live* and both Stanley Baxter titles, the compact series fallback for *Timmy and Vicki*, and unaffected full provider metadata for *Robbie the Reindeer: Hooves of Fire*.
+- PR #38 merged as `860a79cff358393137b4a28ad25d60b5a1faf2a1`; main CI and GitHub Pages passed, and all 367 deployed landing-page, manifest, preset, catalogue, and metadata routes returned exact bytes from that merge.
+
+### Known-good rollback point
+
+The exact owner-accepted V1.3 state is preserved by annotated tag `v1.3.0` and its corresponding GitHub Release.
 
 ## [1.2.0] - 2026-08-26
 
