@@ -23580,7 +23580,14 @@
         "345632"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Root of All Evil?",
+        "releaseYear": 1968,
+        "imdbId": "tt1346933",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Edward Woodward's credited A Bit of a Holiday is an identified 1969 episode of the ITV anthology series The Root of All Evil?; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:absolutelyfabulous:1993",
@@ -25595,30 +25602,14 @@
         "345650"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 10756,
-          "title": "A Year in the Life",
-          "originalTitle": "A Year in the Life",
-          "releaseYear": 1987,
-          "lastAirYear": 1988,
-          "imdbId": "tt0092488",
-          "awardWindowPlausible": false,
-          "popularity": 4.969
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 77044,
-          "title": "A Year in the Life",
-          "originalTitle": "A Year in the Life",
-          "releaseYear": 1986,
-          "lastAirYear": 1986,
-          "imdbId": "tt0090549",
-          "awardWindowPlausible": false,
-          "popularity": 2.1127
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "A Year in the Life",
+        "releaseYear": 1969,
+        "imdbId": "tt43277628",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Paul Watson's credited documentary is the 1969 Granada series A Year in the Life; the exact Craghead production is an episode of this compatible parent series."
     },
     {
       "key": "television:babyreindeer:2025",
@@ -30246,7 +30237,14 @@
         "368203"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "FYI - SKY News for Kids",
+        "releaseYear": 2019,
+        "imdbId": "tt11608566",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Disability & Me is an identified 2024 edition of the children's news series FYI - SKY News for Kids; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:disappearingworld:1976",
@@ -31509,7 +31507,14 @@
         "361675"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Ellie Simmonds: Finding My Secret Family",
+        "releaseYear": 2023,
+        "imdbId": "tt31846918",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Director Jasleen Kaur Sethi identifies the 2023 ITV television documentary Ellie Simmonds: Finding My Secret Family; IMDb supplies the compatible movie identity absent from TMDB."
     },
     {
       "key": "television:emmerdale:2001",
@@ -31846,7 +31851,14 @@
         "361734"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Eurovision Song Contest",
+        "releaseYear": 1956,
+        "imdbId": "tt0313343",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The winning Liverpool 2023 Grand Final is an identified edition of the continuing Eurovision Song Contest; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:evicted:2007",
@@ -32694,7 +32706,14 @@
         "348506"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Formula 1: BBC Sport",
+        "releaseYear": 2009,
+        "imdbId": "tt1540109",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The Abu Dhabi Grand Prix is the 2010 season finale of Formula 1: BBC Sport; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:fortitude:2016",
@@ -33367,7 +33386,14 @@
         "368343"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Glastonbury 2024",
+        "releaseYear": 2024,
+        "imdbId": "tt36564052",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The Live Event Coverage winner is the 2024 BBC television series Glastonbury 2024; IMDb supplies the compatible series identity absent from TMDB."
     },
     {
       "key": "television:glastonburyfestivalliveatworthyfarm:2022",
@@ -35124,7 +35150,14 @@
         "348038"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Holocaust: A Music Memorial Film",
+        "releaseYear": 2005,
+        "imdbId": "tt0443534",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Director James Kent identifies the 2005 BBC television special Holocaust: A Music Memorial Film; IMDb supplies the compatible movie identity absent from TMDB."
     },
     {
       "key": "television:hongkongprotests:2020",
@@ -35144,7 +35177,14 @@
         "358958"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Sky News: Hong Kong Protests",
+        "releaseYear": 2019,
+        "imdbId": "tt39074249",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The News Coverage winner is the 2019 Sky News television special Sky News: Hong Kong Protests; IMDb supplies the compatible movie identity absent from TMDB."
     },
     {
       "key": "television:horizon:1973",
@@ -36585,7 +36625,14 @@
         "348323"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Formula 1",
+        "releaseYear": 1950,
+        "imdbId": "tt6758316",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "ITV1's 2008 Brazilian Grand Prix is an identified edition of the continuing Formula 1 event series; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:itvf1canadiangrandprixlive:2008",
@@ -36901,7 +36948,14 @@
         "361114"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Joe Lycett's Got Your Back",
+        "releaseYear": 2019,
+        "imdbId": "tt10112036",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Joe Lycett vs Beckham: Got Your Back at Xmas is an identified 2022 special of Joe Lycett's Got Your Back; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:johnbird:1966",
@@ -38855,7 +38909,14 @@
         "348033"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Only Human",
+        "releaseYear": 2005,
+        "imdbId": "tt0835702",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Jonathan Smith's Make Me Normal is an identified 2005 edition of the documentary series Only Human; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:maliceaforethought:1980",
@@ -39210,7 +39271,14 @@
         "346585"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Middle English",
+        "releaseYear": 1981,
+        "imdbId": "tt32085850",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Peter Tabern's Kurt, Mungo, BP and Me is an identified 1984 episode of the children's documentary series Middle English; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:middlemarch:1995",
@@ -41787,7 +41855,14 @@
         "345733"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Chicago Conspiracy Trial",
+        "releaseYear": 1970,
+        "imdbId": "tt5257528",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Christopher Burstall identifies the 1970 Granada television film The Chicago Conspiracy Trial, presented by BAFTA as On Trial: The Chicago Conspiracy Trial."
     },
     {
       "key": "television:operatunity:2004",
@@ -42335,7 +42410,14 @@
         "368304"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Paris 2024: XXXIII Olympic Summer Games",
+        "releaseYear": 2024,
+        "imdbId": "tt12752438",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "BBC One's Paris 2024 Olympics coverage is represented by the compatible television event-series identity Paris 2024: XXXIII Olympic Summer Games."
     },
     {
       "key": "television:parkinson:1999",
@@ -44636,7 +44718,14 @@
         "346079"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Cottage to Let",
+        "releaseYear": 1977,
+        "imdbId": "tt4489940",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Penelope Keith's credited Saving It for Albie is an identified 1977 episode of the ITV series Cottage to Let; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:scaminterceptors:2024",
@@ -46323,7 +46412,14 @@
         "368379"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "A State of Rage",
+        "releaseYear": 2024,
+        "imdbId": "tt34001166",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Director Marcel Mettelsiefen identifies the 2024 documentary A State of Rage, presented by BAFTA without the opening article."
     },
     {
       "key": "television:stathletsflats:2020",
@@ -46927,7 +47023,14 @@
         "347697"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Sydney 2000: Games of the XXVII Olympiad",
+        "releaseYear": 2000,
+        "imdbId": "tt0397203",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The Sports Coverage winner is the television event series Sydney 2000: Games of the XXVII Olympiad; IMDb supplies the compatible series identity absent from TMDB."
     },
     {
       "key": "television:syriaacrossthelinesdispatches:2014",
@@ -48533,7 +48636,14 @@
         "347844"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Manchester 2002: XVII Commonwealth Games",
+        "releaseYear": 2002,
+        "imdbId": "tt15194044",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The Sports Coverage winner is the television event series Manchester 2002: XVII Commonwealth Games; IMDb supplies the compatible series identity absent from TMDB."
     },
     {
       "key": "television:thecops:1999",
@@ -52408,7 +52518,14 @@
         "356170"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Queen's 90th Birthday Celebration",
+        "releaseYear": 2016,
+        "imdbId": "tt29538590",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Chris Power identifies the 2016 ITV television special The Queen's 90th Birthday Celebration; IMDb supplies the compatible movie identity absent from TMDB."
     },
     {
       "key": "television:thequeensgoldenjubilee:2003",
@@ -56139,16 +56256,14 @@
         "346647"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 47755,
-          "title": "Timmy's Story",
-          "originalTitle": "Timmy's Story",
-          "awardWindowPlausible": false,
-          "popularity": 0.3191
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Timmy and Vicki",
+        "releaseYear": 1985,
+        "imdbId": "tt43710601",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Timmy's Story is an identified 1985 episode of the children's documentary series Timmy and Vicki; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:tinkertailorsoldierspy:1980",
@@ -57146,7 +57261,14 @@
         "361184"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "UEFA Women's Euro 2022",
+        "releaseYear": 2022,
+        "imdbId": "tt12740018",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The Sports Coverage winner is the 2022 television event series UEFA Women's Euro 2022; IMDb supplies the compatible series identity absent from TMDB."
     },
     {
       "key": "television:uefawomenseuro2025:2026",
@@ -57169,7 +57291,14 @@
         "374785"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Match of the Day Live: Women's UEFA Euro 2025",
+        "releaseYear": 2025,
+        "imdbId": "tt37740869",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The 2026 Sports Coverage and craft records identify the BBC live coverage represented by Match of the Day Live: Women's UEFA Euro 2025, rather than the generic event identity."
     },
     {
       "key": "television:ukraineenemyinthewoods:2025",
@@ -57443,7 +57572,14 @@
         "374756"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "VE Day 80: A Celebration to Remember",
+        "releaseYear": 2025,
+        "imdbId": "tt41070842",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The Live Event Coverage winner is the 2025 BBC television series VE Day 80: A Celebration to Remember; IMDb supplies the compatible series identity absent from TMDB."
     },
     {
       "key": "television:venicedeath:2005",
@@ -58688,7 +58824,14 @@
         "348409"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "12th IAAF World Championships in Athletics Berlin 2009",
+        "releaseYear": 2009,
+        "imdbId": "tt1498696",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The Sports Coverage winner is the 2009 television event series 12th IAAF World Championships in Athletics Berlin 2009; IMDb supplies the compatible series identity absent from TMDB."
     },
     {
       "key": "television:worldinaction:1974",
@@ -58917,47 +59060,14 @@
         "348393"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 207177,
-          "title": "Wounded",
-          "originalTitle": "Wounded",
-          "releaseYear": 1997,
-          "imdbId": "tt0120534",
-          "awardWindowPlausible": false,
-          "popularity": 1.5587
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 221404,
-          "title": "Wounded",
-          "originalTitle": "مجاريح",
-          "releaseYear": 2023,
-          "lastAirYear": 2023,
-          "awardWindowPlausible": false,
-          "popularity": 1.9192
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 209418,
-          "title": "Wounded",
-          "originalTitle": "La herida",
-          "releaseYear": 2013,
-          "imdbId": "tt2721712",
-          "awardWindowPlausible": false,
-          "popularity": 1.51
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1689355,
-          "title": "Wounded",
-          "originalTitle": "Wounded",
-          "releaseYear": 2026,
-          "awardWindowPlausible": false,
-          "popularity": 1.1267
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Wounded",
+        "releaseYear": 2009,
+        "imdbId": "tt2058136",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Sara Hardy's documentary is the 2009 BBC television film Wounded; IMDb supplies the compatible movie identity absent from TMDB."
     },
     {
       "key": "television:wsomersetmaughamseries:1970",
