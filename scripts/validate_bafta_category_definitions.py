@@ -226,7 +226,16 @@ def main() -> None:
         exact_keys(
             entry,
             {"programme", "nominationId", "sourceValue", "values", "reason"},
-            {"programme", "nominationId", "sourceValue", "values", "reason"},
+            {
+                "programme",
+                "nominationId",
+                "sourceValue",
+                "values",
+                "reason",
+                "separator",
+                "sourceParts",
+                "sourceSeparators",
+            },
             "work split",
         )
         programme_id = entry["programme"]
@@ -260,10 +269,49 @@ def main() -> None:
             and all(isinstance(value, str) and value.strip() == value for value in values),
             f"work split requires at least two exact values: {key}",
         )
-        require(
-            "/".join(values) == entry["sourceValue"],
-            f"work split values do not reconstruct the official source value: {key}",
-        )
+        source_parts = entry.get("sourceParts")
+        source_separators = entry.get("sourceSeparators")
+        separator = entry.get("separator", "/")
+        if source_parts is None and source_separators is None:
+            require(
+                isinstance(separator, str) and separator,
+                f"work split has an invalid separator: {key}",
+            )
+            require(
+                separator.join(values) == entry["sourceValue"],
+                f"work split values do not reconstruct the official source value: {key}",
+            )
+        else:
+            require(
+                "separator" not in entry,
+                f"work split cannot combine separator with source parts: {key}",
+            )
+            require(
+                isinstance(source_parts, list)
+                and len(source_parts) == len(values)
+                and all(isinstance(value, str) and value.strip() == value for value in source_parts),
+                f"work split requires one exact source part per value: {key}",
+            )
+            require(
+                isinstance(source_separators, list)
+                and len(source_separators) == len(values) - 1
+                and all(isinstance(value, str) and value for value in source_separators),
+                f"work split requires exact source separators: {key}",
+            )
+            reconstructed = source_parts[0]
+            for source_separator, source_part in zip(source_separators, source_parts[1:]):
+                reconstructed += source_separator + source_part
+            require(
+                reconstructed == entry["sourceValue"],
+                f"work split source parts do not reconstruct the official source value: {key}",
+            )
+            for value, source_part in zip(values, source_parts):
+                normalized_value = re.sub(r"[^a-z0-9]+", "", value.casefold())
+                normalized_part = re.sub(r"[^a-z0-9]+", "", source_part.casefold())
+                require(
+                    normalized_value in normalized_part,
+                    f"work split value is not represented by its source part: {key}",
+                )
         require(
             isinstance(entry["reason"], str) and entry["reason"].strip() == entry["reason"],
             f"work split requires a reason: {key}",
@@ -323,14 +371,16 @@ def main() -> None:
                 f"{programme_id}/{winner['nominationId']}: invalid work value",
             )
             normalized_heading = re.sub(r"[^a-z0-9]+", "", winner["heading"].casefold())
-            repeats_source_text = bool(winner.get("details")) and all(
+            source_details = winner.get("details")
+            repeats_source_text = bool(source_details) and all(
                 re.sub(r"[^a-z0-9]+", "", value.casefold()) == normalized_heading
-                for value in winner["details"]
+                for value in source_details
             )
+            source_has_no_associated_work = not source_details or repeats_source_text
             omission_key = (programme_id, winner["nominationId"])
             if omission_key in omission_keys:
                 require(
-                    repeats_source_text,
+                    source_has_no_associated_work,
                     f"{programme_id}/{winner['nominationId']}: work omission is no longer justified",
                 )
                 seen_omissions.add(omission_key)

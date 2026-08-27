@@ -1,0 +1,1508 @@
+{
+  "schemaVersion": 1,
+  "awardBodyId": "bafta-television",
+  "checkedAt": "2026-08-27",
+  "productionPosterTemplate": "https://images.metahub.space/poster/medium/{imdb_id}/img",
+  "publishedUniqueTitleCount": 667,
+  "metaHubAvailableCount": 563,
+  "metaHubMissingCount": 104,
+  "tmdbFallbackCount": 8,
+  "knownUnavailableCount": 96,
+  "fallbackReview": [
+    {
+      "imdbId": "tt0057734",
+      "title": "The Big Noise",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-entertainment-winning-series"
+      ],
+      "tmdbId": 22697,
+      "workKey": "television:thebignoise:1965",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0057982",
+      "title": "Culloden",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-specialist-factual-winning-films"
+      ],
+      "tmdbId": 61302,
+      "workKey": "television:culloden:1965",
+      "posterPath": "/hptZ0wiHRbQqODlfrOcnWAQpA6v.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/hptZ0wiHRbQqODlfrOcnWAQpA6v.jpg",
+      "fallbackNote": "TMDB supplies an explicit poster fallback."
+    },
+    {
+      "imdbId": "tt0058856",
+      "title": "The World of Wooster",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-scripted-comedy-winning-series"
+      ],
+      "tmdbId": 24314,
+      "workKey": "television:theworldofwooster:1965",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0067875",
+      "title": "Traitor",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-leading-actor-winning-films"
+      ],
+      "tmdbId": 320943,
+      "workKey": "television:traitor:1972",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0087725",
+      "title": "Sagan om livet",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-international-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:swedenthemiracleoflife:1983",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0092324",
+      "title": "Blackadder the Third",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-scripted-comedy-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:blackadderthethird:1988",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0108748",
+      "title": "Don't Forget Your Toothbrush",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-entertainment-winning-series"
+      ],
+      "tmdbId": 2532,
+      "workKey": "television:dontforgetyourtoothbrush:1995",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0110800",
+      "title": "Pauline Calf's Wedding Video",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-scripted-comedy-winning-films"
+      ],
+      "tmdbId": 137025,
+      "workKey": "television:threefightstwoweddingsandafuneral:1995",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0159228",
+      "title": "Your Mother Wouldn't Like It",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-childrens-scripted-winning-series"
+      ],
+      "tmdbId": 4501,
+      "workKey": "television:yourmotherwouldntlikeit:1987",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0159852",
+      "title": "Boyd Q.C.",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-leading-actress-winning-series"
+      ],
+      "tmdbId": 18443,
+      "workKey": "television:endofterm:1965",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0174882",
+      "title": "Lost for Words",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-leading-actress-winning-films"
+      ],
+      "tmdbId": 241521,
+      "workKey": "television:lostforwords:2000",
+      "posterPath": "/2rjRNEqKiIsVS5HSLTMPqAwmvMY.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/2rjRNEqKiIsVS5HSLTMPqAwmvMY.jpg",
+      "fallbackNote": "TMDB supplies an explicit poster fallback."
+    },
+    {
+      "imdbId": "tt0211948",
+      "title": "The Big Impression",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-scripted-comedy-winning-series"
+      ],
+      "tmdbId": 2662,
+      "workKey": "television:alistairmcgowansbigimpression:2003",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0212512",
+      "title": "The South African Experience: Six Days of Soweto",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-factual-series-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:thesouthafricanexperience:1978",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0229912",
+      "title": "News at Ten",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-current-affairs-winning-series",
+        "bafta-television-news-coverage-winning-series"
+      ],
+      "tmdbId": 3679,
+      "workKeys": [
+        "television:itvnewsattenhaiti:2010",
+        "television:itvnewsattenstormingofthecapitol:2022",
+        "television:itvnewsattenthecumbriamurders:2011",
+        "television:itvnewsattenwoolwichattacks:2014",
+        "television:newsatten:1970",
+        "television:newsattenchineseearthquake:2009"
+      ],
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0264999",
+      "title": "Sportsview",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-current-affairs-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:sportsview:1960",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0267154",
+      "title": "Bookmark",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-specialist-factual-winning-series"
+      ],
+      "tmdbId": 47702,
+      "workKey": "television:bookmarkthevampireslife:1994",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0269866",
+      "title": "A Simple Man",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-specialist-factual-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:lslowryasimpleman:1988",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0283171",
+      "title": "Back to the Floor",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-factual-entertainment-winning-series"
+      ],
+      "tmdbId": 20248,
+      "workKey": "television:backtothefloor:1999",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0294156",
+      "title": "Not So Much a Programme, More a Way of Life",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-leading-actor-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:notsomuchaprogramme:1965",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0294205",
+      "title": "This Week",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-single-documentary-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:thisweekdeathontherock:1989",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0295815",
+      "title": "Rory Bremner...Who Else?",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-entertainment-performance-winning-series",
+        "bafta-television-entertainment-winning-series"
+      ],
+      "tmdbId": 24798,
+      "workKeys": [
+        "television:rorybremnerwhoelse:1994",
+        "television:rorybremnerwhoelse:1995",
+        "television:rorybremnerwhoelse:1996",
+        "television:rorybremnerwhoelse:1997"
+      ],
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0296446",
+      "title": "True Stories",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-single-documentary-winning-series"
+      ],
+      "tmdbId": null,
+      "workKeys": [
+        "television:truestories100white:2001",
+        "television:truestorieschosen:2009",
+        "television:truestoriesdivorceiranianstyle:2000",
+        "television:truestoriesthebetrayed:1996",
+        "television:truestoriesthegrave:1998",
+        "television:truestoriestheunforgiving:1994"
+      ],
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0296863",
+      "title": "The Stanley Baxter Big Picture Show",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-entertainment-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:thestanleybaxterbigpictureshow:1974",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0296864",
+      "title": "The Stanley Baxter Moving Picture Show",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-entertainment-performance-winning-films",
+        "bafta-television-entertainment-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:thestanleybaxtermovingpictureshow:1975",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0297595",
+      "title": "Naked Hollywood",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-factual-series-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:nakedhollywood:1992",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0305390",
+      "title": "Coping with Christmas",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-childrens-scripted-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:copingwithchristmas:1996",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0307093",
+      "title": "Licking Hitler",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-limited-drama-winning-films"
+      ],
+      "tmdbId": 320667,
+      "workKey": "television:lickinghitler:1979",
+      "posterPath": "/k5xYBaEmWv2AliDAEee9c97592b.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/k5xYBaEmWv2AliDAEee9c97592b.jpg",
+      "fallbackNote": "TMDB supplies an explicit poster fallback."
+    },
+    {
+      "imdbId": "tt0309129",
+      "title": "Armchair Mystery Theatre",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-leading-actress-winning-series"
+      ],
+      "tmdbId": 48689,
+      "workKey": "television:madam:1965",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0313343",
+      "title": "Eurovision Song Contest",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-live-event-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:eurovisionsongcontest2023:2024",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0329927",
+      "title": "Short Change",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-childrens-non-scripted-winning-series"
+      ],
+      "tmdbId": 34181,
+      "workKey": "television:shortchange:1996",
+      "posterPath": "/2Cl5HDJP1iZfCcdET9bnCVdXO9e.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/2Cl5HDJP1iZfCcdET9bnCVdXO9e.jpg",
+      "fallbackNote": "TMDB supplies an explicit poster fallback."
+    },
+    {
+      "imdbId": "tt0350920",
+      "title": "Feltham Sings",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-single-documentary-winning-films"
+      ],
+      "tmdbId": 444685,
+      "workKey": "television:felthamsings:2003",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0357396",
+      "title": "Sky News: Live at Five",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-news-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:skynewsliveatfiveebola:2015",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0367292",
+      "title": "Blackmail",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-leading-actress-winning-series"
+      ],
+      "tmdbId": 25020,
+      "workKey": "television:takecareofmadam:1965",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0367296",
+      "title": "The Book Tower",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-childrens-non-scripted-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:booktower:1983",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0379127",
+      "title": "Leaving Home",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-specialist-factual-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:rhythmleavinghome:1997",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0388616",
+      "title": "The Long Johns",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-entertainment-performance-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:thelongjohns:1997",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0397203",
+      "title": "Sydney 2000: Games of the XXVII Olympiad",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:sydneyolympics2000:2001",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0405611",
+      "title": "The Wednesday Thriller",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-drama-series-winners"
+      ],
+      "tmdbId": null,
+      "workKey": "television:thebabysitter:1965",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0443534",
+      "title": "Holocaust: A Music Memorial Film",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-specialist-factual-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:holocaustamusicmemorialfilmfromauschwitz:2006",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0449030",
+      "title": "The Government Inspector",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-leading-actor-winning-films",
+        "bafta-television-limited-drama-winning-films"
+      ],
+      "tmdbId": 268728,
+      "workKey": "television:thegovernmentinspector:2006",
+      "posterPath": "/iUTuimPuOXkC2D5gbV5RluLLnHq.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/iUTuimPuOXkC2D5gbV5RluLLnHq.jpg",
+      "fallbackNote": "TMDB supplies an explicit poster fallback."
+    },
+    {
+      "imdbId": "tt0479832",
+      "title": "Granada Reports",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-news-coverage-winning-series"
+      ],
+      "tmdbId": 830,
+      "workKeys": [
+        "television:granadareportsmorecambebay:2007",
+        "television:hillsboroughthetruthatlastgranadareports:2013"
+      ],
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0480065",
+      "title": "On the Move",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-specialist-factual-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:onthemove:1977",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0499367",
+      "title": "The Rise and Fall of César Birotteau",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-leading-actress-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:thecesarbirotteau:1965",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0595280",
+      "title": "Crown Matrimonial",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-leading-actor-winning-films"
+      ],
+      "tmdbId": 1708769,
+      "workKey": "television:crownmatrimonial:1975",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0834479",
+      "title": "The House",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-factual-series-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:thehouse:1997",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0835702",
+      "title": "Only Human",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-single-documentary-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:makemenormal:2006",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0913749",
+      "title": "Meeting Point",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-leading-actor-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:meetingpoint:1965",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt0958966",
+      "title": "W. Somerset Maugham",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-drama-series-winners"
+      ],
+      "tmdbId": 45772,
+      "workKey": "television:wsomersetmaughamseries:1970",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt0990517",
+      "title": "The Ark",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-factual-series-winning-series"
+      ],
+      "tmdbId": 297178,
+      "workKey": "television:theark:1994",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt10137860",
+      "title": "Blue Planet Live",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-live-event-coverage-winning-series"
+      ],
+      "tmdbId": 87876,
+      "workKey": "television:blueplanetlive:2020",
+      "posterPath": "/zCqDrrcJBZddEmBg9STYxcJu0CD.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/zCqDrrcJBZddEmBg9STYxcJu0CD.jpg",
+      "fallbackNote": "TMDB supplies an explicit poster fallback."
+    },
+    {
+      "imdbId": "tt10998480",
+      "title": "ITV Sport: Rugby World Cup 2019",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:2019rugbyworldcupfinalenglandvsouthafrica:2020",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt11608566",
+      "title": "FYI - SKY News for Kids",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-childrens-non-scripted-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:disabilityandmefyiinvestigates:2025",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt12740018",
+      "title": "UEFA Women's Euro 2022",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:uefawomenseuro2022:2023",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt12752438",
+      "title": "Paris 2024: XXXIII Olympic Summer Games",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:paris2024olympicsbbcone:2025",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt1346933",
+      "title": "The Root of All Evil?",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-leading-actor-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:abitofaholiday:1970",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt1351662",
+      "title": "The Ritz",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-single-documentary-winning-series"
+      ],
+      "tmdbId": 47842,
+      "workKey": "television:theritz:1982",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt13801796",
+      "title": "Ipso Facto",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-childrens-non-scripted-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:ipsofacto:1991",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt13839292",
+      "title": "Now & Then",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-childrens-non-scripted-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:nearandfarnowandthengoingtoschool:1989",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt1384817",
+      "title": "Story Parade",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-drama-series-winners"
+      ],
+      "tmdbId": null,
+      "workKey": "television:theoldboys:1965",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt14540164",
+      "title": "The Royal British Legion Festival of Remembrance",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-live-event-coverage-winning-series"
+      ],
+      "tmdbId": 214354,
+      "workKey": "television:theroyalbritishlegionfestivalofremembrance:2019",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt1461349",
+      "title": "Sky World News",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-news-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKeys": [
+        "television:skynewsglasgowairportattack:2008",
+        "television:skynewsinsideidlib:2021",
+        "television:skynewsseptember11th12th:2002",
+        "television:sohamaugust1617:2003",
+        "television:therohingyacrisisskynews:2018"
+      ],
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt1498696",
+      "title": "12th IAAF World Championships in Athletics Berlin 2009",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:worldathleticschampionships:2010",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt15194044",
+      "title": "Manchester 2002: XVII Commonwealth Games",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:thecommonwealthgames:2003",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt1540109",
+      "title": "Formula 1: BBC Sport",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:formula1theabudhabigrandprix:2011",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt1646040",
+      "title": "Famous Gossips",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-leading-actor-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:famousgossips:1965",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt1817823",
+      "title": "Blue Peter Special Assignment",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-leading-actress-winning-series"
+      ],
+      "tmdbId": 31932,
+      "workKey": "television:bluepeterspecialassignmentthedukeofwellington:1980",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt1887593",
+      "title": "Welcome to Lagos",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-factual-series-winning-series"
+      ],
+      "tmdbId": 43913,
+      "workKey": "television:welcometolagos:2011",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt2004332",
+      "title": "Random",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-limited-drama-winning-films"
+      ],
+      "tmdbId": 226003,
+      "workKey": "television:random:2012",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt20124924",
+      "title": "How to Be a Person",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-short-form-winning-series"
+      ],
+      "tmdbId": 226681,
+      "workKey": "television:howtobeaperson:2023",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt20447178",
+      "title": "Coping with Grown Ups",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-childrens-scripted-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:copingwithgrownups:1995",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt2058136",
+      "title": "Wounded",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-single-documentary-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:wounded:2010",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt2205661",
+      "title": "The Secret Policeman",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-current-affairs-winning-films"
+      ],
+      "tmdbId": 921323,
+      "workKey": "television:thesecretpoliceman:2004",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt2266799",
+      "title": "The Orphans of Nkandla",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-single-documentary-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:theorphansofnkandla:2005",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt2295859",
+      "title": "One Life",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-single-documentary-winning-series"
+      ],
+      "tmdbId": 24217,
+      "workKey": "television:onelifelagermumandme:2004",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt22987508",
+      "title": "Friday Night Live",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-entertainment-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:fridaynightlive:2023",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt28500169",
+      "title": "River Journeys",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-factual-series-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:riverjourneys:1985",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt29538590",
+      "title": "The Queen's 90th Birthday Celebration",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-live-event-coverage-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:thequeens90thbirthdaycelebration:2017",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt3013722",
+      "title": "Police",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-factual-series-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:police:1983",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt31846918",
+      "title": "Ellie Simmonds: Finding My Secret Family",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-single-documentary-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:elliesimmondsfindingmysecretfamily:2024",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt31848311",
+      "title": "ITV Racing",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:cheltenhamfestivaldayoneitvsport:2024",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt32085850",
+      "title": "Middle English",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-childrens-non-scripted-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:middleenglishkurtmungobpandme:1985",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt32189654",
+      "title": "Girls Wanted, Istanbul",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-specialist-factual-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:girlswantedistanbul:1970",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt36564052",
+      "title": "Glastonbury 2024",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-live-event-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:glastonbury2024:2025",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt37740869",
+      "title": "Match of the Day Live: Women's UEFA Euro 2025",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:uefawomenseuro2025:2026",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt3779844",
+      "title": "The Open",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-films"
+      ],
+      "tmdbId": 368926,
+      "workKey": "television:theopen:2017",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt38526010",
+      "title": "Long Lost Family: Born Without Trace",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-factual-entertainment-winning-series"
+      ],
+      "tmdbId": 131427,
+      "workKey": "television:longlostfamilybornwithouttrace:2021",
+      "posterPath": "/7BsNbVUrxvpjbgemEitz1ds6BTT.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/7BsNbVUrxvpjbgemEitz1ds6BTT.jpg",
+      "fallbackNote": "TMDB supplies an explicit poster fallback."
+    },
+    {
+      "imdbId": "tt39074249",
+      "title": "Sky News: Hong Kong Protests",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-news-coverage-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:hongkongprotests:2020",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt4326224",
+      "title": "After Lockerbie",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-single-documentary-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:afterlockerbie:1999",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt43277628",
+      "title": "A Year in the Life",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-single-documentary-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:ayearinthelife:1970",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt43710601",
+      "title": "Timmy and Vicki",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-childrens-non-scripted-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:timmysstory:1986",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt4459770",
+      "title": "Don't Take My Baby",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-limited-drama-winning-films"
+      ],
+      "tmdbId": 352178,
+      "workKey": "television:donttakemybaby:2016",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt4489940",
+      "title": "Cottage to Let",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-leading-actress-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:savingitforalbie:1978",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt5123004",
+      "title": "Britain's Forgotten Slave Owners",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-specialist-factual-winning-series"
+      ],
+      "tmdbId": 197916,
+      "workKey": "television:britainsforgottenslaveowners:2016",
+      "posterPath": "/uwCEpnDjOpXrxmUNy87kr9E6SKt.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/uwCEpnDjOpXrxmUNy87kr9E6SKt.jpg",
+      "fallbackNote": "TMDB supplies an explicit poster fallback."
+    },
+    {
+      "imdbId": "tt5448310",
+      "title": "Channel 4 Racing",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-live-event-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:channel4racingderbyday:1999",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt5763260",
+      "title": "Formula 1: Sky Sports F1",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:theabudhabigrandprix:2022",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt6282482",
+      "title": "First Tuesday",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-single-documentary-winning-series"
+      ],
+      "tmdbId": 19874,
+      "workKey": "television:firsttuesdayfourhoursinmylai:1990",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt6433734",
+      "title": "The Grand National",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:thegrandnational:2018",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt6556570",
+      "title": "ITN News",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-news-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:itncoverageofthecrisisinrwanda:1995",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt7176698",
+      "title": "Summer Comedy Shorts",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-short-form-winning-series"
+      ],
+      "tmdbId": 298532,
+      "workKey": "television:morganarobinsonssummer:2018",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt7205604",
+      "title": "World War One Remembered",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-live-event-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:worldwaronerememberedpasschendaele:2018",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt8039182",
+      "title": "The Duty Men",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-factual-series-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:thedutymen:1988",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt8218408",
+      "title": "Missed Call",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-short-form-winning-films"
+      ],
+      "tmdbId": 1531583,
+      "workKey": "television:missedcall:2019",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt9090184",
+      "title": "The Ashes",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:theashesenglandvaustralia:2006",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
+      "imdbId": "tt9406728",
+      "title": "Wisden Trophy",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:englandvwestindiestestcricket:2021",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    }
+  ],
+  "expectedContract": {
+    "posterOverrides": {
+      "tt0057982": "https://image.tmdb.org/t/p/w500/hptZ0wiHRbQqODlfrOcnWAQpA6v.jpg",
+      "tt0174882": "https://image.tmdb.org/t/p/w500/2rjRNEqKiIsVS5HSLTMPqAwmvMY.jpg",
+      "tt0307093": "https://image.tmdb.org/t/p/w500/k5xYBaEmWv2AliDAEee9c97592b.jpg",
+      "tt0329927": "https://image.tmdb.org/t/p/w500/2Cl5HDJP1iZfCcdET9bnCVdXO9e.jpg",
+      "tt0449030": "https://image.tmdb.org/t/p/w500/iUTuimPuOXkC2D5gbV5RluLLnHq.jpg",
+      "tt10137860": "https://image.tmdb.org/t/p/w500/zCqDrrcJBZddEmBg9STYxcJu0CD.jpg",
+      "tt38526010": "https://image.tmdb.org/t/p/w500/7BsNbVUrxvpjbgemEitz1ds6BTT.jpg",
+      "tt5123004": "https://image.tmdb.org/t/p/w500/uwCEpnDjOpXrxmUNy87kr9E6SKt.jpg"
+    },
+    "knownUnavailablePosters": [
+      "tt0057734",
+      "tt0058856",
+      "tt0067875",
+      "tt0087725",
+      "tt0092324",
+      "tt0108748",
+      "tt0110800",
+      "tt0159228",
+      "tt0159852",
+      "tt0211948",
+      "tt0212512",
+      "tt0229912",
+      "tt0264999",
+      "tt0267154",
+      "tt0269866",
+      "tt0283171",
+      "tt0294156",
+      "tt0294205",
+      "tt0295815",
+      "tt0296446",
+      "tt0296863",
+      "tt0296864",
+      "tt0297595",
+      "tt0305390",
+      "tt0309129",
+      "tt0313343",
+      "tt0350920",
+      "tt0357396",
+      "tt0367292",
+      "tt0367296",
+      "tt0379127",
+      "tt0388616",
+      "tt0397203",
+      "tt0405611",
+      "tt0443534",
+      "tt0479832",
+      "tt0480065",
+      "tt0499367",
+      "tt0595280",
+      "tt0834479",
+      "tt0835702",
+      "tt0913749",
+      "tt0958966",
+      "tt0990517",
+      "tt10998480",
+      "tt11608566",
+      "tt12740018",
+      "tt12752438",
+      "tt1346933",
+      "tt1351662",
+      "tt13801796",
+      "tt13839292",
+      "tt1384817",
+      "tt14540164",
+      "tt1461349",
+      "tt1498696",
+      "tt15194044",
+      "tt1540109",
+      "tt1646040",
+      "tt1817823",
+      "tt1887593",
+      "tt2004332",
+      "tt20124924",
+      "tt20447178",
+      "tt2058136",
+      "tt2205661",
+      "tt2266799",
+      "tt2295859",
+      "tt22987508",
+      "tt28500169",
+      "tt29538590",
+      "tt3013722",
+      "tt31846918",
+      "tt31848311",
+      "tt32085850",
+      "tt32189654",
+      "tt36564052",
+      "tt37740869",
+      "tt3779844",
+      "tt39074249",
+      "tt4326224",
+      "tt43277628",
+      "tt43710601",
+      "tt4459770",
+      "tt4489940",
+      "tt5448310",
+      "tt5763260",
+      "tt6282482",
+      "tt6433734",
+      "tt6556570",
+      "tt7176698",
+      "tt7205604",
+      "tt8039182",
+      "tt8218408",
+      "tt9090184",
+      "tt9406728"
+    ]
+  },
+  "currentContractMatchesLiveReview": true
+}

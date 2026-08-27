@@ -117,3 +117,22 @@ def work_key(entry: dict) -> str:
     # independently. Canonical outputs later deduplicate repeated wins by the
     # resolved IMDb identity, not by title text.
     return f"television:{title}:{entry['year']}"
+
+
+def current_programme_for_category(category_id: str) -> str:
+    """Return the modern BAFTA programme that owns a mapped category."""
+    if category_id.startswith("television-craft-"):
+        return "television-craft"
+    if category_id.startswith("television-"):
+        return "television"
+    if category_id.startswith("film-"):
+        return "film"
+    raise ValueError(f"unknown BAFTA category programme for {category_id!r}")
+
+
+def identity_in_current_programme(entry: dict, programme: str) -> bool:
+    """Whether an identity participates in a category owned by programme."""
+    return any(
+        current_programme_for_category(category_id) == programme
+        for category_id in entry.get("categoryIds", [])
+    )

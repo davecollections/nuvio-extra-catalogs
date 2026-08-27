@@ -1,0 +1,300 @@
+{
+  "id": "com.davecollections.nuvio.extra.baftatelevision",
+  "version": "1.3.0",
+  "name": "Xtra — BAFTA Television Awards",
+  "description": "Independent Xtra preset with complete BAFTA Television film and series winner catalogues for Nuvio and other compatible clients.",
+  "resources": [
+    "catalog",
+    {
+      "name": "meta",
+      "types": [
+        "movie",
+        "series"
+      ],
+      "idPrefixes": [
+        "tt0212512",
+        "tt0296863",
+        "tt0296864",
+        "tt0305390",
+        "tt0313343",
+        "tt0329927",
+        "tt0357396",
+        "tt0367296",
+        "tt0397125",
+        "tt0397203",
+        "tt0443534",
+        "tt0835702",
+        "tt0913749",
+        "tt10137860",
+        "tt10998480",
+        "tt11608566",
+        "tt12740018",
+        "tt12752438",
+        "tt13207736",
+        "tt13801796",
+        "tt13839292",
+        "tt1498696",
+        "tt15194044",
+        "tt1540109",
+        "tt1646040",
+        "tt20447178",
+        "tt2058136",
+        "tt2266799",
+        "tt22987508",
+        "tt28500169",
+        "tt31846918",
+        "tt31848311",
+        "tt32085850",
+        "tt32189654",
+        "tt36564052",
+        "tt37740869",
+        "tt38526010",
+        "tt39074249",
+        "tt4326224",
+        "tt43277628",
+        "tt43710601",
+        "tt5123004",
+        "tt5448310",
+        "tt5763260",
+        "tt6433734",
+        "tt6556570",
+        "tt6758316",
+        "tt7205604",
+        "tt8039182",
+        "tt9090184",
+        "tt9406728"
+      ]
+    }
+  ],
+  "types": [
+    "movie",
+    "series"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "bafta-television-actor-comedy-winning-films",
+      "name": "BAFTA Television — Actor in a Comedy — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-actor-comedy-winning-series",
+      "name": "BAFTA Television — Actor in a Comedy — Series"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-actress-comedy-winning-series",
+      "name": "BAFTA Television — Actress in a Comedy — Series"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-childrens-non-scripted-winning-series",
+      "name": "BAFTA Television — Children’s: Non-Scripted — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-television-childrens-scripted-winning-films",
+      "name": "BAFTA Television — Children’s: Scripted — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-childrens-scripted-winning-series",
+      "name": "BAFTA Television — Children’s: Scripted — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-television-current-affairs-winning-films",
+      "name": "BAFTA Television — Current Affairs — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-current-affairs-winning-series",
+      "name": "BAFTA Television — Current Affairs — Series"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-daytime-winning-series",
+      "name": "BAFTA Television — Daytime — Series"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-drama-series-winners",
+      "name": "BAFTA Television — Drama Series Winners"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-television-entertainment-winning-films",
+      "name": "BAFTA Television — Entertainment — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-entertainment-winning-series",
+      "name": "BAFTA Television — Entertainment — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-television-entertainment-performance-winning-films",
+      "name": "BAFTA Television — Entertainment Performance — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-entertainment-performance-winning-series",
+      "name": "BAFTA Television — Entertainment Performance — Series"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-factual-entertainment-winning-series",
+      "name": "BAFTA Television — Factual Entertainment — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-television-factual-series-winning-films",
+      "name": "BAFTA Television — Factual Series — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-factual-series-winning-series",
+      "name": "BAFTA Television — Factual Series — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-television-international-winning-films",
+      "name": "BAFTA Television — International — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-international-winning-series",
+      "name": "BAFTA Television — International — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-television-leading-actor-winning-films",
+      "name": "BAFTA Television — Leading Actor — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-leading-actor-winning-series",
+      "name": "BAFTA Television — Leading Actor — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-television-leading-actress-winning-films",
+      "name": "BAFTA Television — Leading Actress — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-leading-actress-winning-series",
+      "name": "BAFTA Television — Leading Actress — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-television-limited-drama-winning-films",
+      "name": "BAFTA Television — Limited Drama — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-limited-drama-winning-series",
+      "name": "BAFTA Television — Limited Drama — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-television-live-event-coverage-winning-films",
+      "name": "BAFTA Television — Live Event Coverage — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-live-event-coverage-winning-series",
+      "name": "BAFTA Television — Live Event Coverage — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-television-news-coverage-winning-films",
+      "name": "BAFTA Television — News Coverage — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-news-coverage-winning-series",
+      "name": "BAFTA Television — News Coverage — Series"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-memorable-moment-winning-series",
+      "name": "BAFTA Television — P&O Cruises Memorable Moment — Series"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-reality-winning-series",
+      "name": "BAFTA Television — Reality — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-television-scripted-comedy-winning-films",
+      "name": "BAFTA Television — Scripted Comedy — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-scripted-comedy-winning-series",
+      "name": "BAFTA Television — Scripted Comedy — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-television-short-form-winning-films",
+      "name": "BAFTA Television — Short Form — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-short-form-winning-series",
+      "name": "BAFTA Television — Short Form — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-television-single-documentary-winning-films",
+      "name": "BAFTA Television — Single Documentary — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-single-documentary-winning-series",
+      "name": "BAFTA Television — Single Documentary — Series"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-soap-winning-series",
+      "name": "BAFTA Television — Soap — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-television-specialist-factual-winning-films",
+      "name": "BAFTA Television — Specialist Factual — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-specialist-factual-winning-series",
+      "name": "BAFTA Television — Specialist Factual — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-television-sports-coverage-winning-films",
+      "name": "BAFTA Television — Sports Coverage — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-sports-coverage-winning-series",
+      "name": "BAFTA Television — Sports Coverage — Series"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-supporting-actor-winning-series",
+      "name": "BAFTA Television — Supporting Actor — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-television-supporting-actress-winning-films",
+      "name": "BAFTA Television — Supporting Actress — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-television-supporting-actress-winning-series",
+      "name": "BAFTA Television — Supporting Actress — Series"
+    }
+  ]
+}

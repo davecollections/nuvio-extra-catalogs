@@ -54,6 +54,13 @@ PRESETS = (
         "Independent Xtra preset with complete BAFTA Film winner catalogues for Nuvio and other compatible clients.",
         "bafta-film-",
     ),
+    Preset(
+        "bafta-television",
+        "com.davecollections.nuvio.extra.baftatelevision",
+        "Xtra — BAFTA Television Awards",
+        "Independent Xtra preset with complete BAFTA Television film and series winner catalogues for Nuvio and other compatible clients.",
+        "bafta-television-",
+    ),
 )
 
 
@@ -80,19 +87,71 @@ def expected_preset(preset: Preset, root_manifest: dict) -> tuple[str, dict[Path
         for media_type in ("movie", "series")
         if any(catalog.get("type") == media_type for catalog in catalogs)
     ]
+    resources: list = ["catalog"]
+    copies = {
+        preset.root / "catalog" / catalog["type"] / f"{catalog['id']}.json":
+        REPO_ROOT / "catalog" / catalog["type"] / f"{catalog['id']}.json"
+        for catalog in catalogs
+    }
+    published_ids: set[str] = set()
+    for source in copies.values():
+        payload = load_json(source)
+        metas = payload.get("metas")
+        if not isinstance(metas, list):
+            raise PresetError(f"{source}: expected a metas array")
+        published_ids.update(
+            meta["id"]
+            for meta in metas
+            if isinstance(meta, dict) and isinstance(meta.get("id"), str)
+        )
+    root_meta_resources = [
+        resource
+        for resource in root_manifest.get("resources", [])
+        if isinstance(resource, dict) and resource.get("name") == "meta"
+    ]
+    if len(root_meta_resources) > 1:
+        raise PresetError("root manifest declares multiple meta resources")
+    if root_meta_resources:
+        root_meta_ids = root_meta_resources[0].get("idPrefixes")
+        if not isinstance(root_meta_ids, list):
+            raise PresetError("root meta resource has no idPrefixes array")
+        meta_ids = [imdb_id for imdb_id in root_meta_ids if imdb_id in published_ids]
+        if meta_ids:
+            meta_types: set[str] = set()
+            for imdb_id in meta_ids:
+                matches = [
+                    media_type
+                    for media_type in ("movie", "series")
+                    if (REPO_ROOT / "meta" / media_type / f"{imdb_id}.json").is_file()
+                ]
+                if len(matches) != 1:
+                    raise PresetError(
+                        f"{imdb_id}: expected one root static metadata route"
+                    )
+                media_type = matches[0]
+                meta_types.add(media_type)
+                copies[
+                    preset.root / "meta" / media_type / f"{imdb_id}.json"
+                ] = REPO_ROOT / "meta" / media_type / f"{imdb_id}.json"
+            resources.append(
+                {
+                    "name": "meta",
+                    "types": [
+                        media_type
+                        for media_type in ("movie", "series")
+                        if media_type in meta_types
+                    ],
+                    "idPrefixes": meta_ids,
+                }
+            )
     manifest = {
         "id": preset.addon_id,
         "version": root_manifest["version"],
         "name": preset.name,
         "description": preset.description,
-        "resources": ["catalog"],
+        "resources": resources,
         "types": types,
         "catalogs": catalogs,
-    }
-    copies = {
-        preset.root / "catalog" / catalog["type"] / f"{catalog['id']}.json":
-        REPO_ROOT / "catalog" / catalog["type"] / f"{catalog['id']}.json"
-        for catalog in catalogs
     }
     return json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", copies
 
@@ -102,11 +161,12 @@ def write_preset(preset: Preset, manifest_text: str, copies: dict[Path, Path]) -
     manifest_path.parent.mkdir(parents=True, exist_ok=True)
     manifest_path.write_text(manifest_text, encoding="utf-8")
     expected = set(copies)
-    catalog_root = preset.root / "catalog"
-    if catalog_root.is_dir():
-        for path in catalog_root.rglob("*.json"):
-            if path not in expected:
-                path.unlink()
+    for resource_name in ("catalog", "meta"):
+        resource_root = preset.root / resource_name
+        if resource_root.is_dir():
+            for path in resource_root.rglob("*.json"):
+                if path not in expected:
+                    path.unlink()
     for destination, source in copies.items():
         if not source.is_file():
             raise PresetError(f"missing root catalogue {source}")
@@ -118,9 +178,11 @@ def check_preset(preset: Preset, manifest_text: str, copies: dict[Path, Path]) -
     manifest_path = preset.root / "manifest.json"
     if not manifest_path.is_file() or manifest_path.read_text(encoding="utf-8") != manifest_text:
         raise PresetError(f"{manifest_path}: preset manifest is stale")
-    actual = set((preset.root / "catalog").rglob("*.json"))
+    actual = set((preset.root / "catalog").rglob("*.json")) | set(
+        (preset.root / "meta").rglob("*.json")
+    )
     if actual != set(copies):
-        raise PresetError(f"{preset.slug}: preset catalogue file set is stale")
+        raise PresetError(f"{preset.slug}: preset resource file set is stale")
     for destination, source in copies.items():
         if destination.read_bytes() != source.read_bytes():
             raise PresetError(f"{destination}: does not byte-match {source}")
@@ -139,7 +201,11 @@ def main() -> int:
             else:
                 write_preset(preset, manifest_text, copies)
         verb = "valid" if args.check else "written"
-        print(f"Award-level manifest presets are {verb}: academy, golden-globes, bafta-film.")
+        print(
+            f"Award-level manifest presets are {verb}: "
+            + ", ".join(preset.slug for preset in PRESETS)
+            + "."
+        )
         return 0
     except (PresetError, KeyError, TypeError, ValueError, OSError) as exc:
         print(f"ERROR: {exc}", file=sys.stderr)

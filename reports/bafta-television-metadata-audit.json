@@ -1,0 +1,1256 @@
+{
+  "schemaVersion": 1,
+  "awardBodyId": "bafta-television",
+  "checkedAt": "2026-08-27",
+  "providers": {
+    "nuvio": {
+      "manifestUrl": "https://catalog.nuvio.tv/manifest.json",
+      "metaTemplate": "https://catalog.nuvio.tv/meta/{media_type}/{imdb_id}.json"
+    },
+    "cinemeta": {
+      "manifestUrl": "https://v3-cinemeta.strem.io/manifest.json",
+      "metaTemplate": "https://v3-cinemeta.strem.io/meta/{media_type}/{imdb_id}.json"
+    }
+  },
+  "publishedUniqueTitleCount": 667,
+  "nuvioResolvedCount": 616,
+  "nuvioUnresolvedCount": 51,
+  "cinemetaResolvedAmongNuvioGapsCount": 39,
+  "unresolvedByEitherCount": 12,
+  "fallbackReview": [
+    {
+      "imdbId": "tt0212512",
+      "title": "The South African Experience: Six Days of Soweto",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-factual-series-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:thesouthafricanexperience:1978",
+      "releaseYear": 1977,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt0212512.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt0212512.json"
+      }
+    },
+    {
+      "imdbId": "tt0296863",
+      "title": "The Stanley Baxter Big Picture Show",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-entertainment-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:thestanleybaxterbigpictureshow:1974",
+      "releaseYear": 1973,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt0296863.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt0296863.json"
+      }
+    },
+    {
+      "imdbId": "tt0296864",
+      "title": "The Stanley Baxter Moving Picture Show",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-entertainment-performance-winning-films",
+        "bafta-television-entertainment-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:thestanleybaxtermovingpictureshow:1975",
+      "releaseYear": 1974,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt0296864.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt0296864.json"
+      }
+    },
+    {
+      "imdbId": "tt0305390",
+      "title": "Coping with Christmas",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-childrens-scripted-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:copingwithchristmas:1996",
+      "releaseYear": 1995,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt0305390.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt0305390.json"
+      }
+    },
+    {
+      "imdbId": "tt0313343",
+      "title": "Eurovision Song Contest",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-live-event-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:eurovisionsongcontest2023:2024",
+      "releaseYear": 1956,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt0313343.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt0313343.json"
+      }
+    },
+    {
+      "imdbId": "tt0329927",
+      "title": "Short Change",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-childrens-non-scripted-winning-series"
+      ],
+      "tmdbId": 34181,
+      "workKey": "television:shortchange:1996",
+      "releaseYear": 1994,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt0329927.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt0329927.json"
+      }
+    },
+    {
+      "imdbId": "tt0357396",
+      "title": "Sky News: Live at Five",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-news-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:skynewsliveatfiveebola:2015",
+      "releaseYear": 1990,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt0357396.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": false,
+        "reason": "missing-meta-object",
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt0357396.json"
+      }
+    },
+    {
+      "imdbId": "tt0367296",
+      "title": "The Book Tower",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-childrens-non-scripted-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:booktower:1983",
+      "releaseYear": 1979,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt0367296.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt0367296.json"
+      }
+    },
+    {
+      "imdbId": "tt0397125",
+      "title": "Athens 2004: Games of the XXVIII Olympiad",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:olympics2004matthewpinsentsrowingforgold:2005",
+      "releaseYear": 2004,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt0397125.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt0397125.json"
+      }
+    },
+    {
+      "imdbId": "tt0397203",
+      "title": "Sydney 2000: Games of the XXVII Olympiad",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:sydneyolympics2000:2001",
+      "releaseYear": 2000,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt0397203.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt0397203.json"
+      }
+    },
+    {
+      "imdbId": "tt0443534",
+      "title": "Holocaust: A Music Memorial Film",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-specialist-factual-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:holocaustamusicmemorialfilmfromauschwitz:2006",
+      "releaseYear": 2005,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt0443534.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt0443534.json"
+      }
+    },
+    {
+      "imdbId": "tt0835702",
+      "title": "Only Human",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-single-documentary-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:makemenormal:2006",
+      "releaseYear": 2005,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt0835702.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt0835702.json"
+      }
+    },
+    {
+      "imdbId": "tt0913749",
+      "title": "Meeting Point",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-leading-actor-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:meetingpoint:1965",
+      "releaseYear": 1957,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt0913749.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": false,
+        "reason": "missing-meta-object",
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt0913749.json"
+      }
+    },
+    {
+      "imdbId": "tt10137860",
+      "title": "Blue Planet Live",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-live-event-coverage-winning-series"
+      ],
+      "tmdbId": 87876,
+      "workKey": "television:blueplanetlive:2020",
+      "releaseYear": 2019,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt10137860.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt10137860.json"
+      }
+    },
+    {
+      "imdbId": "tt10998480",
+      "title": "ITV Sport: Rugby World Cup 2019",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:2019rugbyworldcupfinalenglandvsouthafrica:2020",
+      "releaseYear": 2019,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt10998480.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": false,
+        "reason": "missing-meta-object",
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt10998480.json"
+      }
+    },
+    {
+      "imdbId": "tt11608566",
+      "title": "FYI - SKY News for Kids",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-childrens-non-scripted-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:disabilityandmefyiinvestigates:2025",
+      "releaseYear": 2019,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt11608566.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt11608566.json"
+      }
+    },
+    {
+      "imdbId": "tt12740018",
+      "title": "UEFA Women's Euro 2022",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:uefawomenseuro2022:2023",
+      "releaseYear": 2022,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt12740018.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt12740018.json"
+      }
+    },
+    {
+      "imdbId": "tt12752438",
+      "title": "Paris 2024: XXXIII Olympic Summer Games",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:paris2024olympicsbbcone:2025",
+      "releaseYear": 2024,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt12752438.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt12752438.json"
+      }
+    },
+    {
+      "imdbId": "tt13207736",
+      "title": "DAHMER - Monster: The Jeffrey Dahmer Story",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-international-winning-series"
+      ],
+      "tmdbId": 113988,
+      "workKey": "television:dahmermonsterthejeffreydahmerstory:2023",
+      "releaseYear": 2022,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt13207736.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt13207736.json"
+      }
+    },
+    {
+      "imdbId": "tt13801796",
+      "title": "Ipso Facto",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-childrens-non-scripted-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:ipsofacto:1991",
+      "releaseYear": 1989,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt13801796.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt13801796.json"
+      }
+    },
+    {
+      "imdbId": "tt13839292",
+      "title": "Now & Then",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-childrens-non-scripted-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:nearandfarnowandthengoingtoschool:1989",
+      "releaseYear": 1986,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt13839292.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt13839292.json"
+      }
+    },
+    {
+      "imdbId": "tt1498696",
+      "title": "12th IAAF World Championships in Athletics Berlin 2009",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:worldathleticschampionships:2010",
+      "releaseYear": 2009,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt1498696.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": false,
+        "reason": "missing-meta-object",
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt1498696.json"
+      }
+    },
+    {
+      "imdbId": "tt15194044",
+      "title": "Manchester 2002: XVII Commonwealth Games",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:thecommonwealthgames:2003",
+      "releaseYear": 2002,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt15194044.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": false,
+        "reason": "missing-meta-object",
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt15194044.json"
+      }
+    },
+    {
+      "imdbId": "tt1540109",
+      "title": "Formula 1: BBC Sport",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:formula1theabudhabigrandprix:2011",
+      "releaseYear": 2009,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt1540109.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt1540109.json"
+      }
+    },
+    {
+      "imdbId": "tt1646040",
+      "title": "Famous Gossips",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-leading-actor-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:famousgossips:1965",
+      "releaseYear": 1965,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt1646040.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt1646040.json"
+      }
+    },
+    {
+      "imdbId": "tt20447178",
+      "title": "Coping with Grown Ups",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-childrens-scripted-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:copingwithgrownups:1995",
+      "releaseYear": 1994,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt20447178.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt20447178.json"
+      }
+    },
+    {
+      "imdbId": "tt2058136",
+      "title": "Wounded",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-single-documentary-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:wounded:2010",
+      "releaseYear": 2009,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt2058136.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt2058136.json"
+      }
+    },
+    {
+      "imdbId": "tt2266799",
+      "title": "The Orphans of Nkandla",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-single-documentary-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:theorphansofnkandla:2005",
+      "releaseYear": 2005,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt2266799.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt2266799.json"
+      }
+    },
+    {
+      "imdbId": "tt22987508",
+      "title": "Friday Night Live",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-entertainment-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:fridaynightlive:2023",
+      "releaseYear": 2022,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt22987508.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt22987508.json"
+      }
+    },
+    {
+      "imdbId": "tt28500169",
+      "title": "River Journeys",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-factual-series-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:riverjourneys:1985",
+      "releaseYear": 1984,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt28500169.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt28500169.json"
+      }
+    },
+    {
+      "imdbId": "tt31846918",
+      "title": "Ellie Simmonds: Finding My Secret Family",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-single-documentary-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:elliesimmondsfindingmysecretfamily:2024",
+      "releaseYear": 2023,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt31846918.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt31846918.json"
+      }
+    },
+    {
+      "imdbId": "tt31848311",
+      "title": "ITV Racing",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:cheltenhamfestivaldayoneitvsport:2024",
+      "releaseYear": 2017,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt31848311.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": false,
+        "reason": "missing-meta-object",
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt31848311.json"
+      }
+    },
+    {
+      "imdbId": "tt32085850",
+      "title": "Middle English",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-childrens-non-scripted-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:middleenglishkurtmungobpandme:1985",
+      "releaseYear": 1981,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt32085850.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt32085850.json"
+      }
+    },
+    {
+      "imdbId": "tt32189654",
+      "title": "Girls Wanted, Istanbul",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-specialist-factual-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:girlswantedistanbul:1970",
+      "releaseYear": 1969,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt32189654.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt32189654.json"
+      }
+    },
+    {
+      "imdbId": "tt36564052",
+      "title": "Glastonbury 2024",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-live-event-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:glastonbury2024:2025",
+      "releaseYear": 2024,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt36564052.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt36564052.json"
+      }
+    },
+    {
+      "imdbId": "tt37740869",
+      "title": "Match of the Day Live: Women's UEFA Euro 2025",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:uefawomenseuro2025:2026",
+      "releaseYear": 2025,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt37740869.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt37740869.json"
+      }
+    },
+    {
+      "imdbId": "tt38526010",
+      "title": "Long Lost Family: Born Without Trace",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-factual-entertainment-winning-series"
+      ],
+      "tmdbId": 131427,
+      "workKey": "television:longlostfamilybornwithouttrace:2021",
+      "releaseYear": 2019,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt38526010.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt38526010.json"
+      }
+    },
+    {
+      "imdbId": "tt39074249",
+      "title": "Sky News: Hong Kong Protests",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-news-coverage-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:hongkongprotests:2020",
+      "releaseYear": 2019,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt39074249.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt39074249.json"
+      }
+    },
+    {
+      "imdbId": "tt4326224",
+      "title": "After Lockerbie",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-single-documentary-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:afterlockerbie:1999",
+      "releaseYear": 1998,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt4326224.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt4326224.json"
+      }
+    },
+    {
+      "imdbId": "tt43277628",
+      "title": "A Year in the Life",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-single-documentary-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:ayearinthelife:1970",
+      "releaseYear": 1969,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt43277628.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": false,
+        "reason": "missing-required-name",
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt43277628.json"
+      }
+    },
+    {
+      "imdbId": "tt43710601",
+      "title": "Timmy and Vicki",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-childrens-non-scripted-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:timmysstory:1986",
+      "releaseYear": 1985,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt43710601.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": false,
+        "reason": "missing-required-name",
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt43710601.json"
+      }
+    },
+    {
+      "imdbId": "tt5123004",
+      "title": "Britain's Forgotten Slave Owners",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-specialist-factual-winning-series"
+      ],
+      "tmdbId": 197916,
+      "workKey": "television:britainsforgottenslaveowners:2016",
+      "releaseYear": 2015,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt5123004.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt5123004.json"
+      }
+    },
+    {
+      "imdbId": "tt5448310",
+      "title": "Channel 4 Racing",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-live-event-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:channel4racingderbyday:1999",
+      "releaseYear": 1984,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt5448310.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": false,
+        "reason": "missing-meta-object",
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt5448310.json"
+      }
+    },
+    {
+      "imdbId": "tt5763260",
+      "title": "Formula 1: Sky Sports F1",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:theabudhabigrandprix:2022",
+      "releaseYear": 2016,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt5763260.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt5763260.json"
+      }
+    },
+    {
+      "imdbId": "tt6433734",
+      "title": "The Grand National",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:thegrandnational:2018",
+      "releaseYear": 1948,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt6433734.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": false,
+        "reason": "missing-meta-object",
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt6433734.json"
+      }
+    },
+    {
+      "imdbId": "tt6556570",
+      "title": "ITN News",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-news-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:itncoverageofthecrisisinrwanda:1995",
+      "releaseYear": 1955,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt6556570.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": false,
+        "reason": "missing-meta-object",
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt6556570.json"
+      }
+    },
+    {
+      "imdbId": "tt6758316",
+      "title": "Formula 1",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKeys": [
+        "television:f1hungariangrandprixjensonbuttonsfirstwin:2007",
+        "television:itv1f1braziliangrandprix2008:2009",
+        "television:itvf1canadiangrandprixlive:2008"
+      ],
+      "releaseYear": 1950,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt6758316.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt6758316.json"
+      }
+    },
+    {
+      "imdbId": "tt7205604",
+      "title": "World War One Remembered",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-live-event-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:worldwaronerememberedpasschendaele:2018",
+      "releaseYear": 2014,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt7205604.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt7205604.json"
+      }
+    },
+    {
+      "imdbId": "tt8039182",
+      "title": "The Duty Men",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-factual-series-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:thedutymen:1988",
+      "releaseYear": 1987,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt8039182.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt8039182.json"
+      }
+    },
+    {
+      "imdbId": "tt9090184",
+      "title": "The Ashes",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:theashesenglandvaustralia:2006",
+      "releaseYear": 1930,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt9090184.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": false,
+        "reason": "missing-meta-object",
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt9090184.json"
+      }
+    },
+    {
+      "imdbId": "tt9406728",
+      "title": "Wisden Trophy",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-sports-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:englandvwestindiestestcricket:2021",
+      "releaseYear": 1963,
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt9406728.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt9406728.json"
+      }
+    }
+  ],
+  "expectedContract": {
+    "metadataFallbackIds": [
+      "tt0212512",
+      "tt0296863",
+      "tt0296864",
+      "tt0305390",
+      "tt0313343",
+      "tt0329927",
+      "tt0357396",
+      "tt0367296",
+      "tt0397125",
+      "tt0397203",
+      "tt0443534",
+      "tt0835702",
+      "tt0913749",
+      "tt10137860",
+      "tt10998480",
+      "tt11608566",
+      "tt12740018",
+      "tt12752438",
+      "tt13207736",
+      "tt13801796",
+      "tt13839292",
+      "tt1498696",
+      "tt15194044",
+      "tt1540109",
+      "tt1646040",
+      "tt20447178",
+      "tt2058136",
+      "tt2266799",
+      "tt22987508",
+      "tt28500169",
+      "tt31846918",
+      "tt31848311",
+      "tt32085850",
+      "tt32189654",
+      "tt36564052",
+      "tt37740869",
+      "tt38526010",
+      "tt39074249",
+      "tt4326224",
+      "tt43277628",
+      "tt43710601",
+      "tt5123004",
+      "tt5448310",
+      "tt5763260",
+      "tt6433734",
+      "tt6556570",
+      "tt6758316",
+      "tt7205604",
+      "tt8039182",
+      "tt9090184",
+      "tt9406728"
+    ]
+  },
+  "currentContractMatchesLiveReview": true
+}

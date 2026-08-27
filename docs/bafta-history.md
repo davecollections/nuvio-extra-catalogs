@@ -10,7 +10,7 @@ The shared source audit covers the three main BAFTA screen programmes that can p
 - BAFTA Television Awards; and
 - BAFTA Television Craft Awards.
 
-V1.2 publishes the complete **BAFTA Film Awards** programme only: all 25 work-associated current Film lineages. BAFTA Television is deferred to V1.3 and BAFTA Television Craft to V1.4 so each distinct awards programme can be completed, tested, and installed independently. Their pinned source snapshots, category lineages, and existing identity evidence remain preserved; the release split does not discard or rewrite that reviewed work.
+V1.2 publishes the complete **BAFTA Film Awards** programme: all 25 work-associated current Film lineages. V1.3 adds all 27 work-associated current **BAFTA Television Awards** lineages. BAFTA Television Craft remains deferred to V1.4 so each distinct awards programme can be completed, tested, and installed independently. Its pinned source snapshot, category lineages, and existing identity evidence remain preserved; the release split does not discard or rewrite that reviewed work.
 
 The 2026 official result pages expose 81 categories in total. The initial publication audit retains 75 work-associated current lineages before historical lineage review or movie/series splitting:
 
@@ -90,7 +90,7 @@ python scripts/validate_bafta_lineage_decisions.py --complete
 python scripts/build_bafta_lineage_audit.py --check
 ```
 
-`data/sources/bafta/category-definitions.json` freezes the 75 audited current categories into stable local IDs and records the source programme, canonical media scope, recipient kind, credit role, and deterministic work field. It maps the 75 current labels plus 119 accepted historical labels to 2,831 work-linked winner records. Forty-nine explicit source overrides cover label-wide historical layouts, isolated BAFTA card reversals, and the reversed 2019 Television Craft cards. Seventeen older Film winner records credit one recipient for two or three slash-delimited films; their exact source values are split into individual work links by an explicit contract. Fifty-five early Television records repeat only the credited person or team instead of identifying a work; their exact nomination IDs are preserved as explicit no-work omissions rather than fabricated titles.
+`data/sources/bafta/category-definitions.json` freezes the 75 audited current categories into stable local IDs and records the source programme, canonical media scope, recipient kind, credit role, and deterministic work field. It maps the 75 current labels plus 119 accepted historical labels to 2,830 work-linked winner records and 2,902 work references. Forty-nine explicit source overrides cover label-wide historical layouts, isolated BAFTA card reversals, and the reversed 2019 Television Craft cards. Forty-four explicit multi-work splits preserve slash-delimited winner portfolios. Fifty-six early Television records repeat only the credited person or team instead of identifying a work; their exact nomination IDs are preserved as explicit no-work omissions rather than fabricated titles.
 
 Validate the registry, every accepted source label, all selected work references, and the omission contract with:
 
@@ -98,7 +98,7 @@ Validate the registry, every accepted source label, all selected work references
 python scripts/validate_bafta_category_definitions.py
 ```
 
-`data/sources/bafta/identity-map.json` is the deterministic identity inventory for the 2,831 selected results. It contains 2,044 award-year-scoped work candidates and 3,754 credited-recipient strings, retaining exact nomination IDs, programmes, category IDs, years, title/name variants, credit roles, and canonical media scope. Award-year scoping prevents unrelated television adaptations with the same title from collapsing before identity review; resolved canonical outputs later deduplicate repeated wins by IMDb identity. Generic team labels are nomination-scoped so unrelated production teams cannot collapse into one identity. Regenerate or verify the inventory offline with:
+`data/sources/bafta/identity-map.json` is the deterministic identity inventory for the 2,830 selected results and 2,902 work links. It contains 2,087 award-year-scoped work candidates and 3,754 credited-recipient strings, retaining exact nomination IDs, programmes, category IDs, years, title/name variants, credit roles, and canonical media scope. Award-year scoping prevents unrelated television adaptations with the same title from collapsing before identity review; resolved canonical outputs later deduplicate repeated wins by IMDb identity. Generic team labels are nomination-scoped so unrelated production teams cannot collapse into one identity. Regenerate or verify the inventory offline with:
 
 ```bash
 python scripts/build_bafta_identity_seed.py --write
@@ -113,7 +113,7 @@ python scripts/enrich_bafta_identities.py --tmdb --limit 25
 python scripts/enrich_bafta_identities.py --reuse-canonical
 ```
 
-The initial live pass attempted every work identity in the pre-publication audit. It accepted 1,389 unambiguous live identities, then safely reused 28 reviewed Academy/Golden Globes identities that exactly matched BAFTA's plausible candidates. Subsequent deterministic source corrections may change the inventory counts, so the generated reports are the controlling current totals. `reports/bafta-identity-review.md` retains the complete cross-programme queue and `reports/bafta-film-identity-review.md` is the V1.2 publication queue; keep both current with:
+The initial live pass attempted every work identity in the pre-publication audit. It accepted 1,389 unambiguous live identities, then safely reused 28 reviewed Academy/Golden Globes identities that exactly matched BAFTA's plausible candidates. Subsequent deterministic source corrections may change the inventory counts, so the generated reports are the controlling current totals. `reports/bafta-identity-review.md` retains the complete cross-programme queue; `reports/bafta-film-identity-review.md` and `reports/bafta-television-identity-review.md` are the V1.2 and V1.3 publication queues. Keep them current with:
 
 ```bash
 python scripts/build_bafta_identity_review.py --write
@@ -132,6 +132,17 @@ python scripts/build_bafta_film_outputs.py
 python scripts/build_bafta_film_outputs.py --check
 ```
 
+The completed V1.3 Television review contains 888 award-year-scoped identities. Eight hundred and sixty-four resolve to compatible IMDb title IDs: 165 movies and 699 series. The remaining 24 verified works are explicit non-catalogue outcomes. Their reviewed movie or series type is retained in canonical data so mixed category histories remain deterministic without inventing an ID or publishing an empty catalogue.
+
+The selected Television lineage contains 938 source winner records and 977 work links. BAFTA's annual archive repeats seven identical Flaherty/Single Documentary winner records from 1984 through 1990 under separate nomination IDs. Canonical generation keeps the source snapshot untouched but collapses those exact duplicate relationships, producing 931 results and 970 work links across 78 ceremony-year files. The 27 category lineages generate 45 useful catalogues: 18 movie and 27 series outputs.
+
+```bash
+python scripts/enrich_bafta_identities.py --check --complete --programme television
+python scripts/build_bafta_television_canonical.py --write --check
+python scripts/build_bafta_television_outputs.py
+python scripts/build_bafta_television_outputs.py --check
+```
+
 ## Movie and series classification
 
 Film results are expected to produce movie outputs. Television and Television Craft results may refer to continuing series, limited series, television movies, documentaries, specials, episodes, or individual programmes. The official programme name does not by itself decide Stremio media type.
@@ -146,7 +157,7 @@ Episode or moment wording must resolve to the parent movie or series only when t
 
 ## People and artwork
 
-Credited recipients are preserved as identities for future Nuvio integration and auditability. V1.2 publishes work catalogues, not native person catalogues, so person artwork is not a publication gate and no runtime connection to the People artwork repository is added.
+Credited recipients are preserved as identities for future Nuvio integration and auditability. V1.2 and V1.3 publish work catalogues, not native person catalogues, so person artwork is not a publication gate and no runtime connection to the People artwork repository is added.
 
 Movie and series artwork follows the established MetaHub-by-IMDb route with explicit reviewed fallbacks only when live acceptance proves they are necessary. Missing artwork is documented; it is never replaced with unrelated imagery.
 
@@ -158,6 +169,29 @@ python scripts/audit_bafta_film_artwork.py --offline-check
 ```
 
 The first command is an intentionally networked maintenance review. The second is the deterministic CI gate that checks the committed evidence against the published title set and poster contracts without external requests.
+
+The V1.3 Television audit applies the same production path to all 667 unique published titles. Five hundred and sixty-three resolve through MetaHub and eight use verified TMDB image-CDN fallbacks. Ninety-six mostly archival or programme-strand identities have no poster in either reviewed source and remain explicit `knownUnavailablePosters` outcomes. Evidence is committed in `reports/bafta-television-artwork-audit.json` and validated with:
+
+```bash
+python scripts/audit_bafta_television_artwork.py
+python scripts/audit_bafta_television_artwork.py --offline-check
+```
+
+## Metadata compatibility
+
+The V1.3 acceptance pass found that poster availability and detail-page metadata are separate concerns. Nuvio's recommended production provider resolves 616 of the 667 unique BAFTA Television IMDb identities. It returns an empty or unusable `meta` response for 51 reviewed IDs, including several titles that do have valid poster artwork. Cinemeta resolves 39 of those gaps; 12 are unavailable through either reviewed provider.
+
+The catalogue IDs remain unchanged. Instead, the all-awards and relevant award-preset manifests advertise a static `meta` resource filtered to the 51 exact IMDb IDs. Each generated response contains the reviewed ID, media type, catalogue title, release year, and available contracted poster. This is a narrow compatibility fallback, not a general metadata service, and it requires no live backend.
+
+The networked review and deterministic offline gates are:
+
+```bash
+python scripts/audit_bafta_television_metadata.py
+python scripts/audit_bafta_television_metadata.py --offline-check
+python scripts/build_bafta_television_metadata_fallbacks.py --check
+```
+
+The complete provider evidence is committed in `reports/bafta-television-metadata-audit.json`. A future maintenance pass may remove an ID from the fallback contract only after the recommended provider resolves a valid full meta object for that exact movie/series identity.
 
 ## Implementation gates
 

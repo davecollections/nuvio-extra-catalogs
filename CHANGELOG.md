@@ -4,6 +4,32 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ## [Unreleased]
 
+### Added
+
+- Complete BAFTA Television winner histories for all 27 reviewed current lineages: 931 canonical winner records and 970 work links after seven exact duplicate archive records are collapsed.
+- Forty-five deterministic BAFTA Television catalogues: 18 movie and 27 series outputs generated from each winning work's reviewed media type.
+- A distinct BAFTA Television preset manifest with its own add-on identity and byte-matched catalogue routes.
+- A fail-closed BAFTA Television identity gate covering 888 award-year-scoped work identities: 864 catalogue-compatible IMDb relationships and 24 explicitly reviewed non-catalogue outcomes.
+- A production-path artwork audit covering all 667 unique published BAFTA Television titles.
+- A production-path metadata audit covering all 667 published titles through Nuvio's recommended provider, with Cinemeta cross-checks for every provider gap.
+- Fifty-one exact, static IMDb metadata fallbacks: 13 movie and 38 series routes generated from reviewed catalogue identities without changing any catalogue ID.
+
+### Changed
+
+- The all-awards manifest advances to `1.3.0` with 129 catalogues: 89 movie and 40 series outputs across Academy Awards, Golden Globes, BAFTA Film, and BAFTA Television.
+- BAFTA Film and Television canonical, output, and artwork tooling now share reusable programme-configured implementations while retaining the existing V1.2 Film output bytes.
+- Mixed-media reviewed omissions now carry an explicit movie or series classification, so non-catalogue winner facts remain deterministic without creating empty catalogue routes.
+- CI now requires complete BAFTA Television work review and reproduces its canonical import, catalogue outputs, artwork and metadata evidence, exact static fallbacks, preset routes, and repository-wide manifest contracts offline.
+- The manifest remains catalogue-led but now advertises a narrowly filtered `meta` resource for the 51 exact IMDb IDs that Nuvio's recommended provider does not return. Other title metadata continues to come from installed providers.
+
+### Validated for V1.3 preview
+
+- Shared canonical validation passes with 4 award bodies, 104 categories, 337 ceremony files, 5,992 results, 6,052 work links, and 7,995 person links.
+- BAFTA Television contracts pass with 78 archive years, 931 canonical results, 970 work links, and 45 generated catalogue payloads.
+- The all-awards manifest and all four award presets pass exact route, payload-shape, media-type, byte-equality, and catalogue-set validation with 5,751 total Meta Preview items.
+- Live artwork review checks all 667 unique published BAFTA Television titles: 563 resolve directly through MetaHub, eight use reviewed TMDB fallbacks, and 96 are explicit unavailable-poster outcomes.
+- Live metadata review resolves 616 titles through Nuvio's provider. Of its 51 gaps, 39 also resolve through Cinemeta and 12 do not; all 51 now have deterministic compact fallbacks ready for corrected-preview acceptance testing.
+
 ## [1.2.0] - 2026-08-26
 
 ### Added

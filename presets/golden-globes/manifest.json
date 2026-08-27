@@ -1,10 +1,19 @@
 {
   "id": "com.davecollections.nuvio.extra.goldenglobes",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "name": "Xtra — Golden Globes",
   "description": "Independent Xtra preset with complete Golden Globes film and television winner catalogues for Nuvio and other compatible clients.",
   "resources": [
-    "catalog"
+    "catalog",
+    {
+      "name": "meta",
+      "types": [
+        "series"
+      ],
+      "idPrefixes": [
+        "tt13207736"
+      ]
+    }
   ],
   "types": [
     "movie",

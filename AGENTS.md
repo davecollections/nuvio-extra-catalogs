@@ -6,7 +6,7 @@ This repository provides additional Stremio-compatible catalog sources for Nuvio
 
 ## Current phase
 
-V1.2 BAFTA Film is complete and owner-accepted. PR #34 merged as `6a956d934e0ffcd9f56cab9835970a0ab18f5b2c`; main CI and GitHub Pages passed, and all 173 deployed landing-page, manifest, preset, and catalogue files byte-match that accepted merge. All 25 Film lineages produce 27 deterministic catalogues from 1,302 canonical winner records and 1,321 work links; 821 of 822 Film identity units have compatible IMDb relationships and the remaining verified short is an explicit non-catalogue outcome. Live artwork review covers all 821 published titles: 798 use MetaHub, two use verified TMDB fallbacks, and 21 are explicit unavailable-poster outcomes. The all-awards manifest is `1.2.0` with 84 catalogues and a distinct BAFTA Film preset. Known-good milestones are preserved by annotated semantic-version tags and GitHub Releases rather than permanent release branches. BAFTA Television is the V1.3 implementation target and Television Craft remains V1.4; preserve their reviewed snapshots, lineage decisions, and identity evidence. `Xtra` remains a working identity: do not rename the repository, GitHub Pages path, or other stable routes until the owner explicitly approves the final brand.
+V1.2 BAFTA Film is complete and owner-accepted. PR #34 merged as `6a956d934e0ffcd9f56cab9835970a0ab18f5b2c`; main CI and GitHub Pages passed, and all 173 deployed landing-page, manifest, preset, and catalogue files byte-match that accepted merge. All 25 Film lineages produce 27 deterministic catalogues from 1,302 canonical winner records and 1,321 work links; 821 of 822 Film identity units have compatible IMDb relationships and the remaining verified short is an explicit non-catalogue outcome. Live artwork review covers all 821 published titles: 798 use MetaHub, two use verified TMDB fallbacks, and 21 are explicit unavailable-poster outcomes. The V1.3 BAFTA Television implementation is complete on Issue #37's preview branch and awaits corrected immutable-preview owner acceptance. It produces 45 catalogues from 931 canonical winner records and 970 work links after deterministically collapsing seven exact duplicate source relationships. All 888 scoped Television identity units are reviewed: 864 resolve to compatible IMDb works and 24 are explicit non-catalogue outcomes. Live artwork review covers all 667 published titles: 563 use MetaHub, eight use verified TMDB fallbacks, and 96 are explicit unavailable-poster outcomes. Live metadata review shows 616 resolve through Nuvio's recommended provider and 51 require exact static fallbacks; Cinemeta resolves 39 of those gaps and 12 remain unresolved by either provider. The preview all-awards manifest is `1.3.0` with 129 catalogues and a distinct BAFTA Television preset. Known-good milestones are preserved by annotated semantic-version tags and GitHub Releases rather than permanent release branches. BAFTA Television Craft remains deferred to V1.4; preserve its reviewed snapshot, lineage decisions, and identity evidence. `Xtra` remains a working identity: do not rename the repository, GitHub Pages path, or other stable routes until the owner explicitly approves the final brand.
 
 ## Guardrails
 
@@ -16,9 +16,9 @@ V1.2 BAFTA Film is complete and owner-accepted. PR #34 merged as `6a956d934e0ffc
 - Keep catalog IDs stable once users may have installed the manifest or used a catalogue in a Collection.
 - Keep the released add-on IDs and manifest URLs stable during user-facing brand changes so existing installations can refresh in place.
 - `manifest.json` catalogue IDs must exactly match their corresponding files under `catalog/{type}/`.
-- Static preset manifests must carry distinct add-on IDs and host byte-matched catalogue routes beneath their own manifest directory; do not assume a client resolves preset catalogues from the repository root.
+- Static preset manifests must carry distinct add-on IDs and host byte-matched catalogue and relevant metadata routes beneath their own manifest directory; do not assume a client resolves preset resources from the repository root.
 - Catalog responses must use valid Stremio Meta Preview objects.
-- Keep this add-on catalog-only unless a future requirement proves that a `meta` resource or live backend is necessary.
+- Keep this add-on catalogue-led. The V1.3 acceptance evidence justifies exact static `meta` fallbacks for reviewed provider gaps; do not broaden them into a general metadata resource or add a live backend without a separate demonstrated requirement.
 - The add-on may rely on another compatible installed metadata provider, such as Nuvio's official TMDB add-on, for full title metadata.
 - Do not add automated scraping of TMDB award web pages.
 - Do not commit API keys, tokens, credentials, or secrets.
@@ -111,6 +111,18 @@ After a pull request is merged:
 - Main CI and GitHub Pages passed, and all 173 deployed files byte-match accepted merge commit `6a956d934e0ffcd9f56cab9835970a0ab18f5b2c`.
 - The known-good release is preserved by annotated tag `v1.2.0` and its corresponding GitHub Release.
 
+## Validated behaviour for the V1.3 preview
+
+- Preview manifest version `1.3.0` validates with 129 catalogues: 89 movie and 40 series outputs containing 5,751 all-awards Meta Preview items.
+- BAFTA Television covers all 27 reviewed current lineages across 78 annual archives, retaining 931 canonical winner records and 970 work links across 45 catalogue outputs.
+- Seven exact duplicate Single Documentary relationships in the reviewed source snapshot are collapsed deterministically during canonical generation without altering the source evidence.
+- All 888 scoped Television identity units are reviewed: 864 resolve to 165 movie and 699 series relationships, while 24 are explicit non-catalogue outcomes.
+- The BAFTA Television preset validates independently, while the all-awards manifest retains Academy Awards, Golden Globes, and BAFTA Film.
+- Live artwork review covers all 667 unique published titles: 563 use MetaHub, eight use verified TMDB fallbacks, and 96 are explicit unavailable-poster outcomes.
+- Live metadata review covers all 667 unique published titles: 616 resolve through Nuvio's recommended provider and 51 have exact static fallback routes; Cinemeta resolves 39 of those provider gaps and 12 are unavailable through either reviewed provider.
+- Static metadata fallbacks preserve the existing IMDb catalogue IDs and are advertised only as exact full-ID prefixes. Normal full metadata remains the responsibility of compatible installed providers.
+- Release acceptance remains pending CI, immutable-preview testing in Nuvio, merge, GitHub Pages verification, and owner approval. Do not tag or publish `v1.3.0` before those gates pass.
+
 ## Next milestone
 
-Implement BAFTA Television as V1.3 using the already reviewed source snapshot, lineage decisions, and identity evidence. Keep BAFTA Television Craft deferred to V1.4 so each programme remains independently testable and installable. `Xtra` remains a working identity; do not rename the repository, GitHub Pages path, manifest routes, or stable add-on/catalogue IDs until the owner locks and explicitly approves the final brand and migration plan.
+Publish the corrected immutable V1.3 preview, pass CI, and test both provider-resolved and static-fallback detail routes in the all-awards and BAFTA Television manifests. Merge, verify GitHub Pages, and create the immutable `v1.3.0` tag and GitHub Release only after owner acceptance. BAFTA Television Craft remains V1.4 so each programme stays independently testable and installable. `Xtra` remains a working identity; do not rename the repository, GitHub Pages path, manifest routes, or stable add-on/catalogue IDs until the owner locks and explicitly approves the final brand and migration plan.
