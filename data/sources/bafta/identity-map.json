@@ -23859,16 +23859,14 @@
         "347497"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 47602,
-          "title": "After Lockerbie",
-          "originalTitle": "After Lockerbie",
-          "awardWindowPlausible": false,
-          "popularity": 0.2427
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "After Lockerbie",
+        "releaseYear": 1998,
+        "imdbId": "tt4326224",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Ross Wilson's credited Flaherty Documentary winner is the 1998 television documentary After Lockerbie; IMDb supplies the compatible television-movie identity absent from TMDB."
     },
     {
       "key": "television:agathachristiespoirot:1990",
@@ -27665,84 +27663,15 @@
         "345819"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1285049,
-          "title": "Candide",
-          "originalTitle": "Candide",
-          "releaseYear": 2023,
-          "imdbId": "tt28042000",
-          "awardWindowPlausible": false,
-          "popularity": 1.594
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 473607,
-          "title": "Candide",
-          "originalTitle": "Candide",
-          "releaseYear": 1988,
-          "awardWindowPlausible": false,
-          "popularity": 1.5742
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1092195,
-          "title": "Candide",
-          "originalTitle": "Candide",
-          "releaseYear": 1986,
-          "imdbId": "tt0290155",
-          "awardWindowPlausible": false,
-          "popularity": 1.4895
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 100646,
-          "title": "Candide",
-          "originalTitle": "Candide",
-          "releaseYear": 2018,
-          "lastAirYear": 2018,
-          "awardWindowPlausible": false,
-          "popularity": 1.447
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 624486,
-          "title": "Candide",
-          "originalTitle": "Candide",
-          "releaseYear": 2007,
-          "awardWindowPlausible": false,
-          "popularity": 1.2666
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 684239,
-          "title": "Candide",
-          "originalTitle": "Candide",
-          "releaseYear": 2018,
-          "awardWindowPlausible": false,
-          "popularity": 1.1909
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 368683,
-          "title": "Candide",
-          "originalTitle": "Candide",
-          "releaseYear": 2005,
-          "imdbId": "tt0446839",
-          "awardWindowPlausible": false,
-          "popularity": 0.9429
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 714682,
-          "title": "Candide",
-          "originalTitle": "Candide",
-          "releaseYear": 2018,
-          "awardWindowPlausible": false,
-          "popularity": 0.8724
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "BBC Play of the Month",
+        "releaseYear": 1965,
+        "tmdbId": 20532,
+        "imdbId": "tt0165593",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Candide is an identified 1973 episode of BBC Play of the Month; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:care:2001",
@@ -36930,28 +36859,15 @@
         "345875"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 490656,
-          "title": "Jennie",
-          "originalTitle": "Jennie",
-          "releaseYear": 1940,
-          "imdbId": "tt0032648",
-          "awardWindowPlausible": false,
-          "popularity": 0.8028
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 847178,
-          "title": "Jennie",
-          "originalTitle": "Jennie",
-          "releaseYear": 2021,
-          "imdbId": "tt12986322",
-          "awardWindowPlausible": false,
-          "popularity": 1.6772
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Jennie: Lady Randolph Churchill",
+        "releaseYear": 1974,
+        "tmdbId": 22314,
+        "imdbId": "tt0072520",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Leading Actress winner Lee Remick identifies the 1974 historical miniseries Jennie: Lady Randolph Churchill, IMDb tt0072520."
     },
     {
       "key": "television:jimhensonsgreekmyths:1992",
@@ -40628,27 +40544,15 @@
         "347016"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 310969,
-          "title": "News Hounds",
-          "originalTitle": "News Hounds",
-          "releaseYear": 1990,
-          "awardWindowPlausible": true,
-          "popularity": 0.7396
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 91728,
-          "title": "News Hounds",
-          "originalTitle": "News Hounds",
-          "releaseYear": 1947,
-          "imdbId": "tt0039656",
-          "awardWindowPlausible": false,
-          "popularity": 0.8428
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Screen One",
+        "releaseYear": 1989,
+        "tmdbId": 32970,
+        "imdbId": "tt0297625",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "News Hounds is an identified 1990 instalment of the BBC drama anthology Screen One; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:newsnightafamilyaffairspecial:2001",
@@ -42448,37 +42352,14 @@
         "345577"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 114073,
-          "title": "Paris 1900",
-          "originalTitle": "Paris 1900",
-          "releaseYear": 1948,
-          "imdbId": "tt0040683",
-          "awardWindowPlausible": false,
-          "popularity": 0.9826
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 640586,
-          "title": "Paris 1900",
-          "originalTitle": "Une si belle époque ! La France d'avant 1914",
-          "releaseYear": 2019,
-          "imdbId": "tt10250836",
-          "awardWindowPlausible": false,
-          "popularity": 1.2712
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 48107,
-          "title": "Paris 1900",
-          "originalTitle": "Paris 1900",
-          "imdbId": "tt1371604",
-          "awardWindowPlausible": false,
-          "popularity": 0.5616
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Paris 1900",
+        "releaseYear": 1964,
+        "imdbId": "tt1371604",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Philip Mackie's credited Drama Series work identifies the 1964 British historical series Paris 1900; IMDb supplies the compatible series identity because TMDB's legacy record has no usable release date."
     },
     {
       "key": "television:paris2024olympicsbbcone:2025",
@@ -51536,17 +51417,14 @@
         "347384"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 26852,
-          "title": "The Long Johns",
-          "originalTitle": "The Long Johns",
-          "imdbId": "tt0388616",
-          "awardWindowPlausible": false,
-          "popularity": 0.4006
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Long Johns",
+        "releaseYear": 1995,
+        "imdbId": "tt0388616",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "John Bird and John Fortune's credited Entertainment Performance work identifies the 1995 British comedy series The Long Johns; IMDb supplies the compatible identity because TMDB's legacy record has no usable release date."
     },
     {
       "key": "television:thelongshadowepisode6:2024",
@@ -55346,17 +55224,15 @@
         "345627"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 48171,
-          "title": "The World of Coppard",
-          "originalTitle": "The World of Coppard",
-          "imdbId": "tt0841050",
-          "awardWindowPlausible": false,
-          "popularity": 0.3731
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Omnibus",
+        "releaseYear": 1967,
+        "tmdbId": 5674,
+        "imdbId": "tt0200358",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The World of Coppard is an identified edition of the BBC arts documentary strand Omnibus; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:theworldofwooster:1965",
