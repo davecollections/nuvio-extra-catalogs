@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "sourceCheckedAt": "2026-08-22",
-  "inputSha256": "fecb4fa34dbb82976476ffac1db953e0c42e47812945e1f2b0d9d5003f0a1008",
-  "selectedWinnerRecords": 2831,
-  "selectedWorkLinks": 2889,
+  "inputSha256": "d591271bcede63baf884a068b6de2a9945645791e9d11623864f6f25da263155",
+  "selectedWinnerRecords": 2830,
+  "selectedWorkLinks": 2888,
   "works": [
     {
       "key": "movie:12yearsaslave:2014",
@@ -23357,7 +23357,14 @@
         "357657"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "2018 FIFA World Cup Russia",
+        "releaseYear": 2018,
+        "imdbId": "tt8412178",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The England v Sweden quarter-final is an identified edition of the 2018 FIFA World Cup Russia television event series; the compatible parent-series identity avoids emitting an episode-only event identity."
     },
     {
       "key": "television:2019rugbyworldcupfinalenglandvsouthafrica:2020",
@@ -23377,7 +23384,14 @@
         "358990"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "ITV Sport: Rugby World Cup 2019",
+        "releaseYear": 2019,
+        "imdbId": "tt10998480",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "ITV's England v South Africa final is an identified edition of the ITV Sport: Rugby World Cup 2019 event series; the compatible parent-series identity preserves the live coverage as series media."
     },
     {
       "key": "television:28up:1985",
@@ -25748,7 +25762,14 @@
         "351500"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Baka: The People of the Rainforest",
+        "releaseYear": 1989,
+        "imdbId": "tt0144781",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Phil Agland's credited documentary winner is Baka: The People of the Rainforest; IMDb records a 1989 release despite the 1988 award, and the exact title and recipient make the identity conclusive."
     },
     {
       "key": "television:bannedchildrenofchernobyl:1992",
@@ -28333,7 +28354,14 @@
         "361685"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "ITV Racing",
+        "releaseYear": 2017,
+        "imdbId": "tt31848311",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Cheltenham Festival Day One is an identified edition of ITV Racing; the compatible parent-series identity preserves the live ITV Sport coverage without inventing a standalone work."
     },
     {
       "key": "television:chernobyl:2020",
@@ -31643,7 +31671,14 @@
         "359864"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Wisden Trophy",
+        "releaseYear": 1963,
+        "imdbId": "tt9406728",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The 2020 England v West Indies Test coverage belongs to the long-running Wisden Trophy event series; the compatible parent-series identity preserves the exact bilateral Test series as series media."
     },
     {
       "key": "television:enosdrivelivelaboheme:2021",
@@ -31990,7 +32025,14 @@
         "348151"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Formula 1",
+        "releaseYear": 1950,
+        "imdbId": "tt6758316",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "ITV's coverage of Jenson Button's first win at the 2006 Hungarian Grand Prix is an identified edition of the continuing Formula 1 event series, consistent with the reviewed 2008 Brazilian Grand Prix identity."
     },
     {
       "key": "television:fakingit:2002",
@@ -36652,7 +36694,14 @@
         "348237"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Formula 1",
+        "releaseYear": 1950,
+        "imdbId": "tt6758316",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "ITV's live Canadian Grand Prix coverage is an identified edition of the continuing Formula 1 event series, consistent with the reviewed ITV Brazilian Grand Prix identity."
     },
     {
       "key": "television:itvnewsattenhaiti:2010",
@@ -36956,26 +37005,6 @@
         "method": "reviewed-imdb-override"
       },
       "reviewNote": "Joe Lycett vs Beckham: Got Your Back at Xmas is an identified 2022 special of Joe Lycett's Got Your Back; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
-    },
-    {
-      "key": "television:johnbird:1966",
-      "titles": [
-        "John Bird"
-      ],
-      "programmes": [
-        "television"
-      ],
-      "years": [
-        1966
-      ],
-      "categoryIds": [
-        "television-entertainment"
-      ],
-      "nominationIds": [
-        "357157"
-      ],
-      "mediaScope": "mixed",
-      "candidates": []
     },
     {
       "key": "television:johnjoebishoplifeafterdeaf:2023",
@@ -40494,7 +40523,14 @@
         "346855"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Now & Then",
+        "releaseYear": 1986,
+        "imdbId": "tt13839292",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Going to School is an identified 1988 edition of the schools series Now & Then, jointly billed with the companion Near and Far strand; the compatible parent-series identity avoids emitting an episode-only work."
     },
     {
       "key": "television:newsatten:1970",
@@ -41218,7 +41254,14 @@
         "347987"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Athens 2004: Games of the XXVIII Olympiad",
+        "releaseYear": 2004,
+        "imdbId": "tt0397125",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Matthew Pinsent's rowing-for-gold coverage is an identified edition of the Athens 2004 Olympic television event series; the compatible parent-series identity preserves the live sports coverage."
     },
     {
       "key": "television:olympics2008:2009",
@@ -41902,7 +41945,14 @@
         "346170"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Opium",
+        "releaseYear": 1978,
+        "imdbId": "tt39378221",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Adrian Cowell's credited documentary winner Opium: The Warlords is the 1978 television special stored by IMDb as Opium; the recipient and subject make the shortened identity conclusive."
     },
     {
       "key": "television:orangesarenottheonlyfruit:1991",
@@ -46579,7 +46629,14 @@
         "346315"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Strangeways",
+        "releaseYear": 1980,
+        "imdbId": "tt1920474",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Christmas is the eighth identified episode of the 1980 documentary series Strangeways; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:strictlycomedancing:2016",
@@ -47644,7 +47701,14 @@
         "360398"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Formula 1: Sky Sports F1",
+        "releaseYear": 2016,
+        "imdbId": "tt5763260",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The 2021 Abu Dhabi Grand Prix is an identified edition of Formula 1: Sky Sports F1; the compatible parent-series identity preserves the live event coverage without emitting an episode-only identity."
     },
     {
       "key": "television:theaccountant:1990",
@@ -47882,7 +47946,14 @@
         "348068"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Ashes",
+        "releaseYear": 1930,
+        "imdbId": "tt9090184",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "England v Australia is an edition of the long-running Ashes Test-cricket television event series; the compatible parent-series identity preserves the exact bilateral contest as series media."
     },
     {
       "key": "television:thebabysitter:1965",
@@ -50348,7 +50419,14 @@
         "347370"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The House",
+        "releaseYear": 1996,
+        "imdbId": "tt0834479",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Michael Waldman and Andrew Bethell identify the 1996 BBC documentary series The House, filmed inside the Royal Opera House; the credited recipients distinguish it from unrelated exact-title works."
     },
     {
       "key": "television:thehouseofeliott:1992",
@@ -52700,7 +52778,14 @@
         "361094"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Repair Shop",
+        "releaseYear": 2017,
+        "imdbId": "tt6685272",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "A Royal Visit is an identified 2022 special of The Repair Shop; the compatible parent-series identity avoids emitting the episode-only IMDb tt26260290 relationship."
     },
     {
       "key": "television:thereseraquin:1981",
@@ -53151,7 +53236,14 @@
         "345783"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Sextet",
+        "releaseYear": 1972,
+        "imdbId": "tt0297628",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Billie Whitelaw's credited work The Sextet (8 Plays) is the 1972 anthology series The Sextet; the exact recipient and IMDb's BAFTA relationship make the identity conclusive."
     },
     {
       "key": "television:theshadowline:2012",
@@ -58958,7 +59050,14 @@
         "356797"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "World War One Remembered",
+        "releaseYear": 2014,
+        "imdbId": "tt7205604",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "World War One Remembered: Passchendaele is the 2017 edition of the World War One Remembered event miniseries; the compatible parent-series identity preserves the broadcast without emitting an episode-only work."
     },
     {
       "key": "television:worriedabouttheboy:2011",

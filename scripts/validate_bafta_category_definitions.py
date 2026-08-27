@@ -371,14 +371,16 @@ def main() -> None:
                 f"{programme_id}/{winner['nominationId']}: invalid work value",
             )
             normalized_heading = re.sub(r"[^a-z0-9]+", "", winner["heading"].casefold())
-            repeats_source_text = bool(winner.get("details")) and all(
+            source_details = winner.get("details")
+            repeats_source_text = bool(source_details) and all(
                 re.sub(r"[^a-z0-9]+", "", value.casefold()) == normalized_heading
-                for value in winner["details"]
+                for value in source_details
             )
+            source_has_no_associated_work = not source_details or repeats_source_text
             omission_key = (programme_id, winner["nominationId"])
             if omission_key in omission_keys:
                 require(
-                    repeats_source_text,
+                    source_has_no_associated_work,
                     f"{programme_id}/{winner['nominationId']}: work omission is no longer justified",
                 )
                 seen_omissions.add(omission_key)
