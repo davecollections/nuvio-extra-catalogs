@@ -14,6 +14,10 @@ PRESETS = {
     "academy": (REPO_ROOT / "presets" / "academy", "academy-"),
     "golden-globes": (REPO_ROOT / "presets" / "golden-globes", "golden-globes-"),
     "bafta-film": (REPO_ROOT / "presets" / "bafta-film", "bafta-film-"),
+    "bafta-television": (
+        REPO_ROOT / "presets" / "bafta-television",
+        "bafta-television-",
+    ),
 }
 MEDIA_TYPES = ("movie", "series")
 SEMVER_RE = re.compile(r"^\d+\.\d+\.\d+$")
@@ -30,6 +34,11 @@ POSTER_CONTRACT_PATHS = {
     / "data"
     / "awards"
     / "bafta-film"
+    / "output-contracts.json",
+    "bafta-television-": REPO_ROOT
+    / "data"
+    / "awards"
+    / "bafta-television"
     / "output-contracts.json",
 }
 

@@ -54,6 +54,13 @@ PRESETS = (
         "Independent Xtra preset with complete BAFTA Film winner catalogues for Nuvio and other compatible clients.",
         "bafta-film-",
     ),
+    Preset(
+        "bafta-television",
+        "com.davecollections.nuvio.extra.baftatelevision",
+        "Xtra — BAFTA Television Awards",
+        "Independent Xtra preset with complete BAFTA Television film and series winner catalogues for Nuvio and other compatible clients.",
+        "bafta-television-",
+    ),
 )
 
 
@@ -139,7 +146,11 @@ def main() -> int:
             else:
                 write_preset(preset, manifest_text, copies)
         verb = "valid" if args.check else "written"
-        print(f"Award-level manifest presets are {verb}: academy, golden-globes, bafta-film.")
+        print(
+            f"Award-level manifest presets are {verb}: "
+            + ", ".join(preset.slug for preset in PRESETS)
+            + "."
+        )
         return 0
     except (PresetError, KeyError, TypeError, ValueError, OSError) as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
