@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "sourceCheckedAt": "2026-08-22",
-  "inputSha256": "d591271bcede63baf884a068b6de2a9945645791e9d11623864f6f25da263155",
+  "inputSha256": "01405cb3d0a8acb35439cb6f18aaef96d40ffd0edc9eb60214730bc47d618119",
   "selectedWinnerRecords": 2830,
-  "selectedWorkLinks": 2888,
+  "selectedWorkLinks": 2902,
   "works": [
     {
       "key": "movie:12yearsaslave:2014",
@@ -23520,7 +23520,11 @@
         "345573"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "candidates": [],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "The 90 Years On Churchill birthday programme is preserved by BAFTA's 1965 record, but review found no compatible standalone or parent-series IMDb title identity."
+      }
     },
     {
       "key": "television:911insidethepresidentswarroom:2022",
@@ -24099,6 +24103,33 @@
       }
     },
     {
+      "key": "television:alicethroughthelookingglass:1974",
+      "titles": [
+        "Alice Through The Looking Glass"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1974
+      ],
+      "categoryIds": [
+        "television-craft-production-design"
+      ],
+      "nominationIds": [
+        "345826"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Alice Through the Looking Glass",
+        "releaseYear": 1973,
+        "imdbId": "tt0071116",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Eileen Diss's credited production-design work is James MacTaggart's 1973 BBC television film Alice Through the Looking Glass; IMDb supplies the compatible standalone identity."
+    },
+    {
       "key": "television:alistairmcgowansbigimpression:2003",
       "titles": [
         "Alistair McGowan's Big Impression"
@@ -24502,9 +24533,9 @@
       }
     },
     {
-      "key": "television:anafternoonatthefestivalnowsheliestherepygmalionalicethroughthelookingglasstroubleintahiti:1974",
+      "key": "television:anafternoonatthefestival:1974",
       "titles": [
-        "An Afternoon At The Festival/Now She Lies There/Pygmalion/Alice Through The Looking Glass/Trouble In Tahiti"
+        "An Afternoon At The Festival"
       ],
       "programmes": [
         "television"
@@ -24519,7 +24550,10 @@
         "345826"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "The 1973 Yorkshire Television play An Afternoon at the Festival is verified with Eileen Diss as art director, but its reviewed TMDB record has no IMDb relationship and no compatible parent series is available."
+      }
     },
     {
       "key": "television:anaudiencewithtakethatlive:2007",
@@ -25380,6 +25414,33 @@
       }
     },
     {
+      "key": "television:ashestoashes:1965",
+      "titles": [
+        "Ashes To Ashes"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1965
+      ],
+      "categoryIds": [
+        "television-craft-production-design"
+      ],
+      "nominationIds": [
+        "345574"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Wednesday Play",
+        "releaseYear": 1964,
+        "imdbId": "tt0058853",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Ashes to Ashes is an identified production from the BBC anthology The Wednesday Play; the compatible parent-series identity avoids emitting an episode-only work."
+    },
+    {
       "key": "television:asseenontv:1995",
       "titles": [
         "As Seen On TV"
@@ -25452,7 +25513,11 @@
           "awardWindowPlausible": false,
           "popularity": 0.3358
         }
-      ]
+      ],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "The 1994 Children's Programme winner As Seen on TV is verified by BAFTA, but review found no compatible IMDb identity; title-similar TMDB candidates are different productions."
+      }
     },
     {
       "key": "television:athousandblows:2026",
@@ -25507,6 +25572,33 @@
         "imdbId": "tt33049440",
         "method": "tmdb-exact-title-media-and-award-window"
       }
+    },
+    {
+      "key": "television:autostop:1965",
+      "titles": [
+        "Auto Stop"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1965
+      ],
+      "categoryIds": [
+        "television-craft-production-design"
+      ],
+      "nominationIds": [
+        "345574"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Wednesday Play",
+        "releaseYear": 1964,
+        "imdbId": "tt0058853",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Auto Stop is an identified episode of the BBC anthology The Wednesday Play; the compatible parent-series identity avoids emitting episode-only IMDb tt0058927."
     },
     {
       "key": "television:averybritishcoup:1989",
@@ -26398,6 +26490,60 @@
       }
     },
     {
+      "key": "television:biographybeethoven:1971",
+      "titles": [
+        "Biography: Beethoven"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1971
+      ],
+      "categoryIds": [
+        "television-craft-production-design"
+      ],
+      "nominationIds": [
+        "345696"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "series",
+        "title": "Biography",
+        "releaseYear": 1970,
+        "imdbId": "tt1342999",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Biography: Beethoven is an identified episode of the 1970 BBC historical anthology Biography; the compatible parent-series identity avoids emitting an episode-only work."
+    },
+    {
+      "key": "television:biographyimeasuredtheskieskepler:1971",
+      "titles": [
+        "Biography: I Measured The Skies - Kepler"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1971
+      ],
+      "categoryIds": [
+        "television-craft-production-design"
+      ],
+      "nominationIds": [
+        "345696"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "series",
+        "title": "Biography",
+        "releaseYear": 1970,
+        "imdbId": "tt1342999",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "I Measured the Skies is the Johannes Kepler episode of the 1970 BBC historical anthology Biography; the compatible parent-series identity avoids emitting an episode-only work."
+    },
+    {
       "key": "television:birdsong:2012",
       "titles": [
         "Birdsong"
@@ -27274,7 +27420,11 @@
           "awardWindowPlausible": false,
           "popularity": 0.2475
         }
-      ]
+      ],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "The exact legacy series Brief Lives is preserved as TMDB series 49086, but that record has no IMDb relationship and no compatible alternative identity was found."
+      }
     },
     {
       "key": "television:britainatwarincolour:2001",
@@ -27968,7 +28118,11 @@
         "368206"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "candidates": [],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "CBeebies: As You Like It at Shakespeare's Globe is verified by BAFTA, but review found no exact compatible IMDb title; the generic CBeebies brand is too broad to substitute as a parent series."
+      }
     },
     {
       "key": "television:celebrityjuice:2016",
@@ -28051,7 +28205,11 @@
           "awardWindowPlausible": false,
           "popularity": 0.5102
         }
-      ]
+      ],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "Channel 4 Cricket is preserved as TMDB series 47554, but the reviewed record has no IMDb relationship and no compatible broadcast-series identity was found."
+      }
     },
     {
       "key": "television:channel4newscoverageofwarcrimesinformeryugoslavia:1996",
@@ -28660,7 +28818,11 @@
           "awardWindowPlausible": false,
           "popularity": 0.369
         }
-      ]
+      ],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "Circuit 11 Miami is preserved as TMDB series 49076, but the reviewed record has no IMDb relationship and no compatible alternative identity was found."
+      }
     },
     {
       "key": "television:citiesatwar:1969",
@@ -30218,7 +30380,11 @@
         "345796"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "candidates": [],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "The Deutsche Olympische Zentrum Munich Olympic Games production is preserved by BAFTA's 1973 record, but review found no compatible IMDb title identity."
+      }
     },
     {
       "key": "television:dirtywar:2005",
@@ -34362,89 +34528,15 @@
         "348707"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 19168,
-          "title": "Hard Times",
-          "originalTitle": "Hard Times",
-          "releaseYear": 1977,
-          "lastAirYear": 1977,
-          "imdbId": "tt0077657",
-          "awardWindowPlausible": true,
-          "popularity": 1.6398
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 22094,
-          "title": "Hard Times",
-          "originalTitle": "Hard Times",
-          "releaseYear": 1975,
-          "imdbId": "tt0073092",
-          "awardWindowPlausible": true,
-          "popularity": 3.8283
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1258007,
-          "title": "Hard Times",
-          "originalTitle": "度日如年",
-          "releaseYear": 1947,
-          "awardWindowPlausible": false,
-          "popularity": 0.6662
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 53047,
-          "title": "Hard Times",
-          "originalTitle": "不景気時代",
-          "releaseYear": 1930,
-          "imdbId": "tt0020908",
-          "awardWindowPlausible": false,
-          "popularity": 0.4456
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 767159,
-          "title": "Hard Times",
-          "originalTitle": "Harte Zeiten",
-          "releaseYear": 1913,
-          "imdbId": "tt6293098",
-          "awardWindowPlausible": false,
-          "popularity": 2.0465
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 46987,
-          "title": "Hard Times",
-          "originalTitle": "Tempos Difíceis",
-          "releaseYear": 1988,
-          "imdbId": "tt0095279",
-          "awardWindowPlausible": false,
-          "popularity": 3.5257
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 43734,
-          "title": "Hard Times",
-          "originalTitle": "Hard Times",
-          "releaseYear": 1994,
-          "lastAirYear": 1994,
-          "imdbId": "tt0109985",
-          "awardWindowPlausible": false,
-          "popularity": 2.2212
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 99387,
-          "title": "Hard Times",
-          "originalTitle": "Malas temporadas",
-          "releaseYear": 2005,
-          "imdbId": "tt0456526",
-          "awardWindowPlausible": false,
-          "popularity": 1.5498
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Hard Times",
+        "releaseYear": 1977,
+        "tmdbId": 19168,
+        "imdbId": "tt0077657",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The production-design recipients identify the 1977 Granada television serial Hard Times, not the title-similar 1975 feature film."
     },
     {
       "key": "television:harryandpaul:2009",
@@ -35392,7 +35484,11 @@
           "awardWindowPlausible": false,
           "popularity": 0.259
         }
-      ]
+      ],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "Hospital: Casualty is preserved as TMDB series 47920, but the reviewed record has no IMDb relationship and no compatible alternative identity was found."
+      }
     },
     {
       "key": "television:hoteldulac:1987",
@@ -36618,7 +36714,14 @@
         "347262"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "ITN News",
+        "releaseYear": 1955,
+        "imdbId": "tt6556570",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The Rwanda crisis coverage is an identified edition of ITN News; the compatible parent-series identity preserves the coverage without inventing a standalone work."
     },
     {
       "key": "television:itsasin:2022",
@@ -37239,7 +37342,11 @@
         "345658"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "candidates": [],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "The 1969 BBC Petula Clark special Just Pet (Musical) is verified by BAFTA, but review found no compatible IMDb identity; unrelated US Petula specials must not be substituted."
+      }
     },
     {
       "key": "television:kellyandhersisters:2002",
@@ -37437,7 +37544,11 @@
           "awardWindowPlausible": false,
           "popularity": 0.254
         }
-      ]
+      ],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "L'Aiguille Du Midi is preserved as TMDB series 48129, but the reviewed record has no IMDb relationship and no compatible alternative identity was found."
+      }
     },
     {
       "key": "television:landscapers:2022",
@@ -38254,7 +38365,11 @@
           "awardWindowPlausible": false,
           "popularity": 0.2392
         }
-      ]
+      ],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "Living Camera is preserved as TMDB series 48109, but the reviewed record has no IMDb relationship and no compatible alternative identity was found."
+      }
     },
     {
       "key": "television:lockedinbreakingthesilencestoryville:2021",
@@ -41051,6 +41166,33 @@
       }
     },
     {
+      "key": "television:nowsheliesthere:1974",
+      "titles": [
+        "Now She Lies There"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1974
+      ],
+      "categoryIds": [
+        "television-craft-production-design"
+      ],
+      "nominationIds": [
+        "345826"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "series",
+        "title": "Between the Wars",
+        "releaseYear": 1973,
+        "imdbId": "tt0465319",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Now She Lies There is an identified episode of the 1973 LWT anthology Between the Wars; the compatible parent-series identity avoids emitting an episode-only work."
+    },
+    {
       "key": "television:nuremberggoeringslaststand:2007",
       "titles": [
         "Nuremberg: Goering's Last Stand"
@@ -41982,9 +42124,9 @@
       }
     },
     {
-      "key": "television:otellorembrandtthevortex:1970",
+      "key": "television:otello:1970",
       "titles": [
-        "Otello/Rembrandt/The Vortex"
+        "Otello"
       ],
       "programmes": [
         "television"
@@ -41999,7 +42141,10 @@
         "345639"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "Tony Abbott's 1969 BBC production-design work Otello is verified by BAFTA and contemporary awards records, but review found no compatible IMDb identity for that exact production."
+      }
     },
     {
       "key": "television:othello:2002",
@@ -42366,7 +42511,11 @@
           "awardWindowPlausible": false,
           "popularity": 0.4605
         }
-      ]
+      ],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "Paradise Street is preserved as TMDB series 48091, but the reviewed record has no IMDb relationship and no compatible alternative identity was found."
+      }
     },
     {
       "key": "television:parallelworldsparallellives:2008",
@@ -42895,7 +43044,11 @@
         "361202"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "candidates": [],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "Platinum Jubilee: Party at the Palace is verified by BAFTA, but its only reviewed exact IMDb result, tt27205299, is classified as a music video and is incompatible with the catalogue contract."
+      }
     },
     {
       "key": "television:pleasesir:1970",
@@ -43242,7 +43395,11 @@
         "345564"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "candidates": [],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "President Kennedy's Funeral is verified as multi-network television coverage by BAFTA, but review found no single compatible standalone or parent-series IMDb identity."
+      }
     },
     {
       "key": "television:pressgang:1991",
@@ -43474,6 +43631,87 @@
         "imdbId": "tt0186466",
         "method": "tmdb-exact-title-media-and-award-window"
       }
+    },
+    {
+      "key": "television:progresstothepark:1965",
+      "titles": [
+        "Progress To The Park"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1965
+      ],
+      "categoryIds": [
+        "television-craft-production-design"
+      ],
+      "nominationIds": [
+        "345574"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "series",
+        "title": "Theatre 625",
+        "releaseYear": 1964,
+        "imdbId": "tt0212698",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Progress to the Park is an identified production from the BBC anthology Theatre 625; the compatible parent-series identity avoids emitting an episode-only work."
+    },
+    {
+      "key": "television:putoutmoreflags:1971",
+      "titles": [
+        "Put Out More Flags"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1971
+      ],
+      "categoryIds": [
+        "television-craft-production-design"
+      ],
+      "nominationIds": [
+        "345696"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Put Out More Flags",
+        "releaseYear": 1970,
+        "imdbId": "tt0066261",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Peter Seddon's credited production-design work is the 1970 BBC television film Put Out More Flags; IMDb supplies the compatible standalone identity."
+    },
+    {
+      "key": "television:pygmalion:1974",
+      "titles": [
+        "Pygmalion"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1974
+      ],
+      "categoryIds": [
+        "television-craft-production-design"
+      ],
+      "nominationIds": [
+        "345826"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "series",
+        "title": "BBC Play of the Month",
+        "releaseYear": 1965,
+        "imdbId": "tt0165593",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The 1973 Pygmalion production is an identified episode of BBC Play of the Month; the compatible parent-series identity avoids emitting episode-only IMDb tt0070577."
     },
     {
       "key": "television:quietlife:2025",
@@ -43742,6 +43980,33 @@
       ],
       "mediaScope": "mixed",
       "candidates": []
+    },
+    {
+      "key": "television:rembrandt:1970",
+      "titles": [
+        "Rembrandt"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1970
+      ],
+      "categoryIds": [
+        "television-craft-production-design"
+      ],
+      "nominationIds": [
+        "345639"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Rembrandt",
+        "releaseYear": 1969,
+        "imdbId": "tt0204589",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Tony Abbott's credited production-design work is Rudolph Cartier's 1969 BBC television film Rembrandt; IMDb supplies the compatible standalone identity."
     },
     {
       "key": "television:reunion:2026",
@@ -44544,7 +44809,11 @@
         "347914"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "candidates": [],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "The 2003 Rugby World Cup Final coverage is verified by BAFTA, but review found no compatible IMDb event or broadcast-series identity."
+      }
     },
     {
       "key": "television:russia19851999traumazone:2023",
@@ -45686,7 +45955,14 @@
         "348213"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Sky World News",
+        "releaseYear": 1989,
+        "imdbId": "tt1461349",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The Glasgow Airport attack coverage is an identified edition of Sky News represented by the compatible parent series Sky World News."
     },
     {
       "key": "television:skynewsinsideidlib:2021",
@@ -45706,7 +45982,14 @@
         "359831"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Sky World News",
+        "releaseYear": 1989,
+        "imdbId": "tt1461349",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Inside Idlib is an identified edition of Sky News represented by the compatible parent series Sky World News."
     },
     {
       "key": "television:skynewsliveatfiveebola:2015",
@@ -45753,7 +46036,14 @@
         "347759"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Sky World News",
+        "releaseYear": 1989,
+        "imdbId": "tt1461349",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Sky News's September 11th and 12th coverage is represented by the compatible parent series Sky World News."
     },
     {
       "key": "television:skyrugbyunion:1998",
@@ -45773,7 +46063,11 @@
         "347456"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "candidates": [],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "Sky Rugby Union is verified by BAFTA's 1998 Sports Coverage record, but review found no compatible IMDb identity; the title-similar Rugby Club is not the credited coverage."
+      }
     },
     {
       "key": "television:slowhorses:2024",
@@ -46082,7 +46376,14 @@
         "347831"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Sky World News",
+        "releaseYear": 1989,
+        "imdbId": "tt1461349",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The Soham coverage from August 16–17 is an identified Sky News broadcast represented by the compatible parent series Sky World News."
     },
     {
       "key": "television:somewhereboy:2023",
@@ -46969,6 +47270,33 @@
       }
     },
     {
+      "key": "television:summerofthe17thdoll:1965",
+      "titles": [
+        "Summer Of The 17th Doll"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1965
+      ],
+      "categoryIds": [
+        "television-craft-production-design"
+      ],
+      "nominationIds": [
+        "345574"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "series",
+        "title": "Thursday Theatre",
+        "releaseYear": 1964,
+        "imdbId": "tt1330949",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Summer of the 17th Doll is an identified episode of the ITV anthology Thursday Theatre; the compatible parent-series identity avoids emitting episode-only IMDb tt1383396."
+    },
+    {
       "key": "television:supacell:2025",
       "titles": [
         "Supacell"
@@ -47033,7 +47361,14 @@
         "346484"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Sagan om livet",
+        "releaseYear": 1982,
+        "imdbId": "tt0087725",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Sweden – The Miracle of Life is the 1982 Swedish television documentary Sagan om livet; IMDb supplies the compatible standalone identity."
     },
     {
       "key": "television:sweetpea:2025",
@@ -47654,7 +47989,11 @@
         "347617"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "candidates": [],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "The 1999 Test Cricket coverage is verified by BAFTA, but review found no compatible IMDb event or broadcast-series identity."
+      }
     },
     {
       "key": "television:thatmitchellandwebblook:2007",
@@ -49280,7 +49619,14 @@
         "360353"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Earthshot Prize: Repairing Our Planet",
+        "releaseYear": 2021,
+        "imdbId": "tt15441486",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The Earthshot Prize 2021 ceremony is an identified instalment of The Earthshot Prize: Repairing Our Planet; the compatible parent-series identity avoids emitting an episode-only work."
     },
     {
       "key": "television:theendofthefingworld:2020",
@@ -49738,7 +50084,11 @@
           "awardWindowPlausible": false,
           "popularity": 0.2919
         }
-      ]
+      ],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "The First Television Pictures From The Moon is preserved as TMDB series 48039, but the reviewed record has no IMDb relationship and no compatible alternative identity was found."
+      }
     },
     {
       "key": "television:theforce:2010",
@@ -50021,7 +50371,11 @@
           "awardWindowPlausible": false,
           "popularity": 0.3035
         }
-      ]
+      ],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "The Grafters is preserved as TMDB series 48090, but the reviewed record has no IMDb relationship and no compatible alternative identity was found."
+      }
     },
     {
       "key": "television:thegrahamnortonshow:2011",
@@ -52054,7 +52408,11 @@
           "awardWindowPlausible": true,
           "popularity": 0.7646
         }
-      ]
+      ],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "The National Trust is preserved as the exact 2003 TMDB series 16892, but the reviewed record has no IMDb relationship and no compatible alternative identity was found."
+      }
     },
     {
       "key": "television:thenazisawarningfromhistory:1998",
@@ -52991,7 +53349,14 @@
         "356809"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Sky World News",
+        "releaseYear": 1989,
+        "imdbId": "tt1461349",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The Rohingya Crisis is an identified Sky News broadcast represented by the compatible parent series Sky World News."
     },
     {
       "key": "television:theroyalbritishlegionfestivalofremembrance:2019",
@@ -53527,10 +53892,12 @@
         1971
       ],
       "categoryIds": [
+        "television-craft-production-design",
         "television-leading-actor"
       ],
       "nominationIds": [
-        "345688"
+        "345688",
+        "345696"
       ],
       "mediaScope": "mixed",
       "resolution": {
@@ -53541,26 +53908,6 @@
         "imdbId": "tt0066714",
         "method": "tmdb-exact-title-media-and-award-window"
       }
-    },
-    {
-      "key": "television:thesixwivesofhenryviiibiographybeethovenbiographyimeasuredtheskieskeplerputoutmoreflags:1971",
-      "titles": [
-        "The Six Wives Of Henry VIII/Biography: Beethoven/Biography: I Measured The Skies - Kepler/Put Out More Flags"
-      ],
-      "programmes": [
-        "television"
-      ],
-      "years": [
-        1971
-      ],
-      "categoryIds": [
-        "television-craft-production-design"
-      ],
-      "nominationIds": [
-        "345696"
-      ],
-      "mediaScope": "mixed",
-      "candidates": []
     },
     {
       "key": "television:thesixwivesofhenryviiicatherineofaragon:1971",
@@ -54041,7 +54388,11 @@
           "awardWindowPlausible": true,
           "popularity": 0.7553
         }
-      ]
+      ],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "The Stanley Baxter Series is preserved as the exact 1981 TMDB series 23569, but the reviewed record has no IMDb relationship and no compatible alternative identity was found."
+      }
     },
     {
       "key": "television:thestatefuneralofhmqueenelizabethii:2023",
@@ -54340,9 +54691,9 @@
       ]
     },
     {
-      "key": "television:theteapartyprogresstotheparksummerofthe17thdollthetapontheshoulderashestoashesautostop:1965",
+      "key": "television:thetapontheshoulder:1965",
       "titles": [
-        "The Tea Party/Progress To The Park/Summer Of The 17th Doll/The Tap On The Shoulder/Ashes To Ashes/Auto Stop"
+        "The Tap On The Shoulder"
       ],
       "programmes": [
         "television"
@@ -54357,7 +54708,41 @@
         "345574"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Wednesday Play",
+        "releaseYear": 1964,
+        "imdbId": "tt0058853",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The Tap on the Shoulder is an identified episode of the BBC anthology The Wednesday Play; the compatible parent-series identity avoids emitting episode-only IMDb tt0436818."
+    },
+    {
+      "key": "television:theteaparty:1965",
+      "titles": [
+        "The Tea Party"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1965
+      ],
+      "categoryIds": [
+        "television-craft-production-design"
+      ],
+      "nominationIds": [
+        "345574"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Tea Party",
+        "releaseYear": 1965,
+        "imdbId": "tt0391485",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Eileen Diss's credited production-design work is Charles Jarrott's 1965 television film The Tea Party; IMDb supplies the compatible standalone identity."
     },
     {
       "key": "television:thetenantofwildfellhall:1997",
@@ -54681,7 +55066,11 @@
           "awardWindowPlausible": false,
           "popularity": 0.4099
         }
-      ]
+      ],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "The credited 2002 programme The Trust is verified by BAFTA, but review found no compatible IMDb identity; current and title-similar candidates are different productions."
+      }
     },
     {
       "key": "television:thetworonnies:1972",
@@ -54925,6 +55314,33 @@
         "imdbId": "tt0481459",
         "method": "tmdb-exact-title-media-and-award-window"
       }
+    },
+    {
+      "key": "television:thevortex:1970",
+      "titles": [
+        "The Vortex"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1970
+      ],
+      "categoryIds": [
+        "television-craft-production-design"
+      ],
+      "nominationIds": [
+        "345639"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Wednesday Play",
+        "releaseYear": 1964,
+        "imdbId": "tt0058853",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The Vortex is an identified episode of the BBC anthology The Wednesday Play; the compatible parent-series identity avoids emitting episode-only IMDb tt0496430."
     },
     {
       "key": "television:thevoyageofcharlesdarwin:1979",
@@ -56953,6 +57369,33 @@
       ],
       "mediaScope": "mixed",
       "candidates": []
+    },
+    {
+      "key": "television:troubleintahiti:1974",
+      "titles": [
+        "Trouble In Tahiti"
+      ],
+      "programmes": [
+        "television"
+      ],
+      "years": [
+        1974
+      ],
+      "categoryIds": [
+        "television-craft-production-design"
+      ],
+      "nominationIds": [
+        "345826"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Trouble in Tahiti",
+        "releaseYear": 1976,
+        "imdbId": "tt36896747",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Eileen Diss's credited work is the 1973 LWT/PBS television production of Trouble in Tahiti; IMDb records the same production under its later 1976 US release date."
     },
     {
       "key": "television:troyfallofacity:2019",
@@ -59025,7 +59468,11 @@
         "374697"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "candidates": [],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "World War Me: Sky Kids Investigates is verified by BAFTA's 2026 Children's Non-Scripted record, but review found no compatible IMDb title identity."
+      }
     },
     {
       "key": "television:worldwaronerememberedpasschendaele:2018",
@@ -59493,7 +59940,11 @@
           "awardWindowPlausible": true,
           "popularity": 0.2896
         }
-      ]
+      ],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "Zimbabwe's Forgotten Children is preserved as TMDB movie 48424, but the reviewed record has no IMDb relationship and no compatible alternative identity was found."
+      }
     }
   ],
   "recipients": [

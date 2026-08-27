@@ -9,13 +9,44 @@ The committed BAFTA snapshots decide award facts. This report inventories only w
 - Selected work-linked winner records: **938**
 - Selected work links: **977**
 - Award-year-scoped work identities: **888**
-- Resolved identities: **856** (164 movies; 692 series)
-- Reviewed non-catalogue outcomes: **0**
-- Unresolved identities: **32**
+- Resolved identities: **864** (165 movies; 699 series)
+- Reviewed non-catalogue outcomes: **24**
+- Unresolved identities: **0**
 - Unattempted identities: **0**
-- No exact-title candidate: **18**
+- No exact-title candidate: **0**
 - Multiple plausible exact-title candidates: **0**
-- Candidate evidence without an acceptable IMDb/date relationship: **14**
+- Candidate evidence without an acceptable IMDb/date relationship: **0**
+
+## Reviewed non-catalogue outcomes (24)
+
+These winner facts remain preserved, but no compatible IMDb-backed catalogue identity was found during explicit review.
+
+| Source work | Context | Reviewed outcome |
+| --- | --- | --- |
+| 90 Years On - Churchill Birthday Programme | television; award 1965; television-scripted-comedy; nomination 345573 | no-compatible-imdb-identity: The 90 Years On Churchill birthday programme is preserved by BAFTA's 1965 record, but review found no compatible standalone or parent-series IMDb title identity. |
+| As Seen On TV | television; award 1995; television-childrens-non-scripted; nomination 347215 | no-compatible-imdb-identity: The 1994 Children's Programme winner As Seen on TV is verified by BAFTA, but review found no compatible IMDb identity; title-similar TMDB candidates are different productions. |
+| Brief Lives | television; award 1969; television-leading-actor; nomination 345614 | no-compatible-imdb-identity: The exact legacy series Brief Lives is preserved as TMDB series 49086, but that record has no IMDb relationship and no compatible alternative identity was found. |
+| CBeebies As You Like It at Shakespeare's Globe | television; award 2025; television-childrens-scripted; nomination 368206 | no-compatible-imdb-identity: CBeebies: As You Like It at Shakespeare's Globe is verified by BAFTA, but review found no exact compatible IMDb title; the generic CBeebies brand is too broad to substitute as a parent series. |
+| Channel 4 Cricket | television; award 2002; television-sports-coverage; nomination 347777 | no-compatible-imdb-identity: Channel 4 Cricket is preserved as TMDB series 47554, but the reviewed record has no IMDb relationship and no compatible broadcast-series identity was found. |
+| Circuit 11 Miami | television; award 1980; television-factual-series; nomination 346247 | no-compatible-imdb-identity: Circuit 11 Miami is preserved as TMDB series 49076, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
+| Deutsche Olympische Zentrum (Munich Olympic Games) | television; award 1973; television-international; nomination 345796 | no-compatible-imdb-identity: The Deutsche Olympische Zentrum Munich Olympic Games production is preserved by BAFTA's 1973 record, but review found no compatible IMDb title identity. |
+| Hospital: Casualty | television; award 1978; television-single-documentary; nomination 346091 | no-compatible-imdb-identity: Hospital: Casualty is preserved as TMDB series 47920, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
+| Just Pet (Musical) | television; award 1970; television-entertainment; nomination 345658 | no-compatible-imdb-identity: The 1969 BBC Petula Clark special Just Pet (Musical) is verified by BAFTA, but review found no compatible IMDb identity; unrelated US Petula specials must not be substituted. |
+| L'Aiguille Du Midi | television; award 1963; television-international; nomination 356874 | no-compatible-imdb-identity: L'Aiguille Du Midi is preserved as TMDB series 48129, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
+| Living Camera | television; award 1965; television-international; nomination 345580 | no-compatible-imdb-identity: Living Camera is preserved as TMDB series 48109, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
+| Paradise Street | television; award 1965; television-single-documentary; nomination 345575 | no-compatible-imdb-identity: Paradise Street is preserved as TMDB series 48091, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
+| Platinum Jubilee: Party At The Palace / Platinum Jubilee - Party at the Palace | television; award 2023; television-live-event-coverage, television-memorable-moment; nomination 361142, 361202 | no-compatible-imdb-identity: Platinum Jubilee: Party at the Palace is verified by BAFTA, but its only reviewed exact IMDb result, tt27205299, is classified as a music video and is incompatible with the catalogue contract. |
+| President Kennedy's Funeral | television; award 1964; television-international; nomination 345564 | no-compatible-imdb-identity: President Kennedy's Funeral is verified as multi-network television coverage by BAFTA, but review found no single compatible standalone or parent-series IMDb identity. |
+| Rugby World Cup Final | television; award 2004; television-sports-coverage; nomination 347914 | no-compatible-imdb-identity: The 2003 Rugby World Cup Final coverage is verified by BAFTA, but review found no compatible IMDb event or broadcast-series identity. |
+| Sky Rugby Union | television; award 1998; television-live-event-coverage; nomination 347456 | no-compatible-imdb-identity: Sky Rugby Union is verified by BAFTA's 1998 Sports Coverage record, but review found no compatible IMDb identity; the title-similar Rugby Club is not the credited coverage. |
+| Test Cricket | television; award 2000; television-sports-coverage; nomination 347617 | no-compatible-imdb-identity: The 1999 Test Cricket coverage is verified by BAFTA, but review found no compatible IMDb event or broadcast-series identity. |
+| The First Television Pictures From The Moon | television; award 1970; television-international; nomination 345654 | no-compatible-imdb-identity: The First Television Pictures From The Moon is preserved as TMDB series 48039, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
+| The Grafters | television; award 1965; television-single-documentary; nomination 345575 | no-compatible-imdb-identity: The Grafters is preserved as TMDB series 48090, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
+| The National Trust | television; award 2004; television-specialist-factual; nomination 347893 | no-compatible-imdb-identity: The National Trust is preserved as the exact 2003 TMDB series 16892, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
+| The Stanley Baxter Series | television; award 1982; television-entertainment; nomination 346409 | no-compatible-imdb-identity: The Stanley Baxter Series is preserved as the exact 1981 TMDB series 23569, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
+| The Trust | television; award 2003; television-specialist-factual; nomination 347827 | no-compatible-imdb-identity: The credited 2002 programme The Trust is verified by BAFTA, but review found no compatible IMDb identity; current and title-similar candidates are different productions. |
+| World. War. Me. (Sky Kids Investigates) | television; award 2026; television-childrens-non-scripted; nomination 374697 | no-compatible-imdb-identity: World War Me: Sky Kids Investigates is verified by BAFTA's 2026 Children's Non-Scripted record, but review found no compatible IMDb title identity. |
+| Zimbabwe's Forgotten Children | television; award 2011; television-current-affairs; nomination 348435 | no-compatible-imdb-identity: Zimbabwe's Forgotten Children is preserved as TMDB movie 48424, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
 
 ## Multiple plausible candidates (0)
 
@@ -24,48 +55,16 @@ Each row has more than one exact-title candidate inside the award window and nee
 | Source work | Context | Candidate evidence |
 | --- | --- | --- |
 
-## No exact-title candidate (18)
+## No exact-title candidate (0)
 
 These commonly need a title alias, parent-series relationship, event/episode reconciliation, or a documented non-catalogue outcome.
 
 | Source work | Context | Candidate evidence |
 | --- | --- | --- |
-| 90 Years On - Churchill Birthday Programme | television; award 1965; television-scripted-comedy; nomination 345573 | No exact-title TMDB candidate |
-| CBeebies As You Like It at Shakespeare's Globe | television; award 2025; television-childrens-scripted; nomination 368206 | No exact-title TMDB candidate |
-| Deutsche Olympische Zentrum (Munich Olympic Games) | television; award 1973; television-international; nomination 345796 | No exact-title TMDB candidate |
-| ITN Coverage Of The Crisis In Rwanda | television; award 1995; television-news-coverage; nomination 347262 | No exact-title TMDB candidate |
-| Just Pet (Musical) | television; award 1970; television-entertainment; nomination 345658 | No exact-title TMDB candidate |
-| Platinum Jubilee: Party At The Palace / Platinum Jubilee - Party at the Palace | television; award 2023; television-live-event-coverage, television-memorable-moment; nomination 361142, 361202 | No exact-title TMDB candidate |
-| President Kennedy's Funeral | television; award 1964; television-international; nomination 345564 | No exact-title TMDB candidate |
-| Rugby World Cup Final | television; award 2004; television-sports-coverage; nomination 347914 | No exact-title TMDB candidate |
-| Sky News - Glasgow Airport Attack | television; award 2008; television-news-coverage; nomination 348213 | No exact-title TMDB candidate |
-| Sky News: Inside Idlib | television; award 2021; television-news-coverage; nomination 359831 | No exact-title TMDB candidate |
-| Sky News: September 11th/12th | television; award 2002; television-news-coverage; nomination 347759 | No exact-title TMDB candidate |
-| Sky Rugby Union | television; award 1998; television-live-event-coverage; nomination 347456 | No exact-title TMDB candidate |
-| Soham - August 16/17 | television; award 2003; television-news-coverage; nomination 347831 | No exact-title TMDB candidate |
-| Sweden: The Miracle Of Life | television; award 1983; television-international; nomination 346484 | No exact-title TMDB candidate |
-| Test Cricket | television; award 2000; television-sports-coverage; nomination 347617 | No exact-title TMDB candidate |
-| The Earthshot Prize 2021 | television; award 2022; television-live-event-coverage; nomination 360353 | No exact-title TMDB candidate |
-| The Rohingya Crisis (Sky News) | television; award 2018; television-news-coverage; nomination 356809 | No exact-title TMDB candidate |
-| World. War. Me. (Sky Kids Investigates) | television; award 2026; television-childrens-non-scripted; nomination 374697 | No exact-title TMDB candidate |
 
-## Candidate evidence rejected by the automatic contract (14)
+## Candidate evidence rejected by the automatic contract (0)
 
 These candidates lack a usable IMDb ID or fall outside the accepted award window and require explicit review.
 
 | Source work | Context | Candidate evidence |
 | --- | --- | --- |
-| As Seen On TV | television; award 1995; television-childrens-non-scripted; nomination 347215 | [movie TMDB 474153](https://www.themoviedb.org/movie/474153) As Seen on TV (1986) — outside award window, no IMDb ID<br>[series TMDB 21682](https://www.themoviedb.org/tv/21682) As Seen on TV (2009) — outside award window, no IMDb ID<br>[movie TMDB 1479012](https://www.themoviedb.org/movie/1479012) As Seen On TV — outside award window, no IMDb ID<br>[movie TMDB 67272 / tt0271031](https://www.themoviedb.org/movie/67272) As Seen On Tv (2001) — outside award window |
-| Brief Lives | television; award 1969; television-leading-actor; nomination 345614 | [series TMDB 49086](https://www.themoviedb.org/tv/49086) Brief Lives — outside award window, no IMDb ID |
-| Channel 4 Cricket | television; award 2002; television-sports-coverage; nomination 347777 | [series TMDB 47554](https://www.themoviedb.org/tv/47554) Channel 4 Cricket — outside award window, no IMDb ID |
-| Circuit 11 Miami | television; award 1980; television-factual-series; nomination 346247 | [series TMDB 49076](https://www.themoviedb.org/tv/49076) Circuit 11 Miami — outside award window, no IMDb ID |
-| Hospital: Casualty | television; award 1978; television-single-documentary; nomination 346091 | [series TMDB 47920](https://www.themoviedb.org/tv/47920) Hospital: Casualty — outside award window, no IMDb ID |
-| L'Aiguille Du Midi | television; award 1963; television-international; nomination 356874 | [series TMDB 48129](https://www.themoviedb.org/tv/48129) L'aiguille Du Midi — outside award window, no IMDb ID |
-| Living Camera | television; award 1965; television-international; nomination 345580 | [series TMDB 48109](https://www.themoviedb.org/tv/48109) Living Camera — outside award window, no IMDb ID |
-| Paradise Street | television; award 1965; television-single-documentary; nomination 345575 | [series TMDB 48091](https://www.themoviedb.org/tv/48091) Paradise Street — outside award window, no IMDb ID |
-| The First Television Pictures From The Moon | television; award 1970; television-international; nomination 345654 | [series TMDB 48039](https://www.themoviedb.org/tv/48039) The First Television Pictures From The Moon — outside award window, no IMDb ID |
-| The Grafters | television; award 1965; television-single-documentary; nomination 345575 | [series TMDB 48090](https://www.themoviedb.org/tv/48090) The Grafters — outside award window, no IMDb ID |
-| The National Trust | television; award 2004; television-specialist-factual; nomination 347893 | [series TMDB 16892](https://www.themoviedb.org/tv/16892) The National Trust (2003) — no IMDb ID |
-| The Stanley Baxter Series | television; award 1982; television-entertainment; nomination 346409 | [series TMDB 23569](https://www.themoviedb.org/tv/23569) The Stanley Baxter Series (1981) — no IMDb ID |
-| The Trust | television; award 2003; television-specialist-factual; nomination 347827 | [movie TMDB 708824 / tt0108401](https://www.themoviedb.org/movie/708824) The Trust (1993) — outside award window<br>[series TMDB 220306 / tt26697171](https://www.themoviedb.org/tv/220306) The Trust (2023) — outside award window<br>[series TMDB 241168 / tt30342862](https://www.themoviedb.org/tv/241168) The Trust (2024) — outside award window<br>[movie TMDB 301608 / tt3733774](https://www.themoviedb.org/movie/301608) The Trust (2016) — outside award window |
-| Zimbabwe's Forgotten Children | television; award 2011; television-current-affairs; nomination 348435 | [movie TMDB 48424](https://www.themoviedb.org/movie/48424) Zimbabwe's Forgotten Children (2010) — no IMDb ID |

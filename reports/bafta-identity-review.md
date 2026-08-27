@@ -7,25 +7,51 @@ The committed BAFTA snapshots decide award facts. This report inventories only w
 ## Summary
 
 - Selected work-linked winner records: **2,830**
-- Selected work links: **2,888**
-- Award-year-scoped work identities: **2,074**
-- Resolved identities: **1,882** (1,039 movies; 843 series)
-- Reviewed non-catalogue outcomes: **1**
-- Unresolved identities: **191**
+- Selected work links: **2,902**
+- Award-year-scoped work identities: **2,087**
+- Resolved identities: **1,906** (1,045 movies; 861 series)
+- Reviewed non-catalogue outcomes: **27**
+- Unresolved identities: **154**
 - Unattempted identities: **0**
-- No exact-title candidate: **128**
-- Multiple plausible exact-title candidates: **33**
-- Candidate evidence without an acceptable IMDb/date relationship: **30**
+- No exact-title candidate: **106**
+- Multiple plausible exact-title candidates: **32**
+- Candidate evidence without an acceptable IMDb/date relationship: **16**
 
-## Reviewed non-catalogue outcomes (1)
+## Reviewed non-catalogue outcomes (27)
 
 These winner facts remain preserved, but no compatible IMDb-backed catalogue identity was found during explicit review.
 
 | Source work | Context | Reviewed outcome |
 | --- | --- | --- |
 | Say Goodbye | film; award 1991; film-british-short-film; nomination 342432 | no-compatible-imdb-identity: The 1989 NFTS short Say Goodbye is verified as the 1991 BAFTA winner and as TMDB movie 1211818, but that reviewed record has no IMDb title relationship; it cannot be emitted through the add-on's cross-provider IMDb catalogue contract. |
+| 90 Years On - Churchill Birthday Programme | television; award 1965; television-scripted-comedy; nomination 345573 | no-compatible-imdb-identity: The 90 Years On Churchill birthday programme is preserved by BAFTA's 1965 record, but review found no compatible standalone or parent-series IMDb title identity. |
+| An Afternoon At The Festival | television; award 1974; television-craft-production-design; nomination 345826 | no-compatible-imdb-identity: The 1973 Yorkshire Television play An Afternoon at the Festival is verified with Eileen Diss as art director, but its reviewed TMDB record has no IMDb relationship and no compatible parent series is available. |
+| As Seen On TV | television; award 1995; television-childrens-non-scripted; nomination 347215 | no-compatible-imdb-identity: The 1994 Children's Programme winner As Seen on TV is verified by BAFTA, but review found no compatible IMDb identity; title-similar TMDB candidates are different productions. |
+| Brief Lives | television; award 1969; television-leading-actor; nomination 345614 | no-compatible-imdb-identity: The exact legacy series Brief Lives is preserved as TMDB series 49086, but that record has no IMDb relationship and no compatible alternative identity was found. |
+| CBeebies As You Like It at Shakespeare's Globe | television; award 2025; television-childrens-scripted; nomination 368206 | no-compatible-imdb-identity: CBeebies: As You Like It at Shakespeare's Globe is verified by BAFTA, but review found no exact compatible IMDb title; the generic CBeebies brand is too broad to substitute as a parent series. |
+| Channel 4 Cricket | television; award 2002; television-sports-coverage; nomination 347777 | no-compatible-imdb-identity: Channel 4 Cricket is preserved as TMDB series 47554, but the reviewed record has no IMDb relationship and no compatible broadcast-series identity was found. |
+| Circuit 11 Miami | television; award 1980; television-factual-series; nomination 346247 | no-compatible-imdb-identity: Circuit 11 Miami is preserved as TMDB series 49076, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
+| Deutsche Olympische Zentrum (Munich Olympic Games) | television; award 1973; television-international; nomination 345796 | no-compatible-imdb-identity: The Deutsche Olympische Zentrum Munich Olympic Games production is preserved by BAFTA's 1973 record, but review found no compatible IMDb title identity. |
+| Hospital: Casualty | television; award 1978; television-single-documentary; nomination 346091 | no-compatible-imdb-identity: Hospital: Casualty is preserved as TMDB series 47920, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
+| Just Pet (Musical) | television; award 1970; television-entertainment; nomination 345658 | no-compatible-imdb-identity: The 1969 BBC Petula Clark special Just Pet (Musical) is verified by BAFTA, but review found no compatible IMDb identity; unrelated US Petula specials must not be substituted. |
+| L'Aiguille Du Midi | television; award 1963; television-international; nomination 356874 | no-compatible-imdb-identity: L'Aiguille Du Midi is preserved as TMDB series 48129, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
+| Living Camera | television; award 1965; television-international; nomination 345580 | no-compatible-imdb-identity: Living Camera is preserved as TMDB series 48109, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
+| Otello | television; award 1970; television-craft-production-design; nomination 345639 | no-compatible-imdb-identity: Tony Abbott's 1969 BBC production-design work Otello is verified by BAFTA and contemporary awards records, but review found no compatible IMDb identity for that exact production. |
+| Paradise Street | television; award 1965; television-single-documentary; nomination 345575 | no-compatible-imdb-identity: Paradise Street is preserved as TMDB series 48091, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
+| Platinum Jubilee: Party At The Palace / Platinum Jubilee - Party at the Palace | television; award 2023; television-live-event-coverage, television-memorable-moment; nomination 361142, 361202 | no-compatible-imdb-identity: Platinum Jubilee: Party at the Palace is verified by BAFTA, but its only reviewed exact IMDb result, tt27205299, is classified as a music video and is incompatible with the catalogue contract. |
+| President Kennedy's Funeral | television; award 1964; television-international; nomination 345564 | no-compatible-imdb-identity: President Kennedy's Funeral is verified as multi-network television coverage by BAFTA, but review found no single compatible standalone or parent-series IMDb identity. |
+| Rugby World Cup Final | television; award 2004; television-sports-coverage; nomination 347914 | no-compatible-imdb-identity: The 2003 Rugby World Cup Final coverage is verified by BAFTA, but review found no compatible IMDb event or broadcast-series identity. |
+| Sky Rugby Union | television; award 1998; television-live-event-coverage; nomination 347456 | no-compatible-imdb-identity: Sky Rugby Union is verified by BAFTA's 1998 Sports Coverage record, but review found no compatible IMDb identity; the title-similar Rugby Club is not the credited coverage. |
+| Test Cricket | television; award 2000; television-sports-coverage; nomination 347617 | no-compatible-imdb-identity: The 1999 Test Cricket coverage is verified by BAFTA, but review found no compatible IMDb event or broadcast-series identity. |
+| The First Television Pictures From The Moon | television; award 1970; television-international; nomination 345654 | no-compatible-imdb-identity: The First Television Pictures From The Moon is preserved as TMDB series 48039, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
+| The Grafters | television; award 1965; television-single-documentary; nomination 345575 | no-compatible-imdb-identity: The Grafters is preserved as TMDB series 48090, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
+| The National Trust | television; award 2004; television-specialist-factual; nomination 347893 | no-compatible-imdb-identity: The National Trust is preserved as the exact 2003 TMDB series 16892, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
+| The Stanley Baxter Series | television; award 1982; television-entertainment; nomination 346409 | no-compatible-imdb-identity: The Stanley Baxter Series is preserved as the exact 1981 TMDB series 23569, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
+| The Trust | television; award 2003; television-specialist-factual; nomination 347827 | no-compatible-imdb-identity: The credited 2002 programme The Trust is verified by BAFTA, but review found no compatible IMDb identity; current and title-similar candidates are different productions. |
+| World. War. Me. (Sky Kids Investigates) | television; award 2026; television-childrens-non-scripted; nomination 374697 | no-compatible-imdb-identity: World War Me: Sky Kids Investigates is verified by BAFTA's 2026 Children's Non-Scripted record, but review found no compatible IMDb title identity. |
+| Zimbabwe's Forgotten Children | television; award 2011; television-current-affairs; nomination 348435 | no-compatible-imdb-identity: Zimbabwe's Forgotten Children is preserved as TMDB movie 48424, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
 
-## Multiple plausible candidates (33)
+## Multiple plausible candidates (32)
 
 Each row has more than one exact-title candidate inside the award window and needs an explicit reviewed choice.
 
@@ -40,7 +66,6 @@ Each row has more than one exact-title candidate inside the award window and nee
 | Great Expectations | television-craft; award 2000; television-craft-costume-design; nomination 349676 | [series TMDB 286423 / tt0167187](https://www.themoviedb.org/tv/286423) Great Expectations (1999)<br>[movie TMDB 16075 / tt0167187](https://www.themoviedb.org/movie/16075) Great Expectations (1999)<br>[movie TMDB 9410 / tt0119223](https://www.themoviedb.org/movie/9410) Great Expectations (1998)<br>[series TMDB 39549 / tt0096601](https://www.themoviedb.org/tv/39549) Great Expectations (1989) — outside award window |
 | Great Expectations | television-craft; award 2012; television-craft-photography-lighting-fiction, television-craft-production-design, television-craft-special-visual-graphic-effects; nomination 350496, 350502, 350512 | [movie TMDB 121674 / tt1836808](https://www.themoviedb.org/movie/121674) Great Expectations (2012)<br>[series TMDB 42518 / tt1949720](https://www.themoviedb.org/tv/42518) Great Expectations (2011)<br>[series TMDB 286423 / tt0167187](https://www.themoviedb.org/tv/286423) Great Expectations (1999) — outside award window<br>[movie TMDB 16075 / tt0167187](https://www.themoviedb.org/movie/16075) Great Expectations (1999) — outside award window |
 | Gulliver’s Travels | television-craft; award 1997; television-craft-costume-design, television-craft-production-design; nomination 349545, 349549 | [series TMDB 13675 / tt0115195](https://www.themoviedb.org/tv/13675) Gulliver's Travels (1996)<br>[movie TMDB 102922 / tt1125862](https://www.themoviedb.org/movie/102922) Gulliver's Travels (1996)<br>[series TMDB 22785 / tt0103433](https://www.themoviedb.org/tv/22785) Gulliver's Travels (1992) — outside award window<br>[movie TMDB 448543 / tt0086538](https://www.themoviedb.org/movie/448543) Gulliver's Travels (1983) — outside award window |
-| Hard Times | television, television-craft; award 1978; television-craft-costume-design, television-craft-make-up-hair-design, television-craft-production-design; nomination 346087, 348627, 348707 | [series TMDB 19168 / tt0077657](https://www.themoviedb.org/tv/19168) Hard Times (1977)<br>[movie TMDB 22094 / tt0073092](https://www.themoviedb.org/movie/22094) Hard Times (1975)<br>[movie TMDB 1258007](https://www.themoviedb.org/movie/1258007) Hard Times (1947) — outside award window, no IMDb ID<br>[movie TMDB 53047 / tt0020908](https://www.themoviedb.org/movie/53047) Hard Times (1930) — outside award window |
 | Hell In The Pacific | television-craft; award 2002; television-craft-sound-factual; nomination 349820 | [series TMDB 233986 / tt1509650](https://www.themoviedb.org/tv/233986) Hell in the Pacific (2001)<br>[movie TMDB 1125023 / tt1509650](https://www.themoviedb.org/movie/1125023) Hell in the Pacific (2001)<br>[movie TMDB 31681 / tt0063056](https://www.themoviedb.org/movie/31681) Hell in the Pacific (1968) — outside award window<br>[series TMDB 21356 / tt30036896](https://www.themoviedb.org/tv/21356) Hell in the Pacific (2010) — outside award window |
 | I'm a Celebrity... Get Me Out of Here! | television-craft; award 2021; television-craft-entertainment-craft-team; nomination 359913 | [series TMDB 61913 / tt4422950](https://www.themoviedb.org/tv/61913) I'm a Celebrity: Get Me Out of Here! (2015)<br>[series TMDB 62775 / tt6623974](https://www.themoviedb.org/tv/62775) I'm a Celebrity: Get Me Out of Here! (2015)<br>[series TMDB 18650 / tt0355096](https://www.themoviedb.org/tv/18650) I'm a Celebrity...Get Me Out of Here! (2003) — outside award window<br>[series TMDB 30901 / tt0338616](https://www.themoviedb.org/tv/30901) I'm a Celebrity...Get Me Out of Here! (2002) |
 | Mum | television-craft; award 2017; television-craft-writer-comedy; nomination 356116 | [movie TMDB 515206 / tt7201112](https://www.themoviedb.org/movie/515206) Mum (2017)<br>[movie TMDB 637755 / tt6213932](https://www.themoviedb.org/movie/637755) Mum (2017)<br>[series TMDB 66372 / tt5687446](https://www.themoviedb.org/tv/66372) Mum (2016)<br>[movie TMDB 1301033 / tt0863133](https://www.themoviedb.org/movie/1301033) Mum (2006) — outside award window |
@@ -65,17 +90,15 @@ Each row has more than one exact-title candidate inside the award window and nee
 | Unnatural Pursuits | television-craft; award 1993; television-craft-editing-fiction; nomination 349378 | [series TMDB 47677 / tt0103171](https://www.themoviedb.org/tv/47677) Unnatural Pursuits (1992)<br>[movie TMDB 241336 / tt0103171](https://www.themoviedb.org/movie/241336) Unnatural Pursuits (1992) |
 | Wilderness | television-craft; award 2024; television-craft-titles-graphic-identity; nomination 361779 | [movie TMDB 1443265 / tt21978094](https://www.themoviedb.org/movie/1443265) Wilderness (2024)<br>[series TMDB 204276 / tt15426714](https://www.themoviedb.org/tv/204276) Wilderness (2023)<br>[movie TMDB 640236 / tt11203998](https://www.themoviedb.org/movie/640236) Wilderness (2020) — outside award window<br>[movie TMDB 446846 / tt6469284](https://www.themoviedb.org/movie/446846) Wilderness (2017) — outside award window |
 
-## No exact-title candidate (128)
+## No exact-title candidate (106)
 
 These commonly need a title alias, parent-series relationship, event/episode reconciliation, or a documented non-catalogue outcome.
 
 | Source work | Context | Candidate evidence |
 | --- | --- | --- |
 | 2014 FA Cup Final | television-craft; award 2015; television-craft-director-multi-camera; nomination 352674 | No exact-title TMDB candidate |
-| 90 Years On - Churchill Birthday Programme | television; award 1965; television-scripted-comedy; nomination 345573 | No exact-title TMDB candidate |
 | Agatha Christie's Poirot (Episodes 2,4,7,8, And 10) | television-craft; award 1990; television-craft-costume-design; nomination 349230 | No exact-title TMDB candidate |
 | All's Well That Ends Well/Othello/Timon Of Athens/Troilus And Cressida | television-craft; award 1982; television-craft-photography-lighting-fiction; nomination 348880 | No exact-title TMDB candidate |
-| An Afternoon At The Festival/Now She Lies There/Pygmalion/Alice Through The Looking Glass/Trouble In Tahiti | television; award 1974; television-craft-production-design; nomination 345826 | No exact-title TMDB candidate |
 | An Audience With Take That... Live! | television-craft; award 2007; television-craft-production-design; nomination 350124 | No exact-title TMDB candidate |
 | Ancient Egyptians: The Battle Of Meggido | television-craft; award 2004; television-craft-photography-factual; nomination 349927 | No exact-title TMDB candidate |
 | An Englishman Abroad/The Tale Of Beatrix Potter | television-craft; award 1984; television-craft-costume-design; nomination 348939 | No exact-title TMDB candidate |
@@ -90,13 +113,11 @@ These commonly need a title alias, parent-series relationship, event/episode rec
 | Blues And Twos | television-craft; award 1997; television-craft-sound-factual; nomination 349579 | No exact-title TMDB candidate |
 | Bros: After the Screaming Stops | television-craft; award 2019; television-craft-editing-factual; nomination 357517 | No exact-title TMDB candidate |
 | Casualty (Episodes 2, 5, 6, 8) | television-craft; award 1992; television-craft-make-up-hair-design; nomination 349348 | No exact-title TMDB candidate |
-| CBeebies As You Like It at Shakespeare's Globe | television; award 2025; television-childrens-scripted; nomination 368206 | No exact-title TMDB candidate |
 | Coronation Street - Live Episode | television-craft; award 2011; television-craft-director-multi-camera; nomination 350395 | No exact-title TMDB candidate |
 | Cutting Edge: Casualties | television-craft; award 1992; television-craft-photography-factual; nomination 349337 | No exact-title TMDB candidate |
 | Cutting Edge: The Club | television-craft; award 1995; television-craft-editing-factual; nomination 349463 | No exact-title TMDB candidate |
 | Death | television-craft; award 2003; television-craft-emerging-talent-factual; nomination 349853 | No exact-title TMDB candidate |
 | Demon 79 (Black Mirror) | television-craft; award 2024; television-craft-photography-lighting-fiction, television-craft-writer-drama; nomination 361755, 361784 | No exact-title TMDB candidate |
-| Deutsche Olympische Zentrum (Munich Olympic Games) | television; award 1973; television-international; nomination 345796 | No exact-title TMDB candidate |
 | Dispatches: China’s Stolen Children (Special) | television-craft; award 2008; television-craft-director-factual; nomination 350157 | No exact-title TMDB candidate |
 | Dispatches: The Battle For Haiti | television-craft; award 2011; television-craft-director-factual; nomination 350387 | No exact-title TMDB candidate |
 | Doctor Who: Blink | television-craft; award 2008; television-craft-writer-drama; nomination 350218 | No exact-title TMDB candidate |
@@ -115,9 +136,7 @@ These commonly need a title alias, parent-series relationship, event/episode rec
 | Inside Story: Child Of The Death Camps | television-craft; award 2000; television-craft-editing-factual; nomination 349682 | No exact-title TMDB candidate |
 | Inside Story: Traffic Jam | television-craft; award 1994; television-craft-sound-factual; nomination 349443 | No exact-title TMDB candidate |
 | Into the Storm: Surfing to Survive (Storyville) | television-craft; award 2022; television-craft-emerging-talent-factual; nomination 360441 | No exact-title TMDB candidate |
-| ITN Coverage Of The Crisis In Rwanda | television; award 1995; television-news-coverage; nomination 347262 | No exact-title TMDB candidate |
 | John & Joe Bishop: Life After Deaf | television-craft; award 2023; television-craft-emerging-talent-factual; nomination 361021 | No exact-title TMDB candidate |
-| Just Pet (Musical) | television; award 1970; television-entertainment; nomination 345658 | No exact-title TMDB candidate |
 | La Ronde/John David/Too Late To Talk To Billy/Frost In May | television-craft; award 1983; television-craft-photography-lighting-fiction; nomination 348932 | No exact-title TMDB candidate |
 | Life and Death in Gaza (Storyville) | television-craft; award 2025; television-craft-editing-factual; nomination 368346 | No exact-title TMDB candidate |
 | Light Weight Camerawork | television-craft; award 1980; television-craft-photography-lighting-fiction; nomination 348800 | No exact-title TMDB candidate |
@@ -132,39 +151,27 @@ These commonly need a title alias, parent-series relationship, event/episode rec
 | Omnibus: Dudley Moore - After The Laughter | television-craft; award 2001; television-craft-editing-factual; nomination 349722 | No exact-title TMDB candidate |
 | Omnibus: Van Gogh | television-craft; award 1991; television-craft-make-up-hair-design; nomination 349300 | No exact-title TMDB candidate |
 | Operatunity | television-craft; award 2004; television-craft-sound-factual; nomination 349941 | No exact-title TMDB candidate |
-| Otello/Rembrandt/The Vortex | television; award 1970; television-craft-production-design; nomination 345639 | No exact-title TMDB candidate |
 | Paralympics 2016 | television-craft; award 2017; television-craft-titles-graphic-identity; nomination 356113 | No exact-title TMDB candidate |
 | Planet Earth II (Cities) | television-craft; award 2017; television-craft-photography-factual, television-craft-sound-factual; nomination 356088, 356096 | No exact-title TMDB candidate |
-| Platinum Jubilee: Party At The Palace / Platinum Jubilee - Party at the Palace | television; award 2023; television-live-event-coverage, television-memorable-moment; nomination 361142, 361202 | No exact-title TMDB candidate |
-| President Kennedy's Funeral | television; award 1964; television-international; nomination 345564 | No exact-title TMDB candidate |
 | Red Riding 1983 | television-craft; award 2010; television-craft-photography-lighting-fiction; nomination 350343 | No exact-title TMDB candidate |
 | Rock Folles Of '77 | television-craft; award 1978; television-craft-photography-lighting-fiction; nomination 348714 | No exact-title TMDB candidate |
 | Rock Follies Of '77 | television-craft; award 1978; television-craft-photography-lighting-fiction; nomination 348715 | No exact-title TMDB candidate |
 | Royal British Legion Festival of Remembrance 2016 | television-craft; award 2017; television-craft-entertainment-craft-team; nomination 356072 | No exact-title TMDB candidate |
-| Rugby World Cup Final | television; award 2004; television-sports-coverage; nomination 347914 | No exact-title TMDB candidate |
 | San Junipero (Black Mirror) | television-craft; award 2017; television-craft-make-up-hair-design; nomination 356078 | No exact-title TMDB candidate |
 | SAS Embassy Seige | television-craft; award 2003; television-craft-editing-factual; nomination 349837 | No exact-title TMDB candidate |
 | Schubert | television-craft; award 1979; television-craft-sound-fiction; nomination 348743 | No exact-title TMDB candidate |
 | Secret World of Sound with David Attenborough | television-craft; award 2025; television-craft-sound-factual; nomination 368395 | No exact-title TMDB candidate |
 | Sherlock: A Scandal In Belgravia | television-craft; award 2012; television-craft-editing-fiction, television-craft-sound-fiction, television-craft-writer-drama; nomination 350478, 350510, 350518 | No exact-title TMDB candidate |
 | Sherlock: A Study In Pink | television-craft; award 2011; television-craft-editing-fiction; nomination 350402 | No exact-title TMDB candidate |
-| Sky News - Glasgow Airport Attack | television; award 2008; television-news-coverage; nomination 348213 | No exact-title TMDB candidate |
-| Sky News: Inside Idlib | television; award 2021; television-news-coverage; nomination 359831 | No exact-title TMDB candidate |
-| Sky News: September 11th/12th | television; award 2002; television-news-coverage; nomination 347759 | No exact-title TMDB candidate |
-| Sky Rugby Union | television; award 1998; television-live-event-coverage; nomination 347456 | No exact-title TMDB candidate |
 | Slow Horses (Episode 1) | television-craft; award 2024; television-craft-editing-fiction; nomination 361722 | No exact-title TMDB candidate |
 | Slow Horses (Episode 1) | television-craft; award 2025; television-craft-editing-fiction; nomination 368351 | No exact-title TMDB candidate |
 | Small Axe (Lovers Rock) | television-craft; award 2021; television-craft-costume-design; nomination 359887 | No exact-title TMDB candidate |
-| Soham - August 16/17 | television; award 2003; television-news-coverage; nomination 347831 | No exact-title TMDB candidate |
 | Super Sunday - Liverpool v Tottenham Hotspur | television-craft; award 2026; television-craft-director-multi-camera; nomination 374605 | No exact-title TMDB candidate |
-| Sweden: The Miracle Of Life | television; award 1983; television-international; nomination 346484 | No exact-title TMDB candidate |
 | Terry Pratchett's Hogfather | television-craft; award 2007; television-craft-special-visual-graphic-effects; nomination 350142 | No exact-title TMDB candidate |
 | Testament Of Youth/Matilda's England | television-craft; award 1980; television-craft-photography-lighting-fiction; nomination 348790 | No exact-title TMDB candidate |
-| Test Cricket | television; award 2000; television-sports-coverage; nomination 347617 | No exact-title TMDB candidate |
 | The Cherry Orchard: The Journal Of Bridget Hitler | television-craft; award 1982; television-craft-photography-lighting-fiction; nomination 348886 | No exact-title TMDB candidate |
 | The Citadel/The Tale Of Beatrix Potter/Shall I Be Mother?/Stan's Last Game | television-craft; award 1984; television-craft-photography-lighting-fiction; nomination 348973 | No exact-title TMDB candidate |
 | The Crown (Episode 4 | television-craft; award 2018; television-craft-photography-lighting-fiction; nomination 356716 | No exact-title TMDB candidate |
-| The Earthshot Prize 2021 | television; award 2022; television-live-event-coverage; nomination 360353 | No exact-title TMDB candidate |
 | The Fear (Ep 1) | television-craft; award 2013; television-craft-editing-fiction; nomination 351167 | No exact-title TMDB candidate |
 | ‘The Fearless Are Here’ - The 2018 Winter Olympics | television-craft; award 2019; television-craft-titles-graphic-identity; nomination 357556 | No exact-title TMDB candidate |
 | The Kenny Everett Video Show (Inserts) | television-craft; award 1979; television-craft-photography-lighting-fiction; nomination 348757 | No exact-title TMDB candidate |
@@ -176,10 +183,7 @@ These commonly need a title alias, parent-series relationship, event/episode rec
 | The Nine Lives Of Alice Martineau | television-craft; award 2004; television-craft-emerging-talent-factual; nomination 349911 | No exact-title TMDB candidate |
 | The Queen’s Golden Jubilee | television-craft; award 2003; television-craft-sound-factual; nomination 349880 | No exact-title TMDB candidate |
 | Thérèse Raquin/Dr Jekyll And Mr Hyde | television-craft; award 1981; television-craft-photography-lighting-fiction; nomination 348842 | No exact-title TMDB candidate |
-| The Rohingya Crisis (Sky News) | television; award 2018; television-news-coverage; nomination 356809 | No exact-title TMDB candidate |
-| The Six Wives Of Henry VIII/Biography: Beethoven/Biography: I Measured The Skies - Kepler/Put Out More Flags | television; award 1971; television-craft-production-design; nomination 345696 | No exact-title TMDB candidate |
 | The South Bank Show: Simon Rattle On Judith Weir | television-craft; award 2001; television-craft-sound-factual; nomination 349765 | No exact-title TMDB candidate |
-| The Tea Party/Progress To The Park/Summer Of The 17th Doll/The Tap On The Shoulder/Ashes To Ashes/Auto Stop | television; award 1965; television-craft-production-design; nomination 345574 | No exact-title TMDB candidate |
 | The Witcher (Episode 1) | television-craft; award 2022; television-craft-special-visual-graphic-effects; nomination 360487 | No exact-title TMDB candidate |
 | The X Factor Final | television-craft; award 2012; television-craft-director-multi-camera; nomination 350470 | No exact-title TMDB candidate |
 | The Year London Blew Up: 1974 | television-craft; award 2006; television-craft-editing-factual; nomination 350027 | No exact-title TMDB candidate |
@@ -197,42 +201,27 @@ These commonly need a title alias, parent-series relationship, event/episode rec
 | Wildlife: Tiger (Special) | television-craft; award 2000; television-craft-photography-factual; nomination 349703 | No exact-title TMDB candidate |
 | Winter Olympics 2014 | television-craft; award 2015; television-craft-titles-graphic-identity; nomination 352725 | No exact-title TMDB candidate |
 | Witness: The Train | television-craft; award 2002; television-craft-emerging-talent-factual; nomination 349793 | No exact-title TMDB candidate |
-| World. War. Me. (Sky Kids Investigates) | television; award 2026; television-childrens-non-scripted; nomination 374697 | No exact-title TMDB candidate |
 | Yellowstone: Winter | television-craft; award 2010; television-craft-photography-factual; nomination 350338 | No exact-title TMDB candidate |
 
-## Candidate evidence rejected by the automatic contract (30)
+## Candidate evidence rejected by the automatic contract (16)
 
 These candidates lack a usable IMDb ID or fall outside the accepted award window and require explicit review.
 
 | Source work | Context | Candidate evidence |
 | --- | --- | --- |
-| As Seen On TV | television; award 1995; television-childrens-non-scripted; nomination 347215 | [movie TMDB 474153](https://www.themoviedb.org/movie/474153) As Seen on TV (1986) — outside award window, no IMDb ID<br>[series TMDB 21682](https://www.themoviedb.org/tv/21682) As Seen on TV (2009) — outside award window, no IMDb ID<br>[movie TMDB 1479012](https://www.themoviedb.org/movie/1479012) As Seen On TV — outside award window, no IMDb ID<br>[movie TMDB 67272 / tt0271031](https://www.themoviedb.org/movie/67272) As Seen On Tv (2001) — outside award window |
 | Battle of the Brass Bands | television-craft; award 2020; television-craft-sound-factual; nomination 359067 | [series TMDB 213843](https://www.themoviedb.org/tv/213843) Battle of the Brass Bands (2019) — no IMDb ID |
-| Brief Lives | television; award 1969; television-leading-actor; nomination 345614 | [series TMDB 49086](https://www.themoviedb.org/tv/49086) Brief Lives — outside award window, no IMDb ID |
-| Channel 4 Cricket | television; award 2002; television-sports-coverage; nomination 347777 | [series TMDB 47554](https://www.themoviedb.org/tv/47554) Channel 4 Cricket — outside award window, no IMDb ID |
-| Circuit 11 Miami | television; award 1980; television-factual-series; nomination 346247 | [series TMDB 49076](https://www.themoviedb.org/tv/49076) Circuit 11 Miami — outside award window, no IMDb ID |
 | Falling Apart | television-craft; award 2003; television-craft-emerging-talent-fiction; nomination 349855, 349859 | [movie TMDB 813717](https://www.themoviedb.org/movie/813717) Falling Apart (2013) — outside award window, no IMDb ID<br>[movie TMDB 332332 / tt0340105](https://www.themoviedb.org/movie/332332) Falling Apart (2006) — outside award window<br>[movie TMDB 750424](https://www.themoviedb.org/movie/750424) Falling Apart (2020) — outside award window, no IMDb ID |
 | Family | television-craft; award 1995; television-craft-photography-lighting-fiction, television-craft-sound-fiction; nomination 349486, 349496 | [series TMDB 10738 / tt0073992](https://www.themoviedb.org/tv/10738) Family (1976) — outside award window |
-| Hospital: Casualty | television; award 1978; television-single-documentary; nomination 346091 | [series TMDB 47920](https://www.themoviedb.org/tv/47920) Hospital: Casualty — outside award window, no IMDb ID |
 | Jungle | television-craft; award 2023; television-craft-photography-lighting-fiction; nomination 361045 | [movie TMDB 390062 / tt3758172](https://www.themoviedb.org/movie/390062) Jungle (2017) — outside award window |
-| L'Aiguille Du Midi | television; award 1963; television-international; nomination 356874 | [series TMDB 48129](https://www.themoviedb.org/tv/48129) L'aiguille Du Midi — outside award window, no IMDb ID |
 | Later Live with Jools Holland | television-craft; award 2019; television-craft-sound-factual; nomination 357548 | [series TMDB 35132](https://www.themoviedb.org/tv/35132) Later Live… with Jools Holland (2008) — no IMDb ID |
-| Living Camera | television; award 1965; television-international; nomination 345580 | [series TMDB 48109](https://www.themoviedb.org/tv/48109) Living Camera — outside award window, no IMDb ID |
 | Macbeth | television-craft; award 1978; television-craft-photography-lighting-fiction; nomination 348698 | [movie TMDB 11316 / tt0067372](https://www.themoviedb.org/movie/11316) Macbeth (1971) — outside award window<br>[movie TMDB 1221930 / tt0783546](https://www.themoviedb.org/movie/1221930) Macbeth (1970) — outside award window<br>[movie TMDB 131320 / tt0400618](https://www.themoviedb.org/movie/131320) Macbeth (1961) — outside award window<br>[movie TMDB 269112 / tt0047198](https://www.themoviedb.org/movie/269112) Macbeth (1954) — outside award window |
 | Navigators | television-craft; award 2002; television-craft-emerging-talent-fiction; nomination 349800 | [movie TMDB 940525 / tt21225282](https://www.themoviedb.org/movie/940525) Navigators (2023) — outside award window<br>[movie TMDB 1447286](https://www.themoviedb.org/movie/1447286) Navigators (2009) — outside award window, no IMDb ID |
 | Nicholas Nickleby | television-craft; award 1983; television-craft-costume-design, television-craft-photography-lighting-fiction; nomination 348894, 348928 | [series TMDB 27611 / tt0077055](https://www.themoviedb.org/tv/27611) Nicholas Nickleby (1977) — outside award window<br>[series TMDB 24111 / tt0498745](https://www.themoviedb.org/tv/24111) Nicholas Nickleby (1968) — outside award window<br>[series TMDB 21862 / tt0979074](https://www.themoviedb.org/tv/21862) Nicholas Nickleby (1957) — outside award window<br>[movie TMDB 193875 / tt0247577](https://www.themoviedb.org/movie/193875) Nicholas Nickleby (1912) — outside award window |
-| Paradise Street | television; award 1965; television-single-documentary; nomination 345575 | [series TMDB 48091](https://www.themoviedb.org/tv/48091) Paradise Street — outside award window, no IMDb ID |
 | The Coronation of TM The King and Queen Camilla | television-craft; award 2024; television-craft-sound-factual; nomination 361766 | [series TMDB 225873](https://www.themoviedb.org/tv/225873) The Coronation of TM The King and Queen Camilla (2023) — no IMDb ID |
-| The First Television Pictures From The Moon | television; award 1970; television-international; nomination 345654 | [series TMDB 48039](https://www.themoviedb.org/tv/48039) The First Television Pictures From The Moon — outside award window, no IMDb ID |
-| The Grafters | television; award 1965; television-single-documentary; nomination 345575 | [series TMDB 48090](https://www.themoviedb.org/tv/48090) The Grafters — outside award window, no IMDb ID |
-| The National Trust | television; award 2004; television-specialist-factual; nomination 347893 | [series TMDB 16892](https://www.themoviedb.org/tv/16892) The National Trust (2003) — no IMDb ID |
 | The Plot to Bring Down Britain's Planes | television-craft; award 2013; television-craft-director-factual; nomination 351152 | [series TMDB 47836](https://www.themoviedb.org/tv/47836) The Plot to Bring Down Britain's Planes — outside award window, no IMDb ID |
 | The Show Must Go On | television-craft; award 2002; television-craft-editing-factual; nomination 349778 | [movie TMDB 1702024](https://www.themoviedb.org/movie/1702024) The Show Must Go On (1994) — outside award window, no IMDb ID<br>[movie TMDB 968148 / tt0205157](https://www.themoviedb.org/movie/968148) The Show Must Go On (1952) — outside award window<br>[movie TMDB 55771 / tt1038110](https://www.themoviedb.org/movie/55771) The Show Must Go On (2007) — outside award window<br>[movie TMDB 1015249 / tt21849170](https://www.themoviedb.org/movie/1015249) The Show Must Go On (2022) — outside award window |
-| The Stanley Baxter Series | television; award 1982; television-entertainment; nomination 346409 | [series TMDB 23569](https://www.themoviedb.org/tv/23569) The Stanley Baxter Series (1981) — no IMDb ID |
 | The System | television-craft; award 1997; television-craft-editing-factual; nomination 349552 | [movie TMDB 165020 / tt0060461](https://www.themoviedb.org/movie/165020) The System (1964) — outside award window<br>[movie TMDB 45679 / tt0046389](https://www.themoviedb.org/movie/45679) The System (1953) — outside award window<br>[movie TMDB 1024627 / tt14037272](https://www.themoviedb.org/movie/1024627) The System (2022) — outside award window<br>[movie TMDB 1528843 / tt37578802](https://www.themoviedb.org/movie/1528843) The System (2025) — outside award window |
-| The Trust | television; award 2003; television-specialist-factual; nomination 347827 | [movie TMDB 708824 / tt0108401](https://www.themoviedb.org/movie/708824) The Trust (1993) — outside award window<br>[series TMDB 220306 / tt26697171](https://www.themoviedb.org/tv/220306) The Trust (2023) — outside award window<br>[series TMDB 241168 / tt30342862](https://www.themoviedb.org/tv/241168) The Trust (2024) — outside award window<br>[movie TMDB 301608 / tt3733774](https://www.themoviedb.org/movie/301608) The Trust (2016) — outside award window |
 | Tom Jones | television-craft; award 1998; television-craft-costume-design, television-craft-make-up-hair-design; nomination 349587, 349609 | [movie TMDB 5769 / tt0057590](https://www.themoviedb.org/movie/5769) Tom Jones (1963) — outside award window<br>[movie TMDB 910819](https://www.themoviedb.org/movie/910819) Tom Jones (1927) — outside award window, no IMDb ID<br>[movie TMDB 906204 / tt0008686](https://www.themoviedb.org/movie/906204) Tom Jones (1917) — outside award window<br>[series TMDB 205703 / tt15398980](https://www.themoviedb.org/tv/205703) Tom Jones (2023) — outside award window |
 | Top Boy | television-craft; award 2020; television-craft-scripted-casting; nomination 359060 | [series TMDB 93544](https://www.themoviedb.org/tv/93544) Top Boy (2019) — no IMDb ID<br>[series TMDB 41889 / tt1830379](https://www.themoviedb.org/tv/41889) Top Boy (2011) — outside award window |
 | Top Boy | television-craft; award 2023; television-craft-director-fiction; nomination 361007 | [series TMDB 93544](https://www.themoviedb.org/tv/93544) Top Boy (2019) — no IMDb ID<br>[series TMDB 41889 / tt1830379](https://www.themoviedb.org/tv/41889) Top Boy (2011) — outside award window |
 | War & Peace | television-craft; award 2017; television-craft-production-design; nomination 356092 | [series TMDB 2498 / tt0069654](https://www.themoviedb.org/tv/2498) War & Peace (1972) — outside award window<br>[movie TMDB 528321 / tt6649618](https://www.themoviedb.org/movie/528321) War/Peace (2018) — outside award window |
-| Zimbabwe's Forgotten Children | television; award 2011; television-current-affairs; nomination 348435 | [movie TMDB 48424](https://www.themoviedb.org/movie/48424) Zimbabwe's Forgotten Children (2010) — no IMDb ID |
