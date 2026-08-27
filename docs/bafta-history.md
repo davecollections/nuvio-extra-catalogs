@@ -177,6 +177,22 @@ python scripts/audit_bafta_television_artwork.py
 python scripts/audit_bafta_television_artwork.py --offline-check
 ```
 
+## Metadata compatibility
+
+The V1.3 acceptance pass found that poster availability and detail-page metadata are separate concerns. Nuvio's recommended production provider resolves 616 of the 667 unique BAFTA Television IMDb identities. It returns an empty or unusable `meta` response for 51 reviewed IDs, including several titles that do have valid poster artwork. Cinemeta resolves 39 of those gaps; 12 are unavailable through either reviewed provider.
+
+The catalogue IDs remain unchanged. Instead, the all-awards and relevant award-preset manifests advertise a static `meta` resource filtered to the 51 exact IMDb IDs. Each generated response contains the reviewed ID, media type, catalogue title, release year, and available contracted poster. This is a narrow compatibility fallback, not a general metadata service, and it requires no live backend.
+
+The networked review and deterministic offline gates are:
+
+```bash
+python scripts/audit_bafta_television_metadata.py
+python scripts/audit_bafta_television_metadata.py --offline-check
+python scripts/build_bafta_television_metadata_fallbacks.py --check
+```
+
+The complete provider evidence is committed in `reports/bafta-television-metadata-audit.json`. A future maintenance pass may remove an ID from the fallback contract only after the recommended provider resolves a valid full meta object for that exact movie/series identity.
+
 ## Implementation gates
 
 Before V1.2 BAFTA Film publication:

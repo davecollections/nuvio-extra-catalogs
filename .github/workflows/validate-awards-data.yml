@@ -95,6 +95,12 @@ jobs:
       - name: Check BAFTA Television artwork audit evidence
         run: python scripts/audit_bafta_television_artwork.py --offline-check
 
+      - name: Check BAFTA Television metadata audit evidence
+        run: python scripts/audit_bafta_television_metadata.py --offline-check
+
+      - name: Check BAFTA Television static metadata fallbacks
+        run: python scripts/build_bafta_television_metadata_fallbacks.py --check
+
       - name: Check BAFTA category lineage audit inventory
         run: python scripts/build_bafta_lineage_audit.py --check
 

@@ -32,9 +32,9 @@ The original V0.1 seed proved the integration path in Nuvio. V0.2–V0.5 establi
 2. Nuvio sees `Academy Awards — Best Picture Winners` as a catalogue.
 3. The catalogue can be used as a source inside Nuvio Collections.
 4. Items identified by IMDb IDs can open with metadata supplied by another installed metadata provider.
-5. The add-on can remain catalog-only for this architecture.
+5. The add-on can remain catalogue-led and statically hosted for this architecture.
 
-A compatible metadata provider is expected to be installed alongside Xtra. Nuvio's official TMDB add-on is the recommended example used during the proof of concept.
+A compatible metadata provider is expected to be installed alongside Xtra. Nuvio's official TMDB add-on is the recommended example used during the proof of concept. V1.3 adds compact static `meta` responses only for the 51 reviewed BAFTA Television IMDb IDs that the recommended provider does not return; it does not create a general metadata service or live backend.
 
 ## Structure
 
@@ -59,6 +59,9 @@ nuvio-extra-catalogs/
 │   └── bafta-television/
 ├── docs/
 ├── examples/
+├── meta/
+│   ├── movie/
+│   └── series/
 ├── schema/
 ├── scripts/
 ├── AGENTS.md
@@ -73,6 +76,8 @@ Released Academy IDs retain their existing `academy-...` names. Golden Globes an
 ```text
 /catalog/{movie|series}/{catalogue-id}.json
 ```
+
+The V1.3 metadata compatibility contract also exposes exact reviewed fallback routes beneath `/meta/{movie|series}/{imdb-id}.json`. The manifest advertises only those full IMDb IDs, so normal title metadata continues to come from the user's installed provider.
 
 ## Awards data
 
@@ -209,6 +214,8 @@ python scripts/enrich_bafta_identities.py --check --complete --programme televis
 python scripts/build_bafta_television_canonical.py --check
 python scripts/build_bafta_television_outputs.py --check
 python scripts/audit_bafta_television_artwork.py --offline-check
+python scripts/audit_bafta_television_metadata.py --offline-check
+python scripts/build_bafta_television_metadata_fallbacks.py --check
 python scripts/build_manifest_presets.py --check
 ```
 
@@ -217,9 +224,10 @@ The separate networked artwork maintenance passes check all published BAFTA IMDb
 ```bash
 python scripts/audit_bafta_film_artwork.py
 python scripts/audit_bafta_television_artwork.py
+python scripts/audit_bafta_television_metadata.py
 ```
 
-See `docs/bafta-history.md`, `reports/bafta-film-artwork-audit.json`, and `reports/bafta-television-artwork-audit.json` for the lineage, identity, classification, and artwork evidence.
+See `docs/bafta-history.md`, `reports/bafta-film-artwork-audit.json`, `reports/bafta-television-artwork-audit.json`, and `reports/bafta-television-metadata-audit.json` for the lineage, identity, classification, artwork, and metadata-compatibility evidence.
 
 ## GitHub Pages URLs
 
@@ -248,6 +256,12 @@ Catalogue response pattern:
 
 ```text
 https://davecollections.github.io/nuvio-extra-catalogs/catalog/{movie|series}/{catalogue-id}.json
+```
+
+Contracted metadata fallback pattern:
+
+```text
+https://davecollections.github.io/nuvio-extra-catalogs/meta/{movie|series}/{imdb-id}.json
 ```
 
 ## Feedback
