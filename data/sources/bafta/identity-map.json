@@ -23523,7 +23523,8 @@
       "candidates": [],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "The 90 Years On Churchill birthday programme is preserved by BAFTA's 1965 record, but review found no compatible standalone or parent-series IMDb title identity."
+        "reason": "The 90 Years On Churchill birthday programme is preserved by BAFTA's 1965 record, but review found no compatible standalone or parent-series IMDb title identity.",
+        "mediaType": "movie"
       }
     },
     {
@@ -24552,7 +24553,8 @@
       "mediaScope": "mixed",
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "The 1973 Yorkshire Television play An Afternoon at the Festival is verified with Eileen Diss as art director, but its reviewed TMDB record has no IMDb relationship and no compatible parent series is available."
+        "reason": "The 1973 Yorkshire Television play An Afternoon at the Festival is verified with Eileen Diss as art director, but its reviewed TMDB record has no IMDb relationship and no compatible parent series is available.",
+        "mediaType": "movie"
       }
     },
     {
@@ -25516,7 +25518,8 @@
       ],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "The 1994 Children's Programme winner As Seen on TV is verified by BAFTA, but review found no compatible IMDb identity; title-similar TMDB candidates are different productions."
+        "reason": "The 1994 Children's Programme winner As Seen on TV is verified by BAFTA, but review found no compatible IMDb identity; title-similar TMDB candidates are different productions.",
+        "mediaType": "series"
       }
     },
     {
@@ -27423,7 +27426,8 @@
       ],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "The exact legacy series Brief Lives is preserved as TMDB series 49086, but that record has no IMDb relationship and no compatible alternative identity was found."
+        "reason": "The exact legacy series Brief Lives is preserved as TMDB series 49086, but that record has no IMDb relationship and no compatible alternative identity was found.",
+        "mediaType": "series"
       }
     },
     {
@@ -28121,7 +28125,8 @@
       "candidates": [],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "CBeebies: As You Like It at Shakespeare's Globe is verified by BAFTA, but review found no exact compatible IMDb title; the generic CBeebies brand is too broad to substitute as a parent series."
+        "reason": "CBeebies: As You Like It at Shakespeare's Globe is verified by BAFTA, but review found no exact compatible IMDb title; the generic CBeebies brand is too broad to substitute as a parent series.",
+        "mediaType": "movie"
       }
     },
     {
@@ -28208,7 +28213,8 @@
       ],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "Channel 4 Cricket is preserved as TMDB series 47554, but the reviewed record has no IMDb relationship and no compatible broadcast-series identity was found."
+        "reason": "Channel 4 Cricket is preserved as TMDB series 47554, but the reviewed record has no IMDb relationship and no compatible broadcast-series identity was found.",
+        "mediaType": "series"
       }
     },
     {
@@ -28821,7 +28827,8 @@
       ],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "Circuit 11 Miami is preserved as TMDB series 49076, but the reviewed record has no IMDb relationship and no compatible alternative identity was found."
+        "reason": "Circuit 11 Miami is preserved as TMDB series 49076, but the reviewed record has no IMDb relationship and no compatible alternative identity was found.",
+        "mediaType": "series"
       }
     },
     {
@@ -30383,7 +30390,8 @@
       "candidates": [],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "The Deutsche Olympische Zentrum Munich Olympic Games production is preserved by BAFTA's 1973 record, but review found no compatible IMDb title identity."
+        "reason": "The Deutsche Olympische Zentrum Munich Olympic Games production is preserved by BAFTA's 1973 record, but review found no compatible IMDb title identity.",
+        "mediaType": "series"
       }
     },
     {
@@ -35487,7 +35495,8 @@
       ],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "Hospital: Casualty is preserved as TMDB series 47920, but the reviewed record has no IMDb relationship and no compatible alternative identity was found."
+        "reason": "Hospital: Casualty is preserved as TMDB series 47920, but the reviewed record has no IMDb relationship and no compatible alternative identity was found.",
+        "mediaType": "series"
       }
     },
     {
@@ -37345,7 +37354,8 @@
       "candidates": [],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "The 1969 BBC Petula Clark special Just Pet (Musical) is verified by BAFTA, but review found no compatible IMDb identity; unrelated US Petula specials must not be substituted."
+        "reason": "The 1969 BBC Petula Clark special Just Pet (Musical) is verified by BAFTA, but review found no compatible IMDb identity; unrelated US Petula specials must not be substituted.",
+        "mediaType": "movie"
       }
     },
     {
@@ -37547,7 +37557,8 @@
       ],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "L'Aiguille Du Midi is preserved as TMDB series 48129, but the reviewed record has no IMDb relationship and no compatible alternative identity was found."
+        "reason": "L'Aiguille Du Midi is preserved as TMDB series 48129, but the reviewed record has no IMDb relationship and no compatible alternative identity was found.",
+        "mediaType": "series"
       }
     },
     {
@@ -38368,7 +38379,8 @@
       ],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "Living Camera is preserved as TMDB series 48109, but the reviewed record has no IMDb relationship and no compatible alternative identity was found."
+        "reason": "Living Camera is preserved as TMDB series 48109, but the reviewed record has no IMDb relationship and no compatible alternative identity was found.",
+        "mediaType": "series"
       }
     },
     {
@@ -42143,7 +42155,8 @@
       "mediaScope": "mixed",
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "Tony Abbott's 1969 BBC production-design work Otello is verified by BAFTA and contemporary awards records, but review found no compatible IMDb identity for that exact production."
+        "reason": "Tony Abbott's 1969 BBC production-design work Otello is verified by BAFTA and contemporary awards records, but review found no compatible IMDb identity for that exact production.",
+        "mediaType": "movie"
       }
     },
     {
@@ -42514,7 +42527,8 @@
       ],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "Paradise Street is preserved as TMDB series 48091, but the reviewed record has no IMDb relationship and no compatible alternative identity was found."
+        "reason": "Paradise Street is preserved as TMDB series 48091, but the reviewed record has no IMDb relationship and no compatible alternative identity was found.",
+        "mediaType": "series"
       }
     },
     {
@@ -43047,7 +43061,8 @@
       "candidates": [],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "Platinum Jubilee: Party at the Palace is verified by BAFTA, but its only reviewed exact IMDb result, tt27205299, is classified as a music video and is incompatible with the catalogue contract."
+        "reason": "Platinum Jubilee: Party at the Palace is verified by BAFTA, but its only reviewed exact IMDb result, tt27205299, is classified as a music video and is incompatible with the catalogue contract.",
+        "mediaType": "movie"
       }
     },
     {
@@ -43398,7 +43413,8 @@
       "candidates": [],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "President Kennedy's Funeral is verified as multi-network television coverage by BAFTA, but review found no single compatible standalone or parent-series IMDb identity."
+        "reason": "President Kennedy's Funeral is verified as multi-network television coverage by BAFTA, but review found no single compatible standalone or parent-series IMDb identity.",
+        "mediaType": "series"
       }
     },
     {
@@ -44812,7 +44828,8 @@
       "candidates": [],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "The 2003 Rugby World Cup Final coverage is verified by BAFTA, but review found no compatible IMDb event or broadcast-series identity."
+        "reason": "The 2003 Rugby World Cup Final coverage is verified by BAFTA, but review found no compatible IMDb event or broadcast-series identity.",
+        "mediaType": "series"
       }
     },
     {
@@ -46066,7 +46083,8 @@
       "candidates": [],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "Sky Rugby Union is verified by BAFTA's 1998 Sports Coverage record, but review found no compatible IMDb identity; the title-similar Rugby Club is not the credited coverage."
+        "reason": "Sky Rugby Union is verified by BAFTA's 1998 Sports Coverage record, but review found no compatible IMDb identity; the title-similar Rugby Club is not the credited coverage.",
+        "mediaType": "series"
       }
     },
     {
@@ -47992,7 +48010,8 @@
       "candidates": [],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "The 1999 Test Cricket coverage is verified by BAFTA, but review found no compatible IMDb event or broadcast-series identity."
+        "reason": "The 1999 Test Cricket coverage is verified by BAFTA, but review found no compatible IMDb event or broadcast-series identity.",
+        "mediaType": "series"
       }
     },
     {
@@ -50087,7 +50106,8 @@
       ],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "The First Television Pictures From The Moon is preserved as TMDB series 48039, but the reviewed record has no IMDb relationship and no compatible alternative identity was found."
+        "reason": "The First Television Pictures From The Moon is preserved as TMDB series 48039, but the reviewed record has no IMDb relationship and no compatible alternative identity was found.",
+        "mediaType": "series"
       }
     },
     {
@@ -50374,7 +50394,8 @@
       ],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "The Grafters is preserved as TMDB series 48090, but the reviewed record has no IMDb relationship and no compatible alternative identity was found."
+        "reason": "The Grafters is preserved as TMDB series 48090, but the reviewed record has no IMDb relationship and no compatible alternative identity was found.",
+        "mediaType": "series"
       }
     },
     {
@@ -52411,7 +52432,8 @@
       ],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "The National Trust is preserved as the exact 2003 TMDB series 16892, but the reviewed record has no IMDb relationship and no compatible alternative identity was found."
+        "reason": "The National Trust is preserved as the exact 2003 TMDB series 16892, but the reviewed record has no IMDb relationship and no compatible alternative identity was found.",
+        "mediaType": "series"
       }
     },
     {
@@ -54391,7 +54413,8 @@
       ],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "The Stanley Baxter Series is preserved as the exact 1981 TMDB series 23569, but the reviewed record has no IMDb relationship and no compatible alternative identity was found."
+        "reason": "The Stanley Baxter Series is preserved as the exact 1981 TMDB series 23569, but the reviewed record has no IMDb relationship and no compatible alternative identity was found.",
+        "mediaType": "series"
       }
     },
     {
@@ -55069,7 +55092,8 @@
       ],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "The credited 2002 programme The Trust is verified by BAFTA, but review found no compatible IMDb identity; current and title-similar candidates are different productions."
+        "reason": "The credited 2002 programme The Trust is verified by BAFTA, but review found no compatible IMDb identity; current and title-similar candidates are different productions.",
+        "mediaType": "series"
       }
     },
     {
@@ -59471,7 +59495,8 @@
       "candidates": [],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "World War Me: Sky Kids Investigates is verified by BAFTA's 2026 Children's Non-Scripted record, but review found no compatible IMDb title identity."
+        "reason": "World War Me: Sky Kids Investigates is verified by BAFTA's 2026 Children's Non-Scripted record, but review found no compatible IMDb title identity.",
+        "mediaType": "movie"
       }
     },
     {
@@ -59943,7 +59968,8 @@
       ],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
-        "reason": "Zimbabwe's Forgotten Children is preserved as TMDB movie 48424, but the reviewed record has no IMDb relationship and no compatible alternative identity was found."
+        "reason": "Zimbabwe's Forgotten Children is preserved as TMDB movie 48424, but the reviewed record has no IMDb relationship and no compatible alternative identity was found.",
+        "mediaType": "movie"
       }
     }
   ],

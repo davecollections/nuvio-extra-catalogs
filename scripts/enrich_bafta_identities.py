@@ -318,8 +318,6 @@ def load_overrides() -> dict:
 def apply_overrides(identity_map: dict) -> tuple[int, int]:
     payload = load_overrides()
     token = os.environ.get(TOKEN_ENV)
-    if any("tmdbId" in override for override in payload["works"]) and not token:
-        raise IdentityError(f"{TOKEN_ENV} is required for --apply-overrides")
     by_key = {entry["key"]: entry for entry in identity_map["works"]}
     applied = 0
     omitted = 0
@@ -331,6 +329,28 @@ def apply_overrides(identity_map: dict) -> tuple[int, int]:
         media_type = override["mediaType"]
         tmdb_id = override.get("tmdbId")
         if tmdb_id is not None:
+            existing = entry.get("resolution")
+            if (
+                isinstance(existing, dict)
+                and existing.get("method") == "reviewed-manual-override"
+                and existing.get("mediaType") == media_type
+                and existing.get("tmdbId") == tmdb_id
+                and (
+                    "imdbId" not in override
+                    or existing.get("imdbId") == override["imdbId"]
+                )
+            ):
+                resolution = existing
+                entry["resolution"] = resolution
+                entry["reviewNote"] = override["reviewNote"]
+                entry.pop("candidates", None)
+                entry.pop("reviewOutcome", None)
+                applied += 1
+                continue
+            if not token:
+                raise IdentityError(
+                    f"{TOKEN_ENV} is required to refresh TMDB override {key}"
+                )
             tmdb_type = "tv" if media_type == "series" else "movie"
             details = api_json(
                 f"/{tmdb_type}/{tmdb_id}",
@@ -386,10 +406,13 @@ def apply_overrides(identity_map: dict) -> tuple[int, int]:
             raise IdentityError(f"{OVERRIDES_PATH}: unknown omission key {key!r}")
         entry.pop("resolution", None)
         entry.pop("reviewNote", None)
-        entry["reviewOutcome"] = {
+        outcome = {
             "disposition": override["disposition"],
             "reason": override["reviewNote"],
         }
+        if "mediaType" in override:
+            outcome["mediaType"] = override["mediaType"]
+        entry["reviewOutcome"] = outcome
         omitted += 1
     return applied, omitted
 
@@ -460,7 +483,13 @@ def validate_overrides(identity_map: dict) -> None:
         if by_key[key].get("reviewNote") != override["reviewNote"]:
             raise IdentityError(f"{OVERRIDES_PATH}: stale review note for {key}")
     for override in payload["omissions"]:
-        if set(override) != {"key", "disposition", "reviewNote", "evidenceUrls"}:
+        if set(override) - {
+            "key",
+            "mediaType",
+            "disposition",
+            "reviewNote",
+            "evidenceUrls",
+        }:
             raise IdentityError(f"{OVERRIDES_PATH}: invalid omission keys")
         key = override.get("key")
         if not isinstance(key, str) or key not in by_key or key in all_keys:
@@ -468,6 +497,13 @@ def validate_overrides(identity_map: dict) -> None:
         all_keys.add(key)
         if override.get("disposition") != "no-compatible-imdb-identity":
             raise IdentityError(f"{OVERRIDES_PATH}: invalid omission disposition for {key}")
+        media_type = override.get("mediaType")
+        if media_type is not None and media_type not in {"movie", "series"}:
+            raise IdentityError(f"{OVERRIDES_PATH}: invalid omission media type for {key}")
+        if by_key[key].get("mediaScope") == "mixed" and media_type is None:
+            raise IdentityError(
+                f"{OVERRIDES_PATH}: mixed-media omission requires media type for {key}"
+            )
         if not isinstance(override.get("reviewNote"), str) or not override["reviewNote"].strip():
             raise IdentityError(f"{OVERRIDES_PATH}: review note required for {key}")
         evidence_urls = override.get("evidenceUrls")
@@ -477,10 +513,13 @@ def validate_overrides(identity_map: dict) -> None:
             raise IdentityError(f"{OVERRIDES_PATH}: evidence URLs required for {key}")
         if "resolution" in by_key[key]:
             raise IdentityError(f"{OVERRIDES_PATH}: omitted work is also resolved: {key}")
-        if by_key[key].get("reviewOutcome") != {
+        expected_outcome = {
             "disposition": override["disposition"],
             "reason": override["reviewNote"],
-        }:
+        }
+        if media_type is not None:
+            expected_outcome["mediaType"] = media_type
+        if by_key[key].get("reviewOutcome") != expected_outcome:
             raise IdentityError(f"{OVERRIDES_PATH}: unapplied omission {key}")
 
 
@@ -562,12 +601,19 @@ def validate_review_outcome(entry: dict) -> bool:
         return False
     if "resolution" in entry:
         raise IdentityError(f"{entry.get('key')}: work cannot be resolved and omitted")
-    if not isinstance(outcome, dict) or set(outcome) != {"disposition", "reason"}:
+    if not isinstance(outcome, dict) or set(outcome) not in (
+        {"disposition", "reason"},
+        {"disposition", "reason", "mediaType"},
+    ):
         raise IdentityError(f"{entry.get('key')}: invalid review outcome")
     if outcome["disposition"] != "no-compatible-imdb-identity":
         raise IdentityError(f"{entry.get('key')}: invalid review disposition")
     if not isinstance(outcome["reason"], str) or not outcome["reason"].strip():
         raise IdentityError(f"{entry.get('key')}: review outcome requires a reason")
+    if "mediaType" in outcome and outcome["mediaType"] not in {"movie", "series"}:
+        raise IdentityError(f"{entry.get('key')}: review outcome has invalid media type")
+    if entry.get("mediaScope") == "mixed" and "mediaType" not in outcome:
+        raise IdentityError(f"{entry.get('key')}: mixed-media review outcome needs media type")
     return True
 
 
@@ -619,7 +665,8 @@ def validate_map(
         "resolution" in entry or "reviewOutcome" in entry for entry in scoped_works
     )
     scoped_attempted = sum(
-        "resolution" in entry or "candidates" in entry for entry in scoped_works
+        "resolution" in entry or "reviewOutcome" in entry or "candidates" in entry
+        for entry in scoped_works
     )
     scope_label = programme or "BAFTA"
     if complete and scoped_complete != len(scoped_works):

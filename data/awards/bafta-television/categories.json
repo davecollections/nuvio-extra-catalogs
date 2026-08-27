@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "awardBodyId": "bafta-television",
+  "categories": [
+    {
+      "id": "television-actor-comedy",
+      "name": "Actor in a Comedy",
+      "aliases": [
+        "Male Performance in a Comedy"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
+      "id": "television-actress-comedy",
+      "name": "Actress in a Comedy",
+      "aliases": [
+        "Female Performance in a Comedy"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
+      "id": "television-childrens-non-scripted",
+      "name": "Children's: Non-Scripted",
+      "aliases": [
+        "Children's Programme - Documentary - Educational",
+        "Children's Programme - Factual"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "work"
+    },
+    {
+      "id": "television-childrens-scripted",
+      "name": "Children's: Scripted",
+      "aliases": [
+        "Children's Programme - Entertainment/Drama",
+        "Children's Programme - Fiction or Entertainment"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "work"
+    },
+    {
+      "id": "television-current-affairs",
+      "name": "Current Affairs",
+      "aliases": [
+        "Current Events",
+        "Factual: Current Affairs"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "work"
+    },
+    {
+      "id": "television-daytime",
+      "name": "Daytime",
+      "aliases": [],
+      "mediaType": "mixed",
+      "recipientKind": "work"
+    },
+    {
+      "id": "television-drama-series",
+      "name": "Drama Series",
+      "aliases": [],
+      "mediaType": "mixed",
+      "recipientKind": "work"
+    },
+    {
+      "id": "television-entertainment",
+      "name": "Entertainment",
+      "aliases": [
+        "Comedy",
+        "Comedy and Comedy Entertainment Programme",
+        "Comedy Entertainment",
+        "Lew Grade Award For Entertainment Programme or Series",
+        "Light Entertainment"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "work"
+    },
+    {
+      "id": "television-entertainment-performance",
+      "name": "Entertainment Performance",
+      "aliases": [
+        "Light Entertainment Performance"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
+      "id": "television-factual-entertainment",
+      "name": "Factual Entertainment",
+      "aliases": [
+        "Features"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "work"
+    },
+    {
+      "id": "television-factual-series",
+      "name": "Factual Series",
+      "aliases": [],
+      "mediaType": "mixed",
+      "recipientKind": "work"
+    },
+    {
+      "id": "television-international",
+      "name": "International",
+      "aliases": [
+        "Foreign Television Programme"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "work"
+    },
+    {
+      "id": "television-leading-actor",
+      "name": "Leading Actor",
+      "aliases": [
+        "Actor"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
+      "id": "television-leading-actress",
+      "name": "Leading Actress",
+      "aliases": [
+        "Actress"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
+      "id": "television-limited-drama",
+      "name": "Limited Drama",
+      "aliases": [
+        "Drama Serial",
+        "Mini-Series",
+        "Single Drama",
+        "Single Play"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "work"
+    },
+    {
+      "id": "television-live-event-coverage",
+      "name": "Live Event Coverage",
+      "aliases": [
+        "Live Outside Broadcast Coverage"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "work"
+    },
+    {
+      "id": "television-news-coverage",
+      "name": "News Coverage",
+      "aliases": [],
+      "mediaType": "mixed",
+      "recipientKind": "work"
+    },
+    {
+      "id": "television-memorable-moment",
+      "name": "P&O Cruises Memorable Moment",
+      "aliases": [
+        "Virgin Media's Must-See Moment",
+        "Virgin TV's Must See Moment"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "work"
+    },
+    {
+      "id": "television-reality",
+      "name": "Reality",
+      "aliases": [
+        "Reality & Constructed Factual"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "work"
+    },
+    {
+      "id": "television-scripted-comedy",
+      "name": "Scripted Comedy",
+      "aliases": [
+        "Comedy - Programme or Series",
+        "Comedy Series",
+        "Situation Comedy"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "work"
+    },
+    {
+      "id": "television-short-form",
+      "name": "Short Form",
+      "aliases": [],
+      "mediaType": "mixed",
+      "recipientKind": "work"
+    },
+    {
+      "id": "television-single-documentary",
+      "name": "Single Documentary",
+      "aliases": [
+        "Documentary",
+        "Factual: Documentary",
+        "Flaherty Documentary Award"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "work"
+    },
+    {
+      "id": "television-soap",
+      "name": "Soap",
+      "aliases": [
+        "Continuing Drama",
+        "Soap & Continuing Drama",
+        "Soap And Continuing Drama"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "work"
+    },
+    {
+      "id": "television-specialist-factual",
+      "name": "Specialist Factual",
+      "aliases": [
+        "Arts Programme",
+        "Huw Wheldon Award For Specialised Programme or Series",
+        "Huw Wheldon Award For Specialist Factual",
+        "Huw Wheldon Award For The Best Arts Programme",
+        "Specialised Production",
+        "Specialised Programme",
+        "Specialised Series"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "work"
+    },
+    {
+      "id": "television-sports-coverage",
+      "name": "Sports Coverage",
+      "aliases": [],
+      "mediaType": "mixed",
+      "recipientKind": "work"
+    },
+    {
+      "id": "television-supporting-actor",
+      "name": "Supporting Actor",
+      "aliases": [],
+      "mediaType": "mixed",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    },
+    {
+      "id": "television-supporting-actress",
+      "name": "Supporting Actress",
+      "aliases": [],
+      "mediaType": "mixed",
+      "recipientKind": "person",
+      "creditRole": "actor"
+    }
+  ]
+}
