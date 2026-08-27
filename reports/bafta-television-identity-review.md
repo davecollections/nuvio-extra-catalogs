@@ -9,13 +9,13 @@ The committed BAFTA snapshots decide award facts. This report inventories only w
 - Selected work-linked winner records: **939**
 - Selected work links: **978**
 - Award-year-scoped work identities: **889**
-- Resolved identities: **805** (155 movies; 650 series)
+- Resolved identities: **813** (155 movies; 658 series)
 - Reviewed non-catalogue outcomes: **0**
-- Unresolved identities: **84**
+- Unresolved identities: **76**
 - Unattempted identities: **0**
-- No exact-title candidate: **61**
+- No exact-title candidate: **59**
 - Multiple plausible exact-title candidates: **0**
-- Candidate evidence without an acceptable IMDb/date relationship: **23**
+- Candidate evidence without an acceptable IMDb/date relationship: **17**
 
 ## Multiple plausible candidates (0)
 
@@ -24,7 +24,7 @@ Each row has more than one exact-title candidate inside the award window and nee
 | Source work | Context | Candidate evidence |
 | --- | --- | --- |
 
-## No exact-title candidate (61)
+## No exact-title candidate (59)
 
 These commonly need a title alias, parent-series relationship, event/episode reconciliation, or a documented non-catalogue outcome.
 
@@ -42,7 +42,6 @@ These commonly need a title alias, parent-series relationship, event/episode rec
 | Ellie Simmonds: Finding My Secret Family | television; award 2024; television-single-documentary; nomination 361675 | No exact-title TMDB candidate |
 | England v West Indies Test Cricket | television; award 2021; television-sports-coverage; nomination 359864 | No exact-title TMDB candidate |
 | Eurovision Song Contest 2023 | television, television-craft; award 2024; television-craft-director-multi-camera, television-craft-entertainment-craft-team, television-live-event-coverage; nomination 361650, 361714, 361734 | No exact-title TMDB candidate |
-| Explorers: Amundsen | television; award 1976; television-specialist-factual; nomination 345987 | No exact-title TMDB candidate |
 | F1: Hungarian Grand Prix - Jenson Button's First Win | television; award 2007; television-sports-coverage; nomination 348151 | No exact-title TMDB candidate |
 | Formula 1: The Abu Dhabi Grand Prix | television; award 2011; television-sports-coverage; nomination 348506 | No exact-title TMDB candidate |
 | Glastonbury 2024 | television, television-craft; award 2025; television-craft-director-multi-camera, television-live-event-coverage; nomination 368269, 368343 | No exact-title TMDB candidate |
@@ -87,12 +86,11 @@ These commonly need a title alias, parent-series relationship, event/episode rec
 | UEFA Women's EURO 2022 | television; award 2023; television-sports-coverage; nomination 361184 | No exact-title TMDB candidate |
 | UEFA Women's Euro 2025 | television, television-craft; award 2026; television-craft-titles-graphic-identity, television-sports-coverage; nomination 374670, 374785 | No exact-title TMDB candidate |
 | VE Day 80: A Celebration to Remember | television; award 2026; television-live-event-coverage; nomination 374756 | No exact-title TMDB candidate |
-| Women Beware Women | television; award 1965; television-drama-series; nomination 345577 | No exact-title TMDB candidate |
 | World Athletics Championships | television; award 2010; television-sports-coverage; nomination 348409 | No exact-title TMDB candidate |
 | World. War. Me. (Sky Kids Investigates) | television; award 2026; television-childrens-non-scripted; nomination 374697 | No exact-title TMDB candidate |
 | World War One Remembered: Passchendaele | television, television-craft; award 2018; television-craft-director-multi-camera, television-craft-entertainment-craft-team, television-live-event-coverage; nomination 356689, 356702, 356797 | No exact-title TMDB candidate |
 
-## Candidate evidence rejected by the automatic contract (23)
+## Candidate evidence rejected by the automatic contract (17)
 
 These candidates lack a usable IMDb ID or fall outside the accepted award window and require explicit review.
 
@@ -103,19 +101,13 @@ These candidates lack a usable IMDb ID or fall outside the accepted award window
 | Brief Lives | television; award 1969; television-leading-actor; nomination 345614 | [series TMDB 49086](https://www.themoviedb.org/tv/49086) Brief Lives — outside award window, no IMDb ID |
 | Channel 4 Cricket | television; award 2002; television-sports-coverage; nomination 347777 | [series TMDB 47554](https://www.themoviedb.org/tv/47554) Channel 4 Cricket — outside award window, no IMDb ID |
 | Circuit 11 Miami | television; award 1980; television-factual-series; nomination 346247 | [series TMDB 49076](https://www.themoviedb.org/tv/49076) Circuit 11 Miami — outside award window, no IMDb ID |
-| Explorers | television; award 1976; television-specialist-factual; nomination 345991 | [movie TMDB 9872 / tt0089114](https://www.themoviedb.org/movie/9872) Explorers (1985) — outside award window<br>[movie TMDB 457370](https://www.themoviedb.org/movie/457370) Explorers (2016) — outside award window, no IMDb ID<br>[series TMDB 96719](https://www.themoviedb.org/tv/96719) Explorers — outside award window, no IMDb ID<br>[movie TMDB 650296 / tt7341460](https://www.themoviedb.org/movie/650296) Explorers (2017) — outside award window |
 | Hospital: Casualty | television; award 1978; television-single-documentary; nomination 346091 | [series TMDB 47920](https://www.themoviedb.org/tv/47920) Hospital: Casualty — outside award window, no IMDb ID |
 | L'Aiguille Du Midi | television; award 1963; television-international; nomination 356874 | [series TMDB 48129](https://www.themoviedb.org/tv/48129) L'aiguille Du Midi — outside award window, no IMDb ID |
-| Laurence Olivier - A Life | television; award 1983; television-single-documentary; nomination 346474 | [movie TMDB 1489005](https://www.themoviedb.org/movie/1489005) Laurence Olivier: A Life (1982) — no IMDb ID |
 | Living Camera | television; award 1965; television-international; nomination 345580 | [series TMDB 48109](https://www.themoviedb.org/tv/48109) Living Camera — outside award window, no IMDb ID |
-| Nijinsky, God Of The Dance | television; award 1976; television-leading-actor; nomination 345926 | [series TMDB 48360](https://www.themoviedb.org/tv/48360) Nijinsky, God Of The Dance — outside award window, no IMDb ID |
 | Paradise Street | television; award 1965; television-single-documentary; nomination 345575 | [series TMDB 48091](https://www.themoviedb.org/tv/48091) Paradise Street — outside award window, no IMDb ID |
-| The Babysitter | television; award 1965; television-drama-series; nomination 345577 | [movie TMDB 419479 / tt4225622](https://www.themoviedb.org/movie/419479) The Babysitter (2017) — outside award window<br>[movie TMDB 37141 / tt0112438](https://www.themoviedb.org/movie/37141) The Babysitter (1995) — outside award window<br>[movie TMDB 766394 / tt11948650](https://www.themoviedb.org/movie/766394) The Babysitter (2020) — outside award window<br>[movie TMDB 94129 / tt0073205](https://www.themoviedb.org/movie/94129) The Babysitter (1975) — outside award window |
-| The Changeling | television; award 1965; television-drama-series; nomination 345577 | [series TMDB 131992 / tt8559532](https://www.themoviedb.org/tv/131992) The Changeling (2023) — outside award window<br>[movie TMDB 3580 / tt0824747](https://www.themoviedb.org/movie/3580) Changeling (2008) — outside award window<br>[movie TMDB 13550 / tt0080516](https://www.themoviedb.org/movie/13550) The Changeling (1980) — outside award window<br>[movie TMDB 342384 / tt2002649](https://www.themoviedb.org/movie/342384) The Changeling (2011) — outside award window |
 | The First Television Pictures From The Moon | television; award 1970; television-international; nomination 345654 | [series TMDB 48039](https://www.themoviedb.org/tv/48039) The First Television Pictures From The Moon — outside award window, no IMDb ID |
 | The Grafters | television; award 1965; television-single-documentary; nomination 345575 | [series TMDB 48090](https://www.themoviedb.org/tv/48090) The Grafters — outside award window, no IMDb ID |
 | The National Trust | television; award 2004; television-specialist-factual; nomination 347893 | [series TMDB 16892](https://www.themoviedb.org/tv/16892) The National Trust (2003) — no IMDb ID |
-| The Old Boys | television; award 1965; television-drama-series; nomination 345577 | [movie TMDB 348180](https://www.themoviedb.org/movie/348180) The Old Boys (2015) — outside award window, no IMDb ID<br>[movie TMDB 65681 / tt10811140](https://www.themoviedb.org/movie/65681) Old Boys (2010) — outside award window |
 | The Stanley Baxter Series | television; award 1982; television-entertainment; nomination 346409 | [series TMDB 23569](https://www.themoviedb.org/tv/23569) The Stanley Baxter Series (1981) — no IMDb ID |
 | The Trust | television; award 2003; television-specialist-factual; nomination 347827 | [movie TMDB 708824 / tt0108401](https://www.themoviedb.org/movie/708824) The Trust (1993) — outside award window<br>[series TMDB 220306 / tt26697171](https://www.themoviedb.org/tv/220306) The Trust (2023) — outside award window<br>[series TMDB 241168 / tt30342862](https://www.themoviedb.org/tv/241168) The Trust (2024) — outside award window<br>[movie TMDB 301608 / tt3733774](https://www.themoviedb.org/movie/301608) The Trust (2016) — outside award window |
 | Timmy's Story | television; award 1986; television-childrens-non-scripted; nomination 346647 | [series TMDB 47755](https://www.themoviedb.org/tv/47755) Timmy's Story — outside award window, no IMDb ID |

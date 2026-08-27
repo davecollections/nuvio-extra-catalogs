@@ -31924,45 +31924,14 @@
         "345991"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 9872,
-          "title": "Explorers",
-          "originalTitle": "Explorers",
-          "releaseYear": 1985,
-          "imdbId": "tt0089114",
-          "awardWindowPlausible": false,
-          "popularity": 3.7386
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 457370,
-          "title": "Explorers",
-          "originalTitle": "Explorers",
-          "releaseYear": 2016,
-          "awardWindowPlausible": false,
-          "popularity": 0.5101
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 96719,
-          "title": "Explorers",
-          "originalTitle": "Explorers",
-          "awardWindowPlausible": false,
-          "popularity": 0.473
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 650296,
-          "title": "Explorers",
-          "originalTitle": "Explorers",
-          "releaseYear": 2017,
-          "imdbId": "tt7341460",
-          "awardWindowPlausible": false,
-          "popularity": 0.4193
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Explorers",
+        "releaseYear": 1975,
+        "imdbId": "tt32034642",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Michael Latham's winning Specialised Series is the 1975 BBC documentary miniseries Explorers; IMDb supplies the compatible series identity because no reviewed TMDB relationship is available."
     },
     {
       "key": "television:explorersamundsen:1976",
@@ -31982,7 +31951,14 @@
         "345987"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Explorers",
+        "releaseYear": 1975,
+        "imdbId": "tt32034642",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "David Cobham's winning Amundsen instalment is the opening episode of the 1975 BBC miniseries Explorers; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:f1hungariangrandprixjensonbuttonsfirstwin:2007",
@@ -37647,17 +37623,15 @@
         "346474"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1489005,
-          "title": "Laurence Olivier: A Life",
-          "originalTitle": "Laurence Olivier: A Life",
-          "releaseYear": 1982,
-          "awardWindowPlausible": true,
-          "popularity": 1.489
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The South Bank Show",
+        "releaseYear": 1978,
+        "tmdbId": 2448,
+        "imdbId": "tt0077082",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Melvyn Bragg and Bob Bee identify Laurence Olivier – A Life as a 1982 two-part edition of The South Bank Show; the compatible parent-series identity avoids emitting the episode-only IMDb IDs."
     },
     {
       "key": "television:leavingneverland:2020",
@@ -40688,16 +40662,15 @@
         "345926"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 48360,
-          "title": "Nijinsky, God Of The Dance",
-          "originalTitle": "Nijinsky, God Of The Dance",
-          "awardWindowPlausible": false,
-          "popularity": 0.4105
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Omnibus",
+        "releaseYear": 1967,
+        "tmdbId": 5674,
+        "imdbId": "tt0200358",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "John Hurt's credited performance and the Specialist Factual record identify Nijinsky, God of the Dance as a 1975 edition of the BBC arts documentary strand Omnibus; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:nochildofmine:1998",
@@ -47826,88 +47799,14 @@
         "345577"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 419479,
-          "title": "The Babysitter",
-          "originalTitle": "The Babysitter",
-          "releaseYear": 2017,
-          "imdbId": "tt4225622",
-          "awardWindowPlausible": false,
-          "popularity": 6.8066
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 37141,
-          "title": "The Babysitter",
-          "originalTitle": "The Babysitter",
-          "releaseYear": 1995,
-          "imdbId": "tt0112438",
-          "awardWindowPlausible": false,
-          "popularity": 3.3526
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 766394,
-          "title": "The Babysitter",
-          "originalTitle": "The Babysitter",
-          "releaseYear": 2020,
-          "imdbId": "tt11948650",
-          "awardWindowPlausible": false,
-          "popularity": 2.1123
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 94129,
-          "title": "The Babysitter",
-          "originalTitle": "La Baby-Sitter",
-          "releaseYear": 1975,
-          "imdbId": "tt0073205",
-          "awardWindowPlausible": false,
-          "popularity": 1.8124
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 67968,
-          "title": "The Babysitter",
-          "originalTitle": "The Babysitter",
-          "releaseYear": 1969,
-          "imdbId": "tt0064055",
-          "awardWindowPlausible": false,
-          "popularity": 1.3559
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1169949,
-          "title": "The Babysitter",
-          "originalTitle": "The Babysitter",
-          "releaseYear": 2017,
-          "imdbId": "tt7520372",
-          "awardWindowPlausible": false,
-          "popularity": 1.3452
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 276530,
-          "title": "The Babysitter",
-          "originalTitle": "The Babysitter",
-          "releaseYear": 1980,
-          "imdbId": "tt0080407",
-          "awardWindowPlausible": false,
-          "popularity": 1.1679
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 374805,
-          "title": "The Babysitter",
-          "originalTitle": "The Babysitter",
-          "releaseYear": 2008,
-          "imdbId": "tt1198187",
-          "awardWindowPlausible": false,
-          "popularity": 0.9275
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Wednesday Thriller",
+        "releaseYear": 1965,
+        "imdbId": "tt0405611",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Silvio Narizzano's credited The Babysitter is an identified 1965 production from The Wednesday Thriller; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:theballroomofromance:1983",
@@ -48345,88 +48244,15 @@
         "345577"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 131992,
-          "title": "The Changeling",
-          "originalTitle": "The Changeling",
-          "releaseYear": 2023,
-          "lastAirYear": 2023,
-          "imdbId": "tt8559532",
-          "awardWindowPlausible": false,
-          "popularity": 8.3201
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 3580,
-          "title": "Changeling",
-          "originalTitle": "Changeling",
-          "releaseYear": 2008,
-          "imdbId": "tt0824747",
-          "awardWindowPlausible": false,
-          "popularity": 7.1244
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 13550,
-          "title": "The Changeling",
-          "originalTitle": "The Changeling",
-          "releaseYear": 1980,
-          "imdbId": "tt0080516",
-          "awardWindowPlausible": false,
-          "popularity": 3.9799
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 342384,
-          "title": "The Changeling",
-          "originalTitle": "Der Wechselbalg",
-          "releaseYear": 2011,
-          "imdbId": "tt2002649",
-          "awardWindowPlausible": false,
-          "popularity": 2.4495
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 233563,
-          "title": "The Changeling",
-          "originalTitle": "The Changeling",
-          "releaseYear": 1993,
-          "imdbId": "tt0109397",
-          "awardWindowPlausible": false,
-          "popularity": 1.3333
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 465714,
-          "title": "The Changeling",
-          "originalTitle": "Двойник",
-          "releaseYear": 2017,
-          "imdbId": "tt5902772",
-          "awardWindowPlausible": false,
-          "popularity": 1.1304
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 270078,
-          "title": "The Changeling",
-          "originalTitle": "The Changeling",
-          "releaseYear": 1974,
-          "imdbId": "tt0071302",
-          "awardWindowPlausible": false,
-          "popularity": 0.9596
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 642641,
-          "title": "The Changeling",
-          "originalTitle": "The Changeling",
-          "releaseYear": 2019,
-          "awardWindowPlausible": false,
-          "popularity": 0.4365
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "ITV Play of the Week",
+        "releaseYear": 1955,
+        "tmdbId": 48104,
+        "imdbId": "tt0914702",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Philip Mackie's credited The Changeling is an identified 1965 production from the ITV anthology series ITV Play of the Week; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:thecharmer:1988",
@@ -52278,27 +52104,14 @@
         "345577"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 348180,
-          "title": "The Old Boys",
-          "originalTitle": "The Old Boys",
-          "releaseYear": 2015,
-          "awardWindowPlausible": false,
-          "popularity": 0.8344
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 65681,
-          "title": "Old Boys",
-          "originalTitle": "11度青春之老男孩",
-          "releaseYear": 2010,
-          "imdbId": "tt10811140",
-          "awardWindowPlausible": false,
-          "popularity": 0.7288
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Story Parade",
+        "releaseYear": 1964,
+        "imdbId": "tt1384817",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Silvio Narizzano's credited The Old Boys is an identified 1965 production from the ITV anthology series Story Parade; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:theopen:2017",
@@ -58847,7 +58660,15 @@
         "345577"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "ITV Play of the Week",
+        "releaseYear": 1955,
+        "tmdbId": 48104,
+        "imdbId": "tt0914702",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Philip Mackie's credited Women Beware Women is an identified 1965 production from the ITV anthology series ITV Play of the Week; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
       "key": "television:worldathleticschampionships:2010",
