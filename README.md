@@ -4,11 +4,12 @@ An independent Stremio-compatible catalogue add-on intended to provide collectio
 
 ## Current catalogues
 
-The all-awards manifest exposes 84 catalogues:
+The all-awards manifest exposes 129 catalogues:
 
 - 24 winner-film catalogues for all current competitive Academy Award categories; and
 - 33 Golden Globes catalogues (22 movie and 11 series) covering the 27 current category lineages that map to Stremio media types; and
-- 27 BAFTA Film catalogues (25 movie and 2 series) covering all 25 reviewed current Film lineages.
+- 27 BAFTA Film catalogues (25 movie and 2 series) covering all 25 reviewed current Film lineages; and
+- 45 BAFTA Television catalogues (18 movie and 27 series) covering all 27 reviewed current Television lineages.
 
 The Academy catalogues include:
 
@@ -21,7 +22,9 @@ Golden Globes coverage follows the current 2026 film and television categories b
 
 BAFTA Film coverage follows all 25 selected current lineages across the official 1949–2026 archive. British Short Animation and Documentary contain four reviewed historical series identities, so those lineages publish separate movie and series catalogues. The verified 1989 short *Say Goodbye* remains in canonical history but has no compatible IMDb relationship and is the sole reviewed non-catalogue work.
 
-The original V0.1 seed proved the integration path in Nuvio. V0.2–V0.5 established the canonical Awards model and six complete picture/acting/directing histories. V1.0 completed all current Academy categories, V1.1 added Golden Globes film and television, and V1.2 adds the complete BAFTA Film scope.
+BAFTA Television coverage follows all 27 selected current lineages across the same official archive. The 938 selected source records and 977 work links become 931 canonical results and 970 work links after seven exact duplicate Single Documentary archive records are collapsed. Mixed programme histories publish through their reviewed film and series routes. All 888 work identities are complete: 864 resolve to compatible IMDb identities and 24 remain explicit non-catalogue outcomes.
+
+The original V0.1 seed proved the integration path in Nuvio. V0.2–V0.5 established the canonical Awards model and six complete picture/acting/directing histories. V1.0 completed all current Academy categories, V1.1 added Golden Globes film and television, V1.2 added BAFTA Film, and V1.3 adds BAFTA Television.
 
 ## What V0.1 proved
 
@@ -47,11 +50,13 @@ nuvio-extra-catalogs/
 │   └── awards/
 │       ├── academy-awards/
 │       ├── golden-globes/
-│       └── bafta-film/
+│       ├── bafta-film/
+│       └── bafta-television/
 ├── presets/
 │   ├── academy/
 │   ├── golden-globes/
-│   └── bafta-film/
+│   ├── bafta-film/
+│   └── bafta-television/
 ├── docs/
 ├── examples/
 ├── schema/
@@ -63,7 +68,7 @@ nuvio-extra-catalogs/
 └── manifest.json
 ```
 
-Released Academy IDs retain their existing `academy-...` names. Golden Globes and BAFTA Film IDs use stable award-prefixed `...-winning-films` or `...-winning-series` conventions. Every declared ID maps directly to:
+Released Academy IDs retain their existing `academy-...` names. Golden Globes and BAFTA IDs use stable award-prefixed `...-winning-films` or `...-winning-series` conventions. Every declared ID maps directly to:
 
 ```text
 /catalog/{movie|series}/{catalogue-id}.json
@@ -193,23 +198,28 @@ python scripts/build_manifest_presets.py --check
 
 Networked snapshot refresh, TMDB candidate discovery, manual-override verification, and mixed-media audits are explicit reviewed maintenance operations. See `docs/golden-globes-history.md` for the source authority, category lineages, identity exceptions, and film/series classification process.
 
-BAFTA Film uses the shared pinned BAFTA snapshot and reviewed identity inventory. Reproduce its normal offline publication checks with:
+BAFTA Film and Television use the shared pinned BAFTA snapshots and reviewed identity inventory. Reproduce their normal offline publication checks with:
 
 ```bash
 python scripts/enrich_bafta_identities.py --check --complete --programme film
 python scripts/build_bafta_film_canonical.py --check
 python scripts/build_bafta_film_outputs.py --check
 python scripts/audit_bafta_film_artwork.py --offline-check
+python scripts/enrich_bafta_identities.py --check --complete --programme television
+python scripts/build_bafta_television_canonical.py --check
+python scripts/build_bafta_television_outputs.py --check
+python scripts/audit_bafta_television_artwork.py --offline-check
 python scripts/build_manifest_presets.py --check
 ```
 
-The separate networked artwork maintenance pass checks all published BAFTA Film IMDb poster routes and records reviewed TMDB fallbacks or unavailable-poster outcomes:
+The separate networked artwork maintenance passes check all published BAFTA IMDb poster routes and record reviewed TMDB fallbacks or unavailable-poster outcomes:
 
 ```bash
 python scripts/audit_bafta_film_artwork.py
+python scripts/audit_bafta_television_artwork.py
 ```
 
-See `docs/bafta-history.md` and `reports/bafta-film-artwork-audit.json` for the lineage, identity, classification, and artwork evidence.
+See `docs/bafta-history.md`, `reports/bafta-film-artwork-audit.json`, and `reports/bafta-television-artwork-audit.json` for the lineage, identity, classification, and artwork evidence.
 
 ## GitHub Pages URLs
 
@@ -231,6 +241,7 @@ Award-only manifest presets:
 https://davecollections.github.io/nuvio-extra-catalogs/presets/academy/manifest.json
 https://davecollections.github.io/nuvio-extra-catalogs/presets/golden-globes/manifest.json
 https://davecollections.github.io/nuvio-extra-catalogs/presets/bafta-film/manifest.json
+https://davecollections.github.io/nuvio-extra-catalogs/presets/bafta-television/manifest.json
 ```
 
 Catalogue response pattern:
@@ -247,4 +258,4 @@ The GitHub Pages landing page links to guided GitHub Issue forms for bug reports
 
 This repository remains a **companion** to Nuvio's official TMDB catalogue add-on rather than duplicating it.
 
-Issue #6 established the canonical People artwork bridge without adding an awards-specific artwork layer or changing this add-on's catalog-only architecture. Issues #17 and #20 extend it across leading and supporting acting. Issue #24 completes all current Academy categories. Issue #27 adds Golden Globes film and television histories without adding a runtime People-assets dependency. Additional award bodies should follow the same authority, identity, deterministic generation, and independently auditable category strategy.
+Issue #6 established the canonical People artwork bridge without adding an awards-specific artwork layer or changing this add-on's catalog-only architecture. Issues #17 and #20 extend it across leading and supporting acting. Issue #24 completes all current Academy categories. Issue #27 adds Golden Globes film and television histories without adding a runtime People-assets dependency. Issue #33 establishes the reviewed BAFTA source and identity evidence, Issue #34 publishes BAFTA Film, and Issue #37 adds BAFTA Television for the V1.3 preview. Additional award programmes should follow the same authority, identity, deterministic generation, and independently auditable category strategy.
