@@ -3,19 +3,19 @@
   "checkedAt": "2026-09-16",
   "scope": "Reviewed actor/director winner identities in Academy, Golden Globes, and all three BAFTA programmes; current included work-associated lineages only.",
   "verification": "Manifest identity, membership and asset descriptors. Individual asset URLs are not fetched by this audit.",
-  "inputSha256": "a550bdbd3c6a5271f75a7c8fe9c075a906a65406ffffc5c17b05b6959c672da7",
+  "inputSha256": "eaa8a48e421b05a69cf3e7010b2f85161c49d58bb91c3fc57726484374987949",
   "peopleManifest": {
     "commit": "2359f634a5049d9688ffd78667880c270405ff3c",
     "sha256": "307a99257082b902969a6d0eaa28dc2baa9905db492e41fce916c30e55a282d2",
     "url": "https://raw.githubusercontent.com/davecollections/nuvio-people-assets/2359f634a5049d9688ffd78667880c270405ff3c/manifests/people.json"
   },
   "summary": {
-    "verifiedPeople": 693,
+    "verifiedPeople": 696,
     "presentInManifest": 470,
-    "missingPeople": 223,
+    "missingPeople": 226,
     "membershipGaps": 4,
     "missingFocusPairs": 0,
-    "unresolvedIdentityUnits": 496
+    "unresolvedIdentityUnits": 493
   },
   "missingPeople": [
     {
@@ -439,6 +439,32 @@
           "categoryId": "film-supporting-actor",
           "year": 1974,
           "sourceRecordId": "341231"
+        }
+      ],
+      "missingAssets": [
+        "poster",
+        "landscape",
+        "titleLogo",
+        "hero",
+        "focusPoster",
+        "focusLandscape"
+      ]
+    },
+    {
+      "name": "Barbara Wiltshire",
+      "tmdbPersonId": 1710437,
+      "imdbPersonIds": [
+        "nm1388009"
+      ],
+      "roles": [
+        "director"
+      ],
+      "awardContexts": [
+        {
+          "awardBodyId": "bafta-television-craft",
+          "categoryId": "television-craft-director-multi-camera",
+          "year": 2019,
+          "sourceRecordId": "357510"
         }
       ],
       "missingAssets": [
@@ -1231,6 +1257,32 @@
           "categoryId": "television-entertainment-performance",
           "year": 2023,
           "sourceRecordId": "361104"
+        }
+      ],
+      "missingAssets": [
+        "poster",
+        "landscape",
+        "titleLogo",
+        "hero",
+        "focusPoster",
+        "focusLandscape"
+      ]
+    },
+    {
+      "name": "Coky Giedroyc",
+      "tmdbPersonId": 115677,
+      "imdbPersonIds": [
+        "nm0317328"
+      ],
+      "roles": [
+        "director"
+      ],
+      "awardContexts": [
+        {
+          "awardBodyId": "bafta-television-craft",
+          "categoryId": "television-craft-director-multi-camera",
+          "year": 2016,
+          "sourceRecordId": "353314"
         }
       ],
       "missingAssets": [
@@ -4836,6 +4888,38 @@
       ]
     },
     {
+      "name": "Richard Valentine",
+      "tmdbPersonId": 100512,
+      "imdbPersonIds": [
+        "nm1064419"
+      ],
+      "roles": [
+        "director"
+      ],
+      "awardContexts": [
+        {
+          "awardBodyId": "bafta-television-craft",
+          "categoryId": "television-craft-director-multi-camera",
+          "year": 2016,
+          "sourceRecordId": "353314"
+        },
+        {
+          "awardBodyId": "bafta-television-craft",
+          "categoryId": "television-craft-director-multi-camera",
+          "year": 2024,
+          "sourceRecordId": "361714"
+        }
+      ],
+      "missingAssets": [
+        "poster",
+        "landscape",
+        "titleLogo",
+        "hero",
+        "focusPoster",
+        "focusLandscape"
+      ]
+    },
+    {
       "name": "Richard Wilson",
       "tmdbPersonId": 47874,
       "imdbPersonIds": [
@@ -7091,21 +7175,6 @@
       ]
     },
     {
-      "name": "Barbara Wiltshire",
-      "imdbPersonId": null,
-      "roles": [
-        "director"
-      ],
-      "awardContexts": [
-        {
-          "awardBodyId": "bafta-television-craft",
-          "categoryId": "television-craft-director-multi-camera",
-          "year": 2019,
-          "sourceRecordId": "357510"
-        }
-      ]
-    },
-    {
       "name": "Barbra Streisand",
       "imdbPersonId": null,
       "roles": [
@@ -7810,21 +7879,6 @@
           "awardBodyId": "golden-globes",
           "categoryId": "male-supporting-actor-motion-picture",
           "year": 2005
-        }
-      ]
-    },
-    {
-      "name": "Coky Giedroyc",
-      "imdbPersonId": null,
-      "roles": [
-        "director"
-      ],
-      "awardContexts": [
-        {
-          "awardBodyId": "bafta-television-craft",
-          "categoryId": "television-craft-director-multi-camera",
-          "year": 2016,
-          "sourceRecordId": "353314"
         }
       ]
     },
@@ -12476,27 +12530,6 @@
       ]
     },
     {
-      "name": "Richard Valentine",
-      "imdbPersonId": null,
-      "roles": [
-        "director"
-      ],
-      "awardContexts": [
-        {
-          "awardBodyId": "bafta-television-craft",
-          "categoryId": "television-craft-director-multi-camera",
-          "year": 2016,
-          "sourceRecordId": "353314"
-        },
-        {
-          "awardBodyId": "bafta-television-craft",
-          "categoryId": "television-craft-director-multi-camera",
-          "year": 2024,
-          "sourceRecordId": "361714"
-        }
-      ]
-    },
-    {
       "name": "Ricky Gervais",
       "imdbPersonId": null,
       "roles": [
@@ -15162,6 +15195,24 @@
       ]
     },
     {
+      "name": "Barbara Wiltshire",
+      "tmdbPersonId": 1710437,
+      "imdbPersonIds": [
+        "nm1388009"
+      ],
+      "roles": [
+        "director"
+      ],
+      "awardContexts": [
+        {
+          "awardBodyId": "bafta-television-craft",
+          "categoryId": "television-craft-director-multi-camera",
+          "year": 2019,
+          "sourceRecordId": "357510"
+        }
+      ]
+    },
+    {
       "name": "Barbra Streisand",
       "tmdbPersonId": 10400,
       "imdbPersonIds": [],
@@ -16910,6 +16961,24 @@
           "awardBodyId": "golden-globes",
           "categoryId": "female-actor-television-series-musical-or-comedy",
           "year": 1976
+        }
+      ]
+    },
+    {
+      "name": "Coky Giedroyc",
+      "tmdbPersonId": 115677,
+      "imdbPersonIds": [
+        "nm0317328"
+      ],
+      "roles": [
+        "director"
+      ],
+      "awardContexts": [
+        {
+          "awardBodyId": "bafta-television-craft",
+          "categoryId": "television-craft-director-multi-camera",
+          "year": 2016,
+          "sourceRecordId": "353314"
         }
       ]
     },
@@ -27040,6 +27109,30 @@
           "categoryId": "film-director",
           "year": 2015,
           "sourceRecordId": "352544"
+        }
+      ]
+    },
+    {
+      "name": "Richard Valentine",
+      "tmdbPersonId": 100512,
+      "imdbPersonIds": [
+        "nm1064419"
+      ],
+      "roles": [
+        "director"
+      ],
+      "awardContexts": [
+        {
+          "awardBodyId": "bafta-television-craft",
+          "categoryId": "television-craft-director-multi-camera",
+          "year": 2016,
+          "sourceRecordId": "353314"
+        },
+        {
+          "awardBodyId": "bafta-television-craft",
+          "categoryId": "television-craft-director-multi-camera",
+          "year": 2024,
+          "sourceRecordId": "361714"
         }
       ]
     },

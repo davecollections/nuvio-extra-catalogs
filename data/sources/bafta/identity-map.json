@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "sourceCheckedAt": "2026-08-22",
-  "inputSha256": "01405cb3d0a8acb35439cb6f18aaef96d40ffd0edc9eb60214730bc47d618119",
+  "inputSha256": "97479eb2b5f8616a3bc5e9f032ba4a50e0a6ba599cea48704307a3c6ea81ff87",
   "selectedWinnerRecords": 2830,
-  "selectedWorkLinks": 2902,
+  "selectedWorkLinks": 2917,
   "works": [
     {
       "key": "movie:12yearsaslave:2014",
@@ -23939,7 +23939,15 @@
         "349230"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Agatha Christie's Poirot",
+        "releaseYear": 1989,
+        "tmdbId": 790,
+        "imdbId": "tt0094525",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official 1990 BAFTA title Agatha Christie's Poirot (Episodes 2,4,7,8, And 10) identifies Agatha Christie's Poirot (1989). The episode/portfolio wording is retained in the source evidence; the catalogue uses the reviewed parent series IMDb identity."
     },
     {
       "key": "television:ahistoryofscotland:2009",
@@ -24213,9 +24221,9 @@
       }
     },
     {
-      "key": "television:allswellthatendswellothellotimonofathenstroilusandcressida:1982",
+      "key": "television:allswellthatendswell:1982",
       "titles": [
-        "All's Well That Ends Well/Othello/Timon Of Athens/Troilus And Cressida"
+        "All's Well That Ends Well"
       ],
       "programmes": [
         "television-craft"
@@ -24230,7 +24238,14 @@
         "348880"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "All's Well That Ends Well",
+        "releaseYear": 1981,
+        "tmdbId": 106383,
+        "imdbId": "tt0080352",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "television:almasnotnormal:2021",
@@ -24551,6 +24566,17 @@
         "345826"
       ],
       "mediaScope": "mixed",
+      "candidates": [
+        {
+          "mediaType": "movie",
+          "tmdbId": 1039878,
+          "title": "An Afternoon at the Festival",
+          "originalTitle": "An Afternoon at the Festival",
+          "releaseYear": 1973,
+          "awardWindowPlausible": true,
+          "popularity": 1.0995
+        }
+      ],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
         "reason": "The 1973 Yorkshire Television play An Afternoon at the Festival is verified with Eileen Diss as art director, but its reviewed TMDB record has no IMDb relationship and no compatible parent series is available.",
@@ -24624,7 +24650,15 @@
         "349927"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Ancient Egyptians",
+        "releaseYear": 2003,
+        "tmdbId": 43614,
+        "imdbId": "tt0386913",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official 2004 BAFTA title Ancient Egyptians: The Battle Of Meggido identifies Ancient Egyptians (2003). The episode/portfolio wording is retained in the source evidence; the catalogue uses the reviewed parent series IMDb identity."
     },
     {
       "key": "television:andor:2026",
@@ -24693,6 +24727,7 @@
         1984
       ],
       "categoryIds": [
+        "television-craft-costume-design",
         "television-craft-production-design",
         "television-leading-actor",
         "television-leading-actress",
@@ -24702,6 +24737,7 @@
         "346506",
         "346511",
         "346566",
+        "348939",
         "348944"
       ],
       "mediaScope": "mixed",
@@ -24713,26 +24749,6 @@
         "imdbId": "tt0085492",
         "method": "tmdb-exact-title-media-and-award-window"
       }
-    },
-    {
-      "key": "television:anenglishmanabroadthetaleofbeatrixpotter:1984",
-      "titles": [
-        "An Englishman Abroad/The Tale Of Beatrix Potter"
-      ],
-      "programmes": [
-        "television-craft"
-      ],
-      "years": [
-        1984
-      ],
-      "categoryIds": [
-        "television-craft-costume-design"
-      ],
-      "nominationIds": [
-        "348939"
-      ],
-      "mediaScope": "mixed",
-      "candidates": []
     },
     {
       "key": "television:anglosaxonattitudes:1993",
@@ -25337,7 +25353,15 @@
         "349751"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Wisconsin Death Trip",
+        "releaseYear": 1999,
+        "tmdbId": 37044,
+        "imdbId": "tt0210389",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Arena: Wisconsin Death Trip is corroborated by live TMDB credits for Eigil Bryld; the reviewed 1999 movie identity is Wisconsin Death Trip."
     },
     {
       "key": "television:arespectabletrade:1999",
@@ -25914,9 +25938,9 @@
       }
     },
     {
-      "key": "television:barchesterchroniclesthebell:1983",
+      "key": "television:barchesterchronicles:1983",
       "titles": [
-        "Barchester Chronicles/The Bell"
+        "Barchester Chronicles"
       ],
       "programmes": [
         "television-craft"
@@ -26334,47 +26358,15 @@
         "361780"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1087205,
-          "title": "Big Boys",
-          "originalTitle": "Big Boys",
-          "releaseYear": 2023,
-          "imdbId": "tt24486184",
-          "awardWindowPlausible": true,
-          "popularity": 2.8576
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 202851,
-          "title": "Big Boys",
-          "originalTitle": "Big Boys",
-          "releaseYear": 2022,
-          "lastAirYear": 2025,
-          "imdbId": "tt13683866",
-          "awardWindowPlausible": true,
-          "popularity": 5.7304
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1015672,
-          "title": "Big Boys",
-          "originalTitle": "Stora pojkar",
-          "releaseYear": 2022,
-          "awardWindowPlausible": true,
-          "popularity": 0.367
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1577552,
-          "title": "Big Boys",
-          "originalTitle": "Chlapi",
-          "releaseYear": 2025,
-          "awardWindowPlausible": false,
-          "popularity": 0.4997
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Big Boys",
+        "releaseYear": 2022,
+        "tmdbId": 202851,
+        "imdbId": "tt13683866",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Big Boys is corroborated by live TMDB credits for Jack Rooke; the reviewed 2022 series identity is Big Boys."
     },
     {
       "key": "television:bigboys:2026",
@@ -26394,47 +26386,15 @@
         "374672"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1577552,
-          "title": "Big Boys",
-          "originalTitle": "Chlapi",
-          "releaseYear": 2025,
-          "awardWindowPlausible": true,
-          "popularity": 0.4997
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1087205,
-          "title": "Big Boys",
-          "originalTitle": "Big Boys",
-          "releaseYear": 2023,
-          "imdbId": "tt24486184",
-          "awardWindowPlausible": true,
-          "popularity": 2.8576
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 202851,
-          "title": "Big Boys",
-          "originalTitle": "Big Boys",
-          "releaseYear": 2022,
-          "lastAirYear": 2025,
-          "imdbId": "tt13683866",
-          "awardWindowPlausible": true,
-          "popularity": 5.7304
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1015672,
-          "title": "Big Boys",
-          "originalTitle": "Stora pojkar",
-          "releaseYear": 2022,
-          "awardWindowPlausible": false,
-          "popularity": 0.367
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Big Boys",
+        "releaseYear": 2022,
+        "tmdbId": 202851,
+        "imdbId": "tt13683866",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Big Boys is corroborated by live TMDB credits for Jack Rooke; the reviewed 2022 series identity is Big Boys."
     },
     {
       "key": "television:bigzuusbigeats:2022",
@@ -27041,7 +27001,15 @@
         "356726"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Blue Planet II",
+        "releaseYear": 2017,
+        "tmdbId": 74313,
+        "imdbId": "tt6769208",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official 2018 BAFTA title Blue Planet II (Coral Reefs) identifies Blue Planet II (2017). The episode/portfolio wording is retained in the source evidence; the catalogue uses the reviewed parent series IMDb identity."
     },
     {
       "key": "television:blueplanetiioneocean:2018",
@@ -27061,7 +27029,15 @@
         "356715"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Blue Planet II",
+        "releaseYear": 2017,
+        "tmdbId": 74313,
+        "imdbId": "tt6769208",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official 2018 BAFTA title Blue Planet II (One Ocean) identifies Blue Planet II (2017). The episode/portfolio wording is retained in the source evidence; the catalogue uses the reviewed parent series IMDb identity."
     },
     {
       "key": "television:blueplanetlive:2020",
@@ -27698,7 +27674,15 @@
         "357517"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "After the Screaming Stops",
+        "releaseYear": 2018,
+        "tmdbId": 545577,
+        "imdbId": "tt7068942",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official 2019 BAFTA title Bros: After the Screaming Stops identifies After the Screaming Stops (2018). The episode/portfolio wording is retained in the source evidence; the catalogue uses the reviewed standalone work IMDb identity."
     },
     {
       "key": "television:buried:2004",
@@ -28046,7 +28030,15 @@
         "349348"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Casualty",
+        "releaseYear": 1986,
+        "tmdbId": 1021,
+        "imdbId": "tt0096555",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official 1992 BAFTA title Casualty (Episodes 2, 5, 6, 8) identifies Casualty (1986). The episode/portfolio wording is retained in the source evidence; the catalogue uses the reviewed parent series IMDb identity."
     },
     {
       "key": "television:catastrophe:2016",
@@ -29473,7 +29465,15 @@
         "350395"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Coronation Street",
+        "releaseYear": 1960,
+        "tmdbId": 291,
+        "imdbId": "tt0053494",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official 2011 BAFTA title Coronation Street - Live Episode identifies Coronation Street (1960). The episode/portfolio wording is retained in the source evidence; the catalogue uses the reviewed parent series IMDb identity."
     },
     {
       "key": "television:cracker:1994",
@@ -30224,7 +30224,15 @@
         "361784"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Black Mirror",
+        "releaseYear": 2011,
+        "tmdbId": 42009,
+        "imdbId": "tt2085059",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Demon 79 (Black Mirror) is corroborated by live TMDB credits for Bisha K Ali, Charlie Brooker, Stephan Pehrsson; the reviewed 2011 series identity is Black Mirror."
     },
     {
       "key": "television:derrenbrownapocalypse:2013",
@@ -30753,7 +30761,15 @@
         "350218"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Doctor Who",
+        "releaseYear": 2005,
+        "tmdbId": 57243,
+        "imdbId": "tt0436992",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Doctor Who: Blink is corroborated by live TMDB credits for Steven Moffat; the reviewed 2005 series identity is Doctor Who."
     },
     {
       "key": "television:doctorwhofireofpompeii:2009",
@@ -30773,7 +30789,15 @@
         "350285"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Doctor Who",
+        "releaseYear": 2005,
+        "tmdbId": 57243,
+        "imdbId": "tt0436992",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official 2009 BAFTA title Doctor Who: Fire Of Pompeii identifies Doctor Who (2005). The episode/portfolio wording is retained in the source evidence; the catalogue uses the reviewed parent series IMDb identity."
     },
     {
       "key": "television:doctorwhothedayofthedoctor:2014",
@@ -31005,10 +31029,12 @@
         1981
       ],
       "categoryIds": [
-        "television-craft-make-up-hair-design"
+        "television-craft-make-up-hair-design",
+        "television-craft-photography-lighting-fiction"
       ],
       "nominationIds": [
-        "348832"
+        "348832",
+        "348842"
       ],
       "mediaScope": "mixed",
       "resolution": {
@@ -31092,7 +31118,15 @@
         "357536"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Dynasties",
+        "releaseYear": 2018,
+        "tmdbId": 82953,
+        "imdbId": "tt9130692",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Dynasties: Emperor is corroborated by live TMDB credits for Lindsay McCrae; the reviewed 2018 series identity is Dynasties."
     },
     {
       "key": "television:eastenders:1997",
@@ -31517,7 +31551,15 @@
         "352132"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Educating Yorkshire",
+        "releaseYear": 2013,
+        "tmdbId": 317443,
+        "imdbId": "tt3153520",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official 2014 BAFTA title Educating Yorkshire (Episode One) identifies Educating Yorkshire (2013). The episode/portfolio wording is retained in the source evidence; the catalogue uses the reviewed parent series IMDb identity."
     },
     {
       "key": "television:edvardmunch:1977",
@@ -31953,58 +31995,15 @@
         "368330"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 217667,
-          "title": "Eric",
-          "originalTitle": "Eric",
-          "releaseYear": 2024,
-          "lastAirYear": 2024,
-          "imdbId": "tt16283824",
-          "awardWindowPlausible": true,
-          "popularity": 7.109
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1340559,
-          "title": "Eric",
-          "originalTitle": "Eric",
-          "releaseYear": 2024,
-          "awardWindowPlausible": true,
-          "popularity": 0.7791
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1086915,
-          "title": "Eric",
-          "originalTitle": "Eric",
-          "releaseYear": 2023,
-          "imdbId": "tt15827000",
-          "awardWindowPlausible": true,
-          "popularity": 1.6479
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 280851,
-          "title": "ERIC",
-          "originalTitle": "ERIC",
-          "releaseYear": 2020,
-          "lastAirYear": 2024,
-          "awardWindowPlausible": true,
-          "popularity": 0.7787
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 749007,
-          "title": "Eric",
-          "originalTitle": "Eric",
-          "releaseYear": 1975,
-          "imdbId": "tt0072945",
-          "awardWindowPlausible": false,
-          "popularity": 1.1063
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Eric",
+        "releaseYear": 2024,
+        "tmdbId": 217667,
+        "imdbId": "tt16283824",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Eric is corroborated by live TMDB credits for Suzanne Cave; the reviewed 2024 series identity is Eric."
     },
     {
       "key": "television:ericandernie:2011",
@@ -32391,58 +32390,15 @@
         "349663"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 318110,
-          "title": "Far from the Madding Crowd",
-          "originalTitle": "Far from the Madding Crowd",
-          "releaseYear": 1998,
-          "lastAirYear": 1998,
-          "imdbId": "tt0157616",
-          "awardWindowPlausible": true,
-          "popularity": 1.9041
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 128710,
-          "title": "Far from the Madding Crowd",
-          "originalTitle": "Far from the Madding Crowd",
-          "releaseYear": 1998,
-          "imdbId": "tt0157616",
-          "awardWindowPlausible": true,
-          "popularity": 1.4368
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 3469,
-          "title": "Far from the Madding Crowd",
-          "originalTitle": "Far from the Madding Crowd",
-          "releaseYear": 1967,
-          "imdbId": "tt0061648",
-          "awardWindowPlausible": false,
-          "popularity": 1.9493
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 250734,
-          "title": "Far from the Madding Crowd",
-          "originalTitle": "Far from the Madding Crowd",
-          "releaseYear": 2015,
-          "imdbId": "tt2935476",
-          "awardWindowPlausible": false,
-          "popularity": 4.8581
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 742383,
-          "title": "Far from the Madding Crowd",
-          "originalTitle": "Far from the Madding Crowd",
-          "releaseYear": 2010,
-          "awardWindowPlausible": false,
-          "popularity": 0.705
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Far from the Madding Crowd",
+        "releaseYear": 1998,
+        "tmdbId": 318110,
+        "imdbId": "tt0157616",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Far From The Madding Crowd is corroborated by live TMDB credits for John Daly; the reviewed 1998 series identity is Far from the Madding Crowd."
     },
     {
       "key": "television:fatherted:1996",
@@ -33120,7 +33076,15 @@
         "349438"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "French & Saunders",
+        "releaseYear": 1987,
+        "tmdbId": 905,
+        "imdbId": "tt0092355",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official 1994 BAFTA title French And Saunders identifies French & Saunders (1987). The episode/portfolio wording is retained in the source evidence; the catalogue uses the reviewed parent series IMDb identity."
     },
     {
       "key": "television:fridaynightlive:2023",
@@ -33260,6 +33224,33 @@
       }
     },
     {
+      "key": "television:frostinmay:1983",
+      "titles": [
+        "Frost In May"
+      ],
+      "programmes": [
+        "television-craft"
+      ],
+      "years": [
+        1983
+      ],
+      "categoryIds": [
+        "television-craft-photography-lighting-fiction"
+      ],
+      "nominationIds": [
+        "348932"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "series",
+        "title": "Frost in May",
+        "releaseYear": 1982,
+        "tmdbId": 327140,
+        "imdbId": "tt0233760",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
       "key": "television:frozenplanettotheendsoftheearth:2012",
       "titles": [
         "Frozen Planet: To The Ends Of The Earth"
@@ -33281,7 +33272,15 @@
         "350504"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Frozen Planet",
+        "releaseYear": 2011,
+        "tmdbId": 8724,
+        "imdbId": "tt2092588",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official 2012 BAFTA title Frozen Planet: To The Ends Of The Earth identifies Frozen Planet (2011). The episode/portfolio wording is retained in the source evidence; the catalogue uses the reviewed parent series IMDb identity."
     },
     {
       "key": "television:gameofthrones:2018",
@@ -34007,92 +34006,15 @@
         "349676"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 286423,
-          "title": "Great Expectations",
-          "originalTitle": "Great Expectations",
-          "releaseYear": 1999,
-          "lastAirYear": 1999,
-          "imdbId": "tt0167187",
-          "awardWindowPlausible": true,
-          "popularity": 4.6975
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 16075,
-          "title": "Great Expectations",
-          "originalTitle": "Great Expectations",
-          "releaseYear": 1999,
-          "imdbId": "tt0167187",
-          "awardWindowPlausible": true,
-          "popularity": 1.9139
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 9410,
-          "title": "Great Expectations",
-          "originalTitle": "Great Expectations",
-          "releaseYear": 1998,
-          "imdbId": "tt0119223",
-          "awardWindowPlausible": true,
-          "popularity": 8.1396
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 39549,
-          "title": "Great Expectations",
-          "originalTitle": "Great Expectations",
-          "releaseYear": 1989,
-          "lastAirYear": 1989,
-          "imdbId": "tt0096601",
-          "awardWindowPlausible": false,
-          "popularity": 3.4117
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 864876,
-          "title": "Great Expectations",
-          "originalTitle": "Great Expectations",
-          "releaseYear": 1983,
-          "imdbId": "tt1181926",
-          "awardWindowPlausible": false,
-          "popularity": 1.2987
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 35425,
-          "title": "Great Expectations",
-          "originalTitle": "Great Expectations",
-          "releaseYear": 1981,
-          "lastAirYear": 1981,
-          "imdbId": "tt0196254",
-          "awardWindowPlausible": false,
-          "popularity": 3.5119
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 47698,
-          "title": "Great Expectations",
-          "originalTitle": "Great Expectations",
-          "releaseYear": 1974,
-          "imdbId": "tt0071576",
-          "awardWindowPlausible": false,
-          "popularity": 1.6733
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 225664,
-          "title": "Great Expectations",
-          "originalTitle": "Great Expectations",
-          "releaseYear": 1967,
-          "lastAirYear": 1967,
-          "imdbId": "tt0196253",
-          "awardWindowPlausible": false,
-          "popularity": 2.2841
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Great Expectations",
+        "releaseYear": 1999,
+        "tmdbId": 286423,
+        "imdbId": "tt0167187",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Great Expectations is corroborated by live TMDB credits for Odile Dicks-Mireaux; the reviewed 1999 series identity is Great Expectations."
     },
     {
       "key": "television:greatexpectations:2012",
@@ -34116,92 +34038,15 @@
         "350512"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 121674,
-          "title": "Great Expectations",
-          "originalTitle": "Great Expectations",
-          "releaseYear": 2012,
-          "imdbId": "tt1836808",
-          "awardWindowPlausible": true,
-          "popularity": 4.6023
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 42518,
-          "title": "Great Expectations",
-          "originalTitle": "Great Expectations",
-          "releaseYear": 2011,
-          "lastAirYear": 2011,
-          "imdbId": "tt1949720",
-          "awardWindowPlausible": true,
-          "popularity": 5.3475
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 286423,
-          "title": "Great Expectations",
-          "originalTitle": "Great Expectations",
-          "releaseYear": 1999,
-          "lastAirYear": 1999,
-          "imdbId": "tt0167187",
-          "awardWindowPlausible": false,
-          "popularity": 4.6975
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 16075,
-          "title": "Great Expectations",
-          "originalTitle": "Great Expectations",
-          "releaseYear": 1999,
-          "imdbId": "tt0167187",
-          "awardWindowPlausible": false,
-          "popularity": 1.9139
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 9410,
-          "title": "Great Expectations",
-          "originalTitle": "Great Expectations",
-          "releaseYear": 1998,
-          "imdbId": "tt0119223",
-          "awardWindowPlausible": false,
-          "popularity": 8.1396
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 39549,
-          "title": "Great Expectations",
-          "originalTitle": "Great Expectations",
-          "releaseYear": 1989,
-          "lastAirYear": 1989,
-          "imdbId": "tt0096601",
-          "awardWindowPlausible": false,
-          "popularity": 3.4117
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 864876,
-          "title": "Great Expectations",
-          "originalTitle": "Great Expectations",
-          "releaseYear": 1983,
-          "imdbId": "tt1181926",
-          "awardWindowPlausible": false,
-          "popularity": 1.2987
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 35425,
-          "title": "Great Expectations",
-          "originalTitle": "Great Expectations",
-          "releaseYear": 1981,
-          "lastAirYear": 1981,
-          "imdbId": "tt0196254",
-          "awardWindowPlausible": false,
-          "popularity": 3.5119
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Great Expectations",
+        "releaseYear": 2011,
+        "tmdbId": 42518,
+        "imdbId": "tt1949720",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Great Expectations is corroborated by live TMDB credits for David Roger, Florian Hoffmeister; the reviewed 2011 series identity is Great Expectations."
     },
     {
       "key": "television:grenfell:2019",
@@ -34307,90 +34152,15 @@
         "349549"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 13675,
-          "title": "Gulliver's Travels",
-          "originalTitle": "Gulliver's Travels",
-          "releaseYear": 1996,
-          "lastAirYear": 1996,
-          "imdbId": "tt0115195",
-          "awardWindowPlausible": true,
-          "popularity": 5.4199
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 102922,
-          "title": "Gulliver's Travels",
-          "originalTitle": "Gulliver's Travels",
-          "releaseYear": 1996,
-          "imdbId": "tt1125862",
-          "awardWindowPlausible": true,
-          "popularity": 0.9784
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 22785,
-          "title": "Gulliver's Travels",
-          "originalTitle": "Gulliver's Travels",
-          "releaseYear": 1992,
-          "lastAirYear": 1993,
-          "imdbId": "tt0103433",
-          "awardWindowPlausible": false,
-          "popularity": 2.2747
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 448543,
-          "title": "Gulliver's Travels",
-          "originalTitle": "Los viajes de Gulliver",
-          "releaseYear": 1983,
-          "imdbId": "tt0086538",
-          "awardWindowPlausible": false,
-          "popularity": 1.2715
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 238919,
-          "title": "Gulliver's Travels",
-          "originalTitle": "Gulliver's Travels",
-          "releaseYear": 1979,
-          "imdbId": "tt0489718",
-          "awardWindowPlausible": false,
-          "popularity": 0.7858
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 64923,
-          "title": "Gulliver's Travels",
-          "originalTitle": "Gulliver's Travels",
-          "releaseYear": 1977,
-          "imdbId": "tt0076119",
-          "awardWindowPlausible": false,
-          "popularity": 1.3805
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 42518,
-          "title": "Gulliver's Travels",
-          "originalTitle": "Gulliver's Travels",
-          "releaseYear": 1939,
-          "imdbId": "tt0031397",
-          "awardWindowPlausible": false,
-          "popularity": 2.7755
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 38745,
-          "title": "Gulliver's Travels",
-          "originalTitle": "Gulliver's Travels",
-          "releaseYear": 2010,
-          "imdbId": "tt1320261",
-          "awardWindowPlausible": false,
-          "popularity": 7.7211
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Gulliver's Travels",
+        "releaseYear": 1996,
+        "tmdbId": 13675,
+        "imdbId": "tt0115195",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Gulliver’s Travels is corroborated by live TMDB credits for Roger Hall, Shirley Russell; the reviewed 1996 series identity is Gulliver's Travels."
     },
     {
       "key": "television:gunno6:2019",
@@ -35218,7 +34988,15 @@
         "359942"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "His Dark Materials",
+        "releaseYear": 2019,
+        "tmdbId": 68507,
+        "imdbId": "tt5607976",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official 2021 BAFTA title His Dark Materials (episode 7) identifies His Dark Materials (2019). The episode/portfolio wording is retained in the source evidence; the catalogue uses the reviewed parent series IMDb identity."
     },
     {
       "key": "television:holbycity:2008",
@@ -35819,7 +35597,15 @@
         "350417"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Human Planet",
+        "releaseYear": 2011,
+        "tmdbId": 32062,
+        "imdbId": "tt1806234",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official 2011 BAFTA title Human Planet: Arctic identifies Human Planet (2011). The episode/portfolio wording is retained in the source evidence; the catalogue uses the reviewed parent series IMDb identity."
     },
     {
       "key": "television:hunderby:2013",
@@ -36443,7 +36229,15 @@
         "357510"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Inside No. 9",
+        "releaseYear": 2014,
+        "tmdbId": 61746,
+        "imdbId": "tt2674806",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Inside No.9 Live: Dead Line is corroborated by live TMDB credits for Barbara Wiltshire; the reviewed 2014 series identity is Inside No. 9."
     },
     {
       "key": "television:insidestorychildofthedeathcamps:2000",
@@ -37119,6 +36913,33 @@
       "reviewNote": "Joe Lycett vs Beckham: Got Your Back at Xmas is an identified 2022 special of Joe Lycett's Got Your Back; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
+      "key": "television:johndavid:1983",
+      "titles": [
+        "John David"
+      ],
+      "programmes": [
+        "television-craft"
+      ],
+      "years": [
+        1983
+      ],
+      "categoryIds": [
+        "television-craft-photography-lighting-fiction"
+      ],
+      "nominationIds": [
+        "348932"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "John David",
+        "releaseYear": 1982,
+        "tmdbId": 742646,
+        "imdbId": "tt0675244",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
       "key": "television:johnjoebishoplifeafterdeaf:2023",
       "titles": [
         "John & Joe Bishop: Life After Deaf"
@@ -37591,9 +37412,9 @@
       }
     },
     {
-      "key": "television:larondejohndavidtoolatetotalktobillyfrostinmay:1983",
+      "key": "television:laronde:1983",
       "titles": [
-        "La Ronde/John David/Too Late To Talk To Billy/Frost In May"
+        "La Ronde"
       ],
       "programmes": [
         "television-craft"
@@ -37608,7 +37429,66 @@
         "348932"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "candidates": [
+        {
+          "mediaType": "movie",
+          "tmdbId": 63876,
+          "title": "Circle of Love",
+          "originalTitle": "La Ronde",
+          "releaseYear": 1964,
+          "imdbId": "tt0058533",
+          "awardWindowPlausible": false,
+          "popularity": 1.5292
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 50030,
+          "title": "La Ronde",
+          "originalTitle": "La Ronde",
+          "releaseYear": 1950,
+          "imdbId": "tt0042906",
+          "awardWindowPlausible": false,
+          "popularity": 1.4456
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 1201637,
+          "title": "la ronde",
+          "originalTitle": "la ronde",
+          "awardWindowPlausible": false,
+          "popularity": 1.9038
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 331990,
+          "title": "La Ronde",
+          "originalTitle": "La Ronde",
+          "releaseYear": 2011,
+          "imdbId": "tt1949564",
+          "awardWindowPlausible": false,
+          "popularity": 0.7976
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 1191029,
+          "title": "La ronde",
+          "originalTitle": "La ronde",
+          "releaseYear": 2014,
+          "imdbId": "tt4316330",
+          "awardWindowPlausible": false,
+          "popularity": 0.542
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 630078,
+          "title": "La Ronde",
+          "originalTitle": "La Ronde",
+          "releaseYear": 2018,
+          "imdbId": "tt4676748",
+          "awardWindowPlausible": false,
+          "popularity": 0.4059
+        }
+      ]
     },
     {
       "key": "television:lastoftheblondebombshells:2001",
@@ -38021,7 +37901,15 @@
         "368346"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Life and Death in Gaza",
+        "releaseYear": 2024,
+        "tmdbId": 1373172,
+        "imdbId": "tt35726387",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Life and Death in Gaza (Storyville) is corroborated by live TMDB credits for Sarah Keeling; the reviewed 2024 movie identity is Life and Death in Gaza."
     },
     {
       "key": "television:lifeanddeathrow:2015",
@@ -38707,7 +38595,15 @@
         "349513"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Go Now",
+        "releaseYear": 1995,
+        "tmdbId": 49474,
+        "imdbId": "tt0113184",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Love Bites: Go Now is corroborated by live TMDB credits for Trevor Waite; the reviewed 1995 movie identity is Go Now."
     },
     {
       "key": "television:lovebiteslovedup:1996",
@@ -38727,7 +38623,15 @@
         "349541"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Loved Up",
+        "releaseYear": 1995,
+        "tmdbId": 88412,
+        "imdbId": "tt0113710",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Love Bites: Loved Up is corroborated by live TMDB credits for John Taylor; the reviewed 1995 movie identity is Loved Up."
     },
     {
       "key": "television:loveisland:2018",
@@ -39235,6 +39139,33 @@
       "candidates": []
     },
     {
+      "key": "television:matildasengland:1980",
+      "titles": [
+        "Matilda's England"
+      ],
+      "programmes": [
+        "television-craft"
+      ],
+      "years": [
+        1980
+      ],
+      "categoryIds": [
+        "television-craft-photography-lighting-fiction"
+      ],
+      "nominationIds": [
+        "348790"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "series",
+        "title": "Matilda's England",
+        "releaseYear": 1979,
+        "tmdbId": 326821,
+        "imdbId": "tt0078653",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
       "key": "television:meetingpoint:1965",
       "titles": [
         "Meeting Point"
@@ -39353,7 +39284,15 @@
         "356735"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Black Mirror",
+        "releaseYear": 2011,
+        "tmdbId": 42009,
+        "imdbId": "tt2085059",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Metalhead (Black Mirror) is corroborated by live TMDB credits for Joel Collins, Russell McLean; the reviewed 2011 series identity is Black Mirror."
     },
     {
       "key": "television:michaelmcintyresbigshow:2017",
@@ -40044,59 +39983,15 @@
         "356116"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 515206,
-          "title": "Mum",
-          "originalTitle": "MUM",
-          "releaseYear": 2017,
-          "imdbId": "tt7201112",
-          "awardWindowPlausible": true,
-          "popularity": 0.8027
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 637755,
-          "title": "Mum",
-          "originalTitle": "Mum",
-          "releaseYear": 2017,
-          "imdbId": "tt6213932",
-          "awardWindowPlausible": true,
-          "popularity": 0.7642
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 66372,
-          "title": "Mum",
-          "originalTitle": "Mum",
-          "releaseYear": 2016,
-          "lastAirYear": 2019,
-          "imdbId": "tt5687446",
-          "awardWindowPlausible": true,
-          "popularity": 4.5338
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1301033,
-          "title": "Mum",
-          "originalTitle": "Mum",
-          "releaseYear": 2006,
-          "imdbId": "tt0863133",
-          "awardWindowPlausible": false,
-          "popularity": 0.4667
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1041719,
-          "title": "MuM",
-          "originalTitle": "MuM",
-          "releaseYear": 1999,
-          "imdbId": "tt0219186",
-          "awardWindowPlausible": false,
-          "popularity": 0.7079
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Mum",
+        "releaseYear": 2016,
+        "tmdbId": 66372,
+        "imdbId": "tt5687446",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Mum is corroborated by live TMDB credits for Stefan Golaszewski; the reviewed 2016 series identity is Mum."
     },
     {
       "key": "television:mummifyingalanegyptslastsecret:2012",
@@ -40610,27 +40505,15 @@
         "349800"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 940525,
-          "title": "Navigators",
-          "originalTitle": "Navigators",
-          "releaseYear": 2023,
-          "imdbId": "tt21225282",
-          "awardWindowPlausible": false,
-          "popularity": 1.4485
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1447286,
-          "title": "Navigators",
-          "originalTitle": "Navigators",
-          "releaseYear": 2009,
-          "awardWindowPlausible": false,
-          "popularity": 0.9002
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Navigators",
+        "releaseYear": 2001,
+        "tmdbId": 35824,
+        "imdbId": "tt0279977",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Navigators is corroborated by live TMDB credits for Rob Dawber; the reviewed 2001 movie identity is The Navigators."
     },
     {
       "key": "television:nearandfarnowandthengoingtoschool:1989",
@@ -40809,71 +40692,15 @@
         "348928"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 27611,
-          "title": "Nicholas Nickleby",
-          "originalTitle": "Nicholas Nickleby",
-          "releaseYear": 1977,
-          "lastAirYear": 1977,
-          "imdbId": "tt0077055",
-          "awardWindowPlausible": false,
-          "popularity": 1.9706
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 24111,
-          "title": "Nicholas Nickleby",
-          "originalTitle": "Nicholas Nickleby",
-          "releaseYear": 1968,
-          "lastAirYear": 1968,
-          "imdbId": "tt0498745",
-          "awardWindowPlausible": false,
-          "popularity": 2.879
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 21862,
-          "title": "Nicholas Nickleby",
-          "originalTitle": "Nicholas Nickleby",
-          "releaseYear": 1957,
-          "lastAirYear": 1957,
-          "imdbId": "tt0979074",
-          "awardWindowPlausible": false,
-          "popularity": 2.0611
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 193875,
-          "title": "Nicholas Nickleby",
-          "originalTitle": "Nicholas Nickleby",
-          "releaseYear": 1912,
-          "imdbId": "tt0247577",
-          "awardWindowPlausible": false,
-          "popularity": 2.4537
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 29339,
-          "title": "Nicholas Nickleby",
-          "originalTitle": "Nicholas Nickleby",
-          "releaseYear": 2002,
-          "imdbId": "tt0309912",
-          "awardWindowPlausible": false,
-          "popularity": 3.6791
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 630653,
-          "title": "Nicholas Nickleby",
-          "originalTitle": "Nicholas Nickleby",
-          "releaseYear": 1985,
-          "imdbId": "tt1458603",
-          "awardWindowPlausible": false,
-          "popularity": 0.7854
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Life and Adventures of Nicholas Nickleby",
+        "releaseYear": 1982,
+        "tmdbId": 5866,
+        "imdbId": "tt0082660",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official 1983 BAFTA title Nicholas Nickleby identifies The Life and Adventures of Nicholas Nickleby (1982). The episode/portfolio wording is retained in the source evidence; the catalogue uses the reviewed parent series IMDb identity."
     },
     {
       "key": "television:nijinskygodofthedance:1976",
@@ -41304,91 +41131,15 @@
         "350152"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 13296,
-          "title": "Oliver Twist",
-          "originalTitle": "Oliver Twist",
-          "releaseYear": 2007,
-          "lastAirYear": 2007,
-          "imdbId": "tt1065309",
-          "awardWindowPlausible": true,
-          "popularity": 3.6554
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 257,
-          "title": "Oliver Twist",
-          "originalTitle": "Oliver Twist",
-          "releaseYear": 2005,
-          "imdbId": "tt0380599",
-          "awardWindowPlausible": true,
-          "popularity": 3.8548
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 13880,
-          "title": "Oliver Twist",
-          "originalTitle": "Oliver Twist",
-          "releaseYear": 1999,
-          "lastAirYear": 1999,
-          "imdbId": "tt0222608",
-          "awardWindowPlausible": false,
-          "popularity": 4.0109
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 49146,
-          "title": "Oliver Twist",
-          "originalTitle": "Oliver Twist",
-          "releaseYear": 1997,
-          "imdbId": "tt0119825",
-          "awardWindowPlausible": false,
-          "popularity": 1.5421
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 438368,
-          "title": "Oliver Twist",
-          "originalTitle": "Oliver Twist",
-          "releaseYear": 1986,
-          "imdbId": "tt6127998",
-          "awardWindowPlausible": false,
-          "popularity": 0.7358
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 19324,
-          "title": "Oliver Twist",
-          "originalTitle": "Oliver Twist",
-          "releaseYear": 1985,
-          "lastAirYear": 1985,
-          "imdbId": "tt0088586",
-          "awardWindowPlausible": false,
-          "popularity": 3.2175
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 259626,
-          "title": "Oliver Twist",
-          "originalTitle": "Oliver Twist",
-          "releaseYear": 1985,
-          "imdbId": "tt0088586",
-          "awardWindowPlausible": false,
-          "popularity": 0.7895
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 49483,
-          "title": "Oliver Twist",
-          "originalTitle": "Oliver Twist",
-          "releaseYear": 1982,
-          "imdbId": "tt0084438",
-          "awardWindowPlausible": false,
-          "popularity": 1.8927
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Oliver Twist",
+        "releaseYear": 2007,
+        "tmdbId": 13296,
+        "imdbId": "tt1065309",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Oliver Twist is corroborated by live TMDB credits for Amy Roberts; the reviewed 2007 series identity is Oliver Twist."
     },
     {
       "key": "television:olympics2004matthewpinsentsrowingforgold:2005",
@@ -42153,11 +41904,191 @@
         "345639"
       ],
       "mediaScope": "mixed",
+      "candidates": [
+        {
+          "mediaType": "movie",
+          "tmdbId": 800515,
+          "title": "Otello",
+          "originalTitle": "Otello",
+          "releaseYear": 1958,
+          "awardWindowPlausible": false,
+          "popularity": 0.8813
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 228901,
+          "title": "Othello",
+          "originalTitle": "Otello",
+          "releaseYear": 1909,
+          "imdbId": "tt0000998",
+          "awardWindowPlausible": false,
+          "popularity": 1.1526
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 963133,
+          "title": "Otello",
+          "originalTitle": "Otello",
+          "releaseYear": 1906,
+          "awardWindowPlausible": false,
+          "popularity": 1.7163
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 198469,
+          "title": "Otello",
+          "originalTitle": "Otello",
+          "releaseYear": 1986,
+          "imdbId": "tt0091699",
+          "awardWindowPlausible": false,
+          "popularity": 1.311
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 628799,
+          "title": "Otello",
+          "originalTitle": "Otello",
+          "releaseYear": 2001,
+          "imdbId": "tt0418035",
+          "awardWindowPlausible": false,
+          "popularity": 0.9229
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 398495,
+          "title": "Otello",
+          "originalTitle": "Otello",
+          "releaseYear": 1973,
+          "imdbId": "tt0249859",
+          "awardWindowPlausible": false,
+          "popularity": 0.8754
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 291011,
+          "title": "Otello",
+          "originalTitle": "Otello",
+          "releaseYear": 2006,
+          "imdbId": "tt2311940",
+          "awardWindowPlausible": false,
+          "popularity": 0.8602
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 522434,
+          "title": "Otello",
+          "originalTitle": "Otello",
+          "releaseYear": 2001,
+          "awardWindowPlausible": false,
+          "popularity": 0.8594
+        }
+      ],
       "reviewOutcome": {
         "disposition": "no-compatible-imdb-identity",
         "reason": "Tony Abbott's 1969 BBC production-design work Otello is verified by BAFTA and contemporary awards records, but review found no compatible IMDb identity for that exact production.",
         "mediaType": "movie"
       }
+    },
+    {
+      "key": "television:othello:1982",
+      "titles": [
+        "Othello"
+      ],
+      "programmes": [
+        "television-craft"
+      ],
+      "years": [
+        1982
+      ],
+      "categoryIds": [
+        "television-craft-photography-lighting-fiction"
+      ],
+      "nominationIds": [
+        "348880"
+      ],
+      "mediaScope": "mixed",
+      "candidates": [
+        {
+          "mediaType": "movie",
+          "tmdbId": 119928,
+          "title": "Othello",
+          "originalTitle": "Othello",
+          "releaseYear": 1981,
+          "imdbId": "tt0082861",
+          "awardWindowPlausible": true,
+          "popularity": 1.7161
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 233756,
+          "title": "Othello",
+          "originalTitle": "Othello",
+          "releaseYear": 1981,
+          "imdbId": "tt0082862",
+          "awardWindowPlausible": true,
+          "popularity": 1.2835
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 44006,
+          "title": "Othello",
+          "originalTitle": "Othello",
+          "releaseYear": 1965,
+          "imdbId": "tt0059555",
+          "awardWindowPlausible": false,
+          "popularity": 1.4039
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 46708,
+          "title": "Othello",
+          "originalTitle": "Отелло",
+          "releaseYear": 1955,
+          "imdbId": "tt0048455",
+          "awardWindowPlausible": false,
+          "popularity": 1.1069
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 47697,
+          "title": "Othello",
+          "originalTitle": "Othello",
+          "releaseYear": 1951,
+          "imdbId": "tt0045251",
+          "awardWindowPlausible": false,
+          "popularity": 2.1563
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 85124,
+          "title": "Othello",
+          "originalTitle": "Othello",
+          "releaseYear": 1922,
+          "imdbId": "tt0013469",
+          "awardWindowPlausible": false,
+          "popularity": 1.5626
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 228901,
+          "title": "Othello",
+          "originalTitle": "Otello",
+          "releaseYear": 1909,
+          "imdbId": "tt0000998",
+          "awardWindowPlausible": false,
+          "popularity": 1.1526
+        },
+        {
+          "mediaType": "movie",
+          "tmdbId": 1595531,
+          "title": "Othello",
+          "originalTitle": "Othello",
+          "releaseYear": 2026,
+          "imdbId": "tt39092602",
+          "awardWindowPlausible": false,
+          "popularity": 2.7314
+        }
+      ]
     },
     {
       "key": "television:othello:2002",
@@ -42825,49 +42756,15 @@
         "352707"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 54671,
-          "title": "Penny Dreadful",
-          "originalTitle": "Penny Dreadful",
-          "releaseYear": 2014,
-          "lastAirYear": 2016,
-          "imdbId": "tt2628232",
-          "awardWindowPlausible": true,
-          "popularity": 17.5464
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 362575,
-          "title": "Penny Dreadful",
-          "originalTitle": "Penny Dreadful",
-          "releaseYear": 2013,
-          "imdbId": "tt2458390",
-          "awardWindowPlausible": true,
-          "popularity": 0.6482
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 15543,
-          "title": "Penny Dreadful",
-          "originalTitle": "Penny Dreadful",
-          "releaseYear": 2006,
-          "imdbId": "tt0454224",
-          "awardWindowPlausible": false,
-          "popularity": 1.6708
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 479726,
-          "title": "Penny Dreadful",
-          "originalTitle": "Penny Dreadful",
-          "releaseYear": 2005,
-          "imdbId": "tt0462475",
-          "awardWindowPlausible": false,
-          "popularity": 0.7735
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Penny Dreadful",
+        "releaseYear": 2014,
+        "tmdbId": 54671,
+        "imdbId": "tt2628232",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Penny Dreadful is corroborated by live TMDB credits for Jonathan Mckinstry; the reviewed 2014 series identity is Penny Dreadful."
     },
     {
       "key": "television:peoplejustdonothing:2017",
@@ -43035,7 +42932,15 @@
         "356096"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Planet Earth II",
+        "releaseYear": 2016,
+        "tmdbId": 68595,
+        "imdbId": "tt5491994",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Planet Earth II (Cities) is corroborated by live TMDB credits for Mark MacEwen; the reviewed 2016 series identity is Planet Earth II."
     },
     {
       "key": "television:platinumjubileepartyatthepalace:2023",
@@ -43995,7 +43900,15 @@
         "350343"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Red Riding: The Year of Our Lord 1983",
+        "releaseYear": 2009,
+        "tmdbId": 291092,
+        "imdbId": "tt1259573",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Red Riding 1983 is corroborated by live TMDB credits for David Higgs; the reviewed 2009 movie identity is Red Riding: The Year of Our Lord 1983."
     },
     {
       "key": "television:rembrandt:1970",
@@ -44367,88 +44280,15 @@
         "368386"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 208921,
-          "title": "Rivals",
-          "originalTitle": "Rivals",
-          "releaseYear": 2024,
-          "lastAirYear": 2026,
-          "imdbId": "tt21906238",
-          "awardWindowPlausible": true,
-          "popularity": 14.5774
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1271911,
-          "title": "Rivals",
-          "originalTitle": "Rivals",
-          "releaseYear": 2024,
-          "imdbId": "tt30275038",
-          "awardWindowPlausible": true,
-          "popularity": 0.8049
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 8648,
-          "title": "Rivals",
-          "originalTitle": "Les Liens du sang",
-          "releaseYear": 2008,
-          "imdbId": "tt0942379",
-          "awardWindowPlausible": false,
-          "popularity": 1.3931
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 796040,
-          "title": "Rivals",
-          "originalTitle": "Rivals",
-          "releaseYear": 2003,
-          "imdbId": "tt0369877",
-          "awardWindowPlausible": false,
-          "popularity": 0.9591
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 355608,
-          "title": "Rivals",
-          "originalTitle": "Rivals",
-          "releaseYear": 1981,
-          "imdbId": "tt0079811",
-          "awardWindowPlausible": false,
-          "popularity": 0.6993
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 152490,
-          "title": "Rivals",
-          "originalTitle": "Rivals",
-          "releaseYear": 1972,
-          "imdbId": "tt0069185",
-          "awardWindowPlausible": false,
-          "popularity": 0.8589
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 91775,
-          "title": "Rivals",
-          "originalTitle": "Соперники",
-          "releaseYear": 1968,
-          "awardWindowPlausible": false,
-          "popularity": 0.622
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 196504,
-          "title": "Rivals",
-          "originalTitle": "Rivals",
-          "releaseYear": 1907,
-          "imdbId": "tt0234609",
-          "awardWindowPlausible": false,
-          "popularity": 1.2322
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Rivals",
+        "releaseYear": 2024,
+        "tmdbId": 208921,
+        "imdbId": "tt21906238",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Rivals is corroborated by live TMDB credits for Dominic Hyman; the reviewed 2024 series identity is Rivals."
     },
     {
       "key": "television:riverjourneys:1985",
@@ -44986,7 +44826,15 @@
         "356078"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Black Mirror",
+        "releaseYear": 2011,
+        "tmdbId": 42009,
+        "imdbId": "tt2085059",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official 2017 BAFTA title San Junipero (Black Mirror) identifies Black Mirror (2011). The episode/portfolio wording is retained in the source evidence; the catalogue uses the reviewed parent series IMDb identity."
     },
     {
       "key": "television:sasembassyseige:2003",
@@ -45211,7 +45059,15 @@
         "368395"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Secret World of Sound",
+        "releaseYear": 2024,
+        "tmdbId": 245782,
+        "imdbId": "tt31186319",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official 2025 BAFTA title Secret World of Sound with David Attenborough identifies Secret World of Sound (2024). The episode/portfolio wording is retained in the source evidence; the catalogue uses the reviewed parent series IMDb identity."
     },
     {
       "key": "television:seenoevil:2026",
@@ -45422,6 +45278,33 @@
       }
     },
     {
+      "key": "television:shallibemother:1984",
+      "titles": [
+        "Shall I Be Mother?"
+      ],
+      "programmes": [
+        "television-craft"
+      ],
+      "years": [
+        1984
+      ],
+      "categoryIds": [
+        "television-craft-photography-lighting-fiction"
+      ],
+      "nominationIds": [
+        "348973"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Shall I Be Mother?",
+        "releaseYear": 1983,
+        "tmdbId": 761183,
+        "imdbId": "tt0675284",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
       "key": "television:shameless:2005",
       "titles": [
         "Shameless"
@@ -45555,7 +45438,15 @@
         "350518"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Sherlock",
+        "releaseYear": 2010,
+        "tmdbId": 19885,
+        "imdbId": "tt1475582",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Sherlock: A Scandal In Belgravia is corroborated by live TMDB credits for Charlie Phillips, Doug Sinclair, Jeremy Child, Steven Moffat; the reviewed 2010 series identity is Sherlock."
     },
     {
       "key": "television:sherlockastudyinpink:2011",
@@ -45575,7 +45466,15 @@
         "350402"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Sherlock",
+        "releaseYear": 2010,
+        "tmdbId": 19885,
+        "imdbId": "tt1475582",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Sherlock: A Study In Pink is corroborated by live TMDB credits for Charlie Phillips; the reviewed 2010 series identity is Sherlock."
     },
     {
       "key": "television:sherwood:2023",
@@ -45765,86 +45664,15 @@
         "361758"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1285722,
-          "title": "SILO",
-          "originalTitle": "SILO",
-          "releaseYear": 2024,
-          "awardWindowPlausible": true,
-          "popularity": 0.4184
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 125988,
-          "title": "Silo",
-          "originalTitle": "Silo",
-          "releaseYear": 2023,
-          "lastAirYear": 2026,
-          "imdbId": "tt14688458",
-          "awardWindowPlausible": true,
-          "popularity": 301.0535
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1235568,
-          "title": "Silo",
-          "originalTitle": "Silo",
-          "releaseYear": 2022,
-          "awardWindowPlausible": true,
-          "popularity": 2.206
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 648412,
-          "title": "Silo",
-          "originalTitle": "Silo",
-          "releaseYear": 2021,
-          "imdbId": "tt10306516",
-          "awardWindowPlausible": true,
-          "popularity": 1.8767
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 777722,
-          "title": "Dazzled",
-          "originalTitle": "Silo",
-          "releaseYear": 2020,
-          "awardWindowPlausible": false,
-          "popularity": 0.3885
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 256215,
-          "title": "Silo",
-          "originalTitle": "Silo",
-          "releaseYear": 2017,
-          "lastAirYear": 2017,
-          "imdbId": "tt10579600",
-          "awardWindowPlausible": false,
-          "popularity": 1.1465
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 550187,
-          "title": "Silo",
-          "originalTitle": "Silo",
-          "releaseYear": 2017,
-          "awardWindowPlausible": false,
-          "popularity": 0.3665
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 596015,
-          "title": "Silo",
-          "originalTitle": "Silo",
-          "releaseYear": 2015,
-          "imdbId": "tt2659210",
-          "awardWindowPlausible": false,
-          "popularity": 1.6011
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Silo",
+        "releaseYear": 2023,
+        "tmdbId": 125988,
+        "imdbId": "tt14688458",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Silo is corroborated by live TMDB credits for Amanda Bernstein, Atli Örvarsson, Gavin Bocquet; the reviewed 2023 series identity is Silo."
     },
     {
       "key": "television:simonschamaspowerofart:2007",
@@ -46186,7 +46014,15 @@
         "361722"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Slow Horses",
+        "releaseYear": 2022,
+        "tmdbId": 95480,
+        "imdbId": "tt5875444",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Slow Horses (Episode 1) is corroborated by live TMDB credits for Sam Williams; the reviewed 2022 series identity is Slow Horses."
     },
     {
       "key": "television:slowhorsesepisode1:2025",
@@ -46206,7 +46042,15 @@
         "368351"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Slow Horses",
+        "releaseYear": 2022,
+        "tmdbId": 95480,
+        "imdbId": "tt5875444",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Slow Horses (Episode 1) is corroborated by live TMDB credits for Robert Frost; the reviewed 2022 series identity is Slow Horses."
     },
     {
       "key": "television:smallaxe:2021",
@@ -46700,6 +46544,26 @@
         "imdbId": "tt4939950",
         "method": "tmdb-exact-title-media-and-award-window"
       }
+    },
+    {
+      "key": "television:stanslastgame:1984",
+      "titles": [
+        "Stan's Last Game"
+      ],
+      "programmes": [
+        "television-craft"
+      ],
+      "years": [
+        1984
+      ],
+      "categoryIds": [
+        "television-craft-photography-lighting-fiction"
+      ],
+      "nominationIds": [
+        "348973"
+      ],
+      "mediaScope": "mixed",
+      "candidates": []
     },
     {
       "key": "television:starsintheireyes:1993",
@@ -47488,92 +47352,15 @@
         "356706"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 93162,
-          "title": "Taboo",
-          "originalTitle": "Taboe",
-          "releaseYear": 2018,
-          "lastAirYear": 2025,
-          "imdbId": "tt35828769",
-          "awardWindowPlausible": true,
-          "popularity": 2.0953
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 65708,
-          "title": "Taboo",
-          "originalTitle": "Taboo",
-          "releaseYear": 2017,
-          "lastAirYear": 2017,
-          "imdbId": "tt3647998",
-          "awardWindowPlausible": true,
-          "popularity": 14.9982
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 677664,
-          "title": "Taboo",
-          "originalTitle": "Taboo",
-          "releaseYear": 2016,
-          "imdbId": "tt5487734",
-          "awardWindowPlausible": true,
-          "popularity": 2.3263
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 58387,
-          "title": "Taboo",
-          "originalTitle": "Taboo",
-          "releaseYear": 2003,
-          "imdbId": "tt0401813",
-          "awardWindowPlausible": false,
-          "popularity": 1.4056
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 6733,
-          "title": "Taboo",
-          "originalTitle": "Taboo",
-          "releaseYear": 2002,
-          "lastAirYear": 2010,
-          "imdbId": "tt0330958",
-          "awardWindowPlausible": false,
-          "popularity": 5.2179
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 97206,
-          "title": "Taboo",
-          "originalTitle": "Taboo",
-          "releaseYear": 2002,
-          "imdbId": "tt0288243",
-          "awardWindowPlausible": false,
-          "popularity": 1.9939
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 20617,
-          "title": "Taboo",
-          "originalTitle": "御法度",
-          "releaseYear": 1999,
-          "imdbId": "tt0213682",
-          "awardWindowPlausible": false,
-          "popularity": 2.5219
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 273056,
-          "title": "Taboo",
-          "originalTitle": "Ταμπoύ",
-          "releaseYear": 2024,
-          "lastAirYear": 2024,
-          "imdbId": "tt33775384",
-          "awardWindowPlausible": false,
-          "popularity": 4.9429
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Taboo",
+        "releaseYear": 2017,
+        "tmdbId": 65708,
+        "imdbId": "tt3647998",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Taboo is corroborated by live TMDB credits for Jan Archibald; the reviewed 2017 series identity is Taboo."
     },
     {
       "key": "television:takecareofmadam:1965",
@@ -47816,51 +47603,15 @@
         "368362"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 195531,
-          "title": "Taskmaster Portugal",
-          "originalTitle": "Taskmaster",
-          "releaseYear": 2022,
-          "lastAirYear": 2026,
-          "imdbId": "tt18935036",
-          "awardWindowPlausible": true,
-          "popularity": 10.1374
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 78841,
-          "title": "Taskmaster",
-          "originalTitle": "Taskmaster",
-          "releaseYear": 2018,
-          "lastAirYear": 2018,
-          "imdbId": "tt8272292",
-          "awardWindowPlausible": false,
-          "popularity": 2.7196
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 63404,
-          "title": "Taskmaster",
-          "originalTitle": "Taskmaster",
-          "releaseYear": 2015,
-          "lastAirYear": 2026,
-          "imdbId": "tt4934214",
-          "awardWindowPlausible": true,
-          "popularity": 36.6531
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 320166,
-          "title": "Taskmaster Poland",
-          "originalTitle": "Taskmaster",
-          "releaseYear": 2026,
-          "imdbId": "tt42371777",
-          "awardWindowPlausible": false,
-          "popularity": 3.2297
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Taskmaster",
+        "releaseYear": 2015,
+        "tmdbId": 63404,
+        "imdbId": "tt4934214",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Taskmaster is corroborated by live TMDB credits for Andy Devonshire, James Dillon; the reviewed 2015 series identity is Taskmaster."
     },
     {
       "key": "television:teenageprisonabuseexposedpanorama:2017",
@@ -47935,7 +47686,15 @@
         "350142"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Hogfather",
+        "releaseYear": 2006,
+        "tmdbId": 4475,
+        "imdbId": "tt0765458",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official 2007 BAFTA title Terry Pratchett's Hogfather identifies Hogfather (2006). The episode/portfolio wording is retained in the source evidence; the catalogue uses the reviewed parent series IMDb identity."
     },
     {
       "key": "television:testamentofyouth:1980",
@@ -47951,13 +47710,15 @@
       ],
       "categoryIds": [
         "television-craft-costume-design",
+        "television-craft-photography-lighting-fiction",
         "television-craft-production-design",
         "television-leading-actress"
       ],
       "nominationIds": [
         "346227",
         "346236",
-        "348768"
+        "348768",
+        "348790"
       ],
       "mediaScope": "mixed",
       "resolution": {
@@ -47968,26 +47729,6 @@
         "imdbId": "tt0078699",
         "method": "tmdb-exact-title-media-and-award-window"
       }
-    },
-    {
-      "key": "television:testamentofyouthmatildasengland:1980",
-      "titles": [
-        "Testament Of Youth/Matilda's England"
-      ],
-      "programmes": [
-        "television-craft"
-      ],
-      "years": [
-        1980
-      ],
-      "categoryIds": [
-        "television-craft-photography-lighting-fiction"
-      ],
-      "nominationIds": [
-        "348790"
-      ],
-      "mediaScope": "mixed",
-      "candidates": []
     },
     {
       "key": "television:testcricket:2000",
@@ -48391,6 +48132,33 @@
         "releaseYear": 1995,
         "tmdbId": 16906,
         "imdbId": "tt0111893",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
+      "key": "television:thebell:1983",
+      "titles": [
+        "The Bell"
+      ],
+      "programmes": [
+        "television-craft"
+      ],
+      "years": [
+        1983
+      ],
+      "categoryIds": [
+        "television-craft-production-design"
+      ],
+      "nominationIds": [
+        "348898"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Bell",
+        "releaseYear": 1982,
+        "tmdbId": 47817,
+        "imdbId": "tt0083384",
         "method": "tmdb-exact-title-media-and-award-window"
       }
     },
@@ -48973,9 +48741,9 @@
       }
     },
     {
-      "key": "television:thecitadelthetaleofbeatrixpottershallibemotherstanslastgame:1984",
+      "key": "television:thecitadel:1984",
       "titles": [
-        "The Citadel/The Tale Of Beatrix Potter/Shall I Be Mother?/Stan's Last Game"
+        "The Citadel"
       ],
       "programmes": [
         "television-craft"
@@ -48990,7 +48758,14 @@
         "348973"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Citadel",
+        "releaseYear": 1983,
+        "tmdbId": 13913,
+        "imdbId": "tt0162070",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "television:thecivilwar:1992",
@@ -49318,7 +49093,15 @@
         "356716"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Crown",
+        "releaseYear": 2016,
+        "tmdbId": 65494,
+        "imdbId": "tt4786824",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for The Crown (Episode 4 is corroborated by live TMDB credits for Adriano Goldman; the reviewed 2016 series identity is The Crown."
     },
     {
       "key": "television:thecube:2011",
@@ -49560,38 +49343,15 @@
         "353330"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 364902,
-          "title": "The Dresser",
-          "originalTitle": "The Dresser",
-          "releaseYear": 2015,
-          "imdbId": "tt4247618",
-          "awardWindowPlausible": true,
-          "popularity": 3.1148
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1250366,
-          "title": "The Dresser",
-          "originalTitle": "The Dresser",
-          "releaseYear": 2014,
-          "imdbId": "tt3678038",
-          "awardWindowPlausible": true,
-          "popularity": 0.9593
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 42122,
-          "title": "The Dresser",
-          "originalTitle": "The Dresser",
-          "releaseYear": 1983,
-          "imdbId": "tt0085461",
-          "awardWindowPlausible": false,
-          "popularity": 1.9979
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Dresser",
+        "releaseYear": 2015,
+        "tmdbId": 364902,
+        "imdbId": "tt4247618",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for The Dresser is corroborated by live TMDB credits for Fotini Dimou, Jenny Shircore; the reviewed 2015 movie identity is The Dresser."
     },
     {
       "key": "television:thedutymen:1988",
@@ -49775,79 +49535,15 @@
         "352136"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 49010,
-          "title": "The Fall",
-          "originalTitle": "The Fall",
-          "releaseYear": 2013,
-          "lastAirYear": 2016,
-          "imdbId": "tt2294189",
-          "awardWindowPlausible": true,
-          "popularity": 13.448
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 383985,
-          "title": "The Fall",
-          "originalTitle": "The Fall",
-          "releaseYear": 2013,
-          "imdbId": "tt2991406",
-          "awardWindowPlausible": true,
-          "popularity": 0.5874
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 207467,
-          "title": "The Fall",
-          "originalTitle": "The Fall",
-          "releaseYear": 2009,
-          "imdbId": "tt0893325",
-          "awardWindowPlausible": false,
-          "popularity": 0.8082
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 14784,
-          "title": "The Fall",
-          "originalTitle": "The Fall",
-          "releaseYear": 2006,
-          "imdbId": "tt0460791",
-          "awardWindowPlausible": false,
-          "popularity": 12.0909
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 839308,
-          "title": "The Fall",
-          "originalTitle": "Zuhanás közben",
-          "releaseYear": 1987,
-          "imdbId": "tt0300695",
-          "awardWindowPlausible": false,
-          "popularity": 0.8275
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 217797,
-          "title": "The Fall",
-          "originalTitle": "سقوط",
-          "releaseYear": 2023,
-          "lastAirYear": 2023,
-          "imdbId": "tt25785616",
-          "awardWindowPlausible": false,
-          "popularity": 3.0007
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 775275,
-          "title": "The Fall",
-          "originalTitle": "The Fall",
-          "releaseYear": 2020,
-          "awardWindowPlausible": false,
-          "popularity": 0.9075
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Fall",
+        "releaseYear": 2013,
+        "tmdbId": 49010,
+        "imdbId": "tt2294189",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for The Fall is corroborated by live TMDB credits for Steve Singleton; the reviewed 2013 series identity is The Fall."
     },
     {
       "key": "television:thefallen:2009",
@@ -49908,6 +49604,36 @@
       }
     },
     {
+      "key": "television:thefatalspring:1981",
+      "titles": [
+        "The Fatal Spring"
+      ],
+      "programmes": [
+        "television-craft"
+      ],
+      "years": [
+        1981
+      ],
+      "categoryIds": [
+        "television-craft-photography-lighting-fiction"
+      ],
+      "nominationIds": [
+        "348837"
+      ],
+      "mediaScope": "mixed",
+      "candidates": [
+        {
+          "mediaType": "movie",
+          "tmdbId": 1368635,
+          "title": "Fatal Spring",
+          "originalTitle": "Fatal Spring",
+          "releaseYear": 1980,
+          "awardWindowPlausible": true,
+          "popularity": 0.9484
+        }
+      ]
+    },
+    {
       "key": "television:thefear:2013",
       "titles": [
         "The Fear"
@@ -49925,89 +49651,15 @@
         "351188"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 224784,
-          "title": "The Fear",
-          "originalTitle": "La por",
-          "releaseYear": 2013,
-          "imdbId": "tt2583690",
-          "awardWindowPlausible": true,
-          "popularity": 1.2575
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 47833,
-          "title": "The Fear",
-          "originalTitle": "The Fear",
-          "releaseYear": 2012,
-          "lastAirYear": 2012,
-          "imdbId": "tt2316238",
-          "awardWindowPlausible": true,
-          "popularity": 2.1506
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 281242,
-          "title": "The Fear",
-          "originalTitle": "The Fear",
-          "releaseYear": 2012,
-          "lastAirYear": 2012,
-          "imdbId": "tt2674056",
-          "awardWindowPlausible": true,
-          "popularity": 0.4934
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 498305,
-          "title": "The Fear",
-          "originalTitle": "The Fear",
-          "releaseYear": 2010,
-          "imdbId": "tt1628015",
-          "awardWindowPlausible": true,
-          "popularity": 0.7766
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 75555,
-          "title": "The Fear",
-          "originalTitle": "The Fear",
-          "releaseYear": 1995,
-          "imdbId": "tt0113043",
-          "awardWindowPlausible": false,
-          "popularity": 1.6909
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 22344,
-          "title": "The Fear",
-          "originalTitle": "The Fear",
-          "releaseYear": 1988,
-          "lastAirYear": 1988,
-          "awardWindowPlausible": false,
-          "popularity": 2.2933
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 308544,
-          "title": "The Fear",
-          "originalTitle": "The Fear",
-          "releaseYear": 2025,
-          "lastAirYear": 2026,
-          "awardWindowPlausible": false,
-          "popularity": 1.7721
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 793549,
-          "title": "The Fear",
-          "originalTitle": "The Fear",
-          "releaseYear": 2021,
-          "awardWindowPlausible": false,
-          "popularity": 0.9281
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Fear",
+        "releaseYear": 2012,
+        "tmdbId": 47833,
+        "imdbId": "tt2316238",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for The Fear is corroborated by live TMDB credits for Gavin Finney; the reviewed 2012 series identity is The Fear."
     },
     {
       "key": "television:thefearep1:2013",
@@ -50027,7 +49679,15 @@
         "351167"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Fear",
+        "releaseYear": 2012,
+        "tmdbId": 47833,
+        "imdbId": "tt2316238",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for The Fear (Ep 1) is corroborated by live TMDB credits for Trevor Waite; the reviewed 2012 series identity is The Fear."
     },
     {
       "key": "television:thefearlessareherethe2018winterolympics:2019",
@@ -51184,7 +50844,15 @@
         "348757"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Kenny Everett Video Show",
+        "releaseYear": 1978,
+        "tmdbId": 26265,
+        "imdbId": "tt0077036",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official 1979 BAFTA title The Kenny Everett Video Show (Inserts) identifies The Kenny Everett Video Show (1978). The episode/portfolio wording is retained in the source evidence; the catalogue uses the reviewed parent series IMDb identity."
     },
     {
       "key": "television:thekilling:2011",
@@ -51342,39 +51010,15 @@
         "361710"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 100088,
-          "title": "The Last of Us",
-          "originalTitle": "The Last of Us",
-          "releaseYear": 2023,
-          "lastAirYear": 2025,
-          "imdbId": "tt3581920",
-          "awardWindowPlausible": true,
-          "popularity": 46.7906
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1405932,
-          "title": "The Last of Us",
-          "originalTitle": "Gli ultimi di noi",
-          "releaseYear": 2022,
-          "imdbId": "tt12263730",
-          "awardWindowPlausible": true,
-          "popularity": 1.223
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 408417,
-          "title": "The Last of Us",
-          "originalTitle": "آخر واحد فينا",
-          "releaseYear": 2018,
-          "imdbId": "tt6589330",
-          "awardWindowPlausible": false,
-          "popularity": 0.9047
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Last of Us",
+        "releaseYear": 2023,
+        "tmdbId": 100088,
+        "imdbId": "tt3581920",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for The Last of Us is corroborated by live TMDB credits for Peter Hoar; the reviewed 2023 series identity is The Last of Us."
     },
     {
       "key": "television:thelastsurvivors:2020",
@@ -51559,50 +51203,15 @@
         "349774"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 281725,
-          "title": "The Life and Adventures of Nicholas Nickleby",
-          "originalTitle": "The Life and Adventures of Nicholas Nickleby",
-          "releaseYear": 2001,
-          "imdbId": "tt0253312",
-          "awardWindowPlausible": true,
-          "popularity": 2.0455
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 326512,
-          "title": "The Life and Adventures of Nicholas Nickleby",
-          "originalTitle": "The Life and Adventures of Nicholas Nickleby",
-          "releaseYear": 2001,
-          "lastAirYear": 2001,
-          "imdbId": "tt0253312",
-          "awardWindowPlausible": true,
-          "popularity": 1.9263
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 5866,
-          "title": "The Life and Adventures of Nicholas Nickleby",
-          "originalTitle": "The Life and Adventures of Nicholas Nickleby",
-          "releaseYear": 1982,
-          "lastAirYear": 1982,
-          "imdbId": "tt0082660",
-          "awardWindowPlausible": false,
-          "popularity": 2.9076
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 83031,
-          "title": "The Life and Adventures of Nicholas Nickleby",
-          "originalTitle": "The Life and Adventures of Nicholas Nickleby",
-          "releaseYear": 1947,
-          "imdbId": "tt0039657",
-          "awardWindowPlausible": false,
-          "popularity": 2.5034
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Life and Adventures of Nicholas Nickleby",
+        "releaseYear": 2001,
+        "tmdbId": 326512,
+        "imdbId": "tt0253312",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for The Life And Adventures Of Nicholas Nickleby is corroborated by live TMDB credits for Barbara Kidd; the reviewed 2001 series identity is The Life and Adventures of Nicholas Nickleby."
     },
     {
       "key": "television:thelifeandlovesofashedevil:1987",
@@ -51706,7 +51315,15 @@
         "351160"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "London 2012 Olympic Opening Ceremony: Isles of Wonder",
+        "releaseYear": 2012,
+        "tmdbId": 123024,
+        "imdbId": "tt2305700",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official 2013 BAFTA title The London 2012 Olympic Opening Ceremony: Isle of Wonder identifies London 2012 Olympic Opening Ceremony: Isles of Wonder (2012). The episode/portfolio wording is retained in the source evidence; the catalogue uses the reviewed standalone work IMDb identity."
     },
     {
       "key": "television:thelondon2012olympicssupersaturday:2013",
@@ -51800,7 +51417,15 @@
         "361737"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Long Shadow",
+        "releaseYear": 2023,
+        "tmdbId": 231811,
+        "imdbId": "tt13323596",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for The Long Shadow (Episode 6) is corroborated by live TMDB credits for Lisa Parkinson; the reviewed 2023 series identity is The Long Shadow."
     },
     {
       "key": "television:thelordoftheringstheringsofpower:2025",
@@ -51999,9 +51624,9 @@
       }
     },
     {
-      "key": "television:themerchantofvenicethefatalspringwetheaccused:1981",
+      "key": "television:themerchantofvenice:1981",
       "titles": [
-        "The Merchant Of Venice/The Fatal Spring/We, The Accused"
+        "The Merchant Of Venice"
       ],
       "programmes": [
         "television-craft"
@@ -52016,7 +51641,14 @@
         "348837"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Merchant of Venice",
+        "releaseYear": 1980,
+        "tmdbId": 119933,
+        "imdbId": "tt0081152",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "television:themisadventuresofromeshranganathan:2020",
@@ -53182,11 +52814,13 @@
       ],
       "categoryIds": [
         "television-craft-costume-design",
+        "television-craft-photography-lighting-fiction",
         "television-craft-production-design"
       ],
       "nominationIds": [
         "346311",
-        "348812"
+        "348812",
+        "348842"
       ],
       "mediaScope": "mixed",
       "resolution": {
@@ -53197,26 +52831,6 @@
         "imdbId": "tt0080292",
         "method": "tmdb-exact-title-media-and-award-window"
       }
-    },
-    {
-      "key": "television:thereseraquindrjekyllandmrhyde:1981",
-      "titles": [
-        "Thérèse Raquin/Dr Jekyll And Mr Hyde"
-      ],
-      "programmes": [
-        "television-craft"
-      ],
-      "years": [
-        1981
-      ],
-      "categoryIds": [
-        "television-craft-photography-lighting-fiction"
-      ],
-      "nominationIds": [
-        "348842"
-      ],
-      "mediaScope": "mixed",
-      "candidates": []
     },
     {
       "key": "television:thereshegoes:2019",
@@ -54117,28 +53731,15 @@
         "353327"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 373534,
-          "title": "The Sound of Music Live!",
-          "originalTitle": "The Sound of Music Live!",
-          "releaseYear": 2015,
-          "imdbId": "tt5285494",
-          "awardWindowPlausible": true,
-          "popularity": 1.1208
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 231401,
-          "title": "The Sound of Music Live!",
-          "originalTitle": "The Sound of Music Live!",
-          "releaseYear": 2013,
-          "imdbId": "tt3141866",
-          "awardWindowPlausible": true,
-          "popularity": 1.2408
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Sound of Music Live!",
+        "releaseYear": 2015,
+        "tmdbId": 373534,
+        "imdbId": "tt5285494",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for The Sound Of Music Live! is corroborated by live TMDB credits for Coky Giedroyc, Edward K. Gibbon, Richard Valentine, Zac Nicholson; the reviewed 2015 movie identity is The Sound of Music Live!."
     },
     {
       "key": "television:thesouthafricanexperience:1978",
@@ -54710,6 +54311,50 @@
           "imdbId": "tt28315937",
           "awardWindowPlausible": false,
           "popularity": 0.6077
+        }
+      ]
+    },
+    {
+      "key": "television:thetaleofbeatrixpotter:1984",
+      "titles": [
+        "The Tale Of Beatrix Potter"
+      ],
+      "programmes": [
+        "television-craft"
+      ],
+      "years": [
+        1984
+      ],
+      "categoryIds": [
+        "television-craft-costume-design",
+        "television-craft-photography-lighting-fiction"
+      ],
+      "nominationIds": [
+        "348939",
+        "348973"
+      ],
+      "mediaScope": "mixed",
+      "candidates": [
+        {
+          "mediaType": "movie",
+          "tmdbId": 1184024,
+          "title": "The Tale of Beatrix Potter",
+          "originalTitle": "The Tale of Beatrix Potter",
+          "releaseYear": 1983,
+          "imdbId": "tt0264081",
+          "awardWindowPlausible": true,
+          "popularity": 0.7367
+        },
+        {
+          "mediaType": "series",
+          "tmdbId": 47825,
+          "title": "The Tale of Beatrix Potter",
+          "originalTitle": "The Tale of Beatrix Potter",
+          "releaseYear": 1982,
+          "lastAirYear": 1982,
+          "imdbId": "tt0264081",
+          "awardWindowPlausible": true,
+          "popularity": 1.04
         }
       ]
     },
@@ -55525,7 +55170,15 @@
         "360487"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Witcher",
+        "releaseYear": 2019,
+        "tmdbId": 71912,
+        "imdbId": "tt5180504",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for The Witcher (Episode 1) is corroborated by live TMDB credits for Gavin Round, Jet Omoshebi; the reviewed 2019 series identity is The Witcher."
     },
     {
       "key": "television:thewomaninwhite:1998",
@@ -55547,90 +55200,15 @@
         "349618"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 327015,
-          "title": "The Woman In White",
-          "originalTitle": "The Woman In White",
-          "releaseYear": 1997,
-          "lastAirYear": 1997,
-          "imdbId": "tt0137279",
-          "awardWindowPlausible": true,
-          "popularity": 2.1071
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 107054,
-          "title": "The Woman In White",
-          "originalTitle": "The Woman In White",
-          "releaseYear": 1997,
-          "imdbId": "tt0137279",
-          "awardWindowPlausible": true,
-          "popularity": 1.5071
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 24069,
-          "title": "The Woman in White",
-          "originalTitle": "The Woman in White",
-          "releaseYear": 1982,
-          "lastAirYear": 1982,
-          "imdbId": "tt0133324",
-          "awardWindowPlausible": false,
-          "popularity": 2.0553
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 629696,
-          "title": "The Woman in White",
-          "originalTitle": "Женщина в белом",
-          "releaseYear": 1981,
-          "imdbId": "tt0161117",
-          "awardWindowPlausible": false,
-          "popularity": 1.513
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 43719,
-          "title": "The Woman in White",
-          "originalTitle": "The Woman in White",
-          "releaseYear": 1970,
-          "lastAirYear": 1970,
-          "awardWindowPlausible": false,
-          "popularity": 1.4367
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 37300,
-          "title": "The Woman in White",
-          "originalTitle": "The Woman in White",
-          "releaseYear": 1948,
-          "imdbId": "tt0040974",
-          "awardWindowPlausible": false,
-          "popularity": 1.2185
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1015670,
-          "title": "The Woman in White",
-          "originalTitle": "The Woman in White",
-          "releaseYear": 1929,
-          "imdbId": "tt0020601",
-          "awardWindowPlausible": false,
-          "popularity": 0.9731
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 174727,
-          "title": "The Woman in White",
-          "originalTitle": "The Woman in White",
-          "releaseYear": 1917,
-          "imdbId": "tt0184033",
-          "awardWindowPlausible": false,
-          "popularity": 0.6263
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Woman In White",
+        "releaseYear": 1997,
+        "tmdbId": 327015,
+        "imdbId": "tt0137279",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for The Woman In White is corroborated by live TMDB credits for Alice Normington, Richard Greatrex; the reviewed 1997 series identity is The Woman In White."
     },
     {
       "key": "television:theworldofcoppard:1969",
@@ -56068,7 +55646,15 @@
         "350470"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The X Factor",
+        "releaseYear": 2004,
+        "tmdbId": 13999,
+        "imdbId": "tt0423776",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official 2012 BAFTA title The X Factor Final identifies The X Factor (2004). The episode/portfolio wording is retained in the source evidence; the catalogue uses the reviewed parent series IMDb identity."
     },
     {
       "key": "television:theyearlondonblewup1974:2006",
@@ -56798,6 +56384,33 @@
       "reviewNote": "Timmy's Story is an identified 1985 episode of the children's documentary series Timmy and Vicki; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
     },
     {
+      "key": "television:timonofathens:1982",
+      "titles": [
+        "Timon Of Athens"
+      ],
+      "programmes": [
+        "television-craft"
+      ],
+      "years": [
+        1982
+      ],
+      "categoryIds": [
+        "television-craft-photography-lighting-fiction"
+      ],
+      "nominationIds": [
+        "348880"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Timon of Athens",
+        "releaseYear": 1981,
+        "tmdbId": 119831,
+        "imdbId": "tt0083207",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
+    },
+    {
       "key": "television:tinkertailorsoldierspy:1980",
       "titles": [
         "Tinker Tailor Soldier Spy"
@@ -56999,56 +56612,42 @@
         "349609"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 5769,
-          "title": "Tom Jones",
-          "originalTitle": "Tom Jones",
-          "releaseYear": 1963,
-          "imdbId": "tt0057590",
-          "awardWindowPlausible": false,
-          "popularity": 2.5528
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 910819,
-          "title": "Tom Jones",
-          "originalTitle": "Tom Jones",
-          "releaseYear": 1927,
-          "awardWindowPlausible": false,
-          "popularity": 1.09
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 906204,
-          "title": "Tom Jones",
-          "originalTitle": "Tom Jones",
-          "releaseYear": 1917,
-          "imdbId": "tt0008686",
-          "awardWindowPlausible": false,
-          "popularity": 2.0045
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 205703,
-          "title": "Tom Jones",
-          "originalTitle": "Tom Jones",
-          "releaseYear": 2023,
-          "lastAirYear": 2023,
-          "imdbId": "tt15398980",
-          "awardWindowPlausible": false,
-          "popularity": 3.7802
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 45092,
-          "title": "Tom Jones",
-          "originalTitle": "Tom Jones",
-          "awardWindowPlausible": false,
-          "popularity": 0.4647
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The History of Tom Jones: A Foundling",
+        "releaseYear": 1997,
+        "tmdbId": 45341,
+        "imdbId": "tt0123351",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official 1998 BAFTA title Tom Jones identifies The History of Tom Jones: A Foundling (1997). The episode/portfolio wording is retained in the source evidence; the catalogue uses the reviewed parent series IMDb identity."
+    },
+    {
+      "key": "television:toolatetotalktobilly:1983",
+      "titles": [
+        "Too Late To Talk To Billy"
+      ],
+      "programmes": [
+        "television-craft"
+      ],
+      "years": [
+        1983
+      ],
+      "categoryIds": [
+        "television-craft-photography-lighting-fiction"
+      ],
+      "nominationIds": [
+        "348932"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Too Late to Talk to Billy",
+        "releaseYear": 1982,
+        "tmdbId": 584246,
+        "imdbId": "tt0084804",
+        "method": "tmdb-exact-title-media-and-award-window"
+      }
     },
     {
       "key": "television:topboy:2020",
@@ -57393,6 +56992,36 @@
       ],
       "mediaScope": "mixed",
       "candidates": []
+    },
+    {
+      "key": "television:troilusandcressida:1982",
+      "titles": [
+        "Troilus And Cressida"
+      ],
+      "programmes": [
+        "television-craft"
+      ],
+      "years": [
+        1982
+      ],
+      "categoryIds": [
+        "television-craft-photography-lighting-fiction"
+      ],
+      "nominationIds": [
+        "348880"
+      ],
+      "mediaScope": "mixed",
+      "candidates": [
+        {
+          "mediaType": "movie",
+          "tmdbId": 1605029,
+          "title": "Troilus and Cressida",
+          "originalTitle": "Troilus and Cressida",
+          "releaseYear": 1966,
+          "awardWindowPlausible": false,
+          "popularity": 0.7695
+        }
+      ]
     },
     {
       "key": "television:troubleintahiti:1974",
@@ -58014,29 +57643,15 @@
         "349378"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 47677,
-          "title": "Unnatural Pursuits",
-          "originalTitle": "Unnatural Pursuits",
-          "releaseYear": 1992,
-          "lastAirYear": 1992,
-          "imdbId": "tt0103171",
-          "awardWindowPlausible": true,
-          "popularity": 1.5455
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 241336,
-          "title": "Unnatural Pursuits",
-          "originalTitle": "Unnatural Pursuits",
-          "releaseYear": 1992,
-          "imdbId": "tt0103171",
-          "awardWindowPlausible": true,
-          "popularity": 1.2959
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Unnatural Pursuits",
+        "releaseYear": 1992,
+        "tmdbId": 47677,
+        "imdbId": "tt0103171",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for Unnatural Pursuits is corroborated by live TMDB credits for Frances Parker; the reviewed 1992 series identity is Unnatural Pursuits."
     },
     {
       "key": "television:uprising:2022",
@@ -58399,7 +58014,15 @@
         "349889"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Walking With Dinosaurs Special: The Giant Claw",
+        "releaseYear": 2002,
+        "tmdbId": 510218,
+        "imdbId": "tt0470772",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official 2003 BAFTA title Walking With Dinosars: The Giant Claw (Special) identifies Walking With Dinosaurs Special: The Giant Claw (2002). The episode/portfolio wording is retained in the source evidence; the catalogue uses the reviewed standalone work IMDb identity."
     },
     {
       "key": "television:walkingwithdinosaursseamonsterstrilogy:2004",
@@ -58419,7 +58042,15 @@
         "349949"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Sea Monsters",
+        "releaseYear": 2003,
+        "tmdbId": 19835,
+        "imdbId": "tt0469006",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official 2004 BAFTA title Walking With Dinosaurs: Sea Monsters (Trilogy) identifies Sea Monsters (2003). The episode/portfolio wording is retained in the source evidence; the catalogue uses the reviewed parent series IMDb identity."
     },
     {
       "key": "television:wallander:2009",
@@ -58562,29 +58193,15 @@
         "356092"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 2498,
-          "title": "War & Peace",
-          "originalTitle": "War & Peace",
-          "releaseYear": 1972,
-          "lastAirYear": 1973,
-          "imdbId": "tt0069654",
-          "awardWindowPlausible": false,
-          "popularity": 3.7399
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 528321,
-          "title": "War/Peace",
-          "originalTitle": "War/Peace",
-          "releaseYear": 2018,
-          "imdbId": "tt6649618",
-          "awardWindowPlausible": false,
-          "popularity": 1.689
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "War and Peace",
+        "releaseYear": 2016,
+        "tmdbId": 64099,
+        "imdbId": "tt3910804",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA credit for War & Peace is corroborated by live TMDB credits for Chris Roope; the reviewed 2016 series identity is War and Peace."
     },
     {
       "key": "television:warriors:2000",
@@ -58758,6 +58375,37 @@
         "method": "reviewed-manual-override"
       },
       "reviewNote": "The Actor in a Comedy Programme winner is Steve Coogan's 2012 special Alan Partridge: Welcome to the Places of My Life, IMDb tt2227372."
+    },
+    {
+      "key": "television:wetheaccused:1981",
+      "titles": [
+        "We, The Accused"
+      ],
+      "programmes": [
+        "television-craft"
+      ],
+      "years": [
+        1981
+      ],
+      "categoryIds": [
+        "television-craft-photography-lighting-fiction"
+      ],
+      "nominationIds": [
+        "348837"
+      ],
+      "mediaScope": "mixed",
+      "candidates": [
+        {
+          "mediaType": "series",
+          "tmdbId": 24164,
+          "title": "We, the Accused",
+          "originalTitle": "We, the Accused",
+          "releaseYear": 1980,
+          "lastAirYear": 1980,
+          "awardWindowPlausible": true,
+          "popularity": 1.1651
+        }
+      ]
     },
     {
       "key": "television:whateverhappenedtothelikelylads:1974",
@@ -59686,7 +59334,15 @@
         "350338"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Yellowstone",
+        "releaseYear": 2009,
+        "tmdbId": 19355,
+        "imdbId": "tt1415175",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official 2010 BAFTA title Yellowstone: Winter identifies Yellowstone (2009). The episode/portfolio wording is retained in the source evidence; the catalogue uses the reviewed parent series IMDb identity."
     },
     {
       "key": "television:yesminister:1981",
@@ -71637,7 +71293,25 @@
         "357510",
         "368225"
       ],
-      "candidates": []
+      "resolution": {
+        "name": "Barbara Wiltshire",
+        "tmdbId": 1710437,
+        "imdbId": "nm1388009",
+        "method": "exact-name-and-awarded-work-credit",
+        "checkedAt": "2026-09-16",
+        "creditEvidence": [
+          {
+            "nominationId": "357510",
+            "role": "director",
+            "tmdbWorkId": 61746,
+            "imdbWorkId": "tt2674806",
+            "mediaType": "series",
+            "tmdbPersonId": 1710437,
+            "creditName": "Barbara Wiltshire",
+            "sourceUrl": "https://api.themoviedb.org/3/tv/61746/aggregate_credits"
+          }
+        ]
+      }
     },
     {
       "key": "recipient:barkhadabdi",
@@ -80592,7 +80266,25 @@
         "353314",
         "359774"
       ],
-      "candidates": []
+      "resolution": {
+        "name": "Coky Giedroyc",
+        "tmdbId": 115677,
+        "imdbId": "nm0317328",
+        "method": "exact-name-and-awarded-work-credit",
+        "checkedAt": "2026-09-16",
+        "creditEvidence": [
+          {
+            "nominationId": "353314",
+            "role": "director",
+            "tmdbWorkId": 373534,
+            "imdbWorkId": "tt5285494",
+            "mediaType": "movie",
+            "tmdbPersonId": 115677,
+            "creditName": "Coky Giedroyc",
+            "sourceUrl": "https://api.themoviedb.org/3/movie/373534/credits"
+          }
+        ]
+      }
     },
     {
       "key": "recipient:coletteflight",
@@ -134858,7 +134550,25 @@
         "353314",
         "361714"
       ],
-      "candidates": []
+      "resolution": {
+        "name": "Richard Valentine",
+        "tmdbId": 100512,
+        "imdbId": "nm1064419",
+        "method": "exact-name-and-awarded-work-credit",
+        "checkedAt": "2026-09-16",
+        "creditEvidence": [
+          {
+            "nominationId": "353314",
+            "role": "director",
+            "tmdbWorkId": 373534,
+            "imdbWorkId": "tt5285494",
+            "mediaType": "movie",
+            "tmdbPersonId": 100512,
+            "creditName": "Richard Valentine",
+            "sourceUrl": "https://api.themoviedb.org/3/movie/373534/credits"
+          }
+        ]
+      }
     },
     {
       "key": "recipient:richardvandenboom",

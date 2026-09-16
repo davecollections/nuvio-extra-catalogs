@@ -8,7 +8,7 @@ Reviewed actor/director winner identities in Academy, Golden Globes, and all thr
 
 Manifest identity, membership and asset descriptors. Individual asset URLs are not fetched by this audit.
 
-Verified people: **693**; present: **470**; missing: **223**; membership gaps: **4**; focus-pair gaps: **0**.
+Verified people: **696**; present: **470**; missing: **226**; membership gaps: **4**; focus-pair gaps: **0**.
 
 Use TMDB Person ID as the asset identity. Reuse existing artwork when adding membership. Actor and director roles for one person share one asset directory. Do not generate artwork for unresolved identities.
 
@@ -34,6 +34,7 @@ Movie/series catalogues do not require People artwork; this handoff supports nat
 | Ariyon Bakare | [1238461](https://www.themoviedb.org/person/1238461) | actor | poster, landscape, titleLogo, hero, focusPoster, focusLandscape |
 | Arthur Cary | [1688335](https://www.themoviedb.org/person/1688335) | director | poster, landscape, titleLogo, hero, focusPoster, focusLandscape |
 | Arthur Lowe | [39024](https://www.themoviedb.org/person/39024) | actor | poster, landscape, titleLogo, hero, focusPoster, focusLandscape |
+| Barbara Wiltshire | [1710437](https://www.themoviedb.org/person/1710437) | director | poster, landscape, titleLogo, hero, focusPoster, focusLandscape |
 | Barkhad Abdi | [1261694](https://www.themoviedb.org/person/1261694) | actor | poster, landscape, titleLogo, hero, focusPoster, focusLandscape |
 | Baz Luhrmann | [6201](https://www.themoviedb.org/person/6201) | director | poster, landscape, titleLogo, hero, focusPoster, focusLandscape |
 | Ben Anthony | [1250009](https://www.themoviedb.org/person/1250009) | director | poster, landscape, titleLogo, hero, focusPoster, focusLandscape |
@@ -63,6 +64,7 @@ Movie/series catalogues do not require People artwork; this handoff supports nat
 | Christine Tremarco | [94741](https://www.themoviedb.org/person/94741) | actor | poster, landscape, titleLogo, hero, focusPoster, focusLandscape |
 | Claire Bloom | [29545](https://www.themoviedb.org/person/29545) | actor | poster, landscape, titleLogo, hero, focusPoster, focusLandscape |
 | Claudia Winkleman | [1220269](https://www.themoviedb.org/person/1220269) | actor | poster, landscape, titleLogo, hero, focusPoster, focusLandscape |
+| Coky Giedroyc | [115677](https://www.themoviedb.org/person/115677) | director | poster, landscape, titleLogo, hero, focusPoster, focusLandscape |
 | Colin Welland | [14957](https://www.themoviedb.org/person/14957) | actor | poster, landscape, titleLogo, hero, focusPoster, focusLandscape |
 | Coral Browne | [87513](https://www.themoviedb.org/person/87513) | actor | poster, landscape, titleLogo, hero, focusPoster, focusLandscape |
 | Cornell Borchers | [117738](https://www.themoviedb.org/person/117738) | actor | poster, landscape, titleLogo, hero, focusPoster, focusLandscape |
@@ -193,6 +195,7 @@ Movie/series catalogues do not require People artwork; this handoff supports nat
 | Rebecca Front | [155530](https://www.themoviedb.org/person/155530) | actor | poster, landscape, titleLogo, hero, focusPoster, focusLandscape |
 | Rebecca Hall | [15556](https://www.themoviedb.org/person/15556) | actor | poster, landscape, titleLogo, hero, focusPoster, focusLandscape |
 | Richard Ayoade | [98103](https://www.themoviedb.org/person/98103) | actor | poster, landscape, titleLogo, hero, focusPoster, focusLandscape |
+| Richard Valentine | [100512](https://www.themoviedb.org/person/100512) | director | poster, landscape, titleLogo, hero, focusPoster, focusLandscape |
 | Richard Wilson | [47874](https://www.themoviedb.org/person/47874) | actor | poster, landscape, titleLogo, hero, focusPoster, focusLandscape |
 | Rob Coldstream | [233351](https://www.themoviedb.org/person/233351) | director | poster, landscape, titleLogo, hero, focusPoster, focusLandscape |
 | Robbie Coltrane | [1923](https://www.themoviedb.org/person/1923) | actor | poster, landscape, titleLogo, hero, focusPoster, focusLandscape |
@@ -259,7 +262,7 @@ Movie/series catalogues do not require People artwork; this handoff supports nat
 
 ## Identity research still required
 
-**496 identity units** remain unresolved. These are not confirmed artwork gaps; some may already have assets under an unlinked ID.
+**493 identity units** remain unresolved. These are not confirmed artwork gaps; some may already have assets under an unlinked ID.
 
 | Source name | Roles | Award bodies |
 | --- | --- | --- |
@@ -311,7 +314,6 @@ Movie/series catalogues do not require People artwork; this handoff supports nat
 | Barbara Bel Geddes | actor | golden-globes |
 | Barbara Hershey | actor | golden-globes |
 | Barbara Stanwyck | actor | golden-globes |
-| Barbara Wiltshire | director | bafta-television-craft |
 | Barbra Streisand | actor, director | golden-globes |
 | Barry Bostwick | actor | golden-globes |
 | Beau Bridges | actor | golden-globes |
@@ -357,7 +359,6 @@ Movie/series catalogues do not require People artwork; this handoff supports nat
 | Claire Foy | actor | golden-globes |
 | Clifton Webb | actor | golden-globes |
 | Clive Owen | actor | golden-globes |
-| Coky Giedroyc | director | bafta-television-craft |
 | Colin Farrell | actor | golden-globes |
 | Cybill Shepherd | actor | golden-globes |
 | Dabney Coleman | actor | golden-globes |
@@ -658,7 +659,6 @@ Movie/series catalogues do not require People artwork; this handoff supports nat
 | Richard Linklater | director | golden-globes |
 | Richard Madden | actor | golden-globes |
 | Richard Mulligan | actor | golden-globes |
-| Richard Valentine | director | bafta-television-craft |
 | Ricky Gervais | actor | golden-globes |
 | Robert Altman | director | golden-globes |
 | Robert Blake | actor | golden-globes |

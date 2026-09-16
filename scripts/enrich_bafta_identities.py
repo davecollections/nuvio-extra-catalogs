@@ -217,6 +217,7 @@ def enrich_works(
         entry
         for entry in identity_map["works"]
         if "resolution" not in entry
+        and "reviewOutcome" not in entry
         and (programme is None or identity_in_current_programme(entry, programme))
         and (retry_candidates or "candidates" not in entry)
     ]

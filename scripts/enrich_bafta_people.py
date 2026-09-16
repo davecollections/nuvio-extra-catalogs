@@ -78,6 +78,8 @@ def validate(identity_map: dict) -> tuple[int, int]:
 def enrich(identity_map: dict, workers: int) -> None:
     token = os.environ["TMDB_API_READ_TOKEN"]
     scoped = contexts(identity_map)
+    resolved_keys = {entry["key"] for entry in identity_map["recipients"] if "resolution" in entry}
+    scoped = {key: value for key, value in scoped.items() if key not in resolved_keys}
     work_ids = sorted({
         (context["mediaType"], context["tmdbId"])
         for entries in scoped.values() for context in entries if context["tmdbId"]
