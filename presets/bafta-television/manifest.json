@@ -1,8 +1,9 @@
 {
   "id": "com.davecollections.nuvio.extra.baftatelevision",
   "version": "1.3.0",
-  "name": "Xtra — BAFTA Television Awards",
-  "description": "Independent Xtra preset with complete BAFTA Television film and series winner catalogues for Nuvio and other compatible clients.",
+  "name": "Dingo Catalogs — BAFTA Television Awards",
+  "description": "Independent Dingo Catalogs preset with complete BAFTA Television film and series winner catalogues for Nuvio and other compatible clients.",
+  "logo": "https://davecollections.github.io/nuvio-extra-catalogs/assets/dingo/dingo-card-stack.png",
   "resources": [
     "catalog",
     {

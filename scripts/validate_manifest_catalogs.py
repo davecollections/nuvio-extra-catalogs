@@ -24,6 +24,10 @@ SEMVER_RE = re.compile(r"^\d+\.\d+\.\d+$")
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 IMDB_RE = re.compile(r"^tt\d+$")
 POSTER_TEMPLATE = "https://images.metahub.space/poster/medium/{imdb_id}/img"
+DINGO_LOGO_URL = (
+    "https://davecollections.github.io/nuvio-extra-catalogs/"
+    "assets/dingo/dingo-card-stack.png"
+)
 POSTER_CONTRACT_PATHS = {
     "golden-globes-": REPO_ROOT
     / "data"
@@ -65,7 +69,16 @@ def validate_manifest(
     path: Path, required_prefix: str | None = None
 ) -> tuple[dict, list[tuple[str, str]], list[str]]:
     manifest = load_json(path)
-    expected_keys = {"id", "version", "name", "description", "resources", "types", "catalogs"}
+    expected_keys = {
+        "id",
+        "version",
+        "name",
+        "description",
+        "logo",
+        "resources",
+        "types",
+        "catalogs",
+    }
     if set(manifest) != expected_keys:
         raise ValidationError(f"{path}: manifest shape is invalid")
     if not isinstance(manifest.get("id"), str) or not manifest["id"].strip():
@@ -76,6 +89,8 @@ def validate_manifest(
         raise ValidationError(f"{path}: name is invalid")
     if not isinstance(manifest.get("description"), str) or not manifest["description"].strip():
         raise ValidationError(f"{path}: description is invalid")
+    if manifest.get("logo") != DINGO_LOGO_URL:
+        raise ValidationError(f"{path}: logo must use the stable Dingo asset URL")
     resources = manifest.get("resources")
     if not isinstance(resources, list) or not resources or resources[0] != "catalog":
         raise ValidationError(f"{path}: catalog must be the first resource")

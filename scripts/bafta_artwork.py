@@ -157,7 +157,7 @@ def check_metahub(imdb_id: str) -> dict:
         request = Request(
             url,
             method="HEAD",
-            headers={"User-Agent": "Xtra-BAFTA-artwork-audit/1.0"},
+            headers={"User-Agent": "Dingo-Catalogs-BAFTA-artwork-audit/1.0"},
         )
         try:
             with urlopen(request, timeout=20) as response:

@@ -103,7 +103,7 @@ def check_provider(
     for attempt in range(3):
         request = Request(
             url,
-            headers={"User-Agent": "Xtra-BAFTA-metadata-audit/1.0"},
+            headers={"User-Agent": "Dingo-Catalogs-BAFTA-metadata-audit/1.0"},
         )
         try:
             with urlopen(request, timeout=25) as response:

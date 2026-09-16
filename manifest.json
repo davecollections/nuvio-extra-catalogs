@@ -1,8 +1,9 @@
 {
   "id": "com.davecollections.nuvio.extra",
   "version": "1.3.0",
-  "name": "Xtra",
+  "name": "Dingo Catalogs",
   "description": "Independent film and television award catalogues for Nuvio and other Stremio-compatible clients, including Academy Awards, Golden Globes, BAFTA Film and BAFTA Television winner histories.",
+  "logo": "https://davecollections.github.io/nuvio-extra-catalogs/assets/dingo/dingo-card-stack.png",
   "resources": [
     "catalog",
     {
