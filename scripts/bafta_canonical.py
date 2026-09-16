@@ -17,7 +17,7 @@ from bafta_common import (
     selected_winners,
     work_key,
 )
-from build_bafta_identity_seed import IDENTITY_MAP_PATH, input_digest
+from build_bafta_identity_seed import IDENTITY_MAP_PATH, input_digest, recipient_key
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -199,7 +199,9 @@ def grouped_winners(config: CanonicalConfig) -> list[dict]:
     return list(grouped.values())
 
 
-def canonical_result(group: dict, identities: dict[str, dict]) -> dict:
+def canonical_result(
+    group: dict, identities: dict[str, dict], recipients: dict[str, dict]
+) -> dict:
     result = {
         "categoryId": group["category"]["id"],
         "status": "winner",
@@ -218,7 +220,17 @@ def canonical_result(group: dict, identities: dict[str, dict]) -> dict:
     else:
         result["works"] = works
     if group["recipientValues"]:
-        result["people"] = [{"name": name} for name in group["recipientValues"]]
+        result["people"] = []
+        for name in group["recipientValues"]:
+            person = {"name": name}
+            reviewed = recipients.get(recipient_key(name, group["nominationId"]), {})
+            resolution = reviewed.get("resolution", {})
+            if resolution.get("name"):
+                person["name"] = resolution["name"]
+            for field in ("tmdbId", "imdbId"):
+                if field in resolution:
+                    person[field] = resolution[field]
+            result["people"].append(person)
     if notes:
         result["note"] = " ".join(notes)
     return result
@@ -229,6 +241,21 @@ def build_files(config: CanonicalConfig) -> dict[Path, str]:
     if identity_map.get("inputSha256") != input_digest():
         raise CanonicalError("reviewed identity map does not match the BAFTA sources")
     identities = {entry["key"]: entry for entry in identity_map.get("works", [])}
+    recipients = {entry["key"]: entry for entry in identity_map.get("recipients", [])}
+    # Keep the existing cross-award canonical spelling for an established ID.
+    # Exact BAFTA credit spellings remain in the source snapshot and inventory.
+    established_names = {}
+    for path in sorted((ROOT / "data" / "awards").glob("*/results/*.json")):
+        if path.parent.parent.name.startswith("bafta-"):
+            continue
+        for result in load_json(path).get("results", []):
+            for person in result.get("people", []):
+                if person.get("tmdbId"):
+                    established_names[person["tmdbId"]] = person["name"]
+    for entry in recipients.values():
+        resolution = entry.get("resolution", {})
+        if resolution.get("tmdbId") in established_names:
+            resolution["name"] = established_names[resolution["tmdbId"]]
     snapshot = load_json(SNAPSHOTS[config.snapshot_programme])
     result_years = [entry["year"] for entry in snapshot["resultsPages"]]
     if len(result_years) != len(set(result_years)):
@@ -250,7 +277,7 @@ def build_files(config: CanonicalConfig) -> dict[Path, str]:
     for group in grouped_winners(config):
         if group["year"] not in by_year:
             raise CanonicalError(f"winner year {group['year']} has no result page")
-        result = canonical_result(group, identities)
+        result = canonical_result(group, identities, recipients)
         relationship = {
             field: result[field]
             for field in (
