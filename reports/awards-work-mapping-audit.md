@@ -1,6 +1,6 @@
 # Published work mapping and artwork review
 
-Reviewed 2026-09-26 for Issues #41 and #43, before V1.4 owner acceptance.
+Reviewed 2026-09-26 for Issues #41 and #43. The owner subsequently accepted the V1.4 payload and known artwork gaps on the same date, relying on prior Nuvio browsing and this audit, and ended further visual checks. Pending production-credit diagnostics below remain open.
 
 All 172 published catalogues were inventoried: **3,233 unique works** (2,303 movies and 930 series), covering Academy Awards, Golden Globes, BAFTA Film, BAFTA Television and BAFTA Television Craft. Every published item has canonical award provenance. The scan found no conflicting canonical TMDB IDs for one work, no IMDb ID published under both media types, and no mapped TMDB record linking a different IMDb ID. The production corrections below show why this consistency alone does not establish the correct award-winning work.
 
@@ -95,13 +95,13 @@ All three verified replacement IDs resolve through Nuvio's production metadata r
 
 These are source-artwork gaps through the checked routes, not catalogue route failures. The complete gap list below remains intentionally blank in Nuvio, following the owner's preference. This does not claim that no artwork exists anywhere. Art Attack's current TMDB programme record spans the original and Disney revival; its current poster is not evidence of a different IMDb identity being supplied by this add-on.
 
-The 145 pending production-credit checks are a separate follow-up: 97 have no named-recipient overlap in the returned credits and 48 were originally automatic matches without named source credits. TV credit endpoints may describe a later cast, omit anthology guests or omit production crew entirely. No bulk “verified” review notes were generated. Issue #43 remains open for this work and the unresolved identities; this pass does not certify every historical production credit or claim Nuvio owner acceptance.
+The 145 pending production-credit checks are a separate follow-up: 97 have no named-recipient overlap in the returned credits and 48 were originally automatic matches without named source credits. TV credit endpoints may describe a later cast, omit anthology guests or omit production crew entirely. No bulk “verified” review notes were generated. Issue #43 remains open for this work and the unresolved identities; owner acceptance of the release does not certify these historical production credits.
 
 ## Reproduction and limits
 
 Use `scripts/audit_awards_work_mappings.py --cache <local-file> --workers 12` with the existing TMDB read-token environment variable. Add `--refresh-award-body bafta-television` to recheck every Television work while retaining other unchanged checkpoints. Changed catalogue inventory is rechecked automatically. The offline gate rejects incomplete inventory, service errors, stale evidence and missing dispositions for existing ID/title/poster checks. The two new production-credit diagnostics may be explicitly marked `pendingFlags`; they cannot clear an ID conflict or a missing production response. The command prints the pending count, and passing it is not a claim that those credit checks are complete. The live report is [`awards-work-mapping-audit.json`](awards-work-mapping-audit.json).
 
-Catalogue previews supply poster URLs along with IDs. Full metadata is a separate request to a compatible installed provider. A blank image can therefore coexist with a correct ID and working title details. This pass does not add a backend, new metadata-provider scope, people artwork or Emmy implementation. V1.4 remains a draft preview requiring owner acceptance in Nuvio.
+Catalogue previews supply poster URLs along with IDs. Full metadata is a separate request to a compatible installed provider. A blank image can therefore coexist with a correct ID and working title details. This pass does not add a backend, new metadata-provider scope, people artwork or Emmy implementation. The owner approved V1.4 publication through PR #42 with the documented gaps retained.
 
 ## Remaining poster gaps
 

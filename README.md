@@ -4,7 +4,7 @@ An independent Stremio-compatible catalogue add-on intended to provide collectio
 
 ## Current catalogues
 
-The V1.4 preview manifest exposes 172 catalogues. Owner acceptance is pending; the live release remains V1.3 with 129 catalogues.
+The owner-accepted V1.4 manifest exposes 172 catalogues containing 6,323 items. The release includes the documented artwork gaps; remaining production-credit checks are tracked separately in Issue #43.
 
 - 24 winner-film catalogues for all current competitive Academy Award categories; and
 - 33 Golden Globes catalogues (22 movie and 11 series) covering the 27 current category lineages that map to Stremio media types; and
@@ -27,7 +27,7 @@ BAFTA Television coverage follows all 27 selected current lineages across the sa
 
 BAFTA Television Craft adds 23 lineages with 589 canonical results and 619 work links. Its 43 catalogues contain 576 items across 434 unique titles. All 497 scoped identities are reviewed: 486 resolve and 11 remain explicit non-catalogue outcomes. The live poster and metadata audits are recorded alongside the existing BAFTA evidence.
 
-The original V0.1 seed proved the integration path in Nuvio. V0.2–V0.5 established the canonical Awards model and six complete picture/acting/directing histories. V1.0 completed all current Academy categories, V1.1 added Golden Globes film and television, V1.2 added BAFTA Film, V1.3 added BAFTA Television, and the V1.4 preview adds Television Craft.
+The original V0.1 seed proved the integration path in Nuvio. V0.2–V0.5 established the canonical Awards model and six complete picture/acting/directing histories. V1.0 completed all current Academy categories, V1.1 added Golden Globes film and television, V1.2 added BAFTA Film, V1.3 added BAFTA Television, and V1.4 adds Television Craft.
 
 ## What V0.1 proved
 
@@ -37,7 +37,7 @@ The original V0.1 seed proved the integration path in Nuvio. V0.2–V0.5 establi
 4. Items identified by IMDb IDs can open with metadata supplied by another installed metadata provider.
 5. The add-on can remain catalogue-led and statically hosted for this architecture.
 
-A compatible metadata provider is expected to be installed alongside Xtra. Nuvio's official TMDB add-on is the recommended example used during the proof of concept. The V1.4 preview supplies compact static `meta` responses for 76 unique reviewed provider gaps across Television and Craft. It keeps this support limited to exact IDs and adds no live backend.
+A compatible metadata provider is expected to be installed alongside Xtra. Nuvio's official TMDB add-on is the recommended example used during the proof of concept. V1.4 supplies compact static `meta` responses for 77 unique reviewed provider gaps across Television and Craft. It keeps this support limited to exact IDs and adds no live backend.
 
 ## Structure
 
@@ -273,6 +273,7 @@ https://davecollections.github.io/nuvio-extra-catalogs/presets/academy/manifest.
 https://davecollections.github.io/nuvio-extra-catalogs/presets/golden-globes/manifest.json
 https://davecollections.github.io/nuvio-extra-catalogs/presets/bafta-film/manifest.json
 https://davecollections.github.io/nuvio-extra-catalogs/presets/bafta-television/manifest.json
+https://davecollections.github.io/nuvio-extra-catalogs/presets/bafta-television-craft/manifest.json
 ```
 
 Catalogue response pattern:

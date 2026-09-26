@@ -4,7 +4,9 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ## [Unreleased]
 
-### V1.4 preview — pending owner acceptance
+## [1.4.0] - 2026-09-26
+
+### Added and corrected
 
 - Add all 23 BAFTA Television Craft lineages: 589 canonical winner records, 619 work links, and 43 movie/series catalogues containing 576 items across 434 unique titles.
 - Add an independent Craft preset and installer choice, bringing the all-awards manifest to 172 catalogues and 6,323 items. Released add-on and catalogue IDs remain stable.
@@ -15,11 +17,18 @@ All notable project milestones are recorded here. This project uses semantic ver
 - Recover verified posters for Glastonbury 2019, Glastonbury 2024, King Gimp, A Simple Man and Leaving Home. Glastonbury uses the matching TMDB seasons without inventing whole-series identity pairs; Leaving Home preserves its 1996 broadcast year despite TMDB's DVD date. Record recovered upstream posters for Notes on a Triangle and The Governor & J.J.
 - Add exact IMDb-linked TVDB promotional artwork for Summer Comedy Shorts. Withhold the plain True Stories title graphic. Keep genuine source gaps blank as requested by the owner; the current all-awards scan leaves 150 unique titles without verified available posters.
 - Correct Our Land to Alexandra Genova's 2021 BAFTA-winning documentary, replacing the unrelated Swedish drama. Add its exact metadata fallback and document the saved-item migration. Preserve archive review dates elsewhere with a result-specific correction source. The surrounding Short Form production credits were also reviewed; reciprocal IMDb/TMDB links alone do not prove an award match.
-- Correct the shared Festival of Remembrance series identity, which TMDB had linked to the 2020 movie. Refresh Television metadata evidence: 617 provider-resolved titles and 50 fallback IDs; two previously missing titles now resolve through the provider.
+- Correct the shared Festival of Remembrance series identity, which TMDB had linked to the 2020 movie. Refresh Television metadata evidence; two previously missing titles now resolve through the provider.
 - Reuse the existing shared BAFTA generation, validation, metadata and preset pipelines. Television now has 612 provider-resolved titles and 51 exact fallback IDs after the production corrections. The root and preset manifests advertise only 77 unique reviewed fallback IDs across Television and Craft.
-- Correct the Sports Coverage namesakes: The Ashes uses the existing cricket series; The Open golf coverage becomes an explicit unresolved identity instead of a fictional film. Preserve the released Films route empty, require reviewed production decisions for sports, and recover independently verified Paris 2024 event artwork from TVDB. Television now has 863 resolved identity units and 25 explicit non-catalogue outcomes.
+- Correct the Sports Coverage namesakes: The Ashes uses the existing cricket series; The Open golf coverage becomes an explicit unresolved identity instead of a fictional film. Preserve the released Films route empty, require reviewed production decisions for sports, and recover independently verified Paris 2024 event artwork from TVDB.
 - Recheck every Television poster and add source production context to the audit. Correct Beyond the Clouds, Tanner and Wife Swap; withhold unrelated Children of the Revolution and Evicted films until compatible IMDb identities are verified. Recover the exact Blackadder the Third season poster. Television now publishes 663 unique titles with 89 poster gaps, 861 resolved identity decisions and 27 explicit omissions. Record 145 incomplete production-credit checks as pending, not verified.
-- Retain Xtra; leave the Dingo branch deferred. People artwork work is outside this continuation. No V1.4 release or owner acceptance is claimed yet.
+- Retain Xtra; leave the Dingo branch deferred. People artwork work is outside this continuation.
+
+### Acceptance and validation
+
+- On 2026-09-26 the owner approved the payload at `2f00ae2dc3c5cbe3581278905842c7f957e71a35`, relying on prior Nuvio browsing and the completed poster audit, and chose to stop further visual checks. This records acceptance of the known artwork gaps, not a fresh exhaustive client test.
+- All 43 workflow checks and 17 regression tests passed locally and in GitHub CI for that preview. All 512 immutable public files returned HTTP 200 with exact committed bytes.
+- Issue #43 remains open for 145 individually pending production-credit diagnostics, the Trouble in Tahiti ambiguity and withheld productions requiring compatible IMDb identities. Matching external IDs and passing the evidence gate do not certify these outstanding credits.
+- PR #42 tracks publication and post-merge CI/Pages verification. Preserve the accepted release payload with annotated tag `v1.4.0` and its corresponding GitHub Release after deployed-byte verification.
 
 ## [1.3.0] - 2026-08-27
 
