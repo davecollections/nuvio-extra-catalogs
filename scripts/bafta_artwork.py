@@ -215,7 +215,7 @@ def tvdb_fallback(imdb_id: str, fallback: dict, source: dict | None) -> dict:
         raise ArtworkError(f"{imdb_id}: reviewed TVDB poster is unavailable")
     return {**fallback, "posterUrl": source["posterUrl"], "reviewedTvdbPoster": source,
             "tvdbPosterCheck": result,
-            "fallbackNote": "Verified TVDB artwork for the exact IMDb-linked series; canonical work IDs are unchanged."}
+            "fallbackNote": "Verified TVDB artwork for the reviewed series; canonical work IDs are unchanged."}
 
 
 def reviewed_season_posters(contracts: dict, titles: dict[str, dict]) -> dict:

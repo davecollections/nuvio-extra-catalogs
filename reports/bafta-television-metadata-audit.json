@@ -12,8 +12,8 @@
       "metaTemplate": "https://v3-cinemeta.strem.io/meta/{media_type}/{imdb_id}.json"
     }
   },
-  "publishedUniqueTitleCount": 667,
-  "nuvioResolvedCount": 616,
+  "publishedUniqueTitleCount": 665,
+  "nuvioResolvedCount": 614,
   "nuvioUnresolvedCount": 51,
   "cinemetaResolvedAmongNuvioGapsCount": 38,
   "unresolvedByEitherCount": 13,
@@ -1158,7 +1158,6 @@
         "bafta-television-sports-coverage-winning-series"
       ],
       "tmdbId": null,
-      "workKey": "television:theashesenglandvaustralia:2006",
       "releaseYear": 1930,
       "nuvio": {
         "status": 200,
@@ -1171,7 +1170,11 @@
         "resolved": false,
         "reason": "missing-meta-object",
         "url": "https://v3-cinemeta.strem.io/meta/series/tt9090184.json"
-      }
+      },
+      "workKeys": [
+        "television:theashes:2016",
+        "television:theashesenglandvaustralia:2006"
+      ]
     },
     {
       "imdbId": "tt9406728",

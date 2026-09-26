@@ -47916,13 +47916,13 @@
       ],
       "mediaScope": "mixed",
       "resolution": {
-        "mediaType": "movie",
+        "mediaType": "series",
         "title": "The Ashes",
-        "releaseYear": 2016,
-        "tmdbId": 415859,
-        "imdbId": "tt5808010",
-        "method": "tmdb-exact-title-media-and-award-window"
-      }
+        "releaseYear": 1930,
+        "imdbId": "tt9090184",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "BAFTA credits Bryan Henderson, Mark Lynch, David Lloyd and Ian Ward for Sky Sports coverage of the 2015 England-Australia Ashes. Use the existing reviewed continuing cricket event-series identity, also used for the 2006 award. Reject Jacob Kirby's unrelated Las Cenizas short, IMDb tt5808010 / TMDB 415859."
     },
     {
       "key": "television:theashesenglandvaustralia:2006",
@@ -52182,13 +52182,10 @@
         "356207"
       ],
       "mediaScope": "mixed",
-      "resolution": {
-        "mediaType": "movie",
-        "title": "The Open",
-        "releaseYear": 2015,
-        "tmdbId": 368926,
-        "imdbId": "tt3779844",
-        "method": "tmdb-exact-title-media-and-award-window"
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "BAFTA and Sky identify the 145th Open golf coverage at Royal Troon in 2016. No compatible live-broadcast IMDb identity was verified. Reject Marc Lahore's fictional tennis film The Open (2015), IMDb tt3779844 / TMDB 368926; the official-film compilation tt3889116 and later golf documentaries are not the awarded live coverage. Preserve this winner in canonical history without publishing an unrelated title.",
+        "mediaType": "series"
       }
     },
     {

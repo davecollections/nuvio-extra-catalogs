@@ -11,6 +11,7 @@
     "tt0379127": "https://image.tmdb.org/t/p/w500/c8Lh2wYVUg6hTXMV5WXxjPIhcB5.jpg",
     "tt0449030": "https://image.tmdb.org/t/p/w500/iUTuimPuOXkC2D5gbV5RluLLnHq.jpg",
     "tt10137860": "https://image.tmdb.org/t/p/w500/zCqDrrcJBZddEmBg9STYxcJu0CD.jpg",
+    "tt12752438": "https://artworks.thetvdb.com/banners/v4/series/452671/posters/66a6afd574273.jpg",
     "tt36564052": "https://image.tmdb.org/t/p/w500/gm2wveJtd13gtIU0cwOW5faheDb.jpg",
     "tt38526010": "https://image.tmdb.org/t/p/w500/7BsNbVUrxvpjbgemEitz1ds6BTT.jpg",
     "tt5123004": "https://image.tmdb.org/t/p/w500/uwCEpnDjOpXrxmUNy87kr9E6SKt.jpg",
@@ -62,7 +63,6 @@
     "tt10998480",
     "tt11608566",
     "tt12740018",
-    "tt12752438",
     "tt1346933",
     "tt1351662",
     "tt13801796",
@@ -92,7 +92,6 @@
     "tt32085850",
     "tt32189654",
     "tt37740869",
-    "tt3779844",
     "tt39074249",
     "tt4326224",
     "tt43277628",
@@ -186,6 +185,17 @@
         "https://thetvdb.com/series/summer-comedy-shorts",
         "https://www.imdb.com/title/tt7176698/"
       ]
+    },
+    "tt12752438": {
+      "tvdbId": 452671,
+      "posterUrl": "https://artworks.thetvdb.com/banners/v4/series/452671/posters/66a6afd574273.jpg",
+      "reviewNote": "Independently matched the Paris 2024 Olympic event series by event, year, host city and dated competition/ceremony episode coverage. IMDb tt12752438 is the existing reviewed event-series identity; TVDB does not supply an IMDb cross-link. The visually inspected portrait uses the Paris 2024 emblem and Olympic rings, not a generated title card. TVDB's linked TMDB 260197 now returns 404 and is not added as an identity.",
+      "evidenceUrls": [
+        "https://thetvdb.com/series/summer-olympics-paris-2024",
+        "https://www.imdb.com/title/tt12752438/",
+        "https://www.imdb.com/title/tt32110761/soundtrack/",
+        "https://www.bafta.org/awards/television/sports-coverage/"
+      ]
     }
   },
   "categories": [
@@ -213,7 +223,7 @@
     {"categoryId":"television-single-documentary","firstCeremony":18,"lastCeremony":79,"expectedResults":54,"expectedWorkLinks":55,"catalogs":[{"mediaType":"movie","id":"bafta-television-single-documentary-winning-films","name":"BAFTA Television — Single Documentary — Films","expectedWorkLinks":30,"expectedItems":30},{"mediaType":"series","id":"bafta-television-single-documentary-winning-series","name":"BAFTA Television — Single Documentary — Series","expectedWorkLinks":25,"expectedSkippedWorkLinks":3,"expectedItems":17}]},
     {"categoryId":"television-soap","firstCeremony":52,"lastCeremony":79,"expectedResults":28,"expectedWorkLinks":28,"catalogs":[{"mediaType":"series","id":"bafta-television-soap-winning-series","name":"BAFTA Television — Soap — Series","expectedWorkLinks":28,"expectedItems":6}]},
     {"categoryId":"television-specialist-factual","firstCeremony":18,"lastCeremony":79,"expectedResults":56,"expectedWorkLinks":56,"catalogs":[{"mediaType":"movie","id":"bafta-television-specialist-factual-winning-films","name":"BAFTA Television — Specialist Factual — Films","expectedWorkLinks":16,"expectedItems":16},{"mediaType":"series","id":"bafta-television-specialist-factual-winning-series","name":"BAFTA Television — Specialist Factual — Series","expectedWorkLinks":40,"expectedSkippedWorkLinks":2,"expectedItems":26}]},
-    {"categoryId":"television-sports-coverage","firstCeremony":53,"lastCeremony":79,"expectedResults":23,"expectedWorkLinks":23,"catalogs":[{"mediaType":"movie","id":"bafta-television-sports-coverage-winning-films","name":"BAFTA Television — Sports Coverage — Films","expectedWorkLinks":2,"expectedItems":2},{"mediaType":"series","id":"bafta-television-sports-coverage-winning-series","name":"BAFTA Television — Sports Coverage — Series","expectedWorkLinks":21,"expectedSkippedWorkLinks":3,"expectedItems":16}]},
+    {"categoryId":"television-sports-coverage","firstCeremony":53,"lastCeremony":79,"expectedResults":23,"expectedWorkLinks":23,"catalogs":[{"mediaType":"movie","id":"bafta-television-sports-coverage-winning-films","name":"BAFTA Television — Sports Coverage — Films","expectedWorkLinks":0,"expectedItems":0,"emptyCatalogueReason":"Retain the released Sports Coverage Films ID as an empty compatibility route after both same-title fiction mismatches are removed. The Ashes belongs to the existing series route; The Open remains an explicit unresolved broadcast identity."},{"mediaType":"series","id":"bafta-television-sports-coverage-winning-series","name":"BAFTA Television — Sports Coverage — Series","expectedWorkLinks":23,"expectedSkippedWorkLinks":4,"expectedItems":16}]},
     {"categoryId":"television-supporting-actor","firstCeremony":63,"lastCeremony":79,"expectedResults":17,"expectedWorkLinks":17,"catalogs":[{"mediaType":"series","id":"bafta-television-supporting-actor-winning-series","name":"BAFTA Television — Supporting Actor — Series","expectedWorkLinks":17,"expectedItems":15}]},
     {"categoryId":"television-supporting-actress","firstCeremony":63,"lastCeremony":79,"expectedResults":17,"expectedWorkLinks":17,"catalogs":[{"mediaType":"movie","id":"bafta-television-supporting-actress-winning-films","name":"BAFTA Television — Supporting Actress — Films","expectedWorkLinks":5,"expectedItems":5},{"mediaType":"series","id":"bafta-television-supporting-actress-winning-series","name":"BAFTA Television — Supporting Actress — Series","expectedWorkLinks":12,"expectedItems":12}]}
   ]

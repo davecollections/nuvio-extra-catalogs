@@ -9,15 +9,15 @@ The committed BAFTA snapshots decide award facts. This report inventories only w
 - Selected work-linked winner records: **2,829**
 - Selected work links: **2,917**
 - Award-year-scoped work identities: **2,096**
-- Resolved identities: **2,060** (1,088 movies; 972 series)
-- Reviewed non-catalogue outcomes: **36**
+- Resolved identities: **2,059** (1,086 movies; 973 series)
+- Reviewed non-catalogue outcomes: **37**
 - Unresolved identities: **0**
 - Unattempted identities: **0**
 - No exact-title candidate: **0**
 - Multiple plausible exact-title candidates: **0**
 - Candidate evidence without an acceptable IMDb/date relationship: **0**
 
-## Reviewed non-catalogue outcomes (36)
+## Reviewed non-catalogue outcomes (37)
 
 These winner facts remain preserved, but no compatible IMDb-backed catalogue identity was found during explicit review.
 
@@ -51,6 +51,7 @@ These winner facts remain preserved, but no compatible IMDb-backed catalogue ide
 | The Grafters | television; award 1965; television-single-documentary; nomination 345575 | no-compatible-imdb-identity: The Grafters is preserved as TMDB series 48090, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
 | The London 2012 Olympics: Super Saturday | television-craft; award 2013; television-craft-sound-factual; nomination 351195 | no-compatible-imdb-identity: No compatible IMDb identity was verified for the awarded BBC Super Saturday coverage. The generic London 2012 Olympics and independent documentaries are not evidence for this specific broadcast; preserve the award without substituting another production. |
 | The National Trust | television; award 2004; television-specialist-factual; nomination 347893 | no-compatible-imdb-identity: The National Trust is preserved as the exact 2003 TMDB series 16892, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
+| The Open | television; award 2017; television-sports-coverage; nomination 356207 | no-compatible-imdb-identity: BAFTA and Sky identify the 145th Open golf coverage at Royal Troon in 2016. No compatible live-broadcast IMDb identity was verified. Reject Marc Lahore's fictional tennis film The Open (2015), IMDb tt3779844 / TMDB 368926; the official-film compilation tt3889116 and later golf documentaries are not the awarded live coverage. Preserve this winner in canonical history without publishing an unrelated title. |
 | The Queen’s Golden Jubilee | television-craft; award 2003; television-craft-sound-factual; nomination 349880 | no-compatible-imdb-identity: The broad official broadcast title does not establish that this is the separate Party at the Palace concert. Searches did not verify a compatible identity for the specific winning coverage, so do not silently narrow it to one concert. |
 | The Show Must Go On | television-craft; award 2002; television-craft-editing-factual; nomination 349778 | no-compatible-imdb-identity: The official winner credits editor Anna Ksiezopolska, but review did not corroborate that credit on a compatible IMDb production. Exact-title candidates include unrelated films and music documentaries; the uncorroborated 2002 record tt1215519 is retained as evidence, not accepted solely on its name. |
 | The Stanley Baxter Series | television; award 1982; television-entertainment; nomination 346409 | no-compatible-imdb-identity: The Stanley Baxter Series is preserved as the exact 1981 TMDB series 23569, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |

@@ -3,11 +3,11 @@
   "awardBodyId": "bafta-television",
   "checkedAt": "2026-09-26",
   "productionPosterTemplate": "https://images.metahub.space/poster/medium/{imdb_id}/img",
-  "publishedUniqueTitleCount": 667,
-  "metaHubAvailableCount": 562,
-  "metaHubMissingCount": 105,
+  "publishedUniqueTitleCount": 665,
+  "metaHubAvailableCount": 561,
+  "metaHubMissingCount": 104,
   "tmdbFallbackCount": 12,
-  "knownUnavailableCount": 92,
+  "knownUnavailableCount": 90,
   "fallbackReview": [
     {
       "imdbId": "tt0057734",
@@ -747,8 +747,24 @@
       "tmdbId": null,
       "workKey": "television:paris2024olympicsbbcone:2025",
       "posterPath": null,
-      "posterUrl": null,
-      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+      "posterUrl": "https://artworks.thetvdb.com/banners/v4/series/452671/posters/66a6afd574273.jpg",
+      "fallbackNote": "Verified TVDB artwork for the reviewed series; canonical work IDs are unchanged.",
+      "reviewedTvdbPoster": {
+        "tvdbId": 452671,
+        "posterUrl": "https://artworks.thetvdb.com/banners/v4/series/452671/posters/66a6afd574273.jpg",
+        "reviewNote": "Independently matched the Paris 2024 Olympic event series by event, year, host city and dated competition/ceremony episode coverage. IMDb tt12752438 is the existing reviewed event-series identity; TVDB does not supply an IMDb cross-link. The visually inspected portrait uses the Paris 2024 emblem and Olympic rings, not a generated title card. TVDB's linked TMDB 260197 now returns 404 and is not added as an identity.",
+        "evidenceUrls": [
+          "https://thetvdb.com/series/summer-olympics-paris-2024",
+          "https://www.imdb.com/title/tt12752438/",
+          "https://www.imdb.com/title/tt32110761/soundtrack/",
+          "https://www.bafta.org/awards/television/sports-coverage/"
+        ]
+      },
+      "tvdbPosterCheck": {
+        "status": 200,
+        "contentType": "image/jpeg",
+        "url": "https://artworks.thetvdb.com/banners/v4/series/452671/posters/66a6afd574273.jpg"
+      }
     },
     {
       "imdbId": "tt1346933",
@@ -1159,19 +1175,6 @@
       "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
     },
     {
-      "imdbId": "tt3779844",
-      "title": "The Open",
-      "mediaType": "movie",
-      "catalogIds": [
-        "bafta-television-sports-coverage-winning-films"
-      ],
-      "tmdbId": 368926,
-      "workKey": "television:theopen:2017",
-      "posterPath": null,
-      "posterUrl": null,
-      "fallbackNote": "The reviewed TMDB title has no poster."
-    },
-    {
       "imdbId": "tt38526010",
       "title": "Long Lost Family: Born Without Trace",
       "mediaType": "series",
@@ -1351,7 +1354,7 @@
       "workKey": "television:morganarobinsonssummer:2018",
       "posterPath": null,
       "posterUrl": "https://artworks.thetvdb.com/banners/v4/series/408509/posters/62b2e58e2a151.jpg",
-      "fallbackNote": "Verified TVDB artwork for the exact IMDb-linked series; canonical work IDs are unchanged.",
+      "fallbackNote": "Verified TVDB artwork for the reviewed series; canonical work IDs are unchanged.",
       "reviewedTvdbPoster": {
         "tvdbId": 408509,
         "posterUrl": "https://artworks.thetvdb.com/banners/v4/series/408509/posters/62b2e58e2a151.jpg",
@@ -1414,10 +1417,13 @@
         "bafta-television-sports-coverage-winning-series"
       ],
       "tmdbId": null,
-      "workKey": "television:theashesenglandvaustralia:2006",
       "posterPath": null,
       "posterUrl": null,
-      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship.",
+      "workKeys": [
+        "television:theashes:2016",
+        "television:theashesenglandvaustralia:2006"
+      ]
     },
     {
       "imdbId": "tt9406728",
@@ -1444,6 +1450,7 @@
       "tt0379127": "https://image.tmdb.org/t/p/w500/c8Lh2wYVUg6hTXMV5WXxjPIhcB5.jpg",
       "tt0449030": "https://image.tmdb.org/t/p/w500/iUTuimPuOXkC2D5gbV5RluLLnHq.jpg",
       "tt10137860": "https://image.tmdb.org/t/p/w500/zCqDrrcJBZddEmBg9STYxcJu0CD.jpg",
+      "tt12752438": "https://artworks.thetvdb.com/banners/v4/series/452671/posters/66a6afd574273.jpg",
       "tt36564052": "https://image.tmdb.org/t/p/w500/gm2wveJtd13gtIU0cwOW5faheDb.jpg",
       "tt38526010": "https://image.tmdb.org/t/p/w500/7BsNbVUrxvpjbgemEitz1ds6BTT.jpg",
       "tt5123004": "https://image.tmdb.org/t/p/w500/uwCEpnDjOpXrxmUNy87kr9E6SKt.jpg",
@@ -1495,7 +1502,6 @@
       "tt10998480",
       "tt11608566",
       "tt12740018",
-      "tt12752438",
       "tt1346933",
       "tt1351662",
       "tt13801796",
@@ -1525,7 +1531,6 @@
       "tt32085850",
       "tt32189654",
       "tt37740869",
-      "tt3779844",
       "tt39074249",
       "tt4326224",
       "tt43277628",
@@ -1545,5 +1550,5 @@
     ]
   },
   "currentContractMatchesLiveReview": true,
-  "tvdbFallbackCount": 1
+  "tvdbFallbackCount": 2
 }

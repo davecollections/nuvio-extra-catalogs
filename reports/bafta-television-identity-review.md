@@ -9,15 +9,15 @@ The committed BAFTA snapshots decide award facts. This report inventories only w
 - Selected work-linked winner records: **938**
 - Selected work links: **977**
 - Award-year-scoped work identities: **888**
-- Resolved identities: **864** (165 movies; 699 series)
-- Reviewed non-catalogue outcomes: **24**
+- Resolved identities: **863** (163 movies; 700 series)
+- Reviewed non-catalogue outcomes: **25**
 - Unresolved identities: **0**
 - Unattempted identities: **0**
 - No exact-title candidate: **0**
 - Multiple plausible exact-title candidates: **0**
 - Candidate evidence without an acceptable IMDb/date relationship: **0**
 
-## Reviewed non-catalogue outcomes (24)
+## Reviewed non-catalogue outcomes (25)
 
 These winner facts remain preserved, but no compatible IMDb-backed catalogue identity was found during explicit review.
 
@@ -43,6 +43,7 @@ These winner facts remain preserved, but no compatible IMDb-backed catalogue ide
 | The First Television Pictures From The Moon | television; award 1970; television-international; nomination 345654 | no-compatible-imdb-identity: The First Television Pictures From The Moon is preserved as TMDB series 48039, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
 | The Grafters | television; award 1965; television-single-documentary; nomination 345575 | no-compatible-imdb-identity: The Grafters is preserved as TMDB series 48090, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
 | The National Trust | television; award 2004; television-specialist-factual; nomination 347893 | no-compatible-imdb-identity: The National Trust is preserved as the exact 2003 TMDB series 16892, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
+| The Open | television; award 2017; television-sports-coverage; nomination 356207 | no-compatible-imdb-identity: BAFTA and Sky identify the 145th Open golf coverage at Royal Troon in 2016. No compatible live-broadcast IMDb identity was verified. Reject Marc Lahore's fictional tennis film The Open (2015), IMDb tt3779844 / TMDB 368926; the official-film compilation tt3889116 and later golf documentaries are not the awarded live coverage. Preserve this winner in canonical history without publishing an unrelated title. |
 | The Stanley Baxter Series | television; award 1982; television-entertainment; nomination 346409 | no-compatible-imdb-identity: The Stanley Baxter Series is preserved as the exact 1981 TMDB series 23569, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
 | The Trust | television; award 2003; television-specialist-factual; nomination 347827 | no-compatible-imdb-identity: The credited 2002 programme The Trust is verified by BAFTA, but review found no compatible IMDb identity; current and title-similar candidates are different productions. |
 | World. War. Me. (Sky Kids Investigates) | television; award 2026; television-childrens-non-scripted; nomination 374697 | no-compatible-imdb-identity: World War Me: Sky Kids Investigates is verified by BAFTA's 2026 Children's Non-Scripted record, but review found no compatible IMDb title identity. |

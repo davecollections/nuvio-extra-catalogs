@@ -2,11 +2,11 @@
 
 Reviewed 2026-09-26 for Issues #41 and #43, before V1.4 owner acceptance.
 
-All 172 published catalogues were inventoried: **3,237 unique works** (2,308 movies and 929 series), covering Academy Awards, Golden Globes, BAFTA Film, BAFTA Television and BAFTA Television Craft. Every published item has canonical award provenance. The scan found no conflicting canonical TMDB IDs for one work, no IMDb ID published under both media types, and no mapped TMDB record linking a different IMDb ID.
+All 172 published catalogues were inventoried: **3,235 unique works** (2,306 movies and 929 series), covering Academy Awards, Golden Globes, BAFTA Film, BAFTA Television and BAFTA Television Craft. Every published item has canonical award provenance. The scan found no conflicting canonical TMDB IDs for one work, no IMDb ID published under both media types, and no mapped TMDB record linking a different IMDb ID.
 
 The live pass checked each catalogue poster URL, each stored TMDB work ID and its external IDs, and TMDB’s IMDb lookup even where a poster already loaded. Missing-poster and IMDb-only records also received title searches (the first result page for up to two canonical title forms). This is a consistency and exception review of the existing source-backed mappings, not a new manual transcription of every historical award or a visual review of every poster. Full Nuvio detail-provider coverage remains recorded separately in the BAFTA metadata audits.
 
-**3,084 works have an available image; 153 still have no verified available poster.** There were zero external-service failures in the completed scan. The 231 entries with flags have recorded dispositions tied to a hash of their evidence. One candidate identity ambiguity remains open, as described below.
+**3,084 works have an available image; 151 still have no verified available poster.** There were zero external-service failures in the completed scan. The 230 entries with flags have recorded dispositions tied to a hash of their evidence. One candidate identity ambiguity remains open, as described below.
 
 ## Changes
 
@@ -32,7 +32,7 @@ Counts below are unique within each award body; a work can occur in more than on
 | academy-awards | 1265 | 1261 | 4 |
 | golden-globes | 1065 | 1065 | 0 |
 | bafta-film | 821 | 801 | 20 |
-| bafta-television | 667 | 575 | 92 |
+| bafta-television | 665 | 575 | 90 |
 | bafta-television-craft | 434 | 392 | 42 |
 
 ## Identity exceptions
@@ -57,6 +57,16 @@ The owner requested blanks until real artwork is available; no generated title c
 Our Land demonstrates a limit of reciprocal IMDb/TMDB checks: both databases can agree on a production that was selected for the wrong award. The corrected identity is tied to [BAFTA’s credits](https://static.bafta.org/uploads_pre_202411/baftatv22winnerslist.pdf) and [the credited cinematographer’s production page](https://www.alfredthirolle.com/portfolio/our-land-1). The other named Short Form winners were checked against live TMDB production credits: Brain in Gear (Ikumelo/Costello/Gordon), They Saw the Sun First (Hunt/Gee), How to Be a Person (Agha), Mobility (Carroll/Meeda/Simpson/Ward), Quiet Life (Pickett/Rollason/Bruce), and Hustle and Run (Madderson/Stevens/Conlon). Missed Call matches [Victoria Mapplebeck’s film](https://victoriamapplebeck.com/films/missed-call/); Summer Comedy Shorts matches the exact IMDb-linked Sky Arts series. No further mismatch was found in this Short Form review. This does not certify every historical production credit across all awards.
 
 The other latest screenshot gaps—Ellie Simmonds: Finding My Secret Family, How to Be a Person, Missed Call, True Stories, Only Human and One Life—still have no verified portrait poster through the reviewed routes. Editorial stills are not silently stretched into posters. The corrected Our Land joins the gap list. Nuvio returns an empty meta object for its correct IMDb ID; Cinemeta resolves it, and the reviewed compact fallback preserves that same ID.
+
+## Sports screenshot follow-up
+
+The two Sports Coverage film entries were unrelated fiction selected by title/year: The Ashes was Jacob Kirby’s Las Cenizas, and The Open was Marc Lahore’s fictional tennis film. [BAFTA’s archive](https://www.bafta.org/awards/television/sports-coverage/), [the 2016 Sky Sports credit list](https://static.bafta.org/uploads_pre_202411/baftatv1516nominationlist.pdf) and [Sky’s 2017 award announcement](https://www.skysports.com/golf/news/14866/10878191/sky-sports-coverage-of-the-open-wins-bafta-award) identify cricket and the 2016 Royal Troon golf broadcast instead.
+
+The Ashes now uses the already published cricket event-series IMDb tt9090184 and deduplicates its 2006/2016 wins. The Open is preserved as an explicit non-catalogue result until a compatible live-broadcast IMDb identity is verified; the official-film compilation tt3889116 is not substituted. All 23 Sports Coverage identity decisions now have a reviewed override or explicit omission, and the identity validator rejects automatic title/year-only mappings for this category. Existing documented event/parent-series decisions remain in force; this does not assert a fresh independent re-verification of every historical episode credit.
+
+All 16 remaining sports-series MetaHub routes were checked live: three images load and 13 return 404. Paris 2024 now has an additional verified TVDB fallback, leaving 12 blanks in this series row. Its portrait uses the Paris 2024 emblem and Olympic rings. TVDB 452671 was matched independently by event, dates and episode coverage; it does not link IMDb directly, and its obsolete TMDB link returns 404. No replacement TMDB identity was invented.
+
+The released Sports Coverage Films catalogue ID and preset route remain available with an empty metas array. Existing installations keep their stable route; they no longer receive either unrelated film. The series route retains 16 unique sports titles, with The Ashes ordered by its latest win. Direct saves of the incorrect fiction IDs are not redirected. See the [correction and migration record](../docs/awards-corrections.md).
 
 ## Reproduction and limits
 
@@ -132,7 +142,6 @@ These are unavailable through the reviewed routes at the check time; the list is
 | [tt32189654](https://www.imdb.com/title/tt32189654/) | movie | Girls Wanted, Istanbul | bafta-television |
 | [tt36896747](https://www.imdb.com/title/tt36896747/) | movie | Trouble in Tahiti | bafta-television-craft |
 | [tt3704078](https://www.imdb.com/title/tt3704078/) | movie | Messiah at the Foundling Hospital | bafta-television-craft |
-| [tt3779844](https://www.imdb.com/title/tt3779844/) | movie | The Open | bafta-television |
 | [tt39074249](https://www.imdb.com/title/tt39074249/) | movie | Sky News: Hong Kong Protests | bafta-television |
 | [tt4326224](https://www.imdb.com/title/tt4326224/) | movie | After Lockerbie | bafta-television |
 | [tt4459770](https://www.imdb.com/title/tt4459770/) | movie | Don't Take My Baby | bafta-television |
@@ -183,7 +192,6 @@ These are unavailable through the reviewed routes at the check time; the list is
 | [tt10998480](https://www.imdb.com/title/tt10998480/) | series | ITV Sport: Rugby World Cup 2019 | bafta-television |
 | [tt11608566](https://www.imdb.com/title/tt11608566/) | series | FYI - SKY News for Kids | bafta-television |
 | [tt12740018](https://www.imdb.com/title/tt12740018/) | series | UEFA Women's Euro 2022 | bafta-television |
-| [tt12752438](https://www.imdb.com/title/tt12752438/) | series | Paris 2024: XXXIII Olympic Summer Games | bafta-television |
 | [tt1330949](https://www.imdb.com/title/tt1330949/) | series | Thursday Theatre | bafta-television-craft |
 | [tt1342999](https://www.imdb.com/title/tt1342999/) | series | Biography | bafta-television-craft |
 | [tt1346933](https://www.imdb.com/title/tt1346933/) | series | The Root of All Evil? | bafta-television |

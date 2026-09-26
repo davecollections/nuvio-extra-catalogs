@@ -6,10 +6,18 @@ from unittest.mock import patch
 from audit_awards_work_mappings import flags, review_basis, validate_review
 from bafta_artwork import ArtworkError, reviewed_season_posters, tmdb_fallback
 from enrich_bafta_identities import apply_overrides, validate_overrides
-from bafta_outputs import OutputError, reviewed_tvdb_posters
+from bafta_outputs import OutputError, reviewed_tvdb_posters, build_outputs, TELEVISION_CONFIG
+from enrich_golden_globes_identities import IdentityError
 
 
 class WorkMappingTests(unittest.TestCase):
+    def test_sports_title_year_match_needs_production_review(self):
+        entry = {"key": "television:sport:2001", "categoryIds": ["television-sports-coverage"],
+                 "resolution": {"method": "tmdb-exact-title-media-and-award-window"}}
+        with patch("enrich_bafta_identities.load_overrides", return_value={"works": [], "omissions": []}):
+            with self.assertRaises(IdentityError):
+                validate_overrides({"works": [entry]})
+
     def setUp(self):
         self.entry = {"imdbId": "tt123", "mediaType": "series", "tmdbIds": [1],
                       "titles": ["Example"], "releaseYears": [2000], "awardYears": [2001]}
@@ -114,6 +122,28 @@ class TvdbPosterTests(unittest.TestCase):
         with self.assertRaises(OutputError):
             reviewed_tvdb_posters({"reviewedTvdbPosters": {"tt123": source}})
 
+
+class RetainedCatalogueTests(unittest.TestCase):
+    def test_correction_keeps_empty_movie_route_and_valid_series(self):
+        import json
+        category = "television-sports-coverage"
+        movie = {"mediaType": "movie", "id": "retained-films", "name": "Films",
+                 "expectedWorkLinks": 0, "expectedItems": 0,
+                 "emptyCatalogueReason": "Preserve the released route after correcting wrong productions."}
+        series = {"mediaType": "series", "id": "sports-series", "name": "Series",
+                  "expectedWorkLinks": 1, "expectedItems": 1}
+        contract = {"awardBodyId": TELEVISION_CONFIG.award_body_id, "categories": [{
+            "categoryId": category, "firstCeremony": 1, "lastCeremony": 1,
+            "expectedResults": 1, "expectedWorkLinks": 1, "catalogs": [movie, series]}]}
+        rows = {category: [{"ceremony": 1, "resultIndex": 0, "workIndex": 0,
+                            "work": {"mediaType": "series", "title": "Reviewed broadcast", "imdbId": "tt123"}}]}
+        with patch("bafta_outputs.collect_rows", return_value=(rows, {category: 1}, {category})), patch("bafta_outputs.load_json", return_value=contract):
+            outputs, manifest = build_outputs(TELEVISION_CONFIG)
+            self.assertEqual(len(manifest), 2)
+            self.assertEqual(json.loads(next(v for p, v in outputs.items() if p.stem == "retained-films")), {"metas": []})
+            movie.pop("emptyCatalogueReason")
+            with self.assertRaises(OutputError):
+                build_outputs(TELEVISION_CONFIG)
 
 if __name__ == "__main__":
     unittest.main()

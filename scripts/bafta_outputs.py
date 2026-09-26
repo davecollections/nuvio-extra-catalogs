@@ -235,7 +235,15 @@ def build_outputs(config: OutputConfig) -> tuple[dict[Path, str], list[dict]]:
                 raise OutputError(
                     f"{category_id}: invalid non-catalogue {media_type!r} contract"
                 )
-        expected_media = catalog_media | omitted_media
+        # A correction can empty a released route. Keep that ID available for
+        # existing installations instead of retaining unrelated titles in it.
+        empty_catalogs = [catalog for catalog in catalogs if catalog.get("expectedWorkLinks") == 0]
+        for catalog in empty_catalogs:
+            if (catalog.get("expectedItems") != 0
+                    or not isinstance(catalog.get("emptyCatalogueReason"), str)
+                    or not catalog["emptyCatalogueReason"].strip()):
+                raise OutputError(f"{catalog['id']}: empty route requires an explicit preservation reason")
+        expected_media = {catalog["mediaType"] for catalog in catalogs if catalog not in empty_catalogs} | omitted_media
         actual_media = {row["work"].get("mediaType") for row in rows}
         if expected_media != actual_media:
             raise OutputError(

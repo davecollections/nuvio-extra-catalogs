@@ -426,6 +426,18 @@ def apply_overrides(identity_map: dict) -> tuple[int, int]:
     return applied, omitted
 
 
+def validate_review_date(override: dict) -> None:
+    if "sourceCheckedAt" not in override:
+        return
+    checked_at = override["sourceCheckedAt"]
+    try:
+        valid_date = date.fromisoformat(checked_at)
+    except (TypeError, ValueError) as exc:
+        raise IdentityError(f"{OVERRIDES_PATH}: invalid review date for {override.get('key')}") from exc
+    if valid_date.isoformat() != checked_at or valid_date > date.today():
+        raise IdentityError(f"{OVERRIDES_PATH}: invalid review date for {override.get('key')}")
+
+
 def validate_overrides(identity_map: dict) -> None:
     payload = load_overrides()
     by_key = {entry["key"]: entry for entry in identity_map["works"]}
@@ -448,14 +460,7 @@ def validate_overrides(identity_map: dict) -> None:
         }:
             raise IdentityError(f"{OVERRIDES_PATH}: unsupported work override keys")
         key = override.get("key")
-        if "sourceCheckedAt" in override:
-            checked_at = override["sourceCheckedAt"]
-            try:
-                valid_date = date.fromisoformat(checked_at)
-            except (TypeError, ValueError) as exc:
-                raise IdentityError(f"{OVERRIDES_PATH}: invalid review date for {key}") from exc
-            if valid_date.isoformat() != checked_at or valid_date > date.today():
-                raise IdentityError(f"{OVERRIDES_PATH}: invalid review date for {key}")
+        validate_review_date(override)
         if not isinstance(key, str) or key not in by_key or key in all_keys:
             raise IdentityError(f"{OVERRIDES_PATH}: invalid or duplicate work key {key!r}")
         all_keys.add(key)
@@ -518,8 +523,10 @@ def validate_overrides(identity_map: dict) -> None:
             "disposition",
             "reviewNote",
             "evidenceUrls",
+            "sourceCheckedAt",
         }:
             raise IdentityError(f"{OVERRIDES_PATH}: invalid omission keys")
+        validate_review_date(override)
         key = override.get("key")
         if not isinstance(key, str) or key not in by_key or key in all_keys:
             raise IdentityError(f"{OVERRIDES_PATH}: invalid or duplicate omission key {key!r}")
@@ -550,6 +557,10 @@ def validate_overrides(identity_map: dict) -> None:
             expected_outcome["mediaType"] = media_type
         if by_key[key].get("reviewOutcome") != expected_outcome:
             raise IdentityError(f"{OVERRIDES_PATH}: unapplied omission {key}")
+
+    for key, entry in by_key.items():
+        if "television-sports-coverage" in entry.get("categoryIds", []) and key not in all_keys:
+            raise IdentityError(f"{key}: sports broadcasts require a reviewed production override or explicit omission; title/year matches are insufficient")
 
 
 def validate_resolution(entry: dict) -> bool:

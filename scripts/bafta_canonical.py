@@ -249,9 +249,10 @@ def canonical_result(
 
 def build_files(config: CanonicalConfig) -> dict[Path, str]:
     identity_map = load_json(IDENTITY_MAP_PATH)
+    overrides = load_json(SOURCE_DIR / "identity-overrides.json")
     reviewed_dates = {
         entry["key"]: entry["sourceCheckedAt"]
-        for entry in load_json(SOURCE_DIR / "identity-overrides.json")["works"]
+        for entry in overrides["works"] + overrides["omissions"]
         if "sourceCheckedAt" in entry
     }
     if identity_map.get("inputSha256") != input_digest():
