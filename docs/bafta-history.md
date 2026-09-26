@@ -73,6 +73,16 @@ Install the commit-pinned Craft preset with the normal metadata provider enabled
 
 After owner acceptance, merge Issue #41 work, verify main CI/Pages and every deployed route, update the released-state documentation, and preserve the exact accepted commit as annotated tag and GitHub Release `v1.4.0`. No merge, release or Emmy implementation has occurred at this checkpoint.
 
+### Owner poster review — 2026-09-26
+
+The owner reports that the Craft preview works in Nuvio, with blank posters across several rows. The supplied Entertainment Craft Team screenshot identifies Eurovision Song Contest (`tt0313343`), Royal British Legion Festival of Remembrance (`tt10069230`) and World War One Remembered (`tt7205604`). All three production MetaHub poster URLs return HTTP 404; this reproduces the blank artwork independently of the Nuvio client.
+
+Review of all 46 initial Craft poster gaps found two correctable missing mappings. Eurovision is TMDB TV `28032`: its IMDb external-ID field is empty, but the title, EBU production context, 1956-05-24 premiere and Liverpool 2023 season match the verified IMDb parent. The existing reviewed manual-pair override preserves `tt0313343` and adds its TMDB poster. The 1965 Tea Party film is TMDB movie `139627`, which returns exact IMDb `tt0391485` and Charles Jarrott's directing credit; the undated duplicate TV entry is not used. No award facts or catalogue IDs change.
+
+The repeated live audits now find **381 MetaHub posters, nine TMDB fallbacks and 44 unavailable outcomes in Craft**, and **563 MetaHub posters, nine TMDB fallbacks and 95 unavailable outcomes in Television**. Eurovision's compact static metadata route also receives the poster. The two other screenshot titles remain without usable reviewed poster sources: Cinemeta returns no poster for World War One Remembered, and the rejected Festival of Remembrance TMDB series still has the conflicting standalone-movie IMDb link and no primary poster. The title-search sweep also found other editions/adaptations and conflicting IMDb identities (including Trouble in Tahiti); those images are not substituted without resolving their identity evidence.
+
+The previous commit-pinned preview remains unchanged. Test the new preview commit to see these fixes; refreshing the older immutable URL cannot receive them. Final owner acceptance and release remain pending while the reported poster concern is reviewed.
+
 ## Award authority
 
 BAFTA is the award authority:

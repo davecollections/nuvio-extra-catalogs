@@ -6,8 +6,8 @@
   "publishedUniqueTitleCount": 434,
   "metaHubAvailableCount": 381,
   "metaHubMissingCount": 53,
-  "tmdbFallbackCount": 7,
-  "knownUnavailableCount": 46,
+  "tmdbFallbackCount": 9,
+  "knownUnavailableCount": 44,
   "fallbackReview": [
     {
       "imdbId": "tt0066261",
@@ -219,11 +219,11 @@
         "bafta-craft-director-multi-camera-winning-series",
         "bafta-craft-entertainment-craft-team-winning-series"
       ],
-      "tmdbId": null,
+      "tmdbId": 28032,
       "workKey": "television:eurovisionsongcontest2023:2024",
-      "posterPath": null,
-      "posterUrl": null,
-      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+      "posterPath": "/kG2UO5pT91NckAe3tS6WrgxOB3P.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/kG2UO5pT91NckAe3tS6WrgxOB3P.jpg",
+      "fallbackNote": "TMDB supplies an explicit poster fallback."
     },
     {
       "imdbId": "tt0324697",
@@ -253,16 +253,16 @@
     },
     {
       "imdbId": "tt0391485",
-      "title": "The Tea Party",
+      "title": "Tea Party",
       "mediaType": "movie",
       "catalogIds": [
         "bafta-craft-production-design-winning-films"
       ],
-      "tmdbId": null,
+      "tmdbId": 139627,
       "workKey": "television:theteaparty:1965",
-      "posterPath": null,
-      "posterUrl": null,
-      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+      "posterPath": "/8ACwisZPejNpnybFHSpB7YUE6xO.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/8ACwisZPejNpnybFHSpB7YUE6xO.jpg",
+      "fallbackNote": "TMDB supplies an explicit poster fallback."
     },
     {
       "imdbId": "tt0415181",
@@ -364,7 +364,11 @@
         "bafta-craft-entertainment-craft-team-winning-series"
       ],
       "tmdbId": null,
-      "workKey": "television:royalbritishlegionfestivalofremembrance2016:2017",
+      "workKeys": [
+        "television:royalbritishlegionfestivalofremembrance2016:2017",
+        "television:theroyalbritishlegionfestivalofremembrance:2019",
+        "television:theroyalbritishlegionfestivalofremembrance:2022"
+      ],
       "posterPath": null,
       "posterUrl": null,
       "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
@@ -720,7 +724,9 @@
   "expectedContract": {
     "posterOverrides": {
       "tt0164312": "https://image.tmdb.org/t/p/w500/hJAYtr8CvnYBBZJlpdYvUMRWNCl.jpg",
+      "tt0313343": "https://image.tmdb.org/t/p/w500/kG2UO5pT91NckAe3tS6WrgxOB3P.jpg",
       "tt0327691": "https://image.tmdb.org/t/p/w500/s7FthVehQgCwdDVdw3vHLYvDAL7.jpg",
+      "tt0391485": "https://image.tmdb.org/t/p/w500/8ACwisZPejNpnybFHSpB7YUE6xO.jpg",
       "tt0449030": "https://image.tmdb.org/t/p/w500/iUTuimPuOXkC2D5gbV5RluLLnHq.jpg",
       "tt0466710": "https://image.tmdb.org/t/p/w500/mvsQJRJGNu5Tf9C26doerBgKbGI.jpg",
       "tt1461402": "https://image.tmdb.org/t/p/w500/yjYbtkpKGumMXPZllzWqA5Hi4VS.jpg",
@@ -742,9 +748,7 @@
       "tt0248793",
       "tt0296446",
       "tt0296863",
-      "tt0313343",
       "tt0324697",
-      "tt0391485",
       "tt0415181",
       "tt0465319",
       "tt0490208",

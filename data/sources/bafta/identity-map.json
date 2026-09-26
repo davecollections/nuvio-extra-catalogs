@@ -32143,10 +32143,11 @@
         "mediaType": "series",
         "title": "Eurovision Song Contest",
         "releaseYear": 1956,
+        "tmdbId": 28032,
         "imdbId": "tt0313343",
-        "method": "reviewed-imdb-override"
+        "method": "reviewed-manual-override"
       },
-      "reviewNote": "The winning Liverpool 2023 Grand Final is an identified edition of the continuing Eurovision Song Contest; the compatible parent-series identity avoids emitting its episode-only IMDb ID."
+      "reviewNote": "The winning Liverpool 2023 Grand Final belongs to the continuing Eurovision Song Contest. TMDB 28032 has no IMDb external ID, but its 1956-05-24 premiere, EBU production context and Liverpool 2023 season independently match the verified IMDb parent. Retain IMDb tt0313343 through the existing reviewed manual-pair override; this also supplies the available TMDB poster without publishing an episode-only identity."
     },
     {
       "key": "television:evicted:2007",
@@ -54181,12 +54182,13 @@
       "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
-        "title": "The Tea Party",
+        "title": "Tea Party",
         "releaseYear": 1965,
+        "tmdbId": 139627,
         "imdbId": "tt0391485",
-        "method": "reviewed-imdb-override"
+        "method": "reviewed-manual-override"
       },
-      "reviewNote": "Eileen Diss's credited production-design work is Charles Jarrott's 1965 television film The Tea Party; IMDb supplies the compatible standalone identity."
+      "reviewNote": "Eileen Diss's credited production-design work is Charles Jarrott's 1965 television film The Tea Party. TMDB movie 139627 returns the exact IMDb tt0391485 relationship, the 1965 release and Charles Jarrott's directing credit, and supplies the missing poster. Reject the undated duplicate series entry 48124."
     },
     {
       "key": "television:thetenantofwildfellhall:1997",
