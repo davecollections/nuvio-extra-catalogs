@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "awardBodyId": "bafta-film",
-  "checkedAt": "2026-08-25",
+  "checkedAt": "2026-09-26",
   "productionPosterTemplate": "https://images.metahub.space/poster/medium/{imdb_id}/img",
   "publishedUniqueTitleCount": 821,
-  "metaHubAvailableCount": 798,
-  "metaHubMissingCount": 23,
+  "metaHubAvailableCount": 799,
+  "metaHubMissingCount": 22,
   "tmdbFallbackCount": 2,
-  "knownUnavailableCount": 21,
+  "knownUnavailableCount": 20,
   "fallbackReview": [
     {
       "imdbId": "tt0064847",
@@ -166,19 +166,6 @@
       "fallbackNote": "The reviewed TMDB title has no poster."
     },
     {
-      "imdbId": "tt0309929",
-      "title": "Notes on a Triangle",
-      "mediaType": "movie",
-      "catalogIds": [
-        "bafta-film-animated-film-winners"
-      ],
-      "workKey": "movie:notesonatriangle:1968",
-      "tmdbId": 377947,
-      "posterPath": null,
-      "posterUrl": null,
-      "fallbackNote": "The reviewed TMDB title has no poster."
-    },
-    {
       "imdbId": "tt0360861",
       "title": "Pan-tele-tron",
       "mediaType": "movie",
@@ -326,7 +313,6 @@
       "tt0215736",
       "tt0247500",
       "tt0275669",
-      "tt0309929",
       "tt0360861",
       "tt0396515",
       "tt0793531",

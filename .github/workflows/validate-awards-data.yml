@@ -158,6 +158,12 @@ jobs:
       - name: Validate manifest and catalogue payloads
         run: python scripts/validate_manifest_catalogs.py
 
+      - name: Check all-awards work mapping and poster evidence
+        run: python scripts/audit_awards_work_mappings.py --offline-check
+
+      - name: Check identity and artwork regression guards
+        run: python scripts/test_awards_work_mappings.py
+
       - name: Check Awards People artwork integration
         run: python scripts/check_people_artwork_integration.py --check
 

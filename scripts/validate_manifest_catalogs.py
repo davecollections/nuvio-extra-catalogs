@@ -29,6 +29,7 @@ SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 IMDB_RE = re.compile(r"^tt\d+$")
 POSTER_TEMPLATE = "https://images.metahub.space/poster/medium/{imdb_id}/img"
 POSTER_CONTRACT_PATHS = {
+    "academy-": REPO_ROOT / "data" / "awards" / "academy-awards" / "output-contracts.json",
     "bafta-craft-": REPO_ROOT / "data" / "awards"
     / "bafta-television-craft" / "output-contracts.json",
     "golden-globes-": REPO_ROOT

@@ -3,6 +3,8 @@
     "id": "tt36564052",
     "type": "series",
     "name": "Glastonbury 2024",
+    "poster": "https://image.tmdb.org/t/p/w500/gm2wveJtd13gtIU0cwOW5faheDb.jpg",
+    "posterShape": "poster",
     "releaseInfo": "2024",
     "description": "Reviewed award-catalogue title. This compact record is supplied when installed metadata providers do not return the title."
   }

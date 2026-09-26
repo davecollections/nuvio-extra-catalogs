@@ -241,6 +241,17 @@ python scripts/audit_bafta_craft_metadata.py
 
 See `docs/bafta-history.md` and the Film, Television and Television Craft artwork/metadata audits under `reports/` for the lineage, identity, classification, artwork, and metadata-compatibility evidence.
 
+The cross-award work audit checks every published IMDb identity against canonical provenance, TMDB details and external-ID lookups, and the actual catalogue poster URL. Flag dispositions and remaining gaps are in [`reports/awards-work-mapping-audit.md`](reports/awards-work-mapping-audit.md). It complements the original award-source reviews and the BAFTA detail-provider audits; a working image alone does not confirm a production identity.
+
+```bash
+python scripts/audit_awards_work_mappings.py --cache /path/to/live-evidence-cache.json --workers 12
+# Review new or changed flags in the generated JSON report before the offline gate.
+python scripts/audit_awards_work_mappings.py --offline-check
+python scripts/test_awards_work_mappings.py
+```
+
+The live pass requires `TMDB_API_READ_TOKEN` and preserves unchanged live evidence in the optional checkpoint. Changed inventory or evidence invalidates the corresponding flag decision. Catalogue previews include the IMDb ID, name and poster URL; installed metadata providers handle full details separately. Missing poster artwork therefore does not itself establish a bad IMDb mapping.
+
 ## GitHub Pages URLs
 
 Landing page:

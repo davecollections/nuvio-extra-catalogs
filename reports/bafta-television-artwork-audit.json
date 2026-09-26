@@ -6,8 +6,8 @@
   "publishedUniqueTitleCount": 667,
   "metaHubAvailableCount": 563,
   "metaHubMissingCount": 104,
-  "tmdbFallbackCount": 9,
-  "knownUnavailableCount": 95,
+  "tmdbFallbackCount": 12,
+  "knownUnavailableCount": 92,
   "fallbackReview": [
     {
       "imdbId": "tt0057734",
@@ -232,11 +232,11 @@
       "catalogIds": [
         "bafta-television-specialist-factual-winning-films"
       ],
-      "tmdbId": null,
+      "tmdbId": 494464,
       "workKey": "television:lslowryasimpleman:1988",
-      "posterPath": null,
-      "posterUrl": null,
-      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+      "posterPath": "/li8dpM6PA1xUJw8Qu67e8L95RON.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/li8dpM6PA1xUJw8Qu67e8L95RON.jpg",
+      "fallbackNote": "TMDB supplies an explicit poster fallback."
     },
     {
       "imdbId": "tt0283171",
@@ -480,11 +480,11 @@
       "catalogIds": [
         "bafta-television-specialist-factual-winning-series"
       ],
-      "tmdbId": null,
+      "tmdbId": 243767,
       "workKey": "television:rhythmleavinghome:1997",
-      "posterPath": null,
-      "posterUrl": null,
-      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+      "posterPath": "/c8Lh2wYVUg6hTXMV5WXxjPIhcB5.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/c8Lh2wYVUg6hTXMV5WXxjPIhcB5.jpg",
+      "fallbackNote": "TMDB supplies an explicit poster fallback."
     },
     {
       "imdbId": "tt0388616",
@@ -1116,9 +1116,21 @@
       ],
       "tmdbId": null,
       "workKey": "television:glastonbury2024:2025",
-      "posterPath": null,
-      "posterUrl": null,
-      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+      "posterPath": "/gm2wveJtd13gtIU0cwOW5faheDb.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/gm2wveJtd13gtIU0cwOW5faheDb.jpg",
+      "reviewedSeasonPoster": {
+        "tmdbId": 317120,
+        "seasonNumber": 28,
+        "seasonTitle": "Glastonbury 2024",
+        "releaseYear": 2024,
+        "reviewNote": "IMDb identifies the 2024 BBC coverage as a separate event series; TMDB represents the same broadcast year as season 28 of Glastonbury. The edition title, June 2024 dates and Dua Lipa/Coldplay coverage match the official festival BBC announcement. Use only this edition poster, without asserting that its IMDb ID represents the full 1997-onward TMDB series.",
+        "evidenceUrls": [
+          "https://www.imdb.com/title/tt36564052/",
+          "https://www.themoviedb.org/tv/317120/season/28",
+          "https://www.glastonburyfestivals.co.uk/news/dua-lipa-and-coldplay-sets-to-be-livestreamed-globally/"
+        ]
+      },
+      "fallbackNote": "Artwork comes from the verified matching TMDB season; the IMDb edition identity is retained independently."
     },
     {
       "imdbId": "tt37740869",
@@ -1398,11 +1410,14 @@
     "posterOverrides": {
       "tt0057982": "https://image.tmdb.org/t/p/w500/hptZ0wiHRbQqODlfrOcnWAQpA6v.jpg",
       "tt0174882": "https://image.tmdb.org/t/p/w500/2rjRNEqKiIsVS5HSLTMPqAwmvMY.jpg",
+      "tt0269866": "https://image.tmdb.org/t/p/w500/li8dpM6PA1xUJw8Qu67e8L95RON.jpg",
       "tt0307093": "https://image.tmdb.org/t/p/w500/k5xYBaEmWv2AliDAEee9c97592b.jpg",
       "tt0313343": "https://image.tmdb.org/t/p/w500/kG2UO5pT91NckAe3tS6WrgxOB3P.jpg",
       "tt0329927": "https://image.tmdb.org/t/p/w500/2Cl5HDJP1iZfCcdET9bnCVdXO9e.jpg",
+      "tt0379127": "https://image.tmdb.org/t/p/w500/c8Lh2wYVUg6hTXMV5WXxjPIhcB5.jpg",
       "tt0449030": "https://image.tmdb.org/t/p/w500/iUTuimPuOXkC2D5gbV5RluLLnHq.jpg",
       "tt10137860": "https://image.tmdb.org/t/p/w500/zCqDrrcJBZddEmBg9STYxcJu0CD.jpg",
+      "tt36564052": "https://image.tmdb.org/t/p/w500/gm2wveJtd13gtIU0cwOW5faheDb.jpg",
       "tt38526010": "https://image.tmdb.org/t/p/w500/7BsNbVUrxvpjbgemEitz1ds6BTT.jpg",
       "tt5123004": "https://image.tmdb.org/t/p/w500/uwCEpnDjOpXrxmUNy87kr9E6SKt.jpg"
     },
@@ -1421,7 +1436,6 @@
       "tt0229912",
       "tt0264999",
       "tt0267154",
-      "tt0269866",
       "tt0283171",
       "tt0294156",
       "tt0294205",
@@ -1436,7 +1450,6 @@
       "tt0357396",
       "tt0367292",
       "tt0367296",
-      "tt0379127",
       "tt0388616",
       "tt0397203",
       "tt0405611",
@@ -1482,7 +1495,6 @@
       "tt31848311",
       "tt32085850",
       "tt32189654",
-      "tt36564052",
       "tt37740869",
       "tt3779844",
       "tt39074249",

@@ -8,8 +8,10 @@
     "tt0391485": "https://image.tmdb.org/t/p/w500/8ACwisZPejNpnybFHSpB7YUE6xO.jpg",
     "tt0449030": "https://image.tmdb.org/t/p/w500/iUTuimPuOXkC2D5gbV5RluLLnHq.jpg",
     "tt0466710": "https://image.tmdb.org/t/p/w500/mvsQJRJGNu5Tf9C26doerBgKbGI.jpg",
+    "tt10533670": "https://image.tmdb.org/t/p/w500/ly9tMnIbWcxLh9iDXk55a5TfIYm.jpg",
     "tt1461402": "https://image.tmdb.org/t/p/w500/yjYbtkpKGumMXPZllzWqA5Hi4VS.jpg",
     "tt14697242": "https://image.tmdb.org/t/p/w500/r5iUiKvX1ZItoKugnsYRJTe8UVL.jpg",
+    "tt36564052": "https://image.tmdb.org/t/p/w500/gm2wveJtd13gtIU0cwOW5faheDb.jpg",
     "tt7479280": "https://image.tmdb.org/t/p/w500/hl47wLdcBh8TTkcBEMy1gSStQyG.jpg"
   },
   "knownUnavailablePosters": [
@@ -36,7 +38,6 @@
     "tt10069230",
     "tt1015629",
     "tt10449278",
-    "tt10533670",
     "tt1059223",
     "tt1152392",
     "tt1236238",
@@ -48,7 +49,6 @@
     "tt22746690",
     "tt26660803",
     "tt3053868",
-    "tt36564052",
     "tt36896747",
     "tt3704078",
     "tt37740869",
@@ -92,6 +92,32 @@
     "tt8023892",
     "tt9020296"
   ],
+  "reviewedSeasonPosters": {
+    "tt10533670": {
+      "tmdbId": 317120,
+      "seasonNumber": 23,
+      "seasonTitle": "Glastonbury 2019",
+      "releaseYear": 2019,
+      "reviewNote": "IMDb identifies the 2019 BBC coverage as a separate event series; TMDB represents the same broadcast year as season 23 of Glastonbury. The edition title, June 2019 dates and Stormzy/Killers/Cure coverage match the official BBC broadcast announcement. Use only this edition poster, without asserting that its IMDb ID represents the full 1997-onward TMDB series.",
+      "evidenceUrls": [
+        "https://www.imdb.com/title/tt10533670/",
+        "https://www.themoviedb.org/tv/317120/season/23",
+        "https://www.glastonburyfestivals.co.uk/news/the-bbc-announces-its-2019-broadcast-plans/"
+      ]
+    },
+    "tt36564052": {
+      "tmdbId": 317120,
+      "seasonNumber": 28,
+      "seasonTitle": "Glastonbury 2024",
+      "releaseYear": 2024,
+      "reviewNote": "IMDb identifies the 2024 BBC coverage as a separate event series; TMDB represents the same broadcast year as season 28 of Glastonbury. The edition title, June 2024 dates and Dua Lipa/Coldplay coverage match the official festival BBC announcement. Use only this edition poster, without asserting that its IMDb ID represents the full 1997-onward TMDB series.",
+      "evidenceUrls": [
+        "https://www.imdb.com/title/tt36564052/",
+        "https://www.themoviedb.org/tv/317120/season/28",
+        "https://www.glastonburyfestivals.co.uk/news/dua-lipa-and-coldplay-sets-to-be-livestreamed-globally/"
+      ]
+    }
+  },
   "categories": [
     {"categoryId":"television-craft-childrens-craft-team","firstCeremony":78,"lastCeremony":79,"expectedResults":2,"expectedWorkLinks":2,"catalogs":[{"mediaType":"movie","id":"bafta-craft-childrens-craft-team-winning-films","name":"BAFTA Television Craft — Children's Craft Team — Films","expectedWorkLinks":1,"expectedItems":1},{"mediaType":"series","id":"bafta-craft-childrens-craft-team-winning-series","name":"BAFTA Television Craft — Children's Craft Team — Series","expectedWorkLinks":1,"expectedItems":1}]},
     {"categoryId":"television-craft-costume-design","firstCeremony":31,"lastCeremony":79,"expectedResults":49,"expectedWorkLinks":50,"catalogs":[{"mediaType":"movie","id":"bafta-craft-costume-design-winning-films","name":"BAFTA Television Craft — Costume Design — Films","expectedWorkLinks":6,"expectedItems":6},{"mediaType":"series","id":"bafta-craft-costume-design-winning-series","name":"BAFTA Television Craft — Costume Design — Series","expectedWorkLinks":44,"expectedItems":44}]},

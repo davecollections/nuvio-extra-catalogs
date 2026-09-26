@@ -38635,10 +38635,11 @@
         "mediaType": "movie",
         "title": "A Simple Man",
         "releaseYear": 1987,
+        "tmdbId": 494464,
         "imdbId": "tt0269866",
-        "method": "reviewed-imdb-override"
+        "method": "reviewed-manual-override"
       },
-      "reviewNote": "Ian Squires and Gillian Lynne identify the 1987 television film A Simple Man about L. S. Lowry; TMDB stores the legacy title as series media without a usable date."
+      "reviewNote": "The 1987 Gillian Lynne television ballet A Simple Man about L. S. Lowry now has an exact TMDB movie 494464 / IMDb tt0269866 relationship, verified in the live API. Retain the original broadcast year and reviewed catalogue identity."
     },
     {
       "key": "television:macbeth:1978",
@@ -43929,10 +43930,11 @@
         "mediaType": "series",
         "title": "Leaving Home",
         "releaseYear": 1996,
+        "tmdbId": 243767,
         "imdbId": "tt0379127",
-        "method": "reviewed-imdb-override"
+        "method": "reviewed-manual-override"
       },
-      "reviewNote": "Sue Knussen and Hilary Chadwick identify the 1996 music documentary series Leaving Home, presented by BAFTA under the lineage title Rhythm: Leaving Home."
+      "reviewNote": "The seven-part 1996 Simon Rattle / City of Birmingham Symphony Orchestra series is the production released on DVD as Leaving Home: Orchestral Music in the 20th Century. TMDB TV 243767 describes that same 1996 production but dates its 2005 DVD edition and omits the IMDb link. IMDb tt0379127 and the Arthaus/Unitel catalogue corroborate the production, presenter, orchestra and seven episodes; preserve the reviewed broadcast title and 1996 year."
     },
     {
       "key": "television:richardiithehollowcrown:2013",

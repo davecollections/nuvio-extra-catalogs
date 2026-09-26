@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "awardBodyId": "academy-awards",
+  "posterOverrides": {
+    "tt0239528": "https://image.tmdb.org/t/p/w500/p5jeuIT52AUYQ541z5kqkJgSCn8.jpg"
+  },
+  "knownUnavailablePosters": [
+    "tt0058410",
+    "tt0062184",
+    "tt0069020",
+    "tt0340071"
+  ]
+}

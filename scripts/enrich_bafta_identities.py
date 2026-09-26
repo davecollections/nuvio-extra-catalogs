@@ -341,7 +341,10 @@ def apply_overrides(identity_map: dict) -> tuple[int, int]:
                     or existing.get("imdbId") == override["imdbId"]
                 )
             ):
-                resolution = existing
+                resolution = dict(existing)
+                for field in ("title", "releaseYear"):
+                    if field in override:
+                        resolution[field] = override[field]
                 entry["resolution"] = resolution
                 entry["reviewNote"] = override["reviewNote"]
                 entry.pop("candidates", None)
@@ -387,6 +390,10 @@ def apply_overrides(identity_map: dict) -> tuple[int, int]:
                 "imdbId": imdb_id,
                 "method": "reviewed-manual-override",
             }
+            # A reviewed broadcast date can precede TMDB's DVD/reissue date.
+            for field in ("title", "releaseYear"):
+                if field in override:
+                    resolution[field] = override[field]
         else:
             resolution = {
                 "mediaType": media_type,
@@ -454,6 +461,14 @@ def validate_overrides(identity_map: dict) -> None:
             raise IdentityError(f"{OVERRIDES_PATH}: invalid IMDb ID for {key}")
         if not isinstance(override.get("reviewNote"), str) or not override["reviewNote"].strip():
             raise IdentityError(f"{OVERRIDES_PATH}: review note required for {key}")
+        if "title" in override and (not isinstance(override["title"], str) or not override["title"].strip()):
+            raise IdentityError(f"{OVERRIDES_PATH}: invalid reviewed title for {key}")
+        if "releaseYear" in override and (type(override["releaseYear"]) is not int or not 1800 <= override["releaseYear"] <= 2100):
+            raise IdentityError(f"{OVERRIDES_PATH}: invalid reviewed release year for {key}")
+        if tmdb_id is not None and {"title", "releaseYear"} & set(override):
+            urls = override.get("evidenceUrls")
+            if not isinstance(urls, list) or not urls or not all(isinstance(u, str) and u.startswith("https://") for u in urls):
+                raise IdentityError(f"{OVERRIDES_PATH}: title/year override requires evidence URLs for {key}")
         if tmdb_id is None:
             if "imdbId" not in override:
                 raise IdentityError(f"{OVERRIDES_PATH}: IMDb-only override requires IMDb ID for {key}")
@@ -475,6 +490,9 @@ def validate_overrides(identity_map: dict) -> None:
             raise IdentityError(f"{OVERRIDES_PATH}: wrong resolution method for {key}")
         if tmdb_id is not None and resolution.get("tmdbId") != tmdb_id:
             raise IdentityError(f"{OVERRIDES_PATH}: stale TMDB resolution for {key}")
+        for field in ("imdbId", "title", "releaseYear"):
+            if field in override and resolution.get(field) != override[field]:
+                raise IdentityError(f"{OVERRIDES_PATH}: stale reviewed {field} for {key}")
         if tmdb_id is None and (
             "tmdbId" in resolution
             or resolution.get("imdbId") != override["imdbId"]

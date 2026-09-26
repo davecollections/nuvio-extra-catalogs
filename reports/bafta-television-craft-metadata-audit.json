@@ -345,7 +345,12 @@
         "reason": "missing-meta-object",
         "url": "https://v3-cinemeta.strem.io/meta/series/tt10069230.json"
       },
-      "releaseYear": 1950
+      "releaseYear": 1950,
+      "workKeys": [
+        "television:royalbritishlegionfestivalofremembrance2016:2017",
+        "television:theroyalbritishlegionfestivalofremembrance:2019",
+        "television:theroyalbritishlegionfestivalofremembrance:2022"
+      ]
     },
     {
       "imdbId": "tt1015629",
