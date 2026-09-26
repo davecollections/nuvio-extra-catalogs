@@ -329,11 +329,12 @@ def main() -> None:
         "workOmissions must be sorted by programme and nominationId",
     )
     omission_keys: set[tuple[str, str]] = set()
+    reviewed_non_work_values: dict[tuple[str, str], str] = {}
     for entry in omissions:
         exact_keys(
             entry,
             {"programme", "nominationId", "reason"},
-            {"programme", "nominationId", "reason"},
+            {"programme", "nominationId", "reason", "sourceValue", "evidenceUrls"},
             "work omission",
         )
         programme_id = entry["programme"]
@@ -343,6 +344,18 @@ def main() -> None:
         require(isinstance(entry["reason"], str) and entry["reason"].strip() == entry["reason"], "work omission requires a reason")
         key = (programme_id, nomination_id)
         require(key not in omission_keys, f"duplicate work omission: {key}")
+        if "sourceValue" in entry or "evidenceUrls" in entry:
+            require(
+                isinstance(entry.get("sourceValue"), str) and bool(entry["sourceValue"].strip()),
+                f"{key}: reviewed non-work omission requires an exact sourceValue",
+            )
+            urls = entry.get("evidenceUrls")
+            require(
+                isinstance(urls, list) and bool(urls)
+                and all(isinstance(url, str) and url.startswith("https://") for url in urls),
+                f"{key}: reviewed non-work omission requires evidenceUrls",
+            )
+            reviewed_non_work_values[key] = entry["sourceValue"]
         omission_keys.add(key)
 
     selected_results = 0
@@ -380,7 +393,9 @@ def main() -> None:
             omission_key = (programme_id, winner["nominationId"])
             if omission_key in omission_keys:
                 require(
-                    source_has_no_associated_work,
+                    values == [reviewed_non_work_values[omission_key]]
+                    if omission_key in reviewed_non_work_values
+                    else source_has_no_associated_work,
                     f"{programme_id}/{winner['nominationId']}: work omission is no longer justified",
                 )
                 seen_omissions.add(omission_key)

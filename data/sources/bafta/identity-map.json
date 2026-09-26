@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "sourceCheckedAt": "2026-08-22",
-  "inputSha256": "97479eb2b5f8616a3bc5e9f032ba4a50e0a6ba599cea48704307a3c6ea81ff87",
-  "selectedWinnerRecords": 2830,
+  "inputSha256": "f64d39dd0a05af66dadbd85d82b6498644b56decf78504f817316ef5271541f9",
+  "selectedWinnerRecords": 2829,
   "selectedWorkLinks": 2917,
   "works": [
     {
@@ -23337,7 +23337,14 @@
         "352674"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "FA Cup Final 2014: Hull City FC vs. Arsenal FC",
+        "releaseYear": 2014,
+        "imdbId": "tt10449278",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The exact 2014 final is recorded by IMDb as a standalone TV special. The RTS archive corroborates Paul McNamara's work on this final; no TMDB external-ID relationship was found."
     },
     {
       "key": "television:2018worldcupquarterfinalenglandvsweden:2019",
@@ -24601,7 +24608,15 @@
         "350124"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "An Audience with Take That",
+        "releaseYear": 2006,
+        "tmdbId": 314227,
+        "imdbId": "tt0914794",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The exact 2006 live special has its own IMDb television-special identity tt0914794 and a matching TMDB movie. Use the standalone performance rather than the anthology parent."
     },
     {
       "key": "television:anaudiencewithvictoriawood:1989",
@@ -25305,7 +25320,15 @@
         "349896"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Arena",
+        "releaseYear": 1975,
+        "tmdbId": 2050,
+        "imdbId": "tt0199184",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official award title identifies The Many Lives of Richard Attenborough as an edition of the BBC arts documentary strand Arena. Use the compatible parent-series IMDb identity, verified through live TMDB external IDs, while retaining the exact episode wording in the award evidence."
     },
     {
       "key": "television:arenatheprivatedirkbogarde:2002",
@@ -25410,7 +25433,15 @@
         "349359"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Symphony for the Spire",
+        "releaseYear": 1992,
+        "tmdbId": 276553,
+        "imdbId": "tt0250766",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The long BAFTA display title identifies the concert film Symphony for the Spire, presented by the Prince of Wales for the Salisbury Cathedral appeal. IMDb tt0250766 and the live TMDB external ID agree."
     },
     {
       "key": "television:artattack:1993",
@@ -25908,7 +25939,15 @@
         "349330"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Children of Chernobyl",
+        "releaseYear": 1991,
+        "tmdbId": 614541,
+        "imdbId": "tt0384881",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA source includes its Banned strand prefix. Live TMDB credits identify Barry Spink as editor of Clive Gordon's 1991 Children of Chernobyl, matching the award recipient."
     },
     {
       "key": "television:banzai:2002",
@@ -25955,7 +25994,15 @@
         "348898"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Barchester Chronicles",
+        "releaseYear": 1982,
+        "tmdbId": 13828,
+        "imdbId": "tt0086667",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The source omits the opening article. The title, 1982 BBC serial context and award year identify The Barchester Chronicles (IMDb tt0086667)."
     },
     {
       "key": "television:barmitzvahboy:1977",
@@ -26067,7 +26114,12 @@
           "awardWindowPlausible": true,
           "popularity": 0.4671
         }
-      ]
+      ],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "The reviewed 2019 Sky Arts documentary series is present as TMDB 213843 but has no IMDb external ID; exact-title IMDb and TMDB searches did not establish a compatible identity. Preserve this winner without a catalogue item.",
+        "mediaType": "series"
+      }
     },
     {
       "key": "television:bbcbreakfastpostofficespecial:2025",
@@ -26199,7 +26251,14 @@
         "350360"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "BBC Sport: Winter Olympics",
+        "releaseYear": 2010,
+        "imdbId": "tt8023892",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Use IMDb's verified BBC coverage series, beginning in 2010, for its awarded Winter Olympics titles. Reject generic event records tied to other broadcasters. TMDB external-ID lookup returns no compatible series."
     },
     {
       "key": "television:bedlam:2014",
@@ -27112,7 +27171,14 @@
         "349579"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Blues and Twos",
+        "releaseYear": 1993,
+        "imdbId": "tt5643468",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The 1993-1998 British emergency-services documentary series has a compatible IMDb identity, but no matching TMDB title was found in the live title search."
     },
     {
       "key": "television:bodyguard:2019",
@@ -29086,40 +29152,15 @@
         "350065"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 21009,
-          "title": "Colditz",
-          "originalTitle": "Colditz",
-          "releaseYear": 2005,
-          "lastAirYear": 2005,
-          "imdbId": "tt0415407",
-          "awardWindowPlausible": true,
-          "popularity": 3.655
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 796912,
-          "title": "Colditz",
-          "originalTitle": "Colditz",
-          "releaseYear": 2005,
-          "imdbId": "tt0415407",
-          "awardWindowPlausible": true,
-          "popularity": 1.8312
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 546,
-          "title": "Colditz",
-          "originalTitle": "Colditz",
-          "releaseYear": 1972,
-          "lastAirYear": 1974,
-          "imdbId": "tt0068059",
-          "awardWindowPlausible": false,
-          "popularity": 4.842
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Colditz",
+        "releaseYear": 2005,
+        "tmdbId": 21009,
+        "imdbId": "tt0415407",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The 2005 two-part British television production is a miniseries (IMDb tt0415407). TMDB duplicates that same IMDb relationship as a movie; route the award to the series, not both."
     },
     {
       "key": "television:comedyplayhousesamthesamaritan:1965",
@@ -29832,7 +29873,15 @@
         "349337"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Cutting Edge",
+        "releaseYear": 1990,
+        "tmdbId": 13550,
+        "imdbId": "tt0264972",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official award title identifies Casualties as an edition of the Channel 4 documentary strand Cutting Edge. Use the compatible parent-series IMDb identity, verified through live TMDB external IDs, while retaining the exact episode wording in the award evidence."
     },
     {
       "key": "television:cuttingedgetheclub:1995",
@@ -29852,7 +29901,15 @@
         "349463"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Cutting Edge",
+        "releaseYear": 1990,
+        "tmdbId": 13550,
+        "imdbId": "tt0264972",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official award title identifies The Club as an edition of the Channel 4 documentary strand Cutting Edge. Use the compatible parent-series IMDb identity, verified through live TMDB external IDs, while retaining the exact episode wording in the award evidence."
     },
     {
       "key": "television:daaligshow:2001",
@@ -30148,7 +30205,14 @@
         "349853"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Death",
+        "releaseYear": 2002,
+        "imdbId": "tt1015629",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "IMDb credits Alice Yglesias as a director of this 2002 documentary series, corroborating the exact BAFTA recipient and year; no TMDB external-ID match was found."
     },
     {
       "key": "television:deathingaza:2005",
@@ -30557,7 +30621,15 @@
         "350157"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Dispatches",
+        "releaseYear": 1987,
+        "tmdbId": 6507,
+        "imdbId": "tt1043090",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official award title identifies China's Stolen Children as an edition of the Channel 4 strand Dispatches. Use the compatible parent-series IMDb identity, verified through live TMDB external IDs, while retaining the exact episode wording in the award evidence."
     },
     {
       "key": "television:dispatchessavingafricaswitchchildren:2009",
@@ -30633,7 +30705,15 @@
         "350387"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Dispatches",
+        "releaseYear": 1987,
+        "tmdbId": 6507,
+        "imdbId": "tt1043090",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official award title identifies The Battle for Haiti as an edition of the Channel 4 strand Dispatches. Use the compatible parent-series IMDb identity, verified through live TMDB external IDs, while retaining the exact episode wording in the award evidence."
     },
     {
       "key": "television:doctorfoster:2016",
@@ -32280,36 +32360,15 @@
         "349859"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 813717,
-          "title": "Falling Apart",
-          "originalTitle": "Falling Apart",
-          "releaseYear": 2013,
-          "awardWindowPlausible": false,
-          "popularity": 1.1272
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 332332,
-          "title": "Falling Apart",
-          "originalTitle": "Falling Apart",
-          "releaseYear": 2006,
-          "imdbId": "tt0340105",
-          "awardWindowPlausible": false,
-          "popularity": 0.7891
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 750424,
-          "title": "Falling Apart",
-          "originalTitle": "Falling Apart",
-          "releaseYear": 2020,
-          "awardWindowPlausible": false,
-          "popularity": 0.3623
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Falling Apart",
+        "releaseYear": 2006,
+        "tmdbId": 332332,
+        "imdbId": "tt0340105",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Live TMDB credits identify Brian Hill as director of this domestic-abuse drama, matching the BAFTA source alongside writer Anna Maloney. TMDB's 2006 release date is later than its original 2002 broadcast; the title and awarded director distinguish the work from unrelated films."
     },
     {
       "key": "television:family:1995",
@@ -32331,19 +32390,15 @@
         "349496"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 10738,
-          "title": "Family",
-          "originalTitle": "Family",
-          "releaseYear": 1976,
-          "lastAirYear": 1980,
-          "imdbId": "tt0073992",
-          "awardWindowPlausible": false,
-          "popularity": 11.4032
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Family",
+        "releaseYear": 1994,
+        "tmdbId": 32398,
+        "imdbId": "tt0109769",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The awarded cinematographer Daf Hobson is credited by IMDb on Michael Winterbottom's 1994 Dublin-set miniseries Family. This identifies the TMDB series and excludes the unrelated 1976 American series."
     },
     {
       "key": "television:famousgossips:1965",
@@ -32638,7 +32693,15 @@
         "349577"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Final Passage",
+        "releaseYear": 1996,
+        "tmdbId": 582012,
+        "imdbId": "tt0273609",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The source omits the opening article. The reviewed 1996 television film The Final Passage (IMDb tt0273609) matches cinematographer Nic Knowland, corroborated in the Royal Television Society craft archive."
     },
     {
       "key": "television:firstdates:2016",
@@ -33578,7 +33641,14 @@
         "359025"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Glastonbury 2019",
+        "releaseYear": 2019,
+        "imdbId": "tt10533670",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "IMDb identifies the BBC's live coverage as the 2019 event miniseries. A search for the festival title and TMDB external-ID lookup found no compatible TMDB series."
     },
     {
       "key": "television:glastonbury2024:2025",
@@ -33628,7 +33698,15 @@
         "360428"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Glastonbury Festival Presents Live at Worthy Farm",
+        "releaseYear": 2021,
+        "tmdbId": 832300,
+        "imdbId": "tt14697242",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Paul Dugdale's 2021 film is verified by the exact event title, date, credited director and performers on IMDb and TMDB. Supply the IMDb relationship absent from TMDB."
     },
     {
       "key": "television:gobacktowhereyoucamefrom:2026",
@@ -33816,65 +33894,15 @@
         "350350"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 58524,
-          "title": "Gracie!",
-          "originalTitle": "Gracie!",
-          "releaseYear": 2009,
-          "imdbId": "tt1499786",
-          "awardWindowPlausible": true,
-          "popularity": 0.8108
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 15568,
-          "title": "Gracie",
-          "originalTitle": "Gracie",
-          "releaseYear": 2007,
-          "imdbId": "tt0441007",
-          "awardWindowPlausible": true,
-          "popularity": 1.6026
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1629046,
-          "title": "Gracie",
-          "originalTitle": "Gracie",
-          "imdbId": "tt28833965",
-          "awardWindowPlausible": false,
-          "popularity": 1.5839
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1248188,
-          "title": "Gracie",
-          "originalTitle": "Gracie",
-          "imdbId": "tt7182446",
-          "awardWindowPlausible": false,
-          "popularity": 1.4779
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 625044,
-          "title": "Gracie",
-          "originalTitle": "Gracie",
-          "releaseYear": 2015,
-          "imdbId": "tt1196939",
-          "awardWindowPlausible": false,
-          "popularity": 0.5016
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 47564,
-          "title": "Gracie!",
-          "originalTitle": "Gracie!",
-          "imdbId": "tt1499786",
-          "awardWindowPlausible": false,
-          "popularity": 0.4935
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Gracie!",
+        "releaseYear": 2009,
+        "tmdbId": 58524,
+        "imdbId": "tt1499786",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "BAFTA identifies Claire Kenny's winning production as the 2009 BBC Four Gracie Fields drama Gracie!, distinguishing it from the unrelated 2007 film Gracie."
     },
     {
       "key": "television:granadareportsmorecambebay:2007",
@@ -34555,50 +34583,15 @@
         "349820"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 233986,
-          "title": "Hell in the Pacific",
-          "originalTitle": "Hell in the Pacific",
-          "releaseYear": 2001,
-          "lastAirYear": 2001,
-          "imdbId": "tt1509650",
-          "awardWindowPlausible": true,
-          "popularity": 0.461
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1125023,
-          "title": "Hell in the Pacific",
-          "originalTitle": "Hell in the Pacific",
-          "releaseYear": 2001,
-          "imdbId": "tt1509650",
-          "awardWindowPlausible": true,
-          "popularity": 0.3023
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 31681,
-          "title": "Hell in the Pacific",
-          "originalTitle": "Hell in the Pacific",
-          "releaseYear": 1968,
-          "imdbId": "tt0063056",
-          "awardWindowPlausible": false,
-          "popularity": 3.7987
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 21356,
-          "title": "Hell in the Pacific",
-          "originalTitle": "Hell in the Pacific",
-          "releaseYear": 2010,
-          "lastAirYear": 2010,
-          "imdbId": "tt30036896",
-          "awardWindowPlausible": false,
-          "popularity": 1.1363
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Hell in the Pacific",
+        "releaseYear": 2001,
+        "tmdbId": 233986,
+        "imdbId": "tt1509650",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The reviewed work is the 2001 four-part documentary series, whose IMDb credits include BAFTA recipients Peter Eason and Cliff Jones. The same IMDb ID also appears on a duplicate TMDB movie; preserve series classification."
     },
     {
       "key": "television:help:2006",
@@ -35352,7 +35345,15 @@
         "348974"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Hot Shoe Show",
+        "releaseYear": 1983,
+        "tmdbId": 47777,
+        "imdbId": "tt0404618",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The source omits the opening article. The 1983 BBC dance series The Hot Shoe Show is the reviewed identity for Bill Millar's lighting award."
     },
     {
       "key": "television:houseofcards:1991",
@@ -35879,52 +35880,15 @@
         "359913"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 61913,
-          "title": "I'm a Celebrity: Get Me Out of Here!",
-          "originalTitle": "I'm a Celebrity: Get Me Out of Here!",
-          "releaseYear": 2015,
-          "lastAirYear": 2026,
-          "imdbId": "tt4422950",
-          "awardWindowPlausible": true,
-          "popularity": 29.8478
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 62775,
-          "title": "I'm a Celebrity: Get Me Out of Here!",
-          "originalTitle": "Sunt celebru, scoate-mă de aici!",
-          "releaseYear": 2015,
-          "lastAirYear": 2022,
-          "imdbId": "tt6623974",
-          "awardWindowPlausible": true,
-          "popularity": 2.9031
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 18650,
-          "title": "I'm a Celebrity...Get Me Out of Here!",
-          "originalTitle": "I'm a Celebrity...Get Me Out of Here!",
-          "releaseYear": 2003,
-          "lastAirYear": 2009,
-          "imdbId": "tt0355096",
-          "awardWindowPlausible": false,
-          "popularity": 8.4662
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 30901,
-          "title": "I'm a Celebrity...Get Me Out of Here!",
-          "originalTitle": "I'm a Celebrity...Get Me Out of Here!",
-          "releaseYear": 2002,
-          "lastAirYear": 2025,
-          "imdbId": "tt0338616",
-          "awardWindowPlausible": true,
-          "popularity": 18.224
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "I'm a Celebrity...Get Me Out of Here!",
+        "releaseYear": 2002,
+        "tmdbId": 30901,
+        "imdbId": "tt0338616",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The British ITV entertainment-craft winner is the UK series first broadcast in 2002 (IMDb tt0338616), not the Australian or other international versions returned by exact-title search."
     },
     {
       "key": "television:imalanpartridge:1998",
@@ -36257,7 +36221,15 @@
         "349682"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Inside Story",
+        "releaseYear": 1974,
+        "tmdbId": 18977,
+        "imdbId": "tt1126207",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official award title identifies Child of the Death Camps as an edition of the BBC documentary strand Inside Story. Use the compatible parent-series IMDb identity, verified through live TMDB external IDs, while retaining the exact episode wording in the award evidence."
     },
     {
       "key": "television:insidestorysilenttwinwithoutmyshadow:1995",
@@ -36305,7 +36277,15 @@
         "349443"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Inside Story",
+        "releaseYear": 1974,
+        "tmdbId": 18977,
+        "imdbId": "tt1126207",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official award title identifies Traffic Jam as an edition of the BBC documentary strand Inside Story. Use the compatible parent-series IMDb identity, verified through live TMDB external IDs, while retaining the exact episode wording in the award evidence."
     },
     {
       "key": "television:inspectormorse:1990",
@@ -36442,7 +36422,15 @@
         "360441"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Into the Storm",
+        "releaseYear": 2020,
+        "tmdbId": 742227,
+        "imdbId": "tt12363760",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Storyville broadcast title identifies Adam Brown's 2020 Peruvian surfing documentary Into the Storm. Live TMDB credits confirm Brown as director and IMDb tt12363760."
     },
     {
       "key": "television:ipsofacto:1991",
@@ -36957,7 +36945,14 @@
         "361021"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "John & Joe Bishop: Life After Deaf",
+        "releaseYear": 2022,
+        "imdbId": "tt22746690",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "IMDb identifies the 2022 documentary and credits BAFTA recipient Charlie Melville. Reject TMDB movie 1179410 despite its external ID: its title and synopsis describe the distinct companion stand-up programme, so that conflicting pair is not retained."
     },
     {
       "key": "television:jonathancreek:1998",
@@ -37087,18 +37082,15 @@
         "361045"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 390062,
-          "title": "Jungle",
-          "originalTitle": "Jungle",
-          "releaseYear": 2017,
-          "imdbId": "tt3758172",
-          "awardWindowPlausible": false,
-          "popularity": 39.9166
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Jungle",
+        "releaseYear": 2022,
+        "tmdbId": 208120,
+        "imdbId": "tt13009160",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The credited Chas Appeti identifies the 2022 British rap drama Jungle; live TMDB credits corroborate Appeti on this production, distinguishing it from the 2017 adventure film."
     },
     {
       "key": "television:justactnormal:2026",
@@ -37429,66 +37421,14 @@
         "348932"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 63876,
-          "title": "Circle of Love",
-          "originalTitle": "La Ronde",
-          "releaseYear": 1964,
-          "imdbId": "tt0058533",
-          "awardWindowPlausible": false,
-          "popularity": 1.5292
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 50030,
-          "title": "La Ronde",
-          "originalTitle": "La Ronde",
-          "releaseYear": 1950,
-          "imdbId": "tt0042906",
-          "awardWindowPlausible": false,
-          "popularity": 1.4456
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1201637,
-          "title": "la ronde",
-          "originalTitle": "la ronde",
-          "awardWindowPlausible": false,
-          "popularity": 1.9038
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 331990,
-          "title": "La Ronde",
-          "originalTitle": "La Ronde",
-          "releaseYear": 2011,
-          "imdbId": "tt1949564",
-          "awardWindowPlausible": false,
-          "popularity": 0.7976
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1191029,
-          "title": "La ronde",
-          "originalTitle": "La ronde",
-          "releaseYear": 2014,
-          "imdbId": "tt4316330",
-          "awardWindowPlausible": false,
-          "popularity": 0.542
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 630078,
-          "title": "La Ronde",
-          "originalTitle": "La Ronde",
-          "releaseYear": 2018,
-          "imdbId": "tt4676748",
-          "awardWindowPlausible": false,
-          "popularity": 0.4059
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "La ronde",
+        "releaseYear": 1982,
+        "imdbId": "tt1059223",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Clive Thomas's awarded portfolio identifies the 1982 British television adaptation directed by Kenneth Ives. IMDb provides the standalone television-movie identity; the 1950 and 1964 cinema adaptations are different works."
     },
     {
       "key": "television:lastoftheblondebombshells:2001",
@@ -37677,18 +37617,15 @@
         "357548"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 35132,
-          "title": "Later Live… with Jools Holland",
-          "originalTitle": "Later Live… with Jools Holland",
-          "releaseYear": 2008,
-          "lastAirYear": 2017,
-          "awardWindowPlausible": true,
-          "popularity": 3.5751
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Later Live… with Jools Holland",
+        "releaseYear": 2008,
+        "tmdbId": 35132,
+        "imdbId": "tt7479280",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "IMDb records Later Live... with Jools Holland as its own series beginning in 2008 (tt7479280). Supply that compatible series relationship, which is absent from TMDB, instead of merging it into the separate Later... parent record."
     },
     {
       "key": "television:laurenceolivieralife:1983",
@@ -38076,26 +38013,6 @@
       "reviewNote": "The Limited Drama winner is Mick Jackson's 1987 BBC television film Life Story, IMDb tt0093815, presented by BAFTA as Lifestory."
     },
     {
-      "key": "television:lightweightcamerawork:1980",
-      "titles": [
-        "Light Weight Camerawork"
-      ],
-      "programmes": [
-        "television-craft"
-      ],
-      "years": [
-        1980
-      ],
-      "categoryIds": [
-        "television-craft-photography-lighting-fiction"
-      ],
-      "nominationIds": [
-        "348800"
-      ],
-      "mediaScope": "mixed",
-      "candidates": []
-    },
-    {
       "key": "television:lillie:1979",
       "titles": [
         "Lillie"
@@ -38344,7 +38261,14 @@
         "349641"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Lockerbie: A Night Remembered",
+        "releaseYear": 1998,
+        "imdbId": "tt0217625",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The exact-title 1998 British television documentary directed by Michael Grigsby has the compatible IMDb identity; live TMDB external-ID lookup found no relationship."
     },
     {
       "key": "television:londonbridgefacingterror:2024",
@@ -38813,7 +38737,12 @@
           "awardWindowPlausible": false,
           "popularity": 3.3494
         }
-      ]
+      ],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "The official record credits John Treays for a BBC Macbeth production. Review did not establish a compatible IMDb identity for that specific production; the 1971 feature, 1979 Trevor Nunn film and 1983 BBC Shakespeare film are not interchangeable. Preserve the award without guessing an adaptation.",
+        "mediaType": "movie"
+      }
     },
     {
       "key": "television:madam:1965",
@@ -39136,7 +39065,15 @@
         "350137"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Match of the Day",
+        "releaseYear": 1964,
+        "tmdbId": 224,
+        "imdbId": "tt0135733",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official award title identifies FIFA World Cup 2006 as an edition of the BBC football series Match of the Day. Use the compatible parent-series IMDb identity, verified through live TMDB external IDs, while retaining the exact episode wording in the award evidence."
     },
     {
       "key": "television:matildasengland:1980",
@@ -39264,7 +39201,14 @@
         "352712"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Messiah at the Foundling Hospital",
+        "releaseYear": 2014,
+        "imdbId": "tt3704078",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "IMDb identifies Rob Coldstream's 2014 television documentary and corroborates BAFTA recipient Matt Skilton in its sound department. No TMDB external-ID match was found."
     },
     {
       "key": "television:metalheadblackmirror:2018",
@@ -40643,7 +40587,15 @@
         "349736"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Newsnight",
+        "releaseYear": 1980,
+        "tmdbId": 841,
+        "imdbId": "tt0163471",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official title identifies Sarah MacDonald's special as a Newsnight production. Reuse the reviewed BBC Newsnight parent identity."
     },
     {
       "key": "television:nicegirl:2001",
@@ -41186,7 +41138,14 @@
         "350281"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "BBC Beijing Olympics: Monkey, Journey to the West",
+        "releaseYear": 2008,
+        "imdbId": "tt26660803",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "IMDb records the BBC title film under its Monkey title, with the exact alias BBC Sport - Olympics 2008 and BBC Sport, Passion Pictures and Red Bee production credits. Route this standalone animated music/title film as a movie; do not substitute another broadcaster's Games coverage."
     },
     {
       "key": "television:omagh:2005",
@@ -41401,7 +41360,15 @@
         "349722"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Omnibus",
+        "releaseYear": 1967,
+        "tmdbId": 5674,
+        "imdbId": "tt0200358",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official award title identifies Dudley Moore - After the Laughter as an edition of the BBC arts documentary strand Omnibus. Use the compatible parent-series IMDb identity, verified through live TMDB external IDs, while retaining the exact episode wording in the award evidence."
     },
     {
       "key": "television:omnibusleonardbersteinswestsidestory:1986",
@@ -41450,7 +41417,15 @@
         "349300"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Omnibus",
+        "releaseYear": 1967,
+        "tmdbId": 5674,
+        "imdbId": "tt0200358",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official award title identifies Van Gogh as an edition of the BBC arts documentary strand Omnibus. Use the compatible parent-series IMDb identity, verified through live TMDB external IDs, while retaining the exact episode wording in the award evidence."
     },
     {
       "key": "television:omnibusvincentthedutchmanvangogh:1973",
@@ -41830,7 +41805,14 @@
         "349941"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Operatunity",
+        "releaseYear": 2003,
+        "imdbId": "tt9020296",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The 2003 Channel 4 opera competition is identified by IMDb as a four-episode series. The Australian Operatunity Oz search result is a different production."
     },
     {
       "key": "television:opiumthewarlords:1979",
@@ -42007,88 +41989,15 @@
         "348880"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 119928,
-          "title": "Othello",
-          "originalTitle": "Othello",
-          "releaseYear": 1981,
-          "imdbId": "tt0082861",
-          "awardWindowPlausible": true,
-          "popularity": 1.7161
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 233756,
-          "title": "Othello",
-          "originalTitle": "Othello",
-          "releaseYear": 1981,
-          "imdbId": "tt0082862",
-          "awardWindowPlausible": true,
-          "popularity": 1.2835
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 44006,
-          "title": "Othello",
-          "originalTitle": "Othello",
-          "releaseYear": 1965,
-          "imdbId": "tt0059555",
-          "awardWindowPlausible": false,
-          "popularity": 1.4039
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 46708,
-          "title": "Othello",
-          "originalTitle": "Отелло",
-          "releaseYear": 1955,
-          "imdbId": "tt0048455",
-          "awardWindowPlausible": false,
-          "popularity": 1.1069
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 47697,
-          "title": "Othello",
-          "originalTitle": "Othello",
-          "releaseYear": 1951,
-          "imdbId": "tt0045251",
-          "awardWindowPlausible": false,
-          "popularity": 2.1563
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 85124,
-          "title": "Othello",
-          "originalTitle": "Othello",
-          "releaseYear": 1922,
-          "imdbId": "tt0013469",
-          "awardWindowPlausible": false,
-          "popularity": 1.5626
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 228901,
-          "title": "Othello",
-          "originalTitle": "Otello",
-          "releaseYear": 1909,
-          "imdbId": "tt0000998",
-          "awardWindowPlausible": false,
-          "popularity": 1.1526
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1595531,
-          "title": "Othello",
-          "originalTitle": "Othello",
-          "releaseYear": 2026,
-          "imdbId": "tt39092602",
-          "awardWindowPlausible": false,
-          "popularity": 2.7314
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Othello",
+        "releaseYear": 1981,
+        "tmdbId": 119928,
+        "imdbId": "tt0082861",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Jim Atkinson's BBC Shakespeare portfolio identifies Jonathan Miller's British 1981 Othello (IMDb tt0082861), not the unrelated American film with the same title and year. The BBC production's published credits name Atkinson as senior cameraman."
     },
     {
       "key": "television:othello:2002",
@@ -42507,7 +42416,12 @@
         "356113"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "candidates": [],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "The award credits the Channel 4 title/graphics team Richard Norley, Lee Jacobs and Callum O'Reilly. Review did not verify a compatible IMDb parent for that coverage; generic event, opening/closing ceremony and NBC records are not substituted.",
+        "mediaType": "series"
+      }
     },
     {
       "key": "television:paris1900:1965",
@@ -43955,90 +43869,15 @@
         "374653"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1557886,
-          "title": "Kyojo Reunion",
-          "originalTitle": "教場 Reunion",
-          "releaseYear": 2026,
-          "awardWindowPlausible": true,
-          "popularity": 2.5233
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 125553,
-          "title": "Reunion",
-          "originalTitle": "لم الشمل",
-          "releaseYear": 2025,
-          "lastAirYear": 2025,
-          "imdbId": "tt35869283",
-          "awardWindowPlausible": true,
-          "popularity": 5.812
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 254628,
-          "title": "Reunion",
-          "originalTitle": "Reunion",
-          "releaseYear": 2025,
-          "lastAirYear": 2025,
-          "imdbId": "tt29768339",
-          "awardWindowPlausible": true,
-          "popularity": 3.501
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1365168,
-          "title": "Reunion",
-          "originalTitle": "Reunion",
-          "releaseYear": 2025,
-          "imdbId": "tt32195841",
-          "awardWindowPlausible": true,
-          "popularity": 1.7681
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 869597,
-          "title": "Reunion",
-          "originalTitle": "Reunion",
-          "releaseYear": 2024,
-          "imdbId": "tt15338966",
-          "awardWindowPlausible": true,
-          "popularity": 3.2784
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 243907,
-          "title": "Reunion",
-          "originalTitle": "遺体 明日への十日間",
-          "releaseYear": 2013,
-          "imdbId": "tt2323810",
-          "awardWindowPlausible": false,
-          "popularity": 1.42
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 250394,
-          "title": "Reunion",
-          "originalTitle": "Reunion",
-          "releaseYear": 2009,
-          "imdbId": "tt1193630",
-          "awardWindowPlausible": false,
-          "popularity": 1.6745
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 2366,
-          "title": "Reunion",
-          "originalTitle": "Reunion",
-          "releaseYear": 2005,
-          "lastAirYear": 2005,
-          "imdbId": "tt0460672",
-          "awardWindowPlausible": false,
-          "popularity": 3.3009
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Reunion",
+        "releaseYear": 2025,
+        "tmdbId": 254628,
+        "imdbId": "tt29768339",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Nathan Toth and Julie Harkin's credited work is the 2025 BBC British Sign Language thriller Reunion (IMDb tt29768339), not the Iraqi series or unrelated film of the same title."
     },
     {
       "key": "television:rev:2011",
@@ -44416,7 +44255,14 @@
         "348714"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Rock Follies of '77",
+        "releaseYear": 1977,
+        "imdbId": "tt0075570",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Both BAFTA display spellings identify the 1977 follow-up series. IMDb gives it a separate identity from 1976 Rock Follies; TMDB combines both under the earlier series, so preserve the specific IMDb-only sequel identity."
     },
     {
       "key": "television:rockfolliesof77:1978",
@@ -44436,7 +44282,14 @@
         "348715"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Rock Follies of '77",
+        "releaseYear": 1977,
+        "imdbId": "tt0075570",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Both BAFTA display spellings identify the 1977 follow-up series. IMDb gives it a separate identity from 1976 Rock Follies; TMDB combines both under the earlier series, so preserve the specific IMDb-only sequel identity."
     },
     {
       "key": "television:roomatthetop:2013",
@@ -44645,7 +44498,14 @@
         "356072"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Royal British Legion Festival of Remembrance",
+        "releaseYear": 1950,
+        "imdbId": "tt10069230",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "IMDb's live lookup supplies the annual BBC series parent. Reject TMDB series 214354: its external ID tt14540164 belongs to the separate 2020 television movie, not the series or 2016 edition."
     },
     {
       "key": "television:rugbyworldcupfinal:2004",
@@ -44854,7 +44714,14 @@
         "349837"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "SAS: Iranian Embassy Siege",
+        "releaseYear": 2002,
+        "imdbId": "tt0490208",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The BAFTA source abbreviates the title and misspells Siege. IMDb verifies the 2002 documentary directed by Bruce Goodison and its awarded editor Peter Norrey; no TMDB external-ID relationship was returned."
     },
     {
       "key": "television:savemetoo:2021",
@@ -45011,7 +44878,14 @@
         "348743"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Lively Arts",
+        "releaseYear": 1969,
+        "imdbId": "tt0179586",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The BBC annual report identifies John Murphy's credited work as The Lively Arts: Schubert: A Winter's Journey. IMDb confirms the episode relationship; use the compatible parent-series identity, not an unrelated Schubert film."
     },
     {
       "key": "television:screentwoskallagrigg:1995",
@@ -46106,7 +45980,15 @@
         "359887"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Small Axe",
+        "releaseYear": 2020,
+        "tmdbId": 90705,
+        "imdbId": "tt3464896",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Lovers Rock is an identified instalment of the BBC anthology Small Axe. Reuse the reviewed parent-series IMDb tt3464896; live credits corroborate Jacqueline Durran as costume designer."
     },
     {
       "key": "television:smileyspeople:1983",
@@ -46563,7 +46445,14 @@
         "348973"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Stan's Last Game",
+        "releaseYear": 1983,
+        "imdbId": "tt0086354",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "IMDb's live title lookup verifies the standalone 1983 TV movie. Its indexed cast credits corroborate Charles Lamb, Edward Phillips and Ian Ratcliffe; TMDB external-ID lookup returns no match."
     },
     {
       "key": "television:starsintheireyes:1993",
@@ -47223,7 +47112,12 @@
         "374605"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "candidates": [],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "The official winner is Laurence Cawsey's Sky Sports match coverage. TMDB Ford Super Sunday 821 has neither a release date nor an IMDb ID. IMDb suggestion tt41236384 labels the match as a 2026 feature, without enough production evidence to establish the exact awarded broadcast, so retain a reviewed gap.",
+        "mediaType": "series"
+      }
     },
     {
       "key": "television:swedenthemiracleoflife:1983",
@@ -48616,16 +48510,19 @@
         "The Cherry Orchard"
       ],
       "programmes": [
-        "television"
+        "television",
+        "television-craft"
       ],
       "years": [
         1982
       ],
       "categoryIds": [
+        "television-craft-photography-lighting-fiction",
         "television-leading-actress"
       ],
       "nominationIds": [
-        "346377"
+        "346377",
+        "348886"
       ],
       "mediaScope": "mixed",
       "resolution": {
@@ -48636,26 +48533,6 @@
         "imdbId": "tt0488991",
         "method": "tmdb-exact-title-media-and-award-window"
       }
-    },
-    {
-      "key": "television:thecherryorchardthejournalofbridgethitler:1982",
-      "titles": [
-        "The Cherry Orchard: The Journal Of Bridget Hitler"
-      ],
-      "programmes": [
-        "television-craft"
-      ],
-      "years": [
-        1982
-      ],
-      "categoryIds": [
-        "television-craft-photography-lighting-fiction"
-      ],
-      "nominationIds": [
-        "348886"
-      ],
-      "mediaScope": "mixed",
-      "candidates": []
     },
     {
       "key": "television:thechoir:2007",
@@ -48921,18 +48798,15 @@
         "361766"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 225873,
-          "title": "The Coronation of TM The King and Queen Camilla",
-          "originalTitle": "The Coronation of TM The King and Queen Camilla",
-          "releaseYear": 2023,
-          "lastAirYear": 2023,
-          "awardWindowPlausible": true,
-          "popularity": 0.6162
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Coronation of TM King Charles III and Queen Camilla",
+        "releaseYear": 2023,
+        "tmdbId": 1122056,
+        "imdbId": "tt22736788",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The live IMDb-to-TMDB lookup identifies the BBC 6 May 2023 coronation coverage, presented by Kirsty Young and Huw Edwards, as the standalone special tt22736788. Reject the separate TMDB series record without an IMDb relationship."
     },
     {
       "key": "television:thecountofmontecristo:1965",
@@ -49621,17 +49495,15 @@
         "348837"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1368635,
-          "title": "Fatal Spring",
-          "originalTitle": "Fatal Spring",
-          "releaseYear": 1980,
-          "awardWindowPlausible": true,
-          "popularity": 0.9484
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Playhouse",
+        "releaseYear": 1974,
+        "tmdbId": 30504,
+        "imdbId": "tt0762803",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Fatal Spring is Michael Darlow's 1980 BBC2 Playhouse production. Reuse the reviewed Playhouse parent, as with Gentle Folk and In Hiding, rather than emitting an episode ID."
     },
     {
       "key": "television:thefear:2013",
@@ -49707,7 +49579,14 @@
         "357556"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "BBC Winter Olympics: The Fearless Are Here",
+        "releaseYear": 2018,
+        "imdbId": "tt7909898",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The named award work has its own standalone animated-short IMDb identity. IMDb identifies the BBC campaign and Smith & Foulkes, matching the official recipients; use that specific film rather than generic Olympics coverage."
     },
     {
       "key": "television:thefirstchurchills:1970",
@@ -50535,94 +50414,15 @@
         "353338"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 68416,
-          "title": "The Hunt",
-          "originalTitle": "De Jacht",
-          "releaseYear": 2016,
-          "lastAirYear": 2016,
-          "imdbId": "tt5622836",
-          "awardWindowPlausible": true,
-          "popularity": 1.9743
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 64313,
-          "title": "The Hunt",
-          "originalTitle": "The Hunt",
-          "releaseYear": 2015,
-          "lastAirYear": 2015,
-          "imdbId": "tt5167198",
-          "awardWindowPlausible": true,
-          "popularity": 6.2306
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 60952,
-          "title": "The Hunt",
-          "originalTitle": "The Hunt",
-          "releaseYear": 2014,
-          "lastAirYear": 2014,
-          "imdbId": "tt3749330",
-          "awardWindowPlausible": true,
-          "popularity": 1.6895
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 103663,
-          "title": "The Hunt",
-          "originalTitle": "Jagten",
-          "releaseYear": 2012,
-          "imdbId": "tt2106476",
-          "awardWindowPlausible": false,
-          "popularity": 10.389
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 257992,
-          "title": "The Hunt",
-          "originalTitle": "Traqués",
-          "releaseYear": 2026,
-          "lastAirYear": 2026,
-          "imdbId": "tt33086602",
-          "awardWindowPlausible": false,
-          "popularity": 13.4824
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 514847,
-          "title": "The Hunt",
-          "originalTitle": "The Hunt",
-          "releaseYear": 2020,
-          "imdbId": "tt8244784",
-          "awardWindowPlausible": false,
-          "popularity": 12.5083
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 87919,
-          "title": "The Hunt",
-          "originalTitle": "La caza",
-          "releaseYear": 2019,
-          "lastAirYear": 2025,
-          "imdbId": "tt8787372",
-          "awardWindowPlausible": false,
-          "popularity": 8.187
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 277618,
-          "title": "The Hunt",
-          "originalTitle": "命悬一生",
-          "releaseYear": 2025,
-          "lastAirYear": 2025,
-          "imdbId": "tt31887685",
-          "awardWindowPlausible": false,
-          "popularity": 6.2099
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Hunt",
+        "releaseYear": 2015,
+        "tmdbId": 64313,
+        "imdbId": "tt5167198",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "BAFTA's 2016 winners list explicitly identifies the Silverback Films/BBC One natural-history series, first broadcast in 2015, rather than the unrelated exact-title series."
     },
     {
       "key": "television:theinsuranceman:1987",
@@ -50771,6 +50571,34 @@
         "imdbId": "tt0086739",
         "method": "tmdb-exact-title-media-and-award-window"
       }
+    },
+    {
+      "key": "television:thejournalofbridgethitler:1982",
+      "titles": [
+        "The Journal Of Bridget Hitler"
+      ],
+      "programmes": [
+        "television-craft"
+      ],
+      "years": [
+        1982
+      ],
+      "categoryIds": [
+        "television-craft-photography-lighting-fiction"
+      ],
+      "nominationIds": [
+        "348886"
+      ],
+      "mediaScope": "mixed",
+      "resolution": {
+        "mediaType": "series",
+        "title": "Playhouse",
+        "releaseYear": 1974,
+        "tmdbId": 30504,
+        "imdbId": "tt0762803",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Journal of Bridget Hitler (1981, episode IMDb tt0080967) belongs to BBC2 Playhouse. The source portfolio also credits the separate production The Cherry Orchard; preserve both relationships."
     },
     {
       "key": "television:thejurymurdertrial:2025",
@@ -51343,7 +51171,12 @@
         "351195"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "candidates": [],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "No compatible IMDb identity was verified for the awarded BBC Super Saturday coverage. The generic London 2012 Olympics and independent documentaries are not evidence for this specific broadcast; preserve the award without substituting another production.",
+        "mediaType": "series"
+      }
     },
     {
       "key": "television:thelongfirm:2005",
@@ -51976,7 +51809,15 @@
         "349061"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The Mysteries",
+        "releaseYear": 1985,
+        "tmdbId": 229486,
+        "imdbId": "tt10863404",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The Nativity is the first part of the National Theatre trilogy filmed for Channel 4 in 1985. Use The Mysteries parent-series IMDb tt10863404, verified through TMDB, for Michael Lingard's awarded work."
     },
     {
       "key": "television:thenakedchef:2001",
@@ -52175,7 +52016,14 @@
         "349911"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Nine Lives of Alice Martineau",
+        "releaseYear": 2003,
+        "imdbId": "tt0415181",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The BAFTA source adds an opening article. IMDb verifies the 2003 television documentary and credited director Oli Barry, matching the award recipient. No TMDB external-ID match was found."
     },
     {
       "key": "television:thenormanconquests:1978",
@@ -52498,16 +52346,14 @@
         "351152"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 47836,
-          "title": "The Plot to Bring Down Britain's Planes",
-          "originalTitle": "The Plot to Bring Down Britain's Planes",
-          "awardWindowPlausible": false,
-          "popularity": 0.2558
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Plot to Bring Down Britain's Planes",
+        "releaseYear": 2012,
+        "imdbId": "tt3053868",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "IMDb classifies Ben Chanan's 2012 work as a television movie and credits the awarded director. Reject TMDB's undated series record, which lacks a compatible IMDb relationship."
     },
     {
       "key": "television:thepoliticianswife:1996",
@@ -52635,7 +52481,12 @@
         "349880"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "candidates": [],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "The broad official broadcast title does not establish that this is the separate Party at the Palace concert. Searches did not verify a compatible identity for the specific winning coverage, so do not silently narrow it to one concert.",
+        "mediaType": "movie"
+      }
     },
     {
       "key": "television:theranganation:2021",
@@ -53455,7 +53306,12 @@
           "awardWindowPlausible": false,
           "popularity": 0.7688
         }
-      ]
+      ],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "The official winner credits editor Anna Ksiezopolska, but review did not corroborate that credit on a compatible IMDb production. Exact-title candidates include unrelated films and music documentaries; the uncorroborated 2002 record tt1215519 is retained as evidence, not accepted solely on its name.",
+        "mediaType": "movie"
+      }
     },
     {
       "key": "television:thesingingdetective:1987",
@@ -53842,7 +53698,15 @@
         "349765"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "The South Bank Show",
+        "releaseYear": 1978,
+        "tmdbId": 2448,
+        "imdbId": "tt0077082",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official award title identifies Simon Rattle on Judith Weir as an edition of the ITV arts series The South Bank Show. Use the compatible parent-series IMDb identity, verified through live TMDB external IDs, while retaining the exact episode wording in the award evidence."
     },
     {
       "key": "television:thesouthbankshowthepartnershipbetweenrobertboltandsirdavidlean:1991",
@@ -54231,88 +54095,14 @@
         "349552"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 165020,
-          "title": "The System",
-          "originalTitle": "The System",
-          "releaseYear": 1964,
-          "imdbId": "tt0060461",
-          "awardWindowPlausible": false,
-          "popularity": 1.1932
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 45679,
-          "title": "The System",
-          "originalTitle": "The System",
-          "releaseYear": 1953,
-          "imdbId": "tt0046389",
-          "awardWindowPlausible": false,
-          "popularity": 0.8705
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1024627,
-          "title": "The System",
-          "originalTitle": "The System",
-          "releaseYear": 2022,
-          "imdbId": "tt14037272",
-          "awardWindowPlausible": false,
-          "popularity": 3.2414
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1528843,
-          "title": "The System",
-          "originalTitle": "The System",
-          "releaseYear": 2025,
-          "imdbId": "tt37578802",
-          "awardWindowPlausible": false,
-          "popularity": 2.0148
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 542174,
-          "title": "The System",
-          "originalTitle": "The System",
-          "releaseYear": 2016,
-          "imdbId": "tt3114458",
-          "awardWindowPlausible": false,
-          "popularity": 1.6787
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 83281,
-          "title": "The System",
-          "originalTitle": "Das System - Alles verstehen heißt alles verzeihen",
-          "releaseYear": 2012,
-          "imdbId": "tt1631697",
-          "awardWindowPlausible": false,
-          "popularity": 1.1504
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 927883,
-          "title": "The System",
-          "originalTitle": "The System",
-          "releaseYear": 2021,
-          "imdbId": "tt16465708",
-          "awardWindowPlausible": false,
-          "popularity": 0.8216
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 1248191,
-          "title": "The System",
-          "originalTitle": "The System",
-          "releaseYear": 2023,
-          "imdbId": "tt28315937",
-          "awardWindowPlausible": false,
-          "popularity": 0.6077
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The System",
+        "releaseYear": 1996,
+        "imdbId": "tt1586201",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "IMDb verifies the 1996 documentary series and credits the awarded editor Edward Roberts. TMDB series 47625 lacks a release date, so preserve the verified IMDb-only identity."
     },
     {
       "key": "television:thetaleofbeatrixpotter:1984",
@@ -54334,29 +54124,15 @@
         "348973"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1184024,
-          "title": "The Tale of Beatrix Potter",
-          "originalTitle": "The Tale of Beatrix Potter",
-          "releaseYear": 1983,
-          "imdbId": "tt0264081",
-          "awardWindowPlausible": true,
-          "popularity": 0.7367
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 47825,
-          "title": "The Tale of Beatrix Potter",
-          "originalTitle": "The Tale of Beatrix Potter",
-          "releaseYear": 1982,
-          "lastAirYear": 1982,
-          "imdbId": "tt0264081",
-          "awardWindowPlausible": true,
-          "popularity": 1.04
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Tale of Beatrix Potter",
+        "releaseYear": 1983,
+        "tmdbId": 1184024,
+        "imdbId": "tt0264081",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "IMDb classifies Bill Hays's BBC biography starring Penelope Wilton as the 1983 television movie tt0264081. TMDB also supplies a conflicting series record for that same IMDb ID; preserve the compatible movie classification."
     },
     {
       "key": "television:thetapontheshoulder:1965",
@@ -55367,80 +55143,15 @@
         "350324"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 7952,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2008,
-          "lastAirYear": 2022,
-          "awardWindowPlausible": true,
-          "popularity": 1.3055
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 10485,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2005,
-          "lastAirYear": 2016,
-          "imdbId": "tt0450950",
-          "awardWindowPlausible": true,
-          "popularity": 15.9831
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 13999,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2004,
-          "lastAirYear": 2018,
-          "imdbId": "tt0423776",
-          "awardWindowPlausible": true,
-          "popularity": 30.0123
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 625726,
-          "title": "The X-Factor",
-          "originalTitle": "The X-Factor",
-          "releaseYear": 2003,
-          "awardWindowPlausible": false,
-          "popularity": 0.4609
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 31832,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2011,
-          "lastAirYear": 2013,
-          "imdbId": "tt1582461",
-          "awardWindowPlausible": false,
-          "popularity": 5.826
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 84462,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2011,
-          "lastAirYear": 2011,
-          "awardWindowPlausible": false,
-          "popularity": 2.0306
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 33981,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2013,
-          "lastAirYear": 2015,
-          "awardWindowPlausible": false,
-          "popularity": 0.6188
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The X Factor",
+        "releaseYear": 2004,
+        "tmdbId": 13999,
+        "imdbId": "tt0423776",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The British ITV production is The X Factor, first broadcast in 2004 (IMDb tt0423776). International remakes with the same title are rejected; later series activity is verified in live TMDB metadata."
     },
     {
       "key": "television:thexfactor:2014",
@@ -55460,80 +55171,15 @@
         "352129"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 33981,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2013,
-          "lastAirYear": 2015,
-          "awardWindowPlausible": true,
-          "popularity": 0.6188
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 31832,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2011,
-          "lastAirYear": 2013,
-          "imdbId": "tt1582461",
-          "awardWindowPlausible": true,
-          "popularity": 5.826
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 84462,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2011,
-          "lastAirYear": 2011,
-          "awardWindowPlausible": false,
-          "popularity": 2.0306
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 7952,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2008,
-          "lastAirYear": 2022,
-          "awardWindowPlausible": true,
-          "popularity": 1.3055
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 10485,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2005,
-          "lastAirYear": 2016,
-          "imdbId": "tt0450950",
-          "awardWindowPlausible": true,
-          "popularity": 15.9831
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 13999,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2004,
-          "lastAirYear": 2018,
-          "imdbId": "tt0423776",
-          "awardWindowPlausible": true,
-          "popularity": 30.0123
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 625726,
-          "title": "The X-Factor",
-          "originalTitle": "The X-Factor",
-          "releaseYear": 2003,
-          "awardWindowPlausible": false,
-          "popularity": 0.4609
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The X Factor",
+        "releaseYear": 2004,
+        "tmdbId": 13999,
+        "imdbId": "tt0423776",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The British ITV production is The X Factor, first broadcast in 2004 (IMDb tt0423776). International remakes with the same title are rejected; later series activity is verified in live TMDB metadata."
     },
     {
       "key": "television:thexfactor:2015",
@@ -55553,80 +55199,15 @@
         "352688"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 33981,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2013,
-          "lastAirYear": 2015,
-          "awardWindowPlausible": true,
-          "popularity": 0.6188
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 31832,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2011,
-          "lastAirYear": 2013,
-          "imdbId": "tt1582461",
-          "awardWindowPlausible": true,
-          "popularity": 5.826
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 84462,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2011,
-          "lastAirYear": 2011,
-          "awardWindowPlausible": false,
-          "popularity": 2.0306
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 7952,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2008,
-          "lastAirYear": 2022,
-          "awardWindowPlausible": true,
-          "popularity": 1.3055
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 10485,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2005,
-          "lastAirYear": 2016,
-          "imdbId": "tt0450950",
-          "awardWindowPlausible": true,
-          "popularity": 15.9831
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 13999,
-          "title": "The X Factor",
-          "originalTitle": "The X Factor",
-          "releaseYear": 2004,
-          "lastAirYear": 2018,
-          "imdbId": "tt0423776",
-          "awardWindowPlausible": true,
-          "popularity": 30.0123
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 625726,
-          "title": "The X-Factor",
-          "originalTitle": "The X-Factor",
-          "releaseYear": 2003,
-          "awardWindowPlausible": false,
-          "popularity": 0.4609
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "The X Factor",
+        "releaseYear": 2004,
+        "tmdbId": 13999,
+        "imdbId": "tt0423776",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The British ITV production is The X Factor, first broadcast in 2004 (IMDb tt0423776). International remakes with the same title are rejected; later series activity is verified in live TMDB metadata."
     },
     {
       "key": "television:thexfactorfinal:2012",
@@ -55674,7 +55255,15 @@
         "350027"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "The Year London Blew Up",
+        "releaseYear": 2005,
+        "tmdbId": 591998,
+        "imdbId": "tt0441045",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official title appends the historical year 1974. The reviewed identity is the 2005 documentary The Year London Blew Up, IMDb tt0441045, rather than a work released in 1974."
     },
     {
       "key": "television:theyoungones:1985",
@@ -56354,7 +55943,15 @@
         "349415"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Timewatch",
+        "releaseYear": 1982,
+        "tmdbId": 6135,
+        "imdbId": "tt0273026",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The official award title identifies The Stolen Child as an edition of the BBC documentary strand Timewatch. Use the compatible parent-series IMDb identity, verified through live TMDB external IDs, while retaining the exact episode wording in the award evidence."
     },
     {
       "key": "television:timmysstory:1986",
@@ -56590,7 +56187,12 @@
         "360491"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "candidates": [],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "The official title-design award is for the BBC production by Factory Fifteen and the named creative team. IMDb tt7055646 explicitly describes NBC coverage; no compatible IMDb identity was verified for the BBC production or its title film.",
+        "mediaType": "series"
+      }
     },
     {
       "key": "television:tomjones:1998",
@@ -56667,29 +56269,15 @@
         "359060"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 93544,
-          "title": "Top Boy",
-          "originalTitle": "Top Boy",
-          "releaseYear": 2019,
-          "lastAirYear": 2023,
-          "awardWindowPlausible": true,
-          "popularity": 11.2636
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 41889,
-          "title": "Top Boy",
-          "originalTitle": "Top Boy",
-          "releaseYear": 2011,
-          "lastAirYear": 2013,
-          "imdbId": "tt1830379",
-          "awardWindowPlausible": false,
-          "popularity": 4.9813
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Top Boy",
+        "releaseYear": 2019,
+        "tmdbId": 93544,
+        "imdbId": "tt1830379",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Reuse the reviewed 2024 BAFTA Television Top Boy identity for the Netflix continuation. TMDB separates the 2019 continuation, while IMDb keeps the 2011-2023 production under tt1830379; William Stefan Smith is also corroborated in the live continuation credits."
     },
     {
       "key": "television:topboy:2023",
@@ -56709,29 +56297,15 @@
         "361007"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 93544,
-          "title": "Top Boy",
-          "originalTitle": "Top Boy",
-          "releaseYear": 2019,
-          "lastAirYear": 2023,
-          "awardWindowPlausible": true,
-          "popularity": 11.2636
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 41889,
-          "title": "Top Boy",
-          "originalTitle": "Top Boy",
-          "releaseYear": 2011,
-          "lastAirYear": 2013,
-          "imdbId": "tt1830379",
-          "awardWindowPlausible": false,
-          "popularity": 4.9813
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Top Boy",
+        "releaseYear": 2019,
+        "tmdbId": 93544,
+        "imdbId": "tt1830379",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Reuse the reviewed 2024 BAFTA Television Top Boy identity for the Netflix continuation. TMDB separates the 2019 continuation, while IMDb keeps the 2011-2023 production under tt1830379; William Stefan Smith is also corroborated in the live continuation credits."
     },
     {
       "key": "television:topboy:2024",
@@ -56781,7 +56355,14 @@
         "349493"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Facing the Music: The Return of Torvill and Dean",
+        "releaseYear": 1994,
+        "imdbId": "tt0248793",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "IMDb identifies the 1994 television movie directed by Edward Mirzoeff. Reject the undated TMDB series record 47656, whose media type disagrees with the verified standalone film."
     },
     {
       "key": "television:tosca:1993",
@@ -56991,7 +56572,15 @@
         "350191"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Tribe",
+        "releaseYear": 2005,
+        "tmdbId": 1278,
+        "imdbId": "tt0481448",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BAFTA episode title Nenets belongs to Bruce Parry's documentary series Tribe (2005); use its reviewed parent-series IMDb tt0481448 and retain the Nenets wording in source evidence."
     },
     {
       "key": "television:troilusandcressida:1982",
@@ -57011,17 +56600,15 @@
         "348880"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1605029,
-          "title": "Troilus and Cressida",
-          "originalTitle": "Troilus and Cressida",
-          "releaseYear": 1966,
-          "awardWindowPlausible": false,
-          "popularity": 0.7695
-        }
-      ]
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Troilus & Cressida",
+        "releaseYear": 1981,
+        "tmdbId": 119913,
+        "imdbId": "tt0083228",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "Jim Atkinson's BBC Shakespeare portfolio identifies Jonathan Miller's 1981 television film Troilus & Cressida. IMDb supplies the standalone movie identity tt0083228 and TMDB external-ID lookup confirms the pair."
     },
     {
       "key": "television:troubleintahiti:1974",
@@ -57176,7 +56763,14 @@
         "349570"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "True Stories",
+        "releaseYear": 1988,
+        "imdbId": "tt0296446",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The official source explicitly names the Channel 4 True Stories strand. Reuse its reviewed parent identity, consistent with the existing BAFTA Television histories."
     },
     {
       "key": "television:truestoriesdivorceiranianstyle:2000",
@@ -57311,7 +56905,14 @@
         "350060"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "movie",
+        "title": "Tsunami: 7 Hours on Boxing Day",
+        "releaseYear": 2005,
+        "imdbId": "tt1152392",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "IMDb's live title lookup verifies the 2005 television documentary; the indexed credits of Kevin Sim and Gregor Lyon corroborate this production. Retain its IMDb identity without inventing a TMDB relationship."
     },
     {
       "key": "television:tsunamitheaftermath:2007",
@@ -57726,7 +57327,12 @@
         "353348"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "candidates": [],
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "Review did not find a compatible identity for The Nation Remembers broadcast. IMDb tt4822240 is the distinct A Party to Remember concert and must not be substituted based on the shared anniversary.",
+        "mediaType": "movie"
+      }
     },
     {
       "key": "television:veday80acelebrationtoremember:2026",
@@ -57773,7 +57379,15 @@
         "349991"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Francesco's Venice",
+        "releaseYear": 2004,
+        "tmdbId": 20783,
+        "imdbId": "tt0432242",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The episode Death belongs to the 2004 series Venice, also known as Francesco's Venice. IMDb credits the awarded cinematographer Fred Fabre on that series and TMDB verifies the parent relationship."
     },
     {
       "key": "television:victoriaderbyshirefootballersabuse:2017",
@@ -58394,18 +58008,15 @@
         "348837"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "series",
-          "tmdbId": 24164,
-          "title": "We, the Accused",
-          "originalTitle": "We, the Accused",
-          "releaseYear": 1980,
-          "lastAirYear": 1980,
-          "awardWindowPlausible": true,
-          "popularity": 1.1651
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "We, the Accused",
+        "releaseYear": 1980,
+        "tmdbId": 24164,
+        "imdbId": "tt0081958",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The 1980 BBC five-part serial starring Ian Holm is verified by IMDb tt0081958. Its title, dates and synopsis agree with TMDB; supply the reviewed missing external relationship."
     },
     {
       "key": "television:whateverhappenedtothelikelylads:1974",
@@ -58697,89 +58308,15 @@
         "361779"
       ],
       "mediaScope": "mixed",
-      "candidates": [
-        {
-          "mediaType": "movie",
-          "tmdbId": 1443265,
-          "title": "Wilderness",
-          "originalTitle": "Wilderness",
-          "releaseYear": 2024,
-          "imdbId": "tt21978094",
-          "awardWindowPlausible": true,
-          "popularity": 1.2032
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 204276,
-          "title": "Wilderness",
-          "originalTitle": "Wilderness",
-          "releaseYear": 2023,
-          "lastAirYear": 2023,
-          "imdbId": "tt15426714",
-          "awardWindowPlausible": true,
-          "popularity": 6.5321
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 640236,
-          "title": "Wilderness",
-          "originalTitle": "Yermo",
-          "releaseYear": 2020,
-          "imdbId": "tt11203998",
-          "awardWindowPlausible": false,
-          "popularity": 1.1181
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 446846,
-          "title": "Wilderness",
-          "originalTitle": "Wilderness",
-          "releaseYear": 2017,
-          "imdbId": "tt6469284",
-          "awardWindowPlausible": false,
-          "popularity": 1.4737
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 714814,
-          "title": "Wilderness",
-          "originalTitle": "Wilderness",
-          "releaseYear": 2011,
-          "imdbId": "tt2002864",
-          "awardWindowPlausible": false,
-          "popularity": 0.5607
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 11494,
-          "title": "Wilderness",
-          "originalTitle": "Wilderness",
-          "releaseYear": 2006,
-          "imdbId": "tt0465670",
-          "awardWindowPlausible": false,
-          "popularity": 1.8303
-        },
-        {
-          "mediaType": "series",
-          "tmdbId": 35574,
-          "title": "Wilderness",
-          "originalTitle": "Wilderness",
-          "releaseYear": 1996,
-          "lastAirYear": 1996,
-          "imdbId": "tt0118169",
-          "awardWindowPlausible": false,
-          "popularity": 1.6582
-        },
-        {
-          "mediaType": "movie",
-          "tmdbId": 805748,
-          "title": "Wilderness",
-          "originalTitle": "Wilderness",
-          "releaseYear": 1996,
-          "awardWindowPlausible": false,
-          "popularity": 0.8224
-        }
-      ]
+      "resolution": {
+        "mediaType": "series",
+        "title": "Wilderness",
+        "releaseYear": 2023,
+        "tmdbId": 204276,
+        "imdbId": "tt15426714",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The 2024 title-design team worked on Amazon's 2023 drama series Wilderness, corroborated by the production post-house's awards record. Unrelated exact-title films are rejected."
     },
     {
       "key": "television:wildlifepolarbearspecial:1998",
@@ -58799,7 +58336,15 @@
         "349614"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Wildlife Specials",
+        "releaseYear": 1995,
+        "tmdbId": 8681,
+        "imdbId": "tt0300880",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BBC Wildlife Specials strand includes Polar Bear: The Arctic Warrior (1997) and Tiger (1999). IMDb verifies the parent series and episode list; supply its compatible ID absent from TMDB."
     },
     {
       "key": "television:wildlifetigerspecial:2000",
@@ -58819,7 +58364,15 @@
         "349703"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Wildlife Specials",
+        "releaseYear": 1995,
+        "tmdbId": 8681,
+        "imdbId": "tt0300880",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The BBC Wildlife Specials strand includes Polar Bear: The Arctic Warrior (1997) and Tiger (1999). IMDb verifies the parent series and episode list; supply its compatible ID absent from TMDB."
     },
     {
       "key": "television:winterolympics2014:2015",
@@ -58839,7 +58392,14 @@
         "352725"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "BBC Sport: Winter Olympics",
+        "releaseYear": 2010,
+        "imdbId": "tt8023892",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "Use IMDb's verified BBC coverage series, beginning in 2010, for its awarded Winter Olympics titles. Reject generic event records tied to other broadcasters. TMDB external-ID lookup returns no compatible series."
     },
     {
       "key": "television:withoutwallsaninterviewwithdennispotter:1995",
@@ -58915,7 +58475,14 @@
         "349793"
       ],
       "mediaScope": "mixed",
-      "candidates": []
+      "resolution": {
+        "mediaType": "series",
+        "title": "Witness",
+        "releaseYear": 1990,
+        "imdbId": "tt0970163",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The official award title identifies Donovan Wylie's The Train as part of the Channel 4 documentary strand Witness. Use the compatible documentary parent, not the unrelated feature film or another Train documentary."
     },
     {
       "key": "television:wivesanddaughters:2000",
@@ -104641,7 +104208,6 @@
       ],
       "years": [
         1979,
-        1980,
         1995,
         2008,
         2017
@@ -104659,7 +104225,6 @@
         "347266",
         "348185",
         "348757",
-        "348800",
         "356176"
       ]
     },
