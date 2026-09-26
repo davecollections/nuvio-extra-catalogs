@@ -10,6 +10,8 @@ import sys
 from dataclasses import dataclass, field
 from pathlib import Path
 
+from bafta_outputs import OutputConfig, validated_poster_contract
+
 REPO_ROOT = Path(__file__).resolve().parents[1]
 RESULTS_DIR = REPO_ROOT / "data" / "awards" / "academy-awards" / "results"
 CATALOGUE_DIR = REPO_ROOT / "catalog" / "movie"
@@ -17,6 +19,7 @@ FILE_RE = re.compile(r"^(?P<number>\d{3})-(?P<year>\d{4})\.json$")
 IMDB_TITLE_RE = re.compile(r"^tt\d+$")
 IMDB_PERSON_RE = re.compile(r"^nm\d+$")
 POSTER_TEMPLATE = "https://images.metahub.space/poster/medium/{imdb_id}/img"
+ARTWORK_CONFIG = OutputConfig("academy-awards", "Academy Awards", "academy-", 98)
 
 
 class ValidationError(RuntimeError):
@@ -155,6 +158,9 @@ def load_ceremonies() -> list[tuple[Path, int, list[dict]]]:
 def collect_category(
     contract: CategoryContract, ceremonies: list[tuple[Path, int, list[dict]]]
 ) -> tuple[list[dict], dict]:
+    poster_overrides, _ = validated_poster_contract(
+        ARTWORK_CONFIG, json.loads(ARTWORK_CONFIG.contracts_path.read_text(encoding="utf-8"))
+    )
     rows: list[dict] = []
     result_count = 0
     work_link_count = 0
@@ -279,7 +285,7 @@ def collect_category(
                 "id": row["imdbId"],
                 "type": "movie",
                 "name": row["title"],
-                "poster": POSTER_TEMPLATE.format(imdb_id=row["imdbId"]),
+                "poster": poster_overrides.get(row["imdbId"], POSTER_TEMPLATE.format(imdb_id=row["imdbId"])),
                 "posterShape": "poster",
             }
         )

@@ -61,6 +61,23 @@ Active V2 behavior must not reconstruct a legacy `nuvio-assets` People URL. Artw
 
 ## Current coverage
 
+### Expanded actor/director handoff (Issue #41)
+
+The V1.4 preparation audit extends the inventory to current included actor/director winner lineages across Academy, Golden Globes, BAFTA Film, BAFTA Television, and the deferred BAFTA Television Craft programme. The generated [artwork handoff](../reports/awards-actor-director-artwork.md) and [machine-readable evidence](../reports/awards-actor-director-artwork.json) distinguish verified missing People records, missing memberships, optional focus pairs, and unresolved person identities. An unresolved name is not an artwork request.
+
+BAFTA enrichment reuses the shared production TMDB API client. It accepts a person only when the exact normalized credited name appears in the relevant cast or Director credits of a reviewed winning work, with one unique person identity across the available evidence. Ambiguous people remain unresolved. Person IDs and matching work-credit evidence are preserved in the existing BAFTA identity inventory and propagated into canonical results; no separate People identity system is introduced.
+
+```bash
+python scripts/enrich_bafta_people.py --tmdb
+python scripts/enrich_bafta_people.py --check
+python scripts/audit_awards_people_artwork.py --write --people-commit <full-current-People-commit>
+python scripts/audit_awards_people_artwork.py --check
+```
+
+The expanded handoff pins its own current People revision and SHA-256 without changing the accepted V1.0 artwork baseline below. It validates manifest records and asset descriptors; it does not claim that each image URL was fetched. Reuse existing asset sets for membership changes. The owner coordinates new artwork with the People assets task. These People gaps do not prevent movie/series catalogue generation.
+
+### Accepted V1.0 baseline
+
 Against the pinned People commit:
 
 | Awards output | Native source | Required membership | Resolved | Core artwork | Focus pair |

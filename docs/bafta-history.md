@@ -10,7 +10,7 @@ The shared source audit covers the three main BAFTA screen programmes that can p
 - BAFTA Television Awards; and
 - BAFTA Television Craft Awards.
 
-V1.2 publishes the complete **BAFTA Film Awards** programme: all 25 work-associated current Film lineages. V1.3 adds all 27 work-associated current **BAFTA Television Awards** lineages. BAFTA Television Craft remains deferred to V1.4 so each distinct awards programme can be completed, tested, and installed independently. Its pinned source snapshot, category lineages, and existing identity evidence remain preserved; the release split does not discard or rewrite that reviewed work.
+V1.2 publishes the complete **BAFTA Film Awards** programme: all 25 work-associated current Film lineages. V1.3 adds all 27 work-associated current **BAFTA Television Awards** lineages. V1.4 adds the 23 reviewed **BAFTA Television Craft Awards** lineages and a separate preset, completing the scoped BAFTA rollout. Its pinned source snapshot, category lineages, and identity evidence remain preserved.
 
 The 2026 official result pages expose 81 categories in total. The initial publication audit retains 75 work-associated current lineages before historical lineage review or movie/series splitting:
 
@@ -23,6 +23,75 @@ The 2026 official result pages expose 81 categories in total. The initial public
 The P&O Cruises Memorable Moment remains in the Television audit because the official result identifies an awarded television work or moment. Publication still requires an unambiguous movie or series identity.
 
 BAFTA Games is outside scope because the add-on has no compatible game media type. Cymru and Scotland are separate regional programmes and are not silently folded into the main BAFTA lineages. Historical Children's, Britannia, Interactive, and other discontinued programmes remain separate unless a later issue defines their own scope.
+
+## V1.4 owner acceptance — 2026-09-26
+
+The owner approved the payload at `2f00ae2dc3c5cbe3581278905842c7f957e71a35`, relying on prior Nuvio browsing and the completed poster audit, and chose to end further visual checking. This supersedes the pending-acceptance instructions in the historical checkpoints below. It does not assert that every corrected title received a fresh client test or that every historical production credit is verified.
+
+The accepted all-awards payload contains 172 catalogues and 6,323 items. Craft contributes 43 catalogues, 576 items and 434 unique titles; 392 have verified available artwork and 42 retain documented gaps. Television now contains 663 unique titles: 574 have verified available artwork and 89 retain gaps through the checked routes. The 77 shared exact metadata fallback IDs supplement compatible installed providers. All 43 workflow checks and 17 regression tests passed, and all 512 immutable public files byte-matched the approved preview.
+
+Production corrections, poster recovery and saved-item migration are recorded in [the corrections log](awards-corrections.md) and [the mapping audit](../reports/awards-work-mapping-audit.md). Issue #43 retains 145 pending credit diagnostics, the Trouble in Tahiti ambiguity, and the unresolved compatible IMDb identities for withheld productions. Genuine artwork gaps stay blank under the owner's preference. People artwork remains deferred.
+
+PR #42 / Issue #41 track publication, main CI/Pages verification and deployed-byte checks. Preserve the release as annotated tag and GitHub Release `v1.4.0`. Emmy source and scope planning follows publication.
+
+## Historical V1.4 preparation checkpoint — 2026-09-16
+
+Issue #41 continues Television Craft on `work/issue-41-bafta-television-craft`. The Dingo preview is parked separately; the released Xtra identity and routes remain unchanged.
+
+- The 23 current Craft lineages now retain 590 selected winner records and 619 work links after eight additional explicit portfolio splits. Of 497 award-year-scoped work identities, 408 resolve to compatible IMDb titles, two are reviewed non-catalogue outcomes, and 87 still require review. These are selection/review totals, not final published catalogue counts.
+- Sixty-seven manually reviewed aliases, credited-work matches, and episode-to-parent relationships are recorded in the existing override registry. The portfolio split introduced another ten resolved identity units through the existing enrichment contract.
+- Across BAFTA, 450 of 485 current actor/director recipient identity units are verified through exact names in live credits of reviewed winning works; 35 remain unresolved. Verified IDs are preserved in the shared inventory and canonical Film/Television records using established cross-award canonical name spellings. Original credited spellings remain in the source evidence.
+- The current cross-award [People artwork handoff](../reports/awards-actor-director-artwork.md) contains 226 verified missing sets and four membership changes. Its 493 unresolved identity units include the older Golden Globes backlog as well as remaining BAFTA identities; they are not confirmed artwork jobs. The handoff pins People commit `2359f634a5049d9688ffd78667880c270405ff3c`.
+
+Next: complete the remaining Craft work review, including historical broadcasts, multi-title records requiring additional evidence, and entries with no compatible standalone or parent identity. Reuse the shared BAFTA canonical/output/artwork/metadata modules to add Craft wrappers and contracts; add an independently testable Craft preset; run live artwork and provider checks; then prepare an immutable preview for owner Nuvio acceptance. V1.4 is not yet published or ready for acceptance. Emmy implementation follows BAFTA completion.
+
+The dedicated [Craft identity review](../reports/bafta-television-craft-identity-review.md) is generated by the existing review script and is the controlling queue. No unresolved work may be marked non-catalogue solely because an automatic search found no candidate.
+
+## Historical V1.4 identity review checkpoint — 2026-09-26
+
+The Craft work review is complete: 497 award-year-scoped identities comprise 486 compatible IMDb identities (131 movies and 355 series) and 11 explicit non-catalogue outcomes. The latter remain award facts with documented reasons and evidence; they can be revisited when a compatible identity is verified. This pass added 77 manual work overrides and nine reviewed gaps without changing actor/director artwork work.
+
+The selection now retains 589 winner records and 619 work links. Howard King's 1982 lighting portfolio is split into the separate *The Cherry Orchard* and *The Journal of Bridget Hitler* productions. John Chapman's 1980 *Light Weight Camerawork* is a technique credit rather than a named production: its exact source value is checked before excluding it from work-linked generation, and the official snapshot preserves the award. The additional relationship from the portfolio split offsets the removed non-title reference.
+
+Review distinguishes standalone television films, shorts and title films from parent-series identities. It rejects misleading external-ID pairs, including the Festival of Remembrance series linked to the 2020 movie and the undated series record for the Torvill and Dean television film. BBC and Channel 4 sports productions are not replaced with NBC event coverage. IMDb-only matches retain their evidence and media classification when TMDB has no suitable record.
+
+Next: generate and validate Craft canonical data, output contracts, catalogues and a separate preset through the shared BAFTA modules, then complete live poster and metadata audits and owner acceptance. A preliminary Cinemeta lookup on 2026-09-26 returned HTTP 403 for all seven requested identities; this is an external-service failure, not evidence that those titles lack metadata. V1.4 remains unpublished, and Emmy implementation remains after BAFTA completion.
+
+## Historical V1.4 implementation and acceptance checkpoint — 2026-09-26
+
+The shared pipeline now generates 78 Craft archive-year files and 43 catalogues (20 movie, 23 series), containing 576 items across 434 unique IMDb titles. The V1.4 branch manifest contains 172 catalogues and 6,327 items. The separate Craft preset uses add-on ID `com.davecollections.nuvio.extra.baftatelevisioncraft`; its `bafta-craft-` catalogue prefix avoids matching the existing Television preset's prefix.
+
+Live Craft review found 381 MetaHub posters, seven TMDB fallbacks and 46 explicit unavailable-poster outcomes. Nuvio's provider resolves 402 titles; 32 receive exact compact fallbacks. Cinemeta resolves 27 of those gaps, and five have no full metadata in either reviewed provider. The preliminary Cinemeta HTTP 403 responses were transient; the completed production audit succeeded and is the controlling evidence.
+
+Cross-checking found two further Festival of Remembrance entries using the same incorrect TMDB external ID, including one released Television relationship. Both now use the verified annual-series IMDb `tt10069230`, rather than the 2020 movie `tt14540164`. Catalogue IDs remain stable. Repeated Craft wins deduplicate to the same series. A full live Television re-audit found 563 MetaHub posters, eight TMDB fallbacks and 96 unavailable posters; 617 titles resolve through Nuvio and 50 need compact fallbacks. The two previously missing IDs `tt13207736` and `tt13801796` now resolve through Nuvio, so their static routes are removed. Across both programmes, 76 unique exact fallback routes are generated with shared released display names preserved.
+
+The existing installer now includes the Craft choice and expandable list of 23 categories. Browser review confirmed selection updates the displayed URL and Open manifest destination, the list expands, and Copy manifest displays its success feedback. This is installer verification; it does not replace Nuvio owner acceptance.
+
+All 41 workflow checks pass locally, including shared canonical validation and all existing award regressions. Focused fallback-merge checks preserve the released display name and reject conflicting identities, years, artwork or media types. The installer produced no browser console warnings or errors during review.
+
+### Owner acceptance still required
+
+Install the commit-pinned Craft preset with the normal metadata provider enabled. Check:
+
+- **Director: Fiction — Series:** *Adolescence* opens with full provider metadata.
+- **Scripted Casting — Series:** *Reunion* is the British 2025 drama, with the latest winner first.
+- **Sound: Factual — Films:** the King Charles III coronation is the BBC 2023 broadcast.
+- **Director: Multi-Camera — Films:** *Glastonbury Festival Presents Live at Worthy Farm* opens the compact movie fallback with its verified TMDB poster.
+- **Sound: Factual — Series:** *Later Live... with Jools Holland* opens the compact series fallback with its verified TMDB poster.
+- **Entertainment Craft Team — Series:** Festival of Remembrance appears once and opens the annual-series fallback, with its documented unavailable poster.
+- The all-awards preview retains existing Academy, Golden Globes, Film and Television selections; the Craft preset contains only its 43 catalogues.
+
+After owner acceptance, merge Issue #41 work, verify main CI/Pages and every deployed route, update the released-state documentation, and preserve the exact accepted commit as annotated tag and GitHub Release `v1.4.0`. No merge, release or Emmy implementation has occurred at this checkpoint.
+
+### Owner poster review — 2026-09-26
+
+The owner reports that the Craft preview works in Nuvio, with blank posters across several rows. The supplied Entertainment Craft Team screenshot identifies Eurovision Song Contest (`tt0313343`), Royal British Legion Festival of Remembrance (`tt10069230`) and World War One Remembered (`tt7205604`). All three production MetaHub poster URLs return HTTP 404; this reproduces the blank artwork independently of the Nuvio client.
+
+Review of all 46 initial Craft poster gaps found two correctable missing mappings. Eurovision is TMDB TV `28032`: its IMDb external-ID field is empty, but the title, EBU production context, 1956-05-24 premiere and Liverpool 2023 season match the verified IMDb parent. The existing reviewed manual-pair override preserves `tt0313343` and adds its TMDB poster. The 1965 Tea Party film is TMDB movie `139627`, which returns exact IMDb `tt0391485` and Charles Jarrott's directing credit; the undated duplicate TV entry is not used. No award facts or catalogue IDs change.
+
+The repeated live audits now find **381 MetaHub posters, nine TMDB fallbacks and 44 unavailable outcomes in Craft**, and **563 MetaHub posters, nine TMDB fallbacks and 95 unavailable outcomes in Television**. Eurovision's compact static metadata route also receives the poster. The two other screenshot titles remain without usable reviewed poster sources: Cinemeta returns no poster for World War One Remembered, and the rejected Festival of Remembrance TMDB series still has the conflicting standalone-movie IMDb link and no primary poster. The title-search sweep also found other editions/adaptations and conflicting IMDb identities (including Trouble in Tahiti); those images are not substituted without resolving their identity evidence.
+
+The previous commit-pinned preview remains unchanged. Test the new preview commit to see these fixes; refreshing the older immutable URL cannot receive them. Final owner acceptance and release remain pending while the reported poster concern is reviewed.
 
 ## Award authority
 
@@ -90,7 +159,7 @@ python scripts/validate_bafta_lineage_decisions.py --complete
 python scripts/build_bafta_lineage_audit.py --check
 ```
 
-`data/sources/bafta/category-definitions.json` freezes the 75 audited current categories into stable local IDs and records the source programme, canonical media scope, recipient kind, credit role, and deterministic work field. It maps the 75 current labels plus 119 accepted historical labels to 2,830 work-linked winner records and 2,902 work references. Forty-nine explicit source overrides cover label-wide historical layouts, isolated BAFTA card reversals, and the reversed 2019 Television Craft cards. Forty-four explicit multi-work splits preserve slash-delimited winner portfolios. Fifty-six early Television records repeat only the credited person or team instead of identifying a work; their exact nomination IDs are preserved as explicit no-work omissions rather than fabricated titles.
+`data/sources/bafta/category-definitions.json` freezes the 75 audited current categories into stable local IDs and records the source programme, canonical media scope, recipient kind, credit role, and deterministic work field. It maps the 75 current labels plus 119 accepted historical labels to 2,830 work-linked winner records and 2,917 work references. Forty-nine explicit source overrides cover label-wide historical layouts, isolated BAFTA card reversals, and the reversed 2019 Television Craft cards. Fifty-two explicit multi-work splits preserve slash-delimited winner portfolios, including eight Craft portfolios reviewed in Issue #41. Fifty-six early Television records repeat only the credited person or team instead of identifying a work; their exact nomination IDs are preserved as explicit no-work omissions rather than fabricated titles.
 
 Validate the registry, every accepted source label, all selected work references, and the omission contract with:
 
@@ -98,7 +167,7 @@ Validate the registry, every accepted source label, all selected work references
 python scripts/validate_bafta_category_definitions.py
 ```
 
-`data/sources/bafta/identity-map.json` is the deterministic identity inventory for the 2,830 selected results and 2,902 work links. It contains 2,087 award-year-scoped work candidates and 3,754 credited-recipient strings, retaining exact nomination IDs, programmes, category IDs, years, title/name variants, credit roles, and canonical media scope. Award-year scoping prevents unrelated television adaptations with the same title from collapsing before identity review; resolved canonical outputs later deduplicate repeated wins by IMDb identity. Generic team labels are nomination-scoped so unrelated production teams cannot collapse into one identity. Regenerate or verify the inventory offline with:
+`data/sources/bafta/identity-map.json` is the deterministic identity inventory for the 2,830 selected results and 2,917 work links. It contains 2,097 award-year-scoped work candidates and 3,754 credited-recipient strings, retaining exact nomination IDs, programmes, category IDs, years, title/name variants, credit roles, and canonical media scope. Award-year scoping prevents unrelated television adaptations with the same title from collapsing before identity review; resolved canonical outputs later deduplicate repeated wins by IMDb identity. Generic team labels are nomination-scoped so unrelated production teams cannot collapse into one identity. Regenerate or verify the inventory offline with:
 
 ```bash
 python scripts/build_bafta_identity_seed.py --write

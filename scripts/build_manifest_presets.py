@@ -61,6 +61,13 @@ PRESETS = (
         "Independent Xtra preset with complete BAFTA Television film and series winner catalogues for Nuvio and other compatible clients.",
         "bafta-television-",
     ),
+    Preset(
+        "bafta-television-craft",
+        "com.davecollections.nuvio.extra.baftatelevisioncraft",
+        "Xtra — BAFTA Television Craft Awards",
+        "Independent Xtra preset with BAFTA Television Craft film and series winner catalogues for Nuvio and other compatible clients.",
+        "bafta-craft-",
+    ),
 )
 
 

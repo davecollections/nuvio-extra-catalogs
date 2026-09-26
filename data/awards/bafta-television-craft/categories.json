@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "awardBodyId": "bafta-television-craft",
+  "categories": [
+    {
+      "id": "television-craft-childrens-craft-team",
+      "name": "Children's Craft Team",
+      "aliases": [],
+      "mediaType": "mixed",
+      "recipientKind": "team",
+      "creditRole": "other"
+    },
+    {
+      "id": "television-craft-costume-design",
+      "name": "Costume Design",
+      "aliases": [],
+      "mediaType": "mixed",
+      "recipientKind": "team",
+      "creditRole": "other"
+    },
+    {
+      "id": "television-craft-director-factual",
+      "name": "Director: Factual",
+      "aliases": [],
+      "mediaType": "mixed",
+      "recipientKind": "team",
+      "creditRole": "director"
+    },
+    {
+      "id": "television-craft-director-fiction",
+      "name": "Director: Fiction",
+      "aliases": [
+        "Director",
+        "Director - Fiction/Entertainment",
+        "Director sponsored by Sony Pictures Television International",
+        "Director: Fiction, sponsored by 3 Mills Studios"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "team",
+      "creditRole": "director"
+    },
+    {
+      "id": "television-craft-director-multi-camera",
+      "name": "Director: Multi-Camera",
+      "aliases": [],
+      "mediaType": "mixed",
+      "recipientKind": "team",
+      "creditRole": "director"
+    },
+    {
+      "id": "television-craft-editing-factual",
+      "name": "Editing: Factual",
+      "aliases": [
+        "Film or Video Editor - Factual"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "team",
+      "creditRole": "editor"
+    },
+    {
+      "id": "television-craft-editing-fiction",
+      "name": "Editing: Fiction",
+      "aliases": [
+        "Editing - Fiction/Entertainment",
+        "Editing Fiction/Entertainment sponsored by Pepper Post Production",
+        "Film or Video Editor - Fiction",
+        "Film or Video Editor - Fiction/Entertainment"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "team",
+      "creditRole": "editor"
+    },
+    {
+      "id": "television-craft-emerging-talent-factual",
+      "name": "Emerging Talent: Factual",
+      "aliases": [
+        "New Director - Factual"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "person",
+      "creditRole": "other"
+    },
+    {
+      "id": "television-craft-emerging-talent-fiction",
+      "name": "Emerging Talent: Fiction",
+      "aliases": [
+        "Emerging Talent: Fiction, sponsored by Sara Putt Associates",
+        "New Director - Fiction",
+        "New Writer"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "person",
+      "creditRole": "other"
+    },
+    {
+      "id": "television-craft-entertainment-craft-team",
+      "name": "Entertainment Craft Team",
+      "aliases": [
+        "Entertainment Craft Team, sponsored by Hotcam",
+        "Entertainment Production Team"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "team",
+      "creditRole": "other"
+    },
+    {
+      "id": "television-craft-make-up-hair-design",
+      "name": "Make Up & Hair Design",
+      "aliases": [],
+      "mediaType": "mixed",
+      "recipientKind": "team",
+      "creditRole": "other"
+    },
+    {
+      "id": "television-craft-original-music-factual",
+      "name": "Original Music: Factual",
+      "aliases": [],
+      "mediaType": "mixed",
+      "recipientKind": "team",
+      "creditRole": "composer"
+    },
+    {
+      "id": "television-craft-original-music-fiction",
+      "name": "Original Music: Fiction",
+      "aliases": [],
+      "mediaType": "mixed",
+      "recipientKind": "team",
+      "creditRole": "composer"
+    },
+    {
+      "id": "television-craft-photography-lighting-fiction",
+      "name": "Photography & Lighting: Fiction",
+      "aliases": [
+        "Film Or Video Photography - Fiction/Entertainment",
+        "Lighting",
+        "Photography - Fiction/Entertainment",
+        "Photography And Lighting Fiction/Entertainment",
+        "Special Lighting Effects",
+        "Television Cameraman",
+        "TV Lighting",
+        "Video Cameraman",
+        "Video Lighting"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "team",
+      "creditRole": "cinematographer"
+    },
+    {
+      "id": "television-craft-photography-factual",
+      "name": "Photography: Factual",
+      "aliases": [
+        "Film or Video Photography - Factual"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "team",
+      "creditRole": "cinematographer"
+    },
+    {
+      "id": "television-craft-production-design",
+      "name": "Production Design",
+      "aliases": [
+        "Design",
+        "Production Design, sponsored by Microsoft"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "team",
+      "creditRole": "other"
+    },
+    {
+      "id": "television-craft-scripted-casting",
+      "name": "Scripted Casting",
+      "aliases": [],
+      "mediaType": "mixed",
+      "recipientKind": "team",
+      "creditRole": "other"
+    },
+    {
+      "id": "television-craft-sound-factual",
+      "name": "Sound: Factual",
+      "aliases": [],
+      "mediaType": "mixed",
+      "recipientKind": "team",
+      "creditRole": "other"
+    },
+    {
+      "id": "television-craft-sound-fiction",
+      "name": "Sound: Fiction",
+      "aliases": [
+        "Film Sound - Recordist/Dubbing",
+        "Sound - Entertainment",
+        "Sound - Fiction/Entertainment",
+        "Sound - Fiction/Entertainment sponsored by Munro Acoustics"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "team",
+      "creditRole": "other"
+    },
+    {
+      "id": "television-craft-special-visual-graphic-effects",
+      "name": "Special, Visual And Graphic Effects",
+      "aliases": [
+        "Visual Effects",
+        "Visual Effects And Graphic Design"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "team",
+      "creditRole": "other"
+    },
+    {
+      "id": "television-craft-titles-graphic-identity",
+      "name": "Titles & Graphic Identity",
+      "aliases": [
+        "Titles"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "team",
+      "creditRole": "other"
+    },
+    {
+      "id": "television-craft-writer-comedy",
+      "name": "Writer: Comedy",
+      "aliases": [],
+      "mediaType": "mixed",
+      "recipientKind": "team",
+      "creditRole": "writer"
+    },
+    {
+      "id": "television-craft-writer-drama",
+      "name": "Writer: Drama",
+      "aliases": [
+        "Writer"
+      ],
+      "mediaType": "mixed",
+      "recipientKind": "team",
+      "creditRole": "writer"
+    }
+  ]
+}

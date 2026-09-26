@@ -68,11 +68,17 @@ jobs:
       - name: Validate BAFTA reviewed identities
         run: python scripts/enrich_bafta_identities.py --check --attempted
 
+      - name: Validate BAFTA actor and director identity evidence
+        run: python scripts/enrich_bafta_people.py --check
+
       - name: Require complete BAFTA Film identity review
         run: python scripts/enrich_bafta_identities.py --check --complete --programme film
 
       - name: Require complete BAFTA Television identity review
         run: python scripts/enrich_bafta_identities.py --check --complete --programme television
+
+      - name: Require complete BAFTA Television Craft identity review
+        run: python scripts/enrich_bafta_identities.py --check --complete --programme television-craft
 
       - name: Check BAFTA identity review report
         run: python scripts/build_bafta_identity_review.py --check
@@ -89,6 +95,12 @@ jobs:
       - name: Check BAFTA Television generated outputs
         run: python scripts/build_bafta_television_outputs.py --check
 
+      - name: Check BAFTA Television Craft canonical import
+        run: python scripts/build_bafta_craft_canonical.py --check
+
+      - name: Check BAFTA Television Craft generated outputs
+        run: python scripts/build_bafta_craft_outputs.py --check
+
       - name: Check BAFTA Film artwork audit evidence
         run: python scripts/audit_bafta_film_artwork.py --offline-check
 
@@ -98,7 +110,13 @@ jobs:
       - name: Check BAFTA Television metadata audit evidence
         run: python scripts/audit_bafta_television_metadata.py --offline-check
 
-      - name: Check BAFTA Television static metadata fallbacks
+      - name: Check BAFTA Television Craft artwork audit evidence
+        run: python scripts/audit_bafta_craft_artwork.py --offline-check
+
+      - name: Check BAFTA Television Craft metadata audit evidence
+        run: python scripts/audit_bafta_craft_metadata.py --offline-check
+
+      - name: Check shared BAFTA Television and Craft static metadata fallbacks
         run: python scripts/build_bafta_television_metadata_fallbacks.py --check
 
       - name: Check BAFTA category lineage audit inventory
@@ -140,8 +158,17 @@ jobs:
       - name: Validate manifest and catalogue payloads
         run: python scripts/validate_manifest_catalogs.py
 
+      - name: Check all-awards work mapping and poster evidence
+        run: python scripts/audit_awards_work_mappings.py --offline-check
+
+      - name: Check identity and artwork regression guards
+        run: python scripts/test_awards_work_mappings.py
+
       - name: Check Awards People artwork integration
         run: python scripts/check_people_artwork_integration.py --check
 
       - name: Check Issue 24 recipient identity coverage
         run: python scripts/check_issue24_recipient_identity_coverage.py --check
+
+      - name: Check actor and director artwork handoff
+        run: python scripts/audit_awards_people_artwork.py --check

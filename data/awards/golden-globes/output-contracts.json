@@ -7,9 +7,7 @@
     "tt0103275": "https://image.tmdb.org/t/p/w500/lU2ieDAzXM01t9coXNqpPujOi9p.jpg",
     "tt0140447": "https://image.tmdb.org/t/p/w500/bSudsCHq4z5jVl08nEq1OhMAzeC.jpg"
   },
-  "knownUnavailablePosters": [
-    "tt0063905"
-  ],
+  "knownUnavailablePosters": [],
   "categories": [
     { "categoryId": "motion-picture-drama", "firstCeremony": 1, "lastCeremony": 83, "expectedResults": 84, "expectedWorkLinks": 84, "catalogs": [{ "mediaType": "movie", "id": "golden-globes-motion-picture-drama-winning-films", "name": "Golden Globes — Motion Picture Drama Winners", "expectedWorkLinks": 84, "expectedItems": 84 }] },
     { "categoryId": "motion-picture-musical-or-comedy", "firstCeremony": 9, "lastCeremony": 83, "expectedResults": 79, "expectedWorkLinks": 79, "catalogs": [{ "mediaType": "movie", "id": "golden-globes-motion-picture-musical-or-comedy-winning-films", "name": "Golden Globes — Motion Picture Musical or Comedy Winners", "expectedWorkLinks": 79, "expectedItems": 79 }] },

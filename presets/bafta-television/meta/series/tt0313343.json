@@ -3,6 +3,8 @@
     "id": "tt0313343",
     "type": "series",
     "name": "Eurovision Song Contest",
+    "poster": "https://image.tmdb.org/t/p/w500/kG2UO5pT91NckAe3tS6WrgxOB3P.jpg",
+    "posterShape": "poster",
     "releaseInfo": "1956",
     "description": "Reviewed award-catalogue title. This compact record is supplied when installed metadata providers do not return the title."
   }

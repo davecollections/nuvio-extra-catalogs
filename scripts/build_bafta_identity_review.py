@@ -21,6 +21,7 @@ IDENTITY_MAP_PATH = SOURCE_DIR / "identity-map.json"
 REPORT_PATH = ROOT / "reports" / "bafta-identity-review.md"
 FILM_REPORT_PATH = ROOT / "reports" / "bafta-film-identity-review.md"
 TELEVISION_REPORT_PATH = ROOT / "reports" / "bafta-television-identity-review.md"
+CRAFT_REPORT_PATH = ROOT / "reports" / "bafta-television-craft-identity-review.md"
 
 
 def escaped(value: object) -> str:
@@ -213,6 +214,7 @@ def main() -> int:
                 TELEVISION_REPORT_PATH,
                 report_content(identity_map, "television"),
             ),
+            (CRAFT_REPORT_PATH, report_content(identity_map, "television-craft")),
         )
         for path, content in reports:
             if args.write:

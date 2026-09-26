@@ -22,6 +22,7 @@ from bafta_common import (
 )
 from enrich_bafta_identities import api_json
 from enrich_golden_globes_identities import IdentityError
+from bafta_outputs import OutputError, reviewed_tvdb_posters
 
 
 MANIFEST_PATH = ROOT / "manifest.json"
@@ -63,6 +64,13 @@ TELEVISION_CONFIG = ArtworkConfig(
     award_body_id="bafta-television",
     award_name="BAFTA Television",
     catalogue_prefix="bafta-television-",
+)
+
+CRAFT_CONFIG = ArtworkConfig(
+    programme="television-craft",
+    award_body_id="bafta-television-craft",
+    award_name="BAFTA Television Craft",
+    catalogue_prefix="bafta-craft-",
 )
 
 
@@ -152,6 +160,10 @@ def reviewed_identities(config: ArtworkConfig) -> dict[str, dict]:
 
 def check_metahub(imdb_id: str) -> dict:
     url = POSTER_TEMPLATE.format(imdb_id=imdb_id)
+    return check_poster(url, imdb_id)
+
+
+def check_poster(url: str, imdb_id: str) -> dict:
     last_error: Exception | None = None
     for attempt in range(3):
         request = Request(
@@ -166,7 +178,7 @@ def check_metahub(imdb_id: str) -> dict:
             if status == 200 and content_type.startswith("image/"):
                 return {"status": status, "contentType": content_type, "url": url}
             raise ArtworkError(
-                f"{imdb_id}: MetaHub returned HTTP {status} with "
+                f"{imdb_id}: poster returned HTTP {status} with "
                 f"{content_type or 'no content type'}"
             )
         except HTTPError as exc:
@@ -181,10 +193,68 @@ def check_metahub(imdb_id: str) -> dict:
             last_error = exc
         if attempt < 2:
             time.sleep(0.5 * (2**attempt))
-    raise ArtworkError(f"{imdb_id}: MetaHub request failed after retries: {last_error}")
+    raise ArtworkError(f"{imdb_id}: poster request failed after retries: {last_error}")
 
 
-def tmdb_fallback(imdb_id: str, identity: dict, token: str) -> dict:
+def tvdb_poster_sources(contracts: dict, titles: dict[str, dict]) -> dict:
+    try:
+        sources = reviewed_tvdb_posters(contracts)
+    except OutputError as exc:
+        raise ArtworkError(str(exc)) from exc
+    for imdb_id in sources:
+        if imdb_id not in titles or titles[imdb_id]["mediaType"] != "series":
+            raise ArtworkError(f"{imdb_id}: TVDB artwork requires a published series")
+    return sources
+
+
+def tvdb_fallback(imdb_id: str, fallback: dict, source: dict | None) -> dict:
+    if source is None or fallback.get("posterUrl") is not None:
+        return fallback
+    result = check_poster(source["posterUrl"], imdb_id)
+    if result["status"] != 200:
+        raise ArtworkError(f"{imdb_id}: reviewed TVDB poster is unavailable")
+    return {**fallback, "posterUrl": source["posterUrl"], "reviewedTvdbPoster": source,
+            "tvdbPosterCheck": result,
+            "fallbackNote": "Verified TVDB artwork for the reviewed series; canonical work IDs are unchanged."}
+
+
+def reviewed_season_posters(contracts: dict, titles: dict[str, dict]) -> dict:
+    """Validate explicit artwork relationships without inventing work ID pairs."""
+    sources = contracts.get("reviewedSeasonPosters", {})
+    if not isinstance(sources, dict):
+        raise ArtworkError("reviewedSeasonPosters must be an object")
+    fields = {"tmdbId", "seasonNumber", "seasonTitle", "releaseYear", "reviewNote", "evidenceUrls"}
+    for imdb_id, source in sources.items():
+        if imdb_id not in titles or titles[imdb_id]["mediaType"] != "series":
+            raise ArtworkError(f"{imdb_id}: season poster requires a published series identity")
+        if not isinstance(source, dict) or set(source) != fields:
+            raise ArtworkError(f"{imdb_id}: invalid reviewed season poster fields")
+        for field in ("tmdbId", "seasonNumber", "releaseYear"):
+            if type(source[field]) is not int or source[field] < 1:
+                raise ArtworkError(f"{imdb_id}: invalid season poster {field}")
+        if source["seasonTitle"] != titles[imdb_id]["title"]:
+            raise ArtworkError(f"{imdb_id}: season poster title differs from the published edition")
+        if not isinstance(source["reviewNote"], str) or not source["reviewNote"].strip():
+            raise ArtworkError(f"{imdb_id}: season poster needs a review note")
+        urls = source["evidenceUrls"]
+        if not isinstance(urls, list) or not urls or not all(isinstance(u, str) and u.startswith("https://") for u in urls):
+            raise ArtworkError(f"{imdb_id}: season poster needs HTTPS evidence")
+    return sources
+
+
+def tmdb_fallback(imdb_id: str, identity: dict, token: str, season_source: dict | None = None) -> dict:
+    if season_source is not None:
+        path = f"/tv/{season_source['tmdbId']}/season/{season_source['seasonNumber']}"
+        details = api_json(path, token, {"language": "en-US"})
+        if details.get("name") != season_source["seasonTitle"] or not str(details.get("air_date", "")).startswith(str(season_source["releaseYear"]) + "-"):
+            raise ArtworkError(f"{imdb_id}: reviewed season title/year no longer matches TMDB")
+        poster_path = details.get("poster_path")
+        return {
+            "tmdbId": identity.get("tmdbId"), "mediaType": identity.get("mediaType"),
+            "posterPath": poster_path, "posterUrl": TMDB_IMAGE_TEMPLATE.format(poster_path=poster_path) if isinstance(poster_path, str) else None,
+            "reviewedSeasonPoster": season_source,
+            "fallbackNote": "Artwork comes from the verified matching TMDB season; the IMDb edition identity is retained independently.",
+        }
     tmdb_id = identity.get("tmdbId")
     media_type = identity.get("mediaType")
     if not isinstance(tmdb_id, int) or media_type not in {"movie", "series"}:
@@ -218,6 +288,9 @@ def tmdb_fallback(imdb_id: str, identity: dict, token: str) -> dict:
 def audit(config: ArtworkConfig, workers: int) -> dict:
     titles = published_titles(config)
     identities = reviewed_identities(config)
+    contracts = load_json(config.contracts_path)
+    season_posters = reviewed_season_posters(contracts, titles)
+    tvdb_posters = tvdb_poster_sources(contracts, titles)
     missing_identity = sorted(set(titles) - set(identities))
     if missing_identity:
         raise ArtworkError(
@@ -249,10 +322,10 @@ def audit(config: ArtworkConfig, workers: int) -> dict:
                 f"{TOKEN_ENV} is required to review {len(missing)} MetaHub gaps"
             )
         for imdb_id in missing:
-            fallback = tmdb_fallback(imdb_id, identities[imdb_id], token)
+            fallback = tmdb_fallback(imdb_id, identities[imdb_id], token, season_posters.get(imdb_id))
+            fallback = tvdb_fallback(imdb_id, fallback, tvdb_posters.get(imdb_id))
             fallbacks.append({**titles[imdb_id], **identities[imdb_id], **fallback})
 
-    contracts = load_json(config.contracts_path)
     configured_overrides = contracts.get("posterOverrides", {})
     configured_unavailable = contracts.get("knownUnavailablePosters", [])
     if not isinstance(configured_overrides, dict) or not isinstance(
@@ -276,7 +349,8 @@ def audit(config: ArtworkConfig, workers: int) -> dict:
         "publishedUniqueTitleCount": len(titles),
         "metaHubAvailableCount": len(titles) - len(missing),
         "metaHubMissingCount": len(missing),
-        "tmdbFallbackCount": len(expected_overrides),
+        "tmdbFallbackCount": sum(bool(entry["posterUrl"]) and "reviewedTvdbPoster" not in entry for entry in fallbacks),
+        "tvdbFallbackCount": sum("reviewedTvdbPoster" in entry for entry in fallbacks),
         "knownUnavailableCount": len(expected_unavailable),
         "fallbackReview": fallbacks,
         "expectedContract": {
@@ -294,6 +368,8 @@ def check_committed_report(config: ArtworkConfig) -> dict:
     report = load_json(config.report_path)
     titles = published_titles(config)
     contracts = load_json(config.contracts_path)
+    season_posters = reviewed_season_posters(contracts, titles)
+    tvdb_posters = tvdb_poster_sources(contracts, titles)
     expected_contract = {
         "posterOverrides": dict(sorted(contracts.get("posterOverrides", {}).items())),
         "knownUnavailablePosters": sorted(
@@ -333,6 +409,16 @@ def check_committed_report(config: ArtworkConfig) -> dict:
     )
     if set(by_imdb) != expected_gap_ids or not expected_gap_ids <= set(titles):
         raise ArtworkError(f"{config.report_path}: fallback review title set differs")
+    for imdb_id, entry in by_imdb.items():
+        if entry.get("reviewedSeasonPoster") != season_posters.get(imdb_id):
+            raise ArtworkError(f"{config.report_path}: season poster evidence differs for {imdb_id}")
+        source = tvdb_posters.get(imdb_id)
+        if entry.get("reviewedTvdbPoster") is not None or (source and entry.get("posterUrl") == source["posterUrl"]):
+            check = entry.get("tvdbPosterCheck", {})
+            if (source != entry.get("reviewedTvdbPoster") or source["posterUrl"] != entry.get("posterUrl")
+                    or check.get("url") != source["posterUrl"] or check.get("status") != 200
+                    or not check.get("contentType", "").startswith("image/")):
+                raise ArtworkError(f"{config.report_path}: TVDB poster evidence differs for {imdb_id}")
     for imdb_id, url in expected_contract["posterOverrides"].items():
         if by_imdb[imdb_id].get("posterUrl") != url:
             raise ArtworkError(
@@ -348,6 +434,7 @@ def check_committed_report(config: ArtworkConfig) -> dict:
     available = report.get("metaHubAvailableCount")
     missing = report.get("metaHubMissingCount")
     fallback_count = report.get("tmdbFallbackCount")
+    tvdb_count = report.get("tvdbFallbackCount", 0)
     unavailable_count = report.get("knownUnavailableCount")
     if (
         not all(
@@ -357,12 +444,14 @@ def check_committed_report(config: ArtworkConfig) -> dict:
                 available,
                 missing,
                 fallback_count,
+                tvdb_count,
                 unavailable_count,
             )
         )
         or available + missing != total
-        or fallback_count + unavailable_count != missing
-        or fallback_count != len(expected_contract["posterOverrides"])
+        or fallback_count + tvdb_count + unavailable_count != missing
+        or fallback_count + tvdb_count != len(expected_contract["posterOverrides"])
+        or tvdb_count != sum("reviewedTvdbPoster" in entry for entry in fallback_review)
         or unavailable_count != len(expected_contract["knownUnavailablePosters"])
     ):
         raise ArtworkError(f"{config.report_path}: artwork counts are inconsistent")
@@ -393,6 +482,7 @@ def main(config: ArtworkConfig) -> int:
                 f"{config.award_name} artwork report is valid offline: "
                 f"{report['metaHubAvailableCount']}/{report['publishedUniqueTitleCount']} "
                 f"MetaHub posters, {report['tmdbFallbackCount']} TMDB fallbacks, "
+                f"{report.get('tvdbFallbackCount', 0)} TVDB fallbacks, "
                 f"{report['knownUnavailableCount']} unavailable."
             )
             return 0
@@ -420,6 +510,7 @@ def main(config: ArtworkConfig) -> int:
         f"{config.award_name} artwork audit complete: "
         f"{report['metaHubAvailableCount']}/{report['publishedUniqueTitleCount']} "
         f"MetaHub posters, {report['tmdbFallbackCount']} TMDB fallbacks, "
+        f"{report.get('tvdbFallbackCount', 0)} TVDB fallbacks, "
         f"{report['knownUnavailableCount']} unavailable."
     )
     return 0

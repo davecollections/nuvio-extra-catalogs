@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate narrowly scoped static metadata fallbacks for BAFTA Television."""
+"""Generate shared static metadata fallbacks for BAFTA Television and Craft."""
 
 from __future__ import annotations
 
@@ -11,6 +11,8 @@ from pathlib import Path
 from bafta_artwork import published_titles
 from bafta_common import ROOT, load_json
 from bafta_metadata import (
+    CRAFT_CONFIG,
+    MetadataConfig,
     TELEVISION_CONFIG,
     contracted_fallback_ids,
     reviewed_metadata_identities,
@@ -30,8 +32,7 @@ class FallbackError(RuntimeError):
     """Raised when static metadata fallbacks cannot be reproduced safely."""
 
 
-def expected_outputs() -> tuple[dict[Path, str], list]:
-    config = TELEVISION_CONFIG
+def programme_outputs(config: MetadataConfig) -> dict[Path, str]:
     titles = published_titles(config)
     identities = reviewed_metadata_identities(config)
     contracts = load_json(config.contracts_path)
@@ -46,7 +47,6 @@ def expected_outputs() -> tuple[dict[Path, str], list]:
         raise FallbackError("metadata fallback contract contains unpublished IMDb IDs")
 
     outputs: dict[Path, str] = {}
-    fallback_types: set[str] = set()
     for imdb_id in fallback_ids:
         title = titles[imdb_id]
         identity = identities.get(imdb_id)
@@ -91,16 +91,35 @@ def expected_outputs() -> tuple[dict[Path, str], list]:
             raise FallbackError(f"{imdb_id}: invalid poster fallback")
         path = META_ROOT / media_type / f"{imdb_id}.json"
         outputs[path] = json.dumps({"meta": meta}, ensure_ascii=False, indent=2) + "\n"
-        fallback_types.add(media_type)
+    return outputs
 
-    resources = [
-        "catalog",
-        {
+
+def expected_outputs() -> tuple[dict[Path, str], list]:
+    outputs: dict[Path, str] = {}
+    for config in (TELEVISION_CONFIG, CRAFT_CONFIG):
+        programme = programme_outputs(config)
+        for path, content in programme.items():
+            if path in outputs:
+                existing = json.loads(outputs[path])["meta"]
+                candidate = json.loads(content)["meta"]
+                # Retain the released display name for a shared title, but
+                # reject incompatible identity, year or artwork evidence.
+                fields = ("id", "type", "releaseInfo", "poster", "posterShape")
+                if any(existing.get(key) != candidate.get(key) for key in fields):
+                    raise FallbackError(f"{path}: conflicting programme fallbacks")
+            else:
+                outputs[path] = content
+    fallback_ids = sorted(path.stem for path in outputs)
+    if len(fallback_ids) != len(set(fallback_ids)):
+        raise FallbackError("fallback IMDb identity appears in multiple media types")
+    types = {path.parent.name for path in outputs}
+    resources: list = ["catalog"]
+    if outputs:
+        resources.append({
             "name": "meta",
-            "types": [value for value in MEDIA_TYPES if value in fallback_types],
+            "types": [value for value in MEDIA_TYPES if value in types],
             "idPrefixes": fallback_ids,
-        },
-    ]
+        })
     return outputs, resources
 
 
@@ -159,7 +178,7 @@ def main() -> int:
         series_count = len(outputs) - movie_count
         verb = "valid" if args.check else "written"
         print(
-            f"BAFTA Television static metadata fallbacks are {verb}: "
+            f"BAFTA Television and Craft static metadata fallbacks are {verb}: "
             f"{movie_count} movie and {series_count} series routes."
         )
         return 0

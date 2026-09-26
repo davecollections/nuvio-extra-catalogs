@@ -57,6 +57,13 @@ TELEVISION_CONFIG = MetadataConfig(
     catalogue_prefix="bafta-television-",
 )
 
+CRAFT_CONFIG = MetadataConfig(
+    programme="television-craft",
+    award_body_id="bafta-television-craft",
+    award_name="BAFTA Television Craft",
+    catalogue_prefix="bafta-craft-",
+)
+
 
 def reviewed_metadata_identities(config: MetadataConfig) -> dict[str, dict]:
     identities = reviewed_identities(config)

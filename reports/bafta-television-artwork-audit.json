@@ -1,13 +1,14 @@
 {
   "schemaVersion": 1,
   "awardBodyId": "bafta-television",
-  "checkedAt": "2026-08-27",
+  "checkedAt": "2026-09-26",
   "productionPosterTemplate": "https://images.metahub.space/poster/medium/{imdb_id}/img",
-  "publishedUniqueTitleCount": 667,
-  "metaHubAvailableCount": 563,
+  "publishedUniqueTitleCount": 663,
+  "metaHubAvailableCount": 559,
   "metaHubMissingCount": 104,
-  "tmdbFallbackCount": 8,
-  "knownUnavailableCount": 96,
+  "tmdbFallbackCount": 13,
+  "tvdbFallbackCount": 2,
+  "knownUnavailableCount": 89,
   "fallbackReview": [
     {
       "imdbId": "tt0057734",
@@ -83,9 +84,20 @@
       ],
       "tmdbId": null,
       "workKey": "television:blackadderthethird:1988",
-      "posterPath": null,
-      "posterUrl": null,
-      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+      "posterPath": "/7znrOIMc5SrkTZizuJI23dOJeT5.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/7znrOIMc5SrkTZizuJI23dOJeT5.jpg",
+      "reviewedSeasonPoster": {
+        "tmdbId": 7246,
+        "seasonNumber": 3,
+        "seasonTitle": "Blackadder the Third",
+        "releaseYear": 1987,
+        "reviewNote": "The existing IMDb identity represents the 1987 third series. TMDB TV 7246 season 3 has the exact edition name and original 17 September 1987 air date, unlike the posterless split TV record. Reuse this edition-specific poster without mapping the separate IMDb ID to the whole parent series.",
+        "evidenceUrls": [
+          "https://www.imdb.com/title/tt0092324/",
+          "https://www.themoviedb.org/tv/7246/season/3"
+        ]
+      },
+      "fallbackNote": "Artwork comes from the verified matching TMDB season; the IMDb edition identity is retained independently."
     },
     {
       "imdbId": "tt0108748",
@@ -232,11 +244,11 @@
       "catalogIds": [
         "bafta-television-specialist-factual-winning-films"
       ],
-      "tmdbId": null,
+      "tmdbId": 494464,
       "workKey": "television:lslowryasimpleman:1988",
-      "posterPath": null,
-      "posterUrl": null,
-      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+      "posterPath": "/li8dpM6PA1xUJw8Qu67e8L95RON.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/li8dpM6PA1xUJw8Qu67e8L95RON.jpg",
+      "fallbackNote": "TMDB supplies an explicit poster fallback."
     },
     {
       "imdbId": "tt0283171",
@@ -402,11 +414,11 @@
       "catalogIds": [
         "bafta-television-live-event-coverage-winning-series"
       ],
-      "tmdbId": null,
+      "tmdbId": 28032,
       "workKey": "television:eurovisionsongcontest2023:2024",
-      "posterPath": null,
-      "posterUrl": null,
-      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+      "posterPath": "/kG2UO5pT91NckAe3tS6WrgxOB3P.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/kG2UO5pT91NckAe3tS6WrgxOB3P.jpg",
+      "fallbackNote": "TMDB supplies an explicit poster fallback."
     },
     {
       "imdbId": "tt0329927",
@@ -480,11 +492,11 @@
       "catalogIds": [
         "bafta-television-specialist-factual-winning-series"
       ],
-      "tmdbId": null,
+      "tmdbId": 243767,
       "workKey": "television:rhythmleavinghome:1997",
-      "posterPath": null,
-      "posterUrl": null,
-      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+      "posterPath": "/c8Lh2wYVUg6hTXMV5WXxjPIhcB5.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/c8Lh2wYVUg6hTXMV5WXxjPIhcB5.jpg",
+      "fallbackNote": "TMDB supplies an explicit poster fallback."
     },
     {
       "imdbId": "tt0388616",
@@ -673,6 +685,19 @@
       "fallbackNote": "The reviewed TMDB title has no poster."
     },
     {
+      "imdbId": "tt10069230",
+      "title": "Royal British Legion Festival of Remembrance",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-television-live-event-coverage-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:theroyalbritishlegionfestivalofremembrance:2019",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
       "imdbId": "tt10137860",
       "title": "Blue Planet Live",
       "mediaType": "series",
@@ -734,8 +759,24 @@
       "tmdbId": null,
       "workKey": "television:paris2024olympicsbbcone:2025",
       "posterPath": null,
-      "posterUrl": null,
-      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+      "posterUrl": "https://artworks.thetvdb.com/banners/v4/series/452671/posters/66a6afd574273.jpg",
+      "fallbackNote": "Verified TVDB artwork for the reviewed series; canonical work IDs are unchanged.",
+      "reviewedTvdbPoster": {
+        "tvdbId": 452671,
+        "posterUrl": "https://artworks.thetvdb.com/banners/v4/series/452671/posters/66a6afd574273.jpg",
+        "reviewNote": "Independently matched the Paris 2024 Olympic event series by event, year, host city and dated competition/ceremony episode coverage. IMDb tt12752438 is the existing reviewed event-series identity; TVDB does not supply an IMDb cross-link. The visually inspected portrait uses the Paris 2024 emblem and Olympic rings, not a generated title card. TVDB's linked TMDB 260197 now returns 404 and is not added as an identity.",
+        "evidenceUrls": [
+          "https://thetvdb.com/series/summer-olympics-paris-2024",
+          "https://www.imdb.com/title/tt12752438/",
+          "https://www.imdb.com/title/tt32110761/soundtrack/",
+          "https://www.bafta.org/awards/television/sports-coverage/"
+        ]
+      },
+      "tvdbPosterCheck": {
+        "status": 200,
+        "contentType": "image/jpeg",
+        "url": "https://artworks.thetvdb.com/banners/v4/series/452671/posters/66a6afd574273.jpg"
+      }
     },
     {
       "imdbId": "tt1346933",
@@ -801,19 +842,6 @@
       "posterPath": null,
       "posterUrl": null,
       "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
-    },
-    {
-      "imdbId": "tt14540164",
-      "title": "The Royal British Legion Festival of Remembrance",
-      "mediaType": "series",
-      "catalogIds": [
-        "bafta-television-live-event-coverage-winning-series"
-      ],
-      "tmdbId": 214354,
-      "workKey": "television:theroyalbritishlegionfestivalofremembrance:2019",
-      "posterPath": null,
-      "posterUrl": null,
-      "fallbackNote": "The reviewed TMDB title has no poster."
     },
     {
       "imdbId": "tt1461349",
@@ -911,6 +939,19 @@
       "posterPath": null,
       "posterUrl": null,
       "fallbackNote": "The reviewed TMDB title has no poster."
+    },
+    {
+      "imdbId": "tt19268738",
+      "title": "Our Land",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-short-form-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:ourland:2022",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
     },
     {
       "imdbId": "tt2004332",
@@ -1116,9 +1157,21 @@
       ],
       "tmdbId": null,
       "workKey": "television:glastonbury2024:2025",
-      "posterPath": null,
-      "posterUrl": null,
-      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+      "posterPath": "/gm2wveJtd13gtIU0cwOW5faheDb.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/gm2wveJtd13gtIU0cwOW5faheDb.jpg",
+      "reviewedSeasonPoster": {
+        "tmdbId": 317120,
+        "seasonNumber": 28,
+        "seasonTitle": "Glastonbury 2024",
+        "releaseYear": 2024,
+        "reviewNote": "IMDb identifies the 2024 BBC coverage as a separate event series; TMDB represents the same broadcast year as season 28 of Glastonbury. The edition title, June 2024 dates and Dua Lipa/Coldplay coverage match the official festival BBC announcement. Use only this edition poster, without asserting that its IMDb ID represents the full 1997-onward TMDB series.",
+        "evidenceUrls": [
+          "https://www.imdb.com/title/tt36564052/",
+          "https://www.themoviedb.org/tv/317120/season/28",
+          "https://www.glastonburyfestivals.co.uk/news/dua-lipa-and-coldplay-sets-to-be-livestreamed-globally/"
+        ]
+      },
+      "fallbackNote": "Artwork comes from the verified matching TMDB season; the IMDb edition identity is retained independently."
     },
     {
       "imdbId": "tt37740869",
@@ -1132,19 +1185,6 @@
       "posterPath": null,
       "posterUrl": null,
       "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
-    },
-    {
-      "imdbId": "tt3779844",
-      "title": "The Open",
-      "mediaType": "movie",
-      "catalogIds": [
-        "bafta-television-sports-coverage-winning-films"
-      ],
-      "tmdbId": 368926,
-      "workKey": "television:theopen:2017",
-      "posterPath": null,
-      "posterUrl": null,
-      "fallbackNote": "The reviewed TMDB title has no poster."
     },
     {
       "imdbId": "tt38526010",
@@ -1325,8 +1365,22 @@
       "tmdbId": 298532,
       "workKey": "television:morganarobinsonssummer:2018",
       "posterPath": null,
-      "posterUrl": null,
-      "fallbackNote": "The reviewed TMDB title has no poster."
+      "posterUrl": "https://artworks.thetvdb.com/banners/v4/series/408509/posters/62b2e58e2a151.jpg",
+      "fallbackNote": "Verified TVDB artwork for the reviewed series; canonical work IDs are unchanged.",
+      "reviewedTvdbPoster": {
+        "tvdbId": 408509,
+        "posterUrl": "https://artworks.thetvdb.com/banners/v4/series/408509/posters/62b2e58e2a151.jpg",
+        "reviewNote": "TVDB links IMDb tt7176698 and identifies the seven-episode Sky Arts series first broadcast 20 July 2017. The portrait Comedy Shorts beach artwork was visually inspected; this is existing source artwork, not a generated placeholder.",
+        "evidenceUrls": [
+          "https://thetvdb.com/series/summer-comedy-shorts",
+          "https://www.imdb.com/title/tt7176698/"
+        ]
+      },
+      "tvdbPosterCheck": {
+        "status": 200,
+        "contentType": "image/jpeg",
+        "url": "https://artworks.thetvdb.com/banners/v4/series/408509/posters/62b2e58e2a151.jpg"
+      }
     },
     {
       "imdbId": "tt7205604",
@@ -1375,7 +1429,10 @@
         "bafta-television-sports-coverage-winning-series"
       ],
       "tmdbId": null,
-      "workKey": "television:theashesenglandvaustralia:2006",
+      "workKeys": [
+        "television:theashes:2016",
+        "television:theashesenglandvaustralia:2006"
+      ],
       "posterPath": null,
       "posterUrl": null,
       "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
@@ -1397,20 +1454,26 @@
   "expectedContract": {
     "posterOverrides": {
       "tt0057982": "https://image.tmdb.org/t/p/w500/hptZ0wiHRbQqODlfrOcnWAQpA6v.jpg",
+      "tt0092324": "https://image.tmdb.org/t/p/w500/7znrOIMc5SrkTZizuJI23dOJeT5.jpg",
       "tt0174882": "https://image.tmdb.org/t/p/w500/2rjRNEqKiIsVS5HSLTMPqAwmvMY.jpg",
+      "tt0269866": "https://image.tmdb.org/t/p/w500/li8dpM6PA1xUJw8Qu67e8L95RON.jpg",
       "tt0307093": "https://image.tmdb.org/t/p/w500/k5xYBaEmWv2AliDAEee9c97592b.jpg",
+      "tt0313343": "https://image.tmdb.org/t/p/w500/kG2UO5pT91NckAe3tS6WrgxOB3P.jpg",
       "tt0329927": "https://image.tmdb.org/t/p/w500/2Cl5HDJP1iZfCcdET9bnCVdXO9e.jpg",
+      "tt0379127": "https://image.tmdb.org/t/p/w500/c8Lh2wYVUg6hTXMV5WXxjPIhcB5.jpg",
       "tt0449030": "https://image.tmdb.org/t/p/w500/iUTuimPuOXkC2D5gbV5RluLLnHq.jpg",
       "tt10137860": "https://image.tmdb.org/t/p/w500/zCqDrrcJBZddEmBg9STYxcJu0CD.jpg",
+      "tt12752438": "https://artworks.thetvdb.com/banners/v4/series/452671/posters/66a6afd574273.jpg",
+      "tt36564052": "https://image.tmdb.org/t/p/w500/gm2wveJtd13gtIU0cwOW5faheDb.jpg",
       "tt38526010": "https://image.tmdb.org/t/p/w500/7BsNbVUrxvpjbgemEitz1ds6BTT.jpg",
-      "tt5123004": "https://image.tmdb.org/t/p/w500/uwCEpnDjOpXrxmUNy87kr9E6SKt.jpg"
+      "tt5123004": "https://image.tmdb.org/t/p/w500/uwCEpnDjOpXrxmUNy87kr9E6SKt.jpg",
+      "tt7176698": "https://artworks.thetvdb.com/banners/v4/series/408509/posters/62b2e58e2a151.jpg"
     },
     "knownUnavailablePosters": [
       "tt0057734",
       "tt0058856",
       "tt0067875",
       "tt0087725",
-      "tt0092324",
       "tt0108748",
       "tt0110800",
       "tt0159228",
@@ -1420,7 +1483,6 @@
       "tt0229912",
       "tt0264999",
       "tt0267154",
-      "tt0269866",
       "tt0283171",
       "tt0294156",
       "tt0294205",
@@ -1431,12 +1493,10 @@
       "tt0297595",
       "tt0305390",
       "tt0309129",
-      "tt0313343",
       "tt0350920",
       "tt0357396",
       "tt0367292",
       "tt0367296",
-      "tt0379127",
       "tt0388616",
       "tt0397203",
       "tt0405611",
@@ -1450,16 +1510,15 @@
       "tt0913749",
       "tt0958966",
       "tt0990517",
+      "tt10069230",
       "tt10998480",
       "tt11608566",
       "tt12740018",
-      "tt12752438",
       "tt1346933",
       "tt1351662",
       "tt13801796",
       "tt13839292",
       "tt1384817",
-      "tt14540164",
       "tt1461349",
       "tt1498696",
       "tt15194044",
@@ -1467,6 +1526,7 @@
       "tt1646040",
       "tt1817823",
       "tt1887593",
+      "tt19268738",
       "tt2004332",
       "tt20124924",
       "tt20447178",
@@ -1482,9 +1542,7 @@
       "tt31848311",
       "tt32085850",
       "tt32189654",
-      "tt36564052",
       "tt37740869",
-      "tt3779844",
       "tt39074249",
       "tt4326224",
       "tt43277628",
@@ -1496,7 +1554,6 @@
       "tt6282482",
       "tt6433734",
       "tt6556570",
-      "tt7176698",
       "tt7205604",
       "tt8039182",
       "tt8218408",
