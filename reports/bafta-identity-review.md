@@ -9,15 +9,15 @@ The committed BAFTA snapshots decide award facts. This report inventories only w
 - Selected work-linked winner records: **2,829**
 - Selected work links: **2,917**
 - Award-year-scoped work identities: **2,096**
-- Resolved identities: **2,059** (1,086 movies; 973 series)
-- Reviewed non-catalogue outcomes: **37**
+- Resolved identities: **2,057** (1,083 movies; 974 series)
+- Reviewed non-catalogue outcomes: **39**
 - Unresolved identities: **0**
 - Unattempted identities: **0**
 - No exact-title candidate: **0**
 - Multiple plausible exact-title candidates: **0**
 - Candidate evidence without an acceptable IMDb/date relationship: **0**
 
-## Reviewed non-catalogue outcomes (37)
+## Reviewed non-catalogue outcomes (39)
 
 These winner facts remain preserved, but no compatible IMDb-backed catalogue identity was found during explicit review.
 
@@ -31,8 +31,10 @@ These winner facts remain preserved, but no compatible IMDb-backed catalogue ide
 | Brief Lives | television; award 1969; television-leading-actor; nomination 345614 | no-compatible-imdb-identity: The exact legacy series Brief Lives is preserved as TMDB series 49086, but that record has no IMDb relationship and no compatible alternative identity was found. |
 | CBeebies As You Like It at Shakespeare's Globe | television; award 2025; television-childrens-scripted; nomination 368206 | no-compatible-imdb-identity: CBeebies: As You Like It at Shakespeare's Globe is verified by BAFTA, but review found no exact compatible IMDb title; the generic CBeebies brand is too broad to substitute as a parent series. |
 | Channel 4 Cricket | television; award 2002; television-sports-coverage; nomination 347777 | no-compatible-imdb-identity: Channel 4 Cricket is preserved as TMDB series 47554, but the reviewed record has no IMDb relationship and no compatible broadcast-series identity was found. |
+| Children Of The Revolution | television; award 1996; television-specialist-factual; nomination 347315 | no-compatible-imdb-identity: BAFTA credits John Wyver and David Hinton; Illuminations identifies their 1995 BBC Tx arts documentary. No compatible IMDb identity was verified in the live title and director-filmography review. Reject the unrelated Australian Peter Duncan fiction tt0115886 / TMDB 9977. Preserve the award and named recipients in canonical history, withhold the incorrect catalogue item. |
 | Circuit 11 Miami | television; award 1980; television-factual-series; nomination 346247 | no-compatible-imdb-identity: Circuit 11 Miami is preserved as TMDB series 49076, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
 | Deutsche Olympische Zentrum (Munich Olympic Games) | television; award 1973; television-international; nomination 345796 | no-compatible-imdb-identity: The Deutsche Olympische Zentrum Munich Olympic Games production is preserved by BAFTA's 1973 record, but review found no compatible IMDb title identity. |
+| Evicted | television; award 2007; television-single-documentary; nomination 348135 | no-compatible-imdb-identity: BAFTA and True Vision identify Brian Woods and Deborah Shipley's 2006 BBC documentary Evicted: The Hidden Homeless. TMDB movie 535782 matches all four BAFTA credits and has artwork, but has no IMDb external ID; an independent compatible IMDb identity was not verified. Reject the unrelated 2004 American party comedy tt0158607 / TMDB 296672. Preserve the winner and known production evidence without publishing the wrong film. |
 | Hospital: Casualty | television; award 1978; television-single-documentary; nomination 346091 | no-compatible-imdb-identity: Hospital: Casualty is preserved as TMDB series 47920, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |
 | Just Pet (Musical) | television; award 1970; television-entertainment; nomination 345658 | no-compatible-imdb-identity: The 1969 BBC Petula Clark special Just Pet (Musical) is verified by BAFTA, but review found no compatible IMDb identity; unrelated US Petula specials must not be substituted. |
 | L'Aiguille Du Midi | television; award 1963; television-international; nomination 356874 | no-compatible-imdb-identity: L'Aiguille Du Midi is preserved as TMDB series 48129, but the reviewed record has no IMDb relationship and no compatible alternative identity was found. |

@@ -7,6 +7,7 @@
   "metaHubAvailableCount": 381,
   "metaHubMissingCount": 53,
   "tmdbFallbackCount": 11,
+  "tvdbFallbackCount": 0,
   "knownUnavailableCount": 42,
   "fallbackReview": [
     {

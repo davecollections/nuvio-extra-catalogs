@@ -19,11 +19,20 @@ from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 from bafta_artwork import POSTER_TEMPLATE, check_metahub
-from bafta_common import ROOT, load_json
+from bafta_common import (
+    ROOT, SOURCE_DIR, current_programme_for_category, load_json,
+    selected_winners, work_key,
+)
+from build_bafta_identity_seed import GENERIC_RECIPIENTS
 from enrich_bafta_identities import api_json
 from enrich_golden_globes_identities import normalized_title
 
 REPORT = ROOT / "reports" / "awards-work-mapping-audit.json"
+# These diagnostics expose incomplete production-credit evidence. Recording
+# them as pending is not a human approval or proof of an incorrect identity.
+PENDING_PRODUCTION_FLAGS = {
+    "production-credit-review", "production-without-named-credits-review",
+}
 
 
 def inventory() -> tuple[dict[str, dict], str]:
@@ -68,6 +77,25 @@ def inventory() -> tuple[dict[str, dict], str]:
                 entry[field] = sorted(value)
         if not entry["sourceFiles"]:
             raise ValueError(f"Published identity has no canonical source: {entry['imdbId']}")
+    # Retain the original award production/recipient context, which a matching
+    # IMDb/TMDB pair alone cannot establish (e.g. Our Land, The Open, The Ashes).
+    identity_path = SOURCE_DIR / "identity-map.json"
+    paths.add(identity_path)
+    identities = {row["key"]: row for row in load_json(identity_path)["works"]}
+    for selected in selected_winners():
+        if current_programme_for_category(selected["category"]["id"]) != "television":
+            continue
+        identity = identities[work_key(selected)]
+        resolution = identity.get("resolution", {})
+        key = f"{resolution.get('mediaType')}:{resolution.get('imdbId')}"
+        if key not in entries:
+            continue
+        context = {"workKey": identity["key"], "sourceTitle": selected["workTitle"],
+                   "awardYear": selected["year"], "categoryId": selected["category"]["id"],
+                   "creditNames": selected["recipientValues"], "method": resolution["method"]}
+        contexts = entries[key].setdefault("productionContexts", [])
+        if context not in contexts:
+            contexts.append(context)
     digest = hashlib.sha256()
     for path in sorted(paths):
         digest.update(path.relative_to(ROOT).as_posix().encode())
@@ -107,11 +135,24 @@ def inspect(entry: dict, token: str) -> dict:
     kind = "tv" if entry["mediaType"] == "series" else "movie"
     mapped = []
     for tmdb_id in entry["tmdbIds"]:
+        append = "external_ids,alternative_titles" if kind == "movie" else "external_ids,alternative_names"
+        if entry.get("productionContexts"):
+            append += ",credits"
         data = api_json(f"/{kind}/{tmdb_id}", token, {
-            "append_to_response": "external_ids,alternative_titles" if kind == "movie" else "external_ids,alternative_names",
+            "append_to_response": append,
             "language": "en-US",
         })
-        mapped.append(summary_record(data, kind))
+        record = summary_record(data, kind)
+        if entry.get("productionContexts"):
+            credits = data.get("credits", {})
+            record["production"] = {"overview": data.get("overview"),
+                "genres": [g["name"] for g in data.get("genres", [])],
+                "countries": [c["iso_3166_1"] for c in data.get("production_countries", [])],
+                "companies": [c["name"] for c in data.get("production_companies", [])],
+                "credits": [{k: c[k] for k in ("id", "name", "job", "character") if k in c}
+                            for c in credits.get("cast", []) + credits.get("crew", [])],
+                "creators": [c["name"] for c in data.get("created_by", [])]}
+        mapped.append(record)
     found = api_json(f"/find/{entry['imdbId']}", token, {"external_source": "imdb_id"})
     candidates = []
     for result_kind, field in (("movie", "movie_results"), ("tv", "tv_results"), ("tv_episode", "tv_episode_results")):
@@ -139,6 +180,20 @@ def flags(entry: dict, evidence: dict) -> list[str]:
         result.append("canonical-release-after-award-review")
     if not evidence["mapped"]:
         result.append("no-reviewed-tmdb-mapping")
+    contexts = entry.get("productionContexts", [])
+    if contexts and evidence["mapped"]:
+        production = [record.get("production") for record in evidence["mapped"]]
+        if any(not isinstance(record, dict) for record in production):
+            result.append("production-evidence-missing")
+        else:
+            actual_names = {normalized_title(name) for record in production
+                            for name in [c["name"] for c in record["credits"]] + record["creators"]}
+            named = {normalized_title(name) for context in contexts for name in context["creditNames"]
+                     if normalized_title(name) not in GENERIC_RECIPIENTS and not normalized_title(name).endswith("team")}
+            if named and not named & actual_names:
+                result.append("production-credit-review")
+            if not named and any(context["method"] == "tmdb-exact-title-media-and-award-window" for context in contexts):
+                result.append("production-without-named-credits-review")
     normalized = {normalized_title(t) for t in entry["titles"]}
     for mapped in evidence["mapped"]:
         if mapped["imdbId"] != entry["imdbId"]:
@@ -172,7 +227,11 @@ def validate_review(key: str, row: dict) -> None:
         return
     review = row.get("review", {})
     notes = review.get("flagNotes", {})
-    if review.get("basisSha256") != review_basis(row) or set(notes) != set(row["flags"]):
+    pending_list = review.get("pendingFlags", [])
+    pending = set(pending_list)
+    if (len(pending) != len(pending_list) or not pending <= PENDING_PRODUCTION_FLAGS
+            or pending & set(notes) or set(notes) | pending != set(row["flags"])
+            or review.get("basisSha256") != review_basis(row)):
         raise ValueError(f"Missing or stale flag review: {key}")
     if not all(isinstance(note, str) and note.strip() for note in notes.values()):
         raise ValueError(f"Empty flag review: {key}")
@@ -190,8 +249,11 @@ def main() -> int:
     parser.add_argument("--cache", type=Path, help="Live evidence checkpoint; retain between interrupted runs.")
     parser.add_argument("--workers", type=int, default=6)
     parser.add_argument("--offline-check", action="store_true")
+    parser.add_argument("--refresh-award-body", help="Recheck every published work in this award body, retaining other valid checkpoints.")
     args = parser.parse_args()
     entries, digest = inventory()
+    if args.refresh_award_body and not any(args.refresh_award_body in e["awardBodies"] for e in entries.values()):
+        parser.error("unknown or unpublished award body")
     if args.offline_check:
         report = load_json(REPORT)
         if report.get("inputSha256") != digest or set(report["entries"]) != set(entries):
@@ -203,7 +265,9 @@ def main() -> int:
             if "external-service-error" in row["flags"]:
                 raise ValueError(f"Unresolved service error: {key}")
             validate_review(key, row)
-        print(f"Work mapping audit covers all {len(entries)} published identities with recorded flag dispositions.")
+        pending = sum(bool(row.get("review", {}).get("pendingFlags")) for row in report["entries"].values())
+        print(f"Work mapping evidence covers all {len(entries)} published identities; "
+              f"{pending} production-credit checks remain explicitly pending human review.")
         return 0
     if not 1 <= args.workers <= 16:
         raise ValueError("workers must be between 1 and 16")
@@ -214,7 +278,8 @@ def main() -> int:
     for key, entry in entries.items():
         signature = hashlib.sha256(json.dumps(entry, sort_keys=True).encode()).hexdigest()
         old = cache.get(key, {})
-        if old.get("signature") == signature and not old.get("evidence", {}).get("error"):
+        refresh = args.refresh_award_body in entry["awardBodies"] if args.refresh_award_body else False
+        if not refresh and old.get("signature") == signature and not old.get("evidence", {}).get("error"):
             rows[key] = old
         else:
             pending.append((key, entry, signature))

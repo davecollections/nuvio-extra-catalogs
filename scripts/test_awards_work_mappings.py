@@ -30,6 +30,37 @@ class WorkMappingTests(unittest.TestCase):
         self.evidence["mapped"][0]["imdbId"] = "tt999"
         self.assertIn("tmdb-imdb-conflict", flags(self.entry, self.evidence))
 
+    def test_matching_ids_and_poster_do_not_confirm_awarded_production(self):
+        self.entry["productionContexts"] = [{"creditNames": ["Awarded Director"],
+            "method": "tmdb-exact-title-media-and-award-window"}]
+        self.evidence["mapped"][0]["production"] = {
+            "credits": [{"name": "Different Director"}], "creators": []}
+        self.assertIn("production-credit-review", flags(self.entry, self.evidence))
+        self.evidence["mapped"][0]["production"]["credits"] = [{"name": "Awarded Director"}]
+        self.assertNotIn("production-credit-review", flags(self.entry, self.evidence))
+
+    def test_generic_credit_does_not_certify_automatic_title_match(self):
+        self.entry["productionContexts"] = [{"creditNames": ["Production Team"],
+            "method": "tmdb-exact-title-media-and-award-window"}]
+        self.evidence["mapped"][0]["production"] = {"credits": [], "creators": []}
+        self.assertIn("production-without-named-credits-review", flags(self.entry, self.evidence))
+
+    def test_missing_production_response_cannot_silently_pass(self):
+        self.entry["productionContexts"] = [{"creditNames": ["Director"], "method": "reviewed-manual-override"}]
+        self.assertIn("production-evidence-missing", flags(self.entry, self.evidence))
+
+    def test_pending_credit_check_cannot_approve_identity_conflict(self):
+        row = {"inventory": self.entry, "evidence": self.evidence,
+               "flags": ["production-credit-review"]}
+        row["review"] = {"basisSha256": review_basis(row), "flagNotes": {},
+                         "pendingFlags": ["production-credit-review"]}
+        validate_review("series:tt123", row)
+        row["flags"] = ["tmdb-imdb-conflict"]
+        row["review"] = {"basisSha256": review_basis(row), "flagNotes": {},
+                         "pendingFlags": ["tmdb-imdb-conflict"]}
+        with self.assertRaises(ValueError):
+            validate_review("series:tt123", row)
+
     def test_episode_lookup_does_not_confirm_series(self):
         self.evidence["externalLookup"] = [{"mediaType": "tv_episode", "tmdbId": 1}]
         self.assertIn("external-lookup-media-review", flags(self.entry, self.evidence))

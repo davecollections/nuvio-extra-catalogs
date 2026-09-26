@@ -12,8 +12,8 @@
       "metaTemplate": "https://v3-cinemeta.strem.io/meta/{media_type}/{imdb_id}.json"
     }
   },
-  "publishedUniqueTitleCount": 665,
-  "nuvioResolvedCount": 614,
+  "publishedUniqueTitleCount": 663,
+  "nuvioResolvedCount": 612,
   "nuvioUnresolvedCount": 51,
   "cinemetaResolvedAmongNuvioGapsCount": 38,
   "unresolvedByEitherCount": 13,

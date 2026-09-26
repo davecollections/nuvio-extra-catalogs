@@ -26365,12 +26365,13 @@
       "mediaScope": "mixed",
       "resolution": {
         "mediaType": "movie",
-        "title": "Beyond the Clouds",
-        "releaseYear": 1995,
-        "tmdbId": 33517,
-        "imdbId": "tt0114086",
-        "method": "tmdb-exact-title-media-and-award-window"
-      }
+        "title": "China: Beyond the Clouds",
+        "releaseYear": 1994,
+        "tmdbId": 521063,
+        "imdbId": "tt0109419",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "BAFTA credits Phil Agland for the 1994 China documentary, also identified by River Films and IMDb as China: Beyond the Clouds. Replace the unrelated Antonioni/Wenders fiction tt0114086 / TMDB 33517. Retain the compatible IMDb TV-movie representation of the documentary series. This shared source key also corrects Television Craft."
     },
     {
       "key": "television:bigbluelive:2016",
@@ -28700,13 +28701,10 @@
         "347315"
       ],
       "mediaScope": "mixed",
-      "resolution": {
-        "mediaType": "movie",
-        "title": "Children of the Revolution",
-        "releaseYear": 1996,
-        "tmdbId": 9977,
-        "imdbId": "tt0115886",
-        "method": "tmdb-exact-title-media-and-award-window"
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "BAFTA credits John Wyver and David Hinton; Illuminations identifies their 1995 BBC Tx arts documentary. No compatible IMDb identity was verified in the live title and director-filmography review. Reject the unrelated Australian Peter Duncan fiction tt0115886 / TMDB 9977. Preserve the award and named recipients in canonical history, withhold the incorrect catalogue item.",
+        "mediaType": "movie"
       }
     },
     {
@@ -32167,13 +32165,10 @@
         "348135"
       ],
       "mediaScope": "mixed",
-      "resolution": {
-        "mediaType": "movie",
-        "title": "Evicted",
-        "releaseYear": 2004,
-        "tmdbId": 296672,
-        "imdbId": "tt0158607",
-        "method": "tmdb-exact-title-media-and-award-window"
+      "reviewOutcome": {
+        "disposition": "no-compatible-imdb-identity",
+        "reason": "BAFTA and True Vision identify Brian Woods and Deborah Shipley's 2006 BBC documentary Evicted: The Hidden Homeless. TMDB movie 535782 matches all four BAFTA credits and has artwork, but has no IMDb external ID; an independent compatible IMDb identity was not verified. Reject the unrelated 2004 American party comedy tt0158607 / TMDB 296672. Preserve the winner and known production evidence without publishing the wrong film.",
+        "mediaType": "movie"
       }
     },
     {
@@ -47446,13 +47441,14 @@
       ],
       "mediaScope": "mixed",
       "resolution": {
-        "mediaType": "movie",
-        "title": "Tanner",
-        "releaseYear": 1986,
-        "tmdbId": 198053,
-        "imdbId": "tt0143860",
-        "method": "tmdb-exact-title-media-and-award-window"
-      }
+        "mediaType": "series",
+        "title": "Tanner '88",
+        "releaseYear": 1988,
+        "tmdbId": 1804,
+        "imdbId": "tt0094562",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "BAFTA credits Robert Altman. Criterion identifies his 1988 HBO political series Tanner 88, and live TMDB TV 1804 links IMDb tt0094562. Replace the unrelated 1986 Swiss farming film tt0143860 / TMDB 198053 and move this work relationship to the existing series catalogue."
     },
     {
       "key": "television:taskmaster:2020",
@@ -58284,12 +58280,13 @@
       "mediaScope": "mixed",
       "resolution": {
         "mediaType": "series",
-        "title": "Wife Swap",
-        "releaseYear": 2004,
-        "tmdbId": 4393,
-        "imdbId": "tt0411040",
-        "method": "tmdb-exact-title-media-and-award-window"
-      }
+        "title": "Wife Swap UK",
+        "releaseYear": 2003,
+        "tmdbId": 135961,
+        "imdbId": "tt0392948",
+        "method": "reviewed-manual-override"
+      },
+      "reviewNote": "The 2004 BAFTA Factual Entertainment award is for the original Channel 4/RDF British series from 2003, confirmed by IMDb and Channel 4 annual reporting. Replace the American ABC adaptation tt0411040 / TMDB 4393, which premiered later in September 2004."
     },
     {
       "key": "television:wilderness:2024",

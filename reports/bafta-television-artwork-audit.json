@@ -3,11 +3,12 @@
   "awardBodyId": "bafta-television",
   "checkedAt": "2026-09-26",
   "productionPosterTemplate": "https://images.metahub.space/poster/medium/{imdb_id}/img",
-  "publishedUniqueTitleCount": 665,
-  "metaHubAvailableCount": 561,
+  "publishedUniqueTitleCount": 663,
+  "metaHubAvailableCount": 559,
   "metaHubMissingCount": 104,
-  "tmdbFallbackCount": 12,
-  "knownUnavailableCount": 90,
+  "tmdbFallbackCount": 13,
+  "tvdbFallbackCount": 2,
+  "knownUnavailableCount": 89,
   "fallbackReview": [
     {
       "imdbId": "tt0057734",
@@ -83,9 +84,20 @@
       ],
       "tmdbId": null,
       "workKey": "television:blackadderthethird:1988",
-      "posterPath": null,
-      "posterUrl": null,
-      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+      "posterPath": "/7znrOIMc5SrkTZizuJI23dOJeT5.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/7znrOIMc5SrkTZizuJI23dOJeT5.jpg",
+      "reviewedSeasonPoster": {
+        "tmdbId": 7246,
+        "seasonNumber": 3,
+        "seasonTitle": "Blackadder the Third",
+        "releaseYear": 1987,
+        "reviewNote": "The existing IMDb identity represents the 1987 third series. TMDB TV 7246 season 3 has the exact edition name and original 17 September 1987 air date, unlike the posterless split TV record. Reuse this edition-specific poster without mapping the separate IMDb ID to the whole parent series.",
+        "evidenceUrls": [
+          "https://www.imdb.com/title/tt0092324/",
+          "https://www.themoviedb.org/tv/7246/season/3"
+        ]
+      },
+      "fallbackNote": "Artwork comes from the verified matching TMDB season; the IMDb edition identity is retained independently."
     },
     {
       "imdbId": "tt0108748",
@@ -1417,13 +1429,13 @@
         "bafta-television-sports-coverage-winning-series"
       ],
       "tmdbId": null,
-      "posterPath": null,
-      "posterUrl": null,
-      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship.",
       "workKeys": [
         "television:theashes:2016",
         "television:theashesenglandvaustralia:2006"
-      ]
+      ],
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
     },
     {
       "imdbId": "tt9406728",
@@ -1442,6 +1454,7 @@
   "expectedContract": {
     "posterOverrides": {
       "tt0057982": "https://image.tmdb.org/t/p/w500/hptZ0wiHRbQqODlfrOcnWAQpA6v.jpg",
+      "tt0092324": "https://image.tmdb.org/t/p/w500/7znrOIMc5SrkTZizuJI23dOJeT5.jpg",
       "tt0174882": "https://image.tmdb.org/t/p/w500/2rjRNEqKiIsVS5HSLTMPqAwmvMY.jpg",
       "tt0269866": "https://image.tmdb.org/t/p/w500/li8dpM6PA1xUJw8Qu67e8L95RON.jpg",
       "tt0307093": "https://image.tmdb.org/t/p/w500/k5xYBaEmWv2AliDAEee9c97592b.jpg",
@@ -1461,7 +1474,6 @@
       "tt0058856",
       "tt0067875",
       "tt0087725",
-      "tt0092324",
       "tt0108748",
       "tt0110800",
       "tt0159228",
@@ -1549,6 +1561,5 @@
       "tt9406728"
     ]
   },
-  "currentContractMatchesLiveReview": true,
-  "tvdbFallbackCount": 2
+  "currentContractMatchesLiveReview": true
 }

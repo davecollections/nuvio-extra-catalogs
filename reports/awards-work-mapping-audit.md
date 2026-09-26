@@ -2,11 +2,11 @@
 
 Reviewed 2026-09-26 for Issues #41 and #43, before V1.4 owner acceptance.
 
-All 172 published catalogues were inventoried: **3,235 unique works** (2,306 movies and 929 series), covering Academy Awards, Golden Globes, BAFTA Film, BAFTA Television and BAFTA Television Craft. Every published item has canonical award provenance. The scan found no conflicting canonical TMDB IDs for one work, no IMDb ID published under both media types, and no mapped TMDB record linking a different IMDb ID.
+All 172 published catalogues were inventoried: **3,233 unique works** (2,303 movies and 930 series), covering Academy Awards, Golden Globes, BAFTA Film, BAFTA Television and BAFTA Television Craft. Every published item has canonical award provenance. The scan found no conflicting canonical TMDB IDs for one work, no IMDb ID published under both media types, and no mapped TMDB record linking a different IMDb ID. The production corrections below show why this consistency alone does not establish the correct award-winning work.
 
 The live pass checked each catalogue poster URL, each stored TMDB work ID and its external IDs, and TMDB’s IMDb lookup even where a poster already loaded. Missing-poster and IMDb-only records also received title searches (the first result page for up to two canonical title forms). This is a consistency and exception review of the existing source-backed mappings, not a new manual transcription of every historical award or a visual review of every poster. Full Nuvio detail-provider coverage remains recorded separately in the BAFTA metadata audits.
 
-**3,084 works have an available image; 151 still have no verified available poster.** There were zero external-service failures in the completed scan. The 230 entries with flags have recorded dispositions tied to a hash of their evidence. One candidate identity ambiguity remains open, as described below.
+**3,083 works have an available image; 150 still have no verified available poster.** There were zero external-service failures in the completed scan. The report has 359 flagged entries. Existing title/ID/poster dispositions remain tied to their evidence; **145 new production-credit checks are explicitly pending human review**, not approved or silently cleared. Their diagnostics reflect absent named credits or incomplete provider credit lists, which do not establish that the production is wrong. The Trouble in Tahiti candidate ambiguity and newly withheld productions are described below.
 
 ## Changes
 
@@ -32,7 +32,7 @@ Counts below are unique within each award body; a work can occur in more than on
 | academy-awards | 1265 | 1261 | 4 |
 | golden-globes | 1065 | 1065 | 0 |
 | bafta-film | 821 | 801 | 20 |
-| bafta-television | 665 | 575 | 90 |
+| bafta-television | 663 | 574 | 89 |
 | bafta-television-craft | 434 | 392 | 42 |
 
 ## Identity exceptions
@@ -68,9 +68,38 @@ All 16 remaining sports-series MetaHub routes were checked live: three images lo
 
 The released Sports Coverage Films catalogue ID and preset route remain available with an empty metas array. Existing installations keep their stable route; they no longer receive either unrelated film. The series route retains 16 unique sports titles, with The Ashes ordered by its latest win. Direct saves of the incorrect fiction IDs are not redirected. See the [correction and migration record](../docs/awards-corrections.md).
 
+## Fresh Television pass and children's screenshot
+
+The owner requested a fresh whole-Television pass. All 665 then-published identities were fetched again, including each production poster URL, TMDB detail/external-ID response, IMDb lookup and missing-image title search. Stored TMDB records also received production synopses, countries and credits alongside the original BAFTA winner title and named recipients. This found five wrong-production mappings whose reciprocal IDs and posters had previously appeared consistent:
+
+| Award title | Action and production evidence |
+| --- | --- |
+| Beyond the Clouds (1995) | Replace the Antonioni/Wenders fiction with Phil Agland's *China: Beyond the Clouds* (1994), IMDb tt0109419 / TMDB movie 521063. [River Films](https://www.river-films.com/beyond-the-clouds) and [IMDb](https://www.imdb.com/title/tt0109419/) identify the documentary. Its compatible TV-movie identity also corrects the shared Craft entry. |
+| Tanner (1989) | Replace the Swiss farming film with Robert Altman's *Tanner '88*, IMDb tt0094562 / TMDB TV 1804; move to the existing International series route. [BAFTA](https://www.bafta.org/awards/television/?award-year=1989) names Altman, and [Criterion](https://www.criterion.com/films/952-tanner-88) identifies the series. |
+| Wife Swap (2004) | Replace the American adaptation with the original British Channel 4/RDF series, IMDb tt0392948 / TMDB TV 135961. [IMDb](https://www.imdb.com/title/tt0392948/) and [Channel 4's 2003 report](https://assets-corporate.channel4.com/_flysystem/s3/2017-06/annual_report_2003.pdf) identify the production. |
+| Children of the Revolution (1996) | Withhold the unrelated Australian fiction. [BAFTA](https://www.bafta.org/awards/television/huw-wheldon-award-for-the-best-arts-programme/) and [Illuminations](https://www.illuminationsmedia.co.uk/our-history/) identify David Hinton/John Wyver's 1995 arts documentary, but a compatible IMDb identity was not verified. The award facts remain in canonical history. |
+| Evicted (2007) | Withhold the unrelated American comedy. [True Vision](https://www.truevisiontv.com/films/evicted-the-hidden-homeless) identifies Brian Woods's 2006 documentary. TMDB movie 535782 matches all four BAFTA credits and has artwork, but has no IMDb link. This is an unresolved compatible identity, not a no-artwork claim. |
+
+All three verified replacement IDs resolve through Nuvio's production metadata route and have working MetaHub posters. The remaining **663 Television titles** were checked again through the existing artwork auditor: **559 MetaHub images, 13 verified TMDB fallbacks, two TVDB fallbacks and 89 unavailable posters**. None of the 89 missing images has an available poster on its stored TMDB record or IMDb lookup result. Similar-name search candidates are not automatically used. The Television metadata inventory now has 612 provider-resolved titles and the same 51 exact fallbacks; its unaffected provider results are retained from the previous live pass, while all three replacements were checked anew.
+
+*Blackadder the Third* retains IMDb tt0092324 and now uses the visually inspected poster from [TMDB 7246, season 3](https://www.themoviedb.org/tv/7246/season/3). The exact edition name and 17 September 1987 date match. No whole-parent-series identity is substituted.
+
+| Latest screenshot blank | Live result |
+| --- | --- |
+| FYI - SKY News for Kids, tt11608566 | MetaHub 404; no TMDB IMDb-lookup match or poster found through the title search. |
+| Ipso Facto, tt13801796 | MetaHub 404; exact IMDb-linked TMDB TV 47748 has no poster. |
+| Now & Then, tt13839292 | MetaHub 404; no IMDb lookup match. Same-name search results describe other programmes and do not supply a verified replacement poster. |
+| Timmy and Vicki, tt43710601 | MetaHub 404; no TMDB IMDb-lookup match or title-search result. |
+| Coping with Christmas, tt0305390 | MetaHub 404; no verified TMDB poster. [IMDb's production credits](https://www.imdb.com/title/tt0305390/companycredits/) identify the Carlton/Channel 4 film. |
+| Coping with Grown Ups, tt20447178 | MetaHub 404; no verified TMDB poster. Retain the existing reviewed 1994 film identity and its source-backed BAFTA relationship. |
+
+These are source-artwork gaps through the checked routes, not catalogue route failures. The complete gap list below remains intentionally blank in Nuvio, following the owner's preference. This does not claim that no artwork exists anywhere. Art Attack's current TMDB programme record spans the original and Disney revival; its current poster is not evidence of a different IMDb identity being supplied by this add-on.
+
+The 145 pending production-credit checks are a separate follow-up: 97 have no named-recipient overlap in the returned credits and 48 were originally automatic matches without named source credits. TV credit endpoints may describe a later cast, omit anthology guests or omit production crew entirely. No bulk “verified” review notes were generated. Issue #43 remains open for this work and the unresolved identities; this pass does not certify every historical production credit or claim Nuvio owner acceptance.
+
 ## Reproduction and limits
 
-Use `scripts/audit_awards_work_mappings.py --cache <local-file> --workers 12` with the existing TMDB read-token environment variable. The optional checkpoint contains only public response evidence; it must be removed or omitted for a completely fresh pass. Changed catalogue inventory is rechecked automatically. Review changed flags before `--offline-check`; that gate rejects incomplete inventory, service errors, stale evidence or missing flag dispositions. The live report is [`awards-work-mapping-audit.json`](awards-work-mapping-audit.json).
+Use `scripts/audit_awards_work_mappings.py --cache <local-file> --workers 12` with the existing TMDB read-token environment variable. Add `--refresh-award-body bafta-television` to recheck every Television work while retaining other unchanged checkpoints. Changed catalogue inventory is rechecked automatically. The offline gate rejects incomplete inventory, service errors, stale evidence and missing dispositions for existing ID/title/poster checks. The two new production-credit diagnostics may be explicitly marked `pendingFlags`; they cannot clear an ID conflict or a missing production response. The command prints the pending count, and passing it is not a claim that those credit checks are complete. The live report is [`awards-work-mapping-audit.json`](awards-work-mapping-audit.json).
 
 Catalogue previews supply poster URLs along with IDs. Full metadata is a separate request to a compatible installed provider. A blank image can therefore coexist with a correct ID and working title details. This pass does not add a backend, new metadata-provider scope, people artwork or Emmy implementation. V1.4 remains a draft preview requiring owner acceptance in Nuvio.
 
@@ -153,7 +182,6 @@ These are unavailable through the reviewed routes at the check time; the list is
 | [tt0078653](https://www.imdb.com/title/tt0078653/) | series | Matilda's England | bafta-television-craft |
 | [tt0081958](https://www.imdb.com/title/tt0081958/) | series | We, the Accused | bafta-television-craft |
 | [tt0083384](https://www.imdb.com/title/tt0083384/) | series | The Bell | bafta-television-craft |
-| [tt0092324](https://www.imdb.com/title/tt0092324/) | series | Blackadder the Third | bafta-television |
 | [tt0094435](https://www.imdb.com/title/tt0094435/) | series | Christabel | bafta-television-craft |
 | [tt0108748](https://www.imdb.com/title/tt0108748/) | series | Don't Forget Your Toothbrush | bafta-television |
 | [tt0159228](https://www.imdb.com/title/tt0159228/) | series | Your Mother Wouldn't Like It | bafta-television |
