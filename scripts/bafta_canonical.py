@@ -11,6 +11,7 @@ from pathlib import Path
 
 from bafta_common import (
     SNAPSHOTS,
+    SOURCE_DIR,
     current_programme_for_category,
     load_category_contract,
     load_json,
@@ -248,6 +249,11 @@ def canonical_result(
 
 def build_files(config: CanonicalConfig) -> dict[Path, str]:
     identity_map = load_json(IDENTITY_MAP_PATH)
+    reviewed_dates = {
+        entry["key"]: entry["sourceCheckedAt"]
+        for entry in load_json(SOURCE_DIR / "identity-overrides.json")["works"]
+        if "sourceCheckedAt" in entry
+    }
     if identity_map.get("inputSha256") != input_digest():
         raise CanonicalError("reviewed identity map does not match the BAFTA sources")
     identities = {entry["key"]: entry for entry in identity_map.get("works", [])}
@@ -288,6 +294,10 @@ def build_files(config: CanonicalConfig) -> dict[Path, str]:
         if group["year"] not in by_year:
             raise CanonicalError(f"winner year {group['year']} has no result page")
         result = canonical_result(group, identities, recipients)
+        dates = [reviewed_dates[work_key(work)] for work in group["works"] if work_key(work) in reviewed_dates]
+        if dates:
+            # Date only the corrected result; preserve the original archive check elsewhere.
+            result["source"] = {**source, "checkedAt": max(dates)}
         relationship = {
             field: result[field]
             for field in (

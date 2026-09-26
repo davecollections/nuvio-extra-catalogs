@@ -14,6 +14,7 @@ import os
 import re
 import sys
 import time
+from datetime import date
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from bafta_common import ROOT, SOURCE_DIR, identity_in_current_programme, load_json
@@ -443,9 +444,18 @@ def validate_overrides(identity_map: dict) -> None:
             "imdbId",
             "reviewNote",
             "evidenceUrls",
+            "sourceCheckedAt",
         }:
             raise IdentityError(f"{OVERRIDES_PATH}: unsupported work override keys")
         key = override.get("key")
+        if "sourceCheckedAt" in override:
+            checked_at = override["sourceCheckedAt"]
+            try:
+                valid_date = date.fromisoformat(checked_at)
+            except (TypeError, ValueError) as exc:
+                raise IdentityError(f"{OVERRIDES_PATH}: invalid review date for {key}") from exc
+            if valid_date.isoformat() != checked_at or valid_date > date.today():
+                raise IdentityError(f"{OVERRIDES_PATH}: invalid review date for {key}")
         if not isinstance(key, str) or key not in by_key or key in all_keys:
             raise IdentityError(f"{OVERRIDES_PATH}: invalid or duplicate work key {key!r}")
         all_keys.add(key)

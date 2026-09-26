@@ -6,6 +6,7 @@ from unittest.mock import patch
 from audit_awards_work_mappings import flags, review_basis, validate_review
 from bafta_artwork import ArtworkError, reviewed_season_posters, tmdb_fallback
 from enrich_bafta_identities import apply_overrides, validate_overrides
+from bafta_outputs import OutputError, reviewed_tvdb_posters
 
 
 class WorkMappingTests(unittest.TestCase):
@@ -67,6 +68,22 @@ class SeasonPosterTests(unittest.TestCase):
 
 
 class ReviewedDateTests(unittest.TestCase):
+    def test_reviewed_production_replaces_same_named_tmdb_film(self):
+        override = {"key": "television:ourland:2022", "mediaType": "movie",
+                    "imdbId": "tt19268738", "title": "Our Land", "releaseYear": 2021,
+                    "reviewNote": "BAFTA credits Genova and Thirolle, not Mwepu's Swedish drama.",
+                    "evidenceUrls": ["https://www.alfredthirolle.com/portfolio/our-land-1"]}
+        identity_map = {"works": [{"key": override["key"], "resolution": {
+            "mediaType": "movie", "tmdbId": 780046, "imdbId": "tt13649306",
+            "title": "Our Land", "releaseYear": 2020}}]}
+        with patch("enrich_bafta_identities.load_overrides", return_value={"works": [override], "omissions": []}), patch("enrich_bafta_identities.api_json") as api:
+            apply_overrides(identity_map)
+            validate_overrides(identity_map)
+            api.assert_not_called()
+        resolution = identity_map["works"][0]["resolution"]
+        self.assertEqual(resolution["imdbId"], "tt19268738")
+        self.assertNotIn("tmdbId", resolution)
+
     def test_broadcast_year_survives_reusing_tmdb_dvd_record(self):
         override = {"key": "television:example:2001", "mediaType": "series", "tmdbId": 1,
                     "imdbId": "tt123", "title": "Example", "releaseYear": 2000,
@@ -82,6 +99,20 @@ class ReviewedDateTests(unittest.TestCase):
             api.assert_not_called()
         self.assertEqual(identity_map["works"][0]["resolution"]["releaseYear"], 2000)
         self.assertEqual(identity_map["works"][0]["resolution"]["title"], "Example")
+
+
+class TvdbPosterTests(unittest.TestCase):
+    def test_poster_from_different_series_is_rejected(self):
+        source = {"tvdbId": 12, "posterUrl": "https://artworks.thetvdb.com/banners/series/99/posters/abc.jpg",
+                  "reviewNote": "Reviewed", "evidenceUrls": ["https://thetvdb.com/series/example", "https://www.imdb.com/title/tt123/"]}
+        with self.assertRaises(OutputError):
+            reviewed_tvdb_posters({"reviewedTvdbPosters": {"tt123": source}})
+
+    def test_missing_imdb_evidence_is_rejected(self):
+        source = {"tvdbId": 12, "posterUrl": "https://artworks.thetvdb.com/banners/series/12/posters/abc.jpg",
+                  "reviewNote": "Reviewed", "evidenceUrls": ["https://thetvdb.com/series/example"]}
+        with self.assertRaises(OutputError):
+            reviewed_tvdb_posters({"reviewedTvdbPosters": {"tt123": source}})
 
 
 if __name__ == "__main__":

@@ -17,9 +17,11 @@ The live pass checked each catalogue poster URL, each stored TMDB work ID and it
 | King Gimp | Exact IMDb tt0239528 / TMDB movie 244949 poster, reused through the existing poster-contract validator. |
 | A Simple Man | Add the verified TMDB movie 494464 relationship to IMDb tt0269866 and use its poster. |
 | Leaving Home | Match the 1996 Simon Rattle series to TMDB 243767’s DVD edition; preserve IMDb tt0379127, original title and broadcast year, and use the matching poster. |
+| Our Land | Correct the 2022 BAFTA winner to Alexandra Genova’s 2021 documentary (IMDb tt19268738), replacing the unrelated Swedish drama; retain a blank poster and add the exact compact metadata fallback. |
+| Summer Comedy Shorts | Add verified TVDB promotional artwork linked to the exact existing IMDb series ID. |
 | Notes on a Triangle; The Governor & J.J. | Their existing MetaHub URLs now return images. Remove stale unavailable-poster classifications; no URL change is needed. |
 
-No catalogue IDs or published IMDb IDs changed in this review. The earlier preview separately corrected Festival of Remembrance and recovered Eurovision and Tea Party artwork.
+Catalogue IDs remain stable. The Our Land IMDb item changes from the unrelated Swedish drama tt13649306 to the verified documentary tt19268738; see the [correction and saved-item migration note](../docs/awards-corrections.md). The earlier preview separately corrected Festival of Remembrance and recovered Eurovision and Tea Party artwork.
 
 ## Coverage
 
@@ -42,11 +44,19 @@ Counts below are unique within each award body; a work can occur in more than on
 - **The Merry Widow:** TMDB’s detail response currently has corrupted title text, while its IMDb lookup, production date and credits identify the correct 1934 film. The canonical title is retained.
 - **Earlier award / later release date:** Babe, Tango, Franz Kafka’s It’s a Wonderful Life, Baka, Falling Apart, Fish Never Sleep and Poor Little Rich Girl have later stored release dates than one or more award years. Their reviewed work identities are retained. These are recorded date discrepancies, not silently treated as a new production or comprehensively normalized in this artwork review.
 - **Eight media/granularity differences:** TMDB’s IMDb lookup returns a parent series, episode, or event film where the reviewed catalogue uses a standalone movie or full event series. Each has an explicit disposition; no cross-media replacement is automatic.
-- **125 works lack a stored TMDB relationship:** this is compatible with the catalogue-led design. Reviewed IMDb identities remain usable for installed metadata providers; absence of a TMDB ID is not itself a mapping error.
+- **126 works lack a stored TMDB relationship:** this is compatible with the catalogue-led design. Reviewed IMDb identities remain usable for installed metadata providers; absence of a TMDB ID is not itself a mapping error.
 
 ## Screenshot examples
 
 Glastonbury 2019 and 2024 now have verified edition-specific artwork. Eurovision was repaired in the preceding preview. Death, Witness, Nice Girl, FA Cup Final 2014, World War One Remembered, Festival of Remembrance and John & Joe Bishop: Life After Deaf remain documented gaps. Similar names, another year’s event and the separate John Bishop companion production are not accepted as replacement images.
+
+## Follow-up production check and owner preference
+
+The owner requested blanks until real artwork is available; no generated title cards or substitute-film images are used. TVDB series [408509](https://thetvdb.com/series/summer-comedy-shorts) links the exact Summer Comedy Shorts IMDb ID. Its portrait promotional image was visually reviewed and returned HTTP 200 with image content. TVDB series [98491](https://thetvdb.com/series/true-stories) also links the correct True Stories IMDb ID, but its plain title graphic is withheld to respect the owner’s preference for real artwork.
+
+Our Land demonstrates a limit of reciprocal IMDb/TMDB checks: both databases can agree on a production that was selected for the wrong award. The corrected identity is tied to [BAFTA’s credits](https://static.bafta.org/uploads_pre_202411/baftatv22winnerslist.pdf) and [the credited cinematographer’s production page](https://www.alfredthirolle.com/portfolio/our-land-1). The other named Short Form winners were checked against live TMDB production credits: Brain in Gear (Ikumelo/Costello/Gordon), They Saw the Sun First (Hunt/Gee), How to Be a Person (Agha), Mobility (Carroll/Meeda/Simpson/Ward), Quiet Life (Pickett/Rollason/Bruce), and Hustle and Run (Madderson/Stevens/Conlon). Missed Call matches [Victoria Mapplebeck’s film](https://victoriamapplebeck.com/films/missed-call/); Summer Comedy Shorts matches the exact IMDb-linked Sky Arts series. No further mismatch was found in this Short Form review. This does not certify every historical production credit across all awards.
+
+The other latest screenshot gaps—Ellie Simmonds: Finding My Secret Family, How to Be a Person, Missed Call, True Stories, Only Human and One Life—still have no verified portrait poster through the reviewed routes. Editorial stills are not silently stretched into posters. The corrected Our Land joins the gap list. Nuvio returns an empty meta object for its correct IMDb ID; Cinemeta resolves it, and the reviewed compact fallback preserves that same ID.
 
 ## Reproduction and limits
 
@@ -105,6 +115,7 @@ These are unavailable through the reviewed routes at the check time; the list is
 | [tt1236238](https://www.imdb.com/title/tt1236238/) | movie | War Oratorio | bafta-television-craft |
 | [tt1289398](https://www.imdb.com/title/tt1289398/) | movie | The Fallen | bafta-television-craft |
 | [tt1517092](https://www.imdb.com/title/tt1517092/) | movie | I Do Air | bafta-film |
+| [tt19268738](https://www.imdb.com/title/tt19268738/) | movie | Our Land | bafta-television |
 | [tt1943839](https://www.imdb.com/title/tt1943839/) | movie | The Making Of Longbird | bafta-film |
 | [tt2004332](https://www.imdb.com/title/tt2004332/) | movie | Random | bafta-television |
 | [tt20447178](https://www.imdb.com/title/tt20447178/) | movie | Coping with Grown Ups | bafta-television |
@@ -206,7 +217,6 @@ These are unavailable through the reviewed routes at the check time; the list is
 | [tt6282482](https://www.imdb.com/title/tt6282482/) | series | First Tuesday | bafta-television |
 | [tt6433734](https://www.imdb.com/title/tt6433734/) | series | The Grand National | bafta-television |
 | [tt6556570](https://www.imdb.com/title/tt6556570/) | series | ITN News | bafta-television |
-| [tt7176698](https://www.imdb.com/title/tt7176698/) | series | Summer Comedy Shorts | bafta-television |
 | [tt7205604](https://www.imdb.com/title/tt7205604/) | series | World War One Remembered | bafta-television, bafta-television-craft |
 | [tt8023892](https://www.imdb.com/title/tt8023892/) | series | BBC Sport: Winter Olympics | bafta-television-craft |
 | [tt8039182](https://www.imdb.com/title/tt8039182/) | series | The Duty Men | bafta-television |

@@ -133,6 +133,7 @@ Implement BAFTA Television Craft as V1.4 using the already reviewed source snaps
 
 - The Dingo branding preview is deferred and preserved on `work/dingo-brand-preview` at `9fc0592`. Retain that branch for possible future review; do not open a PR or merge it without new owner direction. Continue released work under Xtra.
 - Issue #41 tracks BAFTA Television Craft. Finish BAFTA before starting Emmy implementation.
+- Owner artwork preference (2026-09-26): retain blank posters when verified real artwork is unavailable. Do not generate placeholder/title cards. Use verified real programme artwork; withhold generic title-only graphics even when supplied by a third party.
 - Audit actor/director identities against the current published `nuvio-people-assets` manifest and maintain `reports/awards-actor-director-artwork.md` as the assets handoff. Keep verified missing artwork, membership changes, optional focus artwork, and unresolved person identities separate. The owner will coordinate artwork generation with the assets task.
 - For Emmys, use the Television Academy as the award-fact authority and reviewed IMDb/TMDB identities for enrichment. The owner supplied `https://www.themoviedb.org/award/83-creative-arts-emmy-awards` as a useful reference. Preserve the prohibition on automated TMDB award-page scraping. Review Primetime and Creative Arts coverage together, with distinct other Emmy programmes requiring explicit scope decisions.
 

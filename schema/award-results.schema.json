@@ -86,6 +86,9 @@
           "type": "integer",
           "minimum": 1
         },
+        "source": {
+          "$ref": "#/properties/source"
+        },
         "work": {
           "$ref": "#/$defs/work"
         },

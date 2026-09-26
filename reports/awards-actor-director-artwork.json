@@ -3,7 +3,7 @@
   "checkedAt": "2026-09-16",
   "scope": "Reviewed actor/director winner identities in Academy, Golden Globes, and all three BAFTA programmes; current included work-associated lineages only.",
   "verification": "Manifest identity, membership and asset descriptors. Individual asset URLs are not fetched by this audit.",
-  "inputSha256": "6e22fe7ec364be6167437f10aad097940e9f3bfcc7b2de96a661e597a758fce9",
+  "inputSha256": "3fe2ff48078c4c76189bd31890a8428df0aed7c7c278619a212b7ee11ba0ff88",
   "peopleManifest": {
     "commit": "2359f634a5049d9688ffd78667880c270405ff3c",
     "sha256": "307a99257082b902969a6d0eaa28dc2baa9905db492e41fce916c30e55a282d2",

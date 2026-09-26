@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from collections import defaultdict
 from dataclasses import dataclass
@@ -108,17 +109,47 @@ def collect_rows(
     return rows, results, category_ids
 
 
+def reviewed_tvdb_posters(payload: dict) -> dict:
+    """Accept only documented, exact-series TVDB artwork relationships."""
+    sources = payload.get("reviewedTvdbPosters", {})
+    if not isinstance(sources, dict):
+        raise OutputError("reviewedTvdbPosters must be an object")
+    for imdb_id, source in sources.items():
+        if not isinstance(imdb_id, str) or not IMDB_RE.fullmatch(imdb_id):
+            raise OutputError("TVDB poster needs a valid IMDb identity")
+        if not isinstance(source, dict) or set(source) != {"tvdbId", "posterUrl", "reviewNote", "evidenceUrls"}:
+            raise OutputError(f"{imdb_id}: invalid reviewed TVDB poster fields")
+        tvdb_id = source["tvdbId"]
+        if type(tvdb_id) is not int or tvdb_id < 1:
+            raise OutputError(f"{imdb_id}: invalid TVDB series ID")
+        pattern = rf"https://artworks\.thetvdb\.com/banners/(?:v4/)?series/{tvdb_id}/posters/[a-zA-Z0-9]+\.jpg"
+        if not isinstance(source["posterUrl"], str) or not re.fullmatch(pattern, source["posterUrl"]):
+            raise OutputError(f"{imdb_id}: poster URL must belong to the reviewed TVDB series")
+        urls = source["evidenceUrls"]
+        if (not isinstance(urls, list) or not urls
+                or not all(isinstance(url, str) and url.startswith("https://") for url in urls)
+                or f"https://www.imdb.com/title/{imdb_id}/" not in urls
+                or not any(url.startswith("https://thetvdb.com/series/") for url in urls)
+                or not isinstance(source["reviewNote"], str) or not source["reviewNote"].strip()):
+            raise OutputError(f"{imdb_id}: TVDB artwork requires documented IMDb/series evidence")
+    return sources
+
+
 def validated_poster_contract(
     config: OutputConfig, payload: dict
 ) -> tuple[dict[str, str], list[str]]:
     overrides = payload.get("posterOverrides", {})
     unavailable = payload.get("knownUnavailablePosters", [])
+    tvdb_sources = reviewed_tvdb_posters(payload)
     if (
         not isinstance(overrides, dict)
         or any(not IMDB_RE.fullmatch(key) for key in overrides)
         or any(
-            not isinstance(value, str) or not TMDB_POSTER_RE.fullmatch(value)
-            for value in overrides.values()
+            not isinstance(value, str) or not (
+                TMDB_POSTER_RE.fullmatch(value)
+                or tvdb_sources.get(key, {}).get("posterUrl") == value
+            )
+            for key, value in overrides.items()
         )
     ):
         raise OutputError(f"{config.contracts_path}: posterOverrides is invalid")

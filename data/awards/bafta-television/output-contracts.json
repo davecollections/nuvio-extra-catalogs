@@ -13,7 +13,8 @@
     "tt10137860": "https://image.tmdb.org/t/p/w500/zCqDrrcJBZddEmBg9STYxcJu0CD.jpg",
     "tt36564052": "https://image.tmdb.org/t/p/w500/gm2wveJtd13gtIU0cwOW5faheDb.jpg",
     "tt38526010": "https://image.tmdb.org/t/p/w500/7BsNbVUrxvpjbgemEitz1ds6BTT.jpg",
-    "tt5123004": "https://image.tmdb.org/t/p/w500/uwCEpnDjOpXrxmUNy87kr9E6SKt.jpg"
+    "tt5123004": "https://image.tmdb.org/t/p/w500/uwCEpnDjOpXrxmUNy87kr9E6SKt.jpg",
+    "tt7176698": "https://artworks.thetvdb.com/banners/v4/series/408509/posters/62b2e58e2a151.jpg"
   },
   "knownUnavailablePosters": [
     "tt0057734",
@@ -74,6 +75,7 @@
     "tt1646040",
     "tt1817823",
     "tt1887593",
+    "tt19268738",
     "tt2004332",
     "tt20124924",
     "tt20447178",
@@ -102,7 +104,6 @@
     "tt6282482",
     "tt6433734",
     "tt6556570",
-    "tt7176698",
     "tt7205604",
     "tt8039182",
     "tt8218408",
@@ -134,6 +135,7 @@
     "tt15194044",
     "tt1540109",
     "tt1646040",
+    "tt19268738",
     "tt20447178",
     "tt2058136",
     "tt2266799",
@@ -172,6 +174,17 @@
         "https://www.imdb.com/title/tt36564052/",
         "https://www.themoviedb.org/tv/317120/season/28",
         "https://www.glastonburyfestivals.co.uk/news/dua-lipa-and-coldplay-sets-to-be-livestreamed-globally/"
+      ]
+    }
+  },
+  "reviewedTvdbPosters": {
+    "tt7176698": {
+      "tvdbId": 408509,
+      "posterUrl": "https://artworks.thetvdb.com/banners/v4/series/408509/posters/62b2e58e2a151.jpg",
+      "reviewNote": "TVDB links IMDb tt7176698 and identifies the seven-episode Sky Arts series first broadcast 20 July 2017. The portrait Comedy Shorts beach artwork was visually inspected; this is existing source artwork, not a generated placeholder.",
+      "evidenceUrls": [
+        "https://thetvdb.com/series/summer-comedy-shorts",
+        "https://www.imdb.com/title/tt7176698/"
       ]
     }
   },

@@ -4,8 +4,8 @@
   "checkedAt": "2026-09-26",
   "productionPosterTemplate": "https://images.metahub.space/poster/medium/{imdb_id}/img",
   "publishedUniqueTitleCount": 667,
-  "metaHubAvailableCount": 563,
-  "metaHubMissingCount": 104,
+  "metaHubAvailableCount": 562,
+  "metaHubMissingCount": 105,
   "tmdbFallbackCount": 12,
   "knownUnavailableCount": 92,
   "fallbackReview": [
@@ -913,6 +913,19 @@
       "fallbackNote": "The reviewed TMDB title has no poster."
     },
     {
+      "imdbId": "tt19268738",
+      "title": "Our Land",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-television-short-form-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:ourland:2022",
+      "posterPath": null,
+      "posterUrl": null,
+      "fallbackNote": "The reviewed IMDb-only identity has no TMDB relationship."
+    },
+    {
       "imdbId": "tt2004332",
       "title": "Random",
       "mediaType": "movie",
@@ -1337,8 +1350,22 @@
       "tmdbId": 298532,
       "workKey": "television:morganarobinsonssummer:2018",
       "posterPath": null,
-      "posterUrl": null,
-      "fallbackNote": "The reviewed TMDB title has no poster."
+      "posterUrl": "https://artworks.thetvdb.com/banners/v4/series/408509/posters/62b2e58e2a151.jpg",
+      "fallbackNote": "Verified TVDB artwork for the exact IMDb-linked series; canonical work IDs are unchanged.",
+      "reviewedTvdbPoster": {
+        "tvdbId": 408509,
+        "posterUrl": "https://artworks.thetvdb.com/banners/v4/series/408509/posters/62b2e58e2a151.jpg",
+        "reviewNote": "TVDB links IMDb tt7176698 and identifies the seven-episode Sky Arts series first broadcast 20 July 2017. The portrait Comedy Shorts beach artwork was visually inspected; this is existing source artwork, not a generated placeholder.",
+        "evidenceUrls": [
+          "https://thetvdb.com/series/summer-comedy-shorts",
+          "https://www.imdb.com/title/tt7176698/"
+        ]
+      },
+      "tvdbPosterCheck": {
+        "status": 200,
+        "contentType": "image/jpeg",
+        "url": "https://artworks.thetvdb.com/banners/v4/series/408509/posters/62b2e58e2a151.jpg"
+      }
     },
     {
       "imdbId": "tt7205604",
@@ -1419,7 +1446,8 @@
       "tt10137860": "https://image.tmdb.org/t/p/w500/zCqDrrcJBZddEmBg9STYxcJu0CD.jpg",
       "tt36564052": "https://image.tmdb.org/t/p/w500/gm2wveJtd13gtIU0cwOW5faheDb.jpg",
       "tt38526010": "https://image.tmdb.org/t/p/w500/7BsNbVUrxvpjbgemEitz1ds6BTT.jpg",
-      "tt5123004": "https://image.tmdb.org/t/p/w500/uwCEpnDjOpXrxmUNy87kr9E6SKt.jpg"
+      "tt5123004": "https://image.tmdb.org/t/p/w500/uwCEpnDjOpXrxmUNy87kr9E6SKt.jpg",
+      "tt7176698": "https://artworks.thetvdb.com/banners/v4/series/408509/posters/62b2e58e2a151.jpg"
     },
     "knownUnavailablePosters": [
       "tt0057734",
@@ -1480,6 +1508,7 @@
       "tt1646040",
       "tt1817823",
       "tt1887593",
+      "tt19268738",
       "tt2004332",
       "tt20124924",
       "tt20447178",
@@ -1508,7 +1537,6 @@
       "tt6282482",
       "tt6433734",
       "tt6556570",
-      "tt7176698",
       "tt7205604",
       "tt8039182",
       "tt8218408",
@@ -1516,5 +1544,6 @@
       "tt9406728"
     ]
   },
-  "currentContractMatchesLiveReview": true
+  "currentContractMatchesLiveReview": true,
+  "tvdbFallbackCount": 1
 }

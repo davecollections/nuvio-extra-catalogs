@@ -403,6 +403,7 @@ def validate_result(
     categories: dict[str, dict],
     identities: IdentityRegistry,
     summary: Summary,
+    authorities: set[tuple[str, str]],
 ) -> tuple:
     if not isinstance(raw_result, dict):
         fail(path, "result must be an object")
@@ -415,6 +416,7 @@ def validate_result(
             "status",
             "sourceCategory",
             "sourceRecordId",
+            "source",
             "work",
             "works",
             "people",
@@ -434,6 +436,8 @@ def validate_result(
         require_nonempty_string(path, raw_result["sourceCategory"], "result.sourceCategory")
     if "sourceRecordId" in raw_result:
         require_positive_int(path, raw_result["sourceRecordId"], "result.sourceRecordId")
+    if "source" in raw_result:
+        validate_source(path, raw_result["source"], authorities, summary)
 
     has_work = "work" in raw_result
     has_works = "works" in raw_result
@@ -529,7 +533,7 @@ def validate_ceremony_file(
         fail(path, "results must be an array")
     fingerprints: set[tuple] = set()
     for raw_result in results:
-        fingerprint = validate_result(path, raw_result, categories, identities, summary)
+        fingerprint = validate_result(path, raw_result, categories, identities, summary, authorities)
         if fingerprint in fingerprints:
             fail(path, f"duplicate canonical relationship for {fingerprint[0]!r}/{fingerprint[1]!r}")
         fingerprints.add(fingerprint)
