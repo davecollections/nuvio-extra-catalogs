@@ -47,6 +47,32 @@ Review distinguishes standalone television films, shorts and title films from pa
 
 Next: generate and validate Craft canonical data, output contracts, catalogues and a separate preset through the shared BAFTA modules, then complete live poster and metadata audits and owner acceptance. A preliminary Cinemeta lookup on 2026-09-26 returned HTTP 403 for all seven requested identities; this is an external-service failure, not evidence that those titles lack metadata. V1.4 remains unpublished, and Emmy implementation remains after BAFTA completion.
 
+## V1.4 implementation and acceptance checkpoint — 2026-09-26
+
+The shared pipeline now generates 78 Craft archive-year files and 43 catalogues (20 movie, 23 series), containing 576 items across 434 unique IMDb titles. The V1.4 branch manifest contains 172 catalogues and 6,327 items. The separate Craft preset uses add-on ID `com.davecollections.nuvio.extra.baftatelevisioncraft`; its `bafta-craft-` catalogue prefix avoids matching the existing Television preset's prefix.
+
+Live Craft review found 381 MetaHub posters, seven TMDB fallbacks and 46 explicit unavailable-poster outcomes. Nuvio's provider resolves 402 titles; 32 receive exact compact fallbacks. Cinemeta resolves 27 of those gaps, and five have no full metadata in either reviewed provider. The preliminary Cinemeta HTTP 403 responses were transient; the completed production audit succeeded and is the controlling evidence.
+
+Cross-checking found two further Festival of Remembrance entries using the same incorrect TMDB external ID, including one released Television relationship. Both now use the verified annual-series IMDb `tt10069230`, rather than the 2020 movie `tt14540164`. Catalogue IDs remain stable. Repeated Craft wins deduplicate to the same series. A full live Television re-audit found 563 MetaHub posters, eight TMDB fallbacks and 96 unavailable posters; 617 titles resolve through Nuvio and 50 need compact fallbacks. The two previously missing IDs `tt13207736` and `tt13801796` now resolve through Nuvio, so their static routes are removed. Across both programmes, 76 unique exact fallback routes are generated with shared released display names preserved.
+
+The existing installer now includes the Craft choice and expandable list of 23 categories. Browser review confirmed selection updates the displayed URL and Open manifest destination, the list expands, and Copy manifest displays its success feedback. This is installer verification; it does not replace Nuvio owner acceptance.
+
+All 41 workflow checks pass locally, including shared canonical validation and all existing award regressions. Focused fallback-merge checks preserve the released display name and reject conflicting identities, years, artwork or media types. The installer produced no browser console warnings or errors during review.
+
+### Owner acceptance still required
+
+Install the commit-pinned Craft preset with the normal metadata provider enabled. Check:
+
+- **Director: Fiction — Series:** *Adolescence* opens with full provider metadata.
+- **Scripted Casting — Series:** *Reunion* is the British 2025 drama, with the latest winner first.
+- **Sound: Factual — Films:** the King Charles III coronation is the BBC 2023 broadcast.
+- **Director: Multi-Camera — Films:** *Glastonbury Festival Presents Live at Worthy Farm* opens the compact movie fallback with its verified TMDB poster.
+- **Sound: Factual — Series:** *Later Live... with Jools Holland* opens the compact series fallback with its verified TMDB poster.
+- **Entertainment Craft Team — Series:** Festival of Remembrance appears once and opens the annual-series fallback, with its documented unavailable poster.
+- The all-awards preview retains existing Academy, Golden Globes, Film and Television selections; the Craft preset contains only its 43 catalogues.
+
+After owner acceptance, merge Issue #41 work, verify main CI/Pages and every deployed route, update the released-state documentation, and preserve the exact accepted commit as annotated tag and GitHub Release `v1.4.0`. No merge, release or Emmy implementation has occurred at this checkpoint.
+
 ## Award authority
 
 BAFTA is the award authority:

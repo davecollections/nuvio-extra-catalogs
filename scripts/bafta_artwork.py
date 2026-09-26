@@ -65,6 +65,13 @@ TELEVISION_CONFIG = ArtworkConfig(
     catalogue_prefix="bafta-television-",
 )
 
+CRAFT_CONFIG = ArtworkConfig(
+    programme="television-craft",
+    award_body_id="bafta-television-craft",
+    award_name="BAFTA Television Craft",
+    catalogue_prefix="bafta-craft-",
+)
+
 
 def published_titles(config: ArtworkConfig) -> dict[str, dict]:
     manifest = load_json(MANIFEST_PATH)

@@ -4,6 +4,16 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ## [Unreleased]
 
+### V1.4 preview — pending owner acceptance
+
+- Add all 23 BAFTA Television Craft lineages: 589 canonical winner records, 619 work links, and 43 movie/series catalogues containing 576 items across 434 unique titles.
+- Add an independent Craft preset and installer choice, bringing the all-awards manifest to 172 catalogues and 6,327 items. Released add-on and catalogue IDs remain stable.
+- Complete review of all 497 scoped Craft identities: 486 compatible IMDb identities and 11 explicit non-catalogue outcomes. Split the Cherry Orchard/Bridget Hitler portfolio and preserve the non-title camera-technique award in source evidence.
+- Audit all Craft titles through live production poster and metadata routes: 381 MetaHub posters, seven verified TMDB fallbacks, 46 unavailable posters, and 32 exact compact metadata fallbacks.
+- Correct the shared Festival of Remembrance series identity, which TMDB had linked to the 2020 movie. Refresh Television metadata evidence: 617 provider-resolved titles and 50 fallback IDs; two previously missing titles now resolve through the provider.
+- Reuse the existing shared BAFTA generation, validation, metadata and preset pipelines. The root and preset manifests advertise only 76 unique reviewed fallback IDs across Television and Craft.
+- Retain Xtra; leave the Dingo branch deferred. People artwork work is outside this continuation. No V1.4 release or owner acceptance is claimed yet.
+
 ## [1.3.0] - 2026-08-27
 
 ### Added

@@ -4,12 +4,13 @@ An independent Stremio-compatible catalogue add-on intended to provide collectio
 
 ## Current catalogues
 
-The all-awards manifest exposes 129 catalogues:
+The V1.4 preview manifest exposes 172 catalogues. Owner acceptance is pending; the live release remains V1.3 with 129 catalogues.
 
 - 24 winner-film catalogues for all current competitive Academy Award categories; and
 - 33 Golden Globes catalogues (22 movie and 11 series) covering the 27 current category lineages that map to Stremio media types; and
 - 27 BAFTA Film catalogues (25 movie and 2 series) covering all 25 reviewed current Film lineages; and
-- 45 BAFTA Television catalogues (18 movie and 27 series) covering all 27 reviewed current Television lineages.
+- 45 BAFTA Television catalogues (18 movie and 27 series) covering all 27 reviewed current Television lineages; and
+- 43 BAFTA Television Craft catalogues (20 movie and 23 series) covering all 23 reviewed current Craft lineages.
 
 The Academy catalogues include:
 
@@ -24,7 +25,9 @@ BAFTA Film coverage follows all 25 selected current lineages across the official
 
 BAFTA Television coverage follows all 27 selected current lineages across the same official archive. The 938 selected source records and 977 work links become 931 canonical results and 970 work links after seven exact duplicate Single Documentary archive records are collapsed. Mixed programme histories publish through their reviewed film and series routes. All 888 work identities are complete: 864 resolve to compatible IMDb identities and 24 remain explicit non-catalogue outcomes.
 
-The original V0.1 seed proved the integration path in Nuvio. V0.2–V0.5 established the canonical Awards model and six complete picture/acting/directing histories. V1.0 completed all current Academy categories, V1.1 added Golden Globes film and television, V1.2 added BAFTA Film, and V1.3 adds BAFTA Television.
+BAFTA Television Craft adds 23 lineages with 589 canonical results and 619 work links. Its 43 catalogues contain 576 items across 434 unique titles. All 497 scoped identities are reviewed: 486 resolve and 11 remain explicit non-catalogue outcomes. The live poster and metadata audits are recorded alongside the existing BAFTA evidence.
+
+The original V0.1 seed proved the integration path in Nuvio. V0.2–V0.5 established the canonical Awards model and six complete picture/acting/directing histories. V1.0 completed all current Academy categories, V1.1 added Golden Globes film and television, V1.2 added BAFTA Film, V1.3 added BAFTA Television, and the V1.4 preview adds Television Craft.
 
 ## What V0.1 proved
 
@@ -34,7 +37,7 @@ The original V0.1 seed proved the integration path in Nuvio. V0.2–V0.5 establi
 4. Items identified by IMDb IDs can open with metadata supplied by another installed metadata provider.
 5. The add-on can remain catalogue-led and statically hosted for this architecture.
 
-A compatible metadata provider is expected to be installed alongside Xtra. Nuvio's official TMDB add-on is the recommended example used during the proof of concept. V1.3 adds compact static `meta` responses only for the 51 reviewed BAFTA Television IMDb IDs that the recommended provider does not return; it does not create a general metadata service or live backend.
+A compatible metadata provider is expected to be installed alongside Xtra. Nuvio's official TMDB add-on is the recommended example used during the proof of concept. The V1.4 preview supplies compact static `meta` responses for 76 unique reviewed provider gaps across Television and Craft. It keeps this support limited to exact IDs and adds no live backend.
 
 ## Structure
 
@@ -51,12 +54,14 @@ nuvio-extra-catalogs/
 │       ├── academy-awards/
 │       ├── golden-globes/
 │       ├── bafta-film/
-│       └── bafta-television/
+│       ├── bafta-television/
+│       └── bafta-television-craft/
 ├── presets/
 │   ├── academy/
 │   ├── golden-globes/
 │   ├── bafta-film/
-│   └── bafta-television/
+│   ├── bafta-television/
+│   └── bafta-television-craft/
 ├── docs/
 ├── examples/
 ├── meta/
@@ -203,7 +208,7 @@ python scripts/build_manifest_presets.py --check
 
 Networked snapshot refresh, TMDB candidate discovery, manual-override verification, and mixed-media audits are explicit reviewed maintenance operations. See `docs/golden-globes-history.md` for the source authority, category lineages, identity exceptions, and film/series classification process.
 
-BAFTA Film and Television use the shared pinned BAFTA snapshots and reviewed identity inventory. Reproduce their normal offline publication checks with:
+BAFTA Film, Television and Television Craft use the shared pinned BAFTA snapshots and reviewed identity inventory. Reproduce their normal offline publication checks with:
 
 ```bash
 python scripts/enrich_bafta_identities.py --check --complete --programme film
@@ -215,6 +220,11 @@ python scripts/build_bafta_television_canonical.py --check
 python scripts/build_bafta_television_outputs.py --check
 python scripts/audit_bafta_television_artwork.py --offline-check
 python scripts/audit_bafta_television_metadata.py --offline-check
+python scripts/enrich_bafta_identities.py --check --complete --programme television-craft
+python scripts/build_bafta_craft_canonical.py --check
+python scripts/build_bafta_craft_outputs.py --check
+python scripts/audit_bafta_craft_artwork.py --offline-check
+python scripts/audit_bafta_craft_metadata.py --offline-check
 python scripts/build_bafta_television_metadata_fallbacks.py --check
 python scripts/build_manifest_presets.py --check
 ```
@@ -225,9 +235,11 @@ The separate networked artwork maintenance passes check all published BAFTA IMDb
 python scripts/audit_bafta_film_artwork.py
 python scripts/audit_bafta_television_artwork.py
 python scripts/audit_bafta_television_metadata.py
+python scripts/audit_bafta_craft_artwork.py
+python scripts/audit_bafta_craft_metadata.py
 ```
 
-See `docs/bafta-history.md`, `reports/bafta-film-artwork-audit.json`, `reports/bafta-television-artwork-audit.json`, and `reports/bafta-television-metadata-audit.json` for the lineage, identity, classification, artwork, and metadata-compatibility evidence.
+See `docs/bafta-history.md` and the Film, Television and Television Craft artwork/metadata audits under `reports/` for the lineage, identity, classification, artwork, and metadata-compatibility evidence.
 
 ## GitHub Pages URLs
 

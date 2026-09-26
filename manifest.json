@@ -1,8 +1,8 @@
 {
   "id": "com.davecollections.nuvio.extra",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "name": "Xtra",
-  "description": "Independent film and television award catalogues for Nuvio and other Stremio-compatible clients, including Academy Awards, Golden Globes, BAFTA Film and BAFTA Television winner histories.",
+  "description": "Independent film and television award catalogues for Nuvio and other Stremio-compatible clients, including Academy Awards, Golden Globes, BAFTA Film, BAFTA Television and BAFTA Television Craft winner histories.",
   "resources": [
     "catalog",
     {
@@ -12,9 +12,17 @@
         "series"
       ],
       "idPrefixes": [
+        "tt0066261",
+        "tt0075570",
+        "tt0081958",
+        "tt0086354",
+        "tt0204589",
         "tt0212512",
+        "tt0217625",
+        "tt0248793",
         "tt0296863",
         "tt0296864",
+        "tt0300880",
         "tt0305390",
         "tt0313343",
         "tt0329927",
@@ -22,17 +30,25 @@
         "tt0367296",
         "tt0397125",
         "tt0397203",
+        "tt0415181",
         "tt0443534",
+        "tt0490208",
         "tt0835702",
         "tt0913749",
+        "tt0970163",
+        "tt10069230",
         "tt10137860",
+        "tt1015629",
+        "tt10449278",
+        "tt10533670",
+        "tt1059223",
         "tt10998480",
+        "tt1152392",
         "tt11608566",
         "tt12740018",
         "tt12752438",
-        "tt13207736",
-        "tt13801796",
         "tt13839292",
+        "tt14697242",
         "tt1498696",
         "tt15194044",
         "tt1540109",
@@ -41,12 +57,16 @@
         "tt2058136",
         "tt2266799",
         "tt22987508",
+        "tt26660803",
         "tt28500169",
+        "tt3053868",
         "tt31846918",
         "tt31848311",
         "tt32085850",
         "tt32189654",
         "tt36564052",
+        "tt36896747",
+        "tt3704078",
         "tt37740869",
         "tt38526010",
         "tt39074249",
@@ -55,12 +75,17 @@
         "tt43710601",
         "tt5123004",
         "tt5448310",
+        "tt5643468",
         "tt5763260",
         "tt6433734",
         "tt6556570",
         "tt6758316",
         "tt7205604",
+        "tt7479280",
+        "tt7909898",
+        "tt8023892",
         "tt8039182",
+        "tt9020296",
         "tt9090184",
         "tt9406728"
       ]
@@ -715,6 +740,221 @@
       "type": "series",
       "id": "bafta-television-supporting-actress-winning-series",
       "name": "BAFTA Television — Supporting Actress — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-craft-childrens-craft-team-winning-films",
+      "name": "BAFTA Television Craft — Children's Craft Team — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-craft-childrens-craft-team-winning-series",
+      "name": "BAFTA Television Craft — Children's Craft Team — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-craft-costume-design-winning-films",
+      "name": "BAFTA Television Craft — Costume Design — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-craft-costume-design-winning-series",
+      "name": "BAFTA Television Craft — Costume Design — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-craft-director-factual-winning-films",
+      "name": "BAFTA Television Craft — Director: Factual — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-craft-director-factual-winning-series",
+      "name": "BAFTA Television Craft — Director: Factual — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-craft-director-fiction-winning-films",
+      "name": "BAFTA Television Craft — Director: Fiction — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-craft-director-fiction-winning-series",
+      "name": "BAFTA Television Craft — Director: Fiction — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-craft-director-multi-camera-winning-films",
+      "name": "BAFTA Television Craft — Director: Multi-Camera — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-craft-director-multi-camera-winning-series",
+      "name": "BAFTA Television Craft — Director: Multi-Camera — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-craft-editing-factual-winning-films",
+      "name": "BAFTA Television Craft — Editing: Factual — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-craft-editing-factual-winning-series",
+      "name": "BAFTA Television Craft — Editing: Factual — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-craft-editing-fiction-winning-films",
+      "name": "BAFTA Television Craft — Editing: Fiction — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-craft-editing-fiction-winning-series",
+      "name": "BAFTA Television Craft — Editing: Fiction — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-craft-emerging-talent-factual-winning-films",
+      "name": "BAFTA Television Craft — Emerging Talent: Factual — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-craft-emerging-talent-factual-winning-series",
+      "name": "BAFTA Television Craft — Emerging Talent: Factual — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-craft-emerging-talent-fiction-winning-films",
+      "name": "BAFTA Television Craft — Emerging Talent: Fiction — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-craft-emerging-talent-fiction-winning-series",
+      "name": "BAFTA Television Craft — Emerging Talent: Fiction — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-craft-entertainment-craft-team-winning-films",
+      "name": "BAFTA Television Craft — Entertainment Craft Team — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-craft-entertainment-craft-team-winning-series",
+      "name": "BAFTA Television Craft — Entertainment Craft Team — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-craft-make-up-hair-design-winning-films",
+      "name": "BAFTA Television Craft — Make Up & Hair Design — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-craft-make-up-hair-design-winning-series",
+      "name": "BAFTA Television Craft — Make Up & Hair Design — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-craft-original-music-factual-winning-films",
+      "name": "BAFTA Television Craft — Original Music: Factual — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-craft-original-music-factual-winning-series",
+      "name": "BAFTA Television Craft — Original Music: Factual — Series"
+    },
+    {
+      "type": "series",
+      "id": "bafta-craft-original-music-fiction-winning-series",
+      "name": "BAFTA Television Craft — Original Music: Fiction — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-craft-photography-lighting-fiction-winning-films",
+      "name": "BAFTA Television Craft — Photography & Lighting: Fiction — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-craft-photography-lighting-fiction-winning-series",
+      "name": "BAFTA Television Craft — Photography & Lighting: Fiction — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-craft-photography-factual-winning-films",
+      "name": "BAFTA Television Craft — Photography: Factual — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-craft-photography-factual-winning-series",
+      "name": "BAFTA Television Craft — Photography: Factual — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-craft-production-design-winning-films",
+      "name": "BAFTA Television Craft — Production Design — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-craft-production-design-winning-series",
+      "name": "BAFTA Television Craft — Production Design — Series"
+    },
+    {
+      "type": "series",
+      "id": "bafta-craft-scripted-casting-winning-series",
+      "name": "BAFTA Television Craft — Scripted Casting — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-craft-sound-factual-winning-films",
+      "name": "BAFTA Television Craft — Sound: Factual — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-craft-sound-factual-winning-series",
+      "name": "BAFTA Television Craft — Sound: Factual — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-craft-sound-fiction-winning-films",
+      "name": "BAFTA Television Craft — Sound: Fiction — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-craft-sound-fiction-winning-series",
+      "name": "BAFTA Television Craft — Sound: Fiction — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-craft-special-visual-graphic-effects-winning-films",
+      "name": "BAFTA Television Craft — Special, Visual And Graphic Effects — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-craft-special-visual-graphic-effects-winning-series",
+      "name": "BAFTA Television Craft — Special, Visual And Graphic Effects — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-craft-titles-graphic-identity-winning-films",
+      "name": "BAFTA Television Craft — Titles & Graphic Identity — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-craft-titles-graphic-identity-winning-series",
+      "name": "BAFTA Television Craft — Titles & Graphic Identity — Series"
+    },
+    {
+      "type": "series",
+      "id": "bafta-craft-writer-comedy-winning-series",
+      "name": "BAFTA Television Craft — Writer: Comedy — Series"
+    },
+    {
+      "type": "movie",
+      "id": "bafta-craft-writer-drama-winning-films",
+      "name": "BAFTA Television Craft — Writer: Drama — Films"
+    },
+    {
+      "type": "series",
+      "id": "bafta-craft-writer-drama-winning-series",
+      "name": "BAFTA Television Craft — Writer: Drama — Series"
     }
   ]
 }

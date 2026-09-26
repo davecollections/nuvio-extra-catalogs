@@ -78,6 +78,16 @@ TELEVISION_CONFIG = CanonicalConfig(
     expected_source_duplicates=7,
 )
 
+CRAFT_CONFIG = CanonicalConfig(
+    programme="television-craft",
+    snapshot_programme="television-craft",
+    award_body_id="bafta-television-craft",
+    award_name="BAFTA Television Craft Awards",
+    source_reference="https://www.bafta.org/awards/tv-craft/",
+    expected_results=589,
+    expected_work_links=619,
+)
+
 
 def serialized(value: dict) -> str:
     return json.dumps(value, ensure_ascii=False, indent=2) + "\n"

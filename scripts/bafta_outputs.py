@@ -60,6 +60,13 @@ TELEVISION_CONFIG = OutputConfig(
     expected_ceremony_files=78,
 )
 
+CRAFT_CONFIG = OutputConfig(
+    award_body_id="bafta-television-craft",
+    award_name="BAFTA Television Craft",
+    catalogue_prefix="bafta-craft-",
+    expected_ceremony_files=78,
+)
+
 
 def collect_rows(
     config: OutputConfig,

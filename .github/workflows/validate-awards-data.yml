@@ -77,6 +77,9 @@ jobs:
       - name: Require complete BAFTA Television identity review
         run: python scripts/enrich_bafta_identities.py --check --complete --programme television
 
+      - name: Require complete BAFTA Television Craft identity review
+        run: python scripts/enrich_bafta_identities.py --check --complete --programme television-craft
+
       - name: Check BAFTA identity review report
         run: python scripts/build_bafta_identity_review.py --check
 
@@ -92,6 +95,12 @@ jobs:
       - name: Check BAFTA Television generated outputs
         run: python scripts/build_bafta_television_outputs.py --check
 
+      - name: Check BAFTA Television Craft canonical import
+        run: python scripts/build_bafta_craft_canonical.py --check
+
+      - name: Check BAFTA Television Craft generated outputs
+        run: python scripts/build_bafta_craft_outputs.py --check
+
       - name: Check BAFTA Film artwork audit evidence
         run: python scripts/audit_bafta_film_artwork.py --offline-check
 
@@ -101,7 +110,13 @@ jobs:
       - name: Check BAFTA Television metadata audit evidence
         run: python scripts/audit_bafta_television_metadata.py --offline-check
 
-      - name: Check BAFTA Television static metadata fallbacks
+      - name: Check BAFTA Television Craft artwork audit evidence
+        run: python scripts/audit_bafta_craft_artwork.py --offline-check
+
+      - name: Check BAFTA Television Craft metadata audit evidence
+        run: python scripts/audit_bafta_craft_metadata.py --offline-check
+
+      - name: Check shared BAFTA Television and Craft static metadata fallbacks
         run: python scripts/build_bafta_television_metadata_fallbacks.py --check
 
       - name: Check BAFTA category lineage audit inventory

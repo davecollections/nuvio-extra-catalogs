@@ -1,0 +1,807 @@
+{
+  "schemaVersion": 1,
+  "awardBodyId": "bafta-television-craft",
+  "checkedAt": "2026-09-26",
+  "providers": {
+    "nuvio": {
+      "manifestUrl": "https://catalog.nuvio.tv/manifest.json",
+      "metaTemplate": "https://catalog.nuvio.tv/meta/{media_type}/{imdb_id}.json"
+    },
+    "cinemeta": {
+      "manifestUrl": "https://v3-cinemeta.strem.io/manifest.json",
+      "metaTemplate": "https://v3-cinemeta.strem.io/meta/{media_type}/{imdb_id}.json"
+    }
+  },
+  "publishedUniqueTitleCount": 434,
+  "nuvioResolvedCount": 402,
+  "nuvioUnresolvedCount": 32,
+  "cinemetaResolvedAmongNuvioGapsCount": 27,
+  "unresolvedByEitherCount": 5,
+  "fallbackReview": [
+    {
+      "imdbId": "tt0066261",
+      "title": "Put Out More Flags",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-craft-production-design-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:putoutmoreflags:1971",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt0066261.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt0066261.json"
+      },
+      "releaseYear": 1970
+    },
+    {
+      "imdbId": "tt0075570",
+      "title": "Rock Follies of '77",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-craft-photography-lighting-fiction-winning-series"
+      ],
+      "tmdbId": null,
+      "workKeys": [
+        "television:rockfollesof77:1978",
+        "television:rockfolliesof77:1978"
+      ],
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt0075570.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt0075570.json"
+      },
+      "releaseYear": 1977
+    },
+    {
+      "imdbId": "tt0081958",
+      "title": "We, the Accused",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-craft-photography-lighting-fiction-winning-series"
+      ],
+      "tmdbId": 24164,
+      "workKey": "television:wetheaccused:1981",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt0081958.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt0081958.json"
+      },
+      "releaseYear": 1980
+    },
+    {
+      "imdbId": "tt0086354",
+      "title": "Stan's Last Game",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-craft-photography-lighting-fiction-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:stanslastgame:1984",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt0086354.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt0086354.json"
+      },
+      "releaseYear": 1983
+    },
+    {
+      "imdbId": "tt0204589",
+      "title": "Rembrandt",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-craft-production-design-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:rembrandt:1970",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt0204589.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt0204589.json"
+      },
+      "releaseYear": 1969
+    },
+    {
+      "imdbId": "tt0217625",
+      "title": "Lockerbie: A Night Remembered",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-craft-editing-factual-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:lockerbieanightremembered:1999",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt0217625.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt0217625.json"
+      },
+      "releaseYear": 1998
+    },
+    {
+      "imdbId": "tt0248793",
+      "title": "Facing the Music: The Return of Torvill and Dean",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-craft-sound-factual-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:torvillanddeanfacingthemusic:1995",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt0248793.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt0248793.json"
+      },
+      "releaseYear": 1994
+    },
+    {
+      "imdbId": "tt0296863",
+      "title": "The Stanley Baxter Big Picture Show",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-craft-production-design-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:thestanleybaxterbigpictureshow:1975",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt0296863.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt0296863.json"
+      },
+      "releaseYear": 1973
+    },
+    {
+      "imdbId": "tt0300880",
+      "title": "Wildlife Specials",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-craft-photography-factual-winning-series"
+      ],
+      "tmdbId": 8681,
+      "workKeys": [
+        "television:wildlifepolarbearspecial:1998",
+        "television:wildlifetigerspecial:2000"
+      ],
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt0300880.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt0300880.json"
+      },
+      "releaseYear": 1995
+    },
+    {
+      "imdbId": "tt0313343",
+      "title": "Eurovision Song Contest",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-craft-director-multi-camera-winning-series",
+        "bafta-craft-entertainment-craft-team-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:eurovisionsongcontest2023:2024",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt0313343.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt0313343.json"
+      },
+      "releaseYear": 1956
+    },
+    {
+      "imdbId": "tt0415181",
+      "title": "Nine Lives of Alice Martineau",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-craft-emerging-talent-factual-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:theninelivesofalicemartineau:2004",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt0415181.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt0415181.json"
+      },
+      "releaseYear": 2003
+    },
+    {
+      "imdbId": "tt0490208",
+      "title": "SAS: Iranian Embassy Siege",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-craft-editing-factual-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:sasembassyseige:2003",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt0490208.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt0490208.json"
+      },
+      "releaseYear": 2002
+    },
+    {
+      "imdbId": "tt0970163",
+      "title": "Witness",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-craft-emerging-talent-factual-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:witnessthetrain:2002",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt0970163.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt0970163.json"
+      },
+      "releaseYear": 1990
+    },
+    {
+      "imdbId": "tt10069230",
+      "title": "Royal British Legion Festival of Remembrance",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-craft-entertainment-craft-team-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:royalbritishlegionfestivalofremembrance2016:2017",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt10069230.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": false,
+        "reason": "missing-meta-object",
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt10069230.json"
+      },
+      "releaseYear": 1950
+    },
+    {
+      "imdbId": "tt1015629",
+      "title": "Death",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-craft-emerging-talent-factual-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:death:2003",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt1015629.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": false,
+        "reason": "missing-meta-object",
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt1015629.json"
+      },
+      "releaseYear": 2002
+    },
+    {
+      "imdbId": "tt10449278",
+      "title": "FA Cup Final 2014: Hull City FC vs. Arsenal FC",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-craft-director-multi-camera-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:2014facupfinal:2015",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt10449278.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt10449278.json"
+      },
+      "releaseYear": 2014
+    },
+    {
+      "imdbId": "tt10533670",
+      "title": "Glastonbury 2019",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-craft-director-multi-camera-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:glastonbury2019:2020",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt10533670.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt10533670.json"
+      },
+      "releaseYear": 2019
+    },
+    {
+      "imdbId": "tt1059223",
+      "title": "La ronde",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-craft-photography-lighting-fiction-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:laronde:1983",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt1059223.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt1059223.json"
+      },
+      "releaseYear": 1982
+    },
+    {
+      "imdbId": "tt1152392",
+      "title": "Tsunami: 7 Hours on Boxing Day",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-craft-photography-factual-winning-films",
+        "bafta-craft-sound-factual-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:tsunami7hoursonboxingday:2006",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt1152392.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt1152392.json"
+      },
+      "releaseYear": 2005
+    },
+    {
+      "imdbId": "tt14697242",
+      "title": "Glastonbury Festival Presents Live at Worthy Farm",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-craft-director-multi-camera-winning-films"
+      ],
+      "tmdbId": 832300,
+      "workKey": "television:glastonburyfestivalliveatworthyfarm:2022",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt14697242.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt14697242.json"
+      },
+      "releaseYear": 2021
+    },
+    {
+      "imdbId": "tt26660803",
+      "title": "BBC Beijing Olympics: Monkey, Journey to the West",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-craft-titles-graphic-identity-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:olympics2008:2009",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt26660803.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": false,
+        "reason": "missing-required-name",
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt26660803.json"
+      },
+      "releaseYear": 2008
+    },
+    {
+      "imdbId": "tt3053868",
+      "title": "The Plot to Bring Down Britain's Planes",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-craft-director-factual-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:theplottobringdownbritainsplanes:2013",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt3053868.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt3053868.json"
+      },
+      "releaseYear": 2012
+    },
+    {
+      "imdbId": "tt36564052",
+      "title": "Glastonbury 2024",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-craft-director-multi-camera-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:glastonbury2024:2025",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt36564052.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt36564052.json"
+      },
+      "releaseYear": 2024
+    },
+    {
+      "imdbId": "tt36896747",
+      "title": "Trouble in Tahiti",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-craft-production-design-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:troubleintahiti:1974",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt36896747.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt36896747.json"
+      },
+      "releaseYear": 1976
+    },
+    {
+      "imdbId": "tt3704078",
+      "title": "Messiah at the Foundling Hospital",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-craft-sound-factual-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:messiahatthefoundlinghospital:2015",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt3704078.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt3704078.json"
+      },
+      "releaseYear": 2014
+    },
+    {
+      "imdbId": "tt37740869",
+      "title": "Match of the Day Live: Women's UEFA Euro 2025",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-craft-titles-graphic-identity-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:uefawomenseuro2025:2026",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt37740869.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt37740869.json"
+      },
+      "releaseYear": 2025
+    },
+    {
+      "imdbId": "tt5643468",
+      "title": "Blues and Twos",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-craft-sound-factual-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:bluesandtwos:1997",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt5643468.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt5643468.json"
+      },
+      "releaseYear": 1993
+    },
+    {
+      "imdbId": "tt7205604",
+      "title": "World War One Remembered",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-craft-director-multi-camera-winning-series",
+        "bafta-craft-entertainment-craft-team-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:worldwaronerememberedpasschendaele:2018",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt7205604.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt7205604.json"
+      },
+      "releaseYear": 2014
+    },
+    {
+      "imdbId": "tt7479280",
+      "title": "Later Live… with Jools Holland",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-craft-sound-factual-winning-series"
+      ],
+      "tmdbId": 35132,
+      "workKey": "television:laterlivewithjoolsholland:2019",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt7479280.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": false,
+        "reason": "missing-meta-object",
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt7479280.json"
+      },
+      "releaseYear": 2008
+    },
+    {
+      "imdbId": "tt7909898",
+      "title": "BBC Winter Olympics: The Fearless Are Here",
+      "mediaType": "movie",
+      "catalogIds": [
+        "bafta-craft-titles-graphic-identity-winning-films"
+      ],
+      "tmdbId": null,
+      "workKey": "television:thefearlessareherethe2018winterolympics:2019",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/movie/tt7909898.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/movie/tt7909898.json"
+      },
+      "releaseYear": 2018
+    },
+    {
+      "imdbId": "tt8023892",
+      "title": "BBC Sport: Winter Olympics",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-craft-titles-graphic-identity-winning-series"
+      ],
+      "tmdbId": null,
+      "workKeys": [
+        "television:bbcwinterolympics:2010",
+        "television:winterolympics2014:2015"
+      ],
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt8023892.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": false,
+        "reason": "missing-meta-object",
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt8023892.json"
+      },
+      "releaseYear": 2010
+    },
+    {
+      "imdbId": "tt9020296",
+      "title": "Operatunity",
+      "mediaType": "series",
+      "catalogIds": [
+        "bafta-craft-sound-factual-winning-series"
+      ],
+      "tmdbId": null,
+      "workKey": "television:operatunity:2004",
+      "nuvio": {
+        "status": 200,
+        "resolved": false,
+        "reason": "empty-meta",
+        "url": "https://catalog.nuvio.tv/meta/series/tt9020296.json"
+      },
+      "cinemeta": {
+        "status": 200,
+        "resolved": true,
+        "reason": null,
+        "url": "https://v3-cinemeta.strem.io/meta/series/tt9020296.json"
+      },
+      "releaseYear": 2003
+    }
+  ],
+  "expectedContract": {
+    "metadataFallbackIds": [
+      "tt0066261",
+      "tt0075570",
+      "tt0081958",
+      "tt0086354",
+      "tt0204589",
+      "tt0217625",
+      "tt0248793",
+      "tt0296863",
+      "tt0300880",
+      "tt0313343",
+      "tt0415181",
+      "tt0490208",
+      "tt0970163",
+      "tt10069230",
+      "tt1015629",
+      "tt10449278",
+      "tt10533670",
+      "tt1059223",
+      "tt1152392",
+      "tt14697242",
+      "tt26660803",
+      "tt3053868",
+      "tt36564052",
+      "tt36896747",
+      "tt3704078",
+      "tt37740869",
+      "tt5643468",
+      "tt7205604",
+      "tt7479280",
+      "tt7909898",
+      "tt8023892",
+      "tt9020296"
+    ]
+  },
+  "currentContractMatchesLiveReview": true
+}

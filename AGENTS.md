@@ -135,3 +135,12 @@ Implement BAFTA Television Craft as V1.4 using the already reviewed source snaps
 - Issue #41 tracks BAFTA Television Craft. Finish BAFTA before starting Emmy implementation.
 - Audit actor/director identities against the current published `nuvio-people-assets` manifest and maintain `reports/awards-actor-director-artwork.md` as the assets handoff. Keep verified missing artwork, membership changes, optional focus artwork, and unresolved person identities separate. The owner will coordinate artwork generation with the assets task.
 - For Emmys, use the Television Academy as the award-fact authority and reviewed IMDb/TMDB identities for enrichment. The owner supplied `https://www.themoviedb.org/award/83-creative-arts-emmy-awards` as a useful reference. Preserve the prohibition on automated TMDB award-page scraping. Review Primetime and Creative Arts coverage together, with distinct other Emmy programmes requiring explicit scope decisions.
+
+### V1.4 preview checkpoint — 2026-09-26
+
+- The owner asked to continue Craft without People artwork work. Keep the existing pinned handoff as background evidence; do not expand artwork scope.
+- Craft generation covers 23 lineages, 589 canonical results and 619 work links. All 497 scoped work identities are reviewed: 486 resolve and 11 are explicit non-catalogue outcomes. Forty-three catalogues contain 576 items across 434 unique titles.
+- The branch's V1.4 draft has 172 catalogues and a separate Craft preset. Craft catalogue IDs use `bafta-craft-` so they do not overlap the released Television preset's `bafta-television-` prefix.
+- Live Craft audits find 381 MetaHub posters, seven TMDB fallbacks, 46 unavailable posters, 402 provider-resolved titles and 32 compact fallback IDs. The shared Festival of Remembrance identity is corrected to IMDb `tt10069230` in Television and Craft.
+- Television's refreshed metadata audit finds 617 provider-resolved titles and 50 fallback IDs. The shared fallback generator publishes 76 unique routes across both programmes while retaining released display names on shared IDs.
+- Owner Nuvio acceptance, merge, deployed byte checks, and the V1.4 annotated tag/GitHub Release remain pending. Keep Issue #41 open until those acceptance gates are fulfilled; Emmy implementation follows BAFTA completion.

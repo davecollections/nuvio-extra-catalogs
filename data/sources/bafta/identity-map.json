@@ -52868,12 +52868,12 @@
       "mediaScope": "mixed",
       "resolution": {
         "mediaType": "series",
-        "title": "The Royal British Legion Festival of Remembrance",
-        "releaseYear": 2007,
-        "tmdbId": 214354,
-        "imdbId": "tt14540164",
-        "method": "tmdb-exact-title-media-and-award-window"
-      }
+        "title": "Royal British Legion Festival of Remembrance",
+        "releaseYear": 1950,
+        "imdbId": "tt10069230",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The annual BBC series has IMDb tt10069230 (1950 onward). The former TMDB series 214354 mapping incorrectly points to the standalone 2020 movie tt14540164; correct the shared Television/Craft identity to the verified parent series."
     },
     {
       "key": "television:theroyalbritishlegionfestivalofremembrance:2022",
@@ -52895,12 +52895,12 @@
       "mediaScope": "mixed",
       "resolution": {
         "mediaType": "series",
-        "title": "The Royal British Legion Festival of Remembrance",
-        "releaseYear": 2007,
-        "tmdbId": 214354,
-        "imdbId": "tt14540164",
-        "method": "tmdb-exact-title-media-and-award-window"
-      }
+        "title": "Royal British Legion Festival of Remembrance",
+        "releaseYear": 1950,
+        "imdbId": "tt10069230",
+        "method": "reviewed-imdb-override"
+      },
+      "reviewNote": "The annual BBC series has IMDb tt10069230 (1950 onward). The former TMDB series 214354 mapping incorrectly points to the standalone 2020 movie tt14540164; correct the shared Television/Craft identity to the verified parent series."
     },
     {
       "key": "television:theroylefamily:2000",

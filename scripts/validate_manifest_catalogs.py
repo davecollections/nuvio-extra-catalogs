@@ -18,6 +18,10 @@ PRESETS = {
         REPO_ROOT / "presets" / "bafta-television",
         "bafta-television-",
     ),
+    "bafta-television-craft": (
+        REPO_ROOT / "presets" / "bafta-television-craft",
+        "bafta-craft-",
+    ),
 }
 MEDIA_TYPES = ("movie", "series")
 SEMVER_RE = re.compile(r"^\d+\.\d+\.\d+$")
@@ -25,6 +29,8 @@ SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 IMDB_RE = re.compile(r"^tt\d+$")
 POSTER_TEMPLATE = "https://images.metahub.space/poster/medium/{imdb_id}/img"
 POSTER_CONTRACT_PATHS = {
+    "bafta-craft-": REPO_ROOT / "data" / "awards"
+    / "bafta-television-craft" / "output-contracts.json",
     "golden-globes-": REPO_ROOT
     / "data"
     / "awards"
