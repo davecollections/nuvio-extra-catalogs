@@ -12,7 +12,7 @@ from pathlib import Path
 
 from emmy_source import SourceError, category_results
 from fetch_emmy_snapshot import SOURCE_DIR, apply_no_award_evidence, candidate_pages, category_for_winner, category_for_year, load, no_award_exceptions, review_for_year
-from validate_emmy_source import validate_review
+from validate_emmy_source import evidence, source_url, validate_review
 
 FIXTURES = Path(__file__).resolve().parent / "fixtures" / "emmys"
 
@@ -147,6 +147,39 @@ class EmmySourceTests(unittest.TestCase):
             no_award_exceptions(ledger)
 
 
+class EmmySourceAuthorityTests(unittest.TestCase):
+    def test_foundation_interviews_are_context_only(self):
+        url = "https://interviews.televisionacademy.com/interviews/rita-moreno"
+        source_url(url, context=True)
+        with self.assertRaises(SourceError):
+            source_url(url)
+
+    def test_context_rejects_other_hosts_and_disguised_authorities(self):
+        for authority in ("televisionacademy.com.example.org", "interviews.televisionacademy.com.example.org",
+                          "user@interviews.televisionacademy.com", "interviews.televisionacademy.com:443",
+                          "example.org"):
+            with self.subTest(authority=authority), self.assertRaises(SourceError):
+                source_url("https://" + authority + "/interviews/rita-moreno", context=True)
+        with self.assertRaises(SourceError):
+            source_url("http://interviews.televisionacademy.com/interviews/rita-moreno", context=True)
+
+    def test_response_provenance_checks_requested_and_redirected_authorities(self):
+        url = "https://www.televisionacademy.com/bios/rita-moreno"
+        value = dict(url=url, resolvedUrl=url, status=200, sha256="0" * 64, byteCount=1, checkedAt="2026-10-03")
+        evidence(value, url)
+        value["resolvedUrl"] = "https://interviews.televisionacademy.com/interviews/rita-moreno"
+        evidence(value, url, context=True)
+        with self.assertRaises(SourceError):
+            evidence(value, url)
+        value["resolvedUrl"] = "https://example.org/interview"
+        with self.assertRaises(SourceError):
+            evidence(value, url, context=True)
+        value["url"] = "https://example.org/interview"
+        value["resolvedUrl"] = url
+        with self.assertRaises(SourceError):
+            evidence(value, value["url"], context=True)
+
+
 class EmmyLineageReviewTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -172,9 +205,8 @@ class EmmyLineageReviewTests(unittest.TestCase):
         decision = self.decisions["outstanding-reality-program"]
         for year in (2004, 2005, 2006, 2012, 2013):
             self.assertEqual(category_for_year(decision, year), "structured-reality-program")
-        for year in (2001, 2002, 2007, 2008, 2009, 2011):
+        for year in (2001, 2002, 2007, 2008, 2009, 2010, 2011):
             self.assertEqual(category_for_year(decision, year), "unstructured-reality-program")
-        self.assertIsNone(category_for_year(decision, 2010))
 
     def test_single_appearance_label_does_not_turn_miniseries_into_ongoing_drama(self):
         actor = self.decisions["outstanding-lead-actor-for-a-single-appearance-in-a-drama-or-comedy-series"]
@@ -182,11 +214,33 @@ class EmmyLineageReviewTests(unittest.TestCase):
         for year in (1976, 1977):
             self.assertEqual(category_for_year(actor, year), "lead-actor-in-a-limited-or-anthology-series-or-movie")
         self.assertEqual(category_for_year(actress, 1976), "lead-actress-in-a-limited-or-anthology-series-or-movie")
-        # Format evidence for these miniseries cannot settle guest/continuing
-        # relationships for Lou Grant, The Waltons or The Rockford Files.
-        self.assertIsNone(category_for_year(actor, 1978))
+        # Original ongoing-drama eligibility and separate single-appearance
+        # evidence distinguish these from the limited-series predecessors.
+        self.assertEqual(category_for_year(actor, 1978), "guest-actor-in-a-drama-series")
         for year in (1977, 1978):
-            self.assertIsNone(category_for_year(actress, year))
+            self.assertEqual(category_for_year(actress, year), "guest-actress-in-a-drama-series")
+
+    def test_guest_review_preserves_original_headings_and_pins_actual_context(self):
+        ledger = load(SOURCE_DIR / "lineage-decisions.json")
+        snapshot = load(SOURCE_DIR / "official-winners-1949-2026.json")
+        contexts = {s["url"]: s["context"] for s in ledger["contextSources"]}
+        slug = "outstanding-lead-actress-for-a-single-appearance-in-a-drama-or-comedy-series"
+        page = next(p for p in snapshot["pages"] if p["year"] == 1978 and p["sourceUrl"].endswith('/' + slug))
+        self.assertIn("Lead Actress", page["sourceCategory"])
+        self.assertEqual(page["winners"][0]["heading"], "Rita Moreno")
+        url = "https://interviews.televisionacademy.com/interviews/rita-moreno"
+        self.assertIn("Emmy-winning guest appearances", contexts[url])
+        self.assertIn(url, review_for_year(self.decisions[slug], 1978)["externalEvidence"])
+        self.assertIn("Nominee Michael Learned The Waltons", contexts[
+            "https://www.televisionacademy.com/awards/nominees-winners/1977/outstanding-lead-actress-in-a-drama-series"])
+
+    def test_reality_honors_supply_context_without_creating_an_emmy_winner(self):
+        decision = self.decisions["outstanding-reality-program"]
+        review = review_for_year(decision, 2010)
+        self.assertEqual([p["year"] for p in review["reviewedSourcePages"]], [2010])
+        self.assertIn("Academy Honors", review["reason"])
+        self.assertIn("https://www.televisionacademy.com/features/news/latest-news/dana-delany-host-fourth-television-academy-honors",
+                      review["externalEvidence"])
 
     def test_character_description_does_not_rewrite_the_original_lead_award(self):
         snapshot = load(SOURCE_DIR / "official-winners-1949-2026.json")
@@ -235,6 +289,7 @@ class EmmyLineageReviewTests(unittest.TestCase):
     def test_original_western_and_mystery_fields_are_programme_drama_branches(self):
         snapshot = load(SOURCE_DIR / "official-winners-1949-2026.json")
         for slug, years, work in (("best-western-series", (1959,), "Maverick"),
+                                  ("best-western-or-adventure-series", (1955,), "Stories of the Century"),
                                   ("best-mystery-action-or-adventure-program", (1954, 1953), "Dragnet"),
                                   ("best-mystery-or-intrigue-series", (1955,), "Dragnet")):
             for year in years:
@@ -305,13 +360,27 @@ class EmmyLineageReviewTests(unittest.TestCase):
         for slug, target in (("outstanding-informational-series", "documentary-or-nonfiction-series"),
                              ("outstanding-informational-special", "documentary-or-nonfiction-special")):
             self.assertEqual(category_for_year(self.decisions[slug], 2002), target)
-            self.assertIsNone(category_for_year(self.decisions[slug], 1994))
+        self.assertEqual(category_for_year(self.decisions["outstanding-informational-series"], 1994),
+                         "hosted-nonfiction-series-or-special")
+        self.assertIsNone(category_for_year(self.decisions["outstanding-informational-special"], 1994))
 
     def test_variety_special_slug_does_not_turn_the_1968_series_into_a_live_special(self):
         decision = self.decisions["outstanding-variety-music-or-comedy-special"]
         self.assertEqual(category_for_year(decision, 1968), "variety-series")
         self.assertIsNone(category_for_year(decision, 2017))
         self.assertEqual(category_for_year(decision, 2018), "variety-special-live")
+
+    def test_special_class_live_route_uses_broadcast_evidence_not_the_title(self):
+        decision = self.decisions["outstanding-special-class-programs"]
+        self.assertEqual(category_for_year(decision, 2016), "variety-special-live")
+        # Sweeney Todd (Live From Lincoln Center) cannot inherit that route
+        # merely because Live occurs in its title.
+        self.assertIsNone(category_for_year(decision, 2015))
+        ledger = load(SOURCE_DIR / "lineage-decisions.json")
+        url = "https://www.televisionacademy.com/features/news/mix/smooth-moves"
+        context = next(s["context"] for s in ledger["contextSources"] if s["url"] == url)
+        self.assertIn("was broadcast live from Warner Bros. Studios", context)
+        self.assertIn(url, review_for_year(decision, 2016)["externalEvidence"])
 
     def test_period_context_reference_requires_pinned_evidence(self):
         decision = self.decisions["outstanding-miniseries-or-movie"]
@@ -392,15 +461,17 @@ class EmmyLineageReviewTests(unittest.TestCase):
         decision = self.decisions["best-audience-participation-quiz-or-panel-program"]
         for year in (1951, 1953, 1956, 1959):
             self.assertEqual(category_for_year(decision, year), "game-show")
-        for year in (1954, 1955):
-            self.assertIsNone(category_for_year(decision, year))
+        self.assertIsNone(category_for_year(decision, 1954))
+        self.assertEqual(category_for_year(decision, 1955), "hosted-nonfiction-series-or-special")
         page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
                     if p["sourceUrl"].endswith('/1954/' + decision["sourceSlug"]))
         self.assertEqual({w["heading"] for w in page["winners"]}, {"What's My Line?", "This Is Your Life"})
-        # A recognisable game show in the tie is not enough to accept a mixed
-        # page while the other winner's predecessor remains unresolved.
-        for winner in page["winners"]:
-            self.assertIsNone(category_for_winner(decision, 1954, winner["sourceKey"]))
+        targets = {w["heading"]: category_for_winner(decision, 1954, w["sourceKey"]) for w in page["winners"]}
+        self.assertEqual(targets, {"What's My Line?": "game-show",
+                                  "This Is Your Life": "hosted-nonfiction-series-or-special"})
+        # Both sides of the original tie survive; the page-wide category
+        # remains deliberately unset because their actual formats differ.
+        self.assertEqual(len(review_for_year(decision, 1954)["winnerAllocations"]), 2)
 
     def test_duration_branches_follow_the_actual_awarded_programme(self):
         decision = self.decisions["best-direction-half-hour-or-less"]

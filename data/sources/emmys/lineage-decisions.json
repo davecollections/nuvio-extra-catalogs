@@ -677,21 +677,9 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1951/best-audience-participation-quiz-or-panel-program",
             "https://www.televisionacademy.com/awards/nominees-winners/1959/best-audience-participation-quiz-or-panel-program"
           ],
-          "disposition": "pending-review",
-          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
+          "disposition": "current-lineage",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Every acquired period is reviewed; the archive slug does not establish a separate modern award or override the actual source heading.",
           "periods": [
-            {
-              "years": [
-                1955,
-                1954
-              ],
-              "disposition": "pending-review",
-              "reason": "The 1954 page ties the game show What's My Line? with This Is Your Life, and the 1955 page awards This Is Your Life alone. The latter's biographical audience-participation format still needs a defensible selected successor or explicit scope exclusion. Keep both pages pending until every actual winner is allocated; do not silently drop the tied programme or turn every audience-participation production into a competitive game show.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1955/best-audience-participation-quiz-or-panel-program",
-                "https://www.televisionacademy.com/awards/nominees-winners/1954/best-audience-participation-quiz-or-panel-program"
-              ]
-            },
             {
               "years": [
                 1959,
@@ -783,9 +771,85 @@
               "externalEvidence": [
                 "https://www.televisionacademy.com/features/news/ralph-edwards-1913-2005"
               ]
+            },
+            {
+              "years": [
+                1954
+              ],
+              "disposition": "current-lineage",
+              "reason": "The early Quiz/Panel/Audience Participation field awards a tie to the competitive panel game What's My Line? and the hosted life-story programme This Is Your Life. Allocate every exact winning fact once by the actual format: Game Show for the panel game, Hosted Nonfiction for Edwards' reminiscence/interview programme. The latter is not a quiz-game win merely because of the broad heading. The Academy's hosted nonfiction definition explicitly includes host-driven narrative and interview formats; these are reviewed historical predecessor relationships, not additional current awards.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1954/best-audience-participation-quiz-or-panel-program"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Audience Participation, Quiz Or Panel Program"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1954,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1954/best-audience-participation-quiz-or-panel-program",
+                  "sha256": "0c7d58126ff3217ec995592c59edbf7ac30495ba45f3f9551cd83d7afcb83fad",
+                  "winnerSourceKeys": [
+                    "764adc97130f33b584fa3d80ea6a43133c7f3309d02764ec7498d4b4d3a20bbe",
+                    "b29678c5b7b547bf358e8e9b4bca9eaec6b5892c5abdad459611d0e1edbc1fc9"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/ralph-edwards-1913-2005",
+                "https://www.televisionacademy.com/news/hall-fame/mark-goodson-hall-fame-tribute",
+                "https://www.televisionacademy.com/features/news/awards-news/emmy-rules-changes-191217"
+              ],
+              "winnerAllocations": [
+                {
+                  "sourceKey": "764adc97130f33b584fa3d80ea6a43133c7f3309d02764ec7498d4b4d3a20bbe",
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1954/best-audience-participation-quiz-or-panel-program",
+                  "year": 1954,
+                  "disposition": "current-lineage",
+                  "currentCategory": "hosted-nonfiction-series-or-special",
+                  "reason": "Original NBC programme hosted by Ralph Edwards: guests, friends and relatives recount the subject's life, rather than compete in a quiz."
+                },
+                {
+                  "sourceKey": "b29678c5b7b547bf358e8e9b4bca9eaec6b5892c5abdad459611d0e1edbc1fc9",
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1954/best-audience-participation-quiz-or-panel-program",
+                  "year": 1954,
+                  "disposition": "current-lineage",
+                  "currentCategory": "game-show",
+                  "reason": "Original competitive panel game; retain its side of the tie."
+                }
+              ]
+            },
+            {
+              "years": [
+                1955
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "hosted-nonfiction-series-or-special",
+              "reason": "The original NBC This Is Your Life is a host-led life-story programme, as the Academy Edwards obituary describes: the surprise subject, friends and relatives reminisce on stage. Follow Hosted Nonfiction under the explicit personality-driven narrative/interview scope rather than mislabelling this broad Audience Participation winner as a competitive game. Preserve the original award heading and do not merge the later syndicated incarnation or a new host into its identity.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1955/best-audience-participation-quiz-or-panel-program"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Audience, Guest Participation Or Panel Program"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1955,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1955/best-audience-participation-quiz-or-panel-program",
+                  "sha256": "9c9d7798f5178e67f159c4344bebe73397953d746d32d3819d90eff6298cface",
+                  "winnerSourceKeys": [
+                    "29d435bb2a83896ac631f95c376435362f3900807954843a52640b5c4f0d97d6"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/ralph-edwards-1913-2005",
+                "https://www.televisionacademy.com/features/news/awards-news/emmy-rules-changes-191217"
+              ]
             }
           ],
           "externalEvidence": [
+            "https://www.televisionacademy.com/features/news/awards-news/emmy-rules-changes-191217",
             "https://www.televisionacademy.com/features/news/news/dr-joyce-brothers-popular-psychologist-decades-television-appearances",
             "https://www.televisionacademy.com/features/news/ralph-edwards-1913-2005",
             "https://www.televisionacademy.com/news/hall-fame/mark-goodson-hall-fame-tribute"
@@ -2005,8 +2069,40 @@
           "evidence": [
             "https://www.televisionacademy.com/awards/nominees-winners/1955/best-western-or-adventure-series"
           ],
-          "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+          "disposition": "current-lineage",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Every acquired period is reviewed; the archive slug does not establish a separate modern award or override the actual source heading.",
+          "periods": [
+            {
+              "years": [
+                1955
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "drama-series",
+              "reason": "Stories of the Century won the explicitly Western/Adventure series programme field. The Foundation's authored Western history identifies it as a series about special agents conducting investigations, alongside Pony Express and Tales of Wells Fargo. Retain this scripted Western programme predecessor in Drama Series rather than treating historical-character stories as nonfiction or substituting Tales of Wells Fargo, a different production mentioned only as context.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1955/best-western-or-adventure-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Western Or Adventure Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1955,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1955/best-western-or-adventure-series",
+                  "sha256": "558243887510d20a36e6d699ed31c67fecb513979059671f4dfd9c87dc353c08",
+                  "winnerSourceKeys": [
+                    "498c650594ef4c344a60937bd9e9390ee4f822d9420f79ba4652db1fe6b4e219"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://interviews.televisionacademy.com/shows/tales-of-wells-fargo"
+              ]
+            }
+          ],
+          "externalEvidence": [
+            "https://interviews.televisionacademy.com/shows/tales-of-wells-fargo"
+          ]
         },
         {
           "sourceSlug": "best-western-series",
@@ -12107,52 +12203,8 @@
             "https://www.televisionacademy.com/awards/nominees-winners/2002/outstanding-informational-series"
           ],
           "disposition": "pending-review",
-          "reason": "Use explicit year-specific programme allocations and their pinned official contexts. Unreviewed periods remain withheld; neither the page slug nor a later award entry certifies all historical productions.",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
           "periods": [
-            {
-              "years": [
-                1997,
-                1996,
-                1995,
-                1994,
-                1993,
-                1992,
-                1991,
-                1990,
-                1989,
-                1988,
-                1987,
-                1986,
-                1985,
-                1984,
-                1983,
-                1982,
-                1981,
-                1978
-              ],
-              "disposition": "pending-review",
-              "reason": "Remaining broad historical periods still need winning-production and predecessor review; accepted neighbouring years must not be extrapolated.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1994/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1993/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1991/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1984/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1983/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1982/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-series"
-              ]
-            },
             {
               "years": [
                 2002,
@@ -12187,9 +12239,82 @@
                   ]
                 }
               ]
+            },
+            {
+              "years": [
+                1997,
+                1996,
+                1995,
+                1993,
+                1992,
+                1991,
+                1990,
+                1989,
+                1988,
+                1987,
+                1986,
+                1985,
+                1984,
+                1983,
+                1982,
+                1981,
+                1978
+              ],
+              "disposition": "pending-review",
+              "reason": "The remaining Informational Series winners still require individual documentary/hosted format review. The 2020 modern retitling does not automatically reclassify all older historical productions.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1993/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1991/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1984/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1983/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1982/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-series"
+              ]
+            },
+            {
+              "years": [
+                1994
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "hosted-nonfiction-series-or-special",
+              "reason": "Later With Bob Costas wins the original Informational Series field. The host's Academy Foundation interview identifies hosting the programme and interviewing its guests, distinguishing this original late-night nonfiction interview production from a documentary compilation or sport-event broadcast. Follow the hosted nonfiction branch under the pinned definition, which explicitly includes host-driven interview formats; do not import Costas' separate Sports Emmy results.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1994/outstanding-informational-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1994,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1994/outstanding-informational-series",
+                  "sha256": "1e3492f4654b00fd1cd417e8d0851af6ce0972524280cbcf826c99a56b30279e",
+                  "winnerSourceKeys": [
+                    "838e7cfab6e92f13e6b3f9a8ee388792ccc7f6c86232ab6cc3d23ba6d7aca5ca"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://interviews.televisionacademy.com/interviews/bob-costas",
+                "https://www.televisionacademy.com/features/news/awards-news/emmy-rules-changes-191217"
+              ]
             }
           ],
-          "externalEvidence": []
+          "externalEvidence": [
+            "https://interviews.televisionacademy.com/interviews/bob-costas",
+            "https://www.televisionacademy.com/features/news/awards-news/emmy-rules-changes-191217"
+          ]
         },
         {
           "sourceSlug": "outstanding-informational-series-or-special",
@@ -12508,19 +12633,9 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-lead-actor-for-a-single-appearance-in-a-drama-or-comedy-series",
             "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-lead-actor-for-a-single-appearance-in-a-drama-or-comedy-series"
           ],
-          "disposition": "pending-review",
-          "reason": "Use the explicit reviewed production/recipient allocations, preserving the original award wording and facts. Remaining periods are withheld; do not infer a blanket successor from single-appearance wording or a later programme version.",
+          "disposition": "current-lineage",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Every acquired period is reviewed; the archive slug does not establish a separate modern award or override the actual source heading.",
           "periods": [
-            {
-              "years": [
-                1978
-              ],
-              "disposition": "pending-review",
-              "reason": "Barnard Hughes in Lou Grant (1978) remains withheld pending independently pinned single-appearance/guest predecessor review for an ongoing drama series.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-lead-actor-for-a-single-appearance-in-a-drama-or-comedy-series"
-              ]
-            },
             {
               "years": [
                 1976
@@ -12575,11 +12690,43 @@
               "externalEvidence": [
                 "https://www.televisionacademy.com/bios/louis-gossett-jr"
               ]
+            },
+            {
+              "years": [
+                1978
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "guest-actor-in-a-drama-series",
+              "reason": "Barnard Hughes won the explicitly Single Appearance lead field for Lou Grant. The Academy obituary identifies the awarded judge performance in a single episode, while Lou Grant is a Drama Series nominee and Edward Asner wins the ordinary Drama Series lead field in the same ceremony. Allocate this ongoing-drama single-appearance predecessor to Guest Actor, retaining the original Lead wording and recipient evidence. The earlier Rich Man, Poor Man and Roots single-appearance wins stay in their reviewed limited-series lead history. Do not invent an episode title absent from the pinned award evidence.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-lead-actor-for-a-single-appearance-in-a-drama-or-comedy-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Lead Actor For A Single Appearance In A Drama Or Comedy Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1978,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-lead-actor-for-a-single-appearance-in-a-drama-or-comedy-series",
+                  "sha256": "4d8ec273f25f8c53c5ecc3da34e10aeaa44369b5b13c69e6bdd2583a987bd77f",
+                  "winnerSourceKeys": [
+                    "72fe5c94e06c66b14a518af4052a4789cbc382b910001336968cb83443a2e3d9"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/barnard-hughes-dies-90",
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-drama-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-lead-actor-in-a-drama-series"
+              ]
             }
           ],
           "externalEvidence": [
             "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-miniseries",
+            "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-drama-series",
+            "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-lead-actor-in-a-drama-series",
             "https://www.televisionacademy.com/bios/louis-gossett-jr",
+            "https://www.televisionacademy.com/features/news/barnard-hughes-dies-90",
             "https://www.televisionacademy.com/features/news/online-originals/he-had-spunk-tribute-ed-asner"
           ]
         },
@@ -14277,21 +14424,9 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-lead-actress-for-a-single-appearance-in-a-drama-or-comedy-series",
             "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-lead-actress-for-a-single-appearance-in-a-drama-or-comedy-series"
           ],
-          "disposition": "pending-review",
-          "reason": "Use the explicit reviewed production/recipient allocations, preserving the original award wording and facts. Remaining periods are withheld; do not infer a blanket successor from single-appearance wording or a later programme version.",
+          "disposition": "current-lineage",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Every acquired period is reviewed; the archive slug does not establish a separate modern award or override the actual source heading.",
           "periods": [
-            {
-              "years": [
-                1978,
-                1977
-              ],
-              "disposition": "pending-review",
-              "reason": "The Waltons (1977, Beulah Bondi) and The Rockford Files (1978, Rita Moreno) are ongoing drama productions. Their single-appearance/guest predecessor relationships still need independently pinned review; a broad field cannot turn every winner into a miniseries or continuing series lead.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-lead-actress-for-a-single-appearance-in-a-drama-or-comedy-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1977/outstanding-lead-actress-for-a-single-appearance-in-a-drama-or-comedy-series"
-              ]
-            },
             {
               "years": [
                 1976
@@ -14318,10 +14453,68 @@
               "externalEvidence": [
                 "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-miniseries"
               ]
+            },
+            {
+              "years": [
+                1978
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "guest-actress-in-a-drama-series",
+              "reason": "Rita Moreno won the explicitly Single Appearance lead field for The Rockford Files, the same ceremony's Drama Series winner. The Academy Foundation's first-party interview caption identifies her Emmy-winning guest appearances as Rita Capkovic. Follow the ongoing-drama guest predecessor without converting her distinct 1977 Muppet Show performance award into a drama win or overwriting the historical Lead heading.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-lead-actress-for-a-single-appearance-in-a-drama-or-comedy-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Lead Actress For A Single Appearance In A Drama Or Comedy Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1978,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-lead-actress-for-a-single-appearance-in-a-drama-or-comedy-series",
+                  "sha256": "750a92b512bed8c814c37d2cd52b0df6677b28052ef7805f504844901d358ff7",
+                  "winnerSourceKeys": [
+                    "df24bbf8ae2d43b701ac02efc50561020d3c65b9311800fe9bca9d984f9d2a04"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://interviews.televisionacademy.com/interviews/rita-moreno",
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-drama-series"
+              ]
+            },
+            {
+              "years": [
+                1977
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "guest-actress-in-a-drama-series",
+              "reason": "Beulah Bondi won the explicitly Single Appearance lead field for The Waltons. The exact original programme also has Michael Learned entered in the ordinary Drama Series lead field in the same ceremony, distinguishing this ongoing drama from the preceding limited-series Single Appearance winner. Allocate the historical single-appearance programme relationship to Guest Actress; retain the original heading and do not supply an unverified episode title or character credit.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1977/outstanding-lead-actress-for-a-single-appearance-in-a-drama-or-comedy-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Lead Actress For A Single Appearance In A Drama Or Comedy Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1977,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1977/outstanding-lead-actress-for-a-single-appearance-in-a-drama-or-comedy-series",
+                  "sha256": "39e5d10ca2ab2e9f406d33f580b604de2a14bdc0ed0248841a3f158d51d5e36f",
+                  "winnerSourceKeys": [
+                    "009dc56418aad5cdc26eaa9448a40639fe14978af1bae61b4c00c866a5808682"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1977/outstanding-lead-actress-in-a-drama-series"
+              ]
             }
           ],
           "externalEvidence": [
-            "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-miniseries"
+            "https://interviews.televisionacademy.com/interviews/rita-moreno",
+            "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-miniseries",
+            "https://www.televisionacademy.com/awards/nominees-winners/1977/outstanding-lead-actress-in-a-drama-series",
+            "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-drama-series"
           ]
         },
         {
@@ -19259,8 +19452,8 @@
             "https://www.televisionacademy.com/awards/nominees-winners/2001/outstanding-reality-program",
             "https://www.televisionacademy.com/awards/nominees-winners/2013/outstanding-reality-program"
           ],
-          "disposition": "pending-review",
-          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
+          "disposition": "current-lineage",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Every acquired period is reviewed; the archive slug does not establish a separate modern award or override the actual source heading.",
           "periods": [
             {
               "years": [
@@ -19467,16 +19660,6 @@
             },
             {
               "years": [
-                2010
-              ],
-              "disposition": "pending-review",
-              "reason": "Jamie Oliver's Food Revolution (2010) still needs production-specific template/observational-format evidence. Its separate Academy Honors recognition is format context only and cannot become an extra Emmy winner.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/2010/outstanding-reality-program"
-              ]
-            },
-            {
-              "years": [
                 2001
               ],
               "disposition": "current-lineage",
@@ -19501,6 +19684,34 @@
               "externalEvidence": [
                 "https://www.televisionacademy.com/bios/brian-medavoy"
               ]
+            },
+            {
+              "years": [
+                2010
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "unstructured-reality-program",
+              "reason": "The Academy's production description follows Jamie Oliver's Food Revolution through a community nutrition campaign in Huntington and then its subsequent Los Angeles challenge. This is an evolving docu-reality story, rather than the repeating weekly template used by the structured branch. Allocate its original 2010 Reality Program winner to Unstructured Reality under the documented 2014 split. The separately identified 2011 Academy Honors recognition supplies format context only and is not an additional Emmy award; preserve the source page's original 2010 winner and credits.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/2010/outstanding-reality-program"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Reality Program"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 2010,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2010/outstanding-reality-program",
+                  "sha256": "43d9326a59b9a7ca3b87b64c335df13c125bc901b631e88faab927633d24a445",
+                  "winnerSourceKeys": [
+                    "9154b3cf2b178b48d77f971b6b14c7332d90195f33f59860a85320dd5ab423ef"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/latest-news/dana-delany-host-fourth-television-academy-honors",
+                "https://www.televisionacademy.com/files/assets/Downloads/WhatsNew2014PTE.pdf"
+              ]
             }
           ],
           "externalEvidence": [
@@ -19508,6 +19719,7 @@
             "https://www.televisionacademy.com/awards/nominees-winners/2015/outstanding-unstructured-reality-program",
             "https://www.televisionacademy.com/bios/brian-medavoy",
             "https://www.televisionacademy.com/bios/ozzy-osbourne",
+            "https://www.televisionacademy.com/features/news/latest-news/dana-delany-host-fourth-television-academy-honors",
             "https://www.televisionacademy.com/features/news/mix/home-again",
             "https://www.televisionacademy.com/features/news/mix/persistence-pays-scout-productions",
             "https://www.televisionacademy.com/features/online-originals/kathy-griffin-my-life-on-the-d-list",
@@ -20788,9 +21000,78 @@
             "https://www.televisionacademy.com/awards/nominees-winners/2017/outstanding-special-class-programs"
           ],
           "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording.",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
           "externalEvidence": [
+            "https://www.televisionacademy.com/features/news/mix/smooth-moves",
             "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212"
+          ],
+          "periods": [
+            {
+              "years": [
+                2017,
+                2015,
+                2014,
+                2013,
+                2012,
+                2011,
+                2010,
+                2009,
+                2007,
+                2005,
+                2004,
+                2002,
+                1989,
+                1980,
+                1979
+              ],
+              "disposition": "pending-review",
+              "reason": "The remaining Special Class years mix annual award telecasts, performing-arts productions, an Olympic opening ceremony, documentary and recurring talk programmes. Review actual winning productions and live/prerecorded or series/special status before allocating every winner; the 2018 restructuring does not make all older Special Class awards Live Variety wins.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/2017/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2015/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2014/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2013/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2012/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2011/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2010/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2009/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2007/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2005/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2004/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2002/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/1979/outstanding-special-class-programs"
+              ]
+            },
+            {
+              "years": [
+                2016
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "variety-special-live",
+              "reason": "Grease: Live wins the 2016 Special Class programme field. The Academy's contemporaneous production account explicitly states that this TV musical was broadcast live from Warner Bros. Studios on January 31. Follow the documented 2018 reorganisation of Special Class and Variety Special into Live and Pre-Recorded, allocating this exact live musical to Live. The title alone, or performance before a live audience, would not establish the broadcast route; do not treat the staged musical as a Television Movie merely because of scripted characters.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/2016/outstanding-special-class-programs"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Special Class Program"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 2016,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2016/outstanding-special-class-programs",
+                  "sha256": "236cee9f29ace116577a1021a5f4a8371fb45ceaead7cee95ad84381508b22ed",
+                  "winnerSourceKeys": [
+                    "b37217865de5be5ff0d2db83685721767cefa0426fd125e480ec42c430186fc9"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/mix/smooth-moves",
+                "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212"
+              ]
+            }
           ]
         },
         {
@@ -29931,8 +30212,8 @@
       "checkedAt": "2026-10-03",
       "sha256": "996f16b63e3137adc35b8395a4f5d22bf47ea05d866d2592652cf56c533f6be1",
       "byteCount": 288067,
-      "context": "His first major radio success came in 1940 with the popular game show Truth or Consequences , a lighthearted blend of quizzes and stunts.\nWhen the United States entered World War II, television temporarily stalled, and although Truth or Consequences proceeded on radio, it did not return to television until 1950.",
-      "contextSha256": "096352a54650610f54fa982ba71003af05abfa677477cf90dc9aeb3f0892cf33"
+      "context": "His first major radio success came in 1940 with the popular game show Truth or Consequences , a lighthearted blend of quizzes and stunts.\nWhen the United States entered World War II, television temporarily stalled, and although Truth or Consequences proceeded on radio, it did not return to television until 1950.\nMeanwhile, Edwards had already launched his most enduring franchise, This Is Your Life .\nFeaturing a mix of celebrities and everyday folk, guests were brought on the show under a pretext, then surprised by Edwards, who would declare, “This is your life!”\nFriends and relatives would then be brought to the stage to reminisce about the person being highlighted.\nThis Is Your Life ran on NBC television from 1952 to 1961; like Truth or Consequences , it reappeared in syndicated form over the ensuing years.",
+      "contextSha256": "ca5464ae257e89d1557fccbd27fe7d3f14cbab7ce7df85dff8083400dfdecd82"
     },
     {
       "url": "https://www.televisionacademy.com/features/news/news/dr-joyce-brothers-popular-psychologist-decades-television-appearances",
@@ -29943,6 +30224,99 @@
       "byteCount": 287325,
       "context": "She first garnered public recognition in 1955, when she won the TV game show The $64,000 Question , fueled by her remarkable knowledge of boxing.",
       "contextSha256": "a0f71f5a088fab72eb6363e16e88a95f09592feadf843649d1060d34860e1955"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-drama-series",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-drama-series",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "0f6f36aea4a705db5d1cc76037e09fd0aaa50bb4867dbc5ab80b45d36db1b68f",
+      "byteCount": 390769,
+      "year": 1978,
+      "context": "Outstanding Drama Series\nNominee Lou Grant CBS James L. Brooks Allan Burns Gene Reynolds\nWinner The Rockford Files NBC Stephen J. Cannell David Chase Chas. Floyd Johnson Meta Rosenberg",
+      "contextSha256": "83facbf595aeb41f1221100ea92bc0c9a75efa1920831a29feb384bbeb28282c"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-lead-actor-in-a-drama-series",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-lead-actor-in-a-drama-series",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "fc8933894f2807497063930d0fe3b76897b41ed21cc834cd9e7f67abba628d71",
+      "byteCount": 388787,
+      "year": 1978,
+      "context": "Outstanding Lead Actor In A Drama Series\nWinner Edward Asner Lou Grant",
+      "contextSha256": "7c7c96068565cf622421fe6b141aa0e798fa38f29f94701754dcdcb8516c5def"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1977/outstanding-lead-actress-in-a-drama-series",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1977/outstanding-lead-actress-in-a-drama-series",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "fe470115d0f6dceaece3312b95b859f44b4d47151d6fdb94f9d0f56f9893d9f1",
+      "byteCount": 383334,
+      "year": 1977,
+      "context": "Outstanding Lead Actress In A Drama Series\nNominee Michael Learned The Waltons",
+      "contextSha256": "ee45f59190bcb8757fe6d834852426df0b2d2321f4e75c90e715087c1dc0f76b"
+    },
+    {
+      "url": "https://www.televisionacademy.com/features/news/barnard-hughes-dies-90",
+      "resolvedUrl": "https://www.televisionacademy.com/features/news/barnard-hughes-dies-90",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "34e011658dc77661615d73e7f4aad1827e83b95f317e8b5659ca0086012eff8f",
+      "byteCount": 287526,
+      "context": "Hughes won his Emmy for his portrayal of a senile judge on an episode of Lou Grant .",
+      "contextSha256": "6f242605977317124cacbb0f19299866eda83e2adc62e50727781329d69d9b90"
+    },
+    {
+      "url": "https://interviews.televisionacademy.com/interviews/rita-moreno",
+      "resolvedUrl": "https://interviews.televisionacademy.com/interviews/rita-moreno",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "3f15b5ae97d8250cda40510990ff31f0d69c8da3869c2851e7263a6afa2b62c3",
+      "byteCount": 119357,
+      "context": "Rita Moreno on her Emmy-winning guest appearances as \"Rita Capkovic\" on The Rockford Files",
+      "contextSha256": "df324ae2aa36b0d4bff1a40c52df4838abc45cd6d3a0805531a57437090ce1e1"
+    },
+    {
+      "url": "https://www.televisionacademy.com/features/news/latest-news/dana-delany-host-fourth-television-academy-honors",
+      "resolvedUrl": "https://www.televisionacademy.com/features/news/latest-news/dana-delany-host-fourth-television-academy-honors",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "417a970d67d68faefe98c57899c741cf859302aef63c90cf102eab6a8417feed",
+      "byteCount": 295209,
+      "context": "Jamie Oliver’s Food Revolution — Hosted by celebrity chef, best-selling author and food activist Jamie Oliver, the Primetime Emmy® Award-winning docu-reality series proves a television show can create a movement.\nThe series is set in Huntington, West Virginia, named by the Centers for Disease Control and Prevention as one of the most nutritionally unhealthy areas in America.\nOliver works to help people switch from fast and processed to fresh foods, both in the schools and at home.\nWith the success of Huntington behind him, Oliver is ready for a bigger challenge — helping the kids and families of the country’s second largest city — Los Angeles.",
+      "contextSha256": "ff3a462bb5313dcabd47ee61828135b3ecd2a9757101761c33ead441e639a837"
+    },
+    {
+      "url": "https://interviews.televisionacademy.com/interviews/bob-costas",
+      "resolvedUrl": "https://interviews.televisionacademy.com/interviews/bob-costas",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "785a9dc79c0941a7febe5182010839294a18bf90b898a001e3dfadc48bffdc31",
+      "byteCount": 107708,
+      "context": "On expanding his role at NBC - appearing on Today , and hosting Later with Bob Costas and the Olympics; on interviewing guests on Later with Bob Costas\nBob Costas on interviewing guests on Later with Bob Costas",
+      "contextSha256": "f97a19473f3a307f65d9de336a610b35442f3fc6abdf7cd43ef3e2f498a0b8c4"
+    },
+    {
+      "url": "https://interviews.televisionacademy.com/shows/tales-of-wells-fargo",
+      "resolvedUrl": "https://interviews.televisionacademy.com/shows/tales-of-wells-fargo",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "b7321b927434ef5cc16275544b535a5bf9967070d94c62ee902277b965d85286",
+      "byteCount": 41459,
+      "context": "Tales of Wells Fargo was one of a few shows -- including Pony Express and Stories of the Century -- that featured special agents conducting investigations for a company.\nThe program was also part of the wave of late 1950’s and early 1960’s adult Westerns, like Gunsmoke , Have Gun Will Travel , Wagon Train , and Rawhide .\nAmy & Nancy Harrington, Pop Culture Passionistas",
+      "contextSha256": "d1266b39123096bb7f6d76e534f1bcbb0f2052941f46509ceff6f711bb0b0994"
+    },
+    {
+      "url": "https://www.televisionacademy.com/features/news/mix/smooth-moves",
+      "resolvedUrl": "https://www.televisionacademy.com/features/news/mix/smooth-moves",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "37ae1db15ee11ae1ab7f7c9823ff9504d4350350f54005ca6257a41ac634ad19",
+      "byteCount": 318326,
+      "context": "The TV adaptation of the 1971 musical was broadcast live from Warner Bros. Studios in Burbank on January 31, using two soundstages, half the backlot and 44 cameras; it earned Fox its best season ratings to date.",
+      "contextSha256": "88cf89fa5f3866f39b66adcddce8c3c1213a3ead936c969290dbee2d68f5a479"
     }
   ],
   "annualExceptions": [

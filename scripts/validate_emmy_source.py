@@ -22,18 +22,22 @@ def require(condition, message):
         raise SourceError(message)
 
 
-def source_url(value, year=None):
+def source_url(value, year=None, *, context=False):
     require(isinstance(value, str), "source URL must be text")
     parsed = urlparse(value)
-    require(parsed.scheme == "https" and parsed.netloc == "www.televisionacademy.com", f"unapproved source URL: {value}")
+    hosts = {"www.televisionacademy.com"}
+    if context:
+        hosts.add("interviews.televisionacademy.com")
+    require(parsed.scheme == "https" and parsed.netloc in hosts, f"unapproved source URL: {value}")
     if year is not None:
         require(parsed.path.startswith(f"/awards/nominees-winners/{year}"), f"source URL/year mismatch: {value}")
     return parsed
 
 
-def evidence(value, url):
+def evidence(value, url, *, context=False):
     require(value.get("url") == url and value.get("status") == 200, f"invalid response provenance: {url}")
-    source_url(value.get("resolvedUrl"))
+    source_url(url, context=context)
+    source_url(value.get("resolvedUrl"), context=context)
     require(re.fullmatch(r"[0-9a-f]{64}", value.get("sha256", "")), f"invalid source fingerprint: {url}")
     require(isinstance(value.get("byteCount"), int) and value["byteCount"] > 0, f"invalid response size: {url}")
     date.fromisoformat(value["checkedAt"])
@@ -133,7 +137,7 @@ def validate(complete=False):
     lineage = load(SOURCE_DIR / "lineage-decisions.json")
     context_urls = set()
     for source in lineage.get("contextSources", []):
-        evidence(source, source["url"])
+        evidence(source, source["url"], context=True)
         require(hashlib.sha256(source["context"].encode("utf-8")).hexdigest() == source["contextSha256"], "historical context/hash drift")
         require(source["url"] not in context_urls, "duplicate historical context source")
         context_urls.add(source["url"])

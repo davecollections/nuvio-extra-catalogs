@@ -3,7 +3,7 @@
   "inputSha256": {
     "current-category-pages.json": "f813c92661d7c88ab1653ed9c3d634f8f41c0e0eb87ca0d017174765b98475c0",
     "annual-indices.json": "4bed2b1e02c4f46f3d0ce5b36afac36d58215048c0fea0830471390d8b8e9388",
-    "lineage-decisions.json": "cd6dd2f72ac14f0830a0f574a53283ce28d943acc197e85d7eac3e766720d756",
+    "lineage-decisions.json": "722383527532da634cea35038d14401b2a4dcd6b1dacbeefe6db4547ace4b895",
     "official-winners-1949-2026.json": "7b6739deab3dbb308b2d1c39ce2ac27b91277a9f8b92e6736191501670b75204",
     "winner-release-evidence-2026.json": "22f013193d628473431db094328240d17b0ad5ade937e9aa5314d68b5bb64fe6",
     "manifest.json": "226970d09fe0ab38b33075106abb893a21e6d27615f17cf9dfb15e1c2015e3b7"
@@ -16,12 +16,12 @@
     "annualCategoryLinkCount": 5437,
     "historicalPageSlugCount": 500,
     "scopeExcludedSlugCount": 350,
-    "pendingLineageSlugCount": 44,
-    "reviewedLineageSlugCount": 106,
+    "pendingLineageSlugCount": 39,
+    "reviewedLineageSlugCount": 111,
     "retainedScopeExcludedPageCount": 9,
     "retainedScopeExcludedWinnerRecordCount": 10,
-    "reviewedAllocationPageCount": 2246,
-    "reviewedWinnerAllocationCount": 2293,
+    "reviewedAllocationPageCount": 2255,
+    "reviewedWinnerAllocationCount": 2303,
     "acquiredCandidatePageCount": 2480,
     "candidateWinnerRecordCount": 2587,
     "independentlyReconciledNoAwardPageCount": 1,
@@ -862,8 +862,8 @@
       "id": "game-show",
       "name": "OUTSTANDING GAME SHOW",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 8,
-      "reviewedWinnerAllocationCount": 8,
+      "reviewedSourcePageCount": 9,
+      "reviewedWinnerAllocationCount": 9,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -871,6 +871,7 @@
         2023,
         1959,
         1956,
+        1954,
         1953,
         1951
       ],
@@ -923,8 +924,8 @@
       "id": "hosted-nonfiction-series-or-special",
       "name": "OUTSTANDING HOSTED NONFICTION SERIES OR SPECIAL",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 14,
-      "reviewedWinnerAllocationCount": 16,
+      "reviewedSourcePageCount": 17,
+      "reviewedWinnerAllocationCount": 19,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -939,7 +940,10 @@
         2016,
         2015,
         2014,
-        2013
+        2013,
+        1994,
+        1955,
+        1954
       ],
       "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
@@ -1002,8 +1006,8 @@
       "id": "unstructured-reality-program",
       "name": "OUTSTANDING UNSTRUCTURED REALITY PROGRAM",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 19,
-      "reviewedWinnerAllocationCount": 19,
+      "reviewedSourcePageCount": 20,
+      "reviewedWinnerAllocationCount": 20,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -1019,6 +1023,7 @@
         2015,
         2014,
         2011,
+        2010,
         2009,
         2008,
         2007,
@@ -1031,8 +1036,8 @@
       "id": "variety-special-live",
       "name": "OUTSTANDING VARIETY SPECIAL (LIVE)",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 9,
-      "reviewedWinnerAllocationCount": 9,
+      "reviewedSourcePageCount": 10,
+      "reviewedWinnerAllocationCount": 10,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -1042,7 +1047,8 @@
         2021,
         2020,
         2019,
-        2018
+        2018,
+        2016
       ],
       "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
@@ -1431,8 +1437,8 @@
       "id": "guest-actor-in-a-drama-series",
       "name": "OUTSTANDING GUEST ACTOR IN A DRAMA SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 38,
-      "reviewedWinnerAllocationCount": 38,
+      "reviewedSourcePageCount": 39,
+      "reviewedWinnerAllocationCount": 39,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -1471,7 +1477,8 @@
         1991,
         1990,
         1989,
-        1986
+        1986,
+        1978
       ],
       "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
@@ -1527,8 +1534,8 @@
       "id": "guest-actress-in-a-drama-series",
       "name": "OUTSTANDING GUEST ACTRESS IN A DRAMA SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 39,
-      "reviewedWinnerAllocationCount": 39,
+      "reviewedSourcePageCount": 41,
+      "reviewedWinnerAllocationCount": 41,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -1568,7 +1575,9 @@
         1990,
         1989,
         1988,
-        1987
+        1987,
+        1978,
+        1977
       ],
       "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
@@ -2081,8 +2090,8 @@
       "id": "drama-series",
       "name": "OUTSTANDING DRAMA SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 80,
-      "reviewedWinnerAllocationCount": 80,
+      "reviewedSourcePageCount": 81,
+      "reviewedWinnerAllocationCount": 81,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -6729,28 +6738,6 @@
       ]
     },
     {
-      "sourceSlug": "best-audience-participation-quiz-or-panel-program",
-      "firstYear": 1951,
-      "lastYear": 1959,
-      "menuLabels": [
-        "Panel, Quiz, Or Audience Participation Series",
-        "Audience Participation Series (Quiz, Panel, Etc.)",
-        "Audience, Guest Participation Or Panel Program",
-        "Audience Participation, Quiz Or Panel Program",
-        "Games And Audience Participation Show"
-      ],
-      "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
-      "pendingPeriods": [
-        {
-          "years": [
-            1955,
-            1954
-          ],
-          "reason": "The 1954 page ties the game show What's My Line? with This Is Your Life, and the 1955 page awards This Is Your Life alone. The latter's biographical audience-participation format still needs a defensible selected successor or explicit scope exclusion. Keep both pages pending until every actual winner is allocated; do not silently drop the tied programme or turn every audience-participation production into a competitive game show."
-        }
-      ]
-    },
-    {
       "sourceSlug": "best-comedian",
       "firstYear": 1953,
       "lastYear": 1958,
@@ -6832,15 +6819,6 @@
       "lastYear": 1956,
       "menuLabels": [
         "Television Adaptation"
-      ],
-      "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
-    },
-    {
-      "sourceSlug": "best-western-or-adventure-series",
-      "firstYear": 1955,
-      "lastYear": 1955,
-      "menuLabels": [
-        "Western Or Adventure Series"
       ],
       "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
     },
@@ -6951,14 +6929,13 @@
         "Non-Fiction Series (Informational) (Area Award: Possibility Of One, More Than One Or No",
         "Informational Series"
       ],
-      "reason": "Use explicit year-specific programme allocations and their pinned official contexts. Unreviewed periods remain withheld; neither the page slug nor a later award entry certifies all historical productions.",
+      "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
       "pendingPeriods": [
         {
           "years": [
             1997,
             1996,
             1995,
-            1994,
             1993,
             1992,
             1991,
@@ -6974,7 +6951,7 @@
             1981,
             1978
           ],
-          "reason": "Remaining broad historical periods still need winning-production and predecessor review; accepted neighbouring years must not be extrapolated."
+          "reason": "The remaining Informational Series winners still require individual documentary/hosted format review. The 2020 modern retitling does not automatically reclassify all older historical productions."
         }
       ]
     },
@@ -7014,41 +6991,6 @@
             1978
           ],
           "reason": "Remaining broad historical periods still need winning-production and predecessor review; accepted neighbouring years must not be extrapolated."
-        }
-      ]
-    },
-    {
-      "sourceSlug": "outstanding-lead-actor-for-a-single-appearance-in-a-drama-or-comedy-series",
-      "firstYear": 1976,
-      "lastYear": 1978,
-      "menuLabels": [
-        "Lead Actor"
-      ],
-      "reason": "Use the explicit reviewed production/recipient allocations, preserving the original award wording and facts. Remaining periods are withheld; do not infer a blanket successor from single-appearance wording or a later programme version.",
-      "pendingPeriods": [
-        {
-          "years": [
-            1978
-          ],
-          "reason": "Barnard Hughes in Lou Grant (1978) remains withheld pending independently pinned single-appearance/guest predecessor review for an ongoing drama series."
-        }
-      ]
-    },
-    {
-      "sourceSlug": "outstanding-lead-actress-for-a-single-appearance-in-a-drama-or-comedy-series",
-      "firstYear": 1976,
-      "lastYear": 1978,
-      "menuLabels": [
-        "Lead Actress"
-      ],
-      "reason": "Use the explicit reviewed production/recipient allocations, preserving the original award wording and facts. Remaining periods are withheld; do not infer a blanket successor from single-appearance wording or a later programme version.",
-      "pendingPeriods": [
-        {
-          "years": [
-            1978,
-            1977
-          ],
-          "reason": "The Waltons (1977, Beulah Bondi) and The Rockford Files (1978, Rita Moreno) are ongoing drama productions. Their single-appearance/guest predecessor relationships still need independently pinned review; a broad field cannot turn every winner into a miniseries or continuing series lead."
         }
       ]
     },
@@ -7139,25 +7081,6 @@
       "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
     },
     {
-      "sourceSlug": "outstanding-reality-program",
-      "firstYear": 2001,
-      "lastYear": 2013,
-      "menuLabels": [
-        "Reality Program",
-        "Non-Fiction Program (Reality)",
-        "Non-Fiction Program (Reality) (Area Award: Possibility Of One, More Than One Or No Award"
-      ],
-      "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
-      "pendingPeriods": [
-        {
-          "years": [
-            2010
-          ],
-          "reason": "Jamie Oliver's Food Revolution (2010) still needs production-specific template/observational-format evidence. Its separate Academy Honors recognition is format context only and cannot become an extra Emmy winner."
-        }
-      ]
-    },
-    {
       "sourceSlug": "outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-series",
       "firstYear": 1975,
       "lastYear": 1978,
@@ -7239,7 +7162,29 @@
         "Program Achievement-Special Class",
         "Program Achievement - Special Class"
       ],
-      "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+      "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
+      "pendingPeriods": [
+        {
+          "years": [
+            2017,
+            2015,
+            2014,
+            2013,
+            2012,
+            2011,
+            2010,
+            2009,
+            2007,
+            2005,
+            2004,
+            2002,
+            1989,
+            1980,
+            1979
+          ],
+          "reason": "The remaining Special Class years mix annual award telecasts, performing-arts productions, an Olympic opening ceremony, documentary and recurring talk programmes. Review actual winning productions and live/prerecorded or series/special status before allocating every winner; the 2018 restructuring does not make all older Special Class awards Live Variety wins."
+        }
+      ]
     },
     {
       "sourceSlug": "outstanding-variety-music-or-comedy-special",
