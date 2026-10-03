@@ -399,10 +399,10 @@ class EmmyLineageReviewTests(unittest.TestCase):
     def test_audit_counts_retained_excluded_periods_inside_pending_branches(self):
         from build_emmy_lineage_audit import build
         report = build()
-        # Five newly excluded performance years remain under partly pending
-        # slugs, in addition to the nine retained retired-programme pages.
-        self.assertEqual(report["summary"]["retainedScopeExcludedPageCount"], 14)
-        self.assertEqual(report["summary"]["retainedScopeExcludedWinnerRecordCount"], 15)
+        # Five personality years and an expressly headed cultural performance
+        # remain under pending slugs, alongside nine retired-programme pages.
+        self.assertEqual(report["summary"]["retainedScopeExcludedPageCount"], 15)
+        self.assertEqual(report["summary"]["retainedScopeExcludedWinnerRecordCount"], 16)
         self.assertEqual(report["summary"]["publishedEmmyCatalogueCount"], 0)
 
     def test_miniseries_slug_does_not_reclassify_the_1973_single_programme(self):
@@ -413,12 +413,12 @@ class EmmyLineageReviewTests(unittest.TestCase):
     def test_merged_programme_period_uses_the_awarded_production_format(self):
         decision = self.decisions["outstanding-miniseries-or-movie"]
         self.assertEqual(category_for_year(decision, 1990), "television-movie")
-        self.assertIsNone(category_for_year(decision, 1991))
+        self.assertEqual(category_for_year(decision, 1991), "limited-or-anthology-series")
         self.assertEqual(category_for_year(decision, 1992), "limited-or-anthology-series")
         self.assertEqual(category_for_year(decision, 2011), "limited-or-anthology-series")
         for year in (2012, 2013):
             self.assertEqual(category_for_year(decision, year), "television-movie")
-        self.assertIsNone(category_for_year(decision, 1991))
+        self.assertEqual(decision["disposition"], "current-lineage")
 
     def test_reality_split_does_not_allocate_the_whole_older_field_to_one_successor(self):
         decision = self.decisions["outstanding-reality-program"]
@@ -426,6 +426,169 @@ class EmmyLineageReviewTests(unittest.TestCase):
             self.assertEqual(category_for_year(decision, year), "structured-reality-program")
         for year in (2001, 2002, 2007, 2008, 2009, 2010, 2011):
             self.assertEqual(category_for_year(decision, year), "unstructured-reality-program")
+
+    def test_original_miniseries_producer_does_not_replace_award_credits(self):
+        ledger = load(SOURCE_DIR / "lineage-decisions.json")
+        contexts = {s["url"]: s["context"] for s in ledger["contextSources"]}
+        url = "https://www.georgestevensjr.com/justice"
+        self.assertIn("Separate But Equal 1991 two-part television miniseries", contexts[url])
+        self.assertIn("The Murder of Mary Phagan 1988", contexts[url])
+        self.assertIn("Thurgood 2011 movie", contexts[url])
+        slug = "outstanding-miniseries-or-movie"
+        self.assertIn(url, review_for_year(self.decisions[slug], 1991)["externalEvidence"])
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1991/' + slug))
+        self.assertEqual(page["sourceCategory"], "Outstanding Drama/Comedy Special And Miniseries")
+        self.assertEqual(page["winners"][0]["sourceDetailLines"], ["ABC"])
+        self.assertEqual([(c["name"], c["role"]) for c in page["winners"][0]["credits"]],
+                         [("Stan Margulies", ""), ("George Stevens", "")])
+
+    def test_explicit_cultural_performance_is_excluded_without_erasing_its_winner(self):
+        slug = "outstanding-cultural-program"
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1997/' + slug))
+        review = review_for_year(self.decisions[slug], 1997)
+        self.assertEqual(review["disposition"], "excluded")
+        self.assertEqual(page["sourceCategory"], "Outstanding Achievement In Cultural Programming - Performance")
+        self.assertEqual(page["winners"][0]["credits"], [{"name": "Pilobolus Dance Theatre", "role": "",
+                         "url": "https://www.televisionacademy.com/bios/pilobolus-dance-theatre"}])
+        self.assertEqual(review["reviewedSourcePages"][0]["winnerSourceKeys"], [page["winners"][0]["sourceKey"]])
+        self.assertIsNone(category_for_winner(self.decisions[slug], 1997, page["winners"][0]["sourceKey"]))
+        self.assertEqual(review_for_year(self.decisions[slug], 1994)["disposition"], "pending-review")
+
+    def test_reviewed_no_award_pins_the_empty_field_without_allocating_nominees(self):
+        page = load(SOURCE_DIR / "official-winners-1949-2026.json")["noAwardPages"][0]
+        review = deepcopy(review_for_year(self.decisions[
+            "outstanding-single-performance-by-an-actor-in-a-supporting-role"], 1969))
+        self.assertEqual(review["disposition"], "current-lineage")
+        self.assertNotIn("currentCategory", review)
+        self.assertEqual(review["winnerAllocations"], [])
+        self.assertEqual(review["reviewedSourcePages"][0]["winnerSourceKeys"], [])
+        self.assertEqual(page["nominationCount"], 3)
+        url = page["sourceUrl"]
+        contexts = {s["url"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]}
+        arguments = ({1969: url}, {url: (1969, url.rsplit('/', 1)[1])}, {url: page},
+                     {"supporting-actor-in-a-limited-or-anthology-series-or-movie"}, contexts)
+        validate_review(review, *arguments)
+        review["winnerAllocations"] = [{"sourceKey": "unawarded-nominee"}]
+        with self.assertRaises(SourceError):
+            validate_review(review, *arguments)
+        review["winnerAllocations"] = []
+        review["reviewedSourcePages"][0]["sha256"] = "0" * 64
+        with self.assertRaises(SourceError):
+            validate_review(review, *arguments)
+
+    def test_tied_single_supporting_performances_follow_both_ongoing_genres(self):
+        slug = "outstanding-single-performance-by-a-supporting-actress-in-a-comedy-or-drama-series"
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1975/' + slug))
+        self.assertEqual(page["winnerCount"], 2)
+        targets = {w["heading"]: category_for_winner(self.decisions[slug], 1975, w["sourceKey"])
+                   for w in page["winners"]}
+        self.assertEqual(targets, {"Zohra Lampert": "guest-actress-in-a-drama-series",
+                                  "Cloris Leachman": "guest-actress-in-a-comedy-series"})
+        review = review_for_year(self.decisions[slug], 1975)
+        self.assertIsNone(category_for_year(self.decisions[slug], 1975))
+        self.assertEqual(review["reviewedSourcePages"][0]["winnerSourceKeys"],
+                         [w["sourceKey"] for w in page["winners"]])
+        self.assertIn("Supporting Actress", page["sourceCategory"])
+        self.assertTrue(all(c["role"] == "" for w in page["winners"] for c in w["credits"]))
+
+    def test_western_single_performance_keeps_part_ii_and_original_year_eligibility(self):
+        contexts = {s["url"]: s["context"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]}
+        url = "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-lead-actress-in-a-drama-series"
+        self.assertIn("Nominee Fionnula Flanagan How The West Was Won", contexts[url])
+        self.assertIn("How the West was Won, Part II", contexts[
+            "https://www.televisionacademy.com/shows/how-west-was-won"])
+        slug = "outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-series"
+        review = review_for_year(self.decisions[slug], 1978)
+        self.assertIn(url, review["externalEvidence"])
+        self.assertIn("1977 Limited Series", review["reason"])
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1978/' + slug))
+        self.assertEqual(page["winners"][0]["heading"], "Ricardo Montalban")
+        self.assertEqual(page["winners"][0]["credits"][0]["role"], "")
+
+    def test_single_supporting_actress_keeps_the_original_anthology_production(self):
+        slug = "outstanding-single-performance-by-an-actress-in-a-supporting-role"
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1969/' + slug))
+        self.assertEqual(category_for_year(self.decisions[slug], 1969),
+                         "supporting-actress-in-a-limited-or-anthology-series-or-movie")
+        self.assertEqual(page["winners"][0]["heading"], "Anna Calder-Marshall")
+        self.assertEqual(page["winners"][0]["programmes"][0]["name"], "Male of the Species Prudential's On Stage")
+        self.assertEqual(page["winners"][0]["credits"][0]["role"], "")
+        self.assertIn("anthology episode versus parent", self.decisions[
+            "outstanding-lead-actor-in-a-miniseries-or-a-movie"]["reason"].casefold())
+
+    def test_concert_recording_does_not_inherit_the_original_event_livestream(self):
+        slug = "outstanding-special-class-not-exclusively-made-for-television-variety-music-comedy-event-programs"
+        self.assertEqual(category_for_year(self.decisions[slug], 2008), "variety-special-pre-recorded")
+        contexts = {s["url"]: s["context"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]}
+        self.assertIn("broadcasted online and later released on DVD", contexts[
+            "https://ericclapton.com/pages/timeline-2000s"])
+        programme = contexts["https://www.pbs.org/wnet/gperf/eric-clapton-crossroads-guitar-festival-chicago-chicago-blues-overview/404/"]
+        self.assertIn("November 28, 2007", programme)
+        schedule = next(v for k, v in contexts.items() if k.endswith('/pbs-offers-music-and-dance-lovers-exciting-new-performance-specials-throughout-march-and-april-february-13-2008/'))
+        self.assertIn('Chicago" (R) Wednesday, March 19, 2008, 9:00-11:00 p.m. ET', schedule)
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/2008/' + slug))
+        self.assertEqual(page["winners"][0]["sourceDetailLines"], ["PBS"])
+        self.assertEqual(len(page["winners"][0]["credits"]), 6)
+        self.assertEqual(page["winners"][0]["credits"][-1]["role"], "Series Producer")
+
+    def test_smithsonian_review_keeps_both_tied_winners_and_later_empty_credits(self):
+        slug = "outstanding-informational-series"
+        snapshot = load(SOURCE_DIR / "official-winners-1949-2026.json")
+        tied = next(p for p in snapshot["pages"] if p["sourceUrl"].endswith('/1987/' + slug))
+        self.assertEqual([w["heading"] for w in tied["winners"]],
+                         ["Smithsonian World", "Unknown Chaplin American Masters"])
+        self.assertTrue(all(len(w["credits"]) == 2 for w in tied["winners"]))
+        self.assertEqual(review_for_year(self.decisions[slug], 1987)["reviewedSourcePages"][0]["winnerSourceKeys"],
+                         [w["sourceKey"] for w in tied["winners"]])
+        for year in (1987, 1990):
+            self.assertEqual(category_for_year(self.decisions[slug], year), "documentary-or-nonfiction-series")
+        later = next(p for p in snapshot["pages"] if p["sourceUrl"].endswith('/1990/' + slug))
+        self.assertEqual(later["winners"][0]["credits"], [])
+        contexts = {s["url"]: s["context"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]}
+        finding_aid = contexts["https://sirismm.si.edu/EADpdfs/SIA.FA91-164.pdf"]
+        self.assertIn("6 seasons, each with 5-7", finding_aid)
+        self.assertIn("Documentary television programs", finding_aid)
+        self.assertIn('Treasures," one and two hour versions', finding_aid)
+        self.assertIn("The Unknown Chaplin (Jul 1986)", contexts[
+            "https://www.pbs.org/wnet/americanmasters/masters/charlie-chaplin/"])
+
+    def test_school_documentary_filming_year_does_not_shift_its_emmy_ceremony(self):
+        contexts = {s["url"]: s["context"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]}
+        self.assertIn("(1993, 90 min.)", contexts["https://videoverite.tv/pages/storemain-2011.html"])
+        self.assertIn("Filmed over the course of one year", contexts[
+            "https://videoverite.tv/pages/iamapromisemain-2011.html"])
+        slug = "outstanding-informational-special"
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1994/' + slug))
+        self.assertEqual(page["winners"][0]["heading"], "I Am A Promise: The Children Of Stanton Street Ele")
+        self.assertEqual([(c["name"], c["role"]) for c in page["winners"][0]["credits"]],
+                         [("Alan Raymond", ""), ("SUSAN RAYMOND", "")])
+
+    def test_new_production_records_are_exact_context_only_for_request_and_redirect(self):
+        from validate_emmy_source import PRODUCER_CONTEXT_PATHS
+        hosts = {"www.georgestevensjr.com", "ericclapton.com", "sirismm.si.edu", "videoverite.tv", "www.pbs.org"}
+        contexts = load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]
+        for host in hosts:
+            for path in PRODUCER_CONTEXT_PATHS[host]:
+                url = "https://" + host + path
+                value = deepcopy(next(s for s in contexts if s["url"] == url))
+                evidence(value, url, context=True)
+                with self.subTest(url=url), self.assertRaises(SourceError):
+                    evidence(value, url)
+                for rejected in (url + "?award=1991", url + "#award", url + ";award=1991",
+                                 "http://" + host + path, "https://user@" + host + path,
+                                 "https://" + host + ":443" + path, "https://" + host + "/unreviewed/"):
+                    with self.subTest(rejected=rejected), self.assertRaises(SourceError):
+                        source_url(rejected, context=True)
+                    value["resolvedUrl"] = rejected
+                    with self.subTest(redirected=rejected), self.assertRaises(SourceError):
+                        evidence(value, url, context=True)
 
     def test_single_appearance_label_does_not_turn_miniseries_into_ongoing_drama(self):
         actor = self.decisions["outstanding-lead-actor-for-a-single-appearance-in-a-drama-or-comedy-series"]
@@ -476,7 +639,7 @@ class EmmyLineageReviewTests(unittest.TestCase):
         # explicitly headed Rich Man, Poor Man lead award, or other winners.
         self.assertEqual(category_for_year(self.decisions[support_slug], 1976),
                          "supporting-actor-in-a-limited-or-anthology-series-or-movie")
-        self.assertIsNone(category_for_year(self.decisions[support_slug], 1978))
+        self.assertEqual(category_for_year(self.decisions[support_slug], 1978), "guest-actor-in-a-drama-series")
 
     def test_single_performance_uses_original_year_programme_eligibility(self):
         ledger = load(SOURCE_DIR / "lineage-decisions.json")
@@ -492,9 +655,9 @@ class EmmyLineageReviewTests(unittest.TestCase):
             self.assertIn(base + f"{year}/outstanding-miniseries", review["externalEvidence"])
             self.assertEqual(category_for_year(decision, year),
                              "supporting-actor-in-a-limited-or-anthology-series-or-movie")
-        # Another season's ongoing-series eligibility must not override the
-        # original limited-series performance, or resolve the disputed 1978 work.
-        self.assertIsNone(category_for_year(decision, 1978))
+        # Another season's limited eligibility must not override the 1978
+        # production's ordinary Drama eligibility and single-performance award.
+        self.assertEqual(category_for_year(decision, 1978), "guest-actor-in-a-drama-series")
 
     def test_classical_music_slug_retains_its_actual_music_series_predecessor(self):
         slug = "outstanding-classical-music-dance-program"
@@ -581,7 +744,8 @@ class EmmyLineageReviewTests(unittest.TestCase):
             self.assertEqual(category_for_year(self.decisions[slug], 2002), target)
         self.assertEqual(category_for_year(self.decisions["outstanding-informational-series"], 1994),
                          "hosted-nonfiction-series-or-special")
-        self.assertIsNone(category_for_year(self.decisions["outstanding-informational-special"], 1994))
+        self.assertEqual(category_for_year(self.decisions["outstanding-informational-special"], 1994),
+                         "documentary-or-nonfiction-special")
 
     def test_documentary_context_does_not_accept_only_one_side_of_an_informational_tie(self):
         decision = self.decisions["outstanding-informational-series"]
@@ -816,7 +980,7 @@ class EmmyLineageReviewTests(unittest.TestCase):
     def test_reviewed_hosted_productions_cannot_certify_dramatic_dialogue_or_partial_ties(self):
         decision = self.decisions["outstanding-informational-series"]
         pages = load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
-        for year, count in ((1981, 1), (1987, 2), (1995, 2)):
+        for year, count in ((1981, 1), (1995, 2)):
             with self.subTest(year=year):
                 self.assertEqual(review_for_year(decision, year)["disposition"], "pending-review")
                 page = next(p for p in pages if p["sourceUrl"].endswith(f"/{year}/outstanding-informational-series"))

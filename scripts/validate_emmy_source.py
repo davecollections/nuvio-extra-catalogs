@@ -21,6 +21,14 @@ PRODUCER_CONTEXT_PATHS = {
     "billmoyers.com": {"/about-us/", "/series/creativity/", "/series/healing-and-the-mind/",
                        "/series/a-walk-through-the-twentieth-century/"},
     "collegebowl.com": {"/about.asp", "/index-cb.asp"},
+    "www.georgestevensjr.com": {"/justice"},
+    "ericclapton.com": {"/pages/timeline-2000s"},
+    "sirismm.si.edu": {"/EADpdfs/SIA.FA91-164.pdf"},
+    "videoverite.tv": {"/pages/iamapromisemain-2011.html", "/pages/storemain-2011.html"},
+    "www.pbs.org": {
+        "/wnet/gperf/eric-clapton-crossroads-guitar-festival-chicago-chicago-blues-overview/404/",
+        "/about/about-pbs/blogs/news/pbs-offers-music-and-dance-lovers-exciting-new-performance-specials-throughout-march-and-april-february-13-2008/",
+    },
 }
 
 
@@ -180,7 +188,10 @@ def validate(complete=False):
         require(normalized(exception["sourceCategory"]) in normalized(exception["proof"]), "historical no-award evidence does not name its category")
         require(not any(p["year"] == year and p["sourceUrl"].endswith('/' + slug) for p in snapshot["pages"]), "no-award exception conflicts with a source winner page")
     validated_exceptions = no_award_exceptions(lineage)
-    acquired_pages = {p["sourceUrl"]: p for p in snapshot["pages"]}
+    # Independently reconciled no-award pages still need an exact historical
+    # review. Their empty winner allocation must never promote nominees.
+    acquired_pages = {p["sourceUrl"]: p for p in
+                      [*snapshot["pages"], *snapshot.get("noAwardPages", [])]}
     category_ids = {c["id"] for c in included}
     for decision in decisions:
         require(decision["disposition"] in {"pending-review", "current-lineage", "excluded"}, "unknown lineage disposition")

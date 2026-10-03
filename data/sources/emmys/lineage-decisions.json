@@ -5891,7 +5891,49 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-cultural-program"
           ],
           "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
+          "periods": [
+            {
+              "years": [
+                1995,
+                1994,
+                1955,
+                1951
+              ],
+              "disposition": "pending-review",
+              "reason": "The 1951/1955 cultural programme formats and 1994/1995 undifferentiated cultural individual awards still need review. The explicit 1997 Performance heading is excluded with its inspected winner evidence retained.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-cultural-program",
+                "https://www.televisionacademy.com/awards/nominees-winners/1994/outstanding-cultural-program",
+                "https://www.televisionacademy.com/awards/nominees-winners/1955/outstanding-cultural-program",
+                "https://www.televisionacademy.com/awards/nominees-winners/1951/outstanding-cultural-program"
+              ]
+            },
+            {
+              "years": [
+                1997
+              ],
+              "disposition": "excluded",
+              "reason": "The actual 1997 heading explicitly awards Cultural Programming - Performance to Pilobolus Dance Theatre for the Kennedy Center 25th Anniversary production. This is outside the approved 49 awards, which omit specialist music/dance performance. Retain the exact marked winner and original unavailable recipient role as inspected scope evidence; do not convert the performance into a programme, directing, choreography, or narrator award. The earlier Cultural Show and undifferentiated Individual Achievement periods require their own review.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-cultural-program"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Achievement In Cultural Programming - Performance"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1997,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-cultural-program",
+                  "sha256": "cc4036baeca2ac51d4117a570cc64a9696e1d1c5904fc98e6042b5d12aa14de2",
+                  "winnerSourceKeys": [
+                    "14702562e6d7329588f6a08af0fe0f3e2fa2b2c1ce6a9eb2efccfd51f70af68a"
+                  ]
+                }
+              ]
+            }
+          ],
+          "externalEvidence": []
         },
         {
           "sourceSlug": "outstanding-directing-for-a-comedy-series",
@@ -12736,34 +12778,6 @@
             },
             {
               "years": [
-                1997,
-                1996,
-                1995,
-                1992,
-                1990,
-                1987,
-                1986,
-                1985,
-                1981,
-                1978
-              ],
-              "disposition": "pending-review",
-              "reason": "Other historical Informational Series periods require original production-format and eligibility review, including every winner on tied pages. These three documented Moyers interview/reporting series do not certify the withheld Meeting of Minds historical dramatic dialogue, the Baseball/TV Nation tie, the Smithsonian World/Unknown Chaplin tie or the separate individual-achievement fields.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-series"
-              ]
-            },
-            {
-              "years": [
                 1982
               ],
               "disposition": "current-lineage",
@@ -12848,6 +12862,86 @@
                 "https://billmoyers.com/about-us/",
                 "https://billmoyers.com/series/healing-and-the-mind/"
               ]
+            },
+            {
+              "years": [
+                1997,
+                1996,
+                1995,
+                1992,
+                1986,
+                1985,
+                1981,
+                1978
+              ],
+              "disposition": "pending-review",
+              "reason": "Other Informational Series periods still require actual production-format review; the Smithsonian/Chaplin evidence does not certify the remaining titles or individual achievement roles.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-series"
+              ]
+            },
+            {
+              "years": [
+                1987
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-series",
+              "reason": "Both original Informational Series winners are reviewed together. The Smithsonian's own production finding aid describes Smithsonian World as a six-season narrated documentary/educational series for WETA/PBS in 1984-1991 and distinguishes Smithsonian Treasures commercial versions. PBS identifies the original Brownlow/Gill Unknown Chaplin documentary within American Masters in July 1986. Retain the Academy's 1987 Series contract for both productions rather than replacing one with the whole anthology or a Special award; preserve both recipients on each winner and do not shift the ceremony to the film date.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-informational-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1987,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-informational-series",
+                  "sha256": "9595aa7d240114457062507e917dab3a415e0903f575d1ac8e81a71230b535a8",
+                  "winnerSourceKeys": [
+                    "cc2b8bd9c7d4c5429adb0032da55f73197e70feaa23cd75998ed0d6ae2203444",
+                    "3926815e8260101efe9237a39be5bad5938a64a09f10f7da49dec4924117a19e"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://sirismm.si.edu/EADpdfs/SIA.FA91-164.pdf",
+                "https://www.pbs.org/wnet/americanmasters/masters/charlie-chaplin/"
+              ]
+            },
+            {
+              "years": [
+                1990
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-series",
+              "reason": "The original Smithsonian production finding aid establishes the 1984-1991 narrated documentary series, its six-season structure and original WETA/PBS broadcast, separately from the commercial Smithsonian Treasures versions. Follow Documentary/Nonfiction Series for the original 1990 Informational Series winner. Preserve its empty credited-person list; the institutional creator, narrator and later archive staff are context, not replacement Emmy recipients.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-informational-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1990,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-informational-series",
+                  "sha256": "691768f3a4d66b7299da88c872b6191e1bf2fdb01cac19e90d7829bc774bf3cc",
+                  "winnerSourceKeys": [
+                    "c785fce5138b59c3795154d43c50be0315d407747e7817175cb31a5ae8d37eab"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://sirismm.si.edu/EADpdfs/SIA.FA91-164.pdf"
+              ]
             }
           ],
           "externalEvidence": [
@@ -12857,7 +12951,9 @@
             "https://billmoyers.com/series/healing-and-the-mind/",
             "https://interviews.televisionacademy.com/interviews/bob-costas",
             "https://interviews.televisionacademy.com/shows/barbara-walters-specials",
+            "https://sirismm.si.edu/EADpdfs/SIA.FA91-164.pdf",
             "https://www.pbs.org/wnet/americanmasters/masters/buster-keaton/",
+            "https://www.pbs.org/wnet/americanmasters/masters/charlie-chaplin/",
             "https://www.pbs.org/wnet/americanmasters/series/",
             "https://www.televisionacademy.com/features/emmy-magazine/articles/ken-burns-pbs-civil-war-documentary",
             "https://www.televisionacademy.com/features/news/awards-news/emmy-rules-changes-191217",
@@ -13095,46 +13191,6 @@
             },
             {
               "years": [
-                1997,
-                1996,
-                1995,
-                1994,
-                1992,
-                1990,
-                1988,
-                1987,
-                1986,
-                1985,
-                1984,
-                1983,
-                1982,
-                1981,
-                1980,
-                1978
-              ],
-              "disposition": "pending-review",
-              "reason": "Remaining Informational Special periods require individual original-production documentary/hosted format review, including every winner on tied pages. Specific American Masters film evidence does not import the anthology as the winning work or certify the other films and generic Individual Achievement records.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1994/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1984/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1983/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1982/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-special"
-              ]
-            },
-            {
-              "years": [
                 1989
               ],
               "disposition": "current-lineage",
@@ -13188,11 +13244,79 @@
                 "https://www.pbs.org/wnet/americanmasters/series/",
                 "https://www.pbs.org/wnet/americanmasters/masters/edward-r-murrow/"
               ]
+            },
+            {
+              "years": [
+                1997,
+                1996,
+                1995,
+                1992,
+                1990,
+                1988,
+                1987,
+                1986,
+                1985,
+                1984,
+                1983,
+                1982,
+                1981,
+                1980,
+                1978
+              ],
+              "disposition": "pending-review",
+              "reason": "Other original Informational Special winners still need format review; neither these producer descriptions nor the already reviewed American Masters films certify the remaining productions or individual achievement roles.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1984/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1983/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1982/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-special"
+              ]
+            },
+            {
+              "years": [
+                1994
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-special",
+              "reason": "The original Raymond production archive identifies I Am A Promise as a 1993, 90-minute cinema-verite documentary filmed across a school year, not a scripted movie, episodic series or hosted interview format. Follow Documentary/Nonfiction Special for its exact 1994 Academy Informational Special winner. Preserve the archive's truncated Stanton Street Ele programme title, HBO broadcaster and both original producer entries with unavailable roles; the website date, filming duration and unrelated Academy Award do not shift this Emmy ceremony or add winners. Production identity and any correction of the truncated source title remain for Issue #46.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1994/outstanding-informational-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Special"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1994,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1994/outstanding-informational-special",
+                  "sha256": "7c257a5dee010b4dd34021e2da099ff2ba9cb118155ed1b90582829f34b02a1e",
+                  "winnerSourceKeys": [
+                    "55aaa69520a64142f9d8c7b9947c1829d37e4c316a176f9ca263568e242e5335"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://videoverite.tv/pages/iamapromisemain-2011.html",
+                "https://videoverite.tv/pages/storemain-2011.html"
+              ]
             }
           ],
           "externalEvidence": [
             "https://interviews.televisionacademy.com/interviews/dixon-dern",
             "https://interviews.televisionacademy.com/interviews/lucie-arnaz",
+            "https://videoverite.tv/pages/iamapromisemain-2011.html",
+            "https://videoverite.tv/pages/storemain-2011.html",
             "https://www.pbs.org/wnet/americanmasters/masters/edward-r-murrow/",
             "https://www.pbs.org/wnet/americanmasters/masters/lillian-gish/",
             "https://www.pbs.org/wnet/americanmasters/series/"
@@ -17865,8 +17989,8 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1959/outstanding-miniseries-or-movie",
             "https://www.televisionacademy.com/awards/nominees-winners/2013/outstanding-miniseries-or-movie"
           ],
-          "disposition": "pending-review",
-          "reason": "Use explicit year-specific programme allocations and their pinned official contexts. Unreviewed periods remain withheld; neither the page slug nor a later award entry certifies all historical productions.",
+          "disposition": "current-lineage",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Every acquired period is reviewed; the archive slug does not establish a separate modern award or override the actual source heading.",
           "periods": [
             {
               "years": [
@@ -18359,16 +18483,6 @@
             },
             {
               "years": [
-                1991
-              ],
-              "disposition": "pending-review",
-              "reason": "The 1991 combined Drama/Comedy Special And Miniseries field awards Separate But Equal. Its multipart broadcast format still needs independently pinned production evidence before the programme allocation is accepted.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1991/outstanding-miniseries-or-movie"
-              ]
-            },
-            {
-              "years": [
                 2011
               ],
               "disposition": "current-lineage",
@@ -18447,9 +18561,37 @@
               "externalEvidence": [
                 "https://www.televisionacademy.com/features/news/obituaries/remembering-jerry-weintraub"
               ]
+            },
+            {
+              "years": [
+                1991
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "limited-or-anthology-series",
+              "reason": "The original producer's own production history identifies Separate But Equal as a 1991 two-part, three-hour television miniseries, separately from The Murder of Mary Phagan and the later Thurgood movie. Allocate this winning production in the combined Drama/Comedy Special And Miniseries field to Limited/Anthology Series. The producer context establishes multipart format only; retain the Academy's exact ABC programme award and both original Stan Margulies/George Stevens recipient entries with their unavailable roles. Do not import the site's award labels, rewrite the ceremony year, supply a work identity or infer recipient roles from the producer's career description.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1991/outstanding-miniseries-or-movie"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Drama/Comedy Special And Miniseries"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1991,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1991/outstanding-miniseries-or-movie",
+                  "sha256": "8aa79f23b3ce2e2252adef54109ab5de6d63fae08889f1d0a9aa611f0328a8b5",
+                  "winnerSourceKeys": [
+                    "e6dc58548980d2ba745ed1fa5df8f6e623861f24a686aee3da21b2349828334f"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.georgestevensjr.com/justice"
+              ]
             }
           ],
           "externalEvidence": [
+            "https://www.georgestevensjr.com/justice",
             "https://www.televisionacademy.com/bios/ed-harris",
             "https://www.televisionacademy.com/features/news/obituaries/remembering-jerry-weintraub",
             "https://www.televisionacademy.com/sites/default/files/2012-2013-facts-figures.pdf"
@@ -20958,8 +21100,8 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-series",
             "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-series"
           ],
-          "disposition": "pending-review",
-          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
+          "disposition": "current-lineage",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Every acquired period is reviewed; the archive slug does not establish a separate modern award or override the actual source heading.",
           "periods": [
             {
               "years": [
@@ -20986,16 +21128,6 @@
               ],
               "externalEvidence": [
                 "https://www.televisionacademy.com/features/news/online-originals/he-had-spunk-tribute-ed-asner"
-              ]
-            },
-            {
-              "years": [
-                1978
-              ],
-              "disposition": "pending-review",
-              "reason": "Ricardo Montalban's 1978 How the West Was Won performance remains withheld. Academy biographies call the winning production a miniseries, while its 1978 lead-actress nomination belongs to Drama Series and the show's throwback specifies Part II. Review the actual winning multipart production and original eligibility before choosing a limited/movie or ongoing-series successor; the whole-show label does not settle this boundary.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-series"
               ]
             },
             {
@@ -21053,6 +21185,34 @@
                 "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-miniseries",
                 "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-drama-series"
               ]
+            },
+            {
+              "years": [
+                1978
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "guest-actor-in-a-drama-series",
+              "reason": "The exact winning year places How The West Was Won in ordinary Drama Series lead eligibility for Fionnula Flanagan. The Academy's Montalban interview caption identifies the awarded production as Part II. Follow the original Single Performance supporting contract in ongoing Drama Guest Actor, consistently with the separately reviewed ongoing-drama single appearances. Do not substitute Eva Marie Saint's 1977 Limited Series eligibility or a retrospective blanket miniseries label for the 1978 production. Preserve Ricardo Montalban, the original Supporting heading and unspecified role; Part II is provenance, not an invented episode title or extra programme winner.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Single Performance By A Supporting Actor In A Comedy Or Drama Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1978,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-series",
+                  "sha256": "2707b8a6c332522a99c8d253b49665a890757471f41ec72c88569e8561a33a6e",
+                  "winnerSourceKeys": [
+                    "dc3769a1d9e867e599755fd459b747c686d1ca438dbab485afb769720f7c0965"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-lead-actress-in-a-drama-series",
+                "https://www.televisionacademy.com/shows/how-west-was-won"
+              ]
             }
           ],
           "externalEvidence": [
@@ -21060,7 +21220,9 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-miniseries",
             "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-drama-series",
             "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-miniseries",
-            "https://www.televisionacademy.com/features/news/online-originals/he-had-spunk-tribute-ed-asner"
+            "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-lead-actress-in-a-drama-series",
+            "https://www.televisionacademy.com/features/news/online-originals/he-had-spunk-tribute-ed-asner",
+            "https://www.televisionacademy.com/shows/how-west-was-won"
           ]
         },
         {
@@ -21188,19 +21350,9 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-single-performance-by-a-supporting-actress-in-a-comedy-or-drama-series",
             "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-single-performance-by-a-supporting-actress-in-a-comedy-or-drama-series"
           ],
-          "disposition": "pending-review",
-          "reason": "Use the explicit reviewed production/recipient allocations, preserving the original award wording and facts. Remaining periods are withheld; do not infer a blanket successor from single-appearance wording or a later programme version.",
+          "disposition": "current-lineage",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Every acquired period is reviewed; the archive slug does not establish a separate modern award or override the actual source heading.",
           "periods": [
-            {
-              "years": [
-                1975
-              ],
-              "disposition": "pending-review",
-              "reason": "The 1975 tie credits Zohra Lampert for Kojak and Cloris Leachman for The Mary Tyler Moore Show. Review the single-performance/guest predecessor relationship separately and allocate both actual genres individually; do not flatten this tie into one field.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-single-performance-by-a-supporting-actress-in-a-comedy-or-drama-series"
-              ]
-            },
             {
               "years": [
                 1977
@@ -21255,9 +21407,57 @@
               "externalEvidence": [
                 "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-miniseries"
               ]
+            },
+            {
+              "years": [
+                1975
+              ],
+              "disposition": "current-lineage",
+              "reason": "The original Single Performance supporting field has two equal winners, one in Kojak and one in The Mary Tyler Moore Show. The same-year ordinary Drama lead entry for Telly Savalas and Comedy Series programme win establish their respective ongoing-series eligibility. Follow the single-performance Guest predecessors separately in Drama and Comedy, preserving both winners and the original Supporting heading. A recurring character or Leachman's later Phyllis series does not turn the single-performance award into a continuing Supporting award. No unverified episode title or role is supplied.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-single-performance-by-a-supporting-actress-in-a-comedy-or-drama-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Single Performance By A Supporting Actress In A Comedy Or Drama Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1975,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-single-performance-by-a-supporting-actress-in-a-comedy-or-drama-series",
+                  "sha256": "9c3a4c9da218a4c916108cc5aa7b845848ac767817d4fc8913c2a0b7fdb2314f",
+                  "winnerSourceKeys": [
+                    "add95964a808aa9133b1191fb12c9993dd8d8c486e25eb43973337459df44a77",
+                    "e67e146943bee634c068f37edc4f1693c6c46946024ebe7ec241a93f36cc8107"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-comedy-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-lead-actor-in-a-drama-series"
+              ],
+              "winnerAllocations": [
+                {
+                  "year": 1975,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-single-performance-by-a-supporting-actress-in-a-comedy-or-drama-series",
+                  "sourceKey": "add95964a808aa9133b1191fb12c9993dd8d8c486e25eb43973337459df44a77",
+                  "disposition": "current-lineage",
+                  "currentCategory": "guest-actress-in-a-drama-series",
+                  "reason": "The actual winning production and original single-performance contract establish this Drama/Comedy Guest predecessor, separately from the continuing Supporting field."
+                },
+                {
+                  "year": 1975,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-single-performance-by-a-supporting-actress-in-a-comedy-or-drama-series",
+                  "sourceKey": "e67e146943bee634c068f37edc4f1693c6c46946024ebe7ec241a93f36cc8107",
+                  "disposition": "current-lineage",
+                  "currentCategory": "guest-actress-in-a-comedy-series",
+                  "reason": "The actual winning production and original single-performance contract establish this Drama/Comedy Guest predecessor, separately from the continuing Supporting field."
+                }
+              ]
             }
           ],
           "externalEvidence": [
+            "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-comedy-series",
+            "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-lead-actor-in-a-drama-series",
             "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-miniseries",
             "https://www.televisionacademy.com/bios/louis-gossett-jr",
             "https://www.televisionacademy.com/features/news/online-originals/he-had-spunk-tribute-ed-asner"
@@ -21302,8 +21502,38 @@
           "evidence": [
             "https://www.televisionacademy.com/awards/nominees-winners/1969/outstanding-single-performance-by-an-actor-in-a-supporting-role"
           ],
-          "disposition": "pending-review",
-          "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
+          "disposition": "current-lineage",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Every acquired period is reviewed; the archive slug does not establish a separate modern award or override the actual source heading.",
+          "periods": [
+            {
+              "years": [
+                1969
+              ],
+              "disposition": "current-lineage",
+              "reason": "The independently pinned Academy history explicitly states that no Supporting Actor Single Performance Emmy was awarded in 1969; the acquired nominee-only page agrees. Account for the exact category heading, raw response fingerprint and empty winner keys using an empty winner allocation. The nominees span different production formats, but none is a winner and no modern category target is necessary or justified. This review does not resolve the separate 1969 Variety directing source conflict or any other absent winner markers.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1969/outstanding-single-performance-by-an-actor-in-a-supporting-role"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Single Performance By An Actor In A Supporting Role"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1969,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1969/outstanding-single-performance-by-an-actor-in-a-supporting-role",
+                  "sha256": "aeedc6eee2a7e0b81669aff92d4c1230bd0c7c993c8c5cb016fbd60aa3fe710d",
+                  "winnerSourceKeys": []
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/files/assets/Downloads/76-years-emmy-v1.pdf"
+              ],
+              "winnerAllocations": []
+            }
+          ],
+          "externalEvidence": [
+            "https://www.televisionacademy.com/files/assets/Downloads/76-years-emmy-v1.pdf"
+          ]
         },
         {
           "sourceSlug": "outstanding-single-performance-by-an-actress-in-a-supporting-role",
@@ -21316,8 +21546,40 @@
           "evidence": [
             "https://www.televisionacademy.com/awards/nominees-winners/1969/outstanding-single-performance-by-an-actress-in-a-supporting-role"
           ],
-          "disposition": "pending-review",
-          "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
+          "disposition": "current-lineage",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Every acquired period is reviewed; the archive slug does not establish a separate modern award or override the actual source heading.",
+          "periods": [
+            {
+              "years": [
+                1969
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "supporting-actress-in-a-limited-or-anthology-series-or-movie",
+              "reason": "Anna Calder-Marshall wins the expressly Single Performance Supporting Role field for Male of the Species Prudential's On Stage. Paul Scofield wins the same production's separately headed Single Performance Leading Role award in the reviewed combined limited/anthology/movie acting predecessor. Follow the corresponding Supporting Actress single-production branch, retaining the actual programme and original unavailable role. Anthology episode versus parent programme remains a later production-identity decision; do not substitute an ongoing-series guest role, infer the role from a name or create another programme award. The separate male Supporting field has no winner.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1969/outstanding-single-performance-by-an-actress-in-a-supporting-role"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Single Performance By An Actress In A Supporting Role"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1969,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1969/outstanding-single-performance-by-an-actress-in-a-supporting-role",
+                  "sha256": "4dfc3c48f9d82871d4828baa693b3060437a7fcf3e718d6f5f5ff00dc5896e24",
+                  "winnerSourceKeys": [
+                    "bc695b271469ffdf6297c9acd0d2828bfd89eb3257e9eae533b37940eb72f529"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1969/outstanding-lead-actor-in-a-miniseries-or-a-movie"
+              ]
+            }
+          ],
+          "externalEvidence": [
+            "https://www.televisionacademy.com/awards/nominees-winners/1969/outstanding-lead-actor-in-a-miniseries-or-a-movie"
+          ]
         },
         {
           "sourceSlug": "outstanding-sound-editing-comedy-or-drama-series-half-hour-and-animation",
@@ -21712,8 +21974,46 @@
           "evidence": [
             "https://www.televisionacademy.com/awards/nominees-winners/2008/outstanding-special-class-not-exclusively-made-for-television-variety-music-comedy-event-programs"
           ],
-          "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+          "disposition": "current-lineage",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Every acquired period is reviewed; the archive slug does not establish a separate modern award or override the actual source heading.",
+          "periods": [
+            {
+              "years": [
+                2008
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "variety-special-pre-recorded",
+              "reason": "The original artist timeline identifies the second Crossroads concert on July 28, with online transmission and a later DVD, separately from the first festival. PBS identifies the specific Great Performances Chicago production in November 2007 and a two-hour repeat television transmission in March 2008. The awarded PBS special therefore uses the recorded concert rather than treating the original online event as its live television broadcast. Follow Prerecorded Variety under the pinned 2018 Special Class/Variety reorganisation. Preserve the original 2008 award, exact Great Performances programme link and all six producer/series-producer credits; do not substitute the 2010 festival, the full anthology, or a documentary programme award.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/2008/outstanding-special-class-not-exclusively-made-for-television-variety-music-comedy-event-programs"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Special Class - Not-Exclusively-Made-For-Television Variety, Music, Comedy Event Programs"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 2008,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2008/outstanding-special-class-not-exclusively-made-for-television-variety-music-comedy-event-programs",
+                  "sha256": "ccc64d3c73e206977ae3691467302990f0fb8a0d12bb7374977aae5f7a9df777",
+                  "winnerSourceKeys": [
+                    "5753b4d656102c80d000fad93ed2ae51d8b434a6d32f8cae6561608eedf51351"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://ericclapton.com/pages/timeline-2000s",
+                "https://www.pbs.org/wnet/gperf/eric-clapton-crossroads-guitar-festival-chicago-chicago-blues-overview/404/",
+                "https://www.pbs.org/about/about-pbs/blogs/news/pbs-offers-music-and-dance-lovers-exciting-new-performance-specials-throughout-march-and-april-february-13-2008/",
+                "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212"
+              ]
+            }
+          ],
+          "externalEvidence": [
+            "https://ericclapton.com/pages/timeline-2000s",
+            "https://www.pbs.org/about/about-pbs/blogs/news/pbs-offers-music-and-dance-lovers-exciting-new-performance-specials-throughout-march-and-april-february-13-2008/",
+            "https://www.pbs.org/wnet/gperf/eric-clapton-crossroads-guitar-festival-chicago-chicago-blues-overview/404/",
+            "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212"
+          ]
         },
         {
           "sourceSlug": "outstanding-special-class-programs",
@@ -31600,6 +31900,140 @@
       "byteCount": 13660,
       "context": "The simple Tossup question – Bonus question format, which has become so familiar to audiences around the world, was a natural.\nBy 1959, College Bowl moved to national television on CBS and became a fixture of Sunday afternoons as GE College Bowl. GE College Bowl ran on CBS from 1959-63 and NBC from 1964-70.\nMany programs are still produced or licensed by the College Bowl Company.\n© 2026 , College Bowl Company -- All Rights Reserved",
       "contextSha256": "e34813a3a1f81a7184e56b48be3921478d0c6ff4af1f8405009c4de84813e999"
+    },
+    {
+      "url": "https://www.georgestevensjr.com/justice",
+      "resolvedUrl": "https://www.georgestevensjr.com/justice",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "b90e2ad3ab921f528f8d070cf4432cb8de42a7c228664894329d4531146eec92",
+      "byteCount": 66266,
+      "context": "Separate But Equal 1991 two-part television miniseries by George Stevens, Jr., starring Sidney Poitier\nInspired by the landmark 1954 Supreme Court desegregation case and decision in Brown v. Board of Education overturning the law of separate but equal, George Stevens, Jr. embarked on a multi-year journey to produce, write and direct the three-hour television miniseries Separate But Equal , providing Stevens a new opportunity to explore social justice on a larger scale.\nThe Murder of Mary Phagan 1988 two-part television miniseries starring Jack Lemmon\nThurgood 2011 movie directed by Michael Stevens, staring Laurence Fishburne",
+      "contextSha256": "007db2189c1d50d46be66a221a2899dcdf6caec2b63de376e0be9fa133fb7fa8"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-comedy-series",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-comedy-series",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "210ca3ab91380ba7d5c648017de310636b0348e5bf690a6fb41ba0708e8ad531",
+      "byteCount": 378340,
+      "year": 1975,
+      "context": "Outstanding Comedy Series\nWinner The Mary Tyler Moore Show CBS James L. Brooks Allan Burns Stan Daniels Ed. Weinberger",
+      "contextSha256": "909e021d1c8a7c2a7de3fe06de4c07acbe2db16c3d587046a5269ac9872975bb"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-lead-actor-in-a-drama-series",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-lead-actor-in-a-drama-series",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "27da0fa158507a15a70ca90cdfecaba11743fd2caa2008a475365699e2f0206d",
+      "byteCount": 376940,
+      "year": 1975,
+      "context": "Outstanding Lead Actor In A Drama Series\nNominee Telly Savalas Kojak",
+      "contextSha256": "2339fd11409c7061a076b824bac59907a6345935eb15bb5ba319d5d31137cb79"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-lead-actress-in-a-drama-series",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-lead-actress-in-a-drama-series",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "8ea20eeba9d87724841b50ff086d58dce7fa50106758b3e2231486ebb4415902",
+      "byteCount": 387968,
+      "year": 1978,
+      "context": "Outstanding Lead Actress In A Drama Series\nNominee Fionnula Flanagan How The West Was Won",
+      "contextSha256": "88545c3e629f3304baf5bff159011f2c1284bd9e491f78a13b950bc8ac8a7665"
+    },
+    {
+      "url": "https://www.televisionacademy.com/shows/how-west-was-won",
+      "resolvedUrl": "https://www.televisionacademy.com/shows/how-west-was-won",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "7a7f6d6b3deac8e1eb7e9df21fe9e1e5a6b8621d54d8db341f04668cab9b6c72",
+      "byteCount": 332142,
+      "context": "In 1978, Ricardo Montalbán won the Emmy for Outstanding Single Performance by a Supporting Actor in a Comedy or Drama Series for How the West was Won, Part II .",
+      "contextSha256": "8fde0cac374d293d8a05e1d0cbd20a3e8df748825ada0c8f02b5b43d862ab916"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1969/outstanding-lead-actor-in-a-miniseries-or-a-movie",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1969/outstanding-lead-actor-in-a-miniseries-or-a-movie",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "5bd83f8c2cd8d2741399cbed7732c03d5444020b8745c19e9e9607ac688f4b18",
+      "byteCount": 365351,
+      "year": 1969,
+      "context": "Outstanding Single Performance By An Actor In A Leading Role\nWinner Paul Scofield Male of the Species Prudential's On Stage",
+      "contextSha256": "f538de8c7705b6606c84e0063fb4483e9f394e6c75326bb8a2aa28780860c654"
+    },
+    {
+      "url": "https://ericclapton.com/pages/timeline-2000s",
+      "resolvedUrl": "https://ericclapton.com/pages/timeline-2000s",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "bf955701fdcaa2f430dd4860c0b617b5b81e85e03454903ae50b9cdcd7cb5f1a",
+      "byteCount": 350471,
+      "context": "2007 15 January Eric's 2006/2007 World Tour continued with the first concert of 2007 at Singapore Indoor Stadium.\n28 July Eric's second Crossroads Guitar Festival took place at Toyota Park in Bridgeville, Illinois. It was broadcasted online and later released on DVD",
+      "contextSha256": "29c92507775c9709c628e423a152ba29647650a78366ad477938b1e550ac96e6"
+    },
+    {
+      "url": "https://www.pbs.org/wnet/gperf/eric-clapton-crossroads-guitar-festival-chicago-chicago-blues-overview/404/",
+      "resolvedUrl": "https://www.pbs.org/wnet/gperf/eric-clapton-crossroads-guitar-festival-chicago-chicago-blues-overview/404/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "2458b19c4758e79119db66b529eca8d8a947a24f8392d72d4bd463b3cd030411",
+      "byteCount": 55757,
+      "context": "Overview November 28, 2007\nERIC CLAPTON CROSSROADS GUITAR FESTIVAL CHICAGO brings together guitar legends from blues, country, rock, and pop music in the blues capital, Chicago, in a salute to this American musical tradition.\nMaterials : A copy of GREAT PERFORMANCES’ ERIC CLAPTON CROSSROADS GUITAR FESTIVAL CHICAGO",
+      "contextSha256": "23b0ea2629fba73614d9a4a58f18654bc7dc20c8eab3f4454fa5338c2b1406f1"
+    },
+    {
+      "url": "https://www.pbs.org/about/about-pbs/blogs/news/pbs-offers-music-and-dance-lovers-exciting-new-performance-specials-throughout-march-and-april-february-13-2008/",
+      "resolvedUrl": "https://www.pbs.org/about/about-pbs/blogs/news/pbs-offers-music-and-dance-lovers-exciting-new-performance-specials-throughout-march-and-april-february-13-2008/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "0f9a3ed8185a4406bea1571efb6480e38a86670fe0ac3297f9b3feee021f3307",
+      "byteCount": 92564,
+      "context": "by pbs publicity • Published on February 13, 2008 • Last modified on August 17, 2020\nGREAT PERFORMANCES \"Eric Clapton Crossroads Guitar Festival Chicago\" (R) Wednesday, March 19, 2008, 9:00-11:00 p.m. ET\nCC Stereo - Eric Clapton leads an all-star line-up of B.B. King, Willie Nelson, Sheryl Crow, John Mayer, Jeff Beck and Buddy Guy in a once-in-a-lifetime collaboration from America's blues capital, Chicago. Bill Murray hosts.",
+      "contextSha256": "d072a7c7b4fc8685ff61fba3833eab6fe518ccbeff763867bf939d67d7cded85"
+    },
+    {
+      "url": "https://sirismm.si.edu/EADpdfs/SIA.FA91-164.pdf",
+      "resolvedUrl": "https://sirismm.si.edu/EADpdfs/SIA.FA91-164.pdf",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "bd1b79a998393c00b02e3975637da92bd2d9fa84411730949188f8526f7fbc62",
+      "byteCount": 257391,
+      "context": "Finding aid prepared by Smithsonian Institution Archives\nThis accession consists of production elements and records, maintained by Sandra Wentworth Bradley,\ncreated for \"Smithsonian World,\" an educational television series that explored people, ideas, and events that\nshape world culture, blending art, science, history, and the humanities to create an exciting harmony among\ndisciplines. The production was narrated by historian David G. McCullough and co-produced by WETA-\nTV for broadcast on the Public Broadcasting Service. The series consisted of 6 seasons, each with 5-7\nepisodes. Each episode ran approximately 1 hour.\n\"Smithsonian\nTreasures,\" one and two hour versions of \"Smithsonian World\" that were created for commercial television.\nDocumentary television programs\nSmithsonian World (Television program : 1984-1991)",
+      "contextSha256": "f26d46c3ad0166e213319ad1fb5d0e46648d03596e3360eb3edaaa2210d663cf"
+    },
+    {
+      "url": "https://www.pbs.org/wnet/americanmasters/masters/charlie-chaplin/",
+      "resolvedUrl": "https://www.pbs.org/wnet/americanmasters/masters/charlie-chaplin/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "b747c58e6d50012f5c7d22f8ab3f3782a21b8f38d9b89a571fa1e2ac81d50c68",
+      "byteCount": 38789,
+      "context": "AMERICAN MASTERS FILM The Unknown Chaplin (Jul 1986) Directed by Kevin Brownlow, David Gill",
+      "contextSha256": "6da2a3c1d917855c14ea82af0ddb75d08d9cbeda3358f1f56a7de0dee1b80d96"
+    },
+    {
+      "url": "https://videoverite.tv/pages/iamapromisemain-2011.html",
+      "resolvedUrl": "https://videoverite.tv/pages/iamapromisemain-2011.html",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "b6db24d44cdc7dab245b092484ea3df4a2831e693e853d407481b44775f5968c",
+      "byteCount": 14041,
+      "context": "I AM A PROMISE is a documentary portrait of children growing up outside the American dream where hope for their future survives in their education.\nTheir fears, anger and isolation as well as dreams and joys come through poignantly as this cinema verite film allows the children to speak for themselves. Filmed over the course of one year, the program includes dramatic profiles of young children struggling to succeed despite their many family difficulties including crack addiction, foster care, and homelessness.",
+      "contextSha256": "30cc831023eb08e656865fcc6a8bd9f61f367f01caf3d1327548cb8907fca816"
+    },
+    {
+      "url": "https://videoverite.tv/pages/storemain-2011.html",
+      "resolvedUrl": "https://videoverite.tv/pages/storemain-2011.html",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "12194eadebd2de51ef944edb4d4a179baa6ced9bb35826d2526d117344d8c45f",
+      "byteCount": 28835,
+      "context": "I AM A PROMISE: The Children of Stanton Elementary School (1993, 90 min.) is a cinema verite documentary that paints an unflinching portrait of the children of Stanton Elementary School in North Philadelphia, an inner-city neighborhood where 90% of the students live below the poverty line.",
+      "contextSha256": "9fb06fb4d29653f753e490733936141f19fa066525eb08d2851f1b431fa00cf6"
     }
   ],
   "annualExceptions": [
