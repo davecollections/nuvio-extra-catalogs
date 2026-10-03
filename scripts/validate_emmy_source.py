@@ -10,7 +10,7 @@ import re
 import sys
 from datetime import date
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import unquote, urlparse
 
 from emmy_source import SourceError
 from build_emmy_release_evidence import normalized
@@ -28,6 +28,12 @@ def source_url(value, year=None, *, context=False):
     hosts = {"www.televisionacademy.com"}
     if context:
         hosts.add("interviews.televisionacademy.com")
+        # The broadcaster's own production records can establish format, dates
+        # and credits. Its retrospective award summaries cannot replace Academy
+        # winner evidence. Limit this exception to the reviewed series archive.
+        if (parsed.path.startswith("/wnet/americanmasters/")
+                and not {".", ".."}.intersection(unquote(parsed.path).split("/"))):
+            hosts.add("www.pbs.org")
     require(parsed.scheme == "https" and parsed.netloc in hosts, f"unapproved source URL: {value}")
     if year is not None:
         require(parsed.path.startswith(f"/awards/nominees-winners/{year}"), f"source URL/year mismatch: {value}")

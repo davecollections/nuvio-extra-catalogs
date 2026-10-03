@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "checkedAt": "2026-10-03",
-  "policy": "Account for every page slug discovered in the 78 first-party annual indices. Scope exclusions are explicit; candidate acquisition and year-specific labels never certify continuity. A selected predecessor requires named current-category or exact source-winner allocation, explicit year boundaries and pinned evidence before canonical generation.",
+  "policy": "Account for every page slug discovered in the 78 first-party annual indices. Scope exclusions are explicit; candidate acquisition and year-specific labels never certify continuity. A selected predecessor requires named current-category or exact source-winner allocation, explicit year boundaries and pinned evidence before canonical generation. Reviewed broadcaster production records may establish programme format and original dates as pinned context only; award facts and no-award evidence remain restricted to the Television Academy.",
   "programmes": [
     {
       "id": "emmy-awards",
@@ -12554,44 +12554,6 @@
             },
             {
               "years": [
-                1997,
-                1996,
-                1995,
-                1993,
-                1992,
-                1990,
-                1988,
-                1987,
-                1986,
-                1985,
-                1984,
-                1983,
-                1982,
-                1981,
-                1978
-              ],
-              "disposition": "pending-review",
-              "reason": "Other 1978–1997 Informational Series periods still need production-specific format review. The Nature/Buster Keaton tie in 1988 and Baseball/TV Nation tie in 1995 stay wholly pending until both winners can be allocated exactly once; documentary evidence for only one tied winner is insufficient. Do not retitle every older informational programme as Hosted Nonfiction using the 2020 rule.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1993/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1984/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1983/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1982/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-series"
-              ]
-            },
-            {
-              "years": [
                 1991
               ],
               "disposition": "current-lineage",
@@ -12643,10 +12605,105 @@
               "externalEvidence": [
                 "https://www.televisionacademy.com/features/news/features/forty-years-nature"
               ]
+            },
+            {
+              "years": [
+                1983
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "hosted-nonfiction-series-or-special",
+              "reason": "The Barbara Walters Specials wins the original 1983 Informational Series programme award. The Foundation's authored Adrienne Faillace history describes the in-depth interviews conducted by Walters, identifies the original recurring programme's 1976 start and 1983 award, and distinguishes the later Ten Most Fascinating People specials beginning in 1993. Follow the personality-driven interview scope of Hosted Nonfiction, retaining the source's ABC broadcaster and both Beth Polson/Barbara Walters recipients with unavailable roles. Specials in the title cannot turn the original Series award into a one-off documentary or Variety award; the host history does not create a new individual Host Emmy.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1983/outstanding-informational-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1983,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1983/outstanding-informational-series",
+                  "sha256": "5426aa595d4b60c36171facda4ac19c67a8ec7e62b91903aaa1c07bb4dba8f42",
+                  "winnerSourceKeys": [
+                    "8808a54e612a340b9a6f5b497b4c539216da80ba64c101e1fd4a0e368cde30b0"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/awards-news/emmy-rules-changes-191217",
+                "https://interviews.televisionacademy.com/shows/barbara-walters-specials"
+              ]
+            },
+            {
+              "years": [
+                1997,
+                1996,
+                1995,
+                1993,
+                1992,
+                1990,
+                1987,
+                1986,
+                1985,
+                1984,
+                1982,
+                1981,
+                1978
+              ],
+              "disposition": "pending-review",
+              "reason": "Other historical Informational Series periods still require original production-format and eligibility review, including every side of tied pages. The now-reviewed 1988 documentary tie does not accept the 1995 Baseball/TV Nation tie or the separate Buster Keaton Individual Achievement field.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1993/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1984/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1982/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-series"
+              ]
+            },
+            {
+              "years": [
+                1988
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-series",
+              "reason": "Both original 1988 Informational Series winners are reviewed together. The Academy's Nature production history establishes that original natural-history documentary series. PBS's own American Masters production records identify the exact Buster Keaton: A Hard Act to Follow film by Kevin Brownlow and David Gill from November 1987, within its documentary-profile collection. Follow the original Academy Series award for both documentary productions, retaining each exact winner key and all four source recipients. PBS supplies production/format context only: its retrospective award table and earlier broadcast date cannot replace the Academy's 1988 winner status or Series heading, turn this into a Special result, or allocate the separate generic Individual Achievement page.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-informational-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1988,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-informational-series",
+                  "sha256": "6ce2e79c254538abdefe4f27f7467cf6e4f369035f35009339f86ece5f0b2a73",
+                  "winnerSourceKeys": [
+                    "af521eb64b77786e2b6daff31de83ee9e4c772c2c6e2a37139cb632a67a3072d",
+                    "ed945e2c07d246013069e0ffdbe1d5f2c08ed372ac2eefb66e1b0aedb12fc9d0"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/features/forty-years-nature",
+                "https://www.pbs.org/wnet/americanmasters/series/",
+                "https://www.pbs.org/wnet/americanmasters/masters/buster-keaton/"
+              ]
             }
           ],
           "externalEvidence": [
             "https://interviews.televisionacademy.com/interviews/bob-costas",
+            "https://interviews.televisionacademy.com/shows/barbara-walters-specials",
+            "https://www.pbs.org/wnet/americanmasters/masters/buster-keaton/",
+            "https://www.pbs.org/wnet/americanmasters/series/",
             "https://www.televisionacademy.com/features/emmy-magazine/articles/ken-burns-pbs-civil-war-documentary",
             "https://www.televisionacademy.com/features/news/awards-news/emmy-rules-changes-191217",
             "https://www.televisionacademy.com/features/news/features/forty-years-nature"
@@ -12790,56 +12847,8 @@
             "https://www.televisionacademy.com/awards/nominees-winners/2002/outstanding-informational-special"
           ],
           "disposition": "pending-review",
-          "reason": "Use explicit year-specific programme allocations and their pinned official contexts. Unreviewed periods remain withheld; neither the page slug nor a later award entry certifies all historical productions.",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
           "periods": [
-            {
-              "years": [
-                1997,
-                1996,
-                1995,
-                1994,
-                1993,
-                1992,
-                1991,
-                1990,
-                1989,
-                1988,
-                1987,
-                1986,
-                1985,
-                1984,
-                1983,
-                1982,
-                1981,
-                1980,
-                1979,
-                1978
-              ],
-              "disposition": "pending-review",
-              "reason": "Remaining broad historical periods still need winning-production and predecessor review; accepted neighbouring years must not be extrapolated.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1994/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1993/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1991/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1984/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1983/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1982/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1979/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-special"
-              ]
-            },
             {
               "years": [
                 2002,
@@ -12874,9 +12883,165 @@
                   ]
                 }
               ]
+            },
+            {
+              "years": [
+                1993
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-special",
+              "reason": "Lucy And Desi: A Home Movie wins the original Informational Special programme award. Lucie Arnaz's Foundation interview explicitly identifies her production as a documentary and an NBC special. Follow Documentary/Nonfiction Special, preserving the original three recipients and their producer roles. Home Movie is part of the documentary's title, not evidence of a scripted Television Movie award, and the subject Lucille Ball is not substituted for credited producer Lucie Arnaz.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1993/outstanding-informational-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Special"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1993,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1993/outstanding-informational-special",
+                  "sha256": "eed139a711bfbcc70bf8fea4b43f29102a8c9df0a86a3810eed04b951b122c2c",
+                  "winnerSourceKeys": [
+                    "aa93a9b5b6ff98c9b6c47483d39b551d66df8c30b893da47ecde0afa17548c05"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://interviews.televisionacademy.com/interviews/lucie-arnaz"
+              ]
+            },
+            {
+              "years": [
+                1979
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-special",
+              "reason": "Scared Straight! wins the original 1979 Informational Program heading on the later Informational Special URL. Its attorney Dixon Dern's first-party Foundation interview explicitly identifies Arnold Shapiro's work as a documentary and describes the original criminal-deterrence film premise. Follow Documentary/Nonfiction Special for that original programme award, retaining the source's SYN broadcaster, sole Arnold Shapiro recipient and unavailable role. The reference to a franchise does not import the later 10 Years Later production or Beyond Scared Straight series, nor does it allocate the separate Individual Achievement result.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1979/outstanding-informational-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Program"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1979,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1979/outstanding-informational-special",
+                  "sha256": "40c5f4d653c5e246aa2988e5e835f1a701387d7f17dfbc9d894434ec0a888345",
+                  "winnerSourceKeys": [
+                    "cc5537e290ab22943ec1255d401c56e88a5441b7c7d50aa2412b4744d2c4eb4f"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://interviews.televisionacademy.com/interviews/dixon-dern"
+              ]
+            },
+            {
+              "years": [
+                1997,
+                1996,
+                1995,
+                1994,
+                1992,
+                1990,
+                1988,
+                1987,
+                1986,
+                1985,
+                1984,
+                1983,
+                1982,
+                1981,
+                1980,
+                1978
+              ],
+              "disposition": "pending-review",
+              "reason": "Remaining Informational Special periods require individual original-production documentary/hosted format review, including every winner on tied pages. Specific American Masters film evidence does not import the anthology as the winning work or certify the other films and generic Individual Achievement records.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1994/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1984/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1983/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1982/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-special"
+              ]
+            },
+            {
+              "years": [
+                1989
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-special",
+              "reason": "Lillian Gish: The Actor's Life For Me American Mas wins the Academy's original 1989 Informational Special programme field. PBS identifies the exact Terry Sanders documentary-profile film from July 1988 within American Masters. Follow Documentary/Nonfiction Special for the awarded individual film, not the whole American Masters collection. Preserve the original truncated source title, four programme recipients and unavailable role labels. The film's subject is not substituted for a credited recipient, and PBS's broadcast date or retrospective award listing does not change the Academy ceremony.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-informational-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Special"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1989,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-informational-special",
+                  "sha256": "0f62691fb92628d3dc227e7ce12981aaecdd1c7df8f84f13e2596e6c8ea03874",
+                  "winnerSourceKeys": [
+                    "21368864aa03c8ecd186657779d62e3a1425783f22b6bdc5e1e537353847b00a"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.pbs.org/wnet/americanmasters/series/",
+                "https://www.pbs.org/wnet/americanmasters/masters/lillian-gish/"
+              ]
+            },
+            {
+              "years": [
+                1991
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-special",
+              "reason": "Edward R. Murrow: This Reporter American Masters wins the original 1991 Informational Special programme field. PBS identifies the exact Susan Steinberg documentary-profile film from July 1990 in the American Masters collection. Follow Documentary/Nonfiction Special for that film, retaining all four original recipients and the actual Special heading. Murrow is the film's subject rather than an inserted Emmy recipient; this award is distinct from historical See It Now or separate News & Documentary recognitions. The PBS production date does not shift the Academy's 1991 award year.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1991/outstanding-informational-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Special"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1991,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1991/outstanding-informational-special",
+                  "sha256": "50f38e578db1e0e61fa17362c51a6a41048950bd99412a5970ada51b68862a66",
+                  "winnerSourceKeys": [
+                    "3da6083c282f1829bc8d5676d4e3558e4c0df944483e0673fdf338c7ee47751c"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.pbs.org/wnet/americanmasters/series/",
+                "https://www.pbs.org/wnet/americanmasters/masters/edward-r-murrow/"
+              ]
             }
           ],
-          "externalEvidence": []
+          "externalEvidence": [
+            "https://interviews.televisionacademy.com/interviews/dixon-dern",
+            "https://interviews.televisionacademy.com/interviews/lucie-arnaz",
+            "https://www.pbs.org/wnet/americanmasters/masters/edward-r-murrow/",
+            "https://www.pbs.org/wnet/americanmasters/masters/lillian-gish/",
+            "https://www.pbs.org/wnet/americanmasters/series/"
+          ]
         },
         {
           "sourceSlug": "outstanding-innovation-in-emerging-media-programming",
@@ -31063,6 +31228,76 @@
       "byteCount": 107012,
       "context": "Brinkley describes his landmark documentary series David Brinkley's Journal , which pioneered the newsmagazine format, and his later series NBC Magazine with David Brinkley .\nDavid Brinkley on anchoring David Brinkley's Journal\nHe speaks of his transition to ABC and his groundbreaking work on This Week With David Brinkley (1981-96).",
       "contextSha256": "3bc3ddfc7b244ef580d699c4e507d46472567add0fe3b32346196ced08c454c1"
+    },
+    {
+      "url": "https://interviews.televisionacademy.com/interviews/lucie-arnaz",
+      "resolvedUrl": "https://interviews.televisionacademy.com/interviews/lucie-arnaz",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "614280fd3f5e36a93b191751e279816c94ff147655a0f7358a2c61b66b3cd209",
+      "byteCount": 117029,
+      "context": "On the death and legacy of her parents, Lucille Ball and Desi Arnaz; on producing the documentary Lucy and Desi- A Home Movie\nLucie Arnaz on producing the NBC special Lucy and Desi - A Home Movie",
+      "contextSha256": "759ab5266bdda874856b72cfb3e1edd18ec9fe6dcf382c3e7a44fc945fbd80e0"
+    },
+    {
+      "url": "https://interviews.televisionacademy.com/interviews/dixon-dern",
+      "resolvedUrl": "https://interviews.televisionacademy.com/interviews/dixon-dern",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "c9c95f7a45f33b36f34b7abd4047e300131a53850469e9dddd5e17d34daee9c1",
+      "byteCount": 133832,
+      "context": "On representing Arnold Shapiro in Scared Straight! a documentary\nDixon Dern on representing Arnold Shapiro in Scared Straight! franchise, in which young boys meet hardened criminals who gave them an insight to life behind bars",
+      "contextSha256": "56ea7d90367fe65619a9a49f604e30dc1b7f6347948f951cdca0e907487eef4e"
+    },
+    {
+      "url": "https://interviews.televisionacademy.com/shows/barbara-walters-specials",
+      "resolvedUrl": "https://interviews.televisionacademy.com/shows/barbara-walters-specials",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "45e56f684e491ea4b4903cb09cd37e02ca338ee981586fb45358b74956a7b94e",
+      "byteCount": 37820,
+      "context": "On the air since 1976, The Barbara Walters Specials feature in-depth interviews conducted by journalist Barbara Walters .\nIn 1983, the program won the Emmy for Outstanding Informational Series and in 1988 aired its 50th episode.\nWalters premiered her annual Ten Most Fascinating People Specials in 1993, highlighting each year's newsmakers and culminating with Walters' pick for the \"most fascinating\" individual of the year.\n- by Adrienne Faillace",
+      "contextSha256": "4f655d4d87fb9dee4fadf39e25936ebdd8e7731d98ebd68464c70c7ccc568b24"
+    },
+    {
+      "url": "https://www.pbs.org/wnet/americanmasters/series/",
+      "resolvedUrl": "https://www.pbs.org/wnet/americanmasters/series/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "9e970728bd1d1fcd1654ece1a8c82c3b46e8ca04a64e99b3ce0a1965e1ddc4f7",
+      "byteCount": 52891,
+      "context": "Setting the standard for documentary film profiles",
+      "contextSha256": "b6715cc47f7469e9b724e640c6eb5040002599a5a97af33356b7653407121478"
+    },
+    {
+      "url": "https://www.pbs.org/wnet/americanmasters/masters/buster-keaton/",
+      "resolvedUrl": "https://www.pbs.org/wnet/americanmasters/masters/buster-keaton/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "3c2402e8b581c087410762066d68a86845997495821a50a2b3fdb49db8d051b6",
+      "byteCount": 39477,
+      "context": "AMERICAN MASTERS FILM Buster Keaton: A Hard Act to Follow (Nov 1987) Directed by Kevin Brownlow, David Gill",
+      "contextSha256": "ba6396c9a83d3c8b55124bcdbb7bd6348eb6318c03bdf4fe76edbf574e8039b2"
+    },
+    {
+      "url": "https://www.pbs.org/wnet/americanmasters/masters/lillian-gish/",
+      "resolvedUrl": "https://www.pbs.org/wnet/americanmasters/masters/lillian-gish/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "3eaa02a8a013f626a821cf4d67e001220d9e80a82532edc93bcd136a7c18bf3c",
+      "byteCount": 38803,
+      "context": "AMERICAN MASTERS FILM Lillian Gish: The Actor's Life for Me (Jul 1988) Directed by Terry Sanders",
+      "contextSha256": "273189f2a4c5912435f2676ce2e29d3f9ace63d61fcaa1bbf2d93c5aa2f93ace"
+    },
+    {
+      "url": "https://www.pbs.org/wnet/americanmasters/masters/edward-r-murrow/",
+      "resolvedUrl": "https://www.pbs.org/wnet/americanmasters/masters/edward-r-murrow/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "162e3b67041ac2c7d39962fa0d114ba8568217f21eaec2e6e1546c8015a2d89f",
+      "byteCount": 38282,
+      "context": "AMERICAN MASTERS FILM Edward R. Murrow: This Reporter (Jul 1990) Directed by Susan Steinberg",
+      "contextSha256": "24ffbd5dfd8a3e1d4a81d80269cb14ecee3bca8812a66c94ec1840f321b0ce22"
     }
   ],
   "annualExceptions": [

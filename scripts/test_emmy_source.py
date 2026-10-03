@@ -154,6 +154,37 @@ class EmmySourceAuthorityTests(unittest.TestCase):
         with self.assertRaises(SourceError):
             source_url(url)
 
+    def test_broadcaster_production_context_cannot_supply_award_facts(self):
+        contexts = load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]
+        pbs = [s for s in contexts if s["url"].startswith("https://www.pbs.org/")]
+        self.assertTrue(pbs)
+        for value in pbs:
+            with self.subTest(url=value["url"]):
+                evidence(value, value["url"], context=True)
+                with self.assertRaises(SourceError):
+                    evidence(value, value["url"])
+
+    def test_broadcaster_context_is_limited_to_the_reviewed_production_archive(self):
+        for url in ("https://www.pbs.org/awards/nominees-winners/1988",
+                    "https://www.pbs.org/food/stories/example",
+                    "https://www.pbs.org/wnet/americanmasters",
+                    "https://www.pbs.org/wnet/americanmasters/../../food/stories/example",
+                    "https://www.pbs.org/wnet/americanmasters/%2e%2e/food/stories/example",
+                    "https://www.pbs.org.example.org/wnet/americanmasters/series/",
+                    "https://user@www.pbs.org/wnet/americanmasters/series/",
+                    "https://www.pbs.org:443/wnet/americanmasters/series/",
+                    "http://www.pbs.org/wnet/americanmasters/series/"):
+            with self.subTest(url=url), self.assertRaises(SourceError):
+                source_url(url, context=True)
+
+    def test_broadcaster_response_redirect_cannot_escape_the_reviewed_archive(self):
+        value = deepcopy(next(s for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]
+                              if s["url"] == "https://www.pbs.org/wnet/americanmasters/series/"))
+        for redirected in ("https://www.pbs.org/awards/1988", "https://example.org/series/"):
+            value["resolvedUrl"] = redirected
+            with self.subTest(redirected=redirected), self.assertRaises(SourceError):
+                evidence(value, value["url"], context=True)
+
     def test_context_rejects_other_hosts_and_disguised_authorities(self):
         for authority in ("televisionacademy.com.example.org", "interviews.televisionacademy.com.example.org",
                           "user@interviews.televisionacademy.com", "interviews.televisionacademy.com:443",
@@ -415,12 +446,22 @@ class EmmyLineageReviewTests(unittest.TestCase):
 
     def test_documentary_context_does_not_accept_only_one_side_of_an_informational_tie(self):
         decision = self.decisions["outstanding-informational-series"]
-        for year in (1989, 1991):
+        for year in (1988, 1989, 1991):
             self.assertEqual(category_for_year(decision, year), "documentary-or-nonfiction-series")
-        for year in (1988, 1995):
+        snapshot = load(SOURCE_DIR / "official-winners-1949-2026.json")
+        tied = next(p for p in snapshot["pages"] if p["sourceUrl"].endswith("/1988/outstanding-informational-series"))
+        self.assertEqual(tied["sourceCategory"], "Outstanding Informational Series")
+        self.assertEqual(len(tied["winners"]), 2)
+        reviewed = review_for_year(decision, 1988)["reviewedSourcePages"]
+        self.assertEqual(reviewed[0]["winnerSourceKeys"], [w["sourceKey"] for w in tied["winners"]])
+        for winner in tied["winners"]:
+            self.assertEqual(category_for_winner(decision, 1988, winner["sourceKey"]),
+                             "documentary-or-nonfiction-series")
+        # A complete review of a different annual tie cannot certify TV Nation.
+        for year in (1995,):
             self.assertEqual(review_for_year(decision, year)["disposition"], "pending-review")
             self.assertIsNone(category_for_year(decision, year))
-            page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+            page = next(p for p in snapshot["pages"]
                         if p["sourceUrl"].endswith(f"/{year}/outstanding-informational-series"))
             self.assertEqual(len(page["winners"]), 2)
             for winner in page["winners"]:
@@ -539,6 +580,62 @@ class EmmyLineageReviewTests(unittest.TestCase):
         self.assertEqual(brinkley["heading"], "David Brinkley's Journal")
         self.assertEqual(brinkley["sourceDetailLines"], ["NBC"])
         self.assertEqual([(c["name"], c["role"]) for c in brinkley["credits"]], [("n/a", "")])
+
+    def test_informational_documentaries_are_not_scripted_movies_or_later_franchises(self):
+        decision = self.decisions["outstanding-informational-special"]
+        for year in (1979, 1993):
+            self.assertEqual(category_for_year(decision, year), "documentary-or-nonfiction-special")
+        contexts = {s["url"]: s["context"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]}
+        self.assertIn("documentary Lucy and Desi- A Home Movie",
+                      contexts["https://interviews.televisionacademy.com/interviews/lucie-arnaz"])
+        self.assertIn("Scared Straight! a documentary",
+                      contexts["https://interviews.televisionacademy.com/interviews/dixon-dern"])
+        self.assertIsNone(category_for_year(self.decisions["outstanding-individual-achievement-informational-programming"], 1979))
+
+    def test_documentary_format_review_preserves_the_original_programme_recipients(self):
+        pages = load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+        scared = next(p for p in pages if p["sourceUrl"].endswith("/1979/outstanding-informational-special"))
+        self.assertEqual(scared["sourceCategory"], "Outstanding Informational Program")
+        self.assertEqual(scared["winners"][0]["sourceDetailLines"], ["SYN"])
+        self.assertEqual([(c["name"], c["role"]) for c in scared["winners"][0]["credits"]], [("Arnold Shapiro", "")])
+        lucy = next(p for p in pages if p["sourceUrl"].endswith("/1993/outstanding-informational-special"))["winners"][0]
+        self.assertEqual(lucy["sourceDetailLines"], ["NBC"])
+        self.assertEqual([(c["name"], c["role"]) for c in lucy["credits"]],
+                         [("Lucie Arnaz", "Executive Producer"), ("Don Buford", "Producer"),
+                          ("Laurence Luckinbill", "Executive Producer")])
+
+    def test_walters_specials_title_retains_the_original_hosted_series_award(self):
+        decision = self.decisions["outstanding-informational-series"]
+        self.assertEqual(category_for_year(decision, 1983), "hosted-nonfiction-series-or-special")
+        context = next(s["context"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]
+                       if s["url"].endswith("/shows/barbara-walters-specials"))
+        self.assertIn("in-depth interviews conducted by journalist Barbara Walters", context)
+        self.assertIn("Ten Most Fascinating People Specials in 1993", context)
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith("/1983/outstanding-informational-series"))
+        self.assertEqual(page["sourceCategory"], "Outstanding Informational Series")
+        self.assertEqual(page["winners"][0]["sourceDetailLines"], ["ABC"])
+        self.assertEqual([(c["name"], c["role"]) for c in page["winners"][0]["credits"]],
+                         [("Beth Polson", ""), ("Barbara Walters", "")])
+
+    def test_broadcaster_film_dates_do_not_replace_emmy_years_or_award_recipients(self):
+        decision = self.decisions["outstanding-informational-special"]
+        pages = load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+        for year, subject, production in ((1989, "Lillian Gish", "(Jul 1988)"),
+                                           (1991, "Edward R. Murrow", "(Jul 1990)")):
+            with self.subTest(year=year):
+                self.assertEqual(category_for_year(decision, year), "documentary-or-nonfiction-special")
+                review = review_for_year(decision, year)
+                self.assertEqual(review["years"], [year])
+                page = next(p for p in pages if p["sourceUrl"].endswith(f"/{year}/outstanding-informational-special"))
+                self.assertEqual(page["sourceCategory"], "Outstanding Informational Special")
+                credits = page["winners"][0]["credits"]
+                self.assertEqual(len(credits), 4)
+                self.assertNotIn(subject, [c["name"] for c in credits])
+                self.assertEqual([c["role"] for c in credits], ["", "", "", ""])
+                contexts = [s["context"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]
+                            if s["url"] in review["externalEvidence"]]
+                self.assertTrue(any(production in c for c in contexts))
 
     def test_period_context_reference_requires_pinned_evidence(self):
         decision = self.decisions["outstanding-miniseries-or-movie"]
