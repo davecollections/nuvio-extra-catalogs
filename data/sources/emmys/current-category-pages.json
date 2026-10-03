@@ -1,0 +1,626 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-03",
+  "authority": {
+    "name": "Television Academy",
+    "searchPage": "https://www.televisionacademy.com/awards/awards-search"
+  },
+  "awardBodyId": "emmy-awards",
+  "policy": "Owner-approved expanded essentials. Current page slugs are source evidence, not automatic historical lineage decisions. Preserve full inventory; publish only explicitly reviewed selected lineages.",
+  "coverage": {
+    "firstYear": 1949,
+    "lastYear": 2026
+  },
+  "officialCurrentCategoryCount": 121,
+  "included": [
+    {
+      "id": "directing-for-a-documentarynonfiction-program",
+      "name": "OUTSTANDING DIRECTING FOR A DOCUMENTARY/NONFICTION PROGRAM",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-documentarynonfiction-program"
+    },
+    {
+      "id": "directing-for-a-reality-program",
+      "name": "OUTSTANDING DIRECTING FOR A REALITY PROGRAM",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-reality-program"
+    },
+    {
+      "id": "directing-for-a-variety-series",
+      "name": "OUTSTANDING DIRECTING FOR A VARIETY SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-variety-series"
+    },
+    {
+      "id": "directing-for-a-variety-special",
+      "name": "OUTSTANDING DIRECTING FOR A VARIETY SPECIAL",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-variety-special"
+    },
+    {
+      "id": "documentary-or-nonfiction-series",
+      "name": "OUTSTANDING DOCUMENTARY OR NONFICTION SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-documentary-or-nonfiction-series"
+    },
+    {
+      "id": "documentary-or-nonfiction-special",
+      "name": "OUTSTANDING DOCUMENTARY OR NONFICTION SPECIAL",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-documentary-or-nonfiction-special"
+    },
+    {
+      "id": "exceptional-merit-in-documentary-filmmaking",
+      "name": "EXCEPTIONAL MERIT IN DOCUMENTARY FILMMAKING",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/exceptional-merit-in-documentary-filmmaking"
+    },
+    {
+      "id": "game-show",
+      "name": "OUTSTANDING GAME SHOW",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-game-show"
+    },
+    {
+      "id": "host-for-a-game-show",
+      "name": "OUTSTANDING HOST FOR A GAME SHOW",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-host-for-a-game-show"
+    },
+    {
+      "id": "host-for-a-reality-or-reality-competition-program",
+      "name": "OUTSTANDING HOST FOR A REALITY OR REALITY COMPETITION PROGRAM",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-host-for-a-reality-or-reality-competition-program"
+    },
+    {
+      "id": "hosted-nonfiction-series-or-special",
+      "name": "OUTSTANDING HOSTED NONFICTION SERIES OR SPECIAL",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-hosted-nonfiction-series-or-special"
+    },
+    {
+      "id": "narrator",
+      "name": "OUTSTANDING NARRATOR",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-narrator"
+    },
+    {
+      "id": "structured-reality-program",
+      "name": "OUTSTANDING STRUCTURED REALITY PROGRAM",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-structured-reality-program"
+    },
+    {
+      "id": "unstructured-reality-program",
+      "name": "OUTSTANDING UNSTRUCTURED REALITY PROGRAM",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-unstructured-reality-program"
+    },
+    {
+      "id": "variety-special-live",
+      "name": "OUTSTANDING VARIETY SPECIAL (LIVE)",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-variety-special-live"
+    },
+    {
+      "id": "variety-special-pre-recorded",
+      "name": "OUTSTANDING VARIETY SPECIAL (PRE-RECORDED)",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-variety-special-pre-recorded"
+    },
+    {
+      "id": "writing-for-a-nonfiction-program",
+      "name": "OUTSTANDING WRITING FOR A NONFICTION PROGRAM",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-writing-for-a-nonfiction-program"
+    },
+    {
+      "id": "writing-for-a-variety-series",
+      "name": "OUTSTANDING WRITING FOR A VARIETY SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-writing-for-a-variety-series"
+    },
+    {
+      "id": "writing-for-a-variety-special",
+      "name": "OUTSTANDING WRITING FOR A VARIETY SPECIAL",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-writing-for-a-variety-special"
+    },
+    {
+      "id": "animated-program",
+      "name": "OUTSTANDING ANIMATED PROGRAM",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-animated-program"
+    },
+    {
+      "id": "character-voice-over-performance",
+      "name": "OUTSTANDING CHARACTER VOICE-OVER PERFORMANCE",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-character-voice-over-performance"
+    },
+    {
+      "id": "directing-for-a-limited-or-anthology-series-or-movie",
+      "name": "OUTSTANDING DIRECTING FOR A LIMITED OR ANTHOLOGY SERIES OR MOVIE",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-limited-or-anthology-series-or-movie"
+    },
+    {
+      "id": "guest-actor-in-a-comedy-series",
+      "name": "OUTSTANDING GUEST ACTOR IN A COMEDY SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-guest-actor-in-a-comedy-series"
+    },
+    {
+      "id": "guest-actor-in-a-drama-series",
+      "name": "OUTSTANDING GUEST ACTOR IN A DRAMA SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-guest-actor-in-a-drama-series"
+    },
+    {
+      "id": "guest-actress-in-a-comedy-series",
+      "name": "OUTSTANDING GUEST ACTRESS IN A COMEDY SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-guest-actress-in-a-comedy-series"
+    },
+    {
+      "id": "guest-actress-in-a-drama-series",
+      "name": "OUTSTANDING GUEST ACTRESS IN A DRAMA SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-guest-actress-in-a-drama-series"
+    },
+    {
+      "id": "television-movie",
+      "name": "OUTSTANDING MOVIE",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-movie"
+    },
+    {
+      "id": "supporting-actor-in-a-limited-or-anthology-series-or-movie",
+      "name": "OUTSTANDING SUPPORTING ACTOR IN A LIMITED OR ANTHOLOGY SERIES OR MOVIE",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-supporting-actor-in-a-limited-or-anthology-series-or-movie"
+    },
+    {
+      "id": "supporting-actress-in-a-limited-or-anthology-series-or-movie",
+      "name": "OUTSTANDING SUPPORTING ACTRESS IN A LIMITED OR ANTHOLOGY SERIES OR MOVIE",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-supporting-actress-in-a-limited-or-anthology-series-or-movie"
+    },
+    {
+      "id": "writing-for-a-limited-or-anthology-series-or-movie",
+      "name": "OUTSTANDING WRITING FOR A LIMITED OR ANTHOLOGY SERIES OR MOVIE",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-writing-for-a-limited-or-anthology-series-or-movie"
+    },
+    {
+      "id": "comedy-series",
+      "name": "OUTSTANDING COMEDY SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-comedy-series"
+    },
+    {
+      "id": "directing-for-a-comedy-series",
+      "name": "OUTSTANDING DIRECTING FOR A COMEDY SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-comedy-series"
+    },
+    {
+      "id": "directing-for-a-drama-series",
+      "name": "OUTSTANDING DIRECTING FOR A DRAMA SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-drama-series"
+    },
+    {
+      "id": "drama-series",
+      "name": "OUTSTANDING DRAMA SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-drama-series"
+    },
+    {
+      "id": "lead-actor-in-a-comedy-series",
+      "name": "OUTSTANDING LEAD ACTOR IN A COMEDY SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lead-actor-in-a-comedy-series"
+    },
+    {
+      "id": "lead-actor-in-a-drama-series",
+      "name": "OUTSTANDING LEAD ACTOR IN A DRAMA SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lead-actor-in-a-drama-series"
+    },
+    {
+      "id": "lead-actor-in-a-limited-or-anthology-series-or-movie",
+      "name": "OUTSTANDING LEAD ACTOR IN A LIMITED OR ANTHOLOGY SERIES OR MOVIE",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lead-actor-in-a-limited-or-anthology-series-or-movie"
+    },
+    {
+      "id": "lead-actress-in-a-comedy-series",
+      "name": "OUTSTANDING LEAD ACTRESS IN A COMEDY SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lead-actress-in-a-comedy-series"
+    },
+    {
+      "id": "lead-actress-in-a-drama-series",
+      "name": "OUTSTANDING LEAD ACTRESS IN A DRAMA SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lead-actress-in-a-drama-series"
+    },
+    {
+      "id": "lead-actress-in-a-limited-or-anthology-series-or-movie",
+      "name": "OUTSTANDING LEAD ACTRESS IN A LIMITED OR ANTHOLOGY SERIES OR MOVIE",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lead-actress-in-a-limited-or-anthology-series-or-movie"
+    },
+    {
+      "id": "limited-or-anthology-series",
+      "name": "OUTSTANDING LIMITED OR ANTHOLOGY SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-limited-or-anthology-series"
+    },
+    {
+      "id": "reality-competition-program",
+      "name": "OUTSTANDING REALITY COMPETITION PROGRAM",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-reality-competition-program"
+    },
+    {
+      "id": "supporting-actor-in-a-comedy-series",
+      "name": "OUTSTANDING SUPPORTING ACTOR IN A COMEDY SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-supporting-actor-in-a-comedy-series"
+    },
+    {
+      "id": "supporting-actor-in-a-drama-series",
+      "name": "OUTSTANDING SUPPORTING ACTOR IN A DRAMA SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-supporting-actor-in-a-drama-series"
+    },
+    {
+      "id": "supporting-actress-in-a-comedy-series",
+      "name": "OUTSTANDING SUPPORTING ACTRESS IN A COMEDY SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-supporting-actress-in-a-comedy-series"
+    },
+    {
+      "id": "supporting-actress-in-a-drama-series",
+      "name": "OUTSTANDING SUPPORTING ACTRESS IN A DRAMA SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-supporting-actress-in-a-drama-series"
+    },
+    {
+      "id": "variety-series",
+      "name": "OUTSTANDING VARIETY SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-variety-series"
+    },
+    {
+      "id": "writing-for-a-comedy-series",
+      "name": "OUTSTANDING WRITING FOR A COMEDY SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-writing-for-a-comedy-series"
+    },
+    {
+      "id": "writing-for-a-drama-series",
+      "name": "OUTSTANDING WRITING FOR A DRAMA SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-writing-for-a-drama-series"
+    }
+  ],
+  "deferred": [
+    {
+      "name": "OUTSTANDING CASTING FOR A REALITY PROGRAM",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-casting-for-a-reality-program",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING CHOREOGRAPHY FOR VARIETY OR REALITY PROGRAMMING",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-choreography-for-variety-or-reality-programming",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING CINEMATOGRAPHY FOR A NONFICTION PROGRAM",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-cinematography-for-a-nonfiction-program",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING CINEMATOGRAPHY FOR A REALITY PROGRAM",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-cinematography-for-a-reality-program",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING COSTUMES FOR VARIETY, NONFICTION OR REALITY PROGRAMMING",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-costumes-for-variety-nonfiction-or-reality-programming",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING HAIRSTYLING FOR A VARIETY, NONFICTION OR REALITY PROGRAM",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-hairstyling-for-a-variety-nonfiction-or-reality-program",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING LIGHTING DESIGN/LIGHTING DIRECTION FOR A SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lighting-designlighting-direction-for-a-series",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING LIGHTING DESIGN/LIGHTING DIRECTION FOR A SPECIAL",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lighting-designlighting-direction-for-a-special",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING MAKEUP FOR A VARIETY, NONFICTION OR REALITY PROGRAM",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-makeup-for-a-variety-nonfiction-or-reality-program",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING MUSIC COMPOSITION FOR A DOCUMENTARY/NONFICTION OR REALITY PROGRAM (ORIGINAL DRAMATIC SCORE)",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-music-composition-for-a-documentarynonfiction-or-reality-program-original-dramatic-score",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING MUSIC DIRECTION",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-music-direction",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING PERFORMER IN A SHORT FORM COMEDY OR DRAMA SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-performer-in-a-short-form-comedy-or-drama-series",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING PICTURE EDITING FOR A NONFICTION PROGRAM",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-a-nonfiction-program",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING PICTURE EDITING FOR A STRUCTURED REALITY OR COMPETITION PROGRAM",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-a-structured-reality-or-competition-program",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING PICTURE EDITING FOR AN UNSTRUCTURED REALITY PROGRAM",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-an-unstructured-reality-program",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING PICTURE EDITING FOR VARIETY PROGRAMMING",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-variety-programming",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING PICTURE EDITING FOR VARIETY PROGRAMMING (SEGMENT)",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-variety-programming-segment",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING PRODUCTION DESIGN FOR A VARIETY SPECIAL",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-production-design-for-a-variety-special",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING PRODUCTION DESIGN FOR A VARIETY OR REALITY SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-production-design-for-a-variety-or-reality-series",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING SHORT FORM COMEDY, DRAMA OR VARIETY SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-short-form-comedy-drama-or-variety-series",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING SHORT FORM NONFICTION OR REALITY SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-short-form-nonfiction-or-reality-series",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING SOUND EDITING FOR A NONFICTION OR REALITY PROGRAM",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-editing-for-a-nonfiction-or-reality-program",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING SOUND MIXING FOR A NONFICTION PROGRAM",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-mixing-for-a-nonfiction-program",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING SOUND MIXING FOR A REALITY PROGRAM",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-mixing-for-a-reality-program",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING SOUND MIXING FOR A VARIETY SERIES OR SPECIAL",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-mixing-for-a-variety-series-or-special",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING TECHNICAL DIRECTION AND CAMERAWORK FOR A SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-technical-direction-and-camerawork-for-a-series",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING TECHNICAL DIRECTION AND CAMERAWORK FOR A SPECIAL",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-technical-direction-and-camerawork-for-a-special",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING CASTING FOR A COMEDY SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-casting-for-a-comedy-series",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING CASTING FOR A DRAMA SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-casting-for-a-drama-series",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING CASTING FOR A LIMITED OR ANTHOLOGY SERIES OR MOVIE",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-casting-for-a-limited-or-anthology-series-or-movie",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING CHOREOGRAPHY FOR SCRIPTED PROGRAMMING",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-choreography-for-scripted-programming",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING CINEMATOGRAPHY FOR A LIMITED OR ANTHOLOGY SERIES OR MOVIE",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-cinematography-for-a-limited-or-anthology-series-or-movie",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING CINEMATOGRAPHY FOR A SERIES (HALF-HOUR)",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-cinematography-for-a-series-half-hour",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING CINEMATOGRAPHY FOR A SERIES (ONE HOUR)",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-cinematography-for-a-series-one-hour",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING CONTEMPORARY COSTUMES FOR A SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-contemporary-costumes-for-a-series",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING CONTEMPORARY COSTUMES FOR A LIMITED OR ANTHOLOGY SERIES OR MOVIE",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-contemporary-costumes-for-a-limited-or-anthology-series-or-movie",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING CONTEMPORARY HAIRSTYLING",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-contemporary-hairstyling",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING CONTEMPORARY MAKEUP (NON-PROSTHETIC)",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-contemporary-makeup-non-prosthetic",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING FANTASY/SCI-FI COSTUMES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-fantasysci-fi-costumes",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING INDIVIDUAL ACHIEVEMENT IN ANIMATION",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-individual-achievement-in-animation",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING MOTION DESIGN",
+      "currentPage": null,
+      "reason": "Specialist craft deferred; the official notice confirms no award in 2026."
+    },
+    {
+      "name": "OUTSTANDING MUSIC COMPOSITION FOR A LIMITED OR ANTHOLOGY SERIES, MOVIE OR SPECIAL (ORIGINAL DRAMATIC SCORE)",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-music-composition-for-a-limited-or-anthology-series-movie-or-special-original-dramatic-score",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING MUSIC COMPOSITION FOR A SERIES (ORIGINAL DRAMATIC SCORE)",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-music-composition-for-a-series-original-dramatic-score",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING MUSIC SUPERVISION",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-music-supervision",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING ORIGINAL MAIN TITLE THEME MUSIC",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-original-main-title-theme-music",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING ORIGINAL MUSIC AND LYRICS",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-original-music-and-lyrics",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING PERIOD OR FANTASY/SCI-FI HAIRSTYLING",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-period-or-fantasysci-fi-hairstyling",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING PERIOD OR FANTASY/SCI-FI MAKEUP (NON-PROSTHETIC)",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-period-or-fantasysci-fi-makeup-non-prosthetic",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING PERIOD COSTUMES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-period-costumes",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING PICTURE EDITING FOR A DRAMA SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-a-drama-series",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING PICTURE EDITING FOR A MULTI-CAMERA COMEDY SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-a-multi-camera-comedy-series",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING PICTURE EDITING FOR A SINGLE-CAMERA COMEDY SERIES",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-a-single-camera-comedy-series",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING PICTURE EDITING FOR A LIMITED OR ANTHOLOGY SERIES OR MOVIE",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-a-limited-or-anthology-series-or-movie",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING PRODUCTION DESIGN FOR A NARRATIVE CONTEMPORARY PROGRAM (ONE HOUR OR MORE)",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-production-design-for-a-narrative-contemporary-program-one-hour-or-more",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING PRODUCTION DESIGN FOR A NARRATIVE PERIOD OR FANTASY PROGRAM (ONE HOUR OR MORE)",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-production-design-for-a-narrative-period-or-fantasy-program-one-hour-or-more",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING PRODUCTION DESIGN FOR A NARRATIVE PROGRAM (HALF-HOUR)",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-production-design-for-a-narrative-program-half-hour",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING PROSTHETIC MAKEUP",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-prosthetic-makeup",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING SOUND EDITING FOR A COMEDY OR DRAMA SERIES (HALF-HOUR) AND ANIMATION",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-editing-for-a-comedy-or-drama-series-half-hour-and-animation",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING SOUND EDITING FOR A COMEDY OR DRAMA SERIES (ONE HOUR)",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-editing-for-a-comedy-or-drama-series-one-hour",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING SOUND EDITING FOR A LIMITED OR ANTHOLOGY SERIES, MOVIE OR SPECIAL",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-editing-for-a-limited-or-anthology-series-movie-or-special",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING SOUND MIXING FOR A COMEDY OR DRAMA SERIES (HALF-HOUR) AND ANIMATION",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-mixing-for-a-comedy-or-drama-series-half-hour-and-animation",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING SOUND MIXING FOR A COMEDY OR DRAMA SERIES (ONE HOUR)",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-mixing-for-a-comedy-or-drama-series-one-hour",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING SOUND MIXING FOR A LIMITED OR ANTHOLOGY SERIES OR MOVIE",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-mixing-for-a-limited-or-anthology-series-or-movie",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING SPECIAL VISUAL EFFECTS IN A SEASON OR A MOVIE",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-special-visual-effects-in-a-season-or-a-movie",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING SPECIAL VISUAL EFFECTS IN A SINGLE EPISODE",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-special-visual-effects-in-a-single-episode",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING STUNT COORDINATION FOR COMEDY PROGRAMMING",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-stunt-coordination-for-comedy-programming",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING STUNT COORDINATION FOR DRAMA PROGRAMMING",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-stunt-coordination-for-drama-programming",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING STUNT PERFORMANCE",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-stunt-performance",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    },
+    {
+      "name": "OUTSTANDING TITLE DESIGN",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-title-design",
+      "reason": "Short-form or specialist craft outside the approved initial release."
+    }
+  ],
+  "excluded": [
+    {
+      "name": "OUTSTANDING COMMERCIAL",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-commercial",
+      "reason": "Owner excludes commercials and emerging-media innovations from this release."
+    },
+    {
+      "name": "OUTSTANDING EMERGING MEDIA PROGRAM",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-emerging-media-program",
+      "reason": "Owner excludes commercials and emerging-media innovations from this release."
+    },
+    {
+      "name": "OUTSTANDING INNOVATION IN EMERGING MEDIA PROGRAMMING",
+      "currentPage": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-innovation-in-emerging-media-programming",
+      "reason": "Owner excludes commercials and emerging-media innovations from this release."
+    }
+  ]
+}

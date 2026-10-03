@@ -4,6 +4,8 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ## [Unreleased]
 
+- Added the official Emmy HTML source adapter, 78 annual indices, the complete historical category inventory, winner-release cross-checks and source-review diagnostics for Issue #45. Historical lineage and recipient review remain pending; this work adds no public Emmy catalogues.
+
 - Document the owner-approved 49-category Emmy expanded-essentials scope, retain the complete 2026 inventory with explicit exclusions and deferrals, and split implementation into source/lineage, identity, output/audit and acceptance/release issues. No public catalogue or manifest changes.
 
 ## [1.4.0] - 2026-09-26

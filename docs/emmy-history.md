@@ -1,6 +1,6 @@
 # Emmy Awards source and implementation plan
 
-Planning issue: [#44](https://github.com/davecollections/nuvio-extra-catalogs/issues/44). Sources checked **2026-10-03**. This document inventories the current categories and proposes implementation; it does not certify historical identities or publish Emmy catalogues.
+Planning issue: [#44](https://github.com/davecollections/nuvio-extra-catalogs/issues/44), completed through PR #49. Active source implementation: [#45](https://github.com/davecollections/nuvio-extra-catalogs/issues/45). Sources checked **2026-10-03**. This document records the approved selection and source implementation; it does not certify historical identities or publish Emmy catalogues.
 
 ## Starting point and approved scope
 
@@ -62,6 +62,38 @@ Reconcile every official annual index from 1949 through 2026 before claiming 78-
 
 ## Lineage decisions and review queue
 
+### Source implementation checkpoint — issue #45
+
+The Emmy-specific HTML adapter and cached maintenance acquisition now reconcile all **78 annual indices**, preserving **5,437 discovered category links** and a complete **500-slug historical inventory**. The lineage ledger explicitly excludes 311 fields from this release and keeps 189 potential predecessors pending individual review. Those candidates produce **2,571 acquired pages and 2,690 winner records**; these are acquisition counts, not accepted totals for the 49 selected histories.
+
+The committed sources under `data/sources/emmys/` reuse the registry, winner snapshot and lineage-decision pattern. Each acquired response has its real authority URL, resolved URL, check date, byte count and SHA-256. Winner evidence preserves full showcase names, programme links, recipient roles, bios, context and original detail lines containing episode/network evidence. Deterministic keys use those facts and the page URL, never UI position. Full showcase counts must agree with the nomination grid or JSON-LD; winner markers must agree between the HTML views.
+
+`winner-release-evidence-2026.json` independently reconciles all 120 result-category headings across the three official winner releases. Every programme and recipient name extracted for the 49 selected HTML winners occurs in its matching release section. Complete release sections remain pinned for later credit and identity review; this name reconciliation does not certify person identities.
+
+`reports/emmy-awards-source-audit.json` records **24 rejected source pages**, **45 winner-credit diagnostics** and **72 page diagnostics**. Twenty-two rejected pages have no explicit winner marker and two omit the credited recipient/heading. These are source-review failures, not confirmed no-award years, identity omissions or unavailable posters. The adapter retains nominee evidence for missing-marker pages and rejects them from the winner snapshot. The snapshot remains explicitly incomplete.
+
+Reviewed boundaries already affecting acquisition:
+
+- The under-one-hour animation branch uses `outstanding-short-format-animated-program` through 2009; from 2010 that same URL slug denotes the separate short-form award. Acquire the older main-animation predecessor candidates and defer the later short-form results.
+- The 1965 annual menu has a broken `outstanding-comedy-seri` link. The [Academy's history](https://www.televisionacademy.com/files/assets/Downloads/76-years-emmy-v1.pdf) documents shared Entertainment area awards that year. Pin that evidence and review the actual Entertainment results; do not invent a replacement Comedy result.
+- Distinct 1974 Actor/Actress/Director/Writer of the Year recognition is excluded rather than duplicated into genre-specific histories.
+- Identical non-winning nomination blocks remain counted as the source renders them. Duplicate winning facts still require independent reconciliation. The 1990 Drama directing page retains both explicit winners, with missing director credits documented.
+
+Maintenance commands:
+
+```powershell
+python scripts/fetch_emmy_snapshot.py --cache-dir "C:\work\emmy-source-cache" --workers 2
+python scripts/build_emmy_release_evidence.py --pdf-dir "C:\work\emmy-releases" --html-cache "C:\work\emmy-source-cache" --write
+python scripts/validate_emmy_source.py
+python scripts/test_emmy_source.py
+python scripts/build_emmy_lineage_audit.py --write
+python scripts/build_emmy_lineage_audit.py --check
+```
+
+The PDF directory contains the three verified official winner PDFs and their response acquisition list, matching the pinned fingerprints below. `pypdf` is a maintenance-only dependency; offline CI reads the committed evidence without it. `capture_emmy_fixture.py` creates verbatim, fingerprinted HTML excerpts from the verified cache and requires unchanged parsed facts. Twelve pure parser regressions cover recent and historical layouts, full recipient lists, episode provenance, multiple winners, duplicate non-winning blocks, host layouts and source contradictions. Live acquisition uses the actual Academy service.
+
+`fetch_emmy_snapshot.py --offline --check` verifies deterministic regeneration from the verified cache; it still exits unsuccessfully while source failures remain. `validate_emmy_source.py --complete` is the later completion gate and currently must fail. Default source validation permits a documented review queue while preventing Emmy catalogue publication until acquisition and historical review are complete. Issue #45 remains open; canonical identities, output generation and live artwork/metadata audits have not started.
+
 | Boundary | Planning decision | Remaining evidence needed |
 | --- | --- | --- |
 | Talk / Scripted Variety / Variety Series | [The Academy explicitly merged the first two in 2026](https://www.televisionacademy.com/features/news/awards-news/260128-emmys-variety-rules). Preserve both predecessor branches under a reviewed current Variety lineage, with year ranges. | Earlier variety/music/comedy combinations and later split possibilities; retain area-award multiple winners |
@@ -73,7 +105,7 @@ Reconcile every official annual index from 1949 through 2026 before claiming 78-
 | Game show and other transferred fields | Use only Television Academy award facts within this scope. | Record authority transfers; a current category does not authorise importing a separate organisation's full history |
 | Early mixed programme, personality and special awards | Preserve exact source labels and scope exclusions. | Determine defensible predecessors individually; do not force every 1949 label into a modern category |
 
-Only the 2026 Variety merger and Motion Design no-award decision are resolved here beyond the current category inventory. Full historical lineage acceptance belongs to issue #45. Retired categories without a defensible current successor stay in source evidence outside the initial current-lineage outputs.
+The current Variety merger, Motion Design no-award and acquisition scope exceptions above are evidenced. Full historical lineage acceptance remains in issue #45. Retired categories without a defensible current successor stay in source evidence outside the initial current-lineage outputs.
 
 ## Identity, catalogue and provider plan
 
