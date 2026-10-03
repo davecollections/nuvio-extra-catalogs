@@ -4,7 +4,7 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ## [Unreleased]
 
-- Document the Emmy source and scope plan, reconcile the 2026 category inventory, and split implementation into source/lineage, identity, output/audit and acceptance/release issues. No public catalogue or manifest changes.
+- Document the owner-approved 49-category Emmy expanded-essentials scope, retain the complete 2026 inventory with explicit exclusions and deferrals, and split implementation into source/lineage, identity, output/audit and acceptance/release issues. No public catalogue or manifest changes.
 
 ## [1.4.0] - 2026-09-26
 

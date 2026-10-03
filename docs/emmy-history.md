@@ -2,22 +2,34 @@
 
 Planning issue: [#44](https://github.com/davecollections/nuvio-extra-catalogs/issues/44). Sources checked **2026-10-03**. This document inventories the current categories and proposes implementation; it does not certify historical identities or publish Emmy catalogues.
 
-## Starting point and recommended scope
+## Starting point and approved scope
 
 BAFTA V1.4 is released at `d9219c73d87064947e6e9c8fb380dfe62c1bdbd4`, protected by annotated tag and GitHub Release `v1.4.0`. Main CI and Pages passed; all 512 public files byte-matched on 2026-09-26. The 2026-10-03 housekeeping check found a clean, current `main`, no open PRs, and only the intentionally deferred Dingo feature branch. Issue #43 remains the separate BAFTA production-credit/identity follow-up.
 
-Recommend **one Television Academy Emmy award family and one independent Emmy preset**, covering Primetime and Creative Arts together. Follow the current 2026 category lineages through their defensible predecessors across the official **1949–2026** annual archive. Acquire 2026 first to establish the source contract, then backfill history before releasing a category as complete. Proposed next feature milestone: **V1.5.0**, subject to the version still being unused when publication is ready.
+The owner approved **expanded essentials: 49 current categories in one Television Academy Emmy award family and one independent Emmy preset**, covering Primetime and Creative Arts together. Follow the selected 2026 category lineages through their defensible predecessors across the official **1949–2026** annual archive. Acquire 2026 first to establish the source contract, then backfill history before releasing a category as complete. Proposed next feature milestone: **V1.5.0**, subject to the version still being unused when publication is ready.
 
 Presentation night is evidence, not a permanent catalogue boundary. In 2026 several acting, directing and writing categories were presented on Creative Arts nights. An ID based on the telecast/Creative Arts split would therefore risk moving a familiar category when the schedule changes. A later user-facing filter can group categories without changing their IDs.
 
-Current scope decisions:
+Approved category scope:
 
-- Include programme, acting, directing, writing, animation, documentary, reality, variety, music and technical/craft histories where the winning work can be identified as a compatible movie or series.
-- Retain Commercial, Emerging Media Program and Innovation in Emerging Media Programming in the source inventory, but gate their outputs on individual compatibility review. A VR experience or technology achievement must not be replaced by a related TV series or forced into a movie type. A verified standalone screen commercial may have a compatible work identity; do not blanket-approve or blanket-reject it at this stage.
-- Keep Motion Design in the current-lineage inventory even though no Emmy was awarded in 2026. Its historical winners remain relevant.
-- Keep special honours, lifetime recognition and organisation/person-only awards outside initial competitive catalogue scope. Preserve any acquired source facts separately. The existence of an honoured programme does not automatically make a special honour a current competitive category.
-- Daytime, Sports, News & Documentary, Children's & Family, International, regional and other distinct Emmy programmes require separate owner scope decisions. Historical category transfers must remain visible rather than silently joining different award authorities.
-- Retain verified person IDs, but defer People artwork generation. Keep genuinely unavailable programme artwork blank.
+| Group | Included awards | Count |
+| --- | --- | ---: |
+| Comedy | Series; lead, supporting and guest actor/actress; directing; writing | 9 |
+| Drama | Series; lead, supporting and guest actor/actress; directing; writing | 9 |
+| Limited/anthology and TV movies | Both programme awards; lead and supporting actor/actress; directing; writing | 8 |
+| Animation | Programme; character voice-over performance | 2 |
+| Documentary/nonfiction | Series; special; exceptional merit; hosted programme; directing; writing | 6 |
+| Reality | Structured; unstructured; competition; host; directing | 5 |
+| Variety | Series; live and prerecorded specials; directing and writing for series/specials | 7 |
+| Game shows | Programme; host | 2 |
+| Narration | Narrator | 1 |
+| **Total** | **Selected current lineages, not final catalogue or winner counts** | **49** |
+
+- Follow defensible historical predecessors of these categories, with explicit split/merge and authority-transfer decisions. Winners only; performance, directing and writing catalogues show the awarded programmes.
+- Defer short-form and specialist craft categories, including individual animation achievement, music and Motion Design. Retain all 121 scheduled categories in the inventory below with their explicit dispositions; Motion Design's confirmed 2026 no-award remains source evidence outside this release.
+- Exclude Commercial, Emerging Media Program and Innovation in Emerging Media Programming from this release. Also exclude special honours, lifetime recognition and organisation/person-only awards.
+- Daytime, Sports, News & Documentary, Children's & Family, International, regional and other distinct Emmy programmes require separate owner scope decisions. Do not silently join different award authorities.
+- Preserve verified person IDs, but defer People artwork work. Keep genuinely unavailable programme artwork blank.
 
 ## Source evidence and what was checked
 
@@ -53,11 +65,11 @@ Reconcile every official annual index from 1949 through 2026 before claiming 78-
 | Boundary | Planning decision | Remaining evidence needed |
 | --- | --- | --- |
 | Talk / Scripted Variety / Variety Series | [The Academy explicitly merged the first two in 2026](https://www.televisionacademy.com/features/news/awards-news/260128-emmys-variety-rules). Preserve both predecessor branches under a reviewed current Variety lineage, with year ranges. | Earlier variety/music/comedy combinations and later split possibilities; retain area-award multiple winners |
-| Half-hour sound editing and animation | The 2026 menu has the combined label where the 2025 menu has separate labels. The [2026 rules](https://www.televisionacademy.com/files/assets/Downloads/2026-rules-procedures-v3.pdf) describe both genres. | Map the complete split/merge history before accepting historical branches; year adjacency alone is insufficient |
+| Deferred: half-hour sound editing and animation | The 2026 menu has the combined label where the 2025 menu has separate labels. The [2026 rules](https://www.televisionacademy.com/files/assets/Downloads/2026-rules-procedures-v3.pdf) describe both genres. | Map the complete split/merge history before accepting historical branches; year adjacency alone is insufficient |
 | Television Movie / Movie | The 2025 and 2026 links differ; the early archive also uses “Best Film Made For Television”. Treat these as candidate continuity, not a URL-based proof. | Review historical semantics, anthology episodes, title changes and competition gaps |
-| Documentary score / nonfiction or reality score | Current and previous menus use different scope wording. | Verify effective years and whether each change is a rename, expansion or separate lineage |
-| Costumes, cinematography, editing and production design splits | Keep current genre, duration and format distinctions visible. | Review each older combined category and avoid assigning one source result to several current categories without explicit rationale |
-| Motion Design | Retain current category and confirmed 2026 no-award outcome. | Backfill awarded years and their work/segment identities; do not create a 2026 winner |
+| Deferred: documentary score / nonfiction or reality score | Current and previous menus use different scope wording. | Verify effective years and whether each change is a rename, expansion or separate lineage |
+| Deferred: costumes, cinematography, editing and production design splits | Keep current genre, duration and format distinctions visible. | Review each older combined category and avoid assigning one source result to several current categories without explicit rationale |
+| Deferred: Motion Design | Retain the category and confirmed 2026 no-award as inventory evidence only. | No backfill or output in this release |
 | Game show and other transferred fields | Use only Television Academy award facts within this scope. | Record authority transfers; a current category does not authorise importing a separate organisation's full history |
 | Early mixed programme, personality and special awards | Preserve exact source labels and scope exclusions. | Determine defensible predecessors individually; do not force every 1949 label into a modern category |
 
@@ -65,7 +77,7 @@ Only the 2026 Variety merger and Motion Design no-award decision are resolved he
 
 ## Identity, catalogue and provider plan
 
-Use one canonical award-body ID for this family; proposed new namespace `emmy-`, preset slug `emmys`, and add-on ID `com.davecollections.nuvio.extra.emmys`. These are unreleased proposals: check collisions and finalise them before an installable preview. Keep all existing add-on IDs, routes and 172 catalogue IDs stable.
+Use canonical award-body ID `emmy-awards`, catalogue namespace `emmy-`, preset slug `emmys`, and add-on ID `com.davecollections.nuvio.extra.emmys`. These owner-approved new identifiers have no collision with the current repository routes; keep them stable once an installable preview is published. Keep all existing add-on IDs, routes and 172 catalogue IDs stable.
 
 Preserve each original production/episode credit before searching. Reuse verified cross-award IMDb identities, then check programme version, country, network, dates and winning contributors. Where an episode/segment maps to a parent, retain the exact awarded episode as provenance. Never substitute a newer remake, another country's edition, a fictional namesake or the wrong annual event just because its ID and poster resolve. Keep unresolved identity review, explicit non-catalogue outcomes, unavailable poster sources, external-service errors and provider-metadata gaps separate.
 
@@ -98,143 +110,143 @@ No additional BAFTA visual acceptance is requested. Its release is preserved and
 
 ## Official 2026 category inventory
 
-The tables below retain the schedule's official category labels and list numbering. “Candidate” means proposed work-history scope, with historical lineage and production identity still to be reviewed. “Compatibility review” marks the three fields whose winning objects may not fit a movie/series catalogue. The Motion Design row records the no-award outcome and links its authoritative notice. All other links are the exact URLs discovered in the official 2026 results menu.
+The tables below retain the schedule's official category labels and list numbering. “Included” marks the 49 owner-selected categories, with historical lineage and production identity still to be reviewed. “Deferred” and “Excluded” mark categories outside this release. The Motion Design row records the no-award outcome and links its authoritative notice. All other links are the exact URLs discovered in the official 2026 results menu.
 
 ### Saturday, 5 September — 49 categories
 
 | Schedule no. | Official category / source | Planning disposition |
 | --- | --- | --- |
-| 1 | [OUTSTANDING CASTING FOR A REALITY PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-casting-for-a-reality-program) | Candidate |
-| 2 | [OUTSTANDING CHOREOGRAPHY FOR VARIETY OR REALITY PROGRAMMING](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-choreography-for-variety-or-reality-programming) | Candidate |
-| 3 | [OUTSTANDING CINEMATOGRAPHY FOR A NONFICTION PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-cinematography-for-a-nonfiction-program) | Candidate |
-| 4 | [OUTSTANDING CINEMATOGRAPHY FOR A REALITY PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-cinematography-for-a-reality-program) | Candidate |
-| 5 | [OUTSTANDING COMMERCIAL](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-commercial) | Compatibility review |
-| 6 | [OUTSTANDING COSTUMES FOR VARIETY, NONFICTION OR REALITY PROGRAMMING](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-costumes-for-variety-nonfiction-or-reality-programming) | Candidate |
-| 7 | [OUTSTANDING DIRECTING FOR A DOCUMENTARY/NONFICTION PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-documentarynonfiction-program) | Candidate |
-| 8 | [OUTSTANDING DIRECTING FOR A REALITY PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-reality-program) | Candidate |
-| 9 | [OUTSTANDING DIRECTING FOR A VARIETY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-variety-series) | Candidate |
-| 10 | [OUTSTANDING DIRECTING FOR A VARIETY SPECIAL](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-variety-special) | Candidate |
-| 11 | [OUTSTANDING DOCUMENTARY OR NONFICTION SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-documentary-or-nonfiction-series) | Candidate |
-| 12 | [OUTSTANDING DOCUMENTARY OR NONFICTION SPECIAL](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-documentary-or-nonfiction-special) | Candidate |
-| 13 | [OUTSTANDING EMERGING MEDIA PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-emerging-media-program) | Compatibility review |
-| 14 | [EXCEPTIONAL MERIT IN DOCUMENTARY FILMMAKING](https://www.televisionacademy.com/awards/nominees-winners/2026/exceptional-merit-in-documentary-filmmaking) | Candidate |
-| 15 | [OUTSTANDING GAME SHOW](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-game-show) | Candidate |
-| 16 | [OUTSTANDING HAIRSTYLING FOR A VARIETY, NONFICTION OR REALITY PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-hairstyling-for-a-variety-nonfiction-or-reality-program) | Candidate |
-| 17 | [OUTSTANDING HOST FOR A GAME SHOW](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-host-for-a-game-show) | Candidate |
-| 18 | [OUTSTANDING HOST FOR A REALITY OR REALITY COMPETITION PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-host-for-a-reality-or-reality-competition-program) | Candidate |
-| 19 | [OUTSTANDING HOSTED NONFICTION SERIES OR SPECIAL](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-hosted-nonfiction-series-or-special) | Candidate |
-| 20 | [OUTSTANDING INNOVATION IN EMERGING MEDIA PROGRAMMING](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-innovation-in-emerging-media-programming) | Compatibility review |
-| 21 | [OUTSTANDING LIGHTING DESIGN/LIGHTING DIRECTION FOR A SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lighting-designlighting-direction-for-a-series) | Candidate |
-| 22 | [OUTSTANDING LIGHTING DESIGN/LIGHTING DIRECTION FOR A SPECIAL](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lighting-designlighting-direction-for-a-special) | Candidate |
-| 23 | [OUTSTANDING MAKEUP FOR A VARIETY, NONFICTION OR REALITY PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-makeup-for-a-variety-nonfiction-or-reality-program) | Candidate |
-| 24 | [OUTSTANDING MUSIC COMPOSITION FOR A DOCUMENTARY/NONFICTION OR REALITY PROGRAM (ORIGINAL DRAMATIC SCORE)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-music-composition-for-a-documentarynonfiction-or-reality-program-original-dramatic-score) | Candidate |
-| 25 | [OUTSTANDING MUSIC DIRECTION](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-music-direction) | Candidate |
-| 26 | [OUTSTANDING NARRATOR](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-narrator) | Candidate |
-| 27 | [OUTSTANDING PERFORMER IN A SHORT FORM COMEDY OR DRAMA SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-performer-in-a-short-form-comedy-or-drama-series) | Candidate |
-| 28 | [OUTSTANDING PICTURE EDITING FOR A NONFICTION PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-a-nonfiction-program) | Candidate |
-| 29 | [OUTSTANDING PICTURE EDITING FOR A STRUCTURED REALITY OR COMPETITION PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-a-structured-reality-or-competition-program) | Candidate |
-| 30 | [OUTSTANDING PICTURE EDITING FOR AN UNSTRUCTURED REALITY PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-an-unstructured-reality-program) | Candidate |
-| 31 | [OUTSTANDING PICTURE EDITING FOR VARIETY PROGRAMMING](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-variety-programming) | Candidate |
-| 32 | [OUTSTANDING PICTURE EDITING FOR VARIETY PROGRAMMING (SEGMENT)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-variety-programming-segment) | Candidate |
-| 33 | [OUTSTANDING PRODUCTION DESIGN FOR A VARIETY SPECIAL](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-production-design-for-a-variety-special) | Candidate |
-| 34 | [OUTSTANDING PRODUCTION DESIGN FOR A VARIETY OR REALITY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-production-design-for-a-variety-or-reality-series) | Candidate |
-| 35 | [OUTSTANDING SHORT FORM COMEDY, DRAMA OR VARIETY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-short-form-comedy-drama-or-variety-series) | Candidate |
-| 36 | [OUTSTANDING SHORT FORM NONFICTION OR REALITY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-short-form-nonfiction-or-reality-series) | Candidate |
-| 37 | [OUTSTANDING SOUND EDITING FOR A NONFICTION OR REALITY PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-editing-for-a-nonfiction-or-reality-program) | Candidate |
-| 38 | [OUTSTANDING SOUND MIXING FOR A NONFICTION PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-mixing-for-a-nonfiction-program) | Candidate |
-| 39 | [OUTSTANDING SOUND MIXING FOR A REALITY PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-mixing-for-a-reality-program) | Candidate |
-| 40 | [OUTSTANDING SOUND MIXING FOR A VARIETY SERIES OR SPECIAL](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-mixing-for-a-variety-series-or-special) | Candidate |
-| 41 | [OUTSTANDING STRUCTURED REALITY PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-structured-reality-program) | Candidate |
-| 42 | [OUTSTANDING TECHNICAL DIRECTION AND CAMERAWORK FOR A SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-technical-direction-and-camerawork-for-a-series) | Candidate |
-| 43 | [OUTSTANDING TECHNICAL DIRECTION AND CAMERAWORK FOR A SPECIAL](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-technical-direction-and-camerawork-for-a-special) | Candidate |
-| 44 | [OUTSTANDING UNSTRUCTURED REALITY PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-unstructured-reality-program) | Candidate |
-| 45 | [OUTSTANDING VARIETY SPECIAL (LIVE)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-variety-special-live) | Candidate |
-| 46 | [OUTSTANDING VARIETY SPECIAL (PRE-RECORDED)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-variety-special-pre-recorded) | Candidate |
-| 47 | [OUTSTANDING WRITING FOR A NONFICTION PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-writing-for-a-nonfiction-program) | Candidate |
-| 48 | [OUTSTANDING WRITING FOR A VARIETY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-writing-for-a-variety-series) | Candidate |
-| 49 | [OUTSTANDING WRITING FOR A VARIETY SPECIAL](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-writing-for-a-variety-special) | Candidate |
+| 1 | [OUTSTANDING CASTING FOR A REALITY PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-casting-for-a-reality-program) | Deferred |
+| 2 | [OUTSTANDING CHOREOGRAPHY FOR VARIETY OR REALITY PROGRAMMING](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-choreography-for-variety-or-reality-programming) | Deferred |
+| 3 | [OUTSTANDING CINEMATOGRAPHY FOR A NONFICTION PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-cinematography-for-a-nonfiction-program) | Deferred |
+| 4 | [OUTSTANDING CINEMATOGRAPHY FOR A REALITY PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-cinematography-for-a-reality-program) | Deferred |
+| 5 | [OUTSTANDING COMMERCIAL](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-commercial) | Excluded |
+| 6 | [OUTSTANDING COSTUMES FOR VARIETY, NONFICTION OR REALITY PROGRAMMING](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-costumes-for-variety-nonfiction-or-reality-programming) | Deferred |
+| 7 | [OUTSTANDING DIRECTING FOR A DOCUMENTARY/NONFICTION PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-documentarynonfiction-program) | Included |
+| 8 | [OUTSTANDING DIRECTING FOR A REALITY PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-reality-program) | Included |
+| 9 | [OUTSTANDING DIRECTING FOR A VARIETY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-variety-series) | Included |
+| 10 | [OUTSTANDING DIRECTING FOR A VARIETY SPECIAL](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-variety-special) | Included |
+| 11 | [OUTSTANDING DOCUMENTARY OR NONFICTION SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-documentary-or-nonfiction-series) | Included |
+| 12 | [OUTSTANDING DOCUMENTARY OR NONFICTION SPECIAL](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-documentary-or-nonfiction-special) | Included |
+| 13 | [OUTSTANDING EMERGING MEDIA PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-emerging-media-program) | Excluded |
+| 14 | [EXCEPTIONAL MERIT IN DOCUMENTARY FILMMAKING](https://www.televisionacademy.com/awards/nominees-winners/2026/exceptional-merit-in-documentary-filmmaking) | Included |
+| 15 | [OUTSTANDING GAME SHOW](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-game-show) | Included |
+| 16 | [OUTSTANDING HAIRSTYLING FOR A VARIETY, NONFICTION OR REALITY PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-hairstyling-for-a-variety-nonfiction-or-reality-program) | Deferred |
+| 17 | [OUTSTANDING HOST FOR A GAME SHOW](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-host-for-a-game-show) | Included |
+| 18 | [OUTSTANDING HOST FOR A REALITY OR REALITY COMPETITION PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-host-for-a-reality-or-reality-competition-program) | Included |
+| 19 | [OUTSTANDING HOSTED NONFICTION SERIES OR SPECIAL](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-hosted-nonfiction-series-or-special) | Included |
+| 20 | [OUTSTANDING INNOVATION IN EMERGING MEDIA PROGRAMMING](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-innovation-in-emerging-media-programming) | Excluded |
+| 21 | [OUTSTANDING LIGHTING DESIGN/LIGHTING DIRECTION FOR A SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lighting-designlighting-direction-for-a-series) | Deferred |
+| 22 | [OUTSTANDING LIGHTING DESIGN/LIGHTING DIRECTION FOR A SPECIAL](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lighting-designlighting-direction-for-a-special) | Deferred |
+| 23 | [OUTSTANDING MAKEUP FOR A VARIETY, NONFICTION OR REALITY PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-makeup-for-a-variety-nonfiction-or-reality-program) | Deferred |
+| 24 | [OUTSTANDING MUSIC COMPOSITION FOR A DOCUMENTARY/NONFICTION OR REALITY PROGRAM (ORIGINAL DRAMATIC SCORE)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-music-composition-for-a-documentarynonfiction-or-reality-program-original-dramatic-score) | Deferred |
+| 25 | [OUTSTANDING MUSIC DIRECTION](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-music-direction) | Deferred |
+| 26 | [OUTSTANDING NARRATOR](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-narrator) | Included |
+| 27 | [OUTSTANDING PERFORMER IN A SHORT FORM COMEDY OR DRAMA SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-performer-in-a-short-form-comedy-or-drama-series) | Deferred |
+| 28 | [OUTSTANDING PICTURE EDITING FOR A NONFICTION PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-a-nonfiction-program) | Deferred |
+| 29 | [OUTSTANDING PICTURE EDITING FOR A STRUCTURED REALITY OR COMPETITION PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-a-structured-reality-or-competition-program) | Deferred |
+| 30 | [OUTSTANDING PICTURE EDITING FOR AN UNSTRUCTURED REALITY PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-an-unstructured-reality-program) | Deferred |
+| 31 | [OUTSTANDING PICTURE EDITING FOR VARIETY PROGRAMMING](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-variety-programming) | Deferred |
+| 32 | [OUTSTANDING PICTURE EDITING FOR VARIETY PROGRAMMING (SEGMENT)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-variety-programming-segment) | Deferred |
+| 33 | [OUTSTANDING PRODUCTION DESIGN FOR A VARIETY SPECIAL](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-production-design-for-a-variety-special) | Deferred |
+| 34 | [OUTSTANDING PRODUCTION DESIGN FOR A VARIETY OR REALITY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-production-design-for-a-variety-or-reality-series) | Deferred |
+| 35 | [OUTSTANDING SHORT FORM COMEDY, DRAMA OR VARIETY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-short-form-comedy-drama-or-variety-series) | Deferred |
+| 36 | [OUTSTANDING SHORT FORM NONFICTION OR REALITY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-short-form-nonfiction-or-reality-series) | Deferred |
+| 37 | [OUTSTANDING SOUND EDITING FOR A NONFICTION OR REALITY PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-editing-for-a-nonfiction-or-reality-program) | Deferred |
+| 38 | [OUTSTANDING SOUND MIXING FOR A NONFICTION PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-mixing-for-a-nonfiction-program) | Deferred |
+| 39 | [OUTSTANDING SOUND MIXING FOR A REALITY PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-mixing-for-a-reality-program) | Deferred |
+| 40 | [OUTSTANDING SOUND MIXING FOR A VARIETY SERIES OR SPECIAL](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-mixing-for-a-variety-series-or-special) | Deferred |
+| 41 | [OUTSTANDING STRUCTURED REALITY PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-structured-reality-program) | Included |
+| 42 | [OUTSTANDING TECHNICAL DIRECTION AND CAMERAWORK FOR A SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-technical-direction-and-camerawork-for-a-series) | Deferred |
+| 43 | [OUTSTANDING TECHNICAL DIRECTION AND CAMERAWORK FOR A SPECIAL](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-technical-direction-and-camerawork-for-a-special) | Deferred |
+| 44 | [OUTSTANDING UNSTRUCTURED REALITY PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-unstructured-reality-program) | Included |
+| 45 | [OUTSTANDING VARIETY SPECIAL (LIVE)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-variety-special-live) | Included |
+| 46 | [OUTSTANDING VARIETY SPECIAL (PRE-RECORDED)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-variety-special-pre-recorded) | Included |
+| 47 | [OUTSTANDING WRITING FOR A NONFICTION PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-writing-for-a-nonfiction-program) | Included |
+| 48 | [OUTSTANDING WRITING FOR A VARIETY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-writing-for-a-variety-series) | Included |
+| 49 | [OUTSTANDING WRITING FOR A VARIETY SPECIAL](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-writing-for-a-variety-special) | Included |
 
 ### Sunday, 6 September — 53 categories
 
 | Schedule no. | Official category / source | Planning disposition |
 | --- | --- | --- |
-| 1 | [OUTSTANDING ANIMATED PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-animated-program) | Candidate |
-| 2 | [OUTSTANDING CASTING FOR A COMEDY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-casting-for-a-comedy-series) | Candidate |
-| 3 | [OUTSTANDING CASTING FOR A DRAMA SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-casting-for-a-drama-series) | Candidate |
-| 4 | [OUTSTANDING CASTING FOR A LIMITED OR ANTHOLOGY SERIES OR MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-casting-for-a-limited-or-anthology-series-or-movie) | Candidate |
-| 5 | [OUTSTANDING CHARACTER VOICE-OVER PERFORMANCE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-character-voice-over-performance) | Candidate |
-| 6 | [OUTSTANDING CHOREOGRAPHY FOR SCRIPTED PROGRAMMING](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-choreography-for-scripted-programming) | Candidate |
-| 7 | [OUTSTANDING CINEMATOGRAPHY FOR A LIMITED OR ANTHOLOGY SERIES OR MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-cinematography-for-a-limited-or-anthology-series-or-movie) | Candidate |
-| 8 | [OUTSTANDING CINEMATOGRAPHY FOR A SERIES (HALF-HOUR)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-cinematography-for-a-series-half-hour) | Candidate |
-| 9 | [OUTSTANDING CINEMATOGRAPHY FOR A SERIES (ONE HOUR)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-cinematography-for-a-series-one-hour) | Candidate |
-| 10 | [OUTSTANDING CONTEMPORARY COSTUMES FOR A SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-contemporary-costumes-for-a-series) | Candidate |
-| 11 | [OUTSTANDING CONTEMPORARY COSTUMES FOR A LIMITED OR ANTHOLOGY SERIES OR MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-contemporary-costumes-for-a-limited-or-anthology-series-or-movie) | Candidate |
-| 12 | [OUTSTANDING CONTEMPORARY HAIRSTYLING](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-contemporary-hairstyling) | Candidate |
-| 13 | [OUTSTANDING CONTEMPORARY MAKEUP (NON-PROSTHETIC)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-contemporary-makeup-non-prosthetic) | Candidate |
-| 14 | [OUTSTANDING DIRECTING FOR A LIMITED OR ANTHOLOGY SERIES OR MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-limited-or-anthology-series-or-movie) | Candidate |
-| 15 | [OUTSTANDING FANTASY/SCI-FI COSTUMES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-fantasysci-fi-costumes) | Candidate |
-| 16 | [OUTSTANDING GUEST ACTOR IN A COMEDY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-guest-actor-in-a-comedy-series) | Candidate |
-| 17 | [OUTSTANDING GUEST ACTOR IN A DRAMA SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-guest-actor-in-a-drama-series) | Candidate |
-| 18 | [OUTSTANDING GUEST ACTRESS IN A COMEDY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-guest-actress-in-a-comedy-series) | Candidate |
-| 19 | [OUTSTANDING GUEST ACTRESS IN A DRAMA SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-guest-actress-in-a-drama-series) | Candidate |
-| 20 | [OUTSTANDING INDIVIDUAL ACHIEVEMENT IN ANIMATION](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-individual-achievement-in-animation) | Candidate |
-| 21 | [OUTSTANDING MOTION DESIGN](https://www.televisionacademy.com/features/news/press-release/260812-78th-emmys-juried-winners) | No award in 2026; retain history |
-| 22 | [OUTSTANDING MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-movie) | Candidate |
-| 23 | [OUTSTANDING MUSIC COMPOSITION FOR A LIMITED OR ANTHOLOGY SERIES, MOVIE OR SPECIAL (ORIGINAL DRAMATIC SCORE)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-music-composition-for-a-limited-or-anthology-series-movie-or-special-original-dramatic-score) | Candidate |
-| 24 | [OUTSTANDING MUSIC COMPOSITION FOR A SERIES (ORIGINAL DRAMATIC SCORE)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-music-composition-for-a-series-original-dramatic-score) | Candidate |
-| 25 | [OUTSTANDING MUSIC SUPERVISION](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-music-supervision) | Candidate |
-| 26 | [OUTSTANDING ORIGINAL MAIN TITLE THEME MUSIC](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-original-main-title-theme-music) | Candidate |
-| 27 | [OUTSTANDING ORIGINAL MUSIC AND LYRICS](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-original-music-and-lyrics) | Candidate |
-| 28 | [OUTSTANDING PERIOD OR FANTASY/SCI-FI HAIRSTYLING](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-period-or-fantasysci-fi-hairstyling) | Candidate |
-| 29 | [OUTSTANDING PERIOD OR FANTASY/SCI-FI MAKEUP (NON-PROSTHETIC)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-period-or-fantasysci-fi-makeup-non-prosthetic) | Candidate |
-| 30 | [OUTSTANDING PERIOD COSTUMES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-period-costumes) | Candidate |
-| 31 | [OUTSTANDING PICTURE EDITING FOR A DRAMA SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-a-drama-series) | Candidate |
-| 32 | [OUTSTANDING PICTURE EDITING FOR A MULTI-CAMERA COMEDY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-a-multi-camera-comedy-series) | Candidate |
-| 33 | [OUTSTANDING PICTURE EDITING FOR A SINGLE-CAMERA COMEDY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-a-single-camera-comedy-series) | Candidate |
-| 34 | [OUTSTANDING PICTURE EDITING FOR A LIMITED OR ANTHOLOGY SERIES OR MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-a-limited-or-anthology-series-or-movie) | Candidate |
-| 35 | [OUTSTANDING PRODUCTION DESIGN FOR A NARRATIVE CONTEMPORARY PROGRAM (ONE HOUR OR MORE)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-production-design-for-a-narrative-contemporary-program-one-hour-or-more) | Candidate |
-| 36 | [OUTSTANDING PRODUCTION DESIGN FOR A NARRATIVE PERIOD OR FANTASY PROGRAM (ONE HOUR OR MORE)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-production-design-for-a-narrative-period-or-fantasy-program-one-hour-or-more) | Candidate |
-| 37 | [OUTSTANDING PRODUCTION DESIGN FOR A NARRATIVE PROGRAM (HALF-HOUR)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-production-design-for-a-narrative-program-half-hour) | Candidate |
-| 38 | [OUTSTANDING PROSTHETIC MAKEUP](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-prosthetic-makeup) | Candidate |
-| 39 | [OUTSTANDING SOUND EDITING FOR A COMEDY OR DRAMA SERIES (HALF-HOUR) AND ANIMATION](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-editing-for-a-comedy-or-drama-series-half-hour-and-animation) | Candidate |
-| 40 | [OUTSTANDING SOUND EDITING FOR A COMEDY OR DRAMA SERIES (ONE HOUR)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-editing-for-a-comedy-or-drama-series-one-hour) | Candidate |
-| 41 | [OUTSTANDING SOUND EDITING FOR A LIMITED OR ANTHOLOGY SERIES, MOVIE OR SPECIAL](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-editing-for-a-limited-or-anthology-series-movie-or-special) | Candidate |
-| 42 | [OUTSTANDING SOUND MIXING FOR A COMEDY OR DRAMA SERIES (HALF-HOUR) AND ANIMATION](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-mixing-for-a-comedy-or-drama-series-half-hour-and-animation) | Candidate |
-| 43 | [OUTSTANDING SOUND MIXING FOR A COMEDY OR DRAMA SERIES (ONE HOUR)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-mixing-for-a-comedy-or-drama-series-one-hour) | Candidate |
-| 44 | [OUTSTANDING SOUND MIXING FOR A LIMITED OR ANTHOLOGY SERIES OR MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-mixing-for-a-limited-or-anthology-series-or-movie) | Candidate |
-| 45 | [OUTSTANDING SPECIAL VISUAL EFFECTS IN A SEASON OR A MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-special-visual-effects-in-a-season-or-a-movie) | Candidate |
-| 46 | [OUTSTANDING SPECIAL VISUAL EFFECTS IN A SINGLE EPISODE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-special-visual-effects-in-a-single-episode) | Candidate |
-| 47 | [OUTSTANDING STUNT COORDINATION FOR COMEDY PROGRAMMING](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-stunt-coordination-for-comedy-programming) | Candidate |
-| 48 | [OUTSTANDING STUNT COORDINATION FOR DRAMA PROGRAMMING](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-stunt-coordination-for-drama-programming) | Candidate |
-| 49 | [OUTSTANDING STUNT PERFORMANCE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-stunt-performance) | Candidate |
-| 50 | [OUTSTANDING SUPPORTING ACTOR IN A LIMITED OR ANTHOLOGY SERIES OR MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-supporting-actor-in-a-limited-or-anthology-series-or-movie) | Candidate |
-| 51 | [OUTSTANDING SUPPORTING ACTRESS IN A LIMITED OR ANTHOLOGY SERIES OR MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-supporting-actress-in-a-limited-or-anthology-series-or-movie) | Candidate |
-| 52 | [OUTSTANDING TITLE DESIGN](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-title-design) | Candidate |
-| 53 | [OUTSTANDING WRITING FOR A LIMITED OR ANTHOLOGY SERIES OR MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-writing-for-a-limited-or-anthology-series-or-movie) | Candidate |
+| 1 | [OUTSTANDING ANIMATED PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-animated-program) | Included |
+| 2 | [OUTSTANDING CASTING FOR A COMEDY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-casting-for-a-comedy-series) | Deferred |
+| 3 | [OUTSTANDING CASTING FOR A DRAMA SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-casting-for-a-drama-series) | Deferred |
+| 4 | [OUTSTANDING CASTING FOR A LIMITED OR ANTHOLOGY SERIES OR MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-casting-for-a-limited-or-anthology-series-or-movie) | Deferred |
+| 5 | [OUTSTANDING CHARACTER VOICE-OVER PERFORMANCE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-character-voice-over-performance) | Included |
+| 6 | [OUTSTANDING CHOREOGRAPHY FOR SCRIPTED PROGRAMMING](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-choreography-for-scripted-programming) | Deferred |
+| 7 | [OUTSTANDING CINEMATOGRAPHY FOR A LIMITED OR ANTHOLOGY SERIES OR MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-cinematography-for-a-limited-or-anthology-series-or-movie) | Deferred |
+| 8 | [OUTSTANDING CINEMATOGRAPHY FOR A SERIES (HALF-HOUR)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-cinematography-for-a-series-half-hour) | Deferred |
+| 9 | [OUTSTANDING CINEMATOGRAPHY FOR A SERIES (ONE HOUR)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-cinematography-for-a-series-one-hour) | Deferred |
+| 10 | [OUTSTANDING CONTEMPORARY COSTUMES FOR A SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-contemporary-costumes-for-a-series) | Deferred |
+| 11 | [OUTSTANDING CONTEMPORARY COSTUMES FOR A LIMITED OR ANTHOLOGY SERIES OR MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-contemporary-costumes-for-a-limited-or-anthology-series-or-movie) | Deferred |
+| 12 | [OUTSTANDING CONTEMPORARY HAIRSTYLING](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-contemporary-hairstyling) | Deferred |
+| 13 | [OUTSTANDING CONTEMPORARY MAKEUP (NON-PROSTHETIC)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-contemporary-makeup-non-prosthetic) | Deferred |
+| 14 | [OUTSTANDING DIRECTING FOR A LIMITED OR ANTHOLOGY SERIES OR MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-limited-or-anthology-series-or-movie) | Included |
+| 15 | [OUTSTANDING FANTASY/SCI-FI COSTUMES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-fantasysci-fi-costumes) | Deferred |
+| 16 | [OUTSTANDING GUEST ACTOR IN A COMEDY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-guest-actor-in-a-comedy-series) | Included |
+| 17 | [OUTSTANDING GUEST ACTOR IN A DRAMA SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-guest-actor-in-a-drama-series) | Included |
+| 18 | [OUTSTANDING GUEST ACTRESS IN A COMEDY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-guest-actress-in-a-comedy-series) | Included |
+| 19 | [OUTSTANDING GUEST ACTRESS IN A DRAMA SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-guest-actress-in-a-drama-series) | Included |
+| 20 | [OUTSTANDING INDIVIDUAL ACHIEVEMENT IN ANIMATION](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-individual-achievement-in-animation) | Deferred |
+| 21 | [OUTSTANDING MOTION DESIGN](https://www.televisionacademy.com/features/news/press-release/260812-78th-emmys-juried-winners) | Deferred — no award in 2026 |
+| 22 | [OUTSTANDING MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-movie) | Included |
+| 23 | [OUTSTANDING MUSIC COMPOSITION FOR A LIMITED OR ANTHOLOGY SERIES, MOVIE OR SPECIAL (ORIGINAL DRAMATIC SCORE)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-music-composition-for-a-limited-or-anthology-series-movie-or-special-original-dramatic-score) | Deferred |
+| 24 | [OUTSTANDING MUSIC COMPOSITION FOR A SERIES (ORIGINAL DRAMATIC SCORE)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-music-composition-for-a-series-original-dramatic-score) | Deferred |
+| 25 | [OUTSTANDING MUSIC SUPERVISION](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-music-supervision) | Deferred |
+| 26 | [OUTSTANDING ORIGINAL MAIN TITLE THEME MUSIC](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-original-main-title-theme-music) | Deferred |
+| 27 | [OUTSTANDING ORIGINAL MUSIC AND LYRICS](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-original-music-and-lyrics) | Deferred |
+| 28 | [OUTSTANDING PERIOD OR FANTASY/SCI-FI HAIRSTYLING](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-period-or-fantasysci-fi-hairstyling) | Deferred |
+| 29 | [OUTSTANDING PERIOD OR FANTASY/SCI-FI MAKEUP (NON-PROSTHETIC)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-period-or-fantasysci-fi-makeup-non-prosthetic) | Deferred |
+| 30 | [OUTSTANDING PERIOD COSTUMES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-period-costumes) | Deferred |
+| 31 | [OUTSTANDING PICTURE EDITING FOR A DRAMA SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-a-drama-series) | Deferred |
+| 32 | [OUTSTANDING PICTURE EDITING FOR A MULTI-CAMERA COMEDY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-a-multi-camera-comedy-series) | Deferred |
+| 33 | [OUTSTANDING PICTURE EDITING FOR A SINGLE-CAMERA COMEDY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-a-single-camera-comedy-series) | Deferred |
+| 34 | [OUTSTANDING PICTURE EDITING FOR A LIMITED OR ANTHOLOGY SERIES OR MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-picture-editing-for-a-limited-or-anthology-series-or-movie) | Deferred |
+| 35 | [OUTSTANDING PRODUCTION DESIGN FOR A NARRATIVE CONTEMPORARY PROGRAM (ONE HOUR OR MORE)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-production-design-for-a-narrative-contemporary-program-one-hour-or-more) | Deferred |
+| 36 | [OUTSTANDING PRODUCTION DESIGN FOR A NARRATIVE PERIOD OR FANTASY PROGRAM (ONE HOUR OR MORE)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-production-design-for-a-narrative-period-or-fantasy-program-one-hour-or-more) | Deferred |
+| 37 | [OUTSTANDING PRODUCTION DESIGN FOR A NARRATIVE PROGRAM (HALF-HOUR)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-production-design-for-a-narrative-program-half-hour) | Deferred |
+| 38 | [OUTSTANDING PROSTHETIC MAKEUP](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-prosthetic-makeup) | Deferred |
+| 39 | [OUTSTANDING SOUND EDITING FOR A COMEDY OR DRAMA SERIES (HALF-HOUR) AND ANIMATION](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-editing-for-a-comedy-or-drama-series-half-hour-and-animation) | Deferred |
+| 40 | [OUTSTANDING SOUND EDITING FOR A COMEDY OR DRAMA SERIES (ONE HOUR)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-editing-for-a-comedy-or-drama-series-one-hour) | Deferred |
+| 41 | [OUTSTANDING SOUND EDITING FOR A LIMITED OR ANTHOLOGY SERIES, MOVIE OR SPECIAL](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-editing-for-a-limited-or-anthology-series-movie-or-special) | Deferred |
+| 42 | [OUTSTANDING SOUND MIXING FOR A COMEDY OR DRAMA SERIES (HALF-HOUR) AND ANIMATION](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-mixing-for-a-comedy-or-drama-series-half-hour-and-animation) | Deferred |
+| 43 | [OUTSTANDING SOUND MIXING FOR A COMEDY OR DRAMA SERIES (ONE HOUR)](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-mixing-for-a-comedy-or-drama-series-one-hour) | Deferred |
+| 44 | [OUTSTANDING SOUND MIXING FOR A LIMITED OR ANTHOLOGY SERIES OR MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-sound-mixing-for-a-limited-or-anthology-series-or-movie) | Deferred |
+| 45 | [OUTSTANDING SPECIAL VISUAL EFFECTS IN A SEASON OR A MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-special-visual-effects-in-a-season-or-a-movie) | Deferred |
+| 46 | [OUTSTANDING SPECIAL VISUAL EFFECTS IN A SINGLE EPISODE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-special-visual-effects-in-a-single-episode) | Deferred |
+| 47 | [OUTSTANDING STUNT COORDINATION FOR COMEDY PROGRAMMING](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-stunt-coordination-for-comedy-programming) | Deferred |
+| 48 | [OUTSTANDING STUNT COORDINATION FOR DRAMA PROGRAMMING](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-stunt-coordination-for-drama-programming) | Deferred |
+| 49 | [OUTSTANDING STUNT PERFORMANCE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-stunt-performance) | Deferred |
+| 50 | [OUTSTANDING SUPPORTING ACTOR IN A LIMITED OR ANTHOLOGY SERIES OR MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-supporting-actor-in-a-limited-or-anthology-series-or-movie) | Included |
+| 51 | [OUTSTANDING SUPPORTING ACTRESS IN A LIMITED OR ANTHOLOGY SERIES OR MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-supporting-actress-in-a-limited-or-anthology-series-or-movie) | Included |
+| 52 | [OUTSTANDING TITLE DESIGN](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-title-design) | Deferred |
+| 53 | [OUTSTANDING WRITING FOR A LIMITED OR ANTHOLOGY SERIES OR MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-writing-for-a-limited-or-anthology-series-or-movie) | Included |
 
 ### Main telecast, 14 September — 19 categories
 
 | Schedule no. | Official category / source | Planning disposition |
 | --- | --- | --- |
-| 1 | [OUTSTANDING COMEDY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-comedy-series) | Candidate |
-| 2 | [OUTSTANDING DIRECTING FOR A COMEDY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-comedy-series) | Candidate |
-| 3 | [OUTSTANDING DIRECTING FOR A DRAMA SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-drama-series) | Candidate |
-| 4 | [OUTSTANDING DRAMA SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-drama-series) | Candidate |
-| 5 | [OUTSTANDING LEAD ACTOR IN A COMEDY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lead-actor-in-a-comedy-series) | Candidate |
-| 6 | [OUTSTANDING LEAD ACTOR IN A DRAMA SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lead-actor-in-a-drama-series) | Candidate |
-| 7 | [OUTSTANDING LEAD ACTOR IN A LIMITED OR ANTHOLOGY SERIES OR MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lead-actor-in-a-limited-or-anthology-series-or-movie) | Candidate |
-| 8 | [OUTSTANDING LEAD ACTRESS IN A COMEDY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lead-actress-in-a-comedy-series) | Candidate |
-| 9 | [OUTSTANDING LEAD ACTRESS IN A DRAMA SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lead-actress-in-a-drama-series) | Candidate |
-| 10 | [OUTSTANDING LEAD ACTRESS IN A LIMITED OR ANTHOLOGY SERIES OR MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lead-actress-in-a-limited-or-anthology-series-or-movie) | Candidate |
-| 11 | [OUTSTANDING LIMITED OR ANTHOLOGY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-limited-or-anthology-series) | Candidate |
-| 12 | [OUTSTANDING REALITY COMPETITION PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-reality-competition-program) | Candidate |
-| 13 | [OUTSTANDING SUPPORTING ACTOR IN A COMEDY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-supporting-actor-in-a-comedy-series) | Candidate |
-| 14 | [OUTSTANDING SUPPORTING ACTOR IN A DRAMA SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-supporting-actor-in-a-drama-series) | Candidate |
-| 15 | [OUTSTANDING SUPPORTING ACTRESS IN A COMEDY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-supporting-actress-in-a-comedy-series) | Candidate |
-| 16 | [OUTSTANDING SUPPORTING ACTRESS IN A DRAMA SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-supporting-actress-in-a-drama-series) | Candidate |
-| 17 | [OUTSTANDING VARIETY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-variety-series) | Candidate |
-| 18 | [OUTSTANDING WRITING FOR A COMEDY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-writing-for-a-comedy-series) | Candidate |
-| 19 | [OUTSTANDING WRITING FOR A DRAMA SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-writing-for-a-drama-series) | Candidate |
+| 1 | [OUTSTANDING COMEDY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-comedy-series) | Included |
+| 2 | [OUTSTANDING DIRECTING FOR A COMEDY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-comedy-series) | Included |
+| 3 | [OUTSTANDING DIRECTING FOR A DRAMA SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-drama-series) | Included |
+| 4 | [OUTSTANDING DRAMA SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-drama-series) | Included |
+| 5 | [OUTSTANDING LEAD ACTOR IN A COMEDY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lead-actor-in-a-comedy-series) | Included |
+| 6 | [OUTSTANDING LEAD ACTOR IN A DRAMA SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lead-actor-in-a-drama-series) | Included |
+| 7 | [OUTSTANDING LEAD ACTOR IN A LIMITED OR ANTHOLOGY SERIES OR MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lead-actor-in-a-limited-or-anthology-series-or-movie) | Included |
+| 8 | [OUTSTANDING LEAD ACTRESS IN A COMEDY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lead-actress-in-a-comedy-series) | Included |
+| 9 | [OUTSTANDING LEAD ACTRESS IN A DRAMA SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lead-actress-in-a-drama-series) | Included |
+| 10 | [OUTSTANDING LEAD ACTRESS IN A LIMITED OR ANTHOLOGY SERIES OR MOVIE](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lead-actress-in-a-limited-or-anthology-series-or-movie) | Included |
+| 11 | [OUTSTANDING LIMITED OR ANTHOLOGY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-limited-or-anthology-series) | Included |
+| 12 | [OUTSTANDING REALITY COMPETITION PROGRAM](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-reality-competition-program) | Included |
+| 13 | [OUTSTANDING SUPPORTING ACTOR IN A COMEDY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-supporting-actor-in-a-comedy-series) | Included |
+| 14 | [OUTSTANDING SUPPORTING ACTOR IN A DRAMA SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-supporting-actor-in-a-drama-series) | Included |
+| 15 | [OUTSTANDING SUPPORTING ACTRESS IN A COMEDY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-supporting-actress-in-a-comedy-series) | Included |
+| 16 | [OUTSTANDING SUPPORTING ACTRESS IN A DRAMA SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-supporting-actress-in-a-drama-series) | Included |
+| 17 | [OUTSTANDING VARIETY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-variety-series) | Included |
+| 18 | [OUTSTANDING WRITING FOR A COMEDY SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-writing-for-a-comedy-series) | Included |
+| 19 | [OUTSTANDING WRITING FOR A DRAMA SERIES](https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-writing-for-a-drama-series) | Included |
 
 ## Pinned source fingerprints
 
