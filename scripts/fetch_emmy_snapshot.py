@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -19,7 +20,7 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 
-from emmy_source import SourceError, YEAR_TEMPLATE, annual_categories, category_results
+from emmy_source import SourceError, YEAR_TEMPLATE, annual_categories, category_results, normalized
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_DIR = ROOT / "data" / "sources" / "emmys"
@@ -79,10 +80,53 @@ def acquire_index(year: int, cache: Path, offline: bool) -> dict:
             "categoryCount": len(categories), "categories": categories}
 
 
-def acquire_page(entry: dict, cache: Path, offline: bool) -> dict:
+def no_award_exceptions(lineage):
+    """Only pinned, independently explicit notices can reconcile absent markers."""
+    contexts = {s["url"]: s for s in lineage.get("contextSources", [])}
+    exceptions = {}
+    for value in lineage.get("annualExceptions", []):
+        context = contexts[value["sourceUrl"]]
+        require_statement = re.search(r"no emmys?(?: are| is)? (?:awarded|given)", value["proof"], re.I)
+        if (value["outcome"] != "no-award" or not require_statement or
+                value["proof"] not in context["context"] or str(value["year"]) not in value["proof"] or
+                normalized(value["sourceCategory"]) not in normalized(value["proof"]) or
+                hashlib.sha256(context["context"].encode("utf-8")).hexdigest() != context["contextSha256"]):
+            raise SourceError("historical no-award exception lacks explicit pinned independent evidence")
+        url = YEAR_TEMPLATE.format(year=value["year"]) + "/" + value["sourceSlug"]
+        if url in exceptions:
+            raise SourceError("duplicate no-award exception")
+        exceptions[url] = value
+    return exceptions
+
+
+def apply_no_award_evidence(page, exception):
+    if page["year"] != exception["year"] or page["sourceUrl"].rsplit('/', 1)[1] != exception["sourceSlug"]:
+        raise SourceError("no-award evidence belongs to a different ceremony/category")
+    if normalized(page["sourceCategory"]) != normalized(exception["sourceCategory"]):
+        raise SourceError("no-award evidence names a different official category heading")
+    if page["winnerCount"] or page["winnerGridCount"]:
+        error = SourceError(f"{page['sourceUrl']}: HTML winner markers conflict with the independent official no-award statement")
+        error.conflicting_winner_evidence = {"html": page, "independentNoAward": exception}
+        raise error
+    return {**page, "outcome": "no-award", "independentNoAward": exception}
+
+
+def acquire_page(entry: dict, cache: Path, offline: bool, exceptions=None) -> dict:
     html, evidence = source_html(entry["url"], cache, offline)
+    exception = (exceptions or {}).get(entry["url"])
     try:
-        result = category_results(html, entry["year"], entry["url"])
+        try:
+            result = category_results(html, entry["year"], entry["url"])
+        except SourceError as exc:
+            if exception is None or not hasattr(exc, "details") or exc.details["winnerGridCount"]:
+                raise
+            details = exc.details
+            result = {"year": entry["year"], "ceremonyNumber": entry["year"] - 1948,
+                "sourceUrl": entry["url"], **{k: v for k, v in details.items() if k != "nominations"},
+                "winnerCount": 0, "winners": [], "nominationEvidence": details["nominations"],
+                "sourceDiagnostics": ["Absent HTML winner markers independently reconciled by the pinned official no-award statement"]}
+        if exception:
+            result = apply_no_award_evidence(result, exception)
     except SourceError as exc:
         exc.source_evidence = evidence
         raise
@@ -103,6 +147,25 @@ def candidate_pages(indices, lineage):
     return pages
 
 
+def review_for_year(decision, year):
+    """Read explicit review periods; never infer a target from a page slug."""
+    if "acquisitionYears" in decision and year not in decision["acquisitionYears"]:
+        return None
+    if "periods" not in decision:
+        return decision
+    matches = [period for period in decision["periods"] if year in period["years"]]
+    if len(matches) != 1:
+        raise SourceError(f"{decision['sourceSlug']}/{year}: missing or overlapping review period")
+    return matches[0]
+
+
+def category_for_year(decision, year):
+    review = review_for_year(decision, year)
+    if review and review["disposition"] == "current-lineage":
+        return review["currentCategory"]
+    return None
+
+
 def run_batch(entries, operation, workers):
     values, failures = [], []
     with ThreadPoolExecutor(max_workers=workers) as executor:
@@ -113,7 +176,7 @@ def run_batch(entries, operation, workers):
                 values.append(future.result())
             except (SourceError, HTTPError, URLError, TimeoutError, UnicodeError, ValueError) as exc:
                 failure = {"input": entry, "error": str(exc),
-                    "kind": "extraction-error" if isinstance(exc, SourceError) else "http-error" if isinstance(exc, HTTPError) else "external-service-error",
+                    "kind": "source-conflict" if hasattr(exc, "conflicting_winner_evidence") else "extraction-error" if isinstance(exc, SourceError) else "http-error" if isinstance(exc, HTTPError) else "external-service-error",
                     "checkedAt": datetime.now(timezone.utc).date().isoformat()}
                 if isinstance(exc, HTTPError):
                     failure["status"] = exc.code
@@ -122,6 +185,8 @@ def run_batch(entries, operation, workers):
                     failure["checkedAt"] = exc.source_evidence["checkedAt"]
                 if hasattr(exc, "details"):
                     failure["rejectedPageEvidence"] = exc.details
+                if hasattr(exc, "conflicting_winner_evidence"):
+                    failure["conflictingWinnerEvidence"] = exc.conflicting_winner_evidence
                 failures.append(failure)
                 print(f"ERROR {entry}: {exc}", flush=True)
             if len(values) % 25 == 0 or len(values) + len(failures) == len(entries):
@@ -162,13 +227,17 @@ def main() -> int:
         print(f"{action} {len(indices)} annual indices, {sum(y['categoryCount'] for y in indices)} category links")
         return 0
     lineage = load(SOURCE_DIR / "lineage-decisions.json")
+    exceptions = no_award_exceptions(lineage)
     pages = candidate_pages(indices, lineage)
-    values, errors = run_batch(pages, lambda entry: acquire_page(entry, args.cache_dir, args.offline), args.workers)
+    values, errors = run_batch(pages, lambda entry: acquire_page(entry, args.cache_dir, args.offline, exceptions), args.workers)
     values.sort(key=lambda entry: (-entry["year"], entry["sourceUrl"]))
+    no_awards = [value for value in values if value.get("outcome") == "no-award"]
+    values = [value for value in values if value.get("outcome") != "no-award"]
     snapshot = {"schemaVersion": 1, "source": registry["authority"], "requestedYears": years,
                 "policy": "Winner-only source facts. Candidate page continuity remains pending explicit historical lineage review; this is not canonical identity data.",
                 "completeAcquisition": not errors, "pageCount": len(values),
-                "winnerRecordCount": sum(value["winnerCount"] for value in values), "pages": values, "failures": errors}
+                "winnerRecordCount": sum(value["winnerCount"] for value in values), "pages": values,
+                "noAwardPages": no_awards, "failures": errors}
     content = serialized(snapshot)
     if args.check:
         if SNAPSHOT_PATH.read_text(encoding="utf-8") != content:
@@ -176,7 +245,7 @@ def main() -> int:
     else:
         SNAPSHOT_PATH.write_text(content, encoding="utf-8")
     action = "Verified saved" if args.check else "Wrote"
-    print(f"{action} {len(values)} candidate pages and {snapshot['winnerRecordCount']} official winners; errors {len(errors)}")
+    print(f"{action} {len(values)} winner pages, {len(no_awards)} independently reconciled no-award pages and {snapshot['winnerRecordCount']} source winners; errors {len(errors)}")
     return 1 if errors else 0
 
 

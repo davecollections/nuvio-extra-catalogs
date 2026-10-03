@@ -27,6 +27,11 @@ def clean(value: str) -> str:
     return " ".join(value.split())
 
 
+def normalized(value: str) -> str:
+    """Punctuation/case comparison only; never a semantic lineage decision."""
+    return "".join(c for c in value.casefold() if c.isalnum())
+
+
 @dataclass
 class Node:
     tag: str

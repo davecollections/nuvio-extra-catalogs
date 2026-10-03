@@ -13,14 +13,10 @@ import hashlib
 import re
 from pathlib import Path
 
-from emmy_source import SourceError, category_results
+from emmy_source import SourceError, category_results, normalized
 from fetch_emmy_snapshot import REGISTRY_PATH, SOURCE_DIR, serialized, load, source_html
 
 OUTPUT_PATH = SOURCE_DIR / "winner-release-evidence-2026.json"
-
-
-def normalized(value):
-    return "".join(c for c in value.casefold() if c.isalnum())
 
 
 def sections(text, inventory):

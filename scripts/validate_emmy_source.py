@@ -14,7 +14,7 @@ from urllib.parse import urlparse
 
 from emmy_source import SourceError
 from build_emmy_release_evidence import normalized
-from fetch_emmy_snapshot import INDEX_PATH, REGISTRY_PATH, SNAPSHOT_PATH, SOURCE_DIR, candidate_pages, load
+from fetch_emmy_snapshot import INDEX_PATH, REGISTRY_PATH, SNAPSHOT_PATH, SOURCE_DIR, candidate_pages, load, no_award_exceptions, review_for_year
 
 
 def require(condition, message):
@@ -37,6 +37,25 @@ def evidence(value, url):
     require(re.fullmatch(r"[0-9a-f]{64}", value.get("sha256", "")), f"invalid source fingerprint: {url}")
     require(isinstance(value.get("byteCount"), int) and value["byteCount"] > 0, f"invalid response size: {url}")
     date.fromisoformat(value["checkedAt"])
+
+
+def validate_review(review, years, indices, acquired, category_ids):
+    """Require the exact acquired facts reviewed for a historical allocation."""
+    require(review["disposition"] in {"pending-review", "current-lineage", "excluded"}, "unknown period disposition")
+    require(review.get("reason") and review.get("evidence"), "review period lacks reason/evidence")
+    require(all(u in indices and indices[u][0] in years for u in review["evidence"]), "period evidence outside reviewed years")
+    if review["disposition"] != "current-lineage":
+        require("currentCategory" not in review, "unaccepted period has a category target")
+        return
+    require(review.get("currentCategory") in category_ids, "lineage target outside approved scope")
+    expected = {u: p for u, p in acquired.items() if u in years.values()}
+    reviewed = review.get("reviewedSourcePages", [])
+    require(len(reviewed) == len(expected) and {p["sourceUrl"] for p in reviewed} == set(expected), "accepted lineage does not pin every acquired page in its period")
+    require(set(review.get("reviewedSourceHeadings", [])) == {p["sourceCategory"] for p in expected.values()}, "accepted historical heading review drift")
+    for value in reviewed:
+        page = expected[value["sourceUrl"]]
+        require(value["year"] == page["year"] and value["sha256"] == page["source"]["sha256"], "accepted lineage source fingerprint drift")
+        require(value["winnerSourceKeys"] == [w["sourceKey"] for w in page["winners"]], "accepted lineage winning facts drift")
 
 
 def validate(complete=False):
@@ -103,18 +122,50 @@ def validate(complete=False):
     all_slugs = {slug for _, slug in indices.values()}
     require({d["sourceSlug"] for d in decisions} == all_slugs, "historical category inventory does not account for every discovered page slug")
     require(sum(p["expectedHistoricalLabelCount"] for p in lineage["programmes"]) == len(all_slugs), "historical label count drift")
+    context_by_url = {s["url"]: s for s in lineage.get("contextSources", [])}
+    exception_keys = set()
+    for exception in lineage.get("annualExceptions", []):
+        year, slug = exception["year"], exception["sourceSlug"]
+        require(1949 <= year <= 2026 and exception["ceremonyNumber"] == year - 1948, "invalid historical exception ceremony")
+        require(slug in all_slugs and exception["sourceCategory"] and exception["reason"], "historical exception lacks category evidence")
+        require(exception["outcome"] == "no-award", "unsupported historical exception outcome")
+        require((year, slug) not in exception_keys, "duplicate historical exception")
+        exception_keys.add((year, slug))
+        require(exception["sourceUrl"] in context_by_url, "historical no-award lacks pinned independent evidence")
+        context = context_by_url[exception["sourceUrl"]]["context"]
+        require(exception["proof"] in context and re.search(r"no emmys?(?: are| is)? (?:awarded|given)", exception["proof"], re.I) and str(year) in exception["proof"],
+                "historical no-award evidence does not explicitly state outcome/year")
+        require(normalized(exception["sourceCategory"]) in normalized(exception["proof"]), "historical no-award evidence does not name its category")
+        require(not any(p["year"] == year and p["sourceUrl"].endswith('/' + slug) for p in snapshot["pages"]), "no-award exception conflicts with a source winner page")
+    validated_exceptions = no_award_exceptions(lineage)
+    acquired_pages = {p["sourceUrl"]: p for p in snapshot["pages"]}
+    category_ids = {c["id"] for c in included}
     for decision in decisions:
         require(decision["disposition"] in {"pending-review", "current-lineage", "excluded"}, "unknown lineage disposition")
         require(decision.get("evidence") and decision.get("reason"), "historical scope decision lacks evidence/reason")
         require(all(u in indices and indices[u][1] == decision["sourceSlug"] for u in decision["evidence"]), "historical evidence link outside discovered category")
         require(set(decision.get("externalEvidence", [])) <= context_urls, "historical decision references unpinned context evidence")
+        available_urls = {year: url for url, (year, slug) in indices.items() if slug == decision["sourceSlug"]}
+        available = set(available_urls)
+        require(decision["firstYear"] == min(available) and decision["lastYear"] == max(available), "historical source bounds drift")
         if "acquisitionYears" in decision:
-            available = {year for year, slug in indices.values() if slug == decision["sourceSlug"]}
-            acquired, excluded = set(decision["acquisitionYears"]), set(decision["excludedYears"])
-            require(not acquired & excluded and acquired | excluded == available, "year-specific acquisition scope does not account for every available year")
-        if decision["disposition"] == "current-lineage":
-            require(decision.get("currentCategory") in {c["id"] for c in included}, "lineage target outside approved scope")
-            require(decision.get("evidence") and decision.get("reason"), "accepted lineage lacks evidence/reason")
+            acquired_years, excluded = set(decision["acquisitionYears"]), set(decision["excludedYears"])
+            require(not acquired_years & excluded and acquired_years | excluded == available, "year-specific acquisition scope does not account for every available year")
+        scoped_urls = {year: url for year, url in available_urls.items() if "acquisitionYears" not in decision or year in decision["acquisitionYears"]}
+        if "periods" in decision:
+            period_years = [year for period in decision["periods"] for year in period["years"]]
+            require(len(period_years) == len(set(period_years)) and set(period_years) == set(scoped_urls), "historical review periods overlap or leave years unaccounted")
+            require((decision["disposition"] == "pending-review") == any(p["disposition"] == "pending-review" for p in decision["periods"]), "top-level disposition conceals pending periods")
+            require("currentCategory" not in decision, "period-specific review also carries a blanket target")
+            for period in decision["periods"]:
+                require(period["years"] == sorted(period["years"], reverse=True), "period years must be unique and newest first")
+                urls = {year: scoped_urls[year] for year in period["years"]}
+                require({u.rsplit('/', 1)[1] for u in period["evidence"]} == {decision["sourceSlug"]}, "review period references a different category slug")
+                validate_review(period, urls, indices, acquired_pages, category_ids)
+            for year in scoped_urls:
+                review_for_year(decision, year)
+        elif decision["disposition"] == "current-lineage":
+            validate_review(decision, scoped_urls, indices, acquired_pages, category_ids)
     seen, winners, keys = set(), 0, set()
     for page in snapshot["pages"]:
         url, year = page["sourceUrl"], page["year"]
@@ -146,6 +197,15 @@ def validate(complete=False):
                 if credit.get("url"):
                     source_url(credit["url"])
     require(snapshot["pageCount"] == len(seen) and snapshot["winnerRecordCount"] == winners, "snapshot totals drift")
+    for page in snapshot.get("noAwardPages", []):
+        url, year = page["sourceUrl"], page["year"]
+        require(url in indices and indices[url][0] == year and url not in seen, "unindexed or duplicate no-award page")
+        seen.add(url)
+        evidence(page["source"], url)
+        require(page["outcome"] == "no-award" and page["winnerCount"] == page["winnerGridCount"] == 0 and not page["winners"], "no-award page conceals winners")
+        require(page["independentNoAward"] == validated_exceptions.get(url), "no-award page lacks the independently validated exception")
+        require(page["nominationCount"] == len(page["nominationEvidence"]) and not any(n["status"] == "winner" for n in page["nominationEvidence"]), "no-award nomination evidence/count drift")
+        require(page["nominationCount"] in page["structuredListCounts"] or page["nominationGridCount"] == page["nominationCount"], "no-award page lacks independent nomination accounting")
     current_pages = {p["sourceUrl"]: p for p in snapshot["pages"] if p["year"] == 2026}
     for category in releases["categories"]:
         page = current_pages.get(category["sourceUrl"])
@@ -160,7 +220,7 @@ def validate(complete=False):
     failed_urls = {e["input"]["url"] for e in snapshot["failures"]}
     for failure in snapshot["failures"]:
         source_url(failure["input"]["url"], failure["input"]["year"])
-        require(failure["kind"] in {"extraction-error", "http-error", "external-service-error"}, "unclassified source failure")
+        require(failure["kind"] in {"source-conflict", "extraction-error", "http-error", "external-service-error"}, "unclassified source failure")
         date.fromisoformat(failure["checkedAt"])
         if "source" in failure:
             evidence(failure["source"], failure["input"]["url"])
@@ -168,16 +228,34 @@ def validate(complete=False):
             rejected = failure["rejectedPageEvidence"]
             require(rejected["nominationCount"] == len(rejected["nominations"]), "rejected nomination accounting drift")
             require(not any(n["status"] == "winner" for n in rejected["nominations"]), "no-winner failure conceals a marked winner")
+        if failure["kind"] == "source-conflict":
+            conflict = failure["conflictingWinnerEvidence"]
+            url = failure["input"]["url"]
+            require(conflict["independentNoAward"] == validated_exceptions.get(url), "source conflict lacks independently pinned evidence")
+            html = conflict["html"]
+            require(html["sourceUrl"] == url and html["year"] == failure["input"]["year"] and html["winnerCount"] == len(html["winners"]) > 0, "source conflict omits the actual conflicting HTML winners")
+            require(html["nominationCount"] in html["structuredListCounts"] or html["nominationGridCount"] == html["nominationCount"], "conflicting source lacks independent nomination accounting")
+            require(normalized(html["sourceCategory"]) == normalized(conflict["independentNoAward"]["sourceCategory"]), "conflicting sources name different categories")
+            for winner in html["winners"]:
+                identity = {"sourceUrl": url, **{k: v for k, v in winner.items() if k != "sourceKey"}}
+                require(winner["status"] == "winner" and hashlib.sha256(json.dumps(identity, ensure_ascii=False, sort_keys=True).encode("utf-8")).hexdigest() == winner["sourceKey"], "conflicting winner facts/source key drift")
     require(not seen & failed_urls and seen | failed_urls == requested, "candidate pages missing from success/failure accounting")
     pending = any(d["disposition"] == "pending-review" for d in decisions)
     if pending or not snapshot["completeAcquisition"]:
-        manifest = load(SOURCE_DIR.parents[2] / "manifest.json")
-        require(not any(c["id"].startswith("emmy-") for c in manifest["catalogs"]), "Emmy catalogues cannot publish before source acquisition and lineage review are complete")
+        root = SOURCE_DIR.parents[2]
+        manifests = [root / "manifest.json", *root.glob("presets/**/manifest.json")]
+        for path in manifests:
+            manifest = load(path)
+            require(manifest.get("id") != "com.davecollections.nuvio.extra.emmys" and
+                    not any(c["id"].startswith("emmy-") for c in manifest["catalogs"]),
+                    "Emmy catalogues/presets cannot publish before source acquisition and lineage review are complete")
+        require(not list(root.glob("catalog/*/emmy-*.json")) and not list(root.glob("presets/**/catalog/*/emmy-*.json")),
+                "Unlisted static Emmy routes cannot bypass the historical review gate")
     if complete:
         require(year_numbers == list(range(2026, 1948, -1)), "all 78 annual indices required")
         require(snapshot["requestedYears"] == year_numbers and snapshot["completeAcquisition"], "historical acquisition is incomplete")
         require(not any(d["disposition"] == "pending-review" for d in decisions), "historical lineage review is incomplete")
-    return len(year_numbers), len(indices), len(seen), winners, sum(d["disposition"] == "pending-review" for d in decisions)
+    return len(year_numbers), len(indices), len(snapshot["pages"]), winners, sum(d["disposition"] == "pending-review" for d in decisions)
 
 
 def main():

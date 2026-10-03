@@ -7,9 +7,12 @@ import gzip
 import hashlib
 import json
 import unittest
+from copy import deepcopy
 from pathlib import Path
 
 from emmy_source import SourceError, category_results
+from fetch_emmy_snapshot import SOURCE_DIR, apply_no_award_evidence, category_for_year, load, no_award_exceptions, review_for_year
+from validate_emmy_source import validate_review
 
 FIXTURES = Path(__file__).resolve().parent / "fixtures" / "emmys"
 
@@ -112,6 +115,111 @@ class EmmySourceTests(unittest.TestCase):
         original = category_results(html, source["year"], source["url"])
         shifted = category_results(html.replace("mainDisplayItem ===", "changedDisplayPosition ==="), source["year"], source["url"])
         self.assertEqual(original["winners"], shifted["winners"])
+
+    def test_actual_1969_absent_markers_need_the_independent_history_notice(self):
+        source, html = self.fixtures["supporting-performance-1969"]
+        with self.assertRaises(SourceError) as caught:
+            category_results(html, source["year"], source["url"])
+        rejected = caught.exception.details
+        self.assertEqual(rejected["nominationCount"], 3)
+        self.assertEqual([n["heading"] for n in rejected["nominations"]], ["Ned Glass", "Billy Schulman", "Hal Holbrook"])
+        notice = no_award_exceptions(load(SOURCE_DIR / "lineage-decisions.json"))[source["url"]]
+        page = {"year": source["year"], "sourceUrl": source["url"], **rejected, "winnerCount": 0, "winners": []}
+        reconciled = apply_no_award_evidence(page, notice)
+        self.assertEqual(reconciled["outcome"], "no-award")
+        self.assertEqual(reconciled["nominations"], rejected["nominations"])
+
+    def test_actual_1969_variety_winner_conflict_cannot_be_silently_reconciled(self):
+        source, _ = self.fixtures["variety-directing-1969"]
+        page = self.parse("variety-directing-1969")
+        self.assertEqual(page["winners"][0]["heading"], "The Dean Martin Show")
+        notice = no_award_exceptions(load(SOURCE_DIR / "lineage-decisions.json"))[source["url"]]
+        with self.assertRaises(SourceError) as caught:
+            apply_no_award_evidence(page, notice)
+        self.assertEqual(caught.exception.conflicting_winner_evidence["html"], page)
+        self.assertEqual(caught.exception.conflicting_winner_evidence["independentNoAward"], notice)
+
+    def test_no_award_notice_cannot_be_applied_to_a_different_event_year(self):
+        ledger = deepcopy(load(SOURCE_DIR / "lineage-decisions.json"))
+        notice = next(e for e in ledger["annualExceptions"] if e["year"] == 2007)
+        notice["year"] = 2009  # Migrated page date; the actual release body says 2007.
+        with self.assertRaises(SourceError):
+            no_award_exceptions(ledger)
+
+
+class EmmyLineageReviewTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        ledger = load(SOURCE_DIR / "lineage-decisions.json")
+        cls.decisions = {d["sourceSlug"]: d for p in ledger["programmes"] for d in p["decisions"]}
+
+    def test_miniseries_slug_does_not_reclassify_the_1973_single_programme(self):
+        decision = self.decisions["outstanding-miniseries"]
+        self.assertEqual(category_for_year(decision, 1973), "television-movie")
+        self.assertEqual(category_for_year(decision, 1974), "limited-or-anthology-series")
+
+    def test_merged_programme_period_is_withheld_from_both_current_histories(self):
+        decision = self.decisions["outstanding-miniseries-or-movie"]
+        self.assertEqual(category_for_year(decision, 1990), "television-movie")
+        self.assertIsNone(category_for_year(decision, 1991))
+        self.assertEqual(category_for_year(decision, 1992), "limited-or-anthology-series")
+        self.assertTrue(all(category_for_year(decision, year) is None for year in (2011, 2012, 2013)))
+
+    def test_under_one_hour_animation_is_not_the_later_short_form_award(self):
+        decision = self.decisions["outstanding-short-format-animated-program"]
+        self.assertEqual(category_for_year(decision, 2009), "animated-program")
+        self.assertIsNone(category_for_year(decision, 2010))
+
+    def test_variety_merger_keeps_both_programme_branches(self):
+        for slug in ("outstanding-variety-series-talk", "outstanding-variety-sketch-series"):
+            self.assertEqual(category_for_year(self.decisions[slug], 2024), "variety-series")
+
+    def test_pre_split_voice_over_uses_exact_role_not_documentary_title(self):
+        decision = self.decisions["outstanding-voice-over-performance"]
+        # Madeline's fictional narrator and the named historical character voices
+        # remain character performances; the nonfiction Narrator role is distinct.
+        for year in (1994, 1997, 2000):
+            self.assertEqual(category_for_year(decision, year), "character-voice-over-performance")
+        for year in (2005, 2008, 2013):
+            self.assertEqual(category_for_year(decision, year), "narrator")
+
+    def test_undivided_variety_directing_is_not_assumed_to_be_series(self):
+        decision = self.decisions["outstanding-directing-for-a-variety-series"]
+        self.assertIsNone(category_for_year(decision, 1996))
+        self.assertEqual(category_for_year(decision, 2009), "directing-for-a-variety-series")
+
+    def test_duration_branches_follow_the_actual_awarded_programme(self):
+        decision = self.decisions["best-direction-half-hour-or-less"]
+        self.assertEqual(category_for_year(decision, 1957), "directing-for-a-comedy-series")
+        self.assertEqual(category_for_year(decision, 1958), "directing-for-a-drama-series")
+        decision = self.decisions["best-direction-one-hour-or-more"]
+        self.assertEqual(category_for_year(decision, 1957), "directing-for-a-drama-series")
+        self.assertEqual(category_for_year(decision, 1958), "directing-for-a-variety-series")
+
+    def test_combined_guest_performer_branches_preserve_the_reviewed_recipients(self):
+        decision = self.decisions["outstanding-guest-performer-in-a-comedy-series"]
+        self.assertEqual(category_for_year(decision, 1987), "guest-actor-in-a-comedy-series")
+        self.assertEqual(category_for_year(decision, 1988), "guest-actress-in-a-comedy-series")
+
+    def test_drama_writing_split_keeps_series_and_special_programmes_separate(self):
+        decision = self.decisions["outstanding-writing-achievement-in-drama-adaptation"]
+        self.assertEqual(category_for_year(decision, 1964), "writing-for-a-drama-series")
+        self.assertEqual(category_for_year(decision, 1974), "writing-for-a-limited-or-anthology-series-or-movie")
+
+    def test_overlapping_review_periods_fail_closed(self):
+        decision = deepcopy(self.decisions["outstanding-miniseries"])
+        decision["periods"][0]["years"].append(1973)
+        with self.assertRaises(SourceError):
+            review_for_year(decision, 1973)
+
+    def test_changed_source_bytes_invalidate_the_accepted_allocation(self):
+        decision = deepcopy(self.decisions["outstanding-movie"])
+        snapshot = load(SOURCE_DIR / "official-winners-1949-2026.json")
+        page = next(p for p in snapshot["pages"] if p["sourceUrl"].endswith("/2026/outstanding-movie"))
+        decision["reviewedSourcePages"][0]["sha256"] = "0" * 64
+        with self.assertRaises(SourceError):
+            validate_review(decision, {2026: page["sourceUrl"]}, {page["sourceUrl"]: (2026, "outstanding-movie")},
+                {page["sourceUrl"]: page}, {"television-movie"})
 
 
 if __name__ == "__main__":

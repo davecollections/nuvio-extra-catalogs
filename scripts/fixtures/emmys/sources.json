@@ -63,6 +63,25 @@
       "excerptSha256": "9195521481d1e9d3dd78fb439a5d7c6f41a53fd64bb90a27809ce9f2d4915536",
       "nominationCount": 6,
       "winnerCount": 1
+    },
+    {
+      "file": "supporting-performance-1969.html.gz",
+      "year": 1969,
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1969/outstanding-single-performance-by-an-actor-in-a-supporting-role",
+      "sourceSha256": "aeedc6eee2a7e0b81669aff92d4c1230bd0c7c993c8c5cb016fbd60aa3fe710d",
+      "excerptSha256": "cae64722dbcb906d838586727e994fda39de9e4953f9722fc5fe4a92ef659ca2",
+      "nominationCount": 3,
+      "winnerCount": 0,
+      "expectedError": "no-explicit-winners"
+    },
+    {
+      "file": "variety-directing-1969.html.gz",
+      "year": 1969,
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1969/outstanding-directing-for-a-variety-series",
+      "sourceSha256": "9aa79b3cd952d8deeed520a467794772a110dafe1d04915b3b2bce531ac517e2",
+      "excerptSha256": "98e45cdd2ba7b4a99d4d833dbdab39e5fcc78f271ed05953d8869c62ee6e82f4",
+      "nominationCount": 3,
+      "winnerCount": 1
     }
   ]
 }

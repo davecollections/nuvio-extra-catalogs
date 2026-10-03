@@ -17,6 +17,15 @@ from fetch_emmy_snapshot import serialized, source_html
 FIXTURES = Path(__file__).resolve().parent / "fixtures" / "emmys"
 
 
+def parsed_evidence(html, year, url, missing_winners=False):
+    try:
+        return category_results(html, year, url)
+    except SourceError as exc:
+        if not missing_winners or not hasattr(exc, "details") or exc.details["winnerGridCount"]:
+            raise
+        return {**exc.details, "winnerCount": 0, "expectedError": "no-explicit-winners"}
+
+
 class Excerpts(HTMLParser):
     def __init__(self, html):
         super().__init__(convert_charrefs=False)
@@ -70,13 +79,14 @@ def main():
     parser.add_argument("--url", required=True)
     parser.add_argument("--year", type=int, required=True)
     parser.add_argument("--name", required=True)
+    parser.add_argument("--missing-winner-evidence", action="store_true", help="capture an actual rejected no-winner page without assigning a no-award outcome")
     args = parser.parse_args()
     if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", args.name):
         parser.error("name must use lowercase letters, numbers and hyphens")
     html, evidence = source_html(args.url, args.cache_dir, offline=True)
-    original = category_results(html, args.year, args.url)
+    original = parsed_evidence(html, args.year, args.url, args.missing_winner_evidence)
     excerpt = Excerpts(html).excerpt()
-    captured = category_results(excerpt, args.year, args.url)
+    captured = parsed_evidence(excerpt, args.year, args.url, args.missing_winner_evidence)
     if original != captured:
         raise SourceError("excerpt changes parsed official facts or independent counts")
     raw = excerpt.encode("utf-8")
@@ -87,7 +97,8 @@ def main():
     manifest["fixtures"] = [f for f in manifest["fixtures"] if f["file"] != filename]
     manifest["fixtures"].append({"file": filename, "year": args.year, "url": args.url,
         "sourceSha256": evidence["sha256"], "excerptSha256": hashlib.sha256(raw).hexdigest(),
-        "nominationCount": captured["nominationCount"], "winnerCount": captured["winnerCount"]})
+        "nominationCount": captured["nominationCount"], "winnerCount": captured["winnerCount"],
+        **({"expectedError": captured["expectedError"]} if "expectedError" in captured else {})})
     manifest_path.write_text(serialized(manifest), encoding="utf-8")
     print(f"Captured {filename}: {len(raw)} bytes; facts and independent counts unchanged")
 
