@@ -3,7 +3,7 @@
   "inputSha256": {
     "current-category-pages.json": "f813c92661d7c88ab1653ed9c3d634f8f41c0e0eb87ca0d017174765b98475c0",
     "annual-indices.json": "4bed2b1e02c4f46f3d0ce5b36afac36d58215048c0fea0830471390d8b8e9388",
-    "lineage-decisions.json": "a211d6e2b0872555eaf353ef870c5cf2afbe9e6ce92d39f000b8e4aa99e14c07",
+    "lineage-decisions.json": "d4efe8d50ebe55c50828fc6f2aa924c644419d4be3c81112f4faa4f33d9360f4",
     "official-winners-1949-2026.json": "7b6739deab3dbb308b2d1c39ce2ac27b91277a9f8b92e6736191501670b75204",
     "winner-release-evidence-2026.json": "22f013193d628473431db094328240d17b0ad5ade937e9aa5314d68b5bb64fe6",
     "manifest.json": "226970d09fe0ab38b33075106abb893a21e6d27615f17cf9dfb15e1c2015e3b7"
@@ -20,8 +20,8 @@
     "reviewedLineageSlugCount": 112,
     "retainedScopeExcludedPageCount": 14,
     "retainedScopeExcludedWinnerRecordCount": 15,
-    "reviewedAllocationPageCount": 2275,
-    "reviewedWinnerAllocationCount": 2324,
+    "reviewedAllocationPageCount": 2278,
+    "reviewedWinnerAllocationCount": 2327,
     "acquiredCandidatePageCount": 2480,
     "candidateWinnerRecordCount": 2587,
     "independentlyReconciledNoAwardPageCount": 1,
@@ -933,8 +933,8 @@
       "id": "hosted-nonfiction-series-or-special",
       "name": "OUTSTANDING HOSTED NONFICTION SERIES OR SPECIAL",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 20,
-      "reviewedWinnerAllocationCount": 22,
+      "reviewedSourcePageCount": 23,
+      "reviewedWinnerAllocationCount": 25,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -951,7 +951,10 @@
         2014,
         2013,
         1994,
+        1993,
+        1984,
         1983,
+        1982,
         1966,
         1962,
         1955,
@@ -6968,18 +6971,15 @@
             1997,
             1996,
             1995,
-            1993,
             1992,
             1990,
             1987,
             1986,
             1985,
-            1984,
-            1982,
             1981,
             1978
           ],
-          "reason": "Other historical Informational Series periods still require original production-format and eligibility review, including every side of tied pages. The now-reviewed 1988 documentary tie does not accept the 1995 Baseball/TV Nation tie or the separate Buster Keaton Individual Achievement field."
+          "reason": "Other historical Informational Series periods require original production-format and eligibility review, including every winner on tied pages. These three documented Moyers interview/reporting series do not certify the withheld Meeting of Minds historical dramatic dialogue, the Baseball/TV Nation tie, the Smithsonian World/Unknown Chaplin tie or the separate individual-achievement fields."
         }
       ]
     },

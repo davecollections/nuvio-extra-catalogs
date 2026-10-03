@@ -185,6 +185,40 @@ class EmmySourceAuthorityTests(unittest.TestCase):
             with self.subTest(redirected=redirected), self.assertRaises(SourceError):
                 evidence(value, value["url"], context=True)
 
+    def test_original_producer_archive_cannot_supply_award_facts(self):
+        contexts = load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]
+        producer = [s for s in contexts if s["url"].startswith("https://billmoyers.com/")]
+        self.assertEqual(len(producer), 4)
+        for value in producer:
+            with self.subTest(url=value["url"]):
+                evidence(value, value["url"], context=True)
+                with self.assertRaises(SourceError):
+                    evidence(value, value["url"])
+
+    def test_producer_context_is_limited_to_the_four_reviewed_records(self):
+        for url in ("https://billmoyers.com/awards/nominees-winners/1993",
+                    "https://billmoyers.com/series/unreviewed/",
+                    "https://billmoyers.com/timeline/",
+                    "https://billmoyers.com/series/creativity",
+                    "https://billmoyers.com/series/creativity/../../awards/",
+                    "https://billmoyers.com/series/%63reativity/",
+                    "https://billmoyers.com/series/creativity/?award=1993",
+                    "https://billmoyers.com/series/creativity/#awards",
+                    "https://billmoyers.com.example.org/series/creativity/",
+                    "https://user@billmoyers.com/series/creativity/",
+                    "https://billmoyers.com:443/series/creativity/",
+                    "http://billmoyers.com/series/creativity/"):
+            with self.subTest(url=url), self.assertRaises(SourceError):
+                source_url(url, context=True)
+
+    def test_producer_response_redirect_requires_an_approved_production_record(self):
+        value = deepcopy(next(s for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]
+                              if s["url"] == "https://billmoyers.com/series/creativity/"))
+        for redirected in ("https://billmoyers.com/awards/1982", "https://example.org/series/creativity/"):
+            value["resolvedUrl"] = redirected
+            with self.subTest(redirected=redirected), self.assertRaises(SourceError):
+                evidence(value, value["url"], context=True)
+
     def test_context_rejects_other_hosts_and_disguised_authorities(self):
         for authority in ("televisionacademy.com.example.org", "interviews.televisionacademy.com.example.org",
                           "user@interviews.televisionacademy.com", "interviews.televisionacademy.com:443",
@@ -636,6 +670,55 @@ class EmmyLineageReviewTests(unittest.TestCase):
                 contexts = [s["context"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]
                             if s["url"] in review["externalEvidence"]]
                 self.assertTrue(any(production in c for c in contexts))
+
+    def test_moyers_hosted_series_preserve_every_original_programme_credit(self):
+        decision = self.decisions["outstanding-informational-series"]
+        pages = load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+        for year, title, recipients in (
+                (1982, "Creativity with Bill Moyers",
+                 ["Charles Grinker", "Merton Y. Koplin", "Betsy McCarthy", "Bill Moyers"]),
+                (1984, "A Walk Through the 20th Century With Bill Moyers",
+                 ["Ronald Blumer", "Sanford H. Fisher", "Charles Grinker", "David Grubin",
+                  "Merton Y. Koplin", "Betsy McCarthy", "Bill Moyers"]),
+                (1993, "Healing And The Mind With Bill Moyers",
+                 ["David Grubin", "Alice Markowitz", "Bill Moyers", "JUDITH DAVIDSON MOYERS"])):
+            with self.subTest(year=year):
+                self.assertEqual(category_for_year(decision, year), "hosted-nonfiction-series-or-special")
+                review = review_for_year(decision, year)
+                self.assertEqual(review["years"], [year])
+                page = next(p for p in pages if p["sourceUrl"].endswith(f"/{year}/outstanding-informational-series"))
+                self.assertEqual(page["sourceCategory"], "Outstanding Informational Series")
+                winner = page["winners"][0]
+                self.assertEqual(winner["heading"], title)
+                self.assertEqual(winner["sourceDetailLines"], ["PBS"])
+                self.assertEqual([c["name"] for c in winner["credits"]], recipients)
+                self.assertEqual([c["role"] for c in winner["credits"]], [""] * len(recipients))
+                self.assertEqual(review["reviewedSourcePages"][0]["winnerSourceKeys"], [winner["sourceKey"]])
+
+    def test_documentary_description_does_not_erase_the_actual_hosted_interview_format(self):
+        ledger = load(SOURCE_DIR / "lineage-decisions.json")
+        contexts = {s["url"]: s["context"] for s in ledger["contextSources"]}
+        healing = "https://billmoyers.com/series/healing-and-the-mind/"
+        self.assertIn("is a documentary series", contexts[healing])
+        self.assertIn("five-part series of provocative interviews", contexts[healing])
+        review = review_for_year(self.decisions["outstanding-informational-series"], 1993)
+        self.assertEqual(review["currentCategory"], "hosted-nonfiction-series-or-special")
+        self.assertIn(healing, review["externalEvidence"])
+        ownership = contexts["https://billmoyers.com/about-us/"]
+        self.assertIn("journalism produced by Bill Moyers and his team", ownership)
+        self.assertIn("rights to the company’s work were assigned to Doctoroff Media Group", ownership)
+
+    def test_reviewed_hosted_productions_cannot_certify_dramatic_dialogue_or_partial_ties(self):
+        decision = self.decisions["outstanding-informational-series"]
+        pages = load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+        for year, count in ((1981, 1), (1987, 2), (1995, 2)):
+            with self.subTest(year=year):
+                self.assertEqual(review_for_year(decision, year)["disposition"], "pending-review")
+                page = next(p for p in pages if p["sourceUrl"].endswith(f"/{year}/outstanding-informational-series"))
+                self.assertEqual(len(page["winners"]), count)
+                for winner in page["winners"]:
+                    self.assertIsNone(category_for_winner(decision, year, winner["sourceKey"]))
+        self.assertIsNone(category_for_year(self.decisions["outstanding-individual-achievement-informational-programming"], 1984))
 
     def test_period_context_reference_requires_pinned_evidence(self):
         decision = self.decisions["outstanding-miniseries-or-movie"]

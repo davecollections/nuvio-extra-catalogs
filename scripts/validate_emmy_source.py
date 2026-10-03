@@ -34,6 +34,13 @@ def source_url(value, year=None, *, context=False):
         if (parsed.path.startswith("/wnet/americanmasters/")
                 and not {".", ".."}.intersection(unquote(parsed.path).split("/"))):
             hosts.add("www.pbs.org")
+        # These original producer-owned archive descriptions establish the
+        # hosted format, not Emmy outcomes or transferable recipient credits.
+        if (parsed.path in {"/about-us/", "/series/creativity/",
+                            "/series/healing-and-the-mind/",
+                            "/series/a-walk-through-the-twentieth-century/"}
+                and not parsed.query and not parsed.fragment):
+            hosts.add("billmoyers.com")
     require(parsed.scheme == "https" and parsed.netloc in hosts, f"unapproved source URL: {value}")
     if year is not None:
         require(parsed.path.startswith(f"/awards/nominees-winners/{year}"), f"source URL/year mismatch: {value}")

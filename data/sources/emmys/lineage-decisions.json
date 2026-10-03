@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "checkedAt": "2026-10-03",
-  "policy": "Account for every page slug discovered in the 78 first-party annual indices. Scope exclusions are explicit; candidate acquisition and year-specific labels never certify continuity. A selected predecessor requires named current-category or exact source-winner allocation, explicit year boundaries and pinned evidence before canonical generation. Reviewed broadcaster production records may establish programme format and original dates as pinned context only; award facts and no-award evidence remain restricted to the Television Academy.",
+  "policy": "Account for every page slug discovered in the 78 first-party annual indices. Scope exclusions are explicit; candidate acquisition and year-specific labels never certify continuity. A selected predecessor requires named current-category or exact source-winner allocation, explicit year boundaries and pinned evidence before canonical generation. Reviewed broadcaster production records may establish programme format and original dates as pinned context only; award facts and no-award evidence remain restricted to the Television Academy. Four exact pages in the original Moyers production archive establish hosted format and archive ownership as pinned context only; they cannot provide award facts, no-award outcomes or replacement recipient credits.",
   "programmes": [
     {
       "id": "emmy-awards",
@@ -12636,40 +12636,6 @@
             },
             {
               "years": [
-                1997,
-                1996,
-                1995,
-                1993,
-                1992,
-                1990,
-                1987,
-                1986,
-                1985,
-                1984,
-                1982,
-                1981,
-                1978
-              ],
-              "disposition": "pending-review",
-              "reason": "Other historical Informational Series periods still require original production-format and eligibility review, including every side of tied pages. The now-reviewed 1988 documentary tie does not accept the 1995 Baseball/TV Nation tie or the separate Buster Keaton Individual Achievement field.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1993/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1984/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1982/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-series"
-              ]
-            },
-            {
-              "years": [
                 1988
               ],
               "disposition": "current-lineage",
@@ -12697,9 +12663,128 @@
                 "https://www.pbs.org/wnet/americanmasters/series/",
                 "https://www.pbs.org/wnet/americanmasters/masters/buster-keaton/"
               ]
+            },
+            {
+              "years": [
+                1997,
+                1996,
+                1995,
+                1992,
+                1990,
+                1987,
+                1986,
+                1985,
+                1981,
+                1978
+              ],
+              "disposition": "pending-review",
+              "reason": "Other historical Informational Series periods require original production-format and eligibility review, including every winner on tied pages. These three documented Moyers interview/reporting series do not certify the withheld Meeting of Minds historical dramatic dialogue, the Baseball/TV Nation tie, the Smithsonian World/Unknown Chaplin tie or the separate individual-achievement fields.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-series"
+              ]
+            },
+            {
+              "years": [
+                1982
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "hosted-nonfiction-series-or-special",
+              "reason": "Creativity with Bill Moyers wins the original 1982 Informational Series programme field. The original production archive explicitly describes the artist/performer interviews conducted by Moyers, including his visit with Maya Angelou. Follow the Academy’s pinned personality-driven interview/host narrative scope in Hosted Nonfiction, retaining all four original programme recipients and unavailable roles. The source’s generic Informational heading, interview subjects and later archival excerpts do not create Documentary Writing, individual Host or acting wins. The producer archive supplies format only; the Academy supplies the actual award.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1982/outstanding-informational-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1982,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1982/outstanding-informational-series",
+                  "sha256": "20009b4da99062b443b0760b4b89130f6feaa23c9060b9ece27aa028954703b1",
+                  "winnerSourceKeys": [
+                    "6f22ecc4a973c45b9059c0830df4947a1aedc5d8517d6feb2ab8a91558c7fc71"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/awards-news/emmy-rules-changes-191217",
+                "https://billmoyers.com/about-us/",
+                "https://billmoyers.com/series/creativity/"
+              ]
+            },
+            {
+              "years": [
+                1984
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "hosted-nonfiction-series-or-special",
+              "reason": "A Walk Through the 20th Century With Bill Moyers wins the original 1984 Informational Series programme award. Its original production archive describes the 19-part historical series, archival footage, and Moyers’s central reporting/interviews with Richard Strout, I. I. Rabi and other guests. Follow Hosted Nonfiction under the pinned host narrative/interview scope, retaining the seven Academy recipients with unavailable roles. Historical footage does not erase the on-camera host format, and a guest’s Nobel Prize or the production’s earlier broadcast dates cannot become Emmy recipient or ceremony evidence. Do not substitute the later A Second Look repackaging or allocate the separately awarded Marshall, Texas individual achievement.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1984/outstanding-informational-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1984,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1984/outstanding-informational-series",
+                  "sha256": "72f575b3082788043f0b10e4b2454279916bd7814a9147a37e447304aaca9e1a",
+                  "winnerSourceKeys": [
+                    "dd03a838204c88bdd629bd115182a04ce8a6d282ecaccd48322c192ddaf3da59"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/awards-news/emmy-rules-changes-191217",
+                "https://billmoyers.com/about-us/",
+                "https://billmoyers.com/series/a-walk-through-the-twentieth-century/"
+              ]
+            },
+            {
+              "years": [
+                1993
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "hosted-nonfiction-series-or-special",
+              "reason": "Healing And The Mind With Bill Moyers wins the original 1993 Informational Series programme field. The original producer-owned archive explicitly describes five parts built around Moyers’s interviews with physicians, scientists, therapists and patients. Follow Hosted Nonfiction under the pinned personality-driven interview/host narrative scope. Preserve the archive’s documentary description as format context, but do not use it to erase the actual central host/interview structure or override the original Series award. Retain all four Academy programme recipients and unavailable roles; production descriptions of specific episodes do not allocate the separate Individual Achievement nominee or turn interview guests into award recipients.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1993/outstanding-informational-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1993,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1993/outstanding-informational-series",
+                  "sha256": "641fb061161854e9348b9b053c2252fd0bce2335d5bcef5923deb796a9e513ab",
+                  "winnerSourceKeys": [
+                    "63d86e1e3c1369268747737c12f7209955502af73d1bfebbe90a3be171db0b29"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/awards-news/emmy-rules-changes-191217",
+                "https://billmoyers.com/about-us/",
+                "https://billmoyers.com/series/healing-and-the-mind/"
+              ]
             }
           ],
           "externalEvidence": [
+            "https://billmoyers.com/about-us/",
+            "https://billmoyers.com/series/a-walk-through-the-twentieth-century/",
+            "https://billmoyers.com/series/creativity/",
+            "https://billmoyers.com/series/healing-and-the-mind/",
             "https://interviews.televisionacademy.com/interviews/bob-costas",
             "https://interviews.televisionacademy.com/shows/barbara-walters-specials",
             "https://www.pbs.org/wnet/americanmasters/masters/buster-keaton/",
@@ -31298,6 +31383,46 @@
       "byteCount": 38282,
       "context": "AMERICAN MASTERS FILM Edward R. Murrow: This Reporter (Jul 1990) Directed by Susan Steinberg",
       "contextSha256": "24ffbd5dfd8a3e1d4a81d80269cb14ecee3bca8812a66c94ec1840f321b0ce22"
+    },
+    {
+      "url": "https://billmoyers.com/about-us/",
+      "resolvedUrl": "https://billmoyers.com/about-us/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "89f47a89b346b451ca640d1328446c06d24aaa8d3aba354c9cabc7e2ef0d098c",
+      "byteCount": 57258,
+      "context": "The newly revamped BillMoyers.com is an archive website that pulls together journalism produced by Bill Moyers and his team over the past 40-plus years on television and online.\nPublic Affairs Television was Bill and Judith Moyers’s independent production company from 1986 through 2015.\nPAT closed operations in 2015 and the rights to the company’s work were assigned to Doctoroff Media Group.\nOther television credits include the award-winning series A Walk Through the Twentieth Century and Creativity , both produced for CBS Cable and PBS.",
+      "contextSha256": "def27aeca62c79f2a1e7ced5434f067797c39287b54238dd9c38e035f5dce739"
+    },
+    {
+      "url": "https://billmoyers.com/series/creativity/",
+      "resolvedUrl": "https://billmoyers.com/series/creativity/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "83fec44985feb7029e222961137517c8263724b24f9ceccfcc0452cd41aa2ab9",
+      "byteCount": 38396,
+      "context": "In the Creativity series, Bill Moyers examined the nature of creative expression by interviewing noted artists and performers, including Maya Angelou, Norman Lear, Fred Smith (the founder of FedEx), violinist Pinchas Zukerman, painter Gerald Scheck and others about their influences, inspiration and the sometimes unusual outlets for the creative impulse. (1982)\nIn this 1982 interview from the Creativity series, Bill accompanied the legendary poet Maya Angelou in her first visit back to her hometown in Stamps, Arkansas.",
+      "contextSha256": "72e222c918ff9f702d6106cc3adca6df73f91c86c7c74e92be6e05b26464c349"
+    },
+    {
+      "url": "https://billmoyers.com/series/healing-and-the-mind/",
+      "resolvedUrl": "https://billmoyers.com/series/healing-and-the-mind/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "44a58751073e3357e625d1125411d0d3c02580c7db4d55e8247f1eb4e2917def",
+      "byteCount": 38088,
+      "context": "In Healing and the Mind , Bill Moyers talks with physicians, scientists, therapists and patients – people who are taking a new look at the meaning of sickness and health.\nIn a five-part series of provocative interviews, he discusses their search for answers to perplexing questions:\nHealing and the Mind is a documentary series destined to influence how millions think about sickness and health. (1993)\nBill Moyers speaks with neuroscientists and doctors as he investigates the mysteries and science of the mind-body connection.",
+      "contextSha256": "7e4c471b5e4a05c68be88d85551ffa2375794c35cd35c73ad5bb9941460959f3"
+    },
+    {
+      "url": "https://billmoyers.com/series/a-walk-through-the-twentieth-century/",
+      "resolvedUrl": "https://billmoyers.com/series/a-walk-through-the-twentieth-century/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "987f12133929f4d873c7dcc440ef279780cb5ff5e191c85a54999ffe68757d69",
+      "byteCount": 45025,
+      "context": "Only a few historians and journalists have succeeded in developing a full-fledged portrayal of the period, and no one has woven a tapestry of greater depth and richness than Bill Moyers, the driving force behind this classic 19-part series.\nBrimming with archival images and footage derived from exacting research, these programs have little to do with the charts and timelines of routine history lessons but instead represent both a shrewd analysis of major events and a poetic chronicle of the century.\nBill Moyers speaks with news correspondent Richard Strout, who covered Washington and the White House from 1925 until his retirement in 1984.\nBill Moyers interviews I. I. Rabi, winner of the 1944 Nobel Prize in physics and an early developer of radar for use in World War II.\nBill Moyers and his guests look past the nostalgia and talk about the poverty, racial segregation and political scandals of the 1920s.",
+      "contextSha256": "8c29acb58dcd37d878f4811ccfd6ec00bf7a89893273eeadfad4424778d205a2"
     }
   ],
   "annualExceptions": [
