@@ -22,7 +22,80 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1966/achievements-in-educational-television"
           ],
           "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
+          "periods": [
+            {
+              "years": [
+                1951
+              ],
+              "disposition": "pending-review",
+              "reason": "The 1951 local KFI-TV University Educational Show winner still needs production-specific format and predecessor review. Its title or later hosted educational winners cannot certify its narrative format, credit identities or modern category.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1951/achievements-in-educational-television"
+              ]
+            },
+            {
+              "years": [
+                1966
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "hosted-nonfiction-series-or-special",
+              "reason": "The French Chef wins the original Educational Television field with Julia Child as its sole named recipient. Her Foundation interview explicitly describes the format and origins of her host-led cooking programme and her role as a teacher, distinguishing later Baking with Julia and Dinner at Julia's. Follow the personality-driven hosted nonfiction predecessor, retaining the original NET broadcaster, 1966 award and unavailable recipient role. This is a programme history for the original educational award, not a newly invented individual host Emmy or an imported Daytime award.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1966/achievements-in-educational-television"
+              ],
+              "reviewedSourceHeadings": [
+                "Achievements In Educational Television"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1966,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1966/achievements-in-educational-television",
+                  "sha256": "1c97a3ba66ab909dd73ee95d32f39dce06a3ff91eb66906a79065975dac494a2",
+                  "winnerSourceKeys": [
+                    "8c7b3ac1c862a2d22d581a1aeea5085f3e4ff9480c6d1b24c8427e1463ae89ab"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/awards-news/emmy-rules-changes-191217",
+                "https://interviews.televisionacademy.com/interviews/julia-child"
+              ]
+            },
+            {
+              "years": [
+                1962
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "hosted-nonfiction-series-or-special",
+              "reason": "David Brinkley's Journal wins the original Educational And Public Affairs programme field. The Foundation interview describes his documentary newsmagazine series and explicitly identifies him anchoring that programme, distinguishing the later NBC Magazine and ABC This Week. Follow Hosted Nonfiction under the pinned personality-driven magazine scope, which expressly accommodates documentary formats. Retain the original NBC programme award and n/a recipient evidence; the host-format context is not permission to insert Brinkley as a credited Emmy recipient or import results from a separate News & Documentary competition.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1962/achievements-in-educational-television"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Program Achievement In The Field Of Educational And Public Affairs Programming"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1962,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1962/achievements-in-educational-television",
+                  "sha256": "e66cd5722ed3a773d897673807c30495b81fd9742c39363efd1e889d6ef59fbd",
+                  "winnerSourceKeys": [
+                    "2c70f7ef1596124db2a65b1c5f6a2fd753f003065b0e0d2c1455be16437b4af7"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/awards-news/emmy-rules-changes-191217",
+                "https://interviews.televisionacademy.com/interviews/david-brinkley"
+              ]
+            }
+          ],
+          "externalEvidence": [
+            "https://interviews.televisionacademy.com/interviews/david-brinkley",
+            "https://interviews.televisionacademy.com/interviews/julia-child",
+            "https://www.televisionacademy.com/features/news/awards-news/emmy-rules-changes-191217"
+          ]
         },
         {
           "sourceSlug": "actor-of-the-year-series",
@@ -21307,48 +21380,11 @@
           "disposition": "pending-review",
           "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
           "externalEvidence": [
+            "https://www.televisionacademy.com/features/emmy-magazine/me-and-my-emmy/me-and-my-emmy-glenn-weiss",
             "https://www.televisionacademy.com/features/news/mix/smooth-moves",
             "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212"
           ],
           "periods": [
-            {
-              "years": [
-                2017,
-                2015,
-                2014,
-                2013,
-                2012,
-                2011,
-                2010,
-                2009,
-                2007,
-                2005,
-                2004,
-                2002,
-                1989,
-                1980,
-                1979
-              ],
-              "disposition": "pending-review",
-              "reason": "The remaining Special Class years mix annual award telecasts, performing-arts productions, an Olympic opening ceremony, documentary and recurring talk programmes. Review actual winning productions and live/prerecorded or series/special status before allocating every winner; the 2018 restructuring does not make all older Special Class awards Live Variety wins.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/2017/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2015/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2014/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2013/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2012/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2011/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2010/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2009/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2007/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2005/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2004/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2002/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/1979/outstanding-special-class-programs"
-              ]
-            },
             {
               "years": [
                 2016
@@ -21375,6 +21411,70 @@
               "externalEvidence": [
                 "https://www.televisionacademy.com/features/news/mix/smooth-moves",
                 "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212"
+              ]
+            },
+            {
+              "years": [
+                2017,
+                2015,
+                2014,
+                2013,
+                2011,
+                2010,
+                2009,
+                2007,
+                2005,
+                2004,
+                2002,
+                1989,
+                1980,
+                1979
+              ],
+              "disposition": "pending-review",
+              "reason": "Other Special Class years still mix annual award telecasts, performing-arts productions, Olympic coverage, documentary and recurring talk programmes. Review every winning production and live/prerecorded or series/special status independently; the verified 2012 Tony broadcast and 2016 Grease live musical do not certify the other editions or Live From Lincoln Center titles.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/2017/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2015/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2014/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2013/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2011/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2010/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2009/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2007/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2005/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2004/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2002/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/1979/outstanding-special-class-programs"
+              ]
+            },
+            {
+              "years": [
+                2012
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "variety-special-live",
+              "reason": "The 65th Annual Tony Awards wins the 2012 Special Class programme field. The Academy's 2013 Glenn Weiss account explicitly connects both his producing and directing wins to 2012 and the Tonys live-broadcast production. Follow the documented 2018 reorganisation into Live Variety for this annual production while retaining all three original programme recipients, including the source's unavailable role labels. Do not insert roles from the profile, shift the award to the article year or treat the separate directing award as a second programme result.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/2012/outstanding-special-class-programs"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Special Class Programs"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 2012,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2012/outstanding-special-class-programs",
+                  "sha256": "e5f2af541bb252184679e93ee12178aa32492e419ea39deacc84ded579f71c9d",
+                  "winnerSourceKeys": [
+                    "c8d32d9201e9ad2260bfa3e3d0a2a8e534519a6204d06f511447dc639842c46f"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212",
+                "https://www.televisionacademy.com/features/emmy-magazine/me-and-my-emmy/me-and-my-emmy-glenn-weiss"
               ]
             }
           ]
@@ -25650,7 +25750,7 @@
             "https://www.televisionacademy.com/awards/nominees-winners/2024/outstanding-variety-music-or-comedy-special"
           ],
           "disposition": "pending-review",
-          "reason": "Use explicit year-specific programme allocations and their pinned official contexts. Unreviewed periods remain withheld; neither the page slug nor a later award entry certifies all historical productions.",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
           "periods": [
             {
               "years": [
@@ -25738,98 +25838,6 @@
             },
             {
               "years": [
-                2017,
-                2016,
-                2015,
-                2014,
-                2013,
-                2012,
-                2011,
-                2010,
-                2009,
-                2008,
-                2007,
-                2006,
-                2005,
-                2004,
-                2003,
-                2002,
-                2001,
-                2000,
-                1999,
-                1998,
-                1997,
-                1996,
-                1995,
-                1994,
-                1993,
-                1992,
-                1990,
-                1988,
-                1979,
-                1978,
-                1977,
-                1976,
-                1975,
-                1974,
-                1973,
-                1972,
-                1971,
-                1970,
-                1969,
-                1967,
-                1966,
-                1959
-              ],
-              "disposition": "pending-review",
-              "reason": "Earlier combined Variety/Music programme awards and specials require actual series/special and live/prerecorded production review. The official 2018 rules reorganise both Variety Special and Special Class into Live and Pre-Recorded together, so the previous field name cannot prove broadcast format.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/2017/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2016/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2015/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2014/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2013/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2012/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2011/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2010/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2009/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2008/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2007/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2006/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2005/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2004/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2003/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2002/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2001/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2000/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1999/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1998/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1994/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1993/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1979/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1977/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1974/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1973/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1972/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1971/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1970/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1969/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1967/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1966/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1959/outstanding-variety-music-or-comedy-special"
-              ]
-            },
-            {
-              "years": [
                 1968
               ],
               "disposition": "current-lineage",
@@ -25851,10 +25859,237 @@
                   ]
                 }
               ]
+            },
+            {
+              "years": [
+                2017,
+                2016,
+                2015,
+                2014,
+                2013,
+                2012,
+                2011,
+                2010,
+                2009,
+                2006,
+                2005,
+                2003,
+                2002,
+                2001,
+                2000,
+                1999,
+                1998,
+                1997,
+                1996,
+                1995,
+                1994,
+                1993,
+                1992,
+                1990,
+                1988,
+                1979,
+                1978,
+                1977,
+                1976,
+                1975,
+                1974,
+                1972,
+                1971,
+                1970,
+                1969,
+                1967,
+                1966
+              ],
+              "disposition": "pending-review",
+              "reason": "Remaining combined Variety Special years require exact production/broadcast evidence for Live versus Pre-Recorded, including compiled clip specials, concert films, annual award telecasts and delayed Olympic opening ceremonies. The title, a live audience, live singing, editing of isolated inserts or another annual edition does not alone certify the broadcast route.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/2017/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2016/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2015/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2014/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2013/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2012/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2011/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2010/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2009/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2006/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2005/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2003/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2002/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2001/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2000/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1999/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1998/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1994/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1993/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1979/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1977/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1974/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1972/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1971/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1970/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1969/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1967/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1966/outstanding-variety-music-or-comedy-special"
+              ]
+            },
+            {
+              "years": [
+                1959
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "variety-special-pre-recorded",
+              "reason": "An Evening with Fred Astaire wins the original 1959 Best Special Musical Or Variety Program-One Hour Or Longer field. The Academy production-designer obituary expressly identifies the original 1958 special as shot and broadcast using color videotape. Follow the documented live/prerecorded successor split as a prerecorded special; the live studio performance is not proof of a live telecast. Preserve the original n/a recipient label and linked Bud Yorkin URL for later credit/identity review rather than inserting the designer or inventing a recipient.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1959/outstanding-variety-music-or-comedy-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Special Musical Or Variety Program-One Hour Or Longer"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1959,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1959/outstanding-variety-music-or-comedy-special",
+                  "sha256": "d128989c1c20cee099620b91aba83b3de222dfff5d49e0124495fd8a8f863a52",
+                  "winnerSourceKeys": [
+                    "981827e69f6c0c4ae6e1896af99925d6755020f95ec4eed6514a450f8219644b"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212",
+                "https://www.televisionacademy.com/features/news/news/edward-stephenson-primetime-emmy-winning-production-designer-passes"
+              ]
+            },
+            {
+              "years": [
+                1973
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "variety-special-pre-recorded",
+              "reason": "Singer Presents Liza with a \"Z\" wins the original 1973 Single Program-Variety And Popular Music field. The Academy restoration account identifies the original NBC broadcast in 1972 and its 16mm film, distinguishing the 2006 Showtime restoration and DVD. Allocate the original filmed performance to Prerecorded Variety under the reviewed split; neither a concert performed live nor the later restoration changes its award year or produces a second winner.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1973/outstanding-variety-music-or-comedy-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Single Program-Variety And Popular Music"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1973,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1973/outstanding-variety-music-or-comedy-special",
+                  "sha256": "f3a81ef3341fab12b86f938d5149565377801cbb62e42a5d872a776c4f9abae2",
+                  "winnerSourceKeys": [
+                    "72cf2862ea153051621fe7eae428492cee253f63a00938bb28598b6136669e84"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212",
+                "https://www.televisionacademy.com/features/news/events/evening-liza-z"
+              ]
+            },
+            {
+              "years": [
+                2004
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "variety-special-pre-recorded",
+              "reason": "Elaine Stritch: At Liberty wins the original 2004 Variety, Music Or Comedy Special programme award. The Academy filmmaker biography identifies the exact 2004 production as a documentary made by D.A. Pennebaker and Chris Hegedus. Follow the prerecorded successor of its actual Variety award, retaining the complete original programme recipients. Documentary genre does not move this award into the separate Documentary/Nonfiction Special history, and a directing nomination is context only.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/2004/outstanding-variety-music-or-comedy-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Variety, Music Or Comedy Special"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 2004,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2004/outstanding-variety-music-or-comedy-special",
+                  "sha256": "45d4e9c37bf228063a74fae2eb78923eab62dd030d88a68cca3d6fe2ce4b1d5c",
+                  "winnerSourceKeys": [
+                    "66dc09751fc0c75845c13d265ef1cd90ebc842c9790c62cfaebf989d59555538"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212",
+                "https://www.televisionacademy.com/bios/da-pennebaker"
+              ]
+            },
+            {
+              "years": [
+                2007
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "variety-special-pre-recorded",
+              "reason": "Tony Bennett: An American Classic wins the original 2007 Variety, Music Or Comedy Special programme award. The Academy production account describes separately shot live vocal segments, damaged film processed at the lab and subsequent editing of the special already broadcast by NBC. Allocate the assembled filmed special to Prerecorded Variety; live singing without lip-synching is not a live telecast. Keep the programme award separate from the actual directing and individual-performance results.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/2007/outstanding-variety-music-or-comedy-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Variety, Music Or Comedy Special"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 2007,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2007/outstanding-variety-music-or-comedy-special",
+                  "sha256": "d15668c51f47699f05e3577f2ec9ef04a98467208f9c6e31412383f8d2b5be0d",
+                  "winnerSourceKeys": [
+                    "7c5761f2c7d9346bcbed079d37781ff93d55d8f0e9b4b833f083ca60b34dada2"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212",
+                "https://www.televisionacademy.com/news/events/story-groundbreaking-tony-bennett-special-premieres"
+              ]
+            },
+            {
+              "years": [
+                2008
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "variety-special-pre-recorded",
+              "reason": "Mr. Warmth: The Don Rickles Project wins the original 2008 Variety, Music Or Comedy Special programme award. The Academy producer obituary describes the exact 2007 HBO documentary as a John Landis film and names its Variety Special achievement. Allocate this filmed work to Prerecorded Variety under the reviewed split, not Documentary/Nonfiction merely from its genre. Preserve the award page's 2008 ceremony year separately from the obituary's 2007 production year and do not import the separate individual-performance win.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/2008/outstanding-variety-music-or-comedy-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Variety, Music Or Comedy Special"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 2008,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2008/outstanding-variety-music-or-comedy-special",
+                  "sha256": "aeabed0aac96cfeb0bff341d11e223c5f0e493d6b3b770c06cf42e329cca5d05",
+                  "winnerSourceKeys": [
+                    "7d50e3c56531156deb21b3347fe1e3136532e6be46f3c79a6f7ce761948f1723"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212",
+                "https://www.televisionacademy.com/features/news/news/larry-rickles-primetime-emmy-winning-producer-and-son-comedy-icon-don-rickles"
+              ]
             }
           ],
           "externalEvidence": [
-            "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212"
+            "https://www.televisionacademy.com/bios/da-pennebaker",
+            "https://www.televisionacademy.com/features/news/events/evening-liza-z",
+            "https://www.televisionacademy.com/features/news/news/edward-stephenson-primetime-emmy-winning-production-designer-passes",
+            "https://www.televisionacademy.com/features/news/news/larry-rickles-primetime-emmy-winning-producer-and-son-comedy-icon-don-rickles",
+            "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212",
+            "https://www.televisionacademy.com/news/events/story-groundbreaking-tony-bennett-special-premieres"
           ]
         },
         {
@@ -30748,6 +30983,86 @@
       "byteCount": 325858,
       "context": "And for nearly 13 years, he narrated the highly acclaimed series The Twentieth Century , the Sunday evening documentary program that profiled major personalities who influenced modern world history.\nTelecast from October 1957 to January 1970, that news series premiered with a special hour-long program paying tribute to Sir Winston Churchill.",
       "contextSha256": "3e11a6e021ca0d825e372b4f7ad2a9e33365e825b629a86f553474dccee4fee8"
+    },
+    {
+      "url": "https://www.televisionacademy.com/features/news/news/edward-stephenson-primetime-emmy-winning-production-designer-passes",
+      "resolvedUrl": "https://www.televisionacademy.com/features/news/news/edward-stephenson-primetime-emmy-winning-production-designer-passes",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "6fca04e2c87c017c8c40ea9e04a1808a343dbecebeb8ba94d7d11dad2d3d40bb",
+      "byteCount": 292069,
+      "context": "Stephenson was awarded the first of his three Primetime Emmys for designing the landmark special An Evening with Fred Astaire (1958), one of the first television productions to be shot and broadcast using color videotape.",
+      "contextSha256": "9196e8f9932041bc7109e6e13bdce8c46476556da153290e634258114a1769d4"
+    },
+    {
+      "url": "https://www.televisionacademy.com/features/news/events/evening-liza-z",
+      "resolvedUrl": "https://www.televisionacademy.com/features/news/events/evening-liza-z",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "4284f50a55c58f4d211e3b711d16ca845e97cd0e24aaa39fc29b55b9e4fea421",
+      "byteCount": 288551,
+      "context": "Liza Minnelli's 1972 tour-de-force special Liza with a 'Z' which first aired in 1972 on NBC, has been restored and remastered for an April 2006 premiere on Showtime and a release on DVD.\nFosse had been disappointed in the original, Minnelli noted, shot as it was in 16mm.",
+      "contextSha256": "eb8a0d9f181dc41ea10c829e443e0e99916df2bbb0b080fa346b64461dbb49bc"
+    },
+    {
+      "url": "https://www.televisionacademy.com/bios/da-pennebaker",
+      "resolvedUrl": "https://www.televisionacademy.com/bios/da-pennebaker",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "f5cb9a8da698e9fddd89b42264c706499635ec530761b406e3ba96a8aabd1660",
+      "byteCount": 307918,
+      "context": "D.A. Pennebaker was an American filmmaker.\nHe and Hegedus shared an Emmy nomination for Outstanding Directing for a Variety, Music or Comedy Program for the documentary Elaine Stritch at Liberty in 2004.",
+      "contextSha256": "eccff5896b3cf189cacbd21da6b7ab7f91036d6813323006662ecf65005804b8"
+    },
+    {
+      "url": "https://www.televisionacademy.com/news/events/story-groundbreaking-tony-bennett-special-premieres",
+      "resolvedUrl": "https://www.televisionacademy.com/features/news/events/story-groundbreaking-tony-bennett-special-premieres",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "609b583838455256e365aa8b4d8d5b7a0edeaabbea01569055df5d4105c1be87",
+      "byteCount": 292566,
+      "context": "Marshall, who also executive produced, reunited with his colleagues from the show May 22 for a screening of Tony Bennett: An American Classic , which had aired in November on NBC.\nThe artists all shot their segments live, rather than with the customary lip-synching.\ndealing with a potential disaster when the lab ruined some black and white footage; fortunately, the effect of the damaged film added to the scene.\nIn editing, Smith said, “It was important that no camera movement overtook the lyric of a song.”",
+      "contextSha256": "b5bf18f728376dbf34a139c359d03522b797b4882a08be71a76b564d6660fa98"
+    },
+    {
+      "url": "https://www.televisionacademy.com/features/news/news/larry-rickles-primetime-emmy-winning-producer-and-son-comedy-icon-don-rickles",
+      "resolvedUrl": "https://www.televisionacademy.com/features/news/news/larry-rickles-primetime-emmy-winning-producer-and-son-comedy-icon-don-rickles",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "4370f51bdcff1ef728ef1f27a102ff5b55b876b5b7ad546ad30149de88ef834f",
+      "byteCount": 286831,
+      "context": "Larry Rickles earned his Primetime Emmy as a producer of the 2007 HBO documentary Mr. Warmth: The Don Rickles Project , which was named the outstanding variety, music or comedy special of the year.\nDirected by John Landis, the film also garnered an Emmy for Don Rickles in the category of outstanding individual performance in a variety or music program.",
+      "contextSha256": "2486cad6ee55257f711ca0ab8a4fe1382d7f34c8883990b26944183f7d7e87d1"
+    },
+    {
+      "url": "https://www.televisionacademy.com/features/emmy-magazine/me-and-my-emmy/me-and-my-emmy-glenn-weiss",
+      "resolvedUrl": "https://www.televisionacademy.com/features/emmy-magazine/me-and-my-emmy/me-and-my-emmy-glenn-weiss",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "36ccf433eb690897cc6a0e79b9ba1c9a0bae485788bc0cd8523dcc3a56113ca5",
+      "byteCount": 317642,
+      "context": "How He Got the Gold : All were for his work on the Tony Awards , six for producing and two for directing, including one in each category in 2012.\nLive Wired : \"The most diﬃcult part of directing a live broadcast is reacting to the unexpected.\nI was nominated for directing the Tonys , and Don was nominated for directing the Oscars .\nThis article originally appeared in emmy magazine, issue No. 2, 2013",
+      "contextSha256": "691574f93c00916fb2e3b03a34f4fcf97dce9e153792c7b11379ae5248ee514c"
+    },
+    {
+      "url": "https://interviews.televisionacademy.com/interviews/julia-child",
+      "resolvedUrl": "https://interviews.televisionacademy.com/interviews/julia-child",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "905f6ae2f5ede39f0379ce5469190299c1852ab3d26b7e6ad86ee7014afcede1",
+      "byteCount": 70226,
+      "context": "Julia Child on the origins of her popular cooking show, The French Chef\nJulia Child on the format of her cooking show , The French Chef\nChild discusses her preparations for the show, what she hoped to accomplish with it, and how she viewed herself as a teacher.\nShe recalls subsequent PBS series including Baking with Julia and Dinner at Julia's",
+      "contextSha256": "5f77c989d5937df66a68520db7f90e6ae3e8b3903894b665419d69e437944eb3"
+    },
+    {
+      "url": "https://interviews.televisionacademy.com/interviews/david-brinkley",
+      "resolvedUrl": "https://interviews.televisionacademy.com/interviews/david-brinkley",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "9074b465102b9701b591e6a894c9233e42451b0ca1ae0320eff49bda8e7149d4",
+      "byteCount": 107012,
+      "context": "Brinkley describes his landmark documentary series David Brinkley's Journal , which pioneered the newsmagazine format, and his later series NBC Magazine with David Brinkley .\nDavid Brinkley on anchoring David Brinkley's Journal\nHe speaks of his transition to ABC and his groundbreaking work on This Week With David Brinkley (1981-96).",
+      "contextSha256": "3bc3ddfc7b244ef580d699c4e507d46472567add0fe3b32346196ced08c454c1"
     }
   ],
   "annualExceptions": [

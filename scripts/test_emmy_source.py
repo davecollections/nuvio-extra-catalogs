@@ -455,6 +455,91 @@ class EmmyLineageReviewTests(unittest.TestCase):
         self.assertIn("was broadcast live from Warner Bros. Studios", context)
         self.assertIn(url, review_for_year(decision, 2016)["externalEvidence"])
 
+    def test_filmed_documentaries_keep_their_original_variety_award(self):
+        decision = self.decisions["outstanding-variety-music-or-comedy-special"]
+        pages = load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+        for year, title, recipients in ((2004, "Elaine Stritch: At Liberty", 8),
+                                         (2008, "Mr. Warmth: The Don Rickles Project", 4)):
+            with self.subTest(year=year):
+                page = next(p for p in pages if p["sourceUrl"].endswith(f"/{year}/" + decision["sourceSlug"]))
+                winner = page["winners"][0]
+                self.assertEqual(winner["heading"], title)
+                self.assertEqual(len(winner["credits"]), recipients)
+                self.assertEqual(category_for_winner(decision, year, winner["sourceKey"]),
+                                 "variety-special-pre-recorded")
+                self.assertIn("Variety", page["sourceCategory"])
+                self.assertNotIn("documentary-or-nonfiction-special",
+                                 [category_for_winner(decision, year, w["sourceKey"]) for w in page["winners"]])
+
+    def test_live_singing_does_not_turn_an_edited_film_into_a_live_telecast(self):
+        decision = self.decisions["outstanding-variety-music-or-comedy-special"]
+        self.assertEqual(category_for_year(decision, 2007), "variety-special-pre-recorded")
+        context = next(s for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]
+                       if s["url"].endswith("/story-groundbreaking-tony-bennett-special-premieres"))
+        self.assertIn("shot their segments live", context["context"])
+        self.assertIn("damaged film", context["context"])
+        self.assertIn("In editing", context["context"])
+        self.assertEqual(context["resolvedUrl"],
+                         "https://www.televisionacademy.com/features/news/events/story-groundbreaking-tony-bennett-special-premieres")
+        # The next annual winner is an Olympic telecast, whose actual broadcast
+        # must be reviewed rather than inheriting its venue's live performance.
+        self.assertIsNone(category_for_year(decision, 2006))
+
+    def test_original_recorded_specials_preserve_years_and_credit_gaps(self):
+        decision = self.decisions["outstanding-variety-music-or-comedy-special"]
+        pages = load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+        for year in (1959, 1973):
+            self.assertEqual(category_for_year(decision, year), "variety-special-pre-recorded")
+        page = next(p for p in pages if p["sourceUrl"].endswith("/1959/" + decision["sourceSlug"]))
+        self.assertEqual(page["winners"][0]["credits"][0]["name"], "n/a")
+        self.assertNotIn("Edward Stephenson", [c["name"] for c in page["winners"][0]["credits"]])
+        context = next(s["context"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]
+                       if s["url"].endswith("/evening-liza-z"))
+        self.assertIn("first aired in 1972 on NBC", context)
+        self.assertIn("April 2006 premiere on Showtime", context)
+        self.assertIn("shot as it was in 16mm", context)
+        self.assertNotIn(2006, review_for_year(decision, 1973)["years"])
+
+    def test_tony_profile_does_not_shift_the_award_to_its_publication_year(self):
+        decision = self.decisions["outstanding-special-class-programs"]
+        self.assertEqual(category_for_year(decision, 2012), "variety-special-live")
+        self.assertIsNone(category_for_year(decision, 2013))
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith("/2012/" + decision["sourceSlug"]))
+        self.assertEqual(page["winners"][0]["heading"], "65th Annual Tony Awards")
+        self.assertEqual(len(page["winners"][0]["credits"]), 3)
+        self.assertEqual([c["role"] for c in page["winners"][0]["credits"]], ["", "", ""])
+        self.assertIn("https://www.televisionacademy.com/features/emmy-magazine/me-and-my-emmy/me-and-my-emmy-glenn-weiss",
+                      review_for_year(decision, 2012)["externalEvidence"])
+
+    def test_educational_predecessors_require_the_actual_hosted_format(self):
+        decision = self.decisions["achievements-in-educational-television"]
+        for year in (1962, 1966):
+            self.assertEqual(category_for_year(decision, year), "hosted-nonfiction-series-or-special")
+        # The earlier local educational winner cannot inherit a later programme's
+        # hosted format merely from the Educational Television category slug.
+        self.assertIsNone(category_for_year(decision, 1951))
+        contexts = {s["url"]: s["context"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]}
+        self.assertIn("anchoring David Brinkley's Journal",
+                      contexts["https://interviews.televisionacademy.com/interviews/david-brinkley"])
+        self.assertIn("format of her cooking show",
+                      contexts["https://interviews.televisionacademy.com/interviews/julia-child"])
+        for year in (1962, 1966):
+            self.assertIn("https://www.televisionacademy.com/features/news/awards-news/emmy-rules-changes-191217",
+                          review_for_year(decision, year)["externalEvidence"])
+
+    def test_host_format_context_does_not_rewrite_educational_award_credits(self):
+        pages = load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+        slug = "achievements-in-educational-television"
+        child = next(p for p in pages if p["sourceUrl"].endswith("/1966/" + slug))["winners"][0]
+        self.assertEqual(child["heading"], "The French Chef")
+        self.assertEqual(child["sourceDetailLines"], ["NET"])
+        self.assertEqual([(c["name"], c["role"]) for c in child["credits"]], [("Julia Child", "")])
+        brinkley = next(p for p in pages if p["sourceUrl"].endswith("/1962/" + slug))["winners"][0]
+        self.assertEqual(brinkley["heading"], "David Brinkley's Journal")
+        self.assertEqual(brinkley["sourceDetailLines"], ["NBC"])
+        self.assertEqual([(c["name"], c["role"]) for c in brinkley["credits"]], [("n/a", "")])
+
     def test_period_context_reference_requires_pinned_evidence(self):
         decision = self.decisions["outstanding-miniseries-or-movie"]
         review = deepcopy(review_for_year(decision, 2012))
