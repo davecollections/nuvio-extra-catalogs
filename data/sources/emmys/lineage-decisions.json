@@ -678,7 +678,118 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1959/best-audience-participation-quiz-or-panel-program"
           ],
           "disposition": "pending-review",
-          "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
+          "periods": [
+            {
+              "years": [
+                1955,
+                1954
+              ],
+              "disposition": "pending-review",
+              "reason": "The 1954 page ties the game show What's My Line? with This Is Your Life, and the 1955 page awards This Is Your Life alone. The latter's biographical audience-participation format still needs a defensible selected successor or explicit scope exclusion. Keep both pages pending until every actual winner is allocated; do not silently drop the tied programme or turn every audience-participation production into a competitive game show.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1955/best-audience-participation-quiz-or-panel-program",
+                "https://www.televisionacademy.com/awards/nominees-winners/1954/best-audience-participation-quiz-or-panel-program"
+              ]
+            },
+            {
+              "years": [
+                1959,
+                1953
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "game-show",
+              "reason": "The original CBS What's My Line? wins the Panel/Quiz/Audience Participation programme field. The Academy's Goodson tribute explicitly describes the original 1950 CBS quiz format, with the panel solving a contestant's identity. Retain the historical Television Academy game-programme predecessor and its actual years without importing a syndicated revival or the separate NATAS/Daytime competition.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1959/best-audience-participation-quiz-or-panel-program",
+                "https://www.televisionacademy.com/awards/nominees-winners/1953/best-audience-participation-quiz-or-panel-program"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Audience Participation, Quiz Or Panel Program",
+                "Best Panel, Quiz, Or Audience Participation Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1959,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1959/best-audience-participation-quiz-or-panel-program",
+                  "sha256": "ba4faa56c2c604128cf52c5acc1a7fe17a427ad26963b32c0ddad3c02dd4b03a",
+                  "winnerSourceKeys": [
+                    "fe01fc2910b2551ac1007078238b5ce72c96885675332f1beb35d57f1cef0f22"
+                  ]
+                },
+                {
+                  "year": 1953,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1953/best-audience-participation-quiz-or-panel-program",
+                  "sha256": "e653192ddcb54b2689a7ef763664e585ab447d172c9bf654964a3e7e6a3eeace",
+                  "winnerSourceKeys": [
+                    "d99accf64eb3c750038d595abc3a8e670d661b54c509f787c25642417855ee00"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/news/hall-fame/mark-goodson-hall-fame-tribute"
+              ]
+            },
+            {
+              "years": [
+                1956
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "game-show",
+              "reason": "The original CBS The $64,000 Question wins the explicitly Quiz/Panel Audience Participation Series field. The Academy's Joyce Brothers obituary describes the actual 1955 TV game-show contestant and boxing-question format. Retain this programme predecessor under Game Show; the contestant's victory is format evidence, not an additional Emmy result.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1956/best-audience-participation-quiz-or-panel-program"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Audience Participation Series (Quiz, Panel, Etc.)"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1956,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1956/best-audience-participation-quiz-or-panel-program",
+                  "sha256": "8e8734a7857ec9506fbac641340e51c92eebb11c85c6861162ff3363b99576bd",
+                  "winnerSourceKeys": [
+                    "86e0b8dd188f03479435f24f8471704266cca7d33cd6a5b795396dff1d5ca5d7"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/news/dr-joyce-brothers-popular-psychologist-decades-television-appearances"
+              ]
+            },
+            {
+              "years": [
+                1951
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "game-show",
+              "reason": "Truth or Consequences wins the explicit Games And Audience Participation Show field. The Academy obituary describes Ralph Edwards's quizzes-and-stunts format and its return to television in 1950. Preserve the original 1951 KTTV/CBS source evidence; later Bob Barker hosting, syndication and Daytime recognition do not supply another winner or a host-award allocation.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1951/best-audience-participation-quiz-or-panel-program"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Games And Audience Participation Show"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1951,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1951/best-audience-participation-quiz-or-panel-program",
+                  "sha256": "0bc88c73ac9e4312e8a65c555df9cb26eef4f67da4f0a273f468abe2774aa61e",
+                  "winnerSourceKeys": [
+                    "bf2b2b578d8b7f8d3e291d9f63aabafbd960e1a24ad313b36b3f496da94c3af2"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/ralph-edwards-1913-2005"
+              ]
+            }
+          ],
+          "externalEvidence": [
+            "https://www.televisionacademy.com/features/news/news/dr-joyce-brothers-popular-psychologist-decades-television-appearances",
+            "https://www.televisionacademy.com/features/news/ralph-edwards-1913-2005",
+            "https://www.televisionacademy.com/news/hall-fame/mark-goodson-hall-fame-tribute"
+          ]
         },
         {
           "sourceSlug": "best-cinematography-for-television",
@@ -1202,8 +1313,50 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1953/best-mystery-action-or-adventure-program",
             "https://www.televisionacademy.com/awards/nominees-winners/1954/best-mystery-action-or-adventure-program"
           ],
-          "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+          "disposition": "current-lineage",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Every acquired period is reviewed; the archive slug does not establish a separate modern award or override the actual source heading.",
+          "periods": [
+            {
+              "years": [
+                1954,
+                1953
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "drama-series",
+              "reason": "The original NBC Dragnet wins the separately headed Mystery/Action/Adventure or Mystery/Intrigue programme field. The Academy biography explicitly identifies its police-drama format, Ben Alexander era ending in 1959 and distinct 1967–1970 incarnation. Retain these original scripted-series predecessors in Drama Series without substituting the later revival or treating their realism as documentary eligibility.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1954/best-mystery-action-or-adventure-program",
+                "https://www.televisionacademy.com/awards/nominees-winners/1953/best-mystery-action-or-adventure-program"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Mystery, Action Or Adventure Program"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1954,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1954/best-mystery-action-or-adventure-program",
+                  "sha256": "ef6c0fefe698ac8c91906006d28db267a7ee3e7cc123e314b133aeb893b19a17",
+                  "winnerSourceKeys": [
+                    "3dc4e68295cce28ba91c26c889c5fd644b973ac784b68bf9af4585844c5ac97e"
+                  ]
+                },
+                {
+                  "year": 1953,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1953/best-mystery-action-or-adventure-program",
+                  "sha256": "2a88d30745616c80fe9263cebaf0b6b2736179e592d58364df9f216f1bfc07ac",
+                  "winnerSourceKeys": [
+                    "f61302ae14fc8a6e7b4011b078e7f2ff123442394a345a6faee0f7f41744d206"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/bios/herb-ellis"
+              ]
+            }
+          ],
+          "externalEvidence": [
+            "https://www.televisionacademy.com/bios/herb-ellis"
+          ]
         },
         {
           "sourceSlug": "best-mystery-or-intrigue-series",
@@ -1216,8 +1369,40 @@
           "evidence": [
             "https://www.televisionacademy.com/awards/nominees-winners/1955/best-mystery-or-intrigue-series"
           ],
-          "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+          "disposition": "current-lineage",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Every acquired period is reviewed; the archive slug does not establish a separate modern award or override the actual source heading.",
+          "periods": [
+            {
+              "years": [
+                1955
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "drama-series",
+              "reason": "The original NBC Dragnet wins the separately headed Mystery/Action/Adventure or Mystery/Intrigue programme field. The Academy biography explicitly identifies its police-drama format, Ben Alexander era ending in 1959 and distinct 1967–1970 incarnation. Retain these original scripted-series predecessors in Drama Series without substituting the later revival or treating their realism as documentary eligibility.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1955/best-mystery-or-intrigue-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Mystery Or Intrigue Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1955,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1955/best-mystery-or-intrigue-series",
+                  "sha256": "8de869426a562ede475abba9ca24648fce2b2154f5986fbf23aaccd8d4e8354f",
+                  "winnerSourceKeys": [
+                    "79d53980bec71d40860844a2081b3ba31c3723d3ce94f2dfb524417634c401d4"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/bios/herb-ellis"
+              ]
+            }
+          ],
+          "externalEvidence": [
+            "https://www.televisionacademy.com/bios/herb-ellis"
+          ]
         },
         {
           "sourceSlug": "best-new-program",
@@ -1834,8 +2019,40 @@
           "evidence": [
             "https://www.televisionacademy.com/awards/nominees-winners/1959/best-western-series"
           ],
-          "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+          "disposition": "current-lineage",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Every acquired period is reviewed; the archive slug does not establish a separate modern award or override the actual source heading.",
+          "periods": [
+            {
+              "years": [
+                1959
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "drama-series",
+              "reason": "Maverick won the 1959 Best Western Series programme award. Its original production is entered as a nominee in the immediately preceding Best Dramatic Series With Continuing Characters field. Preserve this separately headed Western programme branch in Drama Series; comic elements do not justify overriding the Academy's original dramatic classification or generating an additional Comedy win.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1959/best-western-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Western Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1959,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1959/best-western-series",
+                  "sha256": "8bfe82c827cfb558baa0117f65fc132e02a2b76d683e9c170ac5300eb0aa2cab",
+                  "winnerSourceKeys": [
+                    "fbeaa4eeb2ca57ca2edba13f2a1e929cfa8e611e83ada85607c3cb7f5db1c652"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1958/outstanding-drama-series"
+              ]
+            }
+          ],
+          "externalEvidence": [
+            "https://www.televisionacademy.com/awards/nominees-winners/1958/outstanding-drama-series"
+          ]
         },
         {
           "sourceSlug": "best-writing-of-a-single-program-of-a-dramatic-series-less-than-one-hour",
@@ -4104,8 +4321,40 @@
           "evidence": [
             "https://www.televisionacademy.com/awards/nominees-winners/1956/outstanding-classical-music-dance-program"
           ],
-          "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+          "disposition": "current-lineage",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Every acquired period is reviewed; the archive slug does not establish a separate modern award or override the actual source heading.",
+          "periods": [
+            {
+              "years": [
+                1956
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "variety-series",
+              "reason": "The page's actual 1956 heading is Best Music Series and its winner is Your Hit Parade. The original programme appears in the 1955 Best Variety Series Including Musical Varieties field. Retain the musical series predecessor under Variety Series; the migrated classical-music/dance URL must not turn this source into a specialist classical award or a one-off special.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1956/outstanding-classical-music-dance-program"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Music Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1956,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1956/outstanding-classical-music-dance-program",
+                  "sha256": "9cf0e248458718cf264a51536584cd6d136684b38d34e483e9eba7071d10d3d0",
+                  "winnerSourceKeys": [
+                    "f1a028f75835f99921877334cc623e73e79110a9fdfce2220c82555cb4161385"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1955/outstanding-variety-music-or-comedy-series"
+              ]
+            }
+          ],
+          "externalEvidence": [
+            "https://www.televisionacademy.com/awards/nominees-winners/1955/outstanding-variety-music-or-comedy-series"
+          ]
         },
         {
           "sourceSlug": "outstanding-comedy-seri",
@@ -19011,7 +19260,7 @@
             "https://www.televisionacademy.com/awards/nominees-winners/2013/outstanding-reality-program"
           ],
           "disposition": "pending-review",
-          "reason": "Use the explicit reviewed production/recipient allocations, preserving the original award wording and facts. Remaining periods are withheld; do not infer a blanket successor from single-appearance wording or a later programme version.",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
           "periods": [
             {
               "years": [
@@ -19126,18 +19375,6 @@
             },
             {
               "years": [
-                2010,
-                2001
-              ],
-              "disposition": "pending-review",
-              "reason": "American High (2001) still needs pinned evidence of the original observational school-year production. Jamie Oliver's Food Revolution (2010) needs sufficiently specific template/observational-format evidence; its Academy Honors entry is a separate recognition and must not become an extra Emmy winner.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/2010/outstanding-reality-program",
-                "https://www.televisionacademy.com/awards/nominees-winners/2001/outstanding-reality-program"
-              ]
-            },
-            {
-              "years": [
                 2006,
                 2005
               ],
@@ -19227,11 +19464,49 @@
                 "https://www.televisionacademy.com/bios/ozzy-osbourne",
                 "https://www.televisionacademy.com/features/online-originals/kathy-griffin-my-life-on-the-d-list"
               ]
+            },
+            {
+              "years": [
+                2010
+              ],
+              "disposition": "pending-review",
+              "reason": "Jamie Oliver's Food Revolution (2010) still needs production-specific template/observational-format evidence. Its separate Academy Honors recognition is format context only and cannot become an extra Emmy winner.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/2010/outstanding-reality-program"
+              ]
+            },
+            {
+              "years": [
+                2001
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "unstructured-reality-program",
+              "reason": "American High is the original observational documentary series following fourteen Illinois high-school students for one year, as the Academy producer biography explicitly describes. Follow Unstructured Reality under the reviewed split. Preserve the award page's original 2001 FOX network evidence and 2002 PBS nomination separately; the retrospective's PBS description is not a new winner or permission to rewrite the original winning broadcast.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/2001/outstanding-reality-program"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Non-Fiction Program (Reality) (Area Award: Possibility Of One, More Than One Or No Award"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 2001,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2001/outstanding-reality-program",
+                  "sha256": "9858610ddc12e367eaf9ed6d61b329d5125d057cfbf821e7c646f922bfba72aa",
+                  "winnerSourceKeys": [
+                    "525d56a49781fd72df7411308bfc5b8418d3907d89ae2f2241cd7a10a0965dcd"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/bios/brian-medavoy"
+              ]
             }
           ],
           "externalEvidence": [
             "https://www.televisionacademy.com/awards/nominees-winners/2014/outstanding-structured-reality-program",
             "https://www.televisionacademy.com/awards/nominees-winners/2015/outstanding-unstructured-reality-program",
+            "https://www.televisionacademy.com/bios/brian-medavoy",
             "https://www.televisionacademy.com/bios/ozzy-osbourne",
             "https://www.televisionacademy.com/features/news/mix/home-again",
             "https://www.televisionacademy.com/features/news/mix/persistence-pays-scout-productions",
@@ -19740,22 +20015,8 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-series"
           ],
           "disposition": "pending-review",
-          "reason": "Use the explicit reviewed production/recipient allocations, preserving the original award wording and facts. Remaining periods are withheld; do not infer a blanket successor from single-appearance wording or a later programme version.",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
           "periods": [
-            {
-              "years": [
-                1978,
-                1976,
-                1975
-              ],
-              "disposition": "pending-review",
-              "reason": "Columbo (1975), Upstairs, Downstairs (1976) and How the West Was Won (1978) still require specific winning-season and single-performance/guest predecessor review; do not apply the Roots allocation to those different production formats.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-series"
-              ]
-            },
             {
               "years": [
                 1977
@@ -19782,9 +20043,79 @@
               "externalEvidence": [
                 "https://www.televisionacademy.com/features/news/online-originals/he-had-spunk-tribute-ed-asner"
               ]
+            },
+            {
+              "years": [
+                1978
+              ],
+              "disposition": "pending-review",
+              "reason": "Ricardo Montalban's 1978 How the West Was Won performance remains withheld. Academy biographies call the winning production a miniseries, while its 1978 lead-actress nomination belongs to Drama Series and the show's throwback specifies Part II. Review the actual winning multipart production and original eligibility before choosing a limited/movie or ongoing-series successor; the whole-show label does not settle this boundary.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-series"
+              ]
+            },
+            {
+              "years": [
+                1975
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "supporting-actor-in-a-limited-or-anthology-series-or-movie",
+              "reason": "Patrick McGoohan won the explicitly Supporting Actor single-performance field for Columbo NBC Sunday Mystery Movie. The original 1975 programme is a Limited Series nominee, while the 1976 programme is a Drama Series nominee. Use the winning year's formal programme eligibility and retain the historical supporting award; a later guest-role description or another season cannot reclassify this result.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Single Performance By A Supporting Actor In A Comedy Or Drama Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1975,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-series",
+                  "sha256": "2e24fd226b8b6ba7c72447e73d9751cdfbff299001aaac36e6eec2f59716fd42",
+                  "winnerSourceKeys": [
+                    "78f9a5bb58d683c680c6ad2c4a0ea148de4d17c381b5f9d20727271635b13830"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-miniseries",
+                "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-drama-series"
+              ]
+            },
+            {
+              "years": [
+                1976
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "supporting-actor-in-a-limited-or-anthology-series-or-movie",
+              "reason": "Gordon Jackson won the explicitly Supporting Actor single-performance field for Upstairs, Downstairs Masterpiece Theatre. That exact production won Limited Series in 1976 after winning Drama Series in 1975. Preserve its winning year's formal eligibility in the combined limited/movie supporting history; do not apply the prior year's Drama award or treat a continuing cast member as a Guest award.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Single Performance By A Supporting Actor In Comedy Or Drama Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1976,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-series",
+                  "sha256": "5900612e22e0674b402aabd7b116aaec22c174cba351a60880ef57360dd6e3cc",
+                  "winnerSourceKeys": [
+                    "fda7412fe5c2a94db4ab8173bde5dbec1682c7342ad2bb1b3e0fe340cdada84c"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-miniseries",
+                "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-drama-series"
+              ]
             }
           ],
           "externalEvidence": [
+            "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-drama-series",
+            "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-miniseries",
+            "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-drama-series",
+            "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-miniseries",
             "https://www.televisionacademy.com/features/news/online-originals/he-had-spunk-tribute-ed-asner"
           ]
         },
@@ -29484,8 +29815,8 @@
       "sha256": "a467e765f903b70bb0297d2c2f2b3f2078c9f01009dd0779a959e6cae0226e00",
       "byteCount": 386139,
       "year": 1976,
-      "context": "Outstanding Limited Series\nNominee Rich Man, Poor Man ABC Harve Bennett Jon Epstein\nNominee The Adams Chronicles PBS Paul Bogart Fred Coe Robert Costello James Cellan Jones Virginia Kassel Jac Venza",
-      "contextSha256": "da3dc504cfcaec07a6e36cb1a5e60cb89aa5000037f90c0144fdbf8354491bb8"
+      "context": "Outstanding Limited Series\nNominee Rich Man, Poor Man ABC Harve Bennett Jon Epstein\nNominee The Adams Chronicles PBS Paul Bogart Fred Coe Robert Costello James Cellan Jones Virginia Kassel Jac Venza\nWinner Upstairs, Downstairs Masterpiece Theatre PBS Rex Firkin John Hawkesworth",
+      "contextSha256": "b140213adbb3e596128fa16be53b6c8687c58b2f73fc8115cc0b58af6aea4f29"
     },
     {
       "url": "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-miniseries",
@@ -29507,6 +29838,111 @@
       "byteCount": 332581,
       "context": "Winner Outstanding Directorial Achievement In Comedy, Variety Or Music - 1969 Greg Garrison The Dean Martin Show NBC",
       "contextSha256": "6fe2dddb5fd66d25f10fcb7db7a4f7c66f4e2f8f052740a0752aca14ca477ed7"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-miniseries",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-miniseries",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "e941030105d5fde7bb03f94e89ff047384b155d4eca5240a9a658e81e960a9a0",
+      "byteCount": 374997,
+      "year": 1975,
+      "context": "Outstanding Limited Series\nNominee Columbo NBC Sunday Mystery Movie NBC Everett Chambers Edward K. Dodds Dean Hargrove Roland Kibbee",
+      "contextSha256": "1f6b1a8974701089ba3e79c58d860586a39fe54da4d8ef925eb318900a32a229"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-drama-series",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-drama-series",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "6f67801d25f282a445731148cf2000d4cf0c336c673de595c0c1a48d451e227b",
+      "byteCount": 382271,
+      "year": 1975,
+      "context": "Outstanding Drama Series\nWinner Upstairs, Downstairs Masterpiece Theatre PBS Rex Firkin John Hawkesworth",
+      "contextSha256": "0000c00e1646c8c2f0ddcb3f06269bd7a32f0cb5731a3a8f58bb20dfa40313ee"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-drama-series",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-drama-series",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "184adcee6ea5a92c357fc69c7889124d2fcc39de4dbef1354a3d433dd322ded8",
+      "byteCount": 382674,
+      "year": 1976,
+      "context": "Outstanding Drama Series\nNominee Columbo NBC Sunday Mystery Movie NBC Everett Chambers",
+      "contextSha256": "1fc47bad04394bffc80505c632f7c567ec1cf00392ce5d648507091190be39b3"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1955/outstanding-variety-music-or-comedy-series",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1955/outstanding-variety-music-or-comedy-series",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "e2c8316f9ee584965701cecf620c8f5c2b4e8a5af52344b46e2de3352256afb0",
+      "byteCount": 367558,
+      "year": 1955,
+      "context": "Best Variety Series Including Musical Varieties\nNominee Your Hit Parade NBC n/a",
+      "contextSha256": "d5c4660ff8915c08fd541d5b5f6d684c4fcd09204caad9375cec4a889852b41e"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1958/outstanding-drama-series",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1958/outstanding-drama-series",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "c4995b556268e6b0c5f08258c14344e28b4a57a70981329b5f6c49d37a31b9b3",
+      "byteCount": 362766,
+      "year": 1958,
+      "context": "Best Dramatic Series With Continuing Characters\nNominee Maverick ABC n/a",
+      "contextSha256": "7e92ec3b688a93c303c71a4e32eadd59b14ddf6c20a35aef3fd322cd53b861ff"
+    },
+    {
+      "url": "https://www.televisionacademy.com/bios/brian-medavoy",
+      "resolvedUrl": "https://www.televisionacademy.com/bios/brian-medavoy",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "c4969bfe4812f9fb3972f6d93dab7013a76ddaa4f20127b8921c8d2d8ae3a241",
+      "byteCount": 319752,
+      "context": "One of those projects, the highly acclaimed PBS series American High , garnered Medavoy an Emmy award for Outstanding Non-Fiction Program (Reality).\nThe documentary series followed fourteen students from Highland Park High School in Illinois for one year.",
+      "contextSha256": "9e3fc8052ce5e19c3dbf1d84a3b2ebfa9ed83bf8bb338ec9ec63d4cf4e931d8f"
+    },
+    {
+      "url": "https://www.televisionacademy.com/bios/herb-ellis",
+      "resolvedUrl": "https://www.televisionacademy.com/bios/herb-ellis",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "d8b1c5a1f3e79b2a0faaf06d0662e601b86812d2bd5cb393c96497eb3488ce81",
+      "byteCount": 304533,
+      "context": "He collaborated with actor/producer/director Jack Webb on a pilot script called Joe Friday, Room Five, which was later used as the foundation for the iconic police drama, Dragnet.\nEllis appeared as Officer Frank Smith in the first eight episodes of the television version of Dragnet , a role which was taken over by Ben Alexander until the series ended in 1959.\nEllis also appeared in numerous episodes of the 1967-70 incarnation of Dragnet.",
+      "contextSha256": "9d6801865e7befba8d8bc60073d4be47994ae879017c3e767c148b07becf6b5b"
+    },
+    {
+      "url": "https://www.televisionacademy.com/news/hall-fame/mark-goodson-hall-fame-tribute",
+      "resolvedUrl": "https://www.televisionacademy.com/features/news/hall-fame/mark-goodson-hall-fame-tribute",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "b7cfd87299d60c81456c76c87c74ad2d6de9536aaacde581f61c1deead13aead",
+      "byteCount": 325178,
+      "context": "In 1950, Goodson turned the traditional radio quiz-show format on its ear with What’s My Line? , a CBS Sunday-night tradition for 17 years.\nThe panel was challenged to solve a human problem, rather than an academic one.",
+      "contextSha256": "6a118df15e4cceb09b4a6abe1e03f64c4e47984209b1c74f99f5d7b5a13c1dbe"
+    },
+    {
+      "url": "https://www.televisionacademy.com/features/news/ralph-edwards-1913-2005",
+      "resolvedUrl": "https://www.televisionacademy.com/features/news/ralph-edwards-1913-2005",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "996f16b63e3137adc35b8395a4f5d22bf47ea05d866d2592652cf56c533f6be1",
+      "byteCount": 288067,
+      "context": "His first major radio success came in 1940 with the popular game show Truth or Consequences , a lighthearted blend of quizzes and stunts.\nWhen the United States entered World War II, television temporarily stalled, and although Truth or Consequences proceeded on radio, it did not return to television until 1950.",
+      "contextSha256": "096352a54650610f54fa982ba71003af05abfa677477cf90dc9aeb3f0892cf33"
+    },
+    {
+      "url": "https://www.televisionacademy.com/features/news/news/dr-joyce-brothers-popular-psychologist-decades-television-appearances",
+      "resolvedUrl": "https://www.televisionacademy.com/features/news/news/dr-joyce-brothers-popular-psychologist-decades-television-appearances",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "dbc53affe9bbe372659555e3f953a13c0779a4568481d5960bc0d68e6a4557ef",
+      "byteCount": 287325,
+      "context": "She first garnered public recognition in 1955, when she won the TV game show The $64,000 Question , fueled by her remarkable knowledge of boxing.",
+      "contextSha256": "a0f71f5a088fab72eb6363e16e88a95f09592feadf843649d1060d34860e1955"
     }
   ],
   "annualExceptions": [

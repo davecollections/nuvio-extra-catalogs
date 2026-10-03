@@ -3,7 +3,7 @@
   "inputSha256": {
     "current-category-pages.json": "f813c92661d7c88ab1653ed9c3d634f8f41c0e0eb87ca0d017174765b98475c0",
     "annual-indices.json": "4bed2b1e02c4f46f3d0ce5b36afac36d58215048c0fea0830471390d8b8e9388",
-    "lineage-decisions.json": "4cab0b0f11cd4f5389c8670e83743b0d48566ed424f9b354cf74a987d4e9e1d7",
+    "lineage-decisions.json": "cd6dd2f72ac14f0830a0f574a53283ce28d943acc197e85d7eac3e766720d756",
     "official-winners-1949-2026.json": "7b6739deab3dbb308b2d1c39ce2ac27b91277a9f8b92e6736191501670b75204",
     "winner-release-evidence-2026.json": "22f013193d628473431db094328240d17b0ad5ade937e9aa5314d68b5bb64fe6",
     "manifest.json": "226970d09fe0ab38b33075106abb893a21e6d27615f17cf9dfb15e1c2015e3b7"
@@ -16,12 +16,12 @@
     "annualCategoryLinkCount": 5437,
     "historicalPageSlugCount": 500,
     "scopeExcludedSlugCount": 350,
-    "pendingLineageSlugCount": 48,
-    "reviewedLineageSlugCount": 102,
+    "pendingLineageSlugCount": 44,
+    "reviewedLineageSlugCount": 106,
     "retainedScopeExcludedPageCount": 9,
     "retainedScopeExcludedWinnerRecordCount": 10,
-    "reviewedAllocationPageCount": 2234,
-    "reviewedWinnerAllocationCount": 2281,
+    "reviewedAllocationPageCount": 2246,
+    "reviewedWinnerAllocationCount": 2293,
     "acquiredCandidatePageCount": 2480,
     "candidateWinnerRecordCount": 2587,
     "independentlyReconciledNoAwardPageCount": 1,
@@ -862,13 +862,17 @@
       "id": "game-show",
       "name": "OUTSTANDING GAME SHOW",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 4,
-      "reviewedWinnerAllocationCount": 4,
+      "reviewedSourcePageCount": 8,
+      "reviewedWinnerAllocationCount": 8,
       "reviewedSourceYears": [
         2026,
         2025,
         2024,
-        2023
+        2023,
+        1959,
+        1956,
+        1953,
+        1951
       ],
       "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
@@ -998,8 +1002,8 @@
       "id": "unstructured-reality-program",
       "name": "OUTSTANDING UNSTRUCTURED REALITY PROGRAM",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 18,
-      "reviewedWinnerAllocationCount": 18,
+      "reviewedSourcePageCount": 19,
+      "reviewedWinnerAllocationCount": 19,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -1018,7 +1022,8 @@
         2009,
         2008,
         2007,
-        2002
+        2002,
+        2001
       ],
       "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
@@ -1643,8 +1648,8 @@
       "id": "supporting-actor-in-a-limited-or-anthology-series-or-movie",
       "name": "OUTSTANDING SUPPORTING ACTOR IN A LIMITED OR ANTHOLOGY SERIES OR MOVIE",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 53,
-      "reviewedWinnerAllocationCount": 53,
+      "reviewedSourcePageCount": 55,
+      "reviewedWinnerAllocationCount": 55,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -2076,8 +2081,8 @@
       "id": "drama-series",
       "name": "OUTSTANDING DRAMA SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 76,
-      "reviewedWinnerAllocationCount": 76,
+      "reviewedSourcePageCount": 80,
+      "reviewedWinnerAllocationCount": 80,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -3026,8 +3031,8 @@
       "id": "variety-series",
       "name": "OUTSTANDING VARIETY SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 88,
-      "reviewedWinnerAllocationCount": 89,
+      "reviewedSourcePageCount": 89,
+      "reviewedWinnerAllocationCount": 90,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -6734,7 +6739,16 @@
         "Audience Participation, Quiz Or Panel Program",
         "Games And Audience Participation Show"
       ],
-      "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
+      "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
+      "pendingPeriods": [
+        {
+          "years": [
+            1955,
+            1954
+          ],
+          "reason": "The 1954 page ties the game show What's My Line? with This Is Your Life, and the 1955 page awards This Is Your Life alone. The latter's biographical audience-participation format still needs a defensible selected successor or explicit scope exclusion. Keep both pages pending until every actual winner is allocated; do not silently drop the tied programme or turn every audience-participation production into a competitive game show."
+        }
+      ]
     },
     {
       "sourceSlug": "best-comedian",
@@ -6766,24 +6780,6 @@
         "Comedienne"
       ],
       "reason": "The early comedian fields mix sitcom acting and variety/personality performance, and later headings change eligibility. Earlier winners such as Lucille Ball cannot be excluded by applying the 1958 plays-herself wording backwards. Review the actual annual winner, production and predecessor boundary individually; no blanket modern target or exclusion is accepted."
-    },
-    {
-      "sourceSlug": "best-mystery-action-or-adventure-program",
-      "firstYear": 1953,
-      "lastYear": 1954,
-      "menuLabels": [
-        "Mystery, Action Or Adventure Program"
-      ],
-      "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
-    },
-    {
-      "sourceSlug": "best-mystery-or-intrigue-series",
-      "firstYear": 1955,
-      "lastYear": 1955,
-      "menuLabels": [
-        "Mystery Or Intrigue Series"
-      ],
-      "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
     },
     {
       "sourceSlug": "best-public-affairs-program",
@@ -6849,15 +6845,6 @@
       "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
     },
     {
-      "sourceSlug": "best-western-series",
-      "firstYear": 1959,
-      "lastYear": 1959,
-      "menuLabels": [
-        "Western Series"
-      ],
-      "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
-    },
-    {
       "sourceSlug": "outstanding-achievement-in-coverage-of-special-events-individuals",
       "firstYear": 1977,
       "lastYear": 1978,
@@ -6881,15 +6868,6 @@
       "lastYear": 1972,
       "menuLabels": [
         "Religious Programming - Programs"
-      ],
-      "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
-    },
-    {
-      "sourceSlug": "outstanding-classical-music-dance-program",
-      "firstYear": 1956,
-      "lastYear": 1956,
-      "menuLabels": [
-        "Music Series"
       ],
       "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
     },
@@ -7169,14 +7147,13 @@
         "Non-Fiction Program (Reality)",
         "Non-Fiction Program (Reality) (Area Award: Possibility Of One, More Than One Or No Award"
       ],
-      "reason": "Use the explicit reviewed production/recipient allocations, preserving the original award wording and facts. Remaining periods are withheld; do not infer a blanket successor from single-appearance wording or a later programme version.",
+      "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
       "pendingPeriods": [
         {
           "years": [
-            2010,
-            2001
+            2010
           ],
-          "reason": "American High (2001) still needs pinned evidence of the original observational school-year production. Jamie Oliver's Food Revolution (2010) needs sufficiently specific template/observational-format evidence; its Academy Honors entry is a separate recognition and must not become an extra Emmy winner."
+          "reason": "Jamie Oliver's Food Revolution (2010) still needs production-specific template/observational-format evidence. Its separate Academy Honors recognition is format context only and cannot become an extra Emmy winner."
         }
       ]
     },
@@ -7188,15 +7165,13 @@
         "Single Performance By A Supporting Actor",
         "Single Performance By A Supporting Actor In Comedy Or Drama Series"
       ],
-      "reason": "Use the explicit reviewed production/recipient allocations, preserving the original award wording and facts. Remaining periods are withheld; do not infer a blanket successor from single-appearance wording or a later programme version.",
+      "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
       "pendingPeriods": [
         {
           "years": [
-            1978,
-            1976,
-            1975
+            1978
           ],
-          "reason": "Columbo (1975), Upstairs, Downstairs (1976) and How the West Was Won (1978) still require specific winning-season and single-performance/guest predecessor review; do not apply the Roots allocation to those different production formats."
+          "reason": "Ricardo Montalban's 1978 How the West Was Won performance remains withheld. Academy biographies call the winning production a miniseries, while its 1978 lead-actress nomination belongs to Drama Series and the show's throwback specifies Part II. Review the actual winning multipart production and original eligibility before choosing a limited/movie or ongoing-series successor; the whole-show label does not settle this boundary."
         }
       ]
     },

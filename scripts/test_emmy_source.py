@@ -172,10 +172,9 @@ class EmmyLineageReviewTests(unittest.TestCase):
         decision = self.decisions["outstanding-reality-program"]
         for year in (2004, 2005, 2006, 2012, 2013):
             self.assertEqual(category_for_year(decision, year), "structured-reality-program")
-        for year in (2002, 2007, 2008, 2009, 2011):
+        for year in (2001, 2002, 2007, 2008, 2009, 2011):
             self.assertEqual(category_for_year(decision, year), "unstructured-reality-program")
-        for year in (2001, 2010):
-            self.assertIsNone(category_for_year(decision, year))
+        self.assertIsNone(category_for_year(decision, 2010))
 
     def test_single_appearance_label_does_not_turn_miniseries_into_ongoing_drama(self):
         actor = self.decisions["outstanding-lead-actor-for-a-single-appearance-in-a-drama-or-comedy-series"]
@@ -202,7 +201,49 @@ class EmmyLineageReviewTests(unittest.TestCase):
                          "supporting-actor-in-a-limited-or-anthology-series-or-movie")
         # Asner's separate Roots supporting award cannot reclassify the earlier
         # explicitly headed Rich Man, Poor Man lead award, or other winners.
-        self.assertIsNone(category_for_year(self.decisions[support_slug], 1976))
+        self.assertEqual(category_for_year(self.decisions[support_slug], 1976),
+                         "supporting-actor-in-a-limited-or-anthology-series-or-movie")
+        self.assertIsNone(category_for_year(self.decisions[support_slug], 1978))
+
+    def test_single_performance_uses_original_year_programme_eligibility(self):
+        ledger = load(SOURCE_DIR / "lineage-decisions.json")
+        contexts = {s["url"]: s["context"] for s in ledger["contextSources"]}
+        base = "https://www.televisionacademy.com/awards/nominees-winners/"
+        self.assertIn("Nominee Columbo NBC Sunday Mystery Movie", contexts[base + "1975/outstanding-miniseries"])
+        self.assertIn("Nominee Columbo NBC Sunday Mystery Movie", contexts[base + "1976/outstanding-drama-series"])
+        self.assertIn("Winner Upstairs, Downstairs Masterpiece Theatre", contexts[base + "1975/outstanding-drama-series"])
+        self.assertIn("Winner Upstairs, Downstairs Masterpiece Theatre", contexts[base + "1976/outstanding-miniseries"])
+        decision = self.decisions["outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-series"]
+        for year in (1975, 1976):
+            review = review_for_year(decision, year)
+            self.assertIn(base + f"{year}/outstanding-miniseries", review["externalEvidence"])
+            self.assertEqual(category_for_year(decision, year),
+                             "supporting-actor-in-a-limited-or-anthology-series-or-movie")
+        # Another season's ongoing-series eligibility must not override the
+        # original limited-series performance, or resolve the disputed 1978 work.
+        self.assertIsNone(category_for_year(decision, 1978))
+
+    def test_classical_music_slug_retains_its_actual_music_series_predecessor(self):
+        slug = "outstanding-classical-music-dance-program"
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1956/' + slug))
+        self.assertEqual(page["sourceCategory"], "Best Music Series")
+        self.assertEqual(page["winners"][0]["heading"], "Your Hit Parade")
+        self.assertEqual(category_for_winner(self.decisions[slug], 1956, page["winners"][0]["sourceKey"]),
+                         "variety-series")
+
+    def test_original_western_and_mystery_fields_are_programme_drama_branches(self):
+        snapshot = load(SOURCE_DIR / "official-winners-1949-2026.json")
+        for slug, years, work in (("best-western-series", (1959,), "Maverick"),
+                                  ("best-mystery-action-or-adventure-program", (1954, 1953), "Dragnet"),
+                                  ("best-mystery-or-intrigue-series", (1955,), "Dragnet")):
+            for year in years:
+                page = next(p for p in snapshot["pages"] if p["sourceUrl"].endswith(f'/{year}/' + slug))
+                self.assertEqual([w["heading"] for w in page["winners"]], [work])
+                self.assertEqual(category_for_year(self.decisions[slug], year), "drama-series")
+        # An Action/Adventure label alone cannot establish the mixed-format
+        # Disneyland programme's predecessor under Drama or Variety.
+        self.assertIsNone(category_for_year(self.decisions["best-action-or-adventure-series"], 1956))
 
     def test_one_supporting_slug_preserves_its_special_and_series_headings(self):
         slug = "outstanding-single-performance-by-a-supporting-actress"
@@ -346,6 +387,20 @@ class EmmyLineageReviewTests(unittest.TestCase):
         decision = self.decisions["outstanding-game-show"]
         self.assertIsNone(category_for_year(decision, 2022))
         self.assertEqual(category_for_year(decision, 2023), "game-show")
+
+    def test_early_quiz_field_does_not_classify_every_audience_participation_show_as_a_game(self):
+        decision = self.decisions["best-audience-participation-quiz-or-panel-program"]
+        for year in (1951, 1953, 1956, 1959):
+            self.assertEqual(category_for_year(decision, year), "game-show")
+        for year in (1954, 1955):
+            self.assertIsNone(category_for_year(decision, year))
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1954/' + decision["sourceSlug"]))
+        self.assertEqual({w["heading"] for w in page["winners"]}, {"What's My Line?", "This Is Your Life"})
+        # A recognisable game show in the tie is not enough to accept a mixed
+        # page while the other winner's predecessor remains unresolved.
+        for winner in page["winners"]:
+            self.assertIsNone(category_for_winner(decision, 1954, winner["sourceKey"]))
 
     def test_duration_branches_follow_the_actual_awarded_programme(self):
         decision = self.decisions["best-direction-half-hour-or-less"]
