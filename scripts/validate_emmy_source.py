@@ -35,12 +35,21 @@ PRODUCER_CONTEXT_PATHS = {
     "billzarchy.com": {"/blog/polishing-the-talking-head-the-west-wing-documentary-special/"},
     "dcmp.org": {"/media/4210-without-pity-a-film-about-abilities"},
     "www.latimes.com": {"/archives/la-xpm-1986-01-05-tm-24452-story.html"},
-    "www.worldradiohistory.com": {"/Archive-Radio-Life/50s/56/TV-Radio-Life-1956-03-02.pdf"},
+    "www.worldradiohistory.com": {"/Archive-Radio-Life/50s/56/TV-Radio-Life-1956-03-02.pdf",
+                                 "/Archive-TV-Radio-Age/80s/1985/Television-Radio-Age-1985-01-07.pdf"},
     "americanarchive.org": {"/catalog/cpb-aacip_75-41zcrzgc", "/catalog/cpb-aacip-526-251fj2bb0n"},
     "www.duckprods.com": {"/projects/wcfields/index.html"},
     "catalog.afi.com": {"/Film/57599-DEAR-AMERICALETTERSHOMEFROMVIETNAM"},
     "www.afi.com": {"/press/afi_laa_2013_brooks/"},
     "www.congress.gov": {"/103/crecb/1994/05/10/GPO-CRECB-1994-pt7-7-1.pdf"},
+    "www.paleycenter.org": {"/collection/item?item=T80%3A0637", "/collection/item?item=T88%3A0429"},
+    "www.charlottegrossman.com": {"/health-and-medicine"},
+    "www.rai.it": {"/dl/doc/2025/04/24/1745502034846_prix_italia_1948_2024.pdf"},
+    "www.joegantz.com": {"/filmography.html"},
+    "www.ushmm.org": {"/remember/holocaust-reflections-testimonies/one-survivor-remembers"},
+    "www.deborahdickson.com": {"/filmography"},
+    "www.acmi.net.au": {"/works/83212--mgm-when-the-lion-roars/"},
+    "newsroom.ucla.edu": {"/stories/jfk-ucla-film-and-television-archive-249480"},
     "www.tonyawards.com": {
         "/news/tony-awards-live-stream-returns-to-bring-you-more-red-carpet-and-behind-the-scenes-magic-for-2016/",
         "/history/year-by-year/1980/", "/history/year-by-year/1997/",
@@ -75,8 +84,9 @@ def source_url(value, year=None, *, context=False):
             hosts.add("www.pbs.org")
         # Exact production records and original participant accounts establish
         # format and context, not Emmy outcomes or missing recipient roles.
-        if (parsed.path in PRODUCER_CONTEXT_PATHS.get(parsed.netloc, set())
-                and not parsed.params and not parsed.query and not parsed.fragment):
+        record_path = parsed.path + ("?" + parsed.query if parsed.query else "")
+        if (record_path in PRODUCER_CONTEXT_PATHS.get(parsed.netloc, set())
+                and not parsed.params and not parsed.fragment):
             hosts.add(parsed.netloc)
     require(parsed.scheme == "https" and parsed.netloc in hosts, f"unapproved source URL: {value}")
     if year is not None:

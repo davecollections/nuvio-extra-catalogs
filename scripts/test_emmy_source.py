@@ -576,7 +576,9 @@ class EmmyLineageReviewTests(unittest.TestCase):
                  "amblin.com", "peabodyawards.com", "findingaids.library.nyu.edu", "www.tonyawards.com",
                  "www.history.navy.mil", "www.lucasfilm.com", "billzarchy.com", "dcmp.org",
                  "www.latimes.com", "www.worldradiohistory.com", "americanarchive.org",
-                 "www.duckprods.com", "catalog.afi.com", "www.afi.com", "www.congress.gov"}
+                 "www.duckprods.com", "catalog.afi.com", "www.afi.com", "www.congress.gov",
+                 "www.paleycenter.org", "www.charlottegrossman.com", "www.rai.it",
+                 "www.joegantz.com", "www.ushmm.org", "www.deborahdickson.com", "www.acmi.net.au", "newsroom.ucla.edu"}
         contexts = load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]
         for host in hosts:
             for path in PRODUCER_CONTEXT_PATHS[host]:
@@ -594,6 +596,76 @@ class EmmyLineageReviewTests(unittest.TestCase):
                     with self.subTest(redirected=rejected), self.assertRaises(SourceError):
                         evidence(value, url, context=True)
 
+    def test_paley_record_query_cannot_select_a_different_or_unreviewed_production(self):
+        url = "https://www.paleycenter.org/collection/item?item=T80%3A0637"
+        value = next(s for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"] if s["url"] == url)
+        for query in ("", "?item=T80%3A0638", "?item=T80:0637", "?item=T80%3a0637",
+                      "?item=T80%3A0637&award=1980", "?award=1980&item=T80%3A0637",
+                      "?item=T80%3A0637&item=T80%3A0638"):
+            rejected = "https://www.paleycenter.org/collection/item" + query
+            with self.subTest(request=rejected), self.assertRaises(SourceError):
+                evidence({**value, "url": rejected}, rejected, context=True)
+            with self.subTest(redirect=rejected), self.assertRaises(SourceError):
+                evidence({**value, "resolvedUrl": rejected}, url, context=True)
+
+    def test_body_human_series_keeps_anthology_award_instead_of_substituting_one_film(self):
+        slug = "outstanding-informational-series"
+        self.assertEqual(category_for_year(self.decisions[slug], 1978), "documentary-or-nonfiction-series")
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1978/' + slug))
+        winner = page["winners"][0]
+        self.assertEqual(page["sourceCategory"], "Outstanding Informational Series")
+        self.assertEqual(winner["heading"], "The Body Human")
+        self.assertEqual(winner["sourceDetailLines"], ["CBS"])
+        self.assertEqual([(c["name"], c["role"]) for c in winner["credits"]],
+                         [("Alfred R. Kelman", ""), ("Thomas W. Moore", "")])
+        contexts = {s["url"]: s for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]}
+        paley = contexts["https://www.paleycenter.org/collection/item?item=T80%3A0637"]
+        self.assertIn("CBS - TV series, 1977-", paley["context"])
+        rai = contexts["https://www.rai.it/dl/doc/2025/04/24/1745502034846_prix_italia_1948_2024.pdf"]
+        self.assertEqual(rai["pageNumbers"], [51])
+        self.assertIn("The Body Human: The Miracle Months", rai["context"])
+        self.assertIn("first stages of human life in the womb", rai["context"])
+
+    def test_magic_sense_keeps_emmy_year_and_sole_producer_not_museum_crew(self):
+        slug = "outstanding-informational-special"
+        self.assertEqual(category_for_year(self.decisions[slug], 1980), "documentary-or-nonfiction-special")
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1980/' + slug))
+        self.assertEqual(page["sourceCategory"], "Outstanding Informational Program")
+        winner = page["winners"][0]
+        self.assertEqual(winner["heading"], "The Body Human: The Magic Sense")
+        self.assertEqual([(c["name"], c["role"]) for c in winner["credits"]], [("Robert E. Fuisz", "Producer")])
+        context = next(s["context"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]
+                       if s["url"] == "https://www.paleycenter.org/collection/item?item=T80%3A0637")
+        self.assertIn("September 6, 1979", context)
+        self.assertIn("Alexander Scourby … Narrator", context)
+        self.assertEqual(winner["sourceDetailLines"], ["CBS"])
+
+    def test_medical_specials_keep_all_recipients_without_host_or_filmmaker_substitution(self):
+        slug = "outstanding-informational-special"
+        snapshot = load(SOURCE_DIR / "official-winners-1949-2026.json")
+        contexts = {s["url"]: s["context"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]}
+        source = "https://www.charlottegrossman.com/health-and-medicine"
+        self.assertIn("Bionic Breakthrough. The Body Human: The Living Code", contexts[source])
+        self.assertIn("doctors, their patients and modern technology in medicine", contexts[source])
+        for year, title, names in (
+            (1981, "The Body Human: The Bionic Breakthrough",
+             ["Charles A. Bangert", "Robert E. Fuisz", "Alfred R. Kelman", "Thomas W. Moore", "Nancy Smith"]),
+            (1983, "The Body Human: The Living Code",
+             ["Charles A. Bangert", "Robert E. Fuisz", "Franklin Getchell", "Alfred R. Kelman", "Thomas W. Moore", "Nancy Smith"]),
+        ):
+            with self.subTest(year=year):
+                self.assertEqual(category_for_year(self.decisions[slug], year), "documentary-or-nonfiction-special")
+                review = review_for_year(self.decisions[slug], year)
+                self.assertIn(source, review["externalEvidence"])
+                page = next(p for p in snapshot["pages"] if p["sourceUrl"].endswith('/' + str(year) + '/' + slug))
+                winner = page["winners"][0]
+                self.assertEqual(page["sourceCategory"], "Outstanding Informational Special")
+                self.assertEqual(winner["heading"], title)
+                self.assertEqual(winner["sourceDetailLines"], ["CBS"])
+                self.assertEqual([(c["name"], c["role"]) for c in winner["credits"]], [(n, "") for n in names])
+
     def test_single_appearance_label_does_not_turn_miniseries_into_ongoing_drama(self):
         actor = self.decisions["outstanding-lead-actor-for-a-single-appearance-in-a-drama-or-comedy-series"]
         actress = self.decisions["outstanding-lead-actress-for-a-single-appearance-in-a-drama-or-comedy-series"]
@@ -605,6 +677,88 @@ class EmmyLineageReviewTests(unittest.TestCase):
         self.assertEqual(category_for_year(actor, 1978), "guest-actor-in-a-drama-series")
         for year in (1977, 1978):
             self.assertEqual(category_for_year(actress, year), "guest-actress-in-a-drama-series")
+
+    def test_taxicab_museum_tie_keeps_both_original_titles_and_all_seven_unavailable_roles(self):
+        slug = "outstanding-informational-special"
+        decision = self.decisions[slug]
+        review = review_for_year(decision, 1995)
+        self.assertEqual(category_for_year(decision, 1995), "documentary-or-nonfiction-special")
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1995/' + slug))
+        self.assertEqual([w["heading"] for w in page["winners"]],
+                         ["Taxicab Confessions", "The United States Holocaust Memorial Museum Presen"])
+        self.assertEqual(review["reviewedSourcePages"][0]["winnerSourceKeys"],
+                         [w["sourceKey"] for w in page["winners"]])
+        self.assertEqual([w["sourceDetailLines"] for w in page["winners"]], [["HBO"], ["HBO"]])
+        self.assertEqual([[c["name"] for c in w["credits"]] for w in page["winners"]], [
+            ["Joe Gantz", "Harry Gantz", "Sheila Nevins"],
+            ["Kary Antholis", "Michael Berenbaum", "Raye Farr", "Sheila Nevins"]])
+        self.assertTrue(all(c["role"] == "" for w in page["winners"] for c in w["credits"]))
+        contexts = {s["url"]: s["context"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]}
+        self.assertIn("six miniature hidden cameras", contexts["https://www.joegantz.com/filmography.html"])
+        self.assertIn("questions through the driver", contexts["https://www.joegantz.com/filmography.html"])
+        self.assertIn("produced in 1995 by HBO", contexts[
+            "https://www.ushmm.org/remember/holocaust-reflections-testimonies/one-survivor-remembers"])
+        self.assertIn("One Survivor Remembers", contexts["https://www.televisionacademy.com/bios/lawrence-silk"])
+        self.assertIn("Museum Presen HBO", contexts["https://www.televisionacademy.com/bios/lawrence-silk"])
+
+    def test_abortion_documentary_preserves_sole_academy_recipient_not_full_filmmaking_team(self):
+        slug = "outstanding-informational-special"
+        self.assertEqual(category_for_year(self.decisions[slug], 1992), "documentary-or-nonfiction-special")
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1992/' + slug))
+        self.assertEqual(page["winners"][0]["heading"], "Abortion: Desperate Choices")
+        self.assertEqual([(c["name"], c["role"]) for c in page["winners"][0]["credits"]], [("Susan Froemke", "")])
+        self.assertEqual(page["winners"][0]["sourceDetailLines"], ["HBO"])
+        context = next(s["context"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]
+                       if s["url"] == "https://www.deborahdickson.com/filmography")
+        self.assertIn("ABORTION: DESPERATE CHOICES (1992)", context)
+        self.assertIn("documentary film focuses on unplanned pregnancies", context)
+
+    def test_mgm_hosted_history_preserves_original_series_award_and_sole_recipient(self):
+        slug = "outstanding-informational-series"
+        self.assertEqual(category_for_year(self.decisions[slug], 1992), "hosted-nonfiction-series-or-special")
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1992/' + slug))
+        self.assertEqual(page["sourceCategory"], "Outstanding Informational Series")
+        self.assertEqual(page["winners"][0]["heading"], "MGM: When the Lion Roars")
+        self.assertEqual(page["winners"][0]["sourceDetailLines"], ["TNT"])
+        self.assertEqual([(c["name"], c["role"]) for c in page["winners"][0]["credits"]], [("JONI LEVIN", "")])
+        context = next(s["context"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]
+                       if s["url"] == "https://www.acmi.net.au/works/83212--mgm-when-the-lion-roars/")
+        self.assertIn("three segments", context)
+        self.assertIn("Hosted by the ever suave Patrick Stewart", context)
+
+    def test_kennedy_narrated_film_preserves_ceremony_not_production_or_listing_date(self):
+        slug = "outstanding-informational-special"
+        self.assertEqual(category_for_year(self.decisions[slug], 1984), "documentary-or-nonfiction-special")
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1984/' + slug))
+        self.assertEqual(page["winners"][0]["heading"], "America Remembers John F. Kennedy")
+        self.assertEqual(page["winners"][0]["sourceDetailLines"], ["SYN"])
+        self.assertEqual([(c["name"], c["role"]) for c in page["winners"][0]["credits"]], [("Thomas F. Horton", "")])
+        contexts = {s["url"]: s for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]}
+        self.assertIn("1983 documentary produced by Thomas Horton Associates", contexts[
+            "https://newsroom.ucla.edu/stories/jfk-ucla-film-and-television-archive-249480"]["context"])
+        record = contexts["https://www.worldradiohistory.com/Archive-TV-Radio-Age/80s/1985/Television-Radio-Age-1985-01-07.pdf"]
+        self.assertEqual(record["pageNumbers"], [261])
+        self.assertIn("ON THE AIR", record["context"])
+        self.assertIn("Ken-\nnedy- 2- hour documentary narrated \nby Hal Holbrook.", record["context"])
+        self.assertEqual(review_for_year(self.decisions[slug], 1985)["disposition"], "pending-review")
+
+    def test_agnes_profile_preserves_documentary_award_without_converting_subject_into_performer(self):
+        slug = "outstanding-informational-special"
+        self.assertEqual(category_for_year(self.decisions[slug], 1987), "documentary-or-nonfiction-special")
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1987/' + slug))
+        self.assertEqual(page["sourceCategory"], "Outstanding Informational Special")
+        self.assertEqual(page["winners"][0]["heading"], "Dance in America: Agnes, The Indomitable DeMille")
+        self.assertEqual([(c["name"], c["role"]) for c in page["winners"][0]["credits"]],
+                         [("Judy Kinberg", ""), ("Jac Venza", "")])
+        context = next(s["context"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]
+                       if s["url"] == "https://www.paleycenter.org/collection/item?item=T88%3A0429")
+        self.assertIn("GENRE: Dance; Arts documentaries", context)
+        self.assertIn("de Mille, Agnes … Special Guest", context)
 
     def test_guest_review_preserves_original_headings_and_pins_actual_context(self):
         ledger = load(SOURCE_DIR / "lineage-decisions.json")

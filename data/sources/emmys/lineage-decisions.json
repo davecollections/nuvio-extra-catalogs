@@ -13321,24 +13321,6 @@
             },
             {
               "years": [
-                1996,
-                1992,
-                1986,
-                1985,
-                1978
-              ],
-              "disposition": "pending-review",
-              "reason": "Remaining Informational Series periods require original production-format review, including all winners on the 1986 Olivier/Planet Earth tied page. Narration or a generic series label alone does not settle the central presenter/documentary boundary; original recipient roles remain separate from production-format evidence.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-series"
-              ]
-            },
-            {
-              "years": [
                 1995
               ],
               "disposition": "current-lineage",
@@ -13382,6 +13364,75 @@
                   "reason": "The May 10, 1994 House record preserves participant Howard Coble's own statement that he was interviewed by Michael Moore, host of the new NBC/BBC TV Nation. This contemporaneous participant evidence establishes the central hosted/interview format under the reviewed nonfiction successor. Preserve the 1995 Academy programme award, NBC and all eight unavailable recipient roles. Coble's political resolution is not an Emmy outcome; the 1995 FOX season and differently credited same-name biographies are not used to rewrite the original award."
                 }
               ]
+            },
+            {
+              "years": [
+                1978
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-series",
+              "reason": "The original Academy award is Informational Series for The Body Human, not an award for one named installment. Paley preserves the CBS medical documentary anthology beginning in 1977 and identifies Scourby as narrator; RAI preserves original factual camera observations of fetal development in The Miracle Months. Follow Documentary/Nonfiction Series while preserving the generic winning programme, CBS and both recipients with unavailable award roles. The named film, narrator and ordinary production credits cannot replace the Academy programme or add recipients.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1978,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-series",
+                  "sha256": "93379f929441f7294cbeb752bd939742b6fca8f4de97170ae0e354f5776df1db",
+                  "winnerSourceKeys": [
+                    "8d961e4b407d2bd44147ce649354d9305b924c873d16068a741e90bc892f782e"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.paleycenter.org/collection/item?item=T80%3A0637",
+                "https://www.rai.it/dl/doc/2025/04/24/1745502034846_prix_italia_1948_2024.pdf"
+              ]
+            },
+            {
+              "years": [
+                1996,
+                1986,
+                1985
+              ],
+              "disposition": "pending-review",
+              "reason": "Remaining Informational Series periods require original production-format review, including all winners on the 1986 Olivier/Planet Earth tied page. Narration or a generic series label alone does not settle the central presenter/documentary boundary; original recipient roles remain separate from production-format evidence.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-series"
+              ]
+            },
+            {
+              "years": [
+                1992
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "hosted-nonfiction-series-or-special",
+              "reason": "ACMI preserves the original 1992 MGM history as a three-part television series hosted by Patrick Stewart, unfolding through film clips, interviews and behind-the-scenes material. Follow Hosted Nonfiction under the Academy's pinned host-led documentary/interview definition rather than assuming that a documentary description excludes a host-led format. Preserve the original Academy Informational Series contract, TNT, the exact programme and sole JONI LEVIN credit with unavailable role. Stewart's ordinary programme hosting does not add an Emmy recipient, repair the producer role or create a Host award; the museum supplies format only.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1992,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-series",
+                  "sha256": "db6222990413d600d980b96bbce6456bad08796e3acb287e137f634cb7c118b8",
+                  "winnerSourceKeys": [
+                    "8f629de4563c2d315dce6438095a0859a6da53e390c91831c8c9f410d063d7ac"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.acmi.net.au/works/83212--mgm-when-the-lion-roars/"
+              ]
             }
           ],
           "externalEvidence": [
@@ -13393,11 +13444,14 @@
             "https://interviews.televisionacademy.com/shows/barbara-walters-specials",
             "https://peabodyawards.com/award-profile/the-great-war-and-the-shaping-of-the-20th-century/",
             "https://sirismm.si.edu/EADpdfs/SIA.FA91-164.pdf",
+            "https://www.acmi.net.au/works/83212--mgm-when-the-lion-roars/",
             "https://www.congress.gov/103/crecb/1994/05/10/GPO-CRECB-1994-pt7-7-1.pdf",
+            "https://www.paleycenter.org/collection/item?item=T80%3A0637",
             "https://www.pbs.org/kenburns/baseball/about",
             "https://www.pbs.org/wnet/americanmasters/masters/buster-keaton/",
             "https://www.pbs.org/wnet/americanmasters/masters/charlie-chaplin/",
             "https://www.pbs.org/wnet/americanmasters/series/",
+            "https://www.rai.it/dl/doc/2025/04/24/1745502034846_prix_italia_1948_2024.pdf",
             "https://www.televisionacademy.com/bios/jack-perkins",
             "https://www.televisionacademy.com/features/emmy-magazine/articles/ken-burns-pbs-civil-war-documentary",
             "https://www.televisionacademy.com/features/news/awards-news/emmy-rules-changes-191217",
@@ -13801,30 +13855,6 @@
             },
             {
               "years": [
-                1995,
-                1992,
-                1987,
-                1985,
-                1984,
-                1983,
-                1981,
-                1980
-              ],
-              "disposition": "pending-review",
-              "reason": "Remaining Informational Special periods need original documentary/hosted-format evidence. Tied pages remain withheld in full until all winning productions are allocated; production credits cannot fill missing Emmy roles or repair separate individual-achievement fields.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1984/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1983/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-informational-special"
-              ]
-            },
-            {
-              "years": [
                 1990
               ],
               "disposition": "current-lineage",
@@ -13950,6 +13980,192 @@
               "externalEvidence": [
                 "https://americanarchive.org/catalog/cpb-aacip-526-251fj2bb0n"
               ]
+            },
+            {
+              "years": [
+                1980
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-special",
+              "reason": "The Magic Sense is the original CBS medical documentary preserved by Paley with a September 6, 1979 broadcast and Scourby narration. Retain the Academy 1980 Informational Program award as the named documentary special, CBS and the sole Robert E. Fuisz Producer credit. The earlier broadcast date, narrator and museum production credits cannot shift the ceremony, create a Narrator winner or add Emmy recipients.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-informational-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Program"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1980,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-informational-special",
+                  "sha256": "a105f77b5d2aef0e9093c9e1c1d2b9fff87a061455b620a463328da750625d9f",
+                  "winnerSourceKeys": [
+                    "9c52a67a593ea316ffcacc699944cc696e3dfd9ac07a7e6087e5835e29a58248"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.paleycenter.org/collection/item?item=T80%3A0637"
+              ]
+            },
+            {
+              "years": [
+                1983,
+                1981
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-special",
+              "reason": "Grossman identifies Bionic Breakthrough and The Living Code among the CBS medical specials observing doctors, patients and medical technology. Her separately described Grey-hosted male-sexuality half-hours are different productions and do not make these two specials host-led. Follow Documentary/Nonfiction Special, preserving the exact Academy programme titles, CBS, ceremony years and all five/six recipients with unavailable roles. Ordinary filmmaker credits and nominations cannot repair separate Individual Achievement fields or add Grossman, Grey or a narrator as Emmy recipients.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1983/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Special"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1983,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1983/outstanding-informational-special",
+                  "sha256": "1930d7830bea5e5be1295413ac1be02b37a8414e16809fa1e81c3207cb289092",
+                  "winnerSourceKeys": [
+                    "ac65e0435e4add88f0e81afbe62294a115d2dcbb19bb3fa34654107ba5748303"
+                  ]
+                },
+                {
+                  "year": 1981,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-special",
+                  "sha256": "7268c19ff5bcbe232f08a5292e9c0b14cee4f58dab411719fbcd9275908d02b6",
+                  "winnerSourceKeys": [
+                    "6484e5279b37504dc3edc01fe651214b5c93d7296d538510705cc76ef19fb0f2"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.charlottegrossman.com/health-and-medicine"
+              ]
+            },
+            {
+              "years": [
+                1995
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-special",
+              "reason": "Both marked winners on the Informational Special page follow Documentary/Nonfiction Special. Gantz describes the original Taxicab Confessions as real passenger accounts captured with hidden cab cameras, with the filmmakers asking questions offscreen through an earpiece rather than a central personality host. The Holocaust Museum preserves its original 1995 HBO film and survivor testimony; the Academy Silk account connects One Survivor Remembers with the truncated Museum programme entry. Preserve both exact Academy titles, HBO and all three/four recipients with unavailable roles. The Special award remains distinct from later recurring seasons; film subjects, drivers, ordinary crew, nominees and other institutions' awards add no Emmy recipients, roles or outcomes.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Special"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1995,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-special",
+                  "sha256": "e02a0ffe3af813e50780cd5d33667e4642901e777cade66b7c452ee9ee5fe2f1",
+                  "winnerSourceKeys": [
+                    "4be4150ce9bd0c635f7598fc6df94e2d2fa53757a8525ebed45bd5c95a806503",
+                    "db35dcbf8957a6e9bde6ced10490816fa962f98e0a2c6ea84625a63996acdcd8"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.joegantz.com/filmography.html",
+                "https://www.ushmm.org/remember/holocaust-reflections-testimonies/one-survivor-remembers",
+                "https://www.televisionacademy.com/bios/lawrence-silk"
+              ]
+            },
+            {
+              "years": [
+                1992
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-special",
+              "reason": "Dickson's original filmmaker account identifies Abortion: Desperate Choices as the 1992 HBO documentary observing unplanned pregnancies and personal decisions. Follow Documentary/Nonfiction Special while retaining the original Informational Special contract and sole Susan Froemke recipient with unavailable role. The other filmmakers and the producer's ordinary production credits or other awards cannot enlarge or repair the Emmy recipient list.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Special"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1992,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-special",
+                  "sha256": "565f52861ecec30137471fb569c6b4aa514a503e00e06c2dc3260532cf4974b3",
+                  "winnerSourceKeys": [
+                    "0c4a8574eddd950d5ddbcfa93af5adea05f7947954b420b518b9cc96bd08842f"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.deborahdickson.com/filmography"
+              ]
+            },
+            {
+              "years": [
+                1987
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-special",
+              "reason": "Paley preserves the exact May 8, 1987 PBS Dance in America Agnes programme as an arts documentary, with de Mille as its subject/special guest. Follow Documentary/Nonfiction Special, retaining the Academy Informational Special heading and both Judy Kinberg/Jac Venza credits with unavailable award roles. Dance excerpts and the Great Performances umbrella do not turn the biography into a specialist dance award or Variety Series winner; museum production credits do not fill Emmy roles.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-informational-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Special"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1987,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-informational-special",
+                  "sha256": "75a61c333f991f8627c61d206452d49221120154af77d363e1f576a9ef2aebff",
+                  "winnerSourceKeys": [
+                    "ef9cf64bf70d725d0cf6646e152b8ecbe3e294419b7bf0b7512c8a23ee20c153"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.paleycenter.org/collection/item?item=T88%3A0429"
+              ]
+            },
+            {
+              "years": [
+                1985
+              ],
+              "disposition": "pending-review",
+              "reason": "The 1985 Cousteau: Mississippi period still needs original production evidence settling its central presenter/documentary boundary. The available museum reel record has unavailable genre, broadcaster and credits and a later catalogue date; it cannot establish the winning production format. Production credits cannot fill missing Emmy roles or repair separate individual-achievement fields.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-special"
+              ]
+            },
+            {
+              "years": [
+                1984
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-special",
+              "reason": "UCLA preserves the Horton/Kennedy production collection and identifies the original 1983 documentary by Thomas Horton Associates. The contemporary On the Air distributor listing in the January 7, 1985 NATPE issue identifies a two-hour documentary narrated by Holbrook, distinguishing it from the separately advertised celebrity-hosted specials. Follow Documentary/Nonfiction Special, preserving the Academy 1984 ceremony, exact winning title, SYN and sole Thomas F. Horton recipient with unavailable role. The production year, printed listing date, narrator and preservation credits cannot shift or enlarge the Academy award facts.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1984/outstanding-informational-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Special"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1984,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1984/outstanding-informational-special",
+                  "sha256": "066cdb9049c0d13eaa2b6dbe77f6ca0f0fc71533689a94bb4dc24f564b3995cd",
+                  "winnerSourceKeys": [
+                    "e579d4d97a208a67357513ec438683b8a5336554dbfaf36e5afb6ab4d3e6c26f"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://newsroom.ucla.edu/stories/jfk-ucla-film-and-television-archive-249480",
+                "https://www.worldradiohistory.com/Archive-TV-Radio-Age/80s/1985/Television-Radio-Age-1985-01-07.pdf"
+              ]
             }
           ],
           "externalEvidence": [
@@ -13960,15 +14176,24 @@
             "https://dcmp.org/media/4210-without-pity-a-film-about-abilities",
             "https://interviews.televisionacademy.com/interviews/dixon-dern",
             "https://interviews.televisionacademy.com/interviews/lucie-arnaz",
+            "https://newsroom.ucla.edu/stories/jfk-ucla-film-and-television-archive-249480",
             "https://videoverite.tv/pages/iamapromisemain-2011.html",
             "https://videoverite.tv/pages/storemain-2011.html",
+            "https://www.charlottegrossman.com/health-and-medicine",
+            "https://www.deborahdickson.com/filmography",
             "https://www.duckprods.com/projects/wcfields/index.html",
+            "https://www.joegantz.com/filmography.html",
             "https://www.lucasfilm.com/news/all-four-indiana-jones-movie-adventures-on-4k-ultra-hd-for-the-first-time/",
+            "https://www.paleycenter.org/collection/item?item=T80%3A0637",
+            "https://www.paleycenter.org/collection/item?item=T88%3A0429",
             "https://www.pbs.org/wnet/americanmasters/archive/interview/richard-adler/",
             "https://www.pbs.org/wnet/americanmasters/group-theatre-about-the-group-theatre/622/",
             "https://www.pbs.org/wnet/americanmasters/masters/edward-r-murrow/",
             "https://www.pbs.org/wnet/americanmasters/masters/lillian-gish/",
-            "https://www.pbs.org/wnet/americanmasters/series/"
+            "https://www.pbs.org/wnet/americanmasters/series/",
+            "https://www.televisionacademy.com/bios/lawrence-silk",
+            "https://www.ushmm.org/remember/holocaust-reflections-testimonies/one-survivor-remembers",
+            "https://www.worldradiohistory.com/Archive-TV-Radio-Age/80s/1985/Television-Radio-Age-1985-01-07.pdf"
           ]
         },
         {
@@ -33388,6 +33613,122 @@
       ],
       "context": "May 10, 1994\nTV NATION DAY\nMr. COBLE.\nI recently participated in an inter­\nview with Michael Moore, the host of \nthe new show",
       "contextSha256": "5f21fe640065ac3f22efcf8da2793854c3451119d765918736269efb7380f37d"
+    },
+    {
+      "url": "https://www.paleycenter.org/collection/item?item=T80%3A0637",
+      "resolvedUrl": "https://www.paleycenter.org/collection/item?item=T80%3A0637",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "a3c5f2f69a17624042d382286b86f7b111bc6b722b9c2288c715e756918abb93",
+      "byteCount": 24630,
+      "context": "BODY HUMAN, THE: THE MAGIC SENSE (TV)\nGENRE: Public affairs/Documentaries\nSERIES RUN: CBS - TV series, 1977-\nSeptember 6, 1979\nAlexander Scourby … Narrator",
+      "contextSha256": "043b687ccd7c791d6c191355d1d9c6ce1ab9964c93e50df965713ca021c2e2f0"
+    },
+    {
+      "url": "https://www.charlottegrossman.com/health-and-medicine",
+      "resolvedUrl": "https://www.charlottegrossman.com/health-and-medicine",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "21baf7d5781645f4b8b23c2ade491d9761e0cc4c6697a50f87fed4d15458f942",
+      "byteCount": 671267,
+      "context": "Bionic Breakthrough. The Body Human: The Living Code\nlook at doctors, their patients and modern technology in medicine.\nCBS Special Features.",
+      "contextSha256": "3d28dc7ee753db5549fc30e39a648a3caa285f4ddf34e9a1e95a3499ab8dbbe6"
+    },
+    {
+      "url": "https://www.rai.it/dl/doc/2025/04/24/1745502034846_prix_italia_1948_2024.pdf",
+      "resolvedUrl": "https://www.rai.it/dl/doc/2025/04/24/1745502034846_prix_italia_1948_2024.pdf",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "61d5b1408ea9624fe3abb6c79e0c6cc513774107c5cb9c8ad5cf441287292f5c",
+      "byteCount": 3523495,
+      "pageNumbers": [
+        51
+      ],
+      "context": "The Body Human: The Miracle Months\nTV Documentary\nCBS (United States)\nfirst stages of human life in the womb.",
+      "contextSha256": "dd36d96b659e158e2c865c2dae0c7dccf8000cc2dd5d9cb4a376edcb544f53cb"
+    },
+    {
+      "url": "https://www.joegantz.com/filmography.html",
+      "resolvedUrl": "https://www.joegantz.com/filmography.html",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "f1da93aada34551be45a51a0c6fffa04d90163ef2c61b3aace2f0d82e10a216f",
+      "byteCount": 41772,
+      "context": "Taxicab Confessions\nNew York City taxicab\nsix miniature hidden cameras\nThey were asking the questions through the driver\nwireless earpiece",
+      "contextSha256": "bb3627d1fdbb45b911e975f6beec11370e3a2a39f7ab687de7fefd4902d56553"
+    },
+    {
+      "url": "https://www.ushmm.org/remember/holocaust-reflections-testimonies/one-survivor-remembers",
+      "resolvedUrl": "https://www.ushmm.org/remember/holocaust-reflections-testimonies/one-survivor-remembers",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "b6436d8495012e8a57d233c215632c11b4ae37a4b92b1beb70c5f717f8a80e8b",
+      "byteCount": 391372,
+      "context": "One Survivor Remembers is Gerda Weissmann’s account of surviving the Holocaust.\nproduced in 1995 by HBO\nUnited States Holocaust Memorial Museum.",
+      "contextSha256": "d98477dc52b6e2f48532b776dfa80bfbe3de9c670bf5203fec4b610fc4eb49b9"
+    },
+    {
+      "url": "https://www.televisionacademy.com/bios/lawrence-silk",
+      "resolvedUrl": "https://www.televisionacademy.com/bios/lawrence-silk",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "1d070b44a063f8cee08e1210d4c60e363c54ac612e959973e2933cf4c5b7f430",
+      "byteCount": 307736,
+      "context": "in 1995, for his work on One Survivor Remembers\n1995 Lawrence Silk The United States Holocaust Memorial Museum Presen HBO",
+      "contextSha256": "471e2052db9f817a67e4c823e478e00a834c3dfd9c041f35d6fd9493b7d4a5de"
+    },
+    {
+      "url": "https://www.deborahdickson.com/filmography",
+      "resolvedUrl": "https://www.deborahdickson.com/filmography",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "2bda38566acad238ba837abd984b925d9fb706d643221a6fce8a0cac0de1abb5",
+      "byteCount": 155264,
+      "context": "ABORTION: DESPERATE CHOICES (1992)\ndocumentary film focuses on unplanned pregnancies and the painful decisions which surround them.\nHBO.",
+      "contextSha256": "db030b6ef603603b630dd4a26075f0442d2d802666990ce0561beb2469fb5005"
+    },
+    {
+      "url": "https://www.paleycenter.org/collection/item?item=T88%3A0429",
+      "resolvedUrl": "https://www.paleycenter.org/collection/item?item=T88%3A0429",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "815aa396a3a4d7fd58c524baef8e7efa02084571b5ce1897bf4436eb310c9d02",
+      "byteCount": 24937,
+      "context": "AGNES, THE INDOMITABLE DE MILLE (TV)\nGENRE: Dance; Arts documentaries\nMay 8, 1987\nNETWORK: PBS\nde Mille, Agnes … Special Guest",
+      "contextSha256": "c956851d9f35a52e33f0f8c2db4e4eed2ed144e73b967d637e66cae7035cbb27"
+    },
+    {
+      "url": "https://www.acmi.net.au/works/83212--mgm-when-the-lion-roars/",
+      "resolvedUrl": "https://www.acmi.net.au/works/83212--mgm-when-the-lion-roars/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "610891b63b8e36aceb590805fa7c54a1565a344f38c7481319296a1a11bfad9f",
+      "byteCount": 617620,
+      "context": "MGM: when the lion roars\nThe programme is broken into three segments\nHosted by the ever suave Patrick Stewart.\nTelevision series",
+      "contextSha256": "bc159f6369bb2d58f5502ba417d5ff30ccb9ddace390ebba28b59ad7b6628f8f"
+    },
+    {
+      "url": "https://newsroom.ucla.edu/stories/jfk-ucla-film-and-television-archive-249480",
+      "resolvedUrl": "https://newsroom.ucla.edu/stories/jfk-ucla-film-and-television-archive-249480",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "3f5dc97b37b2f88b18a29e786c0b0caa04d38d3e10a5efa7b70a802934f74807",
+      "byteCount": 69014,
+      "context": "Horton/Kennedy collection\n\"America Remembers John F. Kennedy,\" a 1983 documentary produced by Thomas Horton Associates.",
+      "contextSha256": "09821c8891327fcf4e949c2d34417f26433bbbde445f4e91ad2d5eb7e9557da3"
+    },
+    {
+      "url": "https://www.worldradiohistory.com/Archive-TV-Radio-Age/80s/1985/Television-Radio-Age-1985-01-07.pdf",
+      "resolvedUrl": "https://www.worldradiohistory.com/Archive-TV-Radio-Age/80s/1985/Television-Radio-Age-1985-01-07.pdf",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "fe02c5da71b9a48eb2050a8d921f34fb10fa4f54035cde985b547e3a7cb0804b",
+      "byteCount": 20139065,
+      "pageNumbers": [
+        261
+      ],
+      "context": "ON THE AIR \nAmerica Remembers John F. Ken-\nnedy- 2- hour documentary narrated \nby Hal Holbrook. \nNATPE'85 A -65",
+      "contextSha256": "8692adb5122625f9d13217215d8dcd35515306886be795de2c06efeded566b56"
     }
   ],
   "annualExceptions": [
