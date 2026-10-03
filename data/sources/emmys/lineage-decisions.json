@@ -1098,7 +1098,80 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1958/best-comedian"
           ],
           "disposition": "pending-review",
-          "reason": "The early comedian fields mix sitcom acting and variety/personality performance, and later headings change eligibility. Earlier winners such as Lucille Ball cannot be excluded by applying the 1958 plays-herself wording backwards. Review the actual annual winner, production and predecessor boundary individually; no blanket modern target or exclusion is accepted."
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
+          "periods": [
+            {
+              "years": [
+                1956
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "lead-actor-in-a-comedy-series",
+              "reason": "Phil Silvers wins the original same-year Best Actor-Continuing Performance award explicitly credited to The Phil Silvers Show, itself the Best Comedy Series winner. Follow Comedy Lead Actor for his independently awarded Best Comedian recognition consistently with the reviewed sitcom-star predecessor, retaining its N/A programme credit. Do not merge or delete the two separate source awards, substitute Bilko or a later revival as a source identity, or transfer this programme eligibility to other broad comedian/personality periods.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1956/best-comedian"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Comedian"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1956,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1956/best-comedian",
+                  "sha256": "b63568e206fdcd33093905a5c8615935b1876a2f312d9c6faecce07cd12cf2c3",
+                  "winnerSourceKeys": [
+                    "fe91a339d77cd494f8abc22cb8d505a3ae48a6c9a6768bf160cb79fd1e206260"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1956/outstanding-comedy-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1956/best-actor"
+              ]
+            },
+            {
+              "years": [
+                1957,
+                1953
+              ],
+              "disposition": "pending-review",
+              "reason": "The 1953 and 1957 comedian periods require their own award-contract review. The 1958 broad personality/performance field is explicitly excluded with its original winning evidence retained.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1957/best-comedian",
+                "https://www.televisionacademy.com/awards/nominees-winners/1953/best-comedian"
+              ]
+            },
+            {
+              "years": [
+                1958
+              ],
+              "disposition": "excluded",
+              "reason": "The actual award explicitly covers comedians, singers, hosts, dancers, MCs, announcers, narrators, panelists and any person essentially playing himself. The same-year Academy Leading Role in a Dramatic or Comedy Series field is a distinct character-acting contract. Retain Jack Benny and his actual programme as inspected scope evidence but exclude this broad personality/performance award from the 49 selected fields; it is not the separate 1959 Comedy Lead Actor award. A programme Comedy nomination, a comic persona or the Narrator word in this broad title does not rewrite the award into character acting or nonfiction narration. This year-specific scope decision does not classify the differently headed 1953/1957 comedian periods.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1958/best-comedian"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Continuing Performance (Male) In A Series By A Comedian, Singer, Host, Dancer, M.c., Announcer, Narrator, Panelist, Or Any Person Who Essentially Plays Himself"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1958,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1958/best-comedian",
+                  "sha256": "5c0c963294da3d11dfcc28c1514f980d355e30343a5183b66826dbb7600990da",
+                  "winnerSourceKeys": [
+                    "69a4011b88ddb4d1b1466f8e35429d0115ab9201e82049352545cd6465af83e2"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1958/best-actor"
+              ]
+            }
+          ],
+          "externalEvidence": [
+            "https://www.televisionacademy.com/awards/nominees-winners/1956/best-actor",
+            "https://www.televisionacademy.com/awards/nominees-winners/1956/outstanding-comedy-series",
+            "https://www.televisionacademy.com/awards/nominees-winners/1958/best-actor"
+          ]
         },
         {
           "sourceSlug": "best-comedian-or-comedienne",
@@ -2010,8 +2083,68 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1953/best-public-affairs-program",
             "https://www.televisionacademy.com/awards/nominees-winners/1954/best-public-affairs-program"
           ],
-          "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+          "disposition": "current-lineage",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Every acquired period is reviewed; the archive slug does not establish a separate modern award or override the actual source heading.",
+          "periods": [
+            {
+              "years": [
+                1953
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-series",
+              "reason": "The Academy creator biography and authored production account identify the original CBS See It Now documentary series. Its separate 1956 Best Documentary Program nomination independently establishes the original documentary eligibility. Follow Documentary/Nonfiction Series for this exact Public Affairs programme award; do not turn Murrow narration/presentation into a separate Narrator or Hosted Nonfiction winner, import a News/Documentary competition or use the article retrospective award wording as replacement ceremony evidence. Preserve original CBS and the n/a recipient placeholder.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1953/best-public-affairs-program"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Public Affairs Program"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1953,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1953/best-public-affairs-program",
+                  "sha256": "283c97058e6f96d9c7c56c4ade8d97240452fbe474b1a7be24fc3fc33a7dfa96",
+                  "winnerSourceKeys": [
+                    "f3b20c475aea0ef371e7fce29d4550655aa442b4c54a372a3f1ef0393d346dd2"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/bios/fred-w-friendly",
+                "https://www.televisionacademy.com/features/news/mix/friendly-and-lucky",
+                "https://www.televisionacademy.com/awards/nominees-winners/1956/outstanding-documentary-or-nonfiction-series"
+              ]
+            },
+            {
+              "years": [
+                1954
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-series",
+              "reason": "The Naval History and Heritage Command institutional historical account explicitly identifies the original early-1950s Victory at Sea as a 26-episode television documentary, distinguishing it from the naval memoir with the same name. Follow Documentary/Nonfiction Series for the Academy 1954 Public Affairs programme award, retaining NBC and the n/a recipient placeholder. The Navy supplies production-format context only; its broad Emmy wording is not independent winner/no-award or recipient evidence. Preserve the original award year, not the later H-Gram publication date. Library of Congress direct retrieval returned 403 and Python could not validate the Navy certificate chain; the actual Navy HTML was acquired with Windows certificate verification enabled, normal TLS and no redirect, then raw-byte fingerprinted.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1954/best-public-affairs-program"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Public Affairs Program"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1954,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1954/best-public-affairs-program",
+                  "sha256": "7d6f86fb21fcbe8c23a3c8e1e1a2912a87b09d64bd4d07cb7aa2597e3d3774bd",
+                  "winnerSourceKeys": [
+                    "1463e342a6683f010231915fd71f5383f9f296f957c08071f741695c6177151a"
+                  ]
+                }
+              ]
+            }
+          ],
+          "externalEvidence": [
+            "https://www.televisionacademy.com/awards/nominees-winners/1956/outstanding-documentary-or-nonfiction-series",
+            "https://www.televisionacademy.com/bios/fred-w-friendly",
+            "https://www.televisionacademy.com/features/news/mix/friendly-and-lucky"
+          ]
         },
         {
           "sourceSlug": "best-public-service-program-or-series",
@@ -2029,7 +2162,85 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1959/best-public-service-program-or-series"
           ],
           "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
+          "periods": [
+            {
+              "years": [
+                1957
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-series",
+              "reason": "The original CBS See It Now documentary series is established by the Academy creator biography, authored series account and its contemporaneous Documentary Program nomination. Its 1957 Public Service Series programme award follows Documentary/Nonfiction Series. Keep the original CBS and n/a credit rather than making Murrow or Friendly an invented award recipient. Programme/narrator context is not a Narrator-category award or imported separate News/Documentary history.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1957/best-public-service-program-or-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Public Service Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1957,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1957/best-public-service-program-or-series",
+                  "sha256": "4dee4ba4f59d111e80fbb536cf65daf4917a9f18313d5f3970d006a9a6b1573a",
+                  "winnerSourceKeys": [
+                    "23ad587ee9293391210603b26ce44b067a987beb0d5c9f74035e5075b7293fe4"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/bios/fred-w-friendly",
+                "https://www.televisionacademy.com/features/news/mix/friendly-and-lucky",
+                "https://www.televisionacademy.com/awards/nominees-winners/1956/outstanding-documentary-or-nonfiction-series"
+              ]
+            },
+            {
+              "years": [
+                1959,
+                1958,
+                1951
+              ],
+              "disposition": "pending-review",
+              "reason": "The remaining City at Night and Omnibus Public Service periods still need original format evidence; the independently acquired 1949 production history does not certify them.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1959/best-public-service-program-or-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1958/best-public-service-program-or-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1951/best-public-service-program-or-series"
+              ]
+            },
+            {
+              "years": [
+                1950
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-series",
+              "reason": "The institutional original Time Inc. production finding aid identifies the original 1949 Crusade in Europe documentary film series separately from uncertain early-1960s relaunch plans. Follow Documentary/Nonfiction Series for the 1950 Public Service/Cultural/Educational programme award. The historical book is not the winning production; the archive uncertainty concerns later reuse, not permission to replace the original series. Keep KECA-TV/KTTV and the n/a Emmy recipient placeholder; producer employees, book authors, current commercial editions and another award body do not supply Emmy identities or credits.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1950/best-public-service-program-or-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Public Service, Cultural Or Educational Program"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1950,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1950/best-public-service-program-or-series",
+                  "sha256": "2f81dd85b3e3cf8752986f40c91b1f2edbaa84e88c6800da7fb6f79d41ca6158",
+                  "winnerSourceKeys": [
+                    "b2f1ba7244be9eb17fcbc38bce160fdf4c6a885422542463bed110daf73f1bfb"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://findingaids.library.nyu.edu/nyhs/timeinc_ms3009_rg41/contents/aspace_ref131_hng/"
+              ]
+            }
+          ],
+          "externalEvidence": [
+            "https://findingaids.library.nyu.edu/nyhs/timeinc_ms3009_rg41/contents/aspace_ref131_hng/",
+            "https://www.televisionacademy.com/awards/nominees-winners/1956/outstanding-documentary-or-nonfiction-series",
+            "https://www.televisionacademy.com/bios/fred-w-friendly",
+            "https://www.televisionacademy.com/features/news/mix/friendly-and-lucky"
+          ]
         },
         {
           "sourceSlug": "best-series-half-hour-or-less",
@@ -2105,8 +2316,8 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1954/best-series-supporting-actress",
             "https://www.televisionacademy.com/awards/nominees-winners/1969/best-series-supporting-actress"
           ],
-          "disposition": "pending-review",
-          "reason": "Reviewed year-specific winning productions and historical headings. Use explicit periods and, for mixed winners, exact source-key allocations; never apply a blanket target to the URL slug.",
+          "disposition": "current-lineage",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Every acquired period is reviewed; the archive slug does not establish a separate modern award or override the actual source heading.",
           "periods": [
             {
               "years": [
@@ -2142,18 +2353,6 @@
                 }
               ],
               "currentCategory": "supporting-actress-in-a-drama-series"
-            },
-            {
-              "years": [
-                1964,
-                1962
-              ],
-              "disposition": "pending-review",
-              "reason": "These combined-period programme/recipient facts do not yet establish an unambiguous current lineage. Retain for specific production and source review.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1964/best-series-supporting-actress",
-                "https://www.televisionacademy.com/awards/nominees-winners/1962/best-series-supporting-actress"
-              ]
             },
             {
               "years": [
@@ -2222,7 +2421,49 @@
                 }
               ],
               "currentCategory": "supporting-actress-in-a-comedy-series"
+            },
+            {
+              "years": [
+                1964,
+                1962
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "supporting-actress-in-a-limited-or-anthology-series-or-movie",
+              "reason": "These original Performance In A Supporting Role awards credit Pamela Brown and Ruth White in Hallmark Hall of Fame, an anthology of independent plays/films rather than a continuing fictional-character series. The Academy anthology account distinguishes the 1961 Victoria Regina production and the 1964 restaging of Little Moon of Alban from its earlier version; the same-year 1962 Single Leading Performance winner explicitly credits the same anthology. Follow the single-production/anthology Supporting Actress branch, preserving the original broader Supporting headings and unavailable roles. Do not invent an episode subtitle from the generic Hallmark source credit, turn the anthology into an ongoing Drama supporting role, substitute a different production edition or infer a new award from the retrospective. Exact credited-production identities remain for Issue #46.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1964/best-series-supporting-actress",
+                "https://www.televisionacademy.com/awards/nominees-winners/1962/best-series-supporting-actress"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Performance In A Supporting Role By An Actress"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1964,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1964/best-series-supporting-actress",
+                  "sha256": "548faea66bba908910e2c5b9f2d631d413cbab798b10dc20d0e688d5edc047d1",
+                  "winnerSourceKeys": [
+                    "e4a5e151b104f63aed2bfb65ca425a356f97f35c59c10d4eea390e6ad4d62074"
+                  ]
+                },
+                {
+                  "year": 1962,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1962/best-series-supporting-actress",
+                  "sha256": "b8de8c8f5c5f6806fd33b26a1cbeb3526dd81a7442fdcd9d978e60cda5a710de",
+                  "winnerSourceKeys": [
+                    "665c38f8b4a99b191e4e58b925f0192c538680d5007ffeda7c95a48d8b6cde07"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/features/ten-remember",
+                "https://www.televisionacademy.com/awards/nominees-winners/1962/outstanding-lead-actress-in-a-miniseries-or-a-movie"
+              ]
             }
+          ],
+          "externalEvidence": [
+            "https://www.televisionacademy.com/awards/nominees-winners/1962/outstanding-lead-actress-in-a-miniseries-or-a-movie",
+            "https://www.televisionacademy.com/features/news/features/ten-remember"
           ]
         },
         {
@@ -12865,30 +13106,6 @@
             },
             {
               "years": [
-                1997,
-                1996,
-                1995,
-                1992,
-                1986,
-                1985,
-                1981,
-                1978
-              ],
-              "disposition": "pending-review",
-              "reason": "Other Informational Series periods still require actual production-format review; the Smithsonian/Chaplin evidence does not certify the remaining titles or individual achievement roles.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-series"
-              ]
-            },
-            {
-              "years": [
                 1987
               ],
               "disposition": "current-lineage",
@@ -12942,6 +13159,56 @@
               "externalEvidence": [
                 "https://sirismm.si.edu/EADpdfs/SIA.FA91-164.pdf"
               ]
+            },
+            {
+              "years": [
+                1997,
+                1996,
+                1995,
+                1992,
+                1986,
+                1985,
+                1978
+              ],
+              "disposition": "pending-review",
+              "reason": "Remaining original Informational Series productions and complete tied pages require specific format evidence; this hosted historical discussion does not certify them.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-series"
+              ]
+            },
+            {
+              "years": [
+                1981
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "hosted-nonfiction-series-or-special",
+              "reason": "The Academy authored original Hall of Fame tribute identifies Meeting of Minds as Steve Allen hosted historical discussion/education over four seasons, distinct from his Tonight and comedy-variety shows. Follow Hosted Nonfiction under the pinned narrative/interview scope. Historical figures are dramatised conversational guests, not factual live interviewees; this educational discussion format does not become a scripted Drama programme award or the whole modern Tonight franchise. Preserve the actual 1981 Informational Series winner, PBS, the sole credited recipient Loring d'Usseau and his unavailable role. Host/writer biographies and the later tribute date cannot add, change or split the awarded programme or allocate a separate Individual Achievement award.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1981,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-series",
+                  "sha256": "0b09beb5155c20283b83c047338a25d544fe1fc96bdd15a9fe1e13db6133f275",
+                  "winnerSourceKeys": [
+                    "d95d91e365a03ee0e0bf7fbc8db9e31058f686df0826a44247eee4cec5c6f0a6"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/hall-fame/steve-allen-hall-fame-tribute",
+                "https://www.televisionacademy.com/features/news/awards-news/emmy-rules-changes-191217"
+              ]
             }
           ],
           "externalEvidence": [
@@ -12957,7 +13224,8 @@
             "https://www.pbs.org/wnet/americanmasters/series/",
             "https://www.televisionacademy.com/features/emmy-magazine/articles/ken-burns-pbs-civil-war-documentary",
             "https://www.televisionacademy.com/features/news/awards-news/emmy-rules-changes-191217",
-            "https://www.televisionacademy.com/features/news/features/forty-years-nature"
+            "https://www.televisionacademy.com/features/news/features/forty-years-nature",
+            "https://www.televisionacademy.com/features/news/hall-fame/steve-allen-hall-fame-tribute"
           ]
         },
         {
@@ -13247,44 +13515,6 @@
             },
             {
               "years": [
-                1997,
-                1996,
-                1995,
-                1992,
-                1990,
-                1988,
-                1987,
-                1986,
-                1985,
-                1984,
-                1983,
-                1982,
-                1981,
-                1980,
-                1978
-              ],
-              "disposition": "pending-review",
-              "reason": "Other original Informational Special winners still need format review; neither these producer descriptions nor the already reviewed American Masters films certify the remaining productions or individual achievement roles.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1984/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1983/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1982/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-special"
-              ]
-            },
-            {
-              "years": [
                 1994
               ],
               "disposition": "current-lineage",
@@ -13310,9 +13540,73 @@
                 "https://videoverite.tv/pages/iamapromisemain-2011.html",
                 "https://videoverite.tv/pages/storemain-2011.html"
               ]
+            },
+            {
+              "years": [
+                1997,
+                1995,
+                1992,
+                1990,
+                1988,
+                1987,
+                1986,
+                1985,
+                1984,
+                1983,
+                1982,
+                1981,
+                1980,
+                1978
+              ],
+              "disposition": "pending-review",
+              "reason": "Other Informational Special formats and complete tied pages still require original production evidence; no separate Individual Achievement awards are allocated from documentary genre.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1984/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1983/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1982/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-special"
+              ]
+            },
+            {
+              "years": [
+                1996
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-special",
+              "reason": "The original Amblin production account identifies Survivors of the Holocaust as an archival/testimonial documentary film, not a scripted movie, ongoing series or hosted interview magazine. Follow Documentary/Nonfiction Special for the exact 1996 Academy Informational Special winner. Preserve all original recipients, the TBS broadcaster and unavailable roles. The producer award summary is not Emmy authority and cannot resolve the separate Individual Achievement field or infer an editing, directing or writing award from professional production roles. Neither later Shoah films nor the Foundation institution replaces this winning film.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-informational-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Special"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1996,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-informational-special",
+                  "sha256": "9a70e7332a56fdf30026a66184b77a3551062b2a6d3a299a6d857d4e16b22261",
+                  "winnerSourceKeys": [
+                    "3a518453f9bdacb30bd508e56108b44951d203dfa88adc9c6c3b18d0651836bc"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://amblin.com/tv/survivors-of-the-holocaust/"
+              ]
             }
           ],
           "externalEvidence": [
+            "https://amblin.com/tv/survivors-of-the-holocaust/",
             "https://interviews.televisionacademy.com/interviews/dixon-dern",
             "https://interviews.televisionacademy.com/interviews/lucie-arnaz",
             "https://videoverite.tv/pages/iamapromisemain-2011.html",
@@ -20041,7 +20335,51 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-program-achievement-special-events"
           ],
           "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
+          "periods": [
+            {
+              "years": [
+                1979
+              ],
+              "disposition": "pending-review",
+              "reason": "The 1979 Academy Awards Special Events winner still needs production-specific live/prerecorded transmission evidence; the Tony broadcast does not certify another awards ceremony.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1979/outstanding-program-achievement-special-events"
+              ]
+            },
+            {
+              "years": [
+                1980
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "variety-special-live",
+              "reason": "The original Tony production annual history explicitly identifies the 34th ceremony on June 8, 1980 and its live CBS telecast. Follow Live Variety Special for its actual 1980 Emmy Special Events programme award under the pinned Special Class/Variety reorganisation. Preserve the original CBS broadcaster evidence and Emmy recipient roles exactly as recorded; outside production credits and the Tony award summary are context, not replacement Emmy facts. A ceremony date or stage performance alone does not establish live transmission for the separate Academy Awards winner.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-program-achievement-special-events"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Program Achievement-Special Events"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1980,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-program-achievement-special-events",
+                  "sha256": "90fe551535f2da1bfcda10022842bc60afb2011a1a5b4cb762e184b22b6499ea",
+                  "winnerSourceKeys": [
+                    "0c7f012a55f277c7108782eed25cc590a6e6f1f668a555be65ab990fd74d5ed7"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.tonyawards.com/history/year-by-year/1980/",
+                "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212"
+              ]
+            }
+          ],
+          "externalEvidence": [
+            "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212",
+            "https://www.tonyawards.com/history/year-by-year/1980/"
+          ]
         },
         {
           "sourceSlug": "outstanding-program-achievements-in-entertainment",
@@ -22036,7 +22374,11 @@
           "externalEvidence": [
             "https://www.televisionacademy.com/features/emmy-magazine/me-and-my-emmy/me-and-my-emmy-glenn-weiss",
             "https://www.televisionacademy.com/features/news/mix/smooth-moves",
-            "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212"
+            "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212",
+            "https://www.tonyawards.com/history/year-by-year/2009/",
+            "https://www.tonyawards.com/history/year-by-year/2010/",
+            "https://www.tonyawards.com/history/year-by-year/2012/",
+            "https://www.tonyawards.com/history/year-by-year/2013/"
           ],
           "periods": [
             {
@@ -22069,42 +22411,6 @@
             },
             {
               "years": [
-                2017,
-                2015,
-                2014,
-                2013,
-                2011,
-                2010,
-                2009,
-                2007,
-                2005,
-                2004,
-                2002,
-                1989,
-                1980,
-                1979
-              ],
-              "disposition": "pending-review",
-              "reason": "Other Special Class years still mix annual award telecasts, performing-arts productions, Olympic coverage, documentary and recurring talk programmes. Review every winning production and live/prerecorded or series/special status independently; the verified 2012 Tony broadcast and 2016 Grease live musical do not certify the other editions or Live From Lincoln Center titles.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/2017/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2015/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2014/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2013/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2011/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2010/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2009/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2007/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2005/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2004/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2002/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/1979/outstanding-special-class-programs"
-              ]
-            },
-            {
-              "years": [
                 2012
               ],
               "disposition": "current-lineage",
@@ -22129,6 +22435,96 @@
               "externalEvidence": [
                 "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212",
                 "https://www.televisionacademy.com/features/emmy-magazine/me-and-my-emmy/me-and-my-emmy-glenn-weiss"
+              ]
+            },
+            {
+              "years": [
+                2017,
+                2015,
+                2009,
+                2007,
+                2005,
+                2004,
+                2002,
+                1989,
+                1980,
+                1979
+              ],
+              "disposition": "pending-review",
+              "reason": "Other original Special Class productions and complete mixed-winner pages require format/transmission evidence; selected Tony live simulcasts do not certify every annual edition or merely live red-carpet/webcast coverage.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/2017/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2015/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2009/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2007/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2005/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2004/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2002/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/1979/outstanding-special-class-programs"
+              ]
+            },
+            {
+              "years": [
+                2014,
+                2013,
+                2011,
+                2010
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "variety-special-live",
+              "reason": "The original Tony production histories identify the actual 63rd/64th/66th/67th annual CBS awards programmes in 2009/2010/2012/2013. Their full awards broadcast was simultaneously shown live in Times Square, with both pre-telecast Creative Arts and main telecast explicitly distinguished. Follow Live Variety Special for the corresponding 2010/2011/2013/2014 Emmy Special Class winners under the pinned reorganisation. Keep each Emmy ceremony one year after its specific production, all actual source credits and roles, and programme-specific provenance. The original producer summaries cannot add or repair Emmy credits. Earlier/later Tony editions with only a CBS broadcast label remain pending; a livestreamed red carpet is not the full television programme.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/2014/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2013/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2011/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2010/outstanding-special-class-programs"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Special Class Program",
+                "Outstanding Special Class Programs"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 2014,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2014/outstanding-special-class-programs",
+                  "sha256": "2e7c0724502ef02619e8b01a8bdf6794e6931d2b726dc122322c8c743a778ac0",
+                  "winnerSourceKeys": [
+                    "cb6ad6c29652bdaba0d2d7e2279e1237c028f80a989d0e19254a024588bd91da"
+                  ]
+                },
+                {
+                  "year": 2013,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2013/outstanding-special-class-programs",
+                  "sha256": "1fc6bf812ab84104f439a862f4270bf9c949c8a4b480397ffb6f997b142a53dc",
+                  "winnerSourceKeys": [
+                    "6dae5411837d699d2accdf935870b8601d9e2bdbb53d1459e34817a9c7ab3a6e"
+                  ]
+                },
+                {
+                  "year": 2011,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2011/outstanding-special-class-programs",
+                  "sha256": "68cbab36522c7d2e167ebb71c3f2129cdeb7589f0434cec78f08587c8075d796",
+                  "winnerSourceKeys": [
+                    "73b50df5c0bbb9fe8adb1adf3e2fba90fbbbf3c9eab8f43353f11161042b81b7"
+                  ]
+                },
+                {
+                  "year": 2010,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2010/outstanding-special-class-programs",
+                  "sha256": "82e1a4c256afaf9b3ba230e7180cd30465930864154dda6c0546bca2be2ad9a6",
+                  "winnerSourceKeys": [
+                    "6706fe6863353591255b14241f4560edde2f158364cc40eab4b11606558267a5"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.tonyawards.com/history/year-by-year/2009/",
+                "https://www.tonyawards.com/history/year-by-year/2010/",
+                "https://www.tonyawards.com/history/year-by-year/2012/",
+                "https://www.tonyawards.com/history/year-by-year/2013/",
+                "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212"
               ]
             }
           ]
@@ -26516,88 +26912,6 @@
             },
             {
               "years": [
-                2017,
-                2016,
-                2015,
-                2014,
-                2013,
-                2012,
-                2011,
-                2010,
-                2009,
-                2006,
-                2005,
-                2003,
-                2002,
-                2001,
-                2000,
-                1999,
-                1998,
-                1997,
-                1996,
-                1995,
-                1994,
-                1993,
-                1992,
-                1990,
-                1988,
-                1979,
-                1978,
-                1977,
-                1976,
-                1975,
-                1974,
-                1972,
-                1971,
-                1970,
-                1969,
-                1967,
-                1966
-              ],
-              "disposition": "pending-review",
-              "reason": "Remaining combined Variety Special years require exact production/broadcast evidence for Live versus Pre-Recorded, including compiled clip specials, concert films, annual award telecasts and delayed Olympic opening ceremonies. The title, a live audience, live singing, editing of isolated inserts or another annual edition does not alone certify the broadcast route.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/2017/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2016/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2015/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2014/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2013/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2012/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2011/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2010/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2009/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2006/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2005/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2003/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2002/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2001/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2000/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1999/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1998/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1994/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1993/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1979/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1977/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1974/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1972/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1971/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1970/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1969/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1967/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1966/outstanding-variety-music-or-comedy-special"
-              ]
-            },
-            {
-              "years": [
                 1959
               ],
               "disposition": "current-lineage",
@@ -26735,6 +27049,114 @@
                 "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212",
                 "https://www.televisionacademy.com/features/news/news/larry-rickles-primetime-emmy-winning-producer-and-son-comedy-icon-don-rickles"
               ]
+            },
+            {
+              "years": [
+                2017,
+                2016,
+                2015,
+                2014,
+                2013,
+                2012,
+                2011,
+                2010,
+                2009,
+                2006,
+                2005,
+                2003,
+                2002,
+                2001,
+                2000,
+                1999,
+                1997,
+                1996,
+                1995,
+                1994,
+                1993,
+                1992,
+                1990,
+                1988,
+                1979,
+                1978,
+                1977,
+                1976,
+                1975,
+                1974,
+                1972,
+                1971,
+                1970,
+                1969,
+                1967,
+                1966
+              ],
+              "disposition": "pending-review",
+              "reason": "Other Variety Special periods still require actual production-transmission evidence. Broadcast on CBS, stage performance, pre-taped segments and a similarly named programme do not alone establish a live television special.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/2017/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2016/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2015/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2014/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2013/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2012/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2011/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2010/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2009/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2006/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2005/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2003/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2002/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2001/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/2000/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1999/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1994/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1993/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1979/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1977/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1974/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1972/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1971/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1970/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1969/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1967/outstanding-variety-music-or-comedy-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1966/outstanding-variety-music-or-comedy-special"
+              ]
+            },
+            {
+              "years": [
+                1998
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "variety-special-live",
+              "reason": "The original Tony 1997 history distinguishes the PBS Broadway 97 Launching the Tonys programme from the 51st Annual Tony Awards live CBS telecast. The exact 1998 Emmy winner credits The 1997 Tony Awards on CBS. Follow Live Variety Special for the main live awards programme, preserving its source year and all actual recipients; do not replace it with the PBS launch programme, a 1998 Tony production or names in the outside Emmy summary.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1998/outstanding-variety-music-or-comedy-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Variety, Music Or Comedy Special"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1998,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1998/outstanding-variety-music-or-comedy-special",
+                  "sha256": "ff7208545a075d681032e75475b43514a665c30b9364e164fd00c62dc86a2fb1",
+                  "winnerSourceKeys": [
+                    "ba00afbdf1081389f942a6fe02bc866c3c9a4a880f04dd3dd09d93e113c8dcf8"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.tonyawards.com/history/year-by-year/1997/",
+                "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212"
+              ]
             }
           ],
           "externalEvidence": [
@@ -26743,7 +27165,8 @@
             "https://www.televisionacademy.com/features/news/news/edward-stephenson-primetime-emmy-winning-production-designer-passes",
             "https://www.televisionacademy.com/features/news/news/larry-rickles-primetime-emmy-winning-producer-and-son-comedy-icon-don-rickles",
             "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212",
-            "https://www.televisionacademy.com/news/events/story-groundbreaking-tony-bennett-special-premieres"
+            "https://www.televisionacademy.com/news/events/story-groundbreaking-tony-bennett-special-premieres",
+            "https://www.tonyawards.com/history/year-by-year/1997/"
           ]
         },
         {
@@ -30921,8 +31344,40 @@
           "evidence": [
             "https://www.televisionacademy.com/awards/nominees-winners/1972/special-classification-of-outstanding-program-and-individual-achievement-docu-drama"
           ],
-          "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+          "disposition": "current-lineage",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Every acquired period is reviewed; the archive slug does not establish a separate modern award or override the actual source heading.",
+          "periods": [
+            {
+              "years": [
+                1972
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "limited-or-anthology-series",
+              "reason": "The original Academy programme contract explicitly says Docu-Drama. The independent Peabody production description establishes a six-part scripted historical drama made from the explorers own accounts and filmed in England/Africa. Follow Limited/Anthology Series for the awarded multipart dramatic production, not a nonfiction documentary or a single television movie inferred from a geographic subject. The other award institution supplies format context only: none of its award facts, year, team or outcome is imported. Preserve the original 1972 NBC Emmy, Christopher Ralling with an unavailable role, and the separately unresolved Special Classification Individual Achievement writer/other-role branch; genre cannot allocate that separate award.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1972/special-classification-of-outstanding-program-and-individual-achievement-docu-drama"
+              ],
+              "reviewedSourceHeadings": [
+                "Special Classification Of Outstanding Program And Individual Achievement - Docu-Drama"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1972,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1972/special-classification-of-outstanding-program-and-individual-achievement-docu-drama",
+                  "sha256": "ffecfbba2c6c9272e0337aa360dab5a8c4514c71d8bfcf26fc8effcf8476a91f",
+                  "winnerSourceKeys": [
+                    "97cff435973cff525753c1c7c3882efc1c61ad8a4ea4b4e0e1059a5aa962a411"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://peabodyawards.com/award-profile/the-search-for-the-nile/"
+              ]
+            }
+          ],
+          "externalEvidence": [
+            "https://peabodyawards.com/award-profile/the-search-for-the-nile/"
+          ]
         },
         {
           "sourceSlug": "special-classifications-of-individual-achievements",
@@ -32034,6 +32489,201 @@
       "byteCount": 28835,
       "context": "I AM A PROMISE: The Children of Stanton Elementary School (1993, 90 min.) is a cinema verite documentary that paints an unflinching portrait of the children of Stanton Elementary School in North Philadelphia, an inner-city neighborhood where 90% of the students live below the poverty line.",
       "contextSha256": "9fb06fb4d29653f753e490733936141f19fa066525eb08d2851f1b431fa00cf6"
+    },
+    {
+      "url": "https://www.televisionacademy.com/features/news/features/ten-remember",
+      "resolvedUrl": "https://www.televisionacademy.com/features/news/features/ten-remember",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "57ea09820b516062ac4185df2ad032336d0a04a7e2b072b87dd6a00c4b16fdae",
+      "byteCount": 333678,
+      "context": "Since its beginnings in 1951, the Hallmark Hall of Fame has drawn on more forms of entertainment than any other anthology series, from plays to films and even documentaries.\nLittle Moon of Alban (1958): The production received seven Emmy nominations, including best program, and won four, including a leading actress win for Julie Harris. Set in Ireland during the Black and Tan troubles, the show was so successful that Hallmark restaged it in 1964, with Julie Harris reprising her role.\nVictoria Regina (1961): With seven Emmy nominations and three wins, this story of Queen Victoria (Julie Harris again!) followed 60 years of her life, from age 18 to her Diamond Jubilee in 1897.",
+      "contextSha256": "27306bd894423ad403561e2bbeef6f19920a7ec0437f7f886ad15576e79c22bb"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1962/outstanding-lead-actress-in-a-miniseries-or-a-movie",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1962/outstanding-lead-actress-in-a-miniseries-or-a-movie",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "df868d7fc658b6c3e2d02dcd6d19e8eb98b90f121aec211423b9ed74924f34a2",
+      "byteCount": 364926,
+      "year": 1962,
+      "context": "Outstanding Single Performance By An Actress In A Leading Role\nWinner Julie Harris Hallmark Hall of Fame",
+      "contextSha256": "d6ed2cd2b29551cc841fa3f101487b96b34f62691becb9d901f6f55c5daab76b"
+    },
+    {
+      "url": "https://peabodyawards.com/award-profile/the-search-for-the-nile/",
+      "resolvedUrl": "https://peabodyawards.com/award-profile/the-search-for-the-nile/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "eb8748bd628451fa25a82b6bdee72566731c5b680ce13540d19c5bb2ef81fc5d",
+      "byteCount": 70422,
+      "context": "This six-part chronicle of the race to solve what has been termed the last great geographical mystery would be a fascinating series under any condition.\nit is particularly pleasing to be offered a drama of high adventure which also tells a story of historical substance.\nThe scripts were intelligently prepared form the explorers’ own accounts and enhanced by filming on location in England and Africa.",
+      "contextSha256": "f39b7f223c8d14543926ae55965772af42661ebd732b57bc887d48dd0aedcce9"
+    },
+    {
+      "url": "https://www.televisionacademy.com/features/news/hall-fame/steve-allen-hall-fame-tribute",
+      "resolvedUrl": "https://www.televisionacademy.com/features/news/hall-fame/steve-allen-hall-fame-tribute",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "9de8693faaa7d96ae972637ff0dc1815b30f27245c546f4147d1773fe11d095d",
+      "byteCount": 326432,
+      "context": "More recently, he devised, wrote, and hosted one of TV’s most prestigious series, Meeting of Minds.\nIn 1977, he launched a new television art form in Meeting of Minds , the highly acclaimed PBS series that resurrected the illustrious dead for a discussion of their lives and philosophies.\nThe four seasons of Meeting of Minds presented Steve Allen at his television best: writer, wit, student of history, conversationalist.\nThis tribute originally appeared in the Television Academy Hall of Fame program celebrating Steve Allen's induction in 1986.",
+      "contextSha256": "7062563f1f4ce38b90f08b991a1b06d49290f9851c779749722f0761c5ba4b1f"
+    },
+    {
+      "url": "https://www.televisionacademy.com/bios/fred-w-friendly",
+      "resolvedUrl": "https://www.televisionacademy.com/bios/fred-w-friendly",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "d18c74043a53187fab949e8e6ee528dda59576dc69c23d86b6f02653669dd827",
+      "byteCount": 313985,
+      "context": "Fred W. Friendly was the creator, along with Edward R. Murrow, of the documentary television program See It Now.",
+      "contextSha256": "27b46e5bf4c4d3f3010c3518f1b1e9ace9891c18d55eafadd3b86f6f3ba6cccf"
+    },
+    {
+      "url": "https://www.televisionacademy.com/features/news/mix/friendly-and-lucky",
+      "resolvedUrl": "https://www.televisionacademy.com/features/news/mix/friendly-and-lucky",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "87219dc6df54933bf24d8345ceae4c7d353bdac59ce334d767717db9341e5510",
+      "byteCount": 320344,
+      "context": "Andy Friendly and the CBS News program See It Now were born the same week in 1951.\nThe award-winning series — featuring the legendary Edward R. Murrow and produced by Andy’s equally legendary dad, Fred — went on to broadcast many important documentaries, most famously exposing the dangers posed by Senator Joseph R. McCarthy.",
+      "contextSha256": "05a57612c651b91ca37c5a0b5b6e223818c382c467f638b110896f1f95e13635"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1956/outstanding-documentary-or-nonfiction-series",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1956/outstanding-documentary-or-nonfiction-series",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "c1af8029817d8d772c61cf9d073e6e1cb15d5c7d637f74b50130aaed7e66e805",
+      "byteCount": 367507,
+      "year": 1956,
+      "context": "Best Documentary Program\nNominee See It Now CBS n/a",
+      "contextSha256": "f4f6abbe5b271ad3daf1606497dcaee9067d03661bd18b72dfee85376c62fe39"
+    },
+    {
+      "url": "https://findingaids.library.nyu.edu/nyhs/timeinc_ms3009_rg41/contents/aspace_ref131_hng/",
+      "resolvedUrl": "https://findingaids.library.nyu.edu/nyhs/timeinc_ms3009_rg41/contents/aspace_ref131_hng/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "473584fca4106369c0ccd956a7f042985a19054e00c5a0875ac7c11e6c99f687",
+      "byteCount": 208652,
+      "context": "Crusade in Europe was a World War II documentary film series based on Dwight D. Eisenhower's book and produced by The March of Time , and originally released in 1949.\nIt is unclear if this series was set to relaunch, if it was part of a new series, or if it was a template for the new series.",
+      "contextSha256": "22a9921040b0e6194cec69eafb08517f1cd6a7736ef9a1c6e9451ee305d50773"
+    },
+    {
+      "url": "https://amblin.com/tv/survivors-of-the-holocaust/",
+      "resolvedUrl": "https://amblin.com/tv/survivors-of-the-holocaust/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "5b2a5ef5c16f19d683d31f86744ba3a89c2f3c9c7a682f7b51baee3758016d83",
+      "byteCount": 45235,
+      "context": "Survivors of the Holocaust is an historic documentary which chronicles the events of the Shoah (the Holocaust) as witnessed by those who survived.\nThe program weaves together archival footage with survivors’ personal testimonies and photographs, chronicling life in pre-war Europe, the devastating impact of Nazism, the liberation of the concentration camps, and life fifty years later.",
+      "contextSha256": "515fbd2ba60e9ee4b4fb46eca64acb0ab6084af9e006713444526327a834d367"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1956/outstanding-comedy-series",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1956/outstanding-comedy-series",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "bcbaaa7cdd3acb3ebe22911ec01f671cb7ef255da557d86c6e40faeed1335074",
+      "byteCount": 369194,
+      "year": 1956,
+      "context": "Best Comedy Series\nWinner The Phil Silvers Show CBS n/a",
+      "contextSha256": "b4b317274ddf0986903c9d8c76fac55b7ac8c517bc37a07194a41e7d1313cbd8"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1956/best-actor",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1956/best-actor",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "15547b0bd3c3366f60a971f151214524f3aafd57473c5b5514e1e87725560e74",
+      "byteCount": 369954,
+      "year": 1956,
+      "context": "Best Actor-Continuing Performance\nWinner Phil Silvers The Phil Silvers Show",
+      "contextSha256": "b82c8d9a4daa7c0779ac81ca1a995a50e3638de9c1f85900b2905395fe5e5128"
+    },
+    {
+      "url": "https://www.tonyawards.com/history/year-by-year/1980/",
+      "resolvedUrl": "https://www.tonyawards.com/history/year-by-year/1980/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "85a32e0e5be3a8434b0005c0281cb155228f30369e3086d4796673f073cde520",
+      "byteCount": 65885,
+      "context": "34th ANNUAL TONY AWARDS\nSunday, June 8, 1980 Mark Hellinger Theatre Telecast live on the CBS Television Network",
+      "contextSha256": "37d1566766de1d9a680f3f6e7aae8dbce317cd9d6bae379710d446bf071e66a7"
+    },
+    {
+      "url": "https://www.tonyawards.com/history/year-by-year/1997/",
+      "resolvedUrl": "https://www.tonyawards.com/history/year-by-year/1997/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "c42819c3eaae404f978ab1b6e830b75bff647f1c19eca32175f9eb4dec3c822c",
+      "byteCount": 66382,
+      "context": "51st Annual Tony Awards Sunday June 1, 1997 Radio City Music Hall Broadcast live on the CBS Television Network\nBroadway '97: Launching the Tonys",
+      "contextSha256": "ea2f97a2eab5b17a8102ba695581fa713aceb8d6c79f89f7a5b25d5a3bdbe5de"
+    },
+    {
+      "url": "https://www.tonyawards.com/history/year-by-year/2009/",
+      "resolvedUrl": "https://www.tonyawards.com/history/year-by-year/2009/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "47f419d326e91ec559f1d239ad582513961e930bfa7bc92f602b6ad4cef73975",
+      "byteCount": 74147,
+      "context": "2009 – 63rd Annual Tony Awards Sunday, June 7, 2009 Radio City Music Hall Broadcast on CBS\nThe Tony Awards ceremony was shown live from Radio City Music Hall on the ClearChannel Spectacolor HD Screen in Times Square.\nThe simulcast featured both the pre-telecast Creative Arts Awards and the Tony Awards broadcast",
+      "contextSha256": "1a0ca120003856bbb60cc85e63bd77d492f47bd8a21682074b054ca0ff1b5011"
+    },
+    {
+      "url": "https://www.tonyawards.com/history/year-by-year/2010/",
+      "resolvedUrl": "https://www.tonyawards.com/history/year-by-year/2010/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "6061da75c88b64b8b42182d347ac2bb389022dc2b84e177f70e88c9f788cee92",
+      "byteCount": 74935,
+      "context": "2010 - 64th Annual Tony Awards Sunday, June 13, 2010 Radio City Music Hall\nthe entire Tony Awards ceremony was shown live from Radio City Music Hall on the ClearChannel Spectacolor HD Screen in Times Square.\nThe simulcast featured both the pre-telecast Creative Arts Awards and the Tony Awards broadcast",
+      "contextSha256": "66be321cee3d03154fcacafefbfdaef7c8b6480c6af2e7c1e4d659a64542c7ef"
+    },
+    {
+      "url": "https://www.tonyawards.com/history/year-by-year/2012/",
+      "resolvedUrl": "https://www.tonyawards.com/history/year-by-year/2012/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "2cb05c4d9dc95de88120c1cd9956ac3b49a55604e1f4b4e025d1577272e8ef61",
+      "byteCount": 76178,
+      "context": "2012 – 66th Annual Tony Awards Sunday, June 10, 2012 Beacon Theatre Broadcast on CBS\nFor the fourth consecutive year, the Tony Awards were simulcast live on Clear Channel's SpectacolorHD screen in Times Square.\nthe entirety of the Tony Awards show, including the Creative Arts Awards.",
+      "contextSha256": "e5f9e240296a0c1f599c6f7cb24756382e20b893c8a83ea0a42f3e67277b816b"
+    },
+    {
+      "url": "https://www.tonyawards.com/history/year-by-year/2013/",
+      "resolvedUrl": "https://www.tonyawards.com/history/year-by-year/2013/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "f5bfe90abb6bc13bacb44266068f0bed4fb2a641cdcee51c85390c0d67dd3bae",
+      "byteCount": 78279,
+      "context": "2013 – 67th Annual Tony Awards Sunday June 9, 2013 Radio City Music Hall Broadcast on CBS\nFor the fifth consecutive year, the Tony Awards were simulcast live on Clear Channel’s Spectacolor HD screen in Times Square.",
+      "contextSha256": "92ab20d774b28feabc4938a81138f6642559faff8b335e96c73eecc8849eb321"
+    },
+    {
+      "url": "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-003.html",
+      "resolvedUrl": "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-003.html",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "5ae463632a0393cc394c6b9494a77cc6fdab33ef260b7de95fb6d0e8e83148b2",
+      "byteCount": 264262,
+      "context": "The 26-episode, Emmy-award-winning television documentary from the early 1950's, \"Victory at Sea\"",
+      "contextSha256": "fd810080965d2f2a2876e75683a818fd8481991098f288d18c29d916c07be0f6"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1958/best-actor",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1958/best-actor",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "7366cb6e631ec1a182b7d0656bf5a6019b3416e114abad06e0e4d203c70e4b30",
+      "byteCount": 365614,
+      "year": 1958,
+      "context": "Best Continuing Performance By An Actor In A Leading Role In A Dramatic Or Comedy Series\nWinner Robert Young Father Knows Best",
+      "contextSha256": "b5c11afc76a5d0762d882e6be93551faeeec247abe2c717908fa14a8bb9eb25d"
     }
   ],
   "annualExceptions": [

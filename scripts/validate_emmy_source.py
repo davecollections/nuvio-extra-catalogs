@@ -25,6 +25,15 @@ PRODUCER_CONTEXT_PATHS = {
     "ericclapton.com": {"/pages/timeline-2000s"},
     "sirismm.si.edu": {"/EADpdfs/SIA.FA91-164.pdf"},
     "videoverite.tv": {"/pages/iamapromisemain-2011.html", "/pages/storemain-2011.html"},
+    "amblin.com": {"/tv/survivors-of-the-holocaust/"},
+    "peabodyawards.com": {"/award-profile/the-search-for-the-nile/"},
+    "findingaids.library.nyu.edu": {"/nyhs/timeinc_ms3009_rg41/contents/aspace_ref131_hng/"},
+    "www.history.navy.mil": {"/about-us/leadership/director/directors-corner/h-grams/h-gram-003.html"},
+    "www.tonyawards.com": {
+        "/history/year-by-year/1980/", "/history/year-by-year/1997/",
+        "/history/year-by-year/2009/", "/history/year-by-year/2010/",
+        "/history/year-by-year/2012/", "/history/year-by-year/2013/",
+    },
     "www.pbs.org": {
         "/wnet/gperf/eric-clapton-crossroads-guitar-festival-chicago-chicago-blues-overview/404/",
         "/about/about-pbs/blogs/news/pbs-offers-music-and-dance-lovers-exciting-new-performance-specials-throughout-march-and-april-february-13-2008/",

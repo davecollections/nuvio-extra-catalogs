@@ -401,8 +401,8 @@ class EmmyLineageReviewTests(unittest.TestCase):
         report = build()
         # Five personality years and an expressly headed cultural performance
         # remain under pending slugs, alongside nine retired-programme pages.
-        self.assertEqual(report["summary"]["retainedScopeExcludedPageCount"], 15)
-        self.assertEqual(report["summary"]["retainedScopeExcludedWinnerRecordCount"], 16)
+        self.assertEqual(report["summary"]["retainedScopeExcludedPageCount"], 16)
+        self.assertEqual(report["summary"]["retainedScopeExcludedWinnerRecordCount"], 17)
         self.assertEqual(report["summary"]["publishedEmmyCatalogueCount"], 0)
 
     def test_miniseries_slug_does_not_reclassify_the_1973_single_programme(self):
@@ -572,7 +572,9 @@ class EmmyLineageReviewTests(unittest.TestCase):
 
     def test_new_production_records_are_exact_context_only_for_request_and_redirect(self):
         from validate_emmy_source import PRODUCER_CONTEXT_PATHS
-        hosts = {"www.georgestevensjr.com", "ericclapton.com", "sirismm.si.edu", "videoverite.tv", "www.pbs.org"}
+        hosts = {"www.georgestevensjr.com", "ericclapton.com", "sirismm.si.edu", "videoverite.tv", "www.pbs.org",
+                 "amblin.com", "peabodyawards.com", "findingaids.library.nyu.edu", "www.tonyawards.com",
+                 "www.history.navy.mil"}
         contexts = load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]
         for host in hosts:
             for path in PRODUCER_CONTEXT_PATHS[host]:
@@ -847,7 +849,7 @@ class EmmyLineageReviewTests(unittest.TestCase):
     def test_tony_profile_does_not_shift_the_award_to_its_publication_year(self):
         decision = self.decisions["outstanding-special-class-programs"]
         self.assertEqual(category_for_year(decision, 2012), "variety-special-live")
-        self.assertIsNone(category_for_year(decision, 2013))
+        self.assertNotIn(2013, review_for_year(decision, 2012)["years"])
         page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
                     if p["sourceUrl"].endswith("/2012/" + decision["sourceSlug"]))
         self.assertEqual(page["winners"][0]["heading"], "65th Annual Tony Awards")
@@ -977,10 +979,10 @@ class EmmyLineageReviewTests(unittest.TestCase):
         self.assertIn("journalism produced by Bill Moyers and his team", ownership)
         self.assertIn("rights to the company’s work were assigned to Doctoroff Media Group", ownership)
 
-    def test_reviewed_hosted_productions_cannot_certify_dramatic_dialogue_or_partial_ties(self):
+    def test_reviewed_hosted_productions_cannot_certify_partial_ties(self):
         decision = self.decisions["outstanding-informational-series"]
         pages = load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
-        for year, count in ((1981, 1), (1995, 2)):
+        for year, count in ((1995, 2),):
             with self.subTest(year=year):
                 self.assertEqual(review_for_year(decision, year)["disposition"], "pending-review")
                 page = next(p for p in pages if p["sourceUrl"].endswith(f"/{year}/outstanding-informational-series"))
@@ -988,6 +990,164 @@ class EmmyLineageReviewTests(unittest.TestCase):
                 for winner in page["winners"]:
                     self.assertIsNone(category_for_winner(decision, year, winner["sourceKey"]))
         self.assertIsNone(category_for_year(self.decisions["outstanding-individual-achievement-informational-programming"], 1984))
+
+    def test_hallmark_supporting_awards_keep_the_generic_anthology_credit(self):
+        slug = "best-series-supporting-actress"
+        pages = load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+        for year, recipient in ((1962, "Pamela Brown"), (1964, "Ruth White")):
+            page = next(p for p in pages if p["sourceUrl"].endswith(f"/{year}/{slug}"))
+            winner = page["winners"][0]
+            self.assertEqual(category_for_year(self.decisions[slug], year),
+                             "supporting-actress-in-a-limited-or-anthology-series-or-movie")
+            self.assertEqual(page["sourceCategory"], "Outstanding Performance In A Supporting Role By An Actress")
+            self.assertEqual(winner["heading"], recipient)
+            self.assertEqual([p["name"] for p in winner["programmes"]], ["Hallmark Hall of Fame"])
+            self.assertEqual([(c["name"], c["role"]) for c in winner["credits"]], [(recipient, "")])
+        contexts = {s["url"]: s["context"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]}
+        self.assertIn("restaged it in 1964", contexts[
+            "https://www.televisionacademy.com/features/news/features/ten-remember"])
+        self.assertIn("Outstanding Single Performance By An Actress In A Leading Role", contexts[
+            "https://www.televisionacademy.com/awards/nominees-winners/1962/outstanding-lead-actress-in-a-miniseries-or-a-movie"])
+
+    def test_nile_drama_format_does_not_resolve_a_separate_individual_award(self):
+        slug = "special-classification-of-outstanding-program-and-individual-achievement-docu-drama"
+        self.assertEqual(category_for_year(self.decisions[slug], 1972), "limited-or-anthology-series")
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1972/' + slug))
+        self.assertIn("Docu-Drama", page["sourceCategory"])
+        self.assertEqual([(c["name"], c["role"]) for c in page["winners"][0]["credits"]], [("Christopher Ralling", "")])
+        individual = self.decisions["special-classifications-of-individual-achievements"]
+        self.assertIsNone(category_for_year(individual, 1972))
+        url = "https://peabodyawards.com/award-profile/the-search-for-the-nile/"
+        context = next(s for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"] if s["url"] == url)
+        self.assertIn("six-part chronicle", context["context"])
+        self.assertIn("scripts", context["context"])
+        with self.assertRaises(SourceError):
+            evidence(context, url)  # Another award institution supplies format, never Emmy results.
+
+    def test_meeting_of_minds_hosted_history_keeps_the_actual_single_recipient(self):
+        slug = "outstanding-informational-series"
+        review = review_for_year(self.decisions[slug], 1981)
+        self.assertEqual(review["currentCategory"], "hosted-nonfiction-series-or-special")
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1981/' + slug))
+        winner = page["winners"][0]
+        self.assertEqual(winner["heading"], "Steve Allen's Meeting of Minds")
+        self.assertEqual(winner["sourceDetailLines"], ["PBS"])
+        self.assertEqual([(c["name"], c["role"]) for c in winner["credits"]], [("Loring d'Usseau", "")])
+        contexts = {s["url"]: s["context"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]}
+        tribute = contexts["https://www.televisionacademy.com/features/news/hall-fame/steve-allen-hall-fame-tribute"]
+        self.assertIn("devised, wrote, and hosted", tribute)
+        self.assertIn("resurrected the illustrious dead", tribute)
+        self.assertNotIn("Steve Allen", [c["name"] for c in winner["credits"]])
+
+    def test_see_it_now_documentary_context_does_not_invent_presenter_awards(self):
+        pages = load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+        for year, slug in ((1953, "best-public-affairs-program"), (1957, "best-public-service-program-or-series")):
+            self.assertEqual(category_for_year(self.decisions[slug], year), "documentary-or-nonfiction-series")
+            winner = next(p for p in pages if p["sourceUrl"].endswith(f"/{year}/{slug}"))["winners"][0]
+            self.assertEqual(winner["sourceDetailLines"], ["CBS"])
+            self.assertEqual([(c["name"], c["role"]) for c in winner["credits"]], [("n/a", "")])
+        contexts = {s["url"]: s["context"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]}
+        contract = contexts["https://www.televisionacademy.com/awards/nominees-winners/1956/outstanding-documentary-or-nonfiction-series"]
+        self.assertIn("Best Documentary Program", contract)
+        self.assertIn("Nominee See It Now", contract)
+
+    def test_crusade_original_series_is_separate_from_uncertain_later_relaunch(self):
+        slug = "best-public-service-program-or-series"
+        self.assertEqual(category_for_year(self.decisions[slug], 1950), "documentary-or-nonfiction-series")
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1950/' + slug))
+        winner = page["winners"][0]
+        self.assertEqual(winner["sourceDetailLines"], ["KECA-TV, KTTV"])
+        self.assertEqual([(c["name"], c["role"]) for c in winner["credits"]], [("n/a", "")])
+        context = next(s["context"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]
+                       if s["url"] == "https://findingaids.library.nyu.edu/nyhs/timeinc_ms3009_rg41/contents/aspace_ref131_hng/")
+        self.assertIn("originally released in 1949", context)
+        self.assertIn("It is unclear if this series was set to relaunch", context)
+        self.assertIsNone(category_for_year(self.decisions[slug], 1951))
+
+    def test_survivors_documentary_does_not_repair_missing_individual_roles(self):
+        slug = "outstanding-informational-special"
+        self.assertEqual(category_for_year(self.decisions[slug], 1996), "documentary-or-nonfiction-special")
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1996/' + slug))
+        winner = page["winners"][0]
+        self.assertEqual(winner["sourceDetailLines"], ["TBS"])
+        self.assertEqual([c["name"] for c in winner["credits"]],
+                         ["Jacoba Atlas", "June Beallor", "Allan Holzman", "Pat Mitchell", "James Moll", "Vivian Schiller"])
+        self.assertEqual([c["role"] for c in winner["credits"]], [""] * 6)
+        self.assertIsNone(category_for_year(self.decisions["outstanding-individual-achievement-informational-programming"], 1996))
+
+    def test_silvers_independent_comedian_award_retains_its_na_production_credit(self):
+        self.assertEqual(category_for_year(self.decisions["best-comedian"], 1956), "lead-actor-in-a-comedy-series")
+        pages = load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+        comedian = next(p for p in pages if p["sourceUrl"].endswith('/1956/best-comedian'))["winners"][0]
+        performer = next(p for p in pages if p["sourceUrl"].endswith('/1956/best-actor'))["winners"][0]
+        self.assertEqual(comedian["heading"], performer["heading"])
+        self.assertEqual([p["name"] for p in comedian["programmes"]], ["N/A"])
+        self.assertEqual([p["name"] for p in performer["programmes"]], ["The Phil Silvers Show"])
+        self.assertNotEqual(comedian["sourceKey"], performer["sourceKey"])
+        self.assertIsNone(category_for_year(self.decisions["best-comedian"], 1957))
+
+    def test_live_tony_allocations_keep_emmy_years_and_the_main_cbs_production(self):
+        pages = load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+        for year, slug, title in (
+                (1980, "outstanding-program-achievement-special-events", "The 34th Annual Tony Awards"),
+                (1998, "outstanding-variety-music-or-comedy-special", "The 1997 Tony Awards"),
+                (2010, "outstanding-special-class-programs", "63rd Annual Tony Awards"),
+                (2011, "outstanding-special-class-programs", "64th Annual Tony Awards"),
+                (2013, "outstanding-special-class-programs", "66th Annual Tony Awards"),
+                (2014, "outstanding-special-class-programs", "67th Annual Tony Awards")):
+            self.assertEqual(category_for_year(self.decisions[slug], year), "variety-special-live")
+            page = next(p for p in pages if p["sourceUrl"].endswith(f"/{year}/{slug}"))
+            self.assertEqual(page["winners"][0]["heading"], title)
+            self.assertEqual(page["winners"][0]["sourceDetailLines"], ["CBS"])
+        contexts = {s["url"]: s["context"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]}
+        self.assertIn("Broadcast live on the CBS", contexts["https://www.tonyawards.com/history/year-by-year/1997/"])
+        self.assertIn("Launching the Tonys", contexts["https://www.tonyawards.com/history/year-by-year/1997/"])
+        for year in (2009, 2010):
+            self.assertIn("both the pre-telecast Creative Arts Awards and the Tony Awards broadcast",
+                          contexts[f"https://www.tonyawards.com/history/year-by-year/{year}/"])
+
+    def test_live_tony_history_does_not_certify_other_editions_or_red_carpet_webcasts(self):
+        self.assertIsNone(category_for_year(self.decisions["outstanding-special-class-awards-programs"], 2008))
+        for year in (2007, 2017):
+            self.assertIsNone(category_for_year(self.decisions["outstanding-special-class-programs"], year))
+        self.assertIsNone(category_for_year(self.decisions["outstanding-program-achievement-special-events"], 1979))
+
+    def test_victory_at_sea_original_documentary_is_not_the_naval_memoir(self):
+        decision = self.decisions["best-public-affairs-program"]
+        self.assertEqual(decision["disposition"], "current-lineage")
+        self.assertEqual(category_for_year(decision, 1954), "documentary-or-nonfiction-series")
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1954/best-public-affairs-program'))
+        winner = page["winners"][0]
+        self.assertEqual(winner["heading"], "Victory at Sea")
+        self.assertEqual(winner["sourceDetailLines"], ["NBC"])
+        self.assertEqual([(c["name"], c["role"]) for c in winner["credits"]], [("n/a", "")])
+        url = "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-003.html"
+        record = next(s for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"] if s["url"] == url)
+        self.assertIn('26-episode', record["context"])
+        self.assertIn('television documentary from the early 1950', record["context"])
+        with self.assertRaises(SourceError):
+            evidence(record, url)
+
+    def test_benny_broad_personality_award_does_not_replace_his_character_acting_award(self):
+        decision = self.decisions["best-comedian"]
+        review = review_for_year(decision, 1958)
+        self.assertEqual(review["disposition"], "excluded")
+        self.assertNotIn("currentCategory", review)
+        self.assertIsNone(category_for_year(decision, 1958))
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1958/best-comedian'))
+        winner = page["winners"][0]
+        self.assertIn("Any Person Who Essentially Plays Himself", page["sourceCategory"])
+        self.assertEqual(winner["heading"], "Jack Benny")
+        self.assertEqual([p["name"] for p in winner["programmes"]], ["The Jack Benny Show"])
+        self.assertEqual(review["reviewedSourcePages"][0]["winnerSourceKeys"], [winner["sourceKey"]])
+        self.assertEqual(category_for_year(self.decisions["outstanding-lead-actor-in-a-comedy-series"], 1959),
+                         "lead-actor-in-a-comedy-series")
 
     def test_period_context_reference_requires_pinned_evidence(self):
         decision = self.decisions["outstanding-miniseries-or-movie"]
