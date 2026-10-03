@@ -47,6 +47,15 @@ jobs:
       - name: Validate canonical awards data
         run: python scripts/validate_awards_data.py
 
+      - name: Validate acquired Emmy source evidence
+        run: python scripts/validate_emmy_source.py
+
+      - name: Check Emmy HTML adapter regressions
+        run: python scripts/test_emmy_source.py
+
+      - name: Check Emmy historical source audit
+        run: python scripts/build_emmy_lineage_audit.py --check
+
       - name: Validate BAFTA current source registry
         run: python scripts/validate_bafta_source_registry.py
 

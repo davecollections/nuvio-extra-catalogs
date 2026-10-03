@@ -1,0 +1,87 @@
+{
+  "policy": "Captured first-party HTML excerpts for pure parser unit tests. No fabricated external responses or titles. Live acquisition is tested separately.",
+  "fixtures": [
+    {
+      "file": "comedy-2026.html.gz",
+      "year": 2026,
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-comedy-series",
+      "sourceSha256": "b1161231b379b466a642565f7ec90880f1b52e6aa73e10b248d4d2e73b07f856",
+      "excerptSha256": "ba769034ea5e0381142c877040991b0559ac6b453ea929771d61b72e564799b7",
+      "nominationCount": 8,
+      "winnerCount": 1
+    },
+    {
+      "file": "host-2026.html.gz",
+      "year": 2026,
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-host-for-a-game-show",
+      "sourceSha256": "9b4636a8979a7e0cccb3896b3e3ee9325eb7be99fdc7a8edcf6bc507c828c56d",
+      "excerptSha256": "a98aa160113d65cff20601f48844525e73fa0bbc675f971f44aa9209cc12f92d",
+      "nominationCount": 5,
+      "winnerCount": 1
+    },
+    {
+      "file": "merit-2026.html.gz",
+      "year": 2026,
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/2026/exceptional-merit-in-documentary-filmmaking",
+      "sourceSha256": "62d2b6d188cc3c9cf4918dad147e1e851810a1acc7d844dad421ff1fdc79569e",
+      "excerptSha256": "680d60613cc8b4dd4f73fee2b3693f22325d24f9c9ec1971820f770eee0320da",
+      "nominationCount": 2,
+      "winnerCount": 1
+    },
+    {
+      "file": "movie-1949.html.gz",
+      "year": 1949,
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1949/outstanding-made-for-television-movie",
+      "sourceSha256": "a887e469b2838951b3878eccde42c27de6ceaae1e87d8c8f88412f94473a82e1",
+      "excerptSha256": "05b1dacd591bf0699ab4bd4f8e1bb5fbd56ed0d48385190eed9721453eefb111",
+      "nominationCount": 6,
+      "winnerCount": 1
+    },
+    {
+      "file": "structured-reality-2022.html.gz",
+      "year": 2022,
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/2022/outstanding-structured-reality-program",
+      "sourceSha256": "6bbebb1faa34cd559f732c4ea74c86bc257b4089a953ab84c4668d2fab6d4c67",
+      "excerptSha256": "9140aa85ce4530b74554b43fa8f430994312e926b05f2b7c9a00290442d985e6",
+      "nominationCount": 5,
+      "winnerCount": 1
+    },
+    {
+      "file": "drama-directing-1990.html.gz",
+      "year": 1990,
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-directing-for-a-drama-series",
+      "sourceSha256": "40d582de08a2ca05136ada819e29eadff58d0baafb8135591a6abf42b618c190",
+      "excerptSha256": "5c60001bbadb4795c60400d4ada71d9ada9bf5ebccc708fda4c73c2666390509",
+      "nominationCount": 5,
+      "winnerCount": 2
+    },
+    {
+      "file": "comedy-directing-2026.html.gz",
+      "year": 2026,
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-comedy-series",
+      "sourceSha256": "e1d8c2f188e8cc07f7d5a7f95824b3a60efc9ede8ccf39edbc51ea9faebc18ff",
+      "excerptSha256": "9195521481d1e9d3dd78fb439a5d7c6f41a53fd64bb90a27809ce9f2d4915536",
+      "nominationCount": 6,
+      "winnerCount": 1
+    },
+    {
+      "file": "supporting-performance-1969.html.gz",
+      "year": 1969,
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1969/outstanding-single-performance-by-an-actor-in-a-supporting-role",
+      "sourceSha256": "aeedc6eee2a7e0b81669aff92d4c1230bd0c7c993c8c5cb016fbd60aa3fe710d",
+      "excerptSha256": "cae64722dbcb906d838586727e994fda39de9e4953f9722fc5fe4a92ef659ca2",
+      "nominationCount": 3,
+      "winnerCount": 0,
+      "expectedError": "no-explicit-winners"
+    },
+    {
+      "file": "variety-directing-1969.html.gz",
+      "year": 1969,
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1969/outstanding-directing-for-a-variety-series",
+      "sourceSha256": "9aa79b3cd952d8deeed520a467794772a110dafe1d04915b3b2bce531ac517e2",
+      "excerptSha256": "98e45cdd2ba7b4a99d4d833dbdab39e5fcc78f271ed05953d8869c62ee6e82f4",
+      "nominationCount": 3,
+      "winnerCount": 1
+    }
+  ]
+}

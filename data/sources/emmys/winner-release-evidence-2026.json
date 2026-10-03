@@ -1,0 +1,1368 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-03",
+  "authority": {
+    "name": "Television Academy",
+    "searchPage": "https://www.televisionacademy.com/awards/awards-search"
+  },
+  "policy": "All selected HTML programme/recipient names occur in matching official release sections. Full release credits are retained; differences remain pending individual recipient review, not accepted identity mappings.",
+  "releaseHeadingCount": 120,
+  "selectedCategoryCount": 49,
+  "sources": [
+    {
+      "file": "winners-2026-main.pdf",
+      "url": "https://www.televisionacademy.com/78th-emmy-winners",
+      "resolvedUrl": "https://www.televisionacademy.com/files/assets/press/260914-emmys-winners-v1.pdf",
+      "status": 200,
+      "sha256": "94ba911c7ffa7674a14417e47464b11e8d0d8047d05d1914016bb4418b002705",
+      "byteCount": 535858,
+      "checkedAt": "2026-10-03",
+      "pageCount": 9,
+      "categoryHeadingCount": 19
+    },
+    {
+      "file": "winners-2026-saturday.pdf",
+      "url": "https://www.televisionacademy.com/2026/creative/260905",
+      "resolvedUrl": "https://www.televisionacademy.com/files/assets/press/260905-emmys-night-1-winners-v1.pdf",
+      "status": 200,
+      "sha256": "d3863483a80fe6f70af371d0398c7348f2f1615acdf8fcc94b2b007bf90bd790",
+      "byteCount": 364780,
+      "checkedAt": "2026-10-03",
+      "pageCount": 17,
+      "categoryHeadingCount": 49
+    },
+    {
+      "file": "winners-2026-sunday.pdf",
+      "url": "https://www.televisionacademy.com/2026/creative/260906",
+      "resolvedUrl": "https://www.televisionacademy.com/files/assets/press/260906-emmys-night-2-winners-v1.pdf",
+      "status": 200,
+      "sha256": "ea035c26bc4a7398b3aae459da08be3d838772f1ac30c6c7a301044d8a976ede",
+      "byteCount": 614249,
+      "checkedAt": "2026-10-03",
+      "pageCount": 18,
+      "categoryHeadingCount": 52
+    }
+  ],
+  "categories": [
+    {
+      "id": "directing-for-a-documentarynonfiction-program",
+      "name": "OUTSTANDING DIRECTING FOR A DOCUMENTARY/NONFICTION PROGRAM",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-documentarynonfiction-program",
+      "htmlSourceSha256": "ccdf290503602f6268050af6ac681bba26b14df740aad36e270124340d076c0d",
+      "releaseFile": "winners-2026-saturday.pdf",
+      "releaseContext": "OUTSTANDING DIRECTING FOR A DOCUMENTARY/NONFICTION PROGRAM \nMARISKA HARGITAY, Directed by HBO MAX \n \nMy Mom Jayne: A Film By Mariska Hargitay",
+      "sectionSha256": "6b2a55b63d6abb40ce8ea8fd425417e1484afc8b55e9c2190c83ab166be8c1d1",
+      "htmlRecipientNames": [
+        "Mariska Hargitay"
+      ],
+      "htmlProgrammeNames": [
+        "My Mom Jayne: A Film By Mariska Hargitay"
+      ],
+      "releaseRecipientLineCandidates": [],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "directing-for-a-reality-program",
+      "name": "OUTSTANDING DIRECTING FOR A REALITY PROGRAM",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-reality-program",
+      "htmlSourceSha256": "124798bb451604b51b18e7bb461930a47660580630f8c1b07c5fd434d9a488e9",
+      "releaseFile": "winners-2026-saturday.pdf",
+      "releaseContext": "OUTSTANDING DIRECTING FOR A REALITY PROGRAM \nBEN ARCHARD, Directed by PEACOCK \n \nThe Traitors \nLet The Cards Fall As They Will",
+      "sectionSha256": "7172202a2c1d00becb480d22abf6367f372e69801d188287354e64674b927da4",
+      "htmlRecipientNames": [
+        "Ben Archard"
+      ],
+      "htmlProgrammeNames": [
+        "The Traitors"
+      ],
+      "releaseRecipientLineCandidates": [],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "directing-for-a-variety-series",
+      "name": "OUTSTANDING DIRECTING FOR A VARIETY SERIES",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-variety-series",
+      "htmlSourceSha256": "1a008db750ad7c060a1d977fcae41a4408dc5dbe12ce793e37b7dc03292d7af0",
+      "releaseFile": "winners-2026-saturday.pdf",
+      "releaseContext": "OUTSTANDING DIRECTING FOR A VARIETY SERIES \nYVONNE DE MARE, Directed by CBS \n \nThe Late Show With Stephen Colbert \nThe Late Show with Stephen Colbert Series Finale",
+      "sectionSha256": "395bd69e3b2c47625b9e2d9daa732dd2dc00483868c36c833a2b6a4bfb82ab68",
+      "htmlRecipientNames": [
+        "Yvonne De Mare"
+      ],
+      "htmlProgrammeNames": [
+        "The Late Show with Stephen Colbert"
+      ],
+      "releaseRecipientLineCandidates": [],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "directing-for-a-variety-special",
+      "name": "OUTSTANDING DIRECTING FOR A VARIETY SPECIAL",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-variety-special",
+      "htmlSourceSha256": "01985440860283afd0071000a59a111501c348a5d7f36df0a057c23e12219d17",
+      "releaseFile": "winners-2026-saturday.pdf",
+      "releaseContext": "OUTSTANDING DIRECTING FOR A VARIETY SPECIAL \nHAMISH HAMILTON, Directed by NBC \n \nThe Apple Music Super Bowl LX Halftime Show Starring Bad Bunny \n  \nTELEVISION ACADEMY \n78TH EMMY AWARDS NIGHT ONE \n \n \n13",
+      "sectionSha256": "2f564e3730f1332fb3a206c7ea8c79f44cfb41d5e6d5af132de68f4c28803879",
+      "htmlRecipientNames": [
+        "Hamish Hamilton"
+      ],
+      "htmlProgrammeNames": [
+        "The Apple Music Super Bowl LX Halftime Show Starring Bad Bunny"
+      ],
+      "releaseRecipientLineCandidates": [],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "documentary-or-nonfiction-series",
+      "name": "OUTSTANDING DOCUMENTARY OR NONFICTION SERIES",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-documentary-or-nonfiction-series",
+      "htmlSourceSha256": "be4a8a2cd4d9ed3be3afd3ec465054f7308ddf6a14a39126077f5bef1cbeb658",
+      "releaseFile": "winners-2026-saturday.pdf",
+      "releaseContext": "OUTSTANDING DOCUMENTARY OR NONFICTION SERIES \n(Area Award: Possibility of one or more than one award.) \nMR. SCORSESE APPLE TV \n \nDamon Cardasis, Executive Producer \nCindy Tolan, Executive Producer \nRebecca Miller, Executive Producer \nRick Yorn, Executive Producer \nChristopher Donnelly, Executive Producer \nJulie Yorn, Executive Producer \nRobert Fernandez, Co-Executive Producer \nPatrick Walmsley, Co-Executive Producer \nRon Burkle, Producer",
+      "sectionSha256": "fe009aa50e2de7605e489dc358e68d17a8b17062af168f2081544b7969e1a3da",
+      "htmlRecipientNames": [
+        "Damon Cardasis",
+        "Cindy Tolan",
+        "Rebecca Miller",
+        "Rick Yorn",
+        "Christopher Donnelly",
+        "Julie Yorn",
+        "Robert Fernandez",
+        "Patrick Walmsley",
+        "Ron Burkle"
+      ],
+      "htmlProgrammeNames": [
+        "Mr. Scorsese"
+      ],
+      "releaseRecipientLineCandidates": [
+        "Damon Cardasis, Executive Producer",
+        "Cindy Tolan, Executive Producer",
+        "Rebecca Miller, Executive Producer",
+        "Rick Yorn, Executive Producer",
+        "Christopher Donnelly, Executive Producer",
+        "Julie Yorn, Executive Producer",
+        "Robert Fernandez, Co-Executive Producer",
+        "Patrick Walmsley, Co-Executive Producer",
+        "Ron Burkle, Producer"
+      ],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "documentary-or-nonfiction-special",
+      "name": "OUTSTANDING DOCUMENTARY OR NONFICTION SPECIAL",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-documentary-or-nonfiction-special",
+      "htmlSourceSha256": "9b2b00bc5d35c02577b7ec5c982c561f94dc562fac17ec22023d9edd4ede662e",
+      "releaseFile": "winners-2026-saturday.pdf",
+      "releaseContext": "OUTSTANDING DOCUMENTARY OR NONFICTION SPECIAL \n(Area Award: Possibility of one or more than one award.) \nMY MOM JAYNE: A FILM BY MARISKA HARGITAY HBO MAX \n \nMariska Hargitay, Produced by \nTrish Adlesic, Produced by \nNancy Abraham, Executive Producer \nLisa Heller, Executive Producer \nLauran Bromley, Executive Producer \nAnna Klein, Senior Producer \nSteven Bennett, Line Producer",
+      "sectionSha256": "84d605d5c539f32bbf9f9203f37e53a0a0ffd232e033ee0bf94cd57938793316",
+      "htmlRecipientNames": [
+        "Mariska Hargitay",
+        "Trish Adlesic",
+        "Nancy Abraham",
+        "Lisa Heller",
+        "Lauran Bromley",
+        "Anna Klein",
+        "Steven Bennett"
+      ],
+      "htmlProgrammeNames": [
+        "My Mom Jayne: A Film By Mariska Hargitay"
+      ],
+      "releaseRecipientLineCandidates": [
+        "Nancy Abraham, Executive Producer",
+        "Lisa Heller, Executive Producer",
+        "Lauran Bromley, Executive Producer",
+        "Anna Klein, Senior Producer",
+        "Steven Bennett, Line Producer"
+      ],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "exceptional-merit-in-documentary-filmmaking",
+      "name": "EXCEPTIONAL MERIT IN DOCUMENTARY FILMMAKING",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/exceptional-merit-in-documentary-filmmaking",
+      "htmlSourceSha256": "62d2b6d188cc3c9cf4918dad147e1e851810a1acc7d844dad421ff1fdc79569e",
+      "releaseFile": "winners-2026-saturday.pdf",
+      "releaseContext": "EXCEPTIONAL MERIT IN DOCUMENTARY FILMMAKING \n(Juried Award: All entrants are screened by a jury of appropriate peer group members and \none, more than one, or no award entry is awarded an Emmy.) \nTHE LIBRARIANS PBS \n \nKim A. Snyder, Produced by \nJanique L. Robillard, Produced by \nMaria Cuomo Cole, Produced by \nJana Edelbaum, Produced by \nLois Vossen, Executive Producer",
+      "sectionSha256": "04814789d4241cb9b1b55dd756166cec244f9d42eb75d76d59bac02a5d41750a",
+      "htmlRecipientNames": [
+        "Kim A. Snyder",
+        "Janique L. Robillard",
+        "Maria Cuomo Cole",
+        "Jana Edelbaum",
+        "Lois Vossen"
+      ],
+      "htmlProgrammeNames": [
+        "The Librarians"
+      ],
+      "releaseRecipientLineCandidates": [
+        "Lois Vossen, Executive Producer"
+      ],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "game-show",
+      "name": "OUTSTANDING GAME SHOW",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-game-show",
+      "htmlSourceSha256": "af89aa320f8906ef6c7509f95cfba3c17e9c8b0f28ee64389ae51fd3ec68905f",
+      "releaseFile": "winners-2026-saturday.pdf",
+      "releaseContext": "OUTSTANDING GAME SHOW \nJEOPARDY! ABC/SYNDICATED \n \nMichael Davies, Executive Producer \nSarah Whitcomb Foss, Co-Executive Producer \nBari Jean Dorman, Co-Executive Producer \nLaura Mueller, Line Producer \nBilly Wisse, Head Writer \nMichele Loud, Head Writer \nMarcus Brown, Writer \nJohn Duarte, Writer \nMark Gaberman, Writer \nDebbie Griffin, Writer \nRobert McClenaghan, Writer \nAmy Ozols, Writer \nJim Rhine, Writer",
+      "sectionSha256": "45e87f62ec7c1052941e3a500b163ff2ad27b08bc1dd83a3bbe7e1ec9707da02",
+      "htmlRecipientNames": [
+        "Michael Davies",
+        "Sarah Whitcomb Foss",
+        "Bari Jean Dorman",
+        "Laura Mueller",
+        "Billy Wisse",
+        "Michele Loud",
+        "Marcus Brown",
+        "John Duarte",
+        "Mark Gaberman",
+        "Debbie Griffin",
+        "Robert McClenaghan",
+        "Amy Ozols",
+        "Jim Rhine"
+      ],
+      "htmlProgrammeNames": [
+        "Jeopardy!"
+      ],
+      "releaseRecipientLineCandidates": [
+        "Michael Davies, Executive Producer",
+        "Sarah Whitcomb Foss, Co-Executive Producer",
+        "Bari Jean Dorman, Co-Executive Producer",
+        "Laura Mueller, Line Producer",
+        "Billy Wisse, Head Writer",
+        "Michele Loud, Head Writer",
+        "Marcus Brown, Writer",
+        "John Duarte, Writer",
+        "Mark Gaberman, Writer",
+        "Debbie Griffin, Writer",
+        "Robert McClenaghan, Writer",
+        "Amy Ozols, Writer",
+        "Jim Rhine, Writer"
+      ],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "host-for-a-game-show",
+      "name": "OUTSTANDING HOST FOR A GAME SHOW",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-host-for-a-game-show",
+      "htmlSourceSha256": "9b4636a8979a7e0cccb3896b3e3ee9325eb7be99fdc7a8edcf6bc507c828c56d",
+      "releaseFile": "winners-2026-saturday.pdf",
+      "releaseContext": "OUTSTANDING HOST FOR A GAME SHOW \nJIMMY KIMMEL, Host ABC \n \nWho Wants To Be A Millionaire",
+      "sectionSha256": "ad8f6a3a241615c873d17896408d6206984ad3fe387b852664f42083ce09940a",
+      "htmlRecipientNames": [
+        "Jimmy Kimmel"
+      ],
+      "htmlProgrammeNames": [
+        "Who Wants To Be A Millionaire"
+      ],
+      "releaseRecipientLineCandidates": [
+        "JIMMY KIMMEL, Host ABC"
+      ],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "host-for-a-reality-or-reality-competition-program",
+      "name": "OUTSTANDING HOST FOR A REALITY OR REALITY COMPETITION PROGRAM",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-host-for-a-reality-or-reality-competition-program",
+      "htmlSourceSha256": "1468069775d2f2c0ca168f52cc4e064b1d3e8fb526b2b843a16d5ab0a6c579d2",
+      "releaseFile": "winners-2026-saturday.pdf",
+      "releaseContext": "OUTSTANDING HOST FOR A REALITY OR REALITY COMPETITION PROGRAM \nALAN CUMMING, Host PEACOCK \n \nThe Traitors",
+      "sectionSha256": "de82a5416e4d9ef01c19ef07bdcac24922755a2f70146e544396d9f844cad5d2",
+      "htmlRecipientNames": [
+        "Alan Cumming"
+      ],
+      "htmlProgrammeNames": [
+        "The Traitors"
+      ],
+      "releaseRecipientLineCandidates": [
+        "ALAN CUMMING, Host PEACOCK"
+      ],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "hosted-nonfiction-series-or-special",
+      "name": "OUTSTANDING HOSTED NONFICTION SERIES OR SPECIAL",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-hosted-nonfiction-series-or-special",
+      "htmlSourceSha256": "307ef41420a12aa5fb0712e065538380dafefc29874c5d6d6caa8b5a465c10c9",
+      "releaseFile": "winners-2026-saturday.pdf",
+      "releaseContext": "OUTSTANDING HOSTED NONFICTION SERIES OR SPECIAL \n(Area Award: Possibility of one or more than one award.) \nTUCCI IN ITALY NATIONAL \nGEOGRAPHIC \nFrancesco Ficarra, Producer \nStanley Tucci, Executive Producer/Host \nLottie Birmingham, Executive Producer \nAmanda Lyon, Executive Producer \nBen Jessop, Co-Executive Producer \nSimon Raikes, Executive Producer \nAlana Moreno, Senior Producer \nYari Lorenzo, Senior Producer \nStephanie Stoltzfus, Line Producer \nMandy Weller, Line Producer \n  \nTELEVISION ACADEMY \n78TH EMMY AWARDS NIGHT ONE \n \n \n10",
+      "sectionSha256": "b9436a47d1c31edb82d045c0e93fef9e1922d2bc73573f413935e68e3c930f16",
+      "htmlRecipientNames": [
+        "Francesco Ficarra",
+        "Stanley Tucci",
+        "Lottie Birmingham",
+        "Amanda Lyon",
+        "Ben Jessop",
+        "Simon Raikes",
+        "Alana Moreno",
+        "Yari Lorenzo",
+        "Stephanie Stoltzfus",
+        "Mandy Weller"
+      ],
+      "htmlProgrammeNames": [
+        "Tucci In Italy"
+      ],
+      "releaseRecipientLineCandidates": [
+        "Francesco Ficarra, Producer",
+        "Stanley Tucci, Executive Producer/Host",
+        "Lottie Birmingham, Executive Producer",
+        "Amanda Lyon, Executive Producer",
+        "Ben Jessop, Co-Executive Producer",
+        "Simon Raikes, Executive Producer",
+        "Alana Moreno, Senior Producer",
+        "Yari Lorenzo, Senior Producer",
+        "Stephanie Stoltzfus, Line Producer",
+        "Mandy Weller, Line Producer"
+      ],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "narrator",
+      "name": "OUTSTANDING NARRATOR",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-narrator",
+      "htmlSourceSha256": "821e35f06db1a34d7c5db4dcee6ebb78b2debf7fd8c4f791f3333756c1782364",
+      "releaseFile": "winners-2026-saturday.pdf",
+      "releaseContext": "OUTSTANDING NARRATOR \nOCTAVIA SPENCER, Narrator INVESTIGATION \nDISCOVERY \nLost Women Of Alaska \nThe Missing",
+      "sectionSha256": "8cbdd5246c0867ef401f0cb317d812b103ad7e674e75eb9ef13f7276a6648b66",
+      "htmlRecipientNames": [
+        "Octavia Spencer"
+      ],
+      "htmlProgrammeNames": [
+        "Lost Women Of Alaska"
+      ],
+      "releaseRecipientLineCandidates": [
+        "OCTAVIA SPENCER, Narrator INVESTIGATION"
+      ],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "structured-reality-program",
+      "name": "OUTSTANDING STRUCTURED REALITY PROGRAM",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-structured-reality-program",
+      "htmlSourceSha256": "ac7d6a44d33e6da8ef291b91da77428ba67530b3869ba69ae8ab31632368100f",
+      "releaseFile": "winners-2026-saturday.pdf",
+      "releaseContext": "OUTSTANDING STRUCTURED REALITY PROGRAM \nANTIQUES ROADSHOW PBS \n \nMarsha Bemko, Executive Producer \nSam Farrell, Senior Producer \nSarah K. Elliott, Producer \nJill Giles, Line Producer",
+      "sectionSha256": "80790a40a2026fbac2031460e57ad085b520a7ed55b23570273acf820712b87a",
+      "htmlRecipientNames": [
+        "Marsha Bemko",
+        "Sam Farrell",
+        "Sarah K. Elliott",
+        "Jill Giles"
+      ],
+      "htmlProgrammeNames": [
+        "Antiques Roadshow"
+      ],
+      "releaseRecipientLineCandidates": [
+        "Marsha Bemko, Executive Producer",
+        "Sam Farrell, Senior Producer",
+        "Sarah K. Elliott, Producer",
+        "Jill Giles, Line Producer"
+      ],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "unstructured-reality-program",
+      "name": "OUTSTANDING UNSTRUCTURED REALITY PROGRAM",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-unstructured-reality-program",
+      "htmlSourceSha256": "476e099168774f23fdd4a193dddd7cdcd75cbfdc6781fe20438bc9df8f29cd87",
+      "releaseFile": "winners-2026-saturday.pdf",
+      "releaseContext": "OUTSTANDING UNSTRUCTURED REALITY PROGRAM \nLOVE ON THE SPECTRUM NETFLIX \n \nCian O’Clery, Executive Producer \nKarina Holden, Executive Producer \nKelly Martin, Supervising Producer \n  \nTELEVISION ACADEMY \n78TH EMMY AWARDS NIGHT ONE \n \n \n11",
+      "sectionSha256": "cc2269023a25587bb5dd7fcf446cc6d3bae444c226fe1c9229f414fae0448c9b",
+      "htmlRecipientNames": [
+        "Cian O’Clery",
+        "Karina Holden",
+        "Kelly Martin"
+      ],
+      "htmlProgrammeNames": [
+        "Love On The Spectrum"
+      ],
+      "releaseRecipientLineCandidates": [
+        "Cian O’Clery, Executive Producer",
+        "Karina Holden, Executive Producer",
+        "Kelly Martin, Supervising Producer"
+      ],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "variety-special-live",
+      "name": "OUTSTANDING VARIETY SPECIAL (LIVE)",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-variety-special-live",
+      "htmlSourceSha256": "3462c8ece165b8ce23431876cd329fa1934cafbc75857da9ec57fb4fc4f21f9c",
+      "releaseFile": "winners-2026-saturday.pdf",
+      "releaseContext": "OUTSTANDING VARIETY SPECIAL (LIVE) \nTHE APPLE MUSIC SUPER BOWL LX HALFTIME SHOW STARRING BAD \nBUNNY \nNBC \n \nShawn Carter, Executive Producer \nDesiree Perez, Executive Producer \nJesse Collins, Executive Producer \nNoah Assad, Executive Producer \nDave Meyers, Co-Executive Producer \nJody Kolozsvari, Supervising Producer \nBenito Antonio Martinez Ocasio “Bad Bunny”, Producer/Performer \nJana Fleishman, Producer \nDarren Pfeffer, Producer \nChelsea Gonnering, Line Producer \nJohn Kilgore, Line Producer \n  \nTELEVISION ACADEMY \n78TH EMMY AWARDS NIGHT ONE \n \n \n14",
+      "sectionSha256": "6181bf3b44bd96eb2a4e111bf7e3981e28b430d691d870fa7be3e999e9bc148d",
+      "htmlRecipientNames": [
+        "Shawn Carter",
+        "Desiree Perez",
+        "Jesse Collins",
+        "Noah Assad",
+        "Dave Meyers",
+        "Jody Kolozsvari",
+        "Benito Antonio Martinez Ocasio \"Bad Bunny\"",
+        "Jana Fleishman",
+        "Darren Pfeffer",
+        "Chelsea Gonnering",
+        "John Kilgore"
+      ],
+      "htmlProgrammeNames": [
+        "The Apple Music Super Bowl LX Halftime Show Starring Bad Bunny"
+      ],
+      "releaseRecipientLineCandidates": [
+        "Shawn Carter, Executive Producer",
+        "Desiree Perez, Executive Producer",
+        "Jesse Collins, Executive Producer",
+        "Noah Assad, Executive Producer",
+        "Dave Meyers, Co-Executive Producer",
+        "Jody Kolozsvari, Supervising Producer",
+        "Benito Antonio Martinez Ocasio “Bad Bunny”, Producer/Performer",
+        "Jana Fleishman, Producer",
+        "Darren Pfeffer, Producer",
+        "Chelsea Gonnering, Line Producer",
+        "John Kilgore, Line Producer"
+      ],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "variety-special-pre-recorded",
+      "name": "OUTSTANDING VARIETY SPECIAL (PRE-RECORDED)",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-variety-special-pre-recorded",
+      "htmlSourceSha256": "7766c5e008288e406f769cd483f29cd773dff05f5c8c2338019b7b2a0a2d95d5",
+      "releaseFile": "winners-2026-saturday.pdf",
+      "releaseContext": "OUTSTANDING VARIETY SPECIAL (PRE-RECORDED) \nTHE MUPPET SHOW DISNEY+ \n \nDavid Lightbody, Executive Producer \nLeigh Slaughter, Executive Producer \nMichael Steinbach, Executive Producer \nSeth Rogen, Executive Producer \nEvan Goldberg, Executive Producer \nJames Weaver, Executive Producer \nAlex McAtee, Executive Producer \nMatt Vogel, Executive Producer \nEric Jacobson, Executive Producer \nAlbertina Rizzo, Executive Producer \nAlex Timbers, Executive Producer \nSabrina Carpenter, Executive Producer/Performer \nRyan Janata, Co-Executive Producer \nDani Iglesias, Producer",
+      "sectionSha256": "b1215e3d9920f3ca787820e785d40473c5705d0c56b8661df55500a1cc69ec8e",
+      "htmlRecipientNames": [
+        "David Lightbody",
+        "Leigh Slaughter",
+        "Michael Steinbach",
+        "Seth Rogen",
+        "Evan Goldberg",
+        "James Weaver",
+        "Alex McAtee",
+        "Matt Vogel",
+        "Eric Jacobson",
+        "Albertina Rizzo",
+        "Alex Timbers",
+        "Sabrina Carpenter",
+        "Ryan Janata",
+        "Dani Iglesias"
+      ],
+      "htmlProgrammeNames": [
+        "The Muppet Show"
+      ],
+      "releaseRecipientLineCandidates": [
+        "David Lightbody, Executive Producer",
+        "Leigh Slaughter, Executive Producer",
+        "Michael Steinbach, Executive Producer",
+        "Seth Rogen, Executive Producer",
+        "Evan Goldberg, Executive Producer",
+        "James Weaver, Executive Producer",
+        "Alex McAtee, Executive Producer",
+        "Matt Vogel, Executive Producer",
+        "Eric Jacobson, Executive Producer",
+        "Albertina Rizzo, Executive Producer",
+        "Alex Timbers, Executive Producer",
+        "Sabrina Carpenter, Executive Producer/Performer",
+        "Ryan Janata, Co-Executive Producer",
+        "Dani Iglesias, Producer"
+      ],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "writing-for-a-nonfiction-program",
+      "name": "OUTSTANDING WRITING FOR A NONFICTION PROGRAM",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-writing-for-a-nonfiction-program",
+      "htmlSourceSha256": "2a1eb2e329e0f627c369402779ba25d2b9b3ba271e5cf1a59732f64adbd6c05b",
+      "releaseFile": "winners-2026-saturday.pdf",
+      "releaseContext": "OUTSTANDING WRITING FOR A NONFICTION PROGRAM \nJENNIFER FLANZ, Writer \nIAN BERGER, Writer \nZHUBIN PARANG, Writer \nDEVIN DELLIQUANTI, Writer \nSCOTT SHERMAN, Writer \nJORDAN KLEPPER, Writer \nCOMEDY \nCENTRAL \n \nThe Daily Show Presents: Jordan Klepper Fingers The Pulse: Give The Man A Prize \n  \nTELEVISION ACADEMY \n78TH EMMY AWARDS NIGHT ONE \n \n \n7",
+      "sectionSha256": "a89379963bdee673189128b38af2488d91f35071f92d1ae9484115fc31b9a243",
+      "htmlRecipientNames": [
+        "Jennifer Flanz",
+        "Ian Berger",
+        "Zhubin Parang",
+        "Devin Delliquanti",
+        "Scott Sherman",
+        "Jordan Klepper"
+      ],
+      "htmlProgrammeNames": [
+        "The Daily Show Presents: Jordan Klepper Fingers The Pulse: Give The Man A Prize"
+      ],
+      "releaseRecipientLineCandidates": [
+        "JENNIFER FLANZ, Writer",
+        "IAN BERGER, Writer",
+        "ZHUBIN PARANG, Writer",
+        "DEVIN DELLIQUANTI, Writer",
+        "SCOTT SHERMAN, Writer",
+        "JORDAN KLEPPER, Writer"
+      ],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "writing-for-a-variety-series",
+      "name": "OUTSTANDING WRITING FOR A VARIETY SERIES",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-writing-for-a-variety-series",
+      "htmlSourceSha256": "84d4848387bdadba41b4c931cf0e9f029089af092560eec0bcf829a7e75dc9f1",
+      "releaseFile": "winners-2026-saturday.pdf",
+      "releaseContext": "OUTSTANDING WRITING FOR A VARIETY SERIES \nARIEL DUMAS, Head Writer \nJAY KATSIR, Head Writer \nDELMONTE BENT, Written by \nMICHAEL BRUMM, Written by \nAARON COHEN, Written by \nSTEPHEN T. COLBERT, Written by \nPAUL DINELLO, Written by \nGABE GRONLI, Written by \nBARRY JULIEN, Written by \nMICHAEL CRUZ KAYNE, Written by \nELIANA KWARTLER, Written by \nMATT LAPPIN, Written by \nCAROLINE LAZAR, Written by \nPRATIMA MANI, Written by \nFELIPE TORRES MEDINA, Written by \nOPUS MORESCHI, Written by \nCARLEY MOSELEY, Written by \nAARON NEMO, Cold Open Writer \nASHER PERLMAN, Written by \nTOM PURCELL, Written by \nKATE SIDLEY, Written by \nBRIAN STACK, Written by \nJOHN THIBODEAUX, Written by \nSTEVE WALTIEN, Written by \nCBS \n \nThe Late Show With Stephen Colbert",
+      "sectionSha256": "4203a9608d75f8f59abf9b027da03ad23c01a13670a0919bdb79682e7f564f56",
+      "htmlRecipientNames": [
+        "Ariel Dumas",
+        "Jay Katsir",
+        "Delmonte Bent",
+        "Michael Brumm",
+        "Aaron Cohen",
+        "Stephen T. Colbert",
+        "Paul Dinello",
+        "Gabe Gronli",
+        "Barry Julien",
+        "Michael Cruz Kayne",
+        "Eliana Kwartler",
+        "Matt Lappin",
+        "Caroline Lazar",
+        "Pratima Mani",
+        "Felipe Torres Medina",
+        "Opus Moreschi",
+        "Carley Moseley",
+        "Aaron Nemo",
+        "Asher Perlman",
+        "Tom Purcell",
+        "Kate Sidley",
+        "Brian Stack",
+        "John Thibodeaux",
+        "Steve Waltien"
+      ],
+      "htmlProgrammeNames": [
+        "The Late Show with Stephen Colbert"
+      ],
+      "releaseRecipientLineCandidates": [
+        "ARIEL DUMAS, Head Writer",
+        "JAY KATSIR, Head Writer",
+        "DELMONTE BENT, Written by",
+        "MICHAEL BRUMM, Written by",
+        "AARON COHEN, Written by",
+        "STEPHEN T. COLBERT, Written by",
+        "PAUL DINELLO, Written by",
+        "GABE GRONLI, Written by",
+        "BARRY JULIEN, Written by",
+        "MICHAEL CRUZ KAYNE, Written by",
+        "ELIANA KWARTLER, Written by",
+        "MATT LAPPIN, Written by",
+        "CAROLINE LAZAR, Written by",
+        "PRATIMA MANI, Written by",
+        "FELIPE TORRES MEDINA, Written by",
+        "OPUS MORESCHI, Written by",
+        "CARLEY MOSELEY, Written by",
+        "AARON NEMO, Cold Open Writer",
+        "ASHER PERLMAN, Written by",
+        "TOM PURCELL, Written by",
+        "KATE SIDLEY, Written by",
+        "BRIAN STACK, Written by",
+        "JOHN THIBODEAUX, Written by",
+        "STEVE WALTIEN, Written by"
+      ],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "writing-for-a-variety-special",
+      "name": "OUTSTANDING WRITING FOR A VARIETY SPECIAL",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-writing-for-a-variety-special",
+      "htmlSourceSha256": "b64de7f78b7a0c2384bd1c36eeb7715fda72cf9484b23904fd2399ed62729509",
+      "releaseFile": "winners-2026-saturday.pdf",
+      "releaseContext": "OUTSTANDING WRITING FOR A VARIETY SPECIAL \nALBERTINA RIZZO, Written by \nGABE LIEDMAN, Written by \nNEDAA SWEISS, Written by \nKELLY YOUNGER, Written by \nANDREW WILLIAMS, Written by \nDISNEY+ \n \nThe Muppet Show \n  \nTELEVISION ACADEMY \n78TH EMMY AWARDS NIGHT ONE \n \n \n6",
+      "sectionSha256": "4c181befa74d622e1b02af156c4750849e84efa64b4c36dd661ad8b85758de12",
+      "htmlRecipientNames": [
+        "Albertina Rizzo",
+        "Gabe Liedman",
+        "Nedaa Sweiss",
+        "Kelly Younger",
+        "Andrew Williams"
+      ],
+      "htmlProgrammeNames": [
+        "The Muppet Show"
+      ],
+      "releaseRecipientLineCandidates": [
+        "ALBERTINA RIZZO, Written by",
+        "GABE LIEDMAN, Written by",
+        "NEDAA SWEISS, Written by",
+        "KELLY YOUNGER, Written by",
+        "ANDREW WILLIAMS, Written by"
+      ],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "animated-program",
+      "name": "OUTSTANDING ANIMATED PROGRAM",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-animated-program",
+      "htmlSourceSha256": "2dd0e476d0cca13e92c6d01140005cfc21f87651b7d83e0d4578756c7c14325c",
+      "releaseFile": "winners-2026-sunday.pdf",
+      "releaseContext": "OUTSTANDING ANIMATED PROGRAM \nSOUTH PARK  \nSermon On The 'Mount \nCOMEDY \nCENTRAL \n \nTrey Parker, Executive Producer \nMatt Stone, Executive Producer \nAnne Garefino, Executive Producer \nFrank C. Agnone II, Executive Producer \nDaryl Sancton, Supervising Producer \nEric Stough, Producer \nBruce Howell, Producer \nAdrien Beard, Producer \nVernon Chatman, Producer \nJenny Shin, Producer \nWonnie Ro, Producer \nGreg Postma, Producer \nKeo Thongkham, Producer \nLydia Quidilla, Producer \nJohn Hansen, Producer \nDavid List, Producer \nMark Munley, Producer \nNate Pellettieri, Producer \nAndrew B. Rhoades, Producer \nGary Martinez, Producer",
+      "sectionSha256": "ed7eee675fa33262f29c6b56ffb2c28cffe67b4e8c45f96393c986bc3e1ef12f",
+      "htmlRecipientNames": [
+        "Trey Parker",
+        "Matt Stone",
+        "Anne Garefino",
+        "Frank C. Agnone II",
+        "Daryl Sancton",
+        "Eric Stough",
+        "Bruce Howell",
+        "Adrien Beard",
+        "Vernon Chatman",
+        "Jenny Shin",
+        "Wonnie Ro",
+        "Greg Postma",
+        "Keo Thongkham",
+        "Lydia Quidilla",
+        "John Hansen",
+        "David List",
+        "Mark Munley",
+        "Nate Pellettieri",
+        "Andrew B. Rhoades",
+        "Gary Martinez"
+      ],
+      "htmlProgrammeNames": [
+        "South Park"
+      ],
+      "releaseRecipientLineCandidates": [
+        "Trey Parker, Executive Producer",
+        "Matt Stone, Executive Producer",
+        "Anne Garefino, Executive Producer",
+        "Frank C. Agnone II, Executive Producer",
+        "Daryl Sancton, Supervising Producer",
+        "Eric Stough, Producer",
+        "Bruce Howell, Producer",
+        "Adrien Beard, Producer",
+        "Vernon Chatman, Producer",
+        "Jenny Shin, Producer",
+        "Wonnie Ro, Producer",
+        "Greg Postma, Producer",
+        "Keo Thongkham, Producer",
+        "Lydia Quidilla, Producer",
+        "John Hansen, Producer",
+        "David List, Producer",
+        "Mark Munley, Producer",
+        "Nate Pellettieri, Producer",
+        "Andrew B. Rhoades, Producer",
+        "Gary Martinez, Producer"
+      ],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "character-voice-over-performance",
+      "name": "OUTSTANDING CHARACTER VOICE-OVER PERFORMANCE",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-character-voice-over-performance",
+      "htmlSourceSha256": "ecde1697c617e9bc7c6f6561b46e6143bfdcf141b522487731fc150e6ed80519",
+      "releaseFile": "winners-2026-sunday.pdf",
+      "releaseContext": "OUTSTANDING CHARACTER VOICE-OVER PERFORMANCE \nJULIE ANDREWS as Lady Whistledown NETFLIX \n \nBridgerton  \nThe Waltz \n \n  \nTELEVISION ACADEMY \n78TH EMMY AWARDS NIGHT TWO \n \n \n8",
+      "sectionSha256": "f1f3adfb3a839c1b9aaa6ab787859556b3b961bfd328f5b8ef8993235c056e19",
+      "htmlRecipientNames": [
+        "Julie Andrews"
+      ],
+      "htmlProgrammeNames": [
+        "Bridgerton"
+      ],
+      "releaseRecipientLineCandidates": [],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "directing-for-a-limited-or-anthology-series-or-movie",
+      "name": "OUTSTANDING DIRECTING FOR A LIMITED OR ANTHOLOGY SERIES OR MOVIE",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-limited-or-anthology-series-or-movie",
+      "htmlSourceSha256": "fb4de1063ab36191f9b870e5d46a72d2f94e41de6cd74af9f7da4f176258fa18",
+      "releaseFile": "winners-2026-sunday.pdf",
+      "releaseContext": "OUTSTANDING DIRECTING FOR A LIMITED OR ANTHOLOGY SERIES OR MOVIE \nSTEVEN CONRAD, Directed by HBO MAX \n \nDTF St. Louis",
+      "sectionSha256": "9f6b5d7772060ca002a5fa03c3cea0fee4ca096f1bd42d972092725102498f8b",
+      "htmlRecipientNames": [
+        "Steven Conrad"
+      ],
+      "htmlProgrammeNames": [
+        "DTF St. Louis"
+      ],
+      "releaseRecipientLineCandidates": [],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "guest-actor-in-a-comedy-series",
+      "name": "OUTSTANDING GUEST ACTOR IN A COMEDY SERIES",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-guest-actor-in-a-comedy-series",
+      "htmlSourceSha256": "a49b05c2ca41c9b3cc3f9541b42bb69d203364e9c4058c8631ace1eee5aca11d",
+      "releaseFile": "winners-2026-sunday.pdf",
+      "releaseContext": "OUTSTANDING GUEST ACTOR IN A COMEDY SERIES \nROB REINER as Albert \n \nFX/HULU \nThe Bear \nTonnato \n \n  \nTELEVISION ACADEMY \n78TH EMMY AWARDS NIGHT TWO \n \n \n14",
+      "sectionSha256": "1a2fd9f02183a60ece6aa0c64aa235aedf117f0237421545714e8141f7596c36",
+      "htmlRecipientNames": [
+        "Rob Reiner"
+      ],
+      "htmlProgrammeNames": [
+        "The Bear"
+      ],
+      "releaseRecipientLineCandidates": [],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "guest-actor-in-a-drama-series",
+      "name": "OUTSTANDING GUEST ACTOR IN A DRAMA SERIES",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-guest-actor-in-a-drama-series",
+      "htmlSourceSha256": "be80fba675d7f66c2791c14c6d200f07dff34dc1517dd96d8a0b7339905acf61",
+      "releaseFile": "winners-2026-sunday.pdf",
+      "releaseContext": "OUTSTANDING GUEST ACTOR IN A DRAMA SERIES \nERNEST HARDEN JR. as Louie Cloverfield HBO MAX \n \nThe Pitt \n7:00 A.M.",
+      "sectionSha256": "e0142095e665ce3ded8338a015a6516d17c5f56a8f661d2f2aa356ffcb67d975",
+      "htmlRecipientNames": [
+        "Ernest Harden Jr."
+      ],
+      "htmlProgrammeNames": [
+        "The Pitt"
+      ],
+      "releaseRecipientLineCandidates": [],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "guest-actress-in-a-comedy-series",
+      "name": "OUTSTANDING GUEST ACTRESS IN A COMEDY SERIES",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-guest-actress-in-a-comedy-series",
+      "htmlSourceSha256": "8781bcca023591f4f28a504862477b834f11e9253af2d06d17c50b4cf0935691",
+      "releaseFile": "winners-2026-sunday.pdf",
+      "releaseContext": "OUTSTANDING GUEST ACTRESS IN A COMEDY SERIES \nBETTY GILPIN as Sarah Westcott Warren APPLE TV \n \nWidow's Bay \nOur History",
+      "sectionSha256": "2187a048fd9797af11bf0d0e52809b4795f86ac6241cdedb0f44409d9fb6a9b5",
+      "htmlRecipientNames": [
+        "Betty Gilpin"
+      ],
+      "htmlProgrammeNames": [
+        "Widow’s Bay"
+      ],
+      "releaseRecipientLineCandidates": [],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "guest-actress-in-a-drama-series",
+      "name": "OUTSTANDING GUEST ACTRESS IN A DRAMA SERIES",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-guest-actress-in-a-drama-series",
+      "htmlSourceSha256": "3174e99f9210e9d151be7793089f585432760b109a1f9ea237bcd34eab7f068b",
+      "releaseFile": "winners-2026-sunday.pdf",
+      "releaseContext": "OUTSTANDING GUEST ACTRESS IN A DRAMA SERIES \nSHAILENE WOODLEY as Annie HULU \n \nParadise \nGraceland",
+      "sectionSha256": "a5fe48685163c64979fa42fecc0c1ef727cf9a9a99506f574fb6c68a7014fa6d",
+      "htmlRecipientNames": [
+        "Shailene Woodley"
+      ],
+      "htmlProgrammeNames": [
+        "Paradise"
+      ],
+      "releaseRecipientLineCandidates": [],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "television-movie",
+      "name": "OUTSTANDING MOVIE",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-movie",
+      "htmlSourceSha256": "81f109b80d9fcf93bd1611109a695bf2cf59c21278e41edf172f04834c606693",
+      "releaseFile": "winners-2026-sunday.pdf",
+      "releaseContext": "OUTSTANDING MOVIE \nREMARKABLY BRIGHT CREATURES NETFLIX \n \nAlyssa Rodrigues, Executive Producer \nErika Hampson, Executive Producer \nOlivia Newman, Executive Producer \nShelby Van Pelt, Executive Producer \nTony Lipp, Executive Producer \nAlisa Tager, Executive Producer \nBryan Unkeless, Produced by \nPeter Craig, Produced by \nDavid Levine, Produced by \n \nTELEVISION ACADEMY \n78TH EMMY AWARDS COMBINED NIGHTS ONE AND TWO \n \n \n15",
+      "sectionSha256": "f743bbcb6b9ae061840bffa26188110890701bc0a99086437e2e07138942c603",
+      "htmlRecipientNames": [
+        "Alyssa Rodrigues",
+        "Erika Hampson",
+        "Olivia Newman",
+        "Shelby Van Pelt",
+        "Tony Lipp",
+        "Alisa Tager",
+        "Bryan Unkeless",
+        "Peter Craig",
+        "David Levine"
+      ],
+      "htmlProgrammeNames": [
+        "Remarkably Bright Creatures"
+      ],
+      "releaseRecipientLineCandidates": [
+        "Alyssa Rodrigues, Executive Producer",
+        "Erika Hampson, Executive Producer",
+        "Olivia Newman, Executive Producer",
+        "Shelby Van Pelt, Executive Producer",
+        "Tony Lipp, Executive Producer",
+        "Alisa Tager, Executive Producer"
+      ],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "supporting-actor-in-a-limited-or-anthology-series-or-movie",
+      "name": "OUTSTANDING SUPPORTING ACTOR IN A LIMITED OR ANTHOLOGY SERIES OR MOVIE",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-supporting-actor-in-a-limited-or-anthology-series-or-movie",
+      "htmlSourceSha256": "442f327422ace066a0dba9ce5c309b546af20e4771ae9386d85442577dfc773c",
+      "releaseFile": "winners-2026-sunday.pdf",
+      "releaseContext": "OUTSTANDING SUPPORTING ACTOR IN A LIMITED OR ANTHOLOGY SERIES OR \nMOVIE \nDAVID HARBOUR as Floyd Smernitch HBO MAX \n \nDTF St. Louis \n \n  \nTELEVISION ACADEMY \n78TH EMMY AWARDS NIGHT TWO \n \n \n12",
+      "sectionSha256": "5812bc141d413f9d94715974c6d3dcebec0542704f252cd84def15013e7918ac",
+      "htmlRecipientNames": [
+        "David Harbour"
+      ],
+      "htmlProgrammeNames": [
+        "DTF St. Louis"
+      ],
+      "releaseRecipientLineCandidates": [],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "supporting-actress-in-a-limited-or-anthology-series-or-movie",
+      "name": "OUTSTANDING SUPPORTING ACTRESS IN A LIMITED OR ANTHOLOGY SERIES OR MOVIE",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-supporting-actress-in-a-limited-or-anthology-series-or-movie",
+      "htmlSourceSha256": "ed9b871225a39dc2cc74d2daddc30cfde28d971cbc26a0cde4d6c655391c1ff6",
+      "releaseFile": "winners-2026-sunday.pdf",
+      "releaseContext": "OUTSTANDING SUPPORTING ACTRESS IN A LIMITED OR ANTHOLOGY SERIES OR \nMOVIE \nLINDA CARDELLINI as Carol Love-Smernitch HBO MAX \n \nDTF St. Louis",
+      "sectionSha256": "4c784865f6aa213c3993ef77b919ba8da2314cc202c35267151a13c7b470661a",
+      "htmlRecipientNames": [
+        "Linda Cardellini"
+      ],
+      "htmlProgrammeNames": [
+        "DTF St. Louis"
+      ],
+      "releaseRecipientLineCandidates": [],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "writing-for-a-limited-or-anthology-series-or-movie",
+      "name": "OUTSTANDING WRITING FOR A LIMITED OR ANTHOLOGY SERIES OR MOVIE",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-writing-for-a-limited-or-anthology-series-or-movie",
+      "htmlSourceSha256": "389f57203e333a5eeb4b221235f596e38106a20897459c6149bc98c11e712354",
+      "releaseFile": "winners-2026-sunday.pdf",
+      "releaseContext": "OUTSTANDING WRITING FOR A LIMITED OR ANTHOLOGY SERIES OR MOVIE \nSTEVEN CONRAD, Written by HBO MAX \n \nDTF St. Louis",
+      "sectionSha256": "575ff94add842e51a5fb7b998c5beb8fc6f45443912ac3bcffd6bbf6783911dd",
+      "htmlRecipientNames": [
+        "Steven Conrad"
+      ],
+      "htmlProgrammeNames": [
+        "DTF St. Louis"
+      ],
+      "releaseRecipientLineCandidates": [
+        "STEVEN CONRAD, Written by HBO MAX"
+      ],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "comedy-series",
+      "name": "OUTSTANDING COMEDY SERIES",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-comedy-series",
+      "htmlSourceSha256": "b1161231b379b466a642565f7ec90880f1b52e6aa73e10b248d4d2e73b07f856",
+      "releaseFile": "winners-2026-main.pdf",
+      "releaseContext": "OUTSTANDING COMEDY SERIES \nWIDOW'S BAY APPLE TV \n \nKatie Dippold, Executive Producer \nHiro Murai, Executive Producer \nCarver Karaszewski, Executive Producer \nClaudia Shin, Executive Producer \nMatthew Rhys, Executive Producer \nJoanne Toll, Co-Executive Producer \nKelly Galuska, Co-Executive Producer \nMackenzie Dohr, Co-Executive Producer \nNeil Casey, Supervising Producer \nColton Dunn, Supervising Producer \nKaitlin Waldron, Producer \nChristian Sprenger, Producer \nBobak Esfarjani, Consulting Producer",
+      "sectionSha256": "981ae290208af25ab712505d253473cf62c3a039a6956c792630300eebd6654c",
+      "htmlRecipientNames": [
+        "Katie Dippold",
+        "Hiro Murai",
+        "Carver Karaszewski",
+        "Claudia Shin",
+        "Matthew Rhys",
+        "Joanne Toll",
+        "Kelly Galuska",
+        "Mackenzie Dohr",
+        "Neil Casey",
+        "Colton Dunn",
+        "Kaitlin Waldron",
+        "Christian Sprenger",
+        "Bobak Esfarjani"
+      ],
+      "htmlProgrammeNames": [
+        "Widow’s Bay"
+      ],
+      "releaseRecipientLineCandidates": [
+        "Katie Dippold, Executive Producer",
+        "Hiro Murai, Executive Producer",
+        "Carver Karaszewski, Executive Producer",
+        "Claudia Shin, Executive Producer",
+        "Matthew Rhys, Executive Producer",
+        "Joanne Toll, Co-Executive Producer",
+        "Kelly Galuska, Co-Executive Producer",
+        "Mackenzie Dohr, Co-Executive Producer",
+        "Neil Casey, Supervising Producer",
+        "Colton Dunn, Supervising Producer",
+        "Kaitlin Waldron, Producer",
+        "Christian Sprenger, Producer",
+        "Bobak Esfarjani, Consulting Producer"
+      ],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "directing-for-a-comedy-series",
+      "name": "OUTSTANDING DIRECTING FOR A COMEDY SERIES",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-comedy-series",
+      "htmlSourceSha256": "e1d8c2f188e8cc07f7d5a7f95824b3a60efc9ede8ccf39edbc51ea9faebc18ff",
+      "releaseFile": "winners-2026-main.pdf",
+      "releaseContext": "OUTSTANDING DIRECTING FOR A COMEDY SERIES \nHIRO MURAI, Directed by  APPLE TV \n \nWidow's Bay \nWelcome To Widow's Bay! \n \nTELEVISION ACADEMY \n78TH EMMY AWARDS TELECAST \n \n \n6",
+      "sectionSha256": "4b436642c76773424967eb4e80b558c72afc1012bb4b1cf9e6639f5ef6d0e466",
+      "htmlRecipientNames": [
+        "Hiro Murai"
+      ],
+      "htmlProgrammeNames": [
+        "Widow’s Bay"
+      ],
+      "releaseRecipientLineCandidates": [],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "directing-for-a-drama-series",
+      "name": "OUTSTANDING DIRECTING FOR A DRAMA SERIES",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-drama-series",
+      "htmlSourceSha256": "31a04c3d03b14ccc48b1c747a459ac38327e0cee043754e7df313b1d6dcce422",
+      "releaseFile": "winners-2026-main.pdf",
+      "releaseContext": "OUTSTANDING DIRECTING FOR A DRAMA SERIES \nSAUL METZSTEIN, Directed by APPLE TV \n \nSlow Horses \nScars",
+      "sectionSha256": "dca49c569e3f70fc40f01843ab9ce636ae81988b297bea013c502acc66f7a15e",
+      "htmlRecipientNames": [
+        "Saul Metzstein"
+      ],
+      "htmlProgrammeNames": [
+        "Slow Horses"
+      ],
+      "releaseRecipientLineCandidates": [],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "drama-series",
+      "name": "OUTSTANDING DRAMA SERIES",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-drama-series",
+      "htmlSourceSha256": "fb0d75c87d2c523409213d6bb0dd8343eaa5de22aa6ab6b88770335ee33188bc",
+      "releaseFile": "winners-2026-main.pdf",
+      "releaseContext": "OUTSTANDING DRAMA SERIES \nTHE PITT HBO MAX \n \nR. Scott Gemmill, Executive Producer \nJohn Wells, Executive Producer \nNoah Wyle, Executive Producer \nMichael Hissrich, Executive Producer \nErin Jontow, Executive Producer \nSimran Baidwan, Executive Producer \nJoe Sachs, Executive Producer \nTerri Murphy, Co-Executive Producer \nDamian Marcano, Co-Executive Producer \nUta Briesewitz, Co-Executive Producer \nCynthia Adarkwa, Supervising Producer \nMichelle Lankwarden, Produced by \n \n  \nTELEVISION ACADEMY \n78TH EMMY AWARDS TELECAST \n \n \n7",
+      "sectionSha256": "f38c90d3c140dea99c43f216d9026a840806cff6eb48985a7c9911af02bb2e52",
+      "htmlRecipientNames": [
+        "R. Scott Gemmill",
+        "John Wells",
+        "Noah Wyle",
+        "Michael Hissrich",
+        "Erin Jontow",
+        "Simran Baidwan",
+        "Joe Sachs",
+        "Terri Murphy",
+        "Damian Marcano",
+        "Uta Briesewitz",
+        "Cynthia Adarkwa",
+        "Michelle Lankwarden"
+      ],
+      "htmlProgrammeNames": [
+        "The Pitt"
+      ],
+      "releaseRecipientLineCandidates": [
+        "R. Scott Gemmill, Executive Producer",
+        "John Wells, Executive Producer",
+        "Noah Wyle, Executive Producer",
+        "Michael Hissrich, Executive Producer",
+        "Erin Jontow, Executive Producer",
+        "Simran Baidwan, Executive Producer",
+        "Joe Sachs, Executive Producer",
+        "Terri Murphy, Co-Executive Producer",
+        "Damian Marcano, Co-Executive Producer",
+        "Uta Briesewitz, Co-Executive Producer",
+        "Cynthia Adarkwa, Supervising Producer"
+      ],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "lead-actor-in-a-comedy-series",
+      "name": "OUTSTANDING LEAD ACTOR IN A COMEDY SERIES",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lead-actor-in-a-comedy-series",
+      "htmlSourceSha256": "4a44eb6c9aa42ecae432a7f1f198dcf25ed925b3867bd16b406ff8b44d0fb75a",
+      "releaseFile": "winners-2026-main.pdf",
+      "releaseContext": "OUTSTANDING LEAD ACTOR IN A COMEDY SERIES \nMATTHEW RHYS as Mayor Tom Loftis APPLE TV \n \nWidow's Bay \n \n  \nTELEVISION ACADEMY \n78TH EMMY AWARDS TELECAST \n \n \n5",
+      "sectionSha256": "e77121eabd48439755bf24afd5be4d9ebf2a18b3066a6e458bc541d9ae3d537c",
+      "htmlRecipientNames": [
+        "Matthew Rhys"
+      ],
+      "htmlProgrammeNames": [
+        "Widow’s Bay"
+      ],
+      "releaseRecipientLineCandidates": [],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "lead-actor-in-a-drama-series",
+      "name": "OUTSTANDING LEAD ACTOR IN A DRAMA SERIES",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lead-actor-in-a-drama-series",
+      "htmlSourceSha256": "9e90c2334b5e7e918916b6bab8393c6aaa889e0ca8d3f3576265e9c099ccf7b5",
+      "releaseFile": "winners-2026-main.pdf",
+      "releaseContext": "OUTSTANDING LEAD ACTOR IN A DRAMA SERIES \nNOAH WYLE as Dr. Michael \"Robby\" Robinavitch HBO MAX \n \nThe Pitt",
+      "sectionSha256": "bbc6571d85a36ad2135a1328be02b469dbb85786d8ca9537ba7388b4aaff85d2",
+      "htmlRecipientNames": [
+        "Noah Wyle"
+      ],
+      "htmlProgrammeNames": [
+        "The Pitt"
+      ],
+      "releaseRecipientLineCandidates": [],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "lead-actor-in-a-limited-or-anthology-series-or-movie",
+      "name": "OUTSTANDING LEAD ACTOR IN A LIMITED OR ANTHOLOGY SERIES OR MOVIE",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lead-actor-in-a-limited-or-anthology-series-or-movie",
+      "htmlSourceSha256": "0acd8afa1eb936672b9f304e489acaa53f5bf36007a4d61c9f80b21618552b19",
+      "releaseFile": "winners-2026-main.pdf",
+      "releaseContext": "OUTSTANDING LEAD ACTOR IN A LIMITED OR ANTHOLOGY SERIES OR MOVIE \nMATTHEW RHYS as Nile Jarvis NETFLIX \n \nThe Beast In Me",
+      "sectionSha256": "1989859b73661868fac7d101470492d7c818d507daa9fae75bf9714e348c57b7",
+      "htmlRecipientNames": [
+        "Matthew Rhys"
+      ],
+      "htmlProgrammeNames": [
+        "The Beast in Me"
+      ],
+      "releaseRecipientLineCandidates": [],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "lead-actress-in-a-comedy-series",
+      "name": "OUTSTANDING LEAD ACTRESS IN A COMEDY SERIES",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lead-actress-in-a-comedy-series",
+      "htmlSourceSha256": "f7400dc29f95ba82c5be5ef64af0dd114a828d8e39536cd215441abc98dea06d",
+      "releaseFile": "winners-2026-main.pdf",
+      "releaseContext": "OUTSTANDING LEAD ACTRESS IN A COMEDY SERIES \nJEAN SMART as Deborah Vance HBO MAX \n \nHacks",
+      "sectionSha256": "fe8fba310c11e6ba3dd9ddc810a7445e28edb0f821bbf05c7853c84228029ac9",
+      "htmlRecipientNames": [
+        "Jean Smart"
+      ],
+      "htmlProgrammeNames": [
+        "Hacks"
+      ],
+      "releaseRecipientLineCandidates": [],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "lead-actress-in-a-drama-series",
+      "name": "OUTSTANDING LEAD ACTRESS IN A DRAMA SERIES",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lead-actress-in-a-drama-series",
+      "htmlSourceSha256": "fbd1f8ea978ff7853a1ee6016bf4c6201b61717804e82765e6075e52f6a93162",
+      "releaseFile": "winners-2026-main.pdf",
+      "releaseContext": "OUTSTANDING LEAD ACTRESS IN A DRAMA SERIES \nRHEA SEEHORN as Carol Sturka  APPLE TV \n \nPluribus",
+      "sectionSha256": "b3f8bcfff324bc7c95dbadb349aeec62138fc6429e83d48b952d591cf354054f",
+      "htmlRecipientNames": [
+        "Rhea Seehorn"
+      ],
+      "htmlProgrammeNames": [
+        "Pluribus"
+      ],
+      "releaseRecipientLineCandidates": [],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "lead-actress-in-a-limited-or-anthology-series-or-movie",
+      "name": "OUTSTANDING LEAD ACTRESS IN A LIMITED OR ANTHOLOGY SERIES OR MOVIE",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-lead-actress-in-a-limited-or-anthology-series-or-movie",
+      "htmlSourceSha256": "f2ffe9b3c5d80e60da80943d95e80489e18c26e95c1e9772f228f625913aeab6",
+      "releaseFile": "winners-2026-main.pdf",
+      "releaseContext": "OUTSTANDING LEAD ACTRESS IN A LIMITED OR ANTHOLOGY SERIES OR MOVIE \nSALLY FIELD as Tova Sullivan  NETFLIX \n \nRemarkably Bright Creatures",
+      "sectionSha256": "7bbbe07fc1e42992cea0391456d85107ff8dcde2c0f885b1d2f19921d423e08c",
+      "htmlRecipientNames": [
+        "Sally Field"
+      ],
+      "htmlProgrammeNames": [
+        "Remarkably Bright Creatures"
+      ],
+      "releaseRecipientLineCandidates": [],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "limited-or-anthology-series",
+      "name": "OUTSTANDING LIMITED OR ANTHOLOGY SERIES",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-limited-or-anthology-series",
+      "htmlSourceSha256": "df9a63f1d9c4265c03977968170164ff6ec380a5bf45ca5b7b03c753977ea2cb",
+      "releaseFile": "winners-2026-main.pdf",
+      "releaseContext": "OUTSTANDING LIMITED OR ANTHOLOGY SERIES \nDTF ST. LOUIS HBO MAX \n \nJason Bateman, Executive Producer \nMichael Costigan, Executive Producer \nDavid Harbour, Executive Producer \nKC Wenson, Executive Producer \nSteven Conrad, Executive Producer \nTodd Black, Executive Producer \nMolly Allen, Executive Producer \nJason Blumenthal, Executive Producer \nSteve Tisch, Executive Producer \nBruce Terris, Executive Producer \nJennifer Scher, Executive Producer \nMichael Nelson, Executive Producer \nJames Lasdun, Executive Producer \nTaylor Latham, Co-Executive Producer \nChristina M. Fitzgerald, Producer",
+      "sectionSha256": "de363b07b46488a000805a1f758b11f6e258fe0fc62fef64187b56500c7589a7",
+      "htmlRecipientNames": [
+        "Jason Bateman",
+        "Michael Costigan",
+        "David Harbour",
+        "KC Wenson",
+        "Steven Conrad",
+        "Todd Black",
+        "Molly Allen",
+        "Jason Blumenthal",
+        "Steve Tisch",
+        "Bruce Terris",
+        "Jennifer Scher",
+        "Michael Nelson",
+        "James Lasdun",
+        "Taylor Latham",
+        "Christina M. Fitzgerald"
+      ],
+      "htmlProgrammeNames": [
+        "DTF St. Louis"
+      ],
+      "releaseRecipientLineCandidates": [
+        "Jason Bateman, Executive Producer",
+        "Michael Costigan, Executive Producer",
+        "David Harbour, Executive Producer",
+        "KC Wenson, Executive Producer",
+        "Steven Conrad, Executive Producer",
+        "Todd Black, Executive Producer",
+        "Molly Allen, Executive Producer",
+        "Jason Blumenthal, Executive Producer",
+        "Steve Tisch, Executive Producer",
+        "Bruce Terris, Executive Producer",
+        "Jennifer Scher, Executive Producer",
+        "Michael Nelson, Executive Producer",
+        "James Lasdun, Executive Producer",
+        "Taylor Latham, Co-Executive Producer",
+        "Christina M. Fitzgerald, Producer"
+      ],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "reality-competition-program",
+      "name": "OUTSTANDING REALITY COMPETITION PROGRAM",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-reality-competition-program",
+      "htmlSourceSha256": "2c5ea52cde1a957e4bf59ffae097fbecf8c143eeb84731e4c4a0f82706429c8e",
+      "releaseFile": "winners-2026-main.pdf",
+      "releaseContext": "OUTSTANDING REALITY COMPETITION PROGRAM \nTHE TRAITORS PEACOCK \n \nStephen Lambert, Executive Producer \nMike Cotton, Executive Producer \nSam Rees-Jones, Executive Producer \nRosie Franks, Executive Producer \nTim Harcourt, Executive Producer \nJack Burgess, Executive Producer \nDarrell Olsen, Executive Producer \nAlan Cumming, Executive Producer \nClaire O'Shea, Co-Executive Producer \nChris Mannion, Co-Executive Producer \nLaura Gallen, Co-Executive Producer \nZoe Duerden, Co-Executive Producer \nEmma Carroll, Co-Executive Producer \nSarah Pack, Co-Executive Producer \nCally Marriage, Co-Executive Producer",
+      "sectionSha256": "16c4ec7b5ff762f6a5dad8725f347e5bf02674bc5ac68dc5b4eb7a4ac17d3d8a",
+      "htmlRecipientNames": [
+        "Stephen Lambert",
+        "Mike Cotton",
+        "Sam Rees-Jones",
+        "Rosie Franks",
+        "Tim Harcourt",
+        "Jack Burgess",
+        "Darrell Olsen",
+        "Alan Cumming",
+        "Claire O'Shea",
+        "Chris Mannion",
+        "Laura Gallen",
+        "Zoe Duerden",
+        "Emma Carroll",
+        "Sarah Pack",
+        "Cally Marriage"
+      ],
+      "htmlProgrammeNames": [
+        "The Traitors"
+      ],
+      "releaseRecipientLineCandidates": [
+        "Stephen Lambert, Executive Producer",
+        "Mike Cotton, Executive Producer",
+        "Sam Rees-Jones, Executive Producer",
+        "Rosie Franks, Executive Producer",
+        "Tim Harcourt, Executive Producer",
+        "Jack Burgess, Executive Producer",
+        "Darrell Olsen, Executive Producer",
+        "Alan Cumming, Executive Producer",
+        "Claire O'Shea, Co-Executive Producer",
+        "Chris Mannion, Co-Executive Producer",
+        "Laura Gallen, Co-Executive Producer",
+        "Zoe Duerden, Co-Executive Producer",
+        "Emma Carroll, Co-Executive Producer",
+        "Sarah Pack, Co-Executive Producer",
+        "Cally Marriage, Co-Executive Producer"
+      ],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "supporting-actor-in-a-comedy-series",
+      "name": "OUTSTANDING SUPPORTING ACTOR IN A COMEDY SERIES",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-supporting-actor-in-a-comedy-series",
+      "htmlSourceSha256": "b03d1522b08f53a19fa62c7ebbe698b8732dc0d724f6ad01ce0129ad20c1c776",
+      "releaseFile": "winners-2026-main.pdf",
+      "releaseContext": "OUTSTANDING SUPPORTING ACTOR IN A COMEDY SERIES \nSTEPHEN ROOT as Wyck  APPLE TV \n \nWidow's Bay \n \n  \nTELEVISION ACADEMY \n78TH EMMY AWARDS TELECAST \n \n \n4",
+      "sectionSha256": "4cd4ecd4381542422f374d05b6952538072a1053119f9d5b176d63b273f85ce3",
+      "htmlRecipientNames": [
+        "Stephen Root"
+      ],
+      "htmlProgrammeNames": [
+        "Widow’s Bay"
+      ],
+      "releaseRecipientLineCandidates": [],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "supporting-actor-in-a-drama-series",
+      "name": "OUTSTANDING SUPPORTING ACTOR IN A DRAMA SERIES",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-supporting-actor-in-a-drama-series",
+      "htmlSourceSha256": "f0db2598a8b19b180931d98a5cbe8e2a6cba756c9acb1bb636b43ca5e0e42a64",
+      "releaseFile": "winners-2026-main.pdf",
+      "releaseContext": "OUTSTANDING SUPPORTING ACTOR IN A DRAMA SERIES \nTOM PELPHREY as Robbie Prendergrast HBO MAX \n \nTask",
+      "sectionSha256": "f6c876564c502343ca7bb865a2edfc32cf3e6c66cc86d42aa78e044c3c86cf70",
+      "htmlRecipientNames": [
+        "Tom Pelphrey"
+      ],
+      "htmlProgrammeNames": [
+        "Task"
+      ],
+      "releaseRecipientLineCandidates": [],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "supporting-actress-in-a-comedy-series",
+      "name": "OUTSTANDING SUPPORTING ACTRESS IN A COMEDY SERIES",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-supporting-actress-in-a-comedy-series",
+      "htmlSourceSha256": "b713d054929babb0d5e7c206c88a99929b67f39730301b1035b6dfd6f0d6d4bc",
+      "releaseFile": "winners-2026-main.pdf",
+      "releaseContext": "OUTSTANDING SUPPORTING ACTRESS IN A COMEDY SERIES \nKATE O'FLYNN as Patricia APPLE TV \n \nWidow's Bay",
+      "sectionSha256": "d2bcf5d2e2083958b32bbbbfe9ff8d28128570b5d784ca202e8badfde28e181d",
+      "htmlRecipientNames": [
+        "Kate O'Flynn"
+      ],
+      "htmlProgrammeNames": [
+        "Widow’s Bay"
+      ],
+      "releaseRecipientLineCandidates": [],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "supporting-actress-in-a-drama-series",
+      "name": "OUTSTANDING SUPPORTING ACTRESS IN A DRAMA SERIES",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-supporting-actress-in-a-drama-series",
+      "htmlSourceSha256": "51ec4b782ba899c1dfd1d9f70504dfbc93224b98785804ec4686f6d71087e8ee",
+      "releaseFile": "winners-2026-main.pdf",
+      "releaseContext": "OUTSTANDING SUPPORTING ACTRESS IN A DRAMA SERIES \nALLISON JANNEY as President Grace Penn NETFLIX \n \nThe Diplomat",
+      "sectionSha256": "4870f95ed08f4d633bf122672e391b16bfc2e447273350a6e3d9f3d720a8b92d",
+      "htmlRecipientNames": [
+        "Allison Janney"
+      ],
+      "htmlProgrammeNames": [
+        "The Diplomat"
+      ],
+      "releaseRecipientLineCandidates": [],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "variety-series",
+      "name": "OUTSTANDING VARIETY SERIES",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-variety-series",
+      "htmlSourceSha256": "f7b9f548a1f670a05bcdda5a015a4a80849792cf07a0bc39e3ec43b1031e567f",
+      "releaseFile": "winners-2026-main.pdf",
+      "releaseContext": "OUTSTANDING VARIETY SERIES \n(Area Award: Possibility of one or more than one award.) \nTHE LATE SHOW WITH STEPHEN COLBERT CBS \n \nStephen T. Colbert, Executive Producer/Host \nTom Purcell, Executive Producer \nJon Stewart, Executive Producer \nTanya Michnevich Bracco, Co-Executive Producer \nBarry Julien, Co-Executive Producer \nMatt Lappin, Co-Executive Producer \nOpus Moreschi, Co-Executive Producer \nAaron Cohen, Supervising Producer \nPaul Dinello, Supervising Producer \nAriel Dumas, Supervising Producer \nEmily Gertler, Supervising Producer \nJay Katsir, Supervising Producer \nBjoern Stejskal, Supervising Producer \nSara Vilkomerson, Supervising Producer \nAdam Wager, Supervising Producer \nBallard C. Boyd, Producer \nMichael Brumm, Producer \nMegan Gearheart, Producer \nGabe Gronli, Producer \nPaige Kendig, Producer \nBrandon Marianacci, Producer \nJake Plunkett, Producer \nLouis J. Grieci, Line Producer",
+      "sectionSha256": "a066098444fc1d78d73ec0ccb43dcea0a096781e3e3c61ea1ec59586c4d242ee",
+      "htmlRecipientNames": [
+        "Stephen T. Colbert",
+        "Tom Purcell",
+        "Jon Stewart",
+        "Tanya Michnevich Bracco",
+        "Barry Julien",
+        "Matt Lappin",
+        "Opus Moreschi",
+        "Aaron Cohen",
+        "Paul Dinello",
+        "Ariel Dumas",
+        "Emily Gertler",
+        "Jay Katsir",
+        "Bjoern Stejskal",
+        "Sara Vilkomerson",
+        "Adam Wager",
+        "Ballard C. Boyd",
+        "Michael Brumm",
+        "Megan Gearheart",
+        "Gabe Gronli",
+        "Paige Kendig",
+        "Brandon Marianacci",
+        "Jake Plunkett",
+        "Louis J. Grieci"
+      ],
+      "htmlProgrammeNames": [
+        "The Late Show with Stephen Colbert"
+      ],
+      "releaseRecipientLineCandidates": [
+        "Stephen T. Colbert, Executive Producer/Host",
+        "Tom Purcell, Executive Producer",
+        "Jon Stewart, Executive Producer",
+        "Tanya Michnevich Bracco, Co-Executive Producer",
+        "Barry Julien, Co-Executive Producer",
+        "Matt Lappin, Co-Executive Producer",
+        "Opus Moreschi, Co-Executive Producer",
+        "Aaron Cohen, Supervising Producer",
+        "Paul Dinello, Supervising Producer",
+        "Ariel Dumas, Supervising Producer",
+        "Emily Gertler, Supervising Producer",
+        "Jay Katsir, Supervising Producer",
+        "Bjoern Stejskal, Supervising Producer",
+        "Sara Vilkomerson, Supervising Producer",
+        "Adam Wager, Supervising Producer",
+        "Ballard C. Boyd, Producer",
+        "Michael Brumm, Producer",
+        "Megan Gearheart, Producer",
+        "Gabe Gronli, Producer",
+        "Paige Kendig, Producer",
+        "Brandon Marianacci, Producer",
+        "Jake Plunkett, Producer",
+        "Louis J. Grieci, Line Producer"
+      ],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "writing-for-a-comedy-series",
+      "name": "OUTSTANDING WRITING FOR A COMEDY SERIES",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-writing-for-a-comedy-series",
+      "htmlSourceSha256": "7e473c2f2dae350cf6ee13a08be94fe1f1e4fa148051f5489876310d52e4bd02",
+      "releaseFile": "winners-2026-main.pdf",
+      "releaseContext": "OUTSTANDING WRITING FOR A COMEDY SERIES \nKATIE DIPPOLD, Written by APPLE TV \n \nWidow's Bay  \nWelcome To Widow's Bay!",
+      "sectionSha256": "5fe8b89a18453aeae9a0dbd16de590fee971c8112998c0f9672f4ddbcdde9d77",
+      "htmlRecipientNames": [
+        "Katie Dippold"
+      ],
+      "htmlProgrammeNames": [
+        "Widow’s Bay"
+      ],
+      "releaseRecipientLineCandidates": [
+        "KATIE DIPPOLD, Written by APPLE TV"
+      ],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    },
+    {
+      "id": "writing-for-a-drama-series",
+      "name": "OUTSTANDING WRITING FOR A DRAMA SERIES",
+      "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-writing-for-a-drama-series",
+      "htmlSourceSha256": "948b7fcb655395d3977bbd5ec0dbf7958acd8b5d9c551c35adbbfaa7a673693a",
+      "releaseFile": "winners-2026-main.pdf",
+      "releaseContext": "OUTSTANDING WRITING FOR A DRAMA SERIES \nVINCE GILLIGAN, Written by APPLE TV \n \nPluribus  \nWe Is Us",
+      "sectionSha256": "4d41900f8fcd22903e39c917f0d055f6eea079871c7c435908989d4207a9d0b4",
+      "htmlRecipientNames": [
+        "Vince Gilligan"
+      ],
+      "htmlProgrammeNames": [
+        "Pluribus"
+      ],
+      "releaseRecipientLineCandidates": [
+        "VINCE GILLIGAN, Written by APPLE TV"
+      ],
+      "additionalRecipientNameCandidates": [],
+      "creditReviewStatus": "pending-review"
+    }
+  ]
+}
