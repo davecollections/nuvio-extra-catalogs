@@ -9,7 +9,7 @@ import json
 from collections import Counter
 from pathlib import Path
 
-from fetch_emmy_snapshot import INDEX_PATH, REGISTRY_PATH, SNAPSHOT_PATH, SOURCE_DIR, category_for_year, load, serialized
+from fetch_emmy_snapshot import INDEX_PATH, REGISTRY_PATH, SNAPSHOT_PATH, SOURCE_DIR, category_for_winner, load, serialized
 
 ROOT = Path(__file__).resolve().parents[1]
 REPORT_PATH = ROOT / "reports" / "emmy-awards-source-audit.json"
@@ -42,16 +42,17 @@ def build():
         url = f"https://www.televisionacademy.com/awards/nominees-winners/{value['year']}/{value['sourceSlug']}"
         status = "source-conflict" if url in conflicts else "reconciled-no-award-page" if url in no_award_urls else "explicit-no-award-without-index-page" if url not in indexed_urls else "unresolved-source-page"
         exceptions.append({**value, "reconciliationStatus": status})
-    allocated = [(p, category_for_year(by_slug[p["sourceUrl"].rsplit('/', 1)[1]], p["year"])) for p in snapshot["pages"]]
-    allocated = [(p, category) for p, category in allocated if category]
+    allocated = [(p, w, category_for_winner(by_slug[p["sourceUrl"].rsplit('/', 1)[1]], p["year"], w["sourceKey"])) for p, w in winners]
+    allocated = [(p, w, category) for p, w, category in allocated if category]
     categories = []
     for category in registry["included"]:
-        category_pages = [p for p, target in allocated if target == category["id"]]
+        category_winners = [(p, w) for p, w, target in allocated if target == category["id"]]
+        category_pages = {p["sourceUrl"]: p for p, _ in category_winners}
         categories.append({"id": category["id"], "name": category["name"],
             "historyStatus": "incomplete-history-review", "reviewedSourcePageCount": len(category_pages),
-            "reviewedWinnerAllocationCount": sum(p["winnerCount"] for p in category_pages),
-            "reviewedSourceYears": sorted({p["year"] for p in category_pages}, reverse=True),
-            "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."})
+            "reviewedWinnerAllocationCount": len(category_winners),
+            "reviewedSourceYears": sorted({p["year"] for p in category_pages.values()}, reverse=True),
+            "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."})
     years = []
     for entry in index["years"]:
         pages = [p for p in snapshot["pages"] if p["year"] == entry["year"]]
@@ -66,8 +67,8 @@ def build():
             "historicalPageSlugCount": len(decisions), "scopeExcludedSlugCount": sum(d["disposition"] == "excluded" for d in decisions),
             "pendingLineageSlugCount": sum(d["disposition"] == "pending-review" for d in decisions),
             "reviewedLineageSlugCount": sum(d["disposition"] == "current-lineage" for d in decisions),
-            "reviewedAllocationPageCount": len(allocated),
-            "reviewedWinnerAllocationCount": sum(p["winnerCount"] for p, _ in allocated),
+            "reviewedAllocationPageCount": len({p["sourceUrl"] for p, _, _ in allocated}),
+            "reviewedWinnerAllocationCount": len(allocated),
             "acquiredCandidatePageCount": len(snapshot["pages"]), "candidateWinnerRecordCount": len(winners),
             "independentlyReconciledNoAwardPageCount": len(snapshot.get("noAwardPages", [])),
             "unresolvedSourcePageCount": len(snapshot["failures"]), "failureKinds": dict(sorted(failure_kinds.items())),

@@ -149,6 +149,8 @@ def candidate_pages(indices, lineage):
 
 def review_for_year(decision, year):
     """Read explicit review periods; never infer a target from a page slug."""
+    if not decision["firstYear"] <= year <= decision["lastYear"]:
+        return None
     if "acquisitionYears" in decision and year not in decision["acquisitionYears"]:
         return None
     if "periods" not in decision:
@@ -162,8 +164,22 @@ def review_for_year(decision, year):
 def category_for_year(decision, year):
     review = review_for_year(decision, year)
     if review and review["disposition"] == "current-lineage":
-        return review["currentCategory"]
+        return review.get("currentCategory")
     return None
+
+
+def category_for_winner(decision, year, source_key):
+    """Mixed historical fields require an exact allocation for each winner."""
+    review = review_for_year(decision, year)
+    if not review or review["disposition"] != "current-lineage":
+        return None
+    if "winnerAllocations" not in review:
+        return category_for_year(decision, year)
+    matches = [value for value in review["winnerAllocations"] if value["sourceKey"] == source_key and value["year"] == year]
+    if len(matches) != 1:
+        raise SourceError(f"{decision['sourceSlug']}/{year}: missing or duplicate winner allocation")
+    allocation = matches[0]
+    return allocation.get("currentCategory") if allocation["disposition"] == "current-lineage" else None
 
 
 def run_batch(entries, operation, workers):

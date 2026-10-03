@@ -45,9 +45,12 @@ def validate_review(review, years, indices, acquired, category_ids):
     require(review.get("reason") and review.get("evidence"), "review period lacks reason/evidence")
     require(all(u in indices and indices[u][0] in years for u in review["evidence"]), "period evidence outside reviewed years")
     if review["disposition"] != "current-lineage":
-        require("currentCategory" not in review, "unaccepted period has a category target")
+        require("currentCategory" not in review and "winnerAllocations" not in review, "unaccepted period has category targets")
         return
-    require(review.get("currentCategory") in category_ids, "lineage target outside approved scope")
+    mixed = "winnerAllocations" in review
+    require(not (mixed and "currentCategory" in review), "mixed review also carries a blanket target")
+    if not mixed:
+        require(review.get("currentCategory") in category_ids, "lineage target outside approved scope")
     expected = {u: p for u, p in acquired.items() if u in years.values()}
     reviewed = review.get("reviewedSourcePages", [])
     require(len(reviewed) == len(expected) and {p["sourceUrl"] for p in reviewed} == set(expected), "accepted lineage does not pin every acquired page in its period")
@@ -56,6 +59,20 @@ def validate_review(review, years, indices, acquired, category_ids):
         page = expected[value["sourceUrl"]]
         require(value["year"] == page["year"] and value["sha256"] == page["source"]["sha256"], "accepted lineage source fingerprint drift")
         require(value["winnerSourceKeys"] == [w["sourceKey"] for w in page["winners"]], "accepted lineage winning facts drift")
+    if mixed:
+        expected_winners = {w["sourceKey"]: p for p in expected.values() for w in p["winners"]}
+        allocations = review["winnerAllocations"]
+        require(len(allocations) == len(expected_winners) and {a["sourceKey"] for a in allocations} == set(expected_winners),
+                "mixed historical review does not allocate every winner exactly once")
+        for value in allocations:
+            page = expected_winners[value["sourceKey"]]
+            require(value["sourceUrl"] == page["sourceUrl"] and value["year"] == page["year"] and value.get("reason"),
+                    "winner allocation lacks its actual ceremony/page evidence")
+            require(value["disposition"] in {"current-lineage", "excluded"}, "accepted mixed review conceals an unresolved winner")
+            if value["disposition"] == "current-lineage":
+                require(value.get("currentCategory") in category_ids, "winner allocation target outside approved scope")
+            else:
+                require("currentCategory" not in value, "excluded winner carries a category target")
 
 
 def validate(complete=False):

@@ -4,7 +4,7 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ## [Unreleased]
 
-- Added the official Emmy HTML source adapter, 78 annual indices, the complete historical category inventory, winner-release cross-checks and source-review diagnostics for Issue #45. Review now pins 93 historical branches and 2,140 winner allocations, with explicit year/role boundaries, no-award evidence and a first-party source conflict. Sixty-two branches and 16 source pages remain unresolved; this work adds no public Emmy catalogues.
+- Added the official Emmy HTML source adapter, 78 annual indices, the complete historical category inventory, winner-release cross-checks and source-review diagnostics for Issue #45. Review now pins 101 historical branches and 2,255 winner allocations, with explicit year/role boundaries, individual allocations within mixed fields, no-award evidence and a first-party source conflict. Fifty-four branches and 16 source pages remain unresolved; this work adds no public Emmy catalogues.
 
 - Document the owner-approved 49-category Emmy expanded-essentials scope, retain the complete 2026 inventory with explicit exclusions and deferrals, and split implementation into source/lineage, identity, output/audit and acceptance/release issues. No public catalogue or manifest changes.
 

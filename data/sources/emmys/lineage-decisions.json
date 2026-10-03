@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "checkedAt": "2026-10-03",
-  "policy": "Account for every page slug discovered in the 78 first-party annual indices. Scope exclusions are explicit; candidate acquisition and year-specific labels never certify continuity. A selected predecessor requires named current-category allocation, exact year boundaries and primary evidence before canonical generation.",
+  "policy": "Account for every page slug discovered in the 78 first-party annual indices. Scope exclusions are explicit; candidate acquisition and year-specific labels never certify continuity. A selected predecessor requires named current-category or exact source-winner allocation, explicit year boundaries and pinned evidence before canonical generation.",
   "programmes": [
     {
       "id": "emmy-awards",
@@ -129,7 +129,149 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1964/best-actor"
           ],
           "disposition": "pending-review",
-          "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
+          "reason": "Reviewed year-specific winning productions and historical headings. Use explicit periods and, for mixed winners, exact source-key allocations; never apply a blanket target to the URL slug.",
+          "periods": [
+            {
+              "years": [
+                1964,
+                1958,
+                1957,
+                1956,
+                1955
+              ],
+              "disposition": "current-lineage",
+              "reason": "These reviewed continuing/regular-series winners explicitly credit The Dick Van Dyke Show, Father Knows Best, The Phil Silvers Show and Make Room for Daddy. Allocate the sitcom-winning years to Comedy lead actor.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1964/best-actor",
+                "https://www.televisionacademy.com/awards/nominees-winners/1958/best-actor",
+                "https://www.televisionacademy.com/awards/nominees-winners/1957/best-actor",
+                "https://www.televisionacademy.com/awards/nominees-winners/1956/best-actor",
+                "https://www.televisionacademy.com/awards/nominees-winners/1955/best-actor"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Actor Starring In A Regular Series",
+                "Best Actor-Continuing Performance",
+                "Best Continuing Performance By An Actor",
+                "Best Continuing Performance By An Actor In A Leading Role In A Dramatic Or Comedy Series",
+                "Outstanding Continued Performance By An Actor In A Series (Lead)"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1964,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1964/best-actor",
+                  "sha256": "db44e89489bd9fbcdcdcbdf23ff376d8e7ed3cb7b8ffe636932509b6ec83797e",
+                  "winnerSourceKeys": [
+                    "7e7c1b1adb69a72b268cdb22284f789045c1a9789ac18d7d2a8955c24879fbf2"
+                  ]
+                },
+                {
+                  "year": 1958,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1958/best-actor",
+                  "sha256": "7366cb6e631ec1a182b7d0656bf5a6019b3416e114abad06e0e4d203c70e4b30",
+                  "winnerSourceKeys": [
+                    "f8be62e103b8a06f44065b67e957759387d7e0006d4466527320523dc62ee43b"
+                  ]
+                },
+                {
+                  "year": 1957,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1957/best-actor",
+                  "sha256": "d354a25655480b1f984805566b968f25babb7e2641b3e8fb90c456e8e94cd9f4",
+                  "winnerSourceKeys": [
+                    "f44abe7fa9db545d87e9a2c685d4505a0723ecc29132e1d5f5bafffdd29903aa"
+                  ]
+                },
+                {
+                  "year": 1956,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1956/best-actor",
+                  "sha256": "15547b0bd3c3366f60a971f151214524f3aafd57473c5b5514e1e87725560e74",
+                  "winnerSourceKeys": [
+                    "a026a085a38f5886f25f2b2443d90ee12188e85ba3c9bfe997cd62efe3caa164"
+                  ]
+                },
+                {
+                  "year": 1955,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1955/best-actor",
+                  "sha256": "3dcc89b2e3385115aee5d004a59938f7a7d7be65496572b8d20ed6043c617a47",
+                  "winnerSourceKeys": [
+                    "736f59c18b777f601a750aa5f51709d5b5f4e4a5e5031fc5b23ce330852e7b28"
+                  ]
+                }
+              ],
+              "currentCategory": "lead-actor-in-a-comedy-series"
+            },
+            {
+              "years": [
+                1963,
+                1962,
+                1961,
+                1960
+              ],
+              "disposition": "current-lineage",
+              "reason": "The continuing/series-role winners credit The Defenders, Perry Mason and The Untouchables. Allocate these actual dramatic-series wins to Drama lead actor, preserving the combined lead-or-support wording in 1960.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1963/best-actor",
+                "https://www.televisionacademy.com/awards/nominees-winners/1962/best-actor",
+                "https://www.televisionacademy.com/awards/nominees-winners/1961/best-actor",
+                "https://www.televisionacademy.com/awards/nominees-winners/1960/best-actor"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Continued Performance By An Actor In A Series (Lead)",
+                "Outstanding Performance By An Actor In A Series (Lead Or Support)",
+                "Outstanding Performance By An Actor In A Series (Lead)"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1963,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1963/best-actor",
+                  "sha256": "20887eaf1ce28f963adb0294af0f778c3508e592f40e98adce1dfbf28000520c",
+                  "winnerSourceKeys": [
+                    "bd16d91c2c93c95c6a7e3186b3130b5ef943affb7bf50f4867c6ea712cc51758"
+                  ]
+                },
+                {
+                  "year": 1962,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1962/best-actor",
+                  "sha256": "c0ecaeefd71e5a3e34fb2e53eb184f46108ee910f1016d07e485040d39d19d1c",
+                  "winnerSourceKeys": [
+                    "12096c57b8d1616904821c5780a46433f784750389001943c91a86aa83750b30"
+                  ]
+                },
+                {
+                  "year": 1961,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1961/best-actor",
+                  "sha256": "ee43aa9dc44acfaa444891b637a721c248f4767586958ae065d7ab382bae520f",
+                  "winnerSourceKeys": [
+                    "48d779b5040c82e4c0e64674b5e7a1b1cfe8c4f2682fe4a569624b74b57b0612"
+                  ]
+                },
+                {
+                  "year": 1960,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1960/best-actor",
+                  "sha256": "4d7e592ea4aab0f5a11a898da239d5f2fb97178ac9f55e36177e5e227f7c7e66",
+                  "winnerSourceKeys": [
+                    "69063da54302ddff286f9ee2265664059b5f2f9b30cfa5d13950de3203b36666"
+                  ]
+                }
+              ],
+              "currentCategory": "lead-actor-in-a-drama-series"
+            },
+            {
+              "years": [
+                1954,
+                1953,
+                1952,
+                1951
+              ],
+              "disposition": "pending-review",
+              "reason": "These combined-period programme/recipient facts do not yet establish an unambiguous current lineage. Retain for specific production and source review.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1954/best-actor",
+                "https://www.televisionacademy.com/awards/nominees-winners/1953/best-actor",
+                "https://www.televisionacademy.com/awards/nominees-winners/1952/best-actor",
+                "https://www.televisionacademy.com/awards/nominees-winners/1951/best-actor"
+              ]
+            }
+          ]
         },
         {
           "sourceSlug": "best-actor-in-a-supporting-role",
@@ -146,11 +288,144 @@
           "firstYear": 1954,
           "lastYear": 1969,
           "evidence": [
-            "https://www.televisionacademy.com/awards/nominees-winners/1954/best-actor-in-a-supporting-role",
-            "https://www.televisionacademy.com/awards/nominees-winners/1969/best-actor-in-a-supporting-role"
+            "https://www.televisionacademy.com/awards/nominees-winners/1969/best-actor-in-a-supporting-role",
+            "https://www.televisionacademy.com/awards/nominees-winners/1964/best-actor-in-a-supporting-role",
+            "https://www.televisionacademy.com/awards/nominees-winners/1963/best-actor-in-a-supporting-role",
+            "https://www.televisionacademy.com/awards/nominees-winners/1962/best-actor-in-a-supporting-role",
+            "https://www.televisionacademy.com/awards/nominees-winners/1958/best-actor-in-a-supporting-role",
+            "https://www.televisionacademy.com/awards/nominees-winners/1957/best-actor-in-a-supporting-role",
+            "https://www.televisionacademy.com/awards/nominees-winners/1956/best-actor-in-a-supporting-role",
+            "https://www.televisionacademy.com/awards/nominees-winners/1955/best-actor-in-a-supporting-role",
+            "https://www.televisionacademy.com/awards/nominees-winners/1954/best-actor-in-a-supporting-role"
           ],
-          "disposition": "pending-review",
-          "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
+          "disposition": "current-lineage",
+          "reason": "Reviewed year-specific winning productions and historical headings. Use explicit periods and, for mixed winners, exact source-key allocations; never apply a blanket target to the URL slug.",
+          "periods": [
+            {
+              "years": [
+                1969,
+                1963,
+                1962,
+                1958,
+                1957,
+                1956,
+                1955,
+                1954
+              ],
+              "disposition": "current-lineage",
+              "reason": "Reviewed supporting-series winners credit Hogan's Heroes, The Andy Griffith Show, Caesar's Hour, The Honeymooners and The Jackie Gleason Show. Preserve the historical comedic-character supporting performances, including sketch/variety-series characters; do not convert an award into a host award.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1969/best-actor-in-a-supporting-role",
+                "https://www.televisionacademy.com/awards/nominees-winners/1963/best-actor-in-a-supporting-role",
+                "https://www.televisionacademy.com/awards/nominees-winners/1962/best-actor-in-a-supporting-role",
+                "https://www.televisionacademy.com/awards/nominees-winners/1958/best-actor-in-a-supporting-role",
+                "https://www.televisionacademy.com/awards/nominees-winners/1957/best-actor-in-a-supporting-role",
+                "https://www.televisionacademy.com/awards/nominees-winners/1956/best-actor-in-a-supporting-role",
+                "https://www.televisionacademy.com/awards/nominees-winners/1955/best-actor-in-a-supporting-role",
+                "https://www.televisionacademy.com/awards/nominees-winners/1954/best-actor-in-a-supporting-role"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Actor In A Supporting Role",
+                "Best Continuing Supporting Performance By An Actor In A Dramatic Or Comedy Series",
+                "Best Series Supporting Actor",
+                "Best Supporting Actor In A Regular Series",
+                "Best Supporting Performance By An Actor",
+                "Outstanding Continued Performance By An Actor In A Supporting Role In A Series",
+                "Outstanding Performance In A Supporting Role By An Actor"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1969,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1969/best-actor-in-a-supporting-role",
+                  "sha256": "946eab7b1921782d6d54ac0c4090e87694868e88aa18005cd54c9194aaad9234",
+                  "winnerSourceKeys": [
+                    "bbef0b9818d611e59ee4fe1ec0c3ea20ed3d3f4f11f326196f66bb55b1deda7b"
+                  ]
+                },
+                {
+                  "year": 1963,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1963/best-actor-in-a-supporting-role",
+                  "sha256": "e6b0a2bfadb23ab1f91357e4f935b1ec2688497a1a4d67434e10c2f3cc2c3569",
+                  "winnerSourceKeys": [
+                    "f2912b461b03629c79ada2c2fb49448972c96c75f21e6e21d5e9453e980f4c32"
+                  ]
+                },
+                {
+                  "year": 1962,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1962/best-actor-in-a-supporting-role",
+                  "sha256": "8fed5505e4bce39caf590b32bd20f4c0d51bbbb1e5eb4748dbcc7dea2c5e7187",
+                  "winnerSourceKeys": [
+                    "6b5b29d5f90e6bbc075eba31c8c4b5d8ab97b3cd44672d959f366d938847b45d"
+                  ]
+                },
+                {
+                  "year": 1958,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1958/best-actor-in-a-supporting-role",
+                  "sha256": "798d2fcea58f98c339f5c99c413ad8f1ae393c4169bb53c8be49d04fe3196992",
+                  "winnerSourceKeys": [
+                    "96cbb828e9eb1493e1fafdbb597ae5d07a7297aeff1fa049ed9a147748af5aa6"
+                  ]
+                },
+                {
+                  "year": 1957,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1957/best-actor-in-a-supporting-role",
+                  "sha256": "da8f34f3f87aafbecb48f14dfada2773382955a22a50111702cee6aa93533157",
+                  "winnerSourceKeys": [
+                    "038c66ee4dfaa871458dc884a0015cab4503fd938e687da65b167ed794e48867"
+                  ]
+                },
+                {
+                  "year": 1956,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1956/best-actor-in-a-supporting-role",
+                  "sha256": "11cc2501af42652748e68ac4ddd90ce63f40a4075ca4e0dc3c61d8f7541fee78",
+                  "winnerSourceKeys": [
+                    "2ff013f3872988106f6f9ae2c63edd963b8c7052a98783d7d9ee78d38aec7b27"
+                  ]
+                },
+                {
+                  "year": 1955,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1955/best-actor-in-a-supporting-role",
+                  "sha256": "257a153a8c74ad3d1a0c7e91e726832c5b06883a2aac18a83929d5b570c02a45",
+                  "winnerSourceKeys": [
+                    "d244d7981c94fa33c06504e635bb767280ac33c26dc3aae4cb470b38f7b87cd3"
+                  ]
+                },
+                {
+                  "year": 1954,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1954/best-actor-in-a-supporting-role",
+                  "sha256": "923458f0a0093f32ee783ddd0a05329e3b525bd2cd7f543f8f13b7bacd6bfd27",
+                  "winnerSourceKeys": [
+                    "63dee19e99728c8d17c9cabd5198e5248d8a7b7385d88e740d072434946c6363"
+                  ]
+                }
+              ],
+              "currentCategory": "supporting-actor-in-a-comedy-series"
+            },
+            {
+              "years": [
+                1964
+              ],
+              "disposition": "current-lineage",
+              "reason": "Albert Paulsen is awarded for Bob Hope Presents The Chrysler Theatre, an episodic dramatic anthology. Retain the original supporting-role category and defer exact episode identity to production review.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1964/best-actor-in-a-supporting-role"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Performance In A Supporting Role By An Actor"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1964,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1964/best-actor-in-a-supporting-role",
+                  "sha256": "93ae2e9dc060007e88cebab514e04f04ccd931d04da92028c4e46eeaaba02390",
+                  "winnerSourceKeys": [
+                    "8b13fbe806db8534fdbfb3f79f753070f9931cfd8923078da0eeb44d54df8b37"
+                  ]
+                }
+              ],
+              "currentCategory": "supporting-actor-in-a-drama-series"
+            }
+          ]
         },
         {
           "sourceSlug": "best-actress",
@@ -173,7 +448,157 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1964/best-actress"
           ],
           "disposition": "pending-review",
-          "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
+          "reason": "Reviewed year-specific winning productions and historical headings. Use explicit periods and, for mixed winners, exact source-key allocations; never apply a blanket target to the URL slug.",
+          "periods": [
+            {
+              "years": [
+                1964,
+                1963,
+                1962,
+                1960,
+                1958,
+                1956,
+                1954
+              ],
+              "disposition": "current-lineage",
+              "reason": "The reviewed continuing/regular-series winners credit The Dick Van Dyke Show, Hazel, Father Knows Best, I Love Lucy and Our Miss Brooks. Allocate these sitcom-winning years to Comedy lead actress.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1964/best-actress",
+                "https://www.televisionacademy.com/awards/nominees-winners/1963/best-actress",
+                "https://www.televisionacademy.com/awards/nominees-winners/1962/best-actress",
+                "https://www.televisionacademy.com/awards/nominees-winners/1960/best-actress",
+                "https://www.televisionacademy.com/awards/nominees-winners/1958/best-actress",
+                "https://www.televisionacademy.com/awards/nominees-winners/1956/best-actress",
+                "https://www.televisionacademy.com/awards/nominees-winners/1954/best-actress"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Actress-Continuing Performance",
+                "Best Continuing Performance By An Actress In A Leading Role In A Dramatic Or Comedy Series",
+                "Best Female Star Of Regular Series",
+                "Outstanding Continued Performance By An Actress In A Series (Lead)",
+                "Outstanding Performance By An Actress In A Series (Lead Or Support)"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1964,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1964/best-actress",
+                  "sha256": "4977adfcd5d5eb6c0454052445141466e4261e645061b7e1a5a8224f40c0902d",
+                  "winnerSourceKeys": [
+                    "7f4a49576a99ee742c1c48a9e124f25bbcf1cd56dd0ed2067c9d565b4e0b0f4a"
+                  ]
+                },
+                {
+                  "year": 1963,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1963/best-actress",
+                  "sha256": "534d3974ad644112679ff460ec901d384f65a3aacbbceae716b9784bb37711b6",
+                  "winnerSourceKeys": [
+                    "a12a11d7dd55e1848dc86dbad0aa3a26853d690d86ef486e261bcbed50798e4f"
+                  ]
+                },
+                {
+                  "year": 1962,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1962/best-actress",
+                  "sha256": "09a8bceaff8448fa9554eb302f96dbb8b51769ca0cdbe444250c08c1b7528636",
+                  "winnerSourceKeys": [
+                    "43c976e336696b27e5bc4135c7482eda94f5d7d453a4a27d0500eb76385f8a21"
+                  ]
+                },
+                {
+                  "year": 1960,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1960/best-actress",
+                  "sha256": "dfba9d944cb799878f291f1b555f0e3468559611fc8f98aa66ceb594535d2026",
+                  "winnerSourceKeys": [
+                    "5356999b3a1b60338dd46dde13ba58da5f6ed8f2f76e840b078e56ad378327dc"
+                  ]
+                },
+                {
+                  "year": 1958,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1958/best-actress",
+                  "sha256": "f7087d79baae0e4414dbfd16854392405418445b66a3f0b923b9d9d30068bc60",
+                  "winnerSourceKeys": [
+                    "069cbe2730409309e961a98d67b3d3e68351ba4c4439fa79fddf4c0db23f9645"
+                  ]
+                },
+                {
+                  "year": 1956,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1956/best-actress",
+                  "sha256": "636525f79bdb0a2c80443eafa2d7b0753d613db6a690315989da3b3c21f28205",
+                  "winnerSourceKeys": [
+                    "d188ddd9e658c20021d7acacaaf57f13d067304dbaff516bcf7f993dbe6f9cf2"
+                  ]
+                },
+                {
+                  "year": 1954,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1954/best-actress",
+                  "sha256": "5b63a0964dd621aeb9d64331d7fecd32c8562e25b03dcba8900bda86f4996e15",
+                  "winnerSourceKeys": [
+                    "2a98384f96ef9ee4dce7a29fcee9684fb0f19e2225d663c2b01a19d84be96c1d"
+                  ]
+                }
+              ],
+              "currentCategory": "lead-actress-in-a-comedy-series"
+            },
+            {
+              "years": [
+                1961,
+                1957,
+                1955
+              ],
+              "disposition": "current-lineage",
+              "reason": "The reviewed series-role wins credit The Barbara Stanwyck Show and The Loretta Young Show, episodic dramatic anthologies. Preserve their original series-performance contract; anthology here does not prove a season-length limited series.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1961/best-actress",
+                "https://www.televisionacademy.com/awards/nominees-winners/1957/best-actress",
+                "https://www.televisionacademy.com/awards/nominees-winners/1955/best-actress"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Actress Starring In A Regular Series",
+                "Best Continuing Performance By An Actress",
+                "Outstanding Performance By An Actress In A Series (Lead)"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1961,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1961/best-actress",
+                  "sha256": "9d62129592ebc4bc3ed82043167c69e5d2c83381d39eda7b3e029089e8b847f2",
+                  "winnerSourceKeys": [
+                    "858ff66016f0ab3ac26687692c74b6461cecb7cb72b4852c24ca18ded99f2961"
+                  ]
+                },
+                {
+                  "year": 1957,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1957/best-actress",
+                  "sha256": "61b8ec21d9c50935851eb696f475c76b6aea39dc23f6a4b6601092eb365bf8fa",
+                  "winnerSourceKeys": [
+                    "c96efc74a7a3461387e31571350cc98f29ffb2f68b3594bb48a778447fd3c96a"
+                  ]
+                },
+                {
+                  "year": 1955,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1955/best-actress",
+                  "sha256": "da240814798c41442b62d07fc26ecb09418f020a25c99fc1aeff55404702dc25",
+                  "winnerSourceKeys": [
+                    "5ca79982468f3fb9b0c168541078ac6953bcee2d780008cb2fba4ea52c79ee8a"
+                  ]
+                }
+              ],
+              "currentCategory": "lead-actress-in-a-drama-series"
+            },
+            {
+              "years": [
+                1953,
+                1952,
+                1951
+              ],
+              "disposition": "pending-review",
+              "reason": "These combined-period programme/recipient facts do not yet establish an unambiguous current lineage. Retain for specific production and source review.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1953/best-actress",
+                "https://www.televisionacademy.com/awards/nominees-winners/1952/best-actress",
+                "https://www.televisionacademy.com/awards/nominees-winners/1951/best-actress"
+              ]
+            }
+          ]
         },
         {
           "sourceSlug": "best-art-direction-half-hour-or-less",
@@ -1078,7 +1503,124 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1969/best-series-supporting-actress"
           ],
           "disposition": "pending-review",
-          "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
+          "reason": "Reviewed year-specific winning productions and historical headings. Use explicit periods and, for mixed winners, exact source-key allocations; never apply a blanket target to the URL slug.",
+          "periods": [
+            {
+              "years": [
+                1969,
+                1963
+              ],
+              "disposition": "current-lineage",
+              "reason": "Supporting-role winners credit The Name of the Game and Ben Casey, dramatic series. Keep the original mixed historical category labels.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1969/best-series-supporting-actress",
+                "https://www.televisionacademy.com/awards/nominees-winners/1963/best-series-supporting-actress"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Continued Performance By An Actress In A Supporting Role In A Series",
+                "Outstanding Performance In A Supporting Role By An Actress"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1969,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1969/best-series-supporting-actress",
+                  "sha256": "258a589804f5c6c6355c7d1c01c668e731bcfe5f71ffa45d618e5403df49e0e2",
+                  "winnerSourceKeys": [
+                    "e8e872b40f53630e654727ea3bbbbf83575f39c7a58b502e866eec4d993a62a3"
+                  ]
+                },
+                {
+                  "year": 1963,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1963/best-series-supporting-actress",
+                  "sha256": "8c89468829f9c9e76763ae770fa91f80efc9391dad554df5bb8e79b8c27e864d",
+                  "winnerSourceKeys": [
+                    "a2536d9a5c1adee8bad1350416b729726c819985e963b5058cb7e16fa428e915"
+                  ]
+                }
+              ],
+              "currentCategory": "supporting-actress-in-a-drama-series"
+            },
+            {
+              "years": [
+                1964,
+                1962
+              ],
+              "disposition": "pending-review",
+              "reason": "These combined-period programme/recipient facts do not yet establish an unambiguous current lineage. Retain for specific production and source review.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1964/best-series-supporting-actress",
+                "https://www.televisionacademy.com/awards/nominees-winners/1962/best-series-supporting-actress"
+              ]
+            },
+            {
+              "years": [
+                1958,
+                1957,
+                1956,
+                1955,
+                1954
+              ],
+              "disposition": "current-lineage",
+              "reason": "Reviewed comedic-character supporting wins credit Bob Cummings Show, Caesar's Hour, The Jackie Gleason Show and I Love Lucy. Preserve the exact character performance and source category; no host identity is substituted.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1958/best-series-supporting-actress",
+                "https://www.televisionacademy.com/awards/nominees-winners/1957/best-series-supporting-actress",
+                "https://www.televisionacademy.com/awards/nominees-winners/1956/best-series-supporting-actress",
+                "https://www.televisionacademy.com/awards/nominees-winners/1955/best-series-supporting-actress",
+                "https://www.televisionacademy.com/awards/nominees-winners/1954/best-series-supporting-actress"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Actress In A Supporting Role",
+                "Best Continuing Supporting Performance By An Actress In A Dramatic Or Comedy Series",
+                "Best Series Supporting Actress",
+                "Best Supporting Actress In A Regular Series",
+                "Best Supporting Performance By An Actress"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1958,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1958/best-series-supporting-actress",
+                  "sha256": "aa37f215cc09f96b715b4dff3597722cfffa68a7cd340f57e224db9dc8e45309",
+                  "winnerSourceKeys": [
+                    "2387644492bc3f9ac8ebc3e2c57632a0721f950a4db8cbb77dc99afd5e028d2b"
+                  ]
+                },
+                {
+                  "year": 1957,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1957/best-series-supporting-actress",
+                  "sha256": "3c72f6b3ad32aeb178ab954c6facf9ac8c1ae15305283247354f0c6ea52c3551",
+                  "winnerSourceKeys": [
+                    "0f27fa51e7019edf302690fd8ed8172cb3f5ce1a8ae9a76e0ad3ebd8ae697f7d"
+                  ]
+                },
+                {
+                  "year": 1956,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1956/best-series-supporting-actress",
+                  "sha256": "70c9a3a05d0b04d9b09b08c1823008d5735e6283540061215ff64654dc195592",
+                  "winnerSourceKeys": [
+                    "f2465c0082f06335695af1e66e540925cdb038a9eed4900006dd9654c82b92f4"
+                  ]
+                },
+                {
+                  "year": 1955,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1955/best-series-supporting-actress",
+                  "sha256": "5c0ef0ce01854de649bcc53c6153dc7b552ecce1cdc53a6210e86e25a3130fcb",
+                  "winnerSourceKeys": [
+                    "7a86c3f0827925634ea13338cb64a752e43e481dd96348fd23b82fc47d826e1c"
+                  ]
+                },
+                {
+                  "year": 1954,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1954/best-series-supporting-actress",
+                  "sha256": "c2bf79fa5e52d314e38f4b5a935d37174883132cd0c37c28243de63fced188a6",
+                  "winnerSourceKeys": [
+                    "a56ec1eb0fe41381ed7ba72a589d84b9bf53752ed6eb98f2b6811b98f0a93f8d"
+                  ]
+                }
+              ],
+              "currentCategory": "supporting-actress-in-a-comedy-series"
+            }
+          ]
         },
         {
           "sourceSlug": "best-single-program-of-the-year",
@@ -6318,7 +6860,7 @@
             "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-directing-for-a-variety-series"
           ],
           "disposition": "pending-review",
-          "reason": "Year-specific heading and winning-production review; use the explicit period allocations. Unreviewed combined periods remain withheld.",
+          "reason": "Reviewed year-specific winning productions and historical headings. Use explicit periods and, for mixed winners, exact source-key allocations; never apply a blanket target to the URL slug.",
           "periods": [
             {
               "years": [
@@ -6522,9 +7064,7 @@
                 1994,
                 1993,
                 1992,
-                1991,
                 1990,
-                1989,
                 1988,
                 1987,
                 1986,
@@ -6534,28 +7074,20 @@
                 1982,
                 1981,
                 1980,
-                1974,
                 1973,
-                1972,
-                1971,
-                1970,
-                1969,
                 1968,
                 1967,
-                1966,
-                1964
+                1966
               ],
-              "disposition": "pending-review",
-              "reason": "Earlier Variety/Music Program directing combines series and specials. Each winning production requires evidence before assigning either selected current directing history.",
+              "disposition": "current-lineage",
+              "reason": "Reviewed every winning production in these years: individual Kennedy Center/Academy/Tony Awards telecasts, concerts, staged musicals and named entertainment specials. Preserve programme/episode identity for enrichment; an annual awards show is an individual telecast, not an episodic series.",
               "evidence": [
                 "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-directing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-directing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1994/outstanding-directing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1993/outstanding-directing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-directing-for-a-variety-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1991/outstanding-directing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-directing-for-a-variety-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-directing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-directing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-directing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-directing-for-a-variety-series",
@@ -6565,16 +7097,302 @@
                 "https://www.televisionacademy.com/awards/nominees-winners/1982/outstanding-directing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-directing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-directing-for-a-variety-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1974/outstanding-directing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1973/outstanding-directing-for-a-variety-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1972/outstanding-directing-for-a-variety-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1971/outstanding-directing-for-a-variety-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1970/outstanding-directing-for-a-variety-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1969/outstanding-directing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1968/outstanding-directing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1967/outstanding-directing-for-a-variety-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1966/outstanding-directing-for-a-variety-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1966/outstanding-directing-for-a-variety-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Directing In A Variety Or Music Program",
+                "Outstanding Directing In A Variety, Music Or Comedy Program",
+                "Outstanding Directorial Achievement In Comedy, Variety Or Music",
+                "Outstanding Directorial Achievement In Music Or Variety",
+                "Outstanding Directorial Achievement In Variety Or Music",
+                "Outstanding Individual Achievement In Directing In A Variety Or Music Program"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1996,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-directing-for-a-variety-series",
+                  "sha256": "f8dbe8357a90ca98ddb3324a39438266f0206bfe688086c90c0392e8d4fbcf2c",
+                  "winnerSourceKeys": [
+                    "574c861df88b9f567da1c025a7ff2d6d9c5ae183f166d87266658ca7faafaca8"
+                  ]
+                },
+                {
+                  "year": 1995,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-directing-for-a-variety-series",
+                  "sha256": "6def53186eccc0d8e9cde4fd60566b6a463425c1b656a807d33cda42d5e1bd14",
+                  "winnerSourceKeys": [
+                    "01445eb091368628e39caf9c20cebfb4343b3cc80dd8b3627b79538699e466d0"
+                  ]
+                },
+                {
+                  "year": 1994,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1994/outstanding-directing-for-a-variety-series",
+                  "sha256": "a30acfa7881fa44f59d45be71a3fa31fefa2908f46ddd4a4253ba854fbfcebde",
+                  "winnerSourceKeys": [
+                    "08c22d73abfc5565b9404dc0fecc70b2d4526541434c7e1505944b40b75bb1ff"
+                  ]
+                },
+                {
+                  "year": 1993,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1993/outstanding-directing-for-a-variety-series",
+                  "sha256": "924591c5caadc4915193bd5af6e376fd6522bd81fb3406ca193412c1811d990d",
+                  "winnerSourceKeys": [
+                    "a0c8eca3a4016e64a9c29e2217e756454e8249e0126eeec9d74454333f5960b5"
+                  ]
+                },
+                {
+                  "year": 1992,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-directing-for-a-variety-series",
+                  "sha256": "4915593c01edcd19221f57e1db46c26fd22d2b279786594884ac98525959dd5c",
+                  "winnerSourceKeys": [
+                    "d8caa11e57dfa07774e2eb01920232f434b4ec4d16dbb29e9b5701f8392aba07"
+                  ]
+                },
+                {
+                  "year": 1990,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-directing-for-a-variety-series",
+                  "sha256": "4d53a2d948b727f3820b20bf816b3da256408cf88218a7097ad3917f47d8f34d",
+                  "winnerSourceKeys": [
+                    "5081b110a01a1cce5f1cb437cc4ac88555ba936863c200acb5119fbec1d9e51e"
+                  ]
+                },
+                {
+                  "year": 1988,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-directing-for-a-variety-series",
+                  "sha256": "438a87df375422156e9684e92c05f2a2a846ad23403e8f1cce8a5f7a5718b206",
+                  "winnerSourceKeys": [
+                    "713c141eae085adb7456e2148715d98e0e114c24aa35bf89367397b15a5bb7e0"
+                  ]
+                },
+                {
+                  "year": 1987,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-directing-for-a-variety-series",
+                  "sha256": "3ea4efc65ea144a1b4fa6555ead98c7d4d6becbd63f0f57c15754ddaffbfb675",
+                  "winnerSourceKeys": [
+                    "85929348ef4c5ef7503b6aa33dfd30af0847408599e45f9e772575a224534073"
+                  ]
+                },
+                {
+                  "year": 1986,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-directing-for-a-variety-series",
+                  "sha256": "52d8e802d8bda7484df79dbecb3dd22d1386bce9dbfba42663de5d18a4e8fab8",
+                  "winnerSourceKeys": [
+                    "47030b5d119f04f92140f009f4e7fb789bed3aaf44f0417ccc63b87b96ef1078"
+                  ]
+                },
+                {
+                  "year": 1985,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-directing-for-a-variety-series",
+                  "sha256": "8461d7df580ca61f384ca64d7d54fd393ff9bc823bd648e947adb5b81ff6fd8c",
+                  "winnerSourceKeys": [
+                    "035ce1b7e2a4f7fe20e7866d315c1d267efef016433351a9f4f1550e92830eb1"
+                  ]
+                },
+                {
+                  "year": 1984,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1984/outstanding-directing-for-a-variety-series",
+                  "sha256": "3791e6ebb6d05288ead68041975bf2723923663f28c45aba85a1c8e4c17aaa30",
+                  "winnerSourceKeys": [
+                    "629f4e6e5cb4b744c1b49a9579e4514bed610b15b3cb5a29317e59692bd0e635"
+                  ]
+                },
+                {
+                  "year": 1983,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1983/outstanding-directing-for-a-variety-series",
+                  "sha256": "9abb7d745f973d3fcbf94c19612ab3914d9f6caa96c1d36894ad51b55147d951",
+                  "winnerSourceKeys": [
+                    "0394b01cb2c22a56dfa6ecad484837ec424a03216b76238c58ddaf068daf099e"
+                  ]
+                },
+                {
+                  "year": 1982,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1982/outstanding-directing-for-a-variety-series",
+                  "sha256": "ac9e6f7e95dc6562b4dbc0ed6c2f18f91511f137fb92de43714c5ba18adf8bd6",
+                  "winnerSourceKeys": [
+                    "3a6f72536f9f75602ec2a9b409e65e2980f646db9f0da34213b2ca8012d6d950"
+                  ]
+                },
+                {
+                  "year": 1981,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-directing-for-a-variety-series",
+                  "sha256": "e7e7f406ee506b984c2d368a37b69ddf1d0fece3b5a9a468d66ffd31b9109a92",
+                  "winnerSourceKeys": [
+                    "fd52ee997f2797ef5d5e510cf9739f70abc97801cc80d6b7e752fa7ad127ba8d"
+                  ]
+                },
+                {
+                  "year": 1980,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-directing-for-a-variety-series",
+                  "sha256": "a3c7fc99420bea250aa79072cbdfa0824a1dd94dc7ee8d682194e29ada963bf5",
+                  "winnerSourceKeys": [
+                    "20db4a8833c7ea142aa67c7e8e2315c553c5538f601ccd1412ab3e632544435d"
+                  ]
+                },
+                {
+                  "year": 1973,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1973/outstanding-directing-for-a-variety-series",
+                  "sha256": "45879659fe0cafd77c5e0d94c3a7ff4c594c8f995fe430ca3b0c93da2e2fd476",
+                  "winnerSourceKeys": [
+                    "9cd2b4e570732dba0a2c4bea195bd3dedc6232c07fbae768568e838d24f434de"
+                  ]
+                },
+                {
+                  "year": 1968,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1968/outstanding-directing-for-a-variety-series",
+                  "sha256": "3160c989751366a29e82bd22b8ab36da1e65823c83770d37be2f56bca2e31f37",
+                  "winnerSourceKeys": [
+                    "a2e90ebe4078e4910b4f9a65c95015cbda285c56b1a1950c39803475dc21627f"
+                  ]
+                },
+                {
+                  "year": 1967,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1967/outstanding-directing-for-a-variety-series",
+                  "sha256": "3af3050a8e9347ffe199f33cb789efca7d8a3e45c19eb2e65ecc7462bab14b9b",
+                  "winnerSourceKeys": [
+                    "9cf061d9498f311aa74a1e669cad78ef7fe52e7267a6ba1f636ddea2cc5c2e6d"
+                  ]
+                },
+                {
+                  "year": 1966,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1966/outstanding-directing-for-a-variety-series",
+                  "sha256": "7b78225177a292cb8b92486c7fa11953fefd77966653370d635e068269bbb459",
+                  "winnerSourceKeys": [
+                    "00cef903ca7a8454739d2e317457ec599366c0e672fc639d2b6c68e039360998"
+                  ]
+                }
+              ],
+              "currentCategory": "directing-for-a-variety-special"
+            },
+            {
+              "years": [
+                1991,
+                1989,
+                1964
+              ],
+              "disposition": "current-lineage",
+              "reason": "Reviewed winners credit the continuing Late Night With David Letterman, The Jim Henson Hour and The Danny Kaye Show variety programmes.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1991/outstanding-directing-for-a-variety-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-directing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1964/outstanding-directing-for-a-variety-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Directing In A Variety Or Music Program",
+                "Outstanding Directorial Achievement In Variety Or Music"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1991,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1991/outstanding-directing-for-a-variety-series",
+                  "sha256": "5f3916219fcbd6c63d339246cc0e662058cd9d3a3f4d467114150f879148e801",
+                  "winnerSourceKeys": [
+                    "b2c436c5685a05e597edfd2fb69dcfb37d6b67bf7b75041dff8655dc0ebdf1a0"
+                  ]
+                },
+                {
+                  "year": 1989,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-directing-for-a-variety-series",
+                  "sha256": "27f1ca5aa3e86650a9b7b1e052c6242d2731fd5a43b590e64f0dd3cb39bc9b8f",
+                  "winnerSourceKeys": [
+                    "044c8d4318ad4ba765465bb59ff3a3e8153ca1d5db7ef413af140acb7b092882"
+                  ]
+                },
+                {
+                  "year": 1964,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1964/outstanding-directing-for-a-variety-series",
+                  "sha256": "661ae5148331013ca0bc3d05bdbfc12be6f6165633b8fb3f707ba11dea916dfd",
+                  "winnerSourceKeys": [
+                    "d393bf0c6fcc9a2db64a9890aafe5d02d03fed20459d54fedf32266c8ced4f47"
+                  ]
+                }
+              ],
+              "currentCategory": "directing-for-a-variety-series"
+            },
+            {
+              "years": [
+                1974,
+                1972
+              ],
+              "disposition": "current-lineage",
+              "reason": "Both a special and a series production are explicitly awarded in each year. Pin and allocate all four winning records individually.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1974/outstanding-directing-for-a-variety-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1972/outstanding-directing-for-a-variety-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Directing In Variety Or Music",
+                "Outstanding Directorial Achievement In Variety Or Music"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1974,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1974/outstanding-directing-for-a-variety-series",
+                  "sha256": "28873b02d9f697fbf2d2adda5a8832fec7ac57aadf859db29372e636bfe49ab4",
+                  "winnerSourceKeys": [
+                    "34fb17cc0225a4b25ea6f142304d79ca8c5f42832a59f40d13bbb3ef541d10a7",
+                    "2aba0ee31a06df197ac3bb99fe91bd6cb35470ad84938bd514a6dfd945117e60"
+                  ]
+                },
+                {
+                  "year": 1972,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1972/outstanding-directing-for-a-variety-series",
+                  "sha256": "980ba5ca58dd082fa5e0044876942878f98323c59655927783611f357bb4e83f",
+                  "winnerSourceKeys": [
+                    "e48a7dbf0a7bd17cd995ecb9b8bee84d83b52c04496d39b17b74b70e175b508f",
+                    "19c954bc6349aa45f01289914e8b42d9444e3bb56eb982bc8f18bf0ad2f0314a"
+                  ]
+                }
+              ],
+              "winnerAllocations": [
+                {
+                  "year": 1974,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1974/outstanding-directing-for-a-variety-series",
+                  "sourceKey": "34fb17cc0225a4b25ea6f142304d79ca8c5f42832a59f40d13bbb3ef541d10a7",
+                  "disposition": "current-lineage",
+                  "currentCategory": "directing-for-a-variety-special",
+                  "reason": "Individual Barbra Streisand musical television special."
+                },
+                {
+                  "year": 1974,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1974/outstanding-directing-for-a-variety-series",
+                  "sourceKey": "2aba0ee31a06df197ac3bb99fe91bd6cb35470ad84938bd514a6dfd945117e60",
+                  "disposition": "current-lineage",
+                  "currentCategory": "directing-for-a-variety-series",
+                  "reason": "Continuing sketch/variety series."
+                },
+                {
+                  "year": 1972,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1972/outstanding-directing-for-a-variety-series",
+                  "sourceKey": "e48a7dbf0a7bd17cd995ecb9b8bee84d83b52c04496d39b17b74b70e175b508f",
+                  "disposition": "current-lineage",
+                  "currentCategory": "directing-for-a-variety-special",
+                  "reason": "The separately named Jack Lemmon/Gershwin musical special."
+                },
+                {
+                  "year": 1972,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1972/outstanding-directing-for-a-variety-series",
+                  "sourceKey": "19c954bc6349aa45f01289914e8b42d9444e3bb56eb982bc8f18bf0ad2f0314a",
+                  "disposition": "current-lineage",
+                  "currentCategory": "directing-for-a-variety-series",
+                  "reason": "Continuing Sonny and Cher variety series."
+                }
+              ]
+            },
+            {
+              "years": [
+                1971,
+                1970,
+                1969
+              ],
+              "disposition": "pending-review",
+              "reason": "These combined-period programme/recipient facts do not yet establish an unambiguous current lineage. Retain for specific production and source review.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1971/outstanding-directing-for-a-variety-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1970/outstanding-directing-for-a-variety-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1969/outstanding-directing-for-a-variety-series"
               ]
             }
           ]
@@ -7156,8 +7974,22 @@
           "evidence": [
             "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-directing-for-special-events"
           ],
-          "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+          "disposition": "current-lineage",
+          "reason": "The sole 1989 directing-of-special-events result awards Dwight Hemion for the 11th Annual Kennedy Center Honors, an individual awards telecast. Include the historical event-special directing branch; do not interpret an annual event as an episodic variety series.",
+          "reviewedSourceHeadings": [
+            "Outstanding Directing For Special Events"
+          ],
+          "reviewedSourcePages": [
+            {
+              "year": 1989,
+              "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-directing-for-special-events",
+              "sha256": "e2e7365d679d830d51fdb0ca36af1c20b98c093bc9e8844360722225002fe43c",
+              "winnerSourceKeys": [
+                "045591ba70d0521cc13404dba9d1fee3d141a61555861faa58421bc0006ec16a"
+              ]
+            }
+          ],
+          "currentCategory": "directing-for-a-variety-special"
         },
         {
           "sourceSlug": "outstanding-directing-in-a-comedy-or-comedy-variety-or-music-series",
@@ -10623,11 +11455,36 @@
           "firstYear": 1987,
           "lastYear": 1992,
           "evidence": [
-            "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-individual-achievement-informational-programming-directing",
-            "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-individual-achievement-informational-programming-directing"
+            "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-individual-achievement-informational-programming-directing",
+            "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-individual-achievement-informational-programming-directing",
+            "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-individual-achievement-informational-programming-directing",
+            "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-individual-achievement-informational-programming-directing"
           ],
-          "disposition": "pending-review",
-          "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
+          "disposition": "current-lineage",
+          "reason": "Explicit informational-programme directing predecessor. Acquired winners are documentary productions Hearts of Darkness and W. Eugene Smith. The 1987/1989 pages lack explicit winner markers and remain acquisition failures; accepting the category relationship does not resolve those years or missing directing credits.",
+          "reviewedSourceHeadings": [
+            "Outstanding Directing In - Informational Programming",
+            "Outstanding Individual Achievement - Informational Programming - Directing"
+          ],
+          "reviewedSourcePages": [
+            {
+              "year": 1992,
+              "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-individual-achievement-informational-programming-directing",
+              "sha256": "389a05499c06852eba1db01d2f31ff0329d025223333cf215b30c37168cb9b79",
+              "winnerSourceKeys": [
+                "af363a5ccf5fd47345d171aad2fa2d6c73255fe29bcaa4ca7dfc4f2d62bd05e0"
+              ]
+            },
+            {
+              "year": 1990,
+              "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-individual-achievement-informational-programming-directing",
+              "sha256": "9372e39c830ebb5ef707209d462e33ddd29825409c9c2412be7ca6121753d130",
+              "winnerSourceKeys": [
+                "4e6785c316b6d634d4e42da46767b9d248f40fdadb0aa36930a1fb4ce148c4ca"
+              ]
+            }
+          ],
+          "currentCategory": "directing-for-a-documentarynonfiction-program"
         },
         {
           "sourceSlug": "outstanding-individual-achievement-informational-programming-performing",
@@ -10668,11 +11525,46 @@
           "firstYear": 1985,
           "lastYear": 1992,
           "evidence": [
-            "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-individual-achievement-informational-programming-writing",
-            "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-individual-achievement-informational-programming-writing"
+            "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-individual-achievement-informational-programming-writing",
+            "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-individual-achievement-informational-programming-writing",
+            "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-individual-achievement-informational-programming-writing",
+            "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-individual-achievement-informational-programming-writing",
+            "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-individual-achievement-informational-programming-writing"
           ],
-          "disposition": "pending-review",
-          "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
+          "disposition": "current-lineage",
+          "reason": "Explicit informational-programme writing predecessor. Reviewed winners are The Mind, The Story of English and Heritage: Civilization and the Jews. Preserve the two separately credited 1985 Heritage wins. The 1990/1992 pages without winner markers remain failures, not no-award assumptions.",
+          "reviewedSourceHeadings": [
+            "Outstanding Individual Achievement - Informational Programming - Writing",
+            "Outstanding Writing In Informational Programming"
+          ],
+          "reviewedSourcePages": [
+            {
+              "year": 1989,
+              "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-individual-achievement-informational-programming-writing",
+              "sha256": "ec4cfb3a0d7124f51c9ac3959541ef6fb13f610fb07e2929b05e07e4ddaf7373",
+              "winnerSourceKeys": [
+                "25aa7eb2cc2516666f1f9baa1cdcecd50c70498bcc5b368601e4b7a597d0404a"
+              ]
+            },
+            {
+              "year": 1987,
+              "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-individual-achievement-informational-programming-writing",
+              "sha256": "e7bf07c680c690428599d551a5bd9bf69a4b359e6cb8c458c3598fe80b08a558",
+              "winnerSourceKeys": [
+                "72092a36de8a6c5a405ea7f2398be4ad27b3dcc7a5ada86f66ef165155d659fb"
+              ]
+            },
+            {
+              "year": 1985,
+              "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-individual-achievement-informational-programming-writing",
+              "sha256": "dde2f8ef8c3c897e4203cd680caabd7d1d10486efa05c7d4b1e0b6b79c374188",
+              "winnerSourceKeys": [
+                "67480e9d8e22fa22e45f6f9b257c9217083071bb5fdf0193848005032f730547",
+                "c93adbfdf6f83874e2bd760e7edd7bfb074eca526f2447b0911e3b48d1254da7"
+              ]
+            }
+          ],
+          "currentCategory": "writing-for-a-nonfiction-program"
         },
         {
           "sourceSlug": "outstanding-individual-achievement-special-events",
@@ -16601,8 +17493,52 @@
           "evidence": [
             "https://www.televisionacademy.com/awards/nominees-winners/1961/outstanding-performance-in-a-supporting-role-by-an-actor-or-actress-in-a-series"
           ],
-          "disposition": "pending-review",
-          "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
+          "disposition": "current-lineage",
+          "reason": "Reviewed year-specific winning productions and historical headings. Use explicit periods and, for mixed winners, exact source-key allocations; never apply a blanket target to the URL slug.",
+          "periods": [
+            {
+              "years": [
+                1961
+              ],
+              "disposition": "current-lineage",
+              "reason": "The single combined-gender/genre supporting-role field has two explicit winners. Allocate the dramatic-anthology and sitcom wins individually, without duplicating either winner across genre or gender.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1961/outstanding-performance-in-a-supporting-role-by-an-actor-or-actress-in-a-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Performance In A Supporting Role By An Actor Or Actress In A Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1961,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1961/outstanding-performance-in-a-supporting-role-by-an-actor-or-actress-in-a-series",
+                  "sha256": "478226fb30b56aab1cfefa9109402d0dadea9b62eecc8e2146e86bb288df08b2",
+                  "winnerSourceKeys": [
+                    "081e580a62f0643f39d35607413aa6dd249433bb52ca3632c8f5e9fac70d5ceb",
+                    "7b24bff2436dfdaf9f45a4b5d6b6153e2606a236b27a27e6bedd7f7ffc468106"
+                  ]
+                }
+              ],
+              "winnerAllocations": [
+                {
+                  "year": 1961,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1961/outstanding-performance-in-a-supporting-role-by-an-actor-or-actress-in-a-series",
+                  "sourceKey": "081e580a62f0643f39d35607413aa6dd249433bb52ca3632c8f5e9fac70d5ceb",
+                  "disposition": "current-lineage",
+                  "currentCategory": "supporting-actor-in-a-drama-series",
+                  "reason": "Roddy McDowall is credited for Equitable's American Heritage, the historical dramatic-anthology supporting performance. Preserve that exact production for episode review."
+                },
+                {
+                  "year": 1961,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1961/outstanding-performance-in-a-supporting-role-by-an-actor-or-actress-in-a-series",
+                  "sourceKey": "7b24bff2436dfdaf9f45a4b5d6b6153e2606a236b27a27e6bedd7f7ffc468106",
+                  "disposition": "current-lineage",
+                  "currentCategory": "supporting-actor-in-a-comedy-series",
+                  "reason": "Don Knotts is credited for The Andy Griffiths Show, the source spelling of the continuing sitcom. Retain the source spelling until verified identity enrichment."
+                }
+              ]
+            }
+          ]
         },
         {
           "sourceSlug": "outstanding-performance-in-a-variety-or-music-program",
@@ -23898,8 +24834,8 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1964/outstanding-writing-achievement-in-comedy-variety-or-music",
             "https://www.televisionacademy.com/awards/nominees-winners/1979/outstanding-writing-achievement-in-comedy-variety-or-music"
           ],
-          "disposition": "pending-review",
-          "reason": "Year-specific heading and winning-production review; use the explicit period allocations. Unreviewed combined periods remain withheld.",
+          "disposition": "current-lineage",
+          "reason": "Reviewed year-specific winning productions and historical headings. Use explicit periods and, for mixed winners, exact source-key allocations; never apply a blanket target to the URL slug.",
           "periods": [
             {
               "years": [
@@ -23941,18 +24877,78 @@
                 1973,
                 1972,
                 1971,
-                1970,
-                1969
+                1970
               ],
-              "disposition": "pending-review",
-              "reason": "Remaining broad Comedy/Variety/Music writing includes single programmes and series; actual winning productions need per-record allocation.",
+              "disposition": "current-lineage",
+              "reason": "Reviewed winners are Acts of Love-And Other Comedies, The Trial of Mary Lincoln (NET Opera Theatre), Singer Presents Burt Bacharach and Annie, The Women in the Life of a Man. These are individual comedy/music/variety specials under the original combined-field contract, not inferred new comedy-series awards.",
               "evidence": [
                 "https://www.televisionacademy.com/awards/nominees-winners/1973/outstanding-writing-achievement-in-comedy-variety-or-music",
                 "https://www.televisionacademy.com/awards/nominees-winners/1972/outstanding-writing-achievement-in-comedy-variety-or-music",
                 "https://www.televisionacademy.com/awards/nominees-winners/1971/outstanding-writing-achievement-in-comedy-variety-or-music",
-                "https://www.televisionacademy.com/awards/nominees-winners/1970/outstanding-writing-achievement-in-comedy-variety-or-music",
+                "https://www.televisionacademy.com/awards/nominees-winners/1970/outstanding-writing-achievement-in-comedy-variety-or-music"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Writing Achievement In Comedy, Variety Or Music"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1973,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1973/outstanding-writing-achievement-in-comedy-variety-or-music",
+                  "sha256": "82bc12a6a7d2d61802d842f3c2022fb423b3b81f73fe459f9422a579c112efaf",
+                  "winnerSourceKeys": [
+                    "5a930c9d6236cd705beb425c6fa7c6e31927bcb45eb114799c487de2a62c3dfc"
+                  ]
+                },
+                {
+                  "year": 1972,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1972/outstanding-writing-achievement-in-comedy-variety-or-music",
+                  "sha256": "156d6792e1c40cbed5526921cf45ab9d335ffd5d19e7bc9940c1a22c8be1911f",
+                  "winnerSourceKeys": [
+                    "dbe1cec54d8c880c294b889babb5b0d4022d1ad4741e8d6277ec2735d6474411"
+                  ]
+                },
+                {
+                  "year": 1971,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1971/outstanding-writing-achievement-in-comedy-variety-or-music",
+                  "sha256": "976c4fd93e349ada3878a383ecd126e033a315580f87e97bdc65f12bce00f56d",
+                  "winnerSourceKeys": [
+                    "c6338bcf9481c50bad9f5dabc8c3e8a5817d2f49263e983eafa7f4d47d7fdc07"
+                  ]
+                },
+                {
+                  "year": 1970,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1970/outstanding-writing-achievement-in-comedy-variety-or-music",
+                  "sha256": "db5f72c34a44da3ff4a3c557b18844ac48a8428b2afc4657931d06a093b41868",
+                  "winnerSourceKeys": [
+                    "87cd53cb90fa90942946aaccb0774ff4ae94c106ed7e4808358f390505bad5f3"
+                  ]
+                }
+              ],
+              "currentCategory": "writing-for-a-variety-special"
+            },
+            {
+              "years": [
+                1969
+              ],
+              "disposition": "current-lineage",
+              "reason": "The combined-field winner is The Smothers Brothers Comedy Hour, the continuing variety series. Keep its full credited writing team.",
+              "evidence": [
                 "https://www.televisionacademy.com/awards/nominees-winners/1969/outstanding-writing-achievement-in-comedy-variety-or-music"
-              ]
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Writing Achievement In Comedy, Variety Or Music"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1969,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1969/outstanding-writing-achievement-in-comedy-variety-or-music",
+                  "sha256": "8d2798a02e102a90d0658d70bdb555a782f27616f23dacaa0b762168da3d99d2",
+                  "winnerSourceKeys": [
+                    "3bfe79af62d3b5cdbfd839136192f3c18ce8a3d9f22643fedc9a7aea617b4de7"
+                  ]
+                }
+              ],
+              "currentCategory": "writing-for-a-variety-series"
             }
           ]
         },
@@ -25377,8 +26373,8 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1957/outstanding-writing-for-a-variety-series",
             "https://www.televisionacademy.com/awards/nominees-winners/2026/outstanding-writing-for-a-variety-series"
           ],
-          "disposition": "pending-review",
-          "reason": "Year-specific heading and winning-production review; use the explicit period allocations. Unreviewed combined periods remain withheld.",
+          "disposition": "current-lineage",
+          "reason": "Reviewed year-specific winning productions and historical headings. Use explicit periods and, for mixed winners, exact source-key allocations; never apply a blanket target to the URL slug.",
           "periods": [
             {
               "years": [
@@ -25626,38 +26622,25 @@
                 2003,
                 2002,
                 2001,
-                2000,
                 1999,
                 1998,
-                1997,
                 1996,
                 1995,
                 1994,
                 1993,
-                1992,
-                1991,
-                1990,
                 1989,
-                1988,
-                1987,
-                1986,
                 1985,
                 1984,
                 1983,
                 1982,
                 1981,
-                1980,
-                1974,
                 1973,
                 1972,
                 1971,
-                1968,
-                1967,
-                1966,
-                1957
+                1968
               ],
-              "disposition": "pending-review",
-              "reason": "Earlier mixed comedy/variety or Variety/Music Program writing requires winner-level comedy-versus-variety and series-versus-special allocation.",
+              "disposition": "current-lineage",
+              "reason": "Reviewed every winning production in these combined-field years: the episodic Colbert/Daily/Late Night/Dennis Miller/Chris Rock/Ben Stiller/Tracey Ullman/SNL/SCTV/Muppet/Carol Burnett/Flip Wilson/Laugh-In programme branches continue Variety Series writing. No special winner is silently assigned to this series group.",
               "evidence": [
                 "https://www.televisionacademy.com/awards/nominees-winners/2008/outstanding-writing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/2007/outstanding-writing-for-a-variety-series",
@@ -25667,36 +26650,439 @@
                 "https://www.televisionacademy.com/awards/nominees-winners/2003/outstanding-writing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/2002/outstanding-writing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/2001/outstanding-writing-for-a-variety-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/2000/outstanding-writing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1999/outstanding-writing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1998/outstanding-writing-for-a-variety-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-writing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-writing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-writing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1994/outstanding-writing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1993/outstanding-writing-for-a-variety-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-writing-for-a-variety-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1991/outstanding-writing-for-a-variety-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-writing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-writing-for-a-variety-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-writing-for-a-variety-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-writing-for-a-variety-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-writing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-writing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1984/outstanding-writing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1983/outstanding-writing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1982/outstanding-writing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-writing-for-a-variety-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-writing-for-a-variety-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1974/outstanding-writing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1973/outstanding-writing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1972/outstanding-writing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1971/outstanding-writing-for-a-variety-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1968/outstanding-writing-for-a-variety-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1968/outstanding-writing-for-a-variety-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Individual Achievement In Writing In A Variety Or Music Program",
+                "Outstanding Writing Achievement In Music Or Variety",
+                "Outstanding Writing Achievement In Variety Or Music",
+                "Outstanding Writing For A Variety Or Music Program",
+                "Outstanding Writing For A Variety, Music Or Comedy Program",
+                "Outstanding Writing In A Variety Or Music Program",
+                "Outstanding Writing In A Variety, Music Or Comedy Program"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 2008,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2008/outstanding-writing-for-a-variety-series",
+                  "sha256": "8c1bf89476e9bb12b3a156ebb8d944486a02c18c9edce9830a8bf70710658b54",
+                  "winnerSourceKeys": [
+                    "2d42a1b0be8796fb1b14377bc9821447e53515662e1c8927617a4f334f6eb0f1"
+                  ]
+                },
+                {
+                  "year": 2007,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2007/outstanding-writing-for-a-variety-series",
+                  "sha256": "7b41fdff7b3eb0deb1a2dbde1de209fef4351bc285277b715c06403a842ca2ce",
+                  "winnerSourceKeys": [
+                    "9df3d9b2eb97477fe58b2ed6ea33913c77a5b013ef51060a2beae8dba4ac39b4"
+                  ]
+                },
+                {
+                  "year": 2006,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2006/outstanding-writing-for-a-variety-series",
+                  "sha256": "99f11decdecc6bb53ad59bb2382208f9945c9f6a2151b1dddc5c709b200c02e3",
+                  "winnerSourceKeys": [
+                    "41c4d2a6826bdcd23ab7f8e28b5d26ec330cb1de9921645fd4659cbef2e7653f"
+                  ]
+                },
+                {
+                  "year": 2005,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2005/outstanding-writing-for-a-variety-series",
+                  "sha256": "74724078e4b9560aec460091d2f6adb4fed1add2a25972e95892f3baf97bc2d0",
+                  "winnerSourceKeys": [
+                    "d2b8119e1e2294dfb498eaa7d2148627ae0a65635c835b37eb911cd88623d7d4"
+                  ]
+                },
+                {
+                  "year": 2004,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2004/outstanding-writing-for-a-variety-series",
+                  "sha256": "aaee9d713687e9f809d211d8839fa622303d857f314c14d68ddfcad2ad597f57",
+                  "winnerSourceKeys": [
+                    "d26b2477e2261218957e22112dc0b42797be9a5e8f9ce92f2da73db70b4ebd6d"
+                  ]
+                },
+                {
+                  "year": 2003,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2003/outstanding-writing-for-a-variety-series",
+                  "sha256": "12542e99c8ea3677972b2c5b8244aa22f05069bb246e44d9059493538f3b38b7",
+                  "winnerSourceKeys": [
+                    "eea3249b8f23993a3de2b4f59cfb46bec142f82a01c1861b5adeda14c2b13297"
+                  ]
+                },
+                {
+                  "year": 2002,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2002/outstanding-writing-for-a-variety-series",
+                  "sha256": "25bb8d19de3b69b9cc35ab4931e045cf32680d71f900a34f2914f2e9142b54ae",
+                  "winnerSourceKeys": [
+                    "ccbe156e792d9b773352a120cbabbc2a347401ba39e03d52fcad3712534b335c"
+                  ]
+                },
+                {
+                  "year": 2001,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2001/outstanding-writing-for-a-variety-series",
+                  "sha256": "4a687f6adcf46a9f376006842d7586ee4f98c33b833f5e05f82366690466444f",
+                  "winnerSourceKeys": [
+                    "a05ca96130df808d8f852ea643b1a30b7c440cc4ad9bfc451273dde28b9413ab"
+                  ]
+                },
+                {
+                  "year": 1999,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1999/outstanding-writing-for-a-variety-series",
+                  "sha256": "64002539766c151e4434fa033115b47a5207409c532efef09c65b476c1762541",
+                  "winnerSourceKeys": [
+                    "b68d4f9ebb1a9613a1f431c93a88cf6834d130d69dcd50c02c457941ba0da4df"
+                  ]
+                },
+                {
+                  "year": 1998,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1998/outstanding-writing-for-a-variety-series",
+                  "sha256": "c416c8109e6fa47548d18646991df436f619ce364075630421e5c16acc4802eb",
+                  "winnerSourceKeys": [
+                    "265e11b1ad6de3ef2a8b47c260405509fae0a84d329c236cd864a625f650a3c4"
+                  ]
+                },
+                {
+                  "year": 1996,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-writing-for-a-variety-series",
+                  "sha256": "706cd06da44c98f5d0fda221bd094395b9df5f01de350e413105db884681222f",
+                  "winnerSourceKeys": [
+                    "0c6b2c3e8f683640a6aa39045218d05a83c130acd47602d583f41d6136007f69"
+                  ]
+                },
+                {
+                  "year": 1995,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-writing-for-a-variety-series",
+                  "sha256": "5662a0aadf0bb931ad8f3dd994c56c830088001b171e87fef7067cf6a2d20f7e",
+                  "winnerSourceKeys": [
+                    "2124f08241e64585829d604a0463601a2480a6035ee01acd2d6da533081244df"
+                  ]
+                },
+                {
+                  "year": 1994,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1994/outstanding-writing-for-a-variety-series",
+                  "sha256": "b0b232d7dd7987dbce312741022d44472968c2725048cf64dffa85833176fa3f",
+                  "winnerSourceKeys": [
+                    "b50f9ceb3e933a6138a84f0675246d860d2e20319452dcde94cb1db5a9ca6f24"
+                  ]
+                },
+                {
+                  "year": 1993,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1993/outstanding-writing-for-a-variety-series",
+                  "sha256": "4859697e51b2f0c9b22165820a2555cbe1b4193ddff52a7577bc89132424ecfc",
+                  "winnerSourceKeys": [
+                    "7a1c72ff70484e20195d4c194d5d19de90e51bd1832fbadd7bd47d7d46376877"
+                  ]
+                },
+                {
+                  "year": 1989,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-writing-for-a-variety-series",
+                  "sha256": "ec79ecbaddcd439490f8408a95a1edcd5adc45cfd8fa881c006f43320dbb2f8d",
+                  "winnerSourceKeys": [
+                    "b02663634ce4be9bc66e21316601c160559dd6b2226ad9b2b163b43552350a61"
+                  ]
+                },
+                {
+                  "year": 1985,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-writing-for-a-variety-series",
+                  "sha256": "0acdc30697ca6df05b0b380083c64df150378b4530c9f2281731ea7b703fa4b0",
+                  "winnerSourceKeys": [
+                    "ed628edb33776639c705eaa80e14b4cc5fa999bfa4d955e9d52b72e2ffcdb116"
+                  ]
+                },
+                {
+                  "year": 1984,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1984/outstanding-writing-for-a-variety-series",
+                  "sha256": "04bb3d63977b8f4bf9508e978d5e80c6ea751b8ce8403ef948790c6538af590b",
+                  "winnerSourceKeys": [
+                    "a2ef2c3960b8ca22013ee36a46c639a5db81872ab77934c43df6bf39f4972fb5"
+                  ]
+                },
+                {
+                  "year": 1983,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1983/outstanding-writing-for-a-variety-series",
+                  "sha256": "0ff4ea19c1f4dba5e11c87bbbf15de6c318eee76268e3966dd55536d8d49671e",
+                  "winnerSourceKeys": [
+                    "7186c38337dab9970da0f6f7816771f71c8308131cd180f1e920638c2a4d424f"
+                  ]
+                },
+                {
+                  "year": 1982,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1982/outstanding-writing-for-a-variety-series",
+                  "sha256": "75d371f979bd09399c8554e67ebea43cbda5f939470f9d4f4f3b170caa855d3d",
+                  "winnerSourceKeys": [
+                    "1a2ab6538b5628258168d7b7c20bbe075d0dc1ec36c971857e5f45c41932802d"
+                  ]
+                },
+                {
+                  "year": 1981,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-writing-for-a-variety-series",
+                  "sha256": "c2004917396fb895d51442fd853469f34c7c08924fbdfacc5f0137ec18781444",
+                  "winnerSourceKeys": [
+                    "10c08d3acdca91d69135d0a8e60a2455edce1b9127a2e2ab203da8dcfba96947"
+                  ]
+                },
+                {
+                  "year": 1973,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1973/outstanding-writing-for-a-variety-series",
+                  "sha256": "37a528720f5a427fc030ca9d1b795ee09fa454f1f7b04373c72b584d60d7a4b9",
+                  "winnerSourceKeys": [
+                    "fe1916b58b3091e9eb1f6fe40958d28b3fbd6930ea25070a94dfd6adebc9704c"
+                  ]
+                },
+                {
+                  "year": 1972,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1972/outstanding-writing-for-a-variety-series",
+                  "sha256": "b0109cc324f163a0a7d79b7771a3197638e022e319ca8a43be78ceb364fd1cf8",
+                  "winnerSourceKeys": [
+                    "91a25a249f00219f2bb4ab59c8b44493e1b0e8ca7475a5f2819b4c019e9e958c"
+                  ]
+                },
+                {
+                  "year": 1971,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1971/outstanding-writing-for-a-variety-series",
+                  "sha256": "f321b5cc9460c40d3eed267a78b944393a968012111dd5b7e833642f53df9079",
+                  "winnerSourceKeys": [
+                    "949ac4dff79e978564cb59b14ff6c7d6e0135a1ba8f2c6ed03ec5e86e5f5342c"
+                  ]
+                },
+                {
+                  "year": 1968,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1968/outstanding-writing-for-a-variety-series",
+                  "sha256": "0c3b30bae09b8e59173c853da2db4a6df6293c7c34757d64d0aefc78402f5616",
+                  "winnerSourceKeys": [
+                    "90dcc056be815999e3d179a085a77c9b74fa5e92723b2944f05be3c48d846843"
+                  ]
+                }
+              ],
+              "currentCategory": "writing-for-a-variety-series"
+            },
+            {
+              "years": [
+                2000,
+                1997,
+                1992,
+                1991,
+                1988,
+                1987,
+                1986,
+                1980,
+                1967,
+                1966
+              ],
+              "disposition": "current-lineage",
+              "reason": "Reviewed the separately named stand-up, Academy Awards, Letterman anniversary, Shirley MacLaine, Sid Caesar reunion and Carol Channing specials. Allocate the actual individual-event production to Variety Special writing even when its title names a regular series.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/2000/outstanding-writing-for-a-variety-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-writing-for-a-variety-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-writing-for-a-variety-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1991/outstanding-writing-for-a-variety-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-writing-for-a-variety-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-writing-for-a-variety-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-writing-for-a-variety-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-writing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1967/outstanding-writing-for-a-variety-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1966/outstanding-writing-for-a-variety-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1957/outstanding-writing-for-a-variety-series"
+                "https://www.televisionacademy.com/awards/nominees-winners/1966/outstanding-writing-for-a-variety-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Individual Achievement In Writing In A Variety Or Music Program",
+                "Outstanding Writing Achievement In Variety",
+                "Outstanding Writing For A Variety Or Music Program",
+                "Outstanding Writing For A Variety, Music Or Comedy Program",
+                "Outstanding Writing In A Variety Or Music Program"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 2000,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2000/outstanding-writing-for-a-variety-series",
+                  "sha256": "bd90edaa93ee2d9006fe341fe94406195941b974b97be33c46c754ac8b5e4dbb",
+                  "winnerSourceKeys": [
+                    "87e27586bd17ac46351155dc5058d1a63c0d67227802826b1590f19d2a75f6ab"
+                  ]
+                },
+                {
+                  "year": 1997,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-writing-for-a-variety-series",
+                  "sha256": "a08995ebefdf4613e654626e5a43a51ea82d1e501876e6d6f63b71ba2d151260",
+                  "winnerSourceKeys": [
+                    "e7b333c5c801d958d8a2c2337e13884b0f207061f282662bd7a4f0d134c57e27"
+                  ]
+                },
+                {
+                  "year": 1992,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-writing-for-a-variety-series",
+                  "sha256": "e03097916b625eb8d29e85389d0a21f9e96efee82a94ed6ca537ecb0407c806e",
+                  "winnerSourceKeys": [
+                    "0b57dc698ae56084495a006e15126b2272b8b96626670c2f293e7c776010e2e6"
+                  ]
+                },
+                {
+                  "year": 1991,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1991/outstanding-writing-for-a-variety-series",
+                  "sha256": "c1e3d7d0b47ef7944fd0e12fc75999e683aee8393775334c2c647dc6841c0e1c",
+                  "winnerSourceKeys": [
+                    "4f518dcc2e73e90b0fd446dcd9b03d4fdec6d981e630a412e53377c548396fbd"
+                  ]
+                },
+                {
+                  "year": 1988,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-writing-for-a-variety-series",
+                  "sha256": "d705f6b85ff3569269b1657359c3d0d9bfa7271cb6e3f801c07c9fdae2a15923",
+                  "winnerSourceKeys": [
+                    "1fdf1bc76a6fab53dc69f05c7aeafafbdccab4fd37700b4a6abf4a6d9633a053"
+                  ]
+                },
+                {
+                  "year": 1987,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-writing-for-a-variety-series",
+                  "sha256": "dd5ebe65f52a3a65622353abac3212655d68b47650fd35f2bda799fdb272cc01",
+                  "winnerSourceKeys": [
+                    "5f2e42bd5dc7bbd499e51ace9da27d80e36210e8d49e20f376720f5d639bb447"
+                  ]
+                },
+                {
+                  "year": 1986,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-writing-for-a-variety-series",
+                  "sha256": "0703d56824d0797f9c071ea904373b3478285b33e1bae25d34d23fb06a33f0d0",
+                  "winnerSourceKeys": [
+                    "369390fec5549041023f554caa735c8cb8446946a41ecde7b352bb1431fc830a"
+                  ]
+                },
+                {
+                  "year": 1980,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-writing-for-a-variety-series",
+                  "sha256": "12452bab80efee8b21226dff78d887c31b598b2fa6df07607f45217e17f041a5",
+                  "winnerSourceKeys": [
+                    "5317d0fcab3f08a31478223638074cc76be6ac44e05419daacc54e52326462ed"
+                  ]
+                },
+                {
+                  "year": 1967,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1967/outstanding-writing-for-a-variety-series",
+                  "sha256": "d2c1a3ea5e8648324a9c8ae3ee0ebb6bf1400366d56c9ef2121c23c4e6cc18f2",
+                  "winnerSourceKeys": [
+                    "70779ffa6c2757c1c5d3e00c264e5e2a2ac2a8a070a21fd83ca2f10df9baf068"
+                  ]
+                },
+                {
+                  "year": 1966,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1966/outstanding-writing-for-a-variety-series",
+                  "sha256": "28fd5d1db691cf3ca2c3e65e9dddc87b80f207918bae9b0eda1264b900f8c158",
+                  "winnerSourceKeys": [
+                    "4d4ba018ca46b52b62d980180c67d0e5d9b18540f3406e61f77ceaae305a951a"
+                  ]
+                }
+              ],
+              "currentCategory": "writing-for-a-variety-special"
+            },
+            {
+              "years": [
+                1990,
+                1974
+              ],
+              "disposition": "current-lineage",
+              "reason": "The source explicitly marks both a special and a series winner in each of these years. Allocate every winner once by its actual programme, preserving both wins.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-writing-for-a-variety-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1974/outstanding-writing-for-a-variety-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Writing In Variety Or Music",
+                "Outstanding Writing In A Variety Or Music Program"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1990,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-writing-for-a-variety-series",
+                  "sha256": "49296feb6f16e9c888374aaf5f3132a296d61ed464c7daed61b5d1c1c150f1ea",
+                  "winnerSourceKeys": [
+                    "1c8ed932883fa46fc06d7744566f70c2a1a36197a7d161f027747d4de209a25b",
+                    "ae9d3a51390fa88daa58961b39e561a84d7bc6445e0ea7933f9c72e914350cfb"
+                  ]
+                },
+                {
+                  "year": 1974,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1974/outstanding-writing-for-a-variety-series",
+                  "sha256": "efce52493e2eeccd582b78e905a27e74551cffa14e3bf6e4795c476bae565074",
+                  "winnerSourceKeys": [
+                    "5b60eb07aae61bda94e138866495bb8fc79f6298e91260e583b782ed7f133f48",
+                    "8372fc7618926ff14d1d4f6feff1cf047288946bad84b97ea60869c1fb650531"
+                  ]
+                }
+              ],
+              "winnerAllocations": [
+                {
+                  "year": 1990,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-writing-for-a-variety-series",
+                  "sourceKey": "1c8ed932883fa46fc06d7744566f70c2a1a36197a7d161f027747d4de209a25b",
+                  "disposition": "current-lineage",
+                  "currentCategory": "writing-for-a-variety-special",
+                  "reason": "Individual Billy Crystal stand-up/travel special; retain its separate production identity."
+                },
+                {
+                  "year": 1990,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-writing-for-a-variety-series",
+                  "sourceKey": "ae9d3a51390fa88daa58961b39e561a84d7bc6445e0ea7933f9c72e914350cfb",
+                  "disposition": "current-lineage",
+                  "currentCategory": "writing-for-a-variety-series",
+                  "reason": "Continuing sketch-comedy series; preserve its separate tied/area award."
+                },
+                {
+                  "year": 1974,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1974/outstanding-writing-for-a-variety-series",
+                  "sourceKey": "5b60eb07aae61bda94e138866495bb8fc79f6298e91260e583b782ed7f133f48",
+                  "disposition": "current-lineage",
+                  "currentCategory": "writing-for-a-variety-special",
+                  "reason": "The individual Lily Tomlin special is separately nominated and awarded, alongside the continuing Carol Burnett series."
+                },
+                {
+                  "year": 1974,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1974/outstanding-writing-for-a-variety-series",
+                  "sourceKey": "8372fc7618926ff14d1d4f6feff1cf047288946bad84b97ea60869c1fb650531",
+                  "disposition": "current-lineage",
+                  "currentCategory": "writing-for-a-variety-series",
+                  "reason": "The continuing Carol Burnett series is separately nominated and awarded, alongside the Lily special."
+                }
               ]
+            },
+            {
+              "years": [
+                1957
+              ],
+              "disposition": "current-lineage",
+              "reason": "The 1957 combined variety-or-situation-comedy writing field awards the sitcom Phil Silvers Show. Follow the actual sitcom winner into Comedy writing.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1957/outstanding-writing-for-a-variety-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Comedy Writing-Variety Or Situation Comedy"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1957,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1957/outstanding-writing-for-a-variety-series",
+                  "sha256": "c2078b81d73a1675333c8a2524fcac2c7c217eda43422a43b08fc63042707156",
+                  "winnerSourceKeys": [
+                    "5ab5e3599441e5dbc0ce364921fb10f3745f7ca42b940b7dd17b8a74061ea120"
+                  ]
+                }
+              ],
+              "currentCategory": "writing-for-a-comedy-series"
             }
           ]
         },
@@ -26204,8 +27590,22 @@
           "evidence": [
             "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-writing-for-special-events"
           ],
-          "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+          "disposition": "current-lineage",
+          "reason": "The sole 1989 writing-of-special-events result awards Jeffrey Lane for the 42nd Annual Tony Awards. Allocate the individual event telecast to Variety Special writing, preserving the distinct historical heading.",
+          "reviewedSourceHeadings": [
+            "Outstanding Writing For Special Events"
+          ],
+          "reviewedSourcePages": [
+            {
+              "year": 1989,
+              "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-writing-for-special-events",
+              "sha256": "98c1e5f25cc223e27f82cae0a97ca3b712363f00fbb517d9c6427408346142f8",
+              "winnerSourceKeys": [
+                "c7b999bb0243895c0077d1d5bd4882b96dfe3bfbdfc37b1fa5c070f85f23d681"
+              ]
+            }
+          ],
+          "currentCategory": "writing-for-a-variety-special"
         },
         {
           "sourceSlug": "outstanding-writing-in-a-miniseries-or-a-special",
@@ -27002,6 +28402,16 @@
       "byteCount": 288676,
       "context": "North Hollywood, CA, August 21, 2007 – The Academy of Television Arts & Sciences has announced the Emmy Award winners in Outstanding Costumes For A Variety or Music Program and Individual Achievement in Animation for the 59 th Emmy Awards.\nThese are juried award categories, which have no nominations and will be presented at the 2007 Creative Arts Awards on Saturday, September 8 at the Shrine Auditorium in Los Angeles. This year there were no Emmys awarded in the Outstanding Voice-Over Performance juried area.",
       "contextSha256": "abd2fad4dc4d481f25ba968950b2313e72ac56b850ef1243be989492dbe9a22c"
+    },
+    {
+      "url": "https://www.televisionacademy.com/files/assets/Downloads/WhatsNew2014PTE.pdf",
+      "resolvedUrl": "https://www.televisionacademy.com/files/assets/Downloads/WhatsNew2014PTE.pdf",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "8f2ebfd78c72c89d9e18420955f9f721bdd9ce8cdfce936f68959249f83506c5",
+      "byteCount": 210621,
+      "context": "1. \n \nEntry changes in the 2014 Primetime Emmy Awards Competition \n \n \n1.  2% Rule – Comedy and drama s eries whose total first -round votes are within 2% of the \nsixth place series will result in a seventh nominee. \n \n2. Technical Direction/Camerawork/Video for a Series - Changed from a category to an area \naward with the possibility of one or more than one award.  \n \n3. Miniseries/Movie category split into two distinct program categories, one for Outstanding \nMiniseries and one for Outstanding Television Movie. \n  \n4. Miniseries/Movie categories for Directors, Writers and Performers - the number of telecast \nnominees in wr iting, directing and performing for miniseries/movies had been increased  from \nfive to six nominees, with the final voting procedures changed from a pref erential vote to a \nratings-score vote.  \n \n5. Voice -over Performer category split  into two separate categories, one for Outstanding \nNarrator and one for Outstanding Character Voice-over Performance.  \n \n7. Reality Program category split into two categories, one for Structured Reality Programs and \none for Unstructured Reality Programs.   \n \n8. Guest Performe r categories no longer require edited  DVDs to be submitted at the point of \nentry. Unedited DVDs will be requested at the point of nomination (July 10). \n \n9. Art Direction/Set Decoration – Titles have been re-categorize and renamed as follows: \n \nArea 5 OUTSTANDING ART DIRECTION FOR A CONTEMPORARY OR FANTASY SERIES \n(SINGLE-CAMERA) \nFor a single-camera series  \n  \nArea 6  OUTSTANDING ART DIRECTION FOR A PERIOD SERIES,  MINISERIES OR A \nMOVIE (SINGLE-CAMERA) \nFor a single-camera series, miniseries or movie \n \nArea 7 OUTSTANDING ART DIRECTION FOR A CONTEMPORARY PROGRAM (HALF \nHOUR OR LESS) \nFor a multi-camera or single-camera series \n  \nArea 8 OUTSTANDING ART DIRECTION FOR VARIETY, NONFICTION, REALITY OR \nREALITY-COMPETITION PROGRAMMING \nFor a series or a special \n \n10. Directing  – “Emmy(s) to credited director(s)” has been changed to “Emmy(s) to \ndirector whose screen credit is director or directed by (segment directors, 2nd unit \ndirectors, stage managers, ADs and animation directors are not eligible)” \n \n11. Lighting Design/Lighting Direction  – Lighting Consultant have been added to the list of \neligible entrants. \n \n12. Costume Design/Costume Supervision revisions: \n \nEligible titles include: \nCostume Designer – designs/determines the look of all costumes worn. \nCostume Supervisor – works with or without a costume designer to determine the look of all \ncostumes worn and administrates personnel and department functions. \nAssistant Costume Designer – assists the costume designer in the design process and provides \ncostumes for principal actors and background artists. \nSingle‐credit Costumer (who is the only costume person on the show.) \n \n \n2. \n \nEntries must be accompanied by a 50-word or less statement of each of the entrant’s function \non the production. \n \n13. Short -format Programs  no longer have the Special Class designa tion. Titles have been \nrevised to Short-format Live -Action Entertainment Programs and Short-format Nonfiction \nPrograms  \n \n14. Stunt Coordination revisions: \n \n Change the eligibility in the two stunt categories to only allow programming that \nmeets the requirements of a regular series, miniseries or movie. \n \n Change submission requirements for drama series entries from a single episode to a \nbody of work. \n \n Change the length of the video upload for comedy and drama series entries from \nseven minutes to five minutes. \n \n15. Clarification of Rule 10, page 4 of the online rules book: \n \n“Eligibility is based on screen credit.  Producers may not alter an individual’s screen \ncredit in order to qualify the individual for Emmy eligibility.  Entries not supported by final \nand definitive credits (as determined by the Awards Committee in conjunction with \nthe relevant peer group executive committee) are ineligible.”  \n \n16. Sound Mixing additions to the current rules: \n \nA) Re-recording mixers are the primary mixers who contributed substantially to the \nfinal mix with control and responsibility for recording the final stems/print master. \n \nB) Re-recording and Production mixers on-screen credit must reflect their primary \nfunction as a re-recording or production mixer. \nProduction or re-recording mixers may submit a petition for special consideration for the \nfollowing: \n \n If more than four Production or Re-recording mixers make a significant contribution to \nthe submission. \n \n If a mixer other than a Production or Re-recording mixer makes a significant \ncontribution as one of the four member team. \n \nEntrants requesting special consideration need to have their petition submitted at the \ntime of entry. \n \n17. Special Visual Effects revisions:  \n \n Category titles – Outstanding Special and Visual Effects and Outstanding Special and \nVisual Effects in a Supporting Role \n \n Programs may submit up to two episodes in the category, provided that each of the \nnine named entrants for each episode is completely different. \n \n Emmy statues are awarded to the principal contributors directly involved with and \nprimarily responsible for the visual and/or special effects achievement. \n \n Entries must be composed of the key and principal contributors to the \nprogram and the relevant entrants’ job titles should be reflected \nproportionally to their significant contribution(s).  \n \n Entries, which do not include the principal contributors or hands-on artists, may be \nasked to justify this exclusion in writing. \n \n The Awards Committee in consultation with the Special Visual Effects Peer Group \nExecutive Committee (PGEC) reserves the right to confirm or deny the eligibility of \nthe entrants from their contributions.",
+      "contextSha256": "0e97b265ec87d1e873af9691ec3f931cbd24f1c17649d7a40c3fc6cd93889c85"
     }
   ],
   "annualExceptions": [

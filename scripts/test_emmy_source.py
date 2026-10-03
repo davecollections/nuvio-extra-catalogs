@@ -11,7 +11,7 @@ from copy import deepcopy
 from pathlib import Path
 
 from emmy_source import SourceError, category_results
-from fetch_emmy_snapshot import SOURCE_DIR, apply_no_award_evidence, category_for_year, load, no_award_exceptions, review_for_year
+from fetch_emmy_snapshot import SOURCE_DIR, apply_no_award_evidence, category_for_winner, category_for_year, load, no_award_exceptions, review_for_year
 from validate_emmy_source import validate_review
 
 FIXTURES = Path(__file__).resolve().parent / "fixtures" / "emmys"
@@ -185,8 +185,47 @@ class EmmyLineageReviewTests(unittest.TestCase):
 
     def test_undivided_variety_directing_is_not_assumed_to_be_series(self):
         decision = self.decisions["outstanding-directing-for-a-variety-series"]
-        self.assertIsNone(category_for_year(decision, 1996))
+        self.assertEqual(category_for_year(decision, 1996), "directing-for-a-variety-special")
+        self.assertEqual(category_for_year(decision, 1991), "directing-for-a-variety-series")
+        self.assertIsNone(category_for_year(decision, 1971))
         self.assertEqual(category_for_year(decision, 2009), "directing-for-a-variety-series")
+
+    def test_mixed_1990_writing_winners_are_allocated_once_to_their_actual_formats(self):
+        decision = self.decisions["outstanding-writing-for-a-variety-series"]
+        self.assertIsNone(category_for_year(decision, 1990))
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith("/1990/outstanding-writing-for-a-variety-series"))
+        targets = {w["heading"]: category_for_winner(decision, 1990, w["sourceKey"]) for w in page["winners"]}
+        self.assertEqual(targets, {"Billy Crystal: Midnight Train to Moscow": "writing-for-a-variety-special",
+                                  "The Tracey Ullman Show": "writing-for-a-variety-series"})
+
+    def test_combined_1961_supporting_field_keeps_both_winners_and_genres(self):
+        decision = self.decisions["outstanding-performance-in-a-supporting-role-by-an-actor-or-actress-in-a-series"]
+        allocations = review_for_year(decision, 1961)["winnerAllocations"]
+        self.assertEqual([category_for_winner(decision, 1961, a["sourceKey"]) for a in allocations],
+                         ["supporting-actor-in-a-drama-series", "supporting-actor-in-a-comedy-series"])
+
+    def test_incomplete_mixed_allocation_fails_validation(self):
+        decision = self.decisions["outstanding-writing-for-a-variety-series"]
+        review = deepcopy(review_for_year(decision, 1990))
+        review["winnerAllocations"].pop()
+        pages = {p["sourceUrl"]: p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                 if p["year"] in review["years"] and p["sourceUrl"].endswith('/' + decision["sourceSlug"])}
+        with self.assertRaises(SourceError):
+            validate_review(review, {p["year"]: u for u, p in pages.items()},
+                            {u: (p["year"], decision["sourceSlug"]) for u, p in pages.items()}, pages,
+                            {"writing-for-a-variety-series", "writing-for-a-variety-special"})
+
+    def test_mixed_winner_key_cannot_be_applied_to_another_ceremony(self):
+        decision = self.decisions["outstanding-writing-for-a-variety-series"]
+        allocation = next(a for a in review_for_year(decision, 1990)["winnerAllocations"] if a["year"] == 1974)
+        with self.assertRaises(SourceError):
+            category_for_winner(decision, 1990, allocation["sourceKey"])
+
+    def test_current_game_show_contract_does_not_extend_into_the_separate_daytime_history(self):
+        decision = self.decisions["outstanding-game-show"]
+        self.assertIsNone(category_for_year(decision, 2022))
+        self.assertEqual(category_for_year(decision, 2023), "game-show")
 
     def test_duration_branches_follow_the_actual_awarded_programme(self):
         decision = self.decisions["best-direction-half-hour-or-less"]

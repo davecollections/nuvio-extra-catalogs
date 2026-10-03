@@ -3,7 +3,7 @@
   "inputSha256": {
     "current-category-pages.json": "f813c92661d7c88ab1653ed9c3d634f8f41c0e0eb87ca0d017174765b98475c0",
     "annual-indices.json": "4bed2b1e02c4f46f3d0ce5b36afac36d58215048c0fea0830471390d8b8e9388",
-    "lineage-decisions.json": "1fe180e97ec7edc7a505738bf97d2a767277117ee9b76fd42bb1039a9217789a",
+    "lineage-decisions.json": "0ab0264ab52306584588783ec580463156fc1d0a9683dc11dbf3ff96ad6c4154",
     "official-winners-1949-2026.json": "7b6739deab3dbb308b2d1c39ce2ac27b91277a9f8b92e6736191501670b75204",
     "winner-release-evidence-2026.json": "22f013193d628473431db094328240d17b0ad5ade937e9aa5314d68b5bb64fe6",
     "manifest.json": "226970d09fe0ab38b33075106abb893a21e6d27615f17cf9dfb15e1c2015e3b7"
@@ -16,10 +16,10 @@
     "annualCategoryLinkCount": 5437,
     "historicalPageSlugCount": 500,
     "scopeExcludedSlugCount": 345,
-    "pendingLineageSlugCount": 62,
-    "reviewedLineageSlugCount": 93,
-    "reviewedAllocationPageCount": 2099,
-    "reviewedWinnerAllocationCount": 2140,
+    "pendingLineageSlugCount": 54,
+    "reviewedLineageSlugCount": 101,
+    "reviewedAllocationPageCount": 2208,
+    "reviewedWinnerAllocationCount": 2255,
     "acquiredCandidatePageCount": 2480,
     "candidateWinnerRecordCount": 2587,
     "independentlyReconciledNoAwardPageCount": 1,
@@ -587,8 +587,8 @@
       "id": "directing-for-a-documentarynonfiction-program",
       "name": "OUTSTANDING DIRECTING FOR A DOCUMENTARY/NONFICTION PROGRAM",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 24,
-      "reviewedWinnerAllocationCount": 24,
+      "reviewedSourcePageCount": 26,
+      "reviewedWinnerAllocationCount": 26,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -613,9 +613,11 @@
         2006,
         2005,
         2004,
-        2003
+        2003,
+        1992,
+        1990
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "directing-for-a-reality-program",
@@ -634,14 +636,14 @@
         2019,
         2018
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "directing-for-a-variety-series",
       "name": "OUTSTANDING DIRECTING FOR A VARIETY SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 23,
-      "reviewedWinnerAllocationCount": 23,
+      "reviewedSourcePageCount": 28,
+      "reviewedWinnerAllocationCount": 28,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -661,20 +663,25 @@
         2011,
         2010,
         2009,
+        1991,
+        1989,
         1978,
         1977,
         1976,
         1975,
+        1974,
+        1972,
+        1964,
         1958
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "directing-for-a-variety-special",
       "name": "OUTSTANDING DIRECTING FOR A VARIETY SPECIAL",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 35,
-      "reviewedWinnerAllocationCount": 35,
+      "reviewedSourcePageCount": 57,
+      "reviewedWinnerAllocationCount": 57,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -706,13 +713,35 @@
         1999,
         1998,
         1997,
+        1996,
+        1995,
+        1994,
+        1993,
+        1992,
+        1990,
+        1989,
+        1988,
+        1987,
+        1986,
+        1985,
+        1984,
+        1983,
+        1982,
+        1981,
+        1980,
         1978,
         1977,
         1976,
         1975,
+        1974,
+        1973,
+        1972,
+        1968,
+        1967,
+        1966,
         1959
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "documentary-or-nonfiction-series",
@@ -750,7 +779,7 @@
         1998,
         1956
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "documentary-or-nonfiction-special",
@@ -789,7 +818,7 @@
         1964,
         1963
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "exceptional-merit-in-documentary-filmmaking",
@@ -821,7 +850,7 @@
         2006,
         2005
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "game-show",
@@ -835,7 +864,7 @@
         2024,
         2023
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "host-for-a-game-show",
@@ -849,7 +878,7 @@
         2024,
         2023
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "host-for-a-reality-or-reality-competition-program",
@@ -878,7 +907,7 @@
         2009,
         2008
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "hosted-nonfiction-series-or-special",
@@ -902,7 +931,7 @@
         2014,
         2013
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "narrator",
@@ -929,7 +958,7 @@
         2005,
         2002
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "structured-reality-program",
@@ -952,7 +981,7 @@
         2015,
         2014
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "unstructured-reality-program",
@@ -975,7 +1004,7 @@
         2015,
         2014
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "variety-special-live",
@@ -994,7 +1023,7 @@
         2019,
         2018
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "variety-special-pre-recorded",
@@ -1013,14 +1042,14 @@
         2019,
         2018
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "writing-for-a-nonfiction-program",
       "name": "OUTSTANDING WRITING FOR A NONFICTION PROGRAM",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 27,
-      "reviewedWinnerAllocationCount": 27,
+      "reviewedSourcePageCount": 30,
+      "reviewedWinnerAllocationCount": 31,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -1046,18 +1075,21 @@
         2005,
         2004,
         2003,
+        1989,
+        1987,
+        1985,
         1962,
         1961,
         1960
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "writing-for-a-variety-series",
       "name": "OUTSTANDING WRITING FOR A VARIETY SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 22,
-      "reviewedWinnerAllocationCount": 22,
+      "reviewedSourcePageCount": 49,
+      "reviewedWinnerAllocationCount": 49,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -1077,19 +1109,46 @@
         2011,
         2010,
         2009,
+        2008,
+        2007,
+        2006,
+        2005,
+        2004,
+        2003,
+        2002,
+        2001,
+        1999,
+        1998,
+        1996,
+        1995,
+        1994,
+        1993,
+        1990,
+        1989,
+        1985,
+        1984,
+        1983,
+        1982,
+        1981,
         1978,
         1977,
         1976,
-        1975
+        1975,
+        1974,
+        1973,
+        1972,
+        1971,
+        1969,
+        1968
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "writing-for-a-variety-special",
       "name": "OUTSTANDING WRITING FOR A VARIETY SPECIAL",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 23,
-      "reviewedWinnerAllocationCount": 23,
+      "reviewedSourcePageCount": 40,
+      "reviewedWinnerAllocationCount": 40,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -1109,13 +1168,30 @@
         2011,
         2010,
         2009,
+        2000,
+        1997,
+        1992,
+        1991,
+        1990,
+        1989,
+        1988,
+        1987,
+        1986,
+        1980,
         1978,
         1977,
         1976,
         1975,
+        1974,
+        1973,
+        1972,
+        1971,
+        1970,
+        1967,
+        1966,
         1959
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "animated-program",
@@ -1173,7 +1249,7 @@
         1980,
         1979
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "character-voice-over-performance",
@@ -1213,7 +1289,7 @@
         1993,
         1992
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "directing-for-a-limited-or-anthology-series-or-movie",
@@ -1279,7 +1355,7 @@
         1972,
         1971
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "guest-actor-in-a-comedy-series",
@@ -1328,7 +1404,7 @@
         1987,
         1986
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "guest-actor-in-a-drama-series",
@@ -1376,7 +1452,7 @@
         1989,
         1986
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "guest-actress-in-a-comedy-series",
@@ -1424,7 +1500,7 @@
         1989,
         1988
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "guest-actress-in-a-drama-series",
@@ -1473,7 +1549,7 @@
         1988,
         1987
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "television-movie",
@@ -1543,7 +1619,7 @@
         1950,
         1949
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "supporting-actor-in-a-limited-or-anthology-series-or-movie",
@@ -1605,7 +1681,7 @@
         1976,
         1975
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "supporting-actress-in-a-limited-or-anthology-series-or-movie",
@@ -1666,7 +1742,7 @@
         1977,
         1976
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "writing-for-a-limited-or-anthology-series-or-movie",
@@ -1732,7 +1808,7 @@
         1972,
         1971
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "comedy-series",
@@ -1816,7 +1892,7 @@
         1953,
         1952
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "directing-for-a-comedy-series",
@@ -1893,7 +1969,7 @@
         1957,
         1956
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "directing-for-a-drama-series",
@@ -1975,7 +2051,7 @@
         1956,
         1955
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "drama-series",
@@ -2059,14 +2135,14 @@
         1952,
         1951
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "lead-actor-in-a-comedy-series",
       "name": "OUTSTANDING LEAD ACTOR IN A COMEDY SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 62,
-      "reviewedWinnerAllocationCount": 62,
+      "reviewedSourcePageCount": 67,
+      "reviewedWinnerAllocationCount": 67,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -2129,16 +2205,21 @@
         1968,
         1967,
         1966,
-        1959
+        1964,
+        1959,
+        1958,
+        1957,
+        1956,
+        1955
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "lead-actor-in-a-drama-series",
       "name": "OUTSTANDING LEAD ACTOR IN A DRAMA SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 62,
-      "reviewedWinnerAllocationCount": 63,
+      "reviewedSourcePageCount": 66,
+      "reviewedWinnerAllocationCount": 67,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -2201,9 +2282,13 @@
         1968,
         1967,
         1966,
+        1963,
+        1962,
+        1961,
+        1960,
         1959
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "lead-actor-in-a-limited-or-anthology-series-or-movie",
@@ -2284,14 +2369,14 @@
         1956,
         1955
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "lead-actress-in-a-comedy-series",
       "name": "OUTSTANDING LEAD ACTRESS IN A COMEDY SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 62,
-      "reviewedWinnerAllocationCount": 62,
+      "reviewedSourcePageCount": 69,
+      "reviewedWinnerAllocationCount": 69,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -2354,16 +2439,23 @@
         1968,
         1967,
         1966,
-        1959
+        1964,
+        1963,
+        1962,
+        1960,
+        1959,
+        1958,
+        1956,
+        1954
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "lead-actress-in-a-drama-series",
       "name": "OUTSTANDING LEAD ACTRESS IN A DRAMA SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 62,
-      "reviewedWinnerAllocationCount": 63,
+      "reviewedSourcePageCount": 65,
+      "reviewedWinnerAllocationCount": 66,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -2426,9 +2518,12 @@
         1968,
         1967,
         1966,
-        1959
+        1961,
+        1959,
+        1957,
+        1955
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "lead-actress-in-a-limited-or-anthology-series-or-movie",
@@ -2509,7 +2604,7 @@
         1956,
         1955
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "limited-or-anthology-series",
@@ -2569,7 +2664,7 @@
         1974,
         1973
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "reality-competition-program",
@@ -2603,14 +2698,14 @@
         2004,
         2003
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "supporting-actor-in-a-comedy-series",
       "name": "OUTSTANDING SUPPORTING ACTOR IN A COMEDY SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 61,
-      "reviewedWinnerAllocationCount": 61,
+      "reviewedSourcePageCount": 70,
+      "reviewedWinnerAllocationCount": 70,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -2669,19 +2764,28 @@
         1972,
         1971,
         1970,
+        1969,
         1968,
         1967,
         1966,
-        1959
+        1963,
+        1962,
+        1961,
+        1959,
+        1958,
+        1957,
+        1956,
+        1955,
+        1954
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "supporting-actor-in-a-drama-series",
       "name": "OUTSTANDING SUPPORTING ACTOR IN A DRAMA SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 61,
-      "reviewedWinnerAllocationCount": 61,
+      "reviewedSourcePageCount": 63,
+      "reviewedWinnerAllocationCount": 63,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -2743,16 +2847,18 @@
         1968,
         1967,
         1966,
+        1964,
+        1961,
         1959
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "supporting-actress-in-a-comedy-series",
       "name": "OUTSTANDING SUPPORTING ACTRESS IN A COMEDY SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 61,
-      "reviewedWinnerAllocationCount": 62,
+      "reviewedSourcePageCount": 66,
+      "reviewedWinnerAllocationCount": 67,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -2814,16 +2920,21 @@
         1968,
         1967,
         1966,
-        1959
+        1959,
+        1958,
+        1957,
+        1956,
+        1955,
+        1954
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "supporting-actress-in-a-drama-series",
       "name": "OUTSTANDING SUPPORTING ACTRESS IN A DRAMA SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 61,
-      "reviewedWinnerAllocationCount": 61,
+      "reviewedSourcePageCount": 63,
+      "reviewedWinnerAllocationCount": 63,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -2882,12 +2993,14 @@
         1972,
         1971,
         1970,
+        1969,
         1968,
         1967,
         1966,
+        1963,
         1959
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "variety-series",
@@ -2971,14 +3084,14 @@
         1952,
         1951
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "writing-for-a-comedy-series",
       "name": "OUTSTANDING WRITING FOR A COMEDY SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 68,
-      "reviewedWinnerAllocationCount": 68,
+      "reviewedSourcePageCount": 69,
+      "reviewedWinnerAllocationCount": 69,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -3046,10 +3159,11 @@
         1960,
         1959,
         1958,
+        1957,
         1956,
         1955
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
     {
       "id": "writing-for-a-drama-series",
@@ -3131,7 +3245,7 @@
         1956,
         1955
       ],
-      "policy": "These are accepted page allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
+      "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     }
   ],
   "annualExceptions": [
@@ -6549,22 +6663,18 @@
         "Male Star Of Regular Series",
         "Actor"
       ],
-      "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
-    },
-    {
-      "sourceSlug": "best-actor-in-a-supporting-role",
-      "firstYear": 1954,
-      "lastYear": 1969,
-      "menuLabels": [
-        "Continued Performance By An Actor In A Supporting Role In A Series",
-        "Performance In A Supporting Role By An Actor",
-        "Continuing Supporting Performance By An Actor In A Dramatic Or Comedy Series",
-        "Supporting Performance By An Actor",
-        "Actor In A Supporting Role",
-        "Supporting Actor In A Regular Series",
-        "Series Supporting Actor"
-      ],
-      "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
+      "reason": "Reviewed year-specific winning productions and historical headings. Use explicit periods and, for mixed winners, exact source-key allocations; never apply a blanket target to the URL slug.",
+      "pendingPeriods": [
+        {
+          "years": [
+            1954,
+            1953,
+            1952,
+            1951
+          ],
+          "reason": "These combined-period programme/recipient facts do not yet establish an unambiguous current lineage. Retain for specific production and source review."
+        }
+      ]
     },
     {
       "sourceSlug": "best-actress",
@@ -6581,7 +6691,17 @@
         "Female Star Of Regular Series",
         "Actress"
       ],
-      "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
+      "reason": "Reviewed year-specific winning productions and historical headings. Use explicit periods and, for mixed winners, exact source-key allocations; never apply a blanket target to the URL slug.",
+      "pendingPeriods": [
+        {
+          "years": [
+            1953,
+            1952,
+            1951
+          ],
+          "reason": "These combined-period programme/recipient facts do not yet establish an unambiguous current lineage. Retain for specific production and source review."
+        }
+      ]
     },
     {
       "sourceSlug": "best-audience-participation-quiz-or-panel-program",
@@ -6697,7 +6817,16 @@
         "Supporting Actress In A Regular Series",
         "Series Supporting Actress"
       ],
-      "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
+      "reason": "Reviewed year-specific winning productions and historical headings. Use explicit periods and, for mixed winners, exact source-key allocations; never apply a blanket target to the URL slug.",
+      "pendingPeriods": [
+        {
+          "years": [
+            1964,
+            1962
+          ],
+          "reason": "These combined-period programme/recipient facts do not yet establish an unambiguous current lineage. Retain for specific production and source review."
+        }
+      ]
     },
     {
       "sourceSlug": "best-single-program-of-the-year",
@@ -6808,50 +6937,17 @@
         "Directorial Achievement In Variety, Comedy Or Music",
         "Directorial Achievement In Music Or Variety"
       ],
-      "reason": "Year-specific heading and winning-production review; use the explicit period allocations. Unreviewed combined periods remain withheld.",
+      "reason": "Reviewed year-specific winning productions and historical headings. Use explicit periods and, for mixed winners, exact source-key allocations; never apply a blanket target to the URL slug.",
       "pendingPeriods": [
         {
           "years": [
-            1996,
-            1995,
-            1994,
-            1993,
-            1992,
-            1991,
-            1990,
-            1989,
-            1988,
-            1987,
-            1986,
-            1985,
-            1984,
-            1983,
-            1982,
-            1981,
-            1980,
-            1974,
-            1973,
-            1972,
             1971,
             1970,
-            1969,
-            1968,
-            1967,
-            1966,
-            1964
+            1969
           ],
-          "reason": "Earlier Variety/Music Program directing combines series and specials. Each winning production requires evidence before assigning either selected current directing history."
+          "reason": "These combined-period programme/recipient facts do not yet establish an unambiguous current lineage. Retain for specific production and source review."
         }
       ]
-    },
-    {
-      "sourceSlug": "outstanding-directing-for-special-events",
-      "firstYear": 1989,
-      "lastYear": 1989,
-      "menuLabels": [
-        "Directing For Special Events"
-      ],
-      "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
     },
     {
       "sourceSlug": "outstanding-individual-achievement-informational-programming",
@@ -6865,27 +6961,6 @@
         "Individual Achievement - Informational Program"
       ],
       "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
-    },
-    {
-      "sourceSlug": "outstanding-individual-achievement-informational-programming-directing",
-      "firstYear": 1987,
-      "lastYear": 1992,
-      "menuLabels": [
-        "Individual Achievement - Informational Programming - Directing",
-        "Directing In - Informational Programming",
-        "Directing In Informational Programming"
-      ],
-      "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
-    },
-    {
-      "sourceSlug": "outstanding-individual-achievement-informational-programming-writing",
-      "firstYear": 1985,
-      "lastYear": 1992,
-      "menuLabels": [
-        "Individual Achievement - Informational Programming - Writing",
-        "Writing In Informational Programming"
-      ],
-      "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
     },
     {
       "sourceSlug": "outstanding-individual-achievement-special-events",
@@ -6998,15 +7073,6 @@
         "Program Achievements In The Fields Of Variety And Music - Music"
       ],
       "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
-    },
-    {
-      "sourceSlug": "outstanding-performance-in-a-supporting-role-by-an-actor-or-actress-in-a-series",
-      "firstYear": 1961,
-      "lastYear": 1961,
-      "menuLabels": [
-        "Performance In A Supporting Role By An Actor Or Actress In A Series"
-      ],
-      "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
     },
     {
       "sourceSlug": "outstanding-program-achievement-in-the-field-of-panel-quiz-or-audience-participation",
@@ -7205,100 +7271,6 @@
           "reason": "Former combined Variety/Music/Comedy Special programme award needs actual broadcast-format evidence to allocate live or prerecorded; do not infer live status from event branding."
         }
       ]
-    },
-    {
-      "sourceSlug": "outstanding-writing-achievement-in-comedy-variety-or-music",
-      "firstYear": 1964,
-      "lastYear": 1979,
-      "menuLabels": [
-        "Writing",
-        "Writing Achievement In Comedy, Variety Or Music",
-        "Writing Achievement In Comedy Or Variety"
-      ],
-      "reason": "Year-specific heading and winning-production review; use the explicit period allocations. Unreviewed combined periods remain withheld.",
-      "pendingPeriods": [
-        {
-          "years": [
-            1973,
-            1972,
-            1971,
-            1970,
-            1969
-          ],
-          "reason": "Remaining broad Comedy/Variety/Music writing includes single programmes and series; actual winning productions need per-record allocation."
-        }
-      ]
-    },
-    {
-      "sourceSlug": "outstanding-writing-for-a-variety-series",
-      "firstYear": 1957,
-      "lastYear": 2026,
-      "menuLabels": [
-        "Writing For A Variety Series",
-        "Writing for a Variety Series",
-        "Writing",
-        "Writing For A Variety Or Music Program",
-        "Individual Achievement In Writing",
-        "Writing In Variety Or Music",
-        "Writing Achievement In Variety Or Music",
-        "Writing Achievement In Music Or Variety",
-        "Writing Achievement In Variety",
-        "Comedy Writing-Variety Or Situation Comedy"
-      ],
-      "reason": "Year-specific heading and winning-production review; use the explicit period allocations. Unreviewed combined periods remain withheld.",
-      "pendingPeriods": [
-        {
-          "years": [
-            2008,
-            2007,
-            2006,
-            2005,
-            2004,
-            2003,
-            2002,
-            2001,
-            2000,
-            1999,
-            1998,
-            1997,
-            1996,
-            1995,
-            1994,
-            1993,
-            1992,
-            1991,
-            1990,
-            1989,
-            1988,
-            1987,
-            1986,
-            1985,
-            1984,
-            1983,
-            1982,
-            1981,
-            1980,
-            1974,
-            1973,
-            1972,
-            1971,
-            1968,
-            1967,
-            1966,
-            1957
-          ],
-          "reason": "Earlier mixed comedy/variety or Variety/Music Program writing requires winner-level comedy-versus-variety and series-versus-special allocation."
-        }
-      ]
-    },
-    {
-      "sourceSlug": "outstanding-writing-for-special-events",
-      "firstYear": 1989,
-      "lastYear": 1989,
-      "menuLabels": [
-        "Writing For Special Events"
-      ],
-      "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
     },
     {
       "sourceSlug": "special-classification-of-outstanding-program-achievement",
