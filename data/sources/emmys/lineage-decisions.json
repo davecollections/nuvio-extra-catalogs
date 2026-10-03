@@ -714,7 +714,7 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1958/best-comedian"
           ],
           "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+          "reason": "The early comedian fields mix sitcom acting and variety/personality performance, and later headings change eligibility. Earlier winners such as Lucille Ball cannot be excluded by applying the 1958 plays-herself wording backwards. Review the actual annual winner, production and predecessor boundary individually; no blanket modern target or exclusion is accepted."
         },
         {
           "sourceSlug": "best-comedian-or-comedienne",
@@ -728,7 +728,7 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1952/best-comedian-or-comedienne"
           ],
           "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+          "reason": "The early comedian fields mix sitcom acting and variety/personality performance, and later headings change eligibility. Earlier winners such as Lucille Ball cannot be excluded by applying the 1958 plays-herself wording backwards. Review the actual annual winner, production and predecessor boundary individually; no blanket modern target or exclusion is accepted."
         },
         {
           "sourceSlug": "best-comedienne",
@@ -745,7 +745,7 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1958/best-comedienne"
           ],
           "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+          "reason": "The early comedian fields mix sitcom acting and variety/personality performance, and later headings change eligibility. Earlier winners such as Lucille Ball cannot be excluded by applying the 1958 plays-herself wording backwards. Review the actual annual winner, production and predecessor boundary individually; no blanket modern target or exclusion is accepted."
         },
         {
           "sourceSlug": "best-direction",
@@ -1096,8 +1096,25 @@
           "evidence": [
             "https://www.televisionacademy.com/awards/nominees-winners/1950/best-kinescope-show"
           ],
-          "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+          "disposition": "excluded",
+          "reason": "Broad 1950 programme recognition distinguished by recording technology, awarded to Texaco Star Theatre. It is not a variety-only, prerecorded-special contract. Retain the retired field outside the selected current programme histories; kinescope technology and a familiar variety title do not prove succession to Pre-Recorded Variety Special.",
+          "acquisitionYears": [
+            1950
+          ],
+          "excludedYears": [],
+          "reviewedSourceHeadings": [
+            "Best Kinescope Show"
+          ],
+          "reviewedSourcePages": [
+            {
+              "year": 1950,
+              "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1950/best-kinescope-show",
+              "sha256": "fc90e8f8b9296002888876ff7ef3cd0643a8d3aa7cbe606ec72a8ada735aade2",
+              "winnerSourceKeys": [
+                "ded00a293328079a0ed60d8e3b3a507202a6535c8bd6c9a3de81aeb165fe2c23"
+              ]
+            }
+          ]
         },
         {
           "sourceSlug": "best-live-show",
@@ -1110,8 +1127,25 @@
           "evidence": [
             "https://www.televisionacademy.com/awards/nominees-winners/1950/best-live-show"
           ],
-          "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+          "disposition": "excluded",
+          "reason": "Broad 1950 live-programme recognition, awarded to The Ed Wynn Show. It is not the current Live Variety Special contract: the awarded work is a recurring show and the historical field distinguishes live production from kinescope recording across programme genres. Do not invent a special or merge this retired recognition into a modern series field without a documented successor.",
+          "acquisitionYears": [
+            1950
+          ],
+          "excludedYears": [],
+          "reviewedSourceHeadings": [
+            "Best Live Show"
+          ],
+          "reviewedSourcePages": [
+            {
+              "year": 1950,
+              "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1950/best-live-show",
+              "sha256": "ca28fbdf855ae5a615bce78b8c24fb0e391b1d22a7b133644021d16b1af2b369",
+              "winnerSourceKeys": [
+                "0df8cf5ea5022b7e3f0d8be7ac97887beaa3ee71966b36e6852b1f837b44ec48"
+              ]
+            }
+          ]
         },
         {
           "sourceSlug": "best-male-personality-continuing-performance",
@@ -1635,8 +1669,63 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1955/best-single-program-of-the-year",
             "https://www.televisionacademy.com/awards/nominees-winners/1959/best-single-program-of-the-year"
           ],
-          "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+          "disposition": "excluded",
+          "reason": "Retired overall single-programme/programme-of-the-year recognition spanning Disneyland, Peter Pan, Requiem for a Heavyweight, Playhouse 90 and An Evening with Fred Astaire. It crosses genres and programme forms and is distinct from the contemporaneous genre-specific series and musical/variety awards. No selected current overall Programme of the Year category exists; do not duplicate these recognitions into their other awarded categories or infer a movie/variety successor from the winning title.",
+          "acquisitionYears": [
+            1959,
+            1958,
+            1957,
+            1956,
+            1955
+          ],
+          "excludedYears": [],
+          "reviewedSourceHeadings": [
+            "Best Individual Program Of The Year",
+            "Best Single Program Of The Year",
+            "Most Outstanding Single Program Of The Year"
+          ],
+          "reviewedSourcePages": [
+            {
+              "year": 1959,
+              "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1959/best-single-program-of-the-year",
+              "sha256": "c9e01831622209c0887814e9c9b6fb9bb54ddd5ee1ffe538465d956c90c7b0b0",
+              "winnerSourceKeys": [
+                "4af011a2d3fd917aef5ba143ac0c11f9f4b5a533c6046cce546af073b93cb54d"
+              ]
+            },
+            {
+              "year": 1958,
+              "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1958/best-single-program-of-the-year",
+              "sha256": "81bc6f4bb12d5d4718f9023e08d557b771a81545896c72920d4ab8cd69f63011",
+              "winnerSourceKeys": [
+                "2f32efa88f64068502db1120d32cd1e827249a83cbb5fb1ee5e281da83ee6a11"
+              ]
+            },
+            {
+              "year": 1957,
+              "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1957/best-single-program-of-the-year",
+              "sha256": "f2fe0353b9b692da1be9765372aeab47e2f947148cc3e4b355a54d6de9aae6b1",
+              "winnerSourceKeys": [
+                "8cc1fd3469f4811d05432b4dbd677f271b3d469afa0b1e61b172749636d6d8f3"
+              ]
+            },
+            {
+              "year": 1956,
+              "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1956/best-single-program-of-the-year",
+              "sha256": "20a0037f872320d30e4df817a5feb2d5faf6d4ab76dee490f9eccdaf03dac72a",
+              "winnerSourceKeys": [
+                "a7a7c6f29614c6cedc8f8dadf178098307000f0134368e6d978b08e2a8e3950b"
+              ]
+            },
+            {
+              "year": 1955,
+              "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1955/best-single-program-of-the-year",
+              "sha256": "e7425840a2ce1f7973e04c31ba69eb973152811775a43bea294731984fa87072",
+              "winnerSourceKeys": [
+                "1ba9b3acda2f02d865119041fb821d3a8b1b4d9d4f548d605274ebd7e8a3a95e"
+              ]
+            }
+          ]
         },
         {
           "sourceSlug": "best-specialty-act-single-or-group",
@@ -2411,8 +2500,26 @@
           "evidence": [
             "https://www.televisionacademy.com/awards/nominees-winners/1949/most-popular-television-program"
           ],
-          "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+          "disposition": "excluded",
+          "reason": "Overall popularity recognition from the original 1949 local ceremony, outside the selected current category lineages. Preserve both winners marked by the source for future archive review. Neither the quiz title Pantomime Quiz Time nor the puppet programme Judy Splinters proves a successor to the current Game Show or Comedy Series field.",
+          "acquisitionYears": [
+            1949
+          ],
+          "excludedYears": [],
+          "reviewedSourceHeadings": [
+            "Most Popular Television Program"
+          ],
+          "reviewedSourcePages": [
+            {
+              "year": 1949,
+              "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1949/most-popular-television-program",
+              "sha256": "1a5fdf3dc6176da1b8afd8219ce5ed94d5725de9814714a56b402a0869deae4a",
+              "winnerSourceKeys": [
+                "896961f9026721b1663d3bcbbb4e3f0d56c817fc1ba5bfb3d19c8a83607d0c7b",
+                "376932d33a4d3f3a4dd46f44a6e864c305614d1de4dbdeda9353039b3c23dfcb"
+              ]
+            }
+          ]
         },
         {
           "sourceSlug": "musician-of-the-year",
@@ -7388,13 +7495,20 @@
                 1969
               ],
               "disposition": "pending-review",
-              "reason": "These combined-period programme/recipient facts do not yet establish an unambiguous current lineage. Retain for specific production and source review.",
+              "reason": "The 1969 category HTML and Greg Garrison Academy profile both mark The Dean Martin Show as a winner, while the pinned Academy history explicitly names this field as no-award. The biography repeats the database claim and does not independently reconcile the conflict. Keep the source failure. The 1970/1971 mixed directing credits also remain under production-level review.",
               "evidence": [
                 "https://www.televisionacademy.com/awards/nominees-winners/1971/outstanding-directing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1970/outstanding-directing-for-a-variety-series",
                 "https://www.televisionacademy.com/awards/nominees-winners/1969/outstanding-directing-for-a-variety-series"
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/bios/greg-garrison",
+                "https://www.televisionacademy.com/files/assets/Downloads/76-years-emmy-v1.pdf"
               ]
             }
+          ],
+          "externalEvidence": [
+            "https://www.televisionacademy.com/bios/greg-garrison"
           ]
         },
         {
@@ -12146,7 +12260,79 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-lead-actor-for-a-single-appearance-in-a-drama-or-comedy-series"
           ],
           "disposition": "pending-review",
-          "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
+          "reason": "Use the explicit reviewed production/recipient allocations, preserving the original award wording and facts. Remaining periods are withheld; do not infer a blanket successor from single-appearance wording or a later programme version.",
+          "periods": [
+            {
+              "years": [
+                1978
+              ],
+              "disposition": "pending-review",
+              "reason": "Barnard Hughes in Lou Grant (1978) remains withheld pending independently pinned single-appearance/guest predecessor review for an ongoing drama series.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-lead-actor-for-a-single-appearance-in-a-drama-or-comedy-series"
+              ]
+            },
+            {
+              "years": [
+                1976
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "lead-actor-in-a-limited-or-anthology-series-or-movie",
+              "reason": "Edward Asner won the explicitly Lead Actor single-appearance field for Rich Man, Poor Man. The Academy production retrospective and the same-year Limited Series nomination confirm the original miniseries format. Allocate to the limited/movie lead history while preserving the historical Lead heading; describing Axel as a supporting character is not permission to rewrite the awarded category.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-lead-actor-for-a-single-appearance-in-a-drama-or-comedy-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Lead Actor For A Single Appearance In A Drama Or Comedy Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1976,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-lead-actor-for-a-single-appearance-in-a-drama-or-comedy-series",
+                  "sha256": "0843669739fc7042bc4164c80c068178ec90999417bf78732fa8a83d5b51e76c",
+                  "winnerSourceKeys": [
+                    "a30fba6872a9d686d85ee20ed318102683f4b5e0dc4c74e66995ea78af8d4c39"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/online-originals/he-had-spunk-tribute-ed-asner",
+                "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-miniseries"
+              ]
+            },
+            {
+              "years": [
+                1977
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "lead-actor-in-a-limited-or-anthology-series-or-movie",
+              "reason": "Louis Gossett Jr. won the explicitly Lead Actor single-appearance field for Roots. His Academy biography confirms the original 1977 ABC miniseries. Preserve the historical lead award and allocate its production to the limited/movie lead history; do not infer Supporting solely from modern character descriptions.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1977/outstanding-lead-actor-for-a-single-appearance-in-a-drama-or-comedy-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Lead Actor For A Single Appearance In A Drama Or Comedy Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1977,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1977/outstanding-lead-actor-for-a-single-appearance-in-a-drama-or-comedy-series",
+                  "sha256": "eb827884f6901c77a16d1afed6ee3e8ff6db5a0ce39f7291b308d00b281e1473",
+                  "winnerSourceKeys": [
+                    "800e638a4ea54557ab1a422f2e8fd1e3a5094e3f6cc124a22f24842eeb50ecc7"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/bios/louis-gossett-jr"
+              ]
+            }
+          ],
+          "externalEvidence": [
+            "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-miniseries",
+            "https://www.televisionacademy.com/bios/louis-gossett-jr",
+            "https://www.televisionacademy.com/features/news/online-originals/he-had-spunk-tribute-ed-asner"
+          ]
         },
         {
           "sourceSlug": "outstanding-lead-actor-in-a-comedy-series",
@@ -13843,7 +14029,51 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-lead-actress-for-a-single-appearance-in-a-drama-or-comedy-series"
           ],
           "disposition": "pending-review",
-          "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
+          "reason": "Use the explicit reviewed production/recipient allocations, preserving the original award wording and facts. Remaining periods are withheld; do not infer a blanket successor from single-appearance wording or a later programme version.",
+          "periods": [
+            {
+              "years": [
+                1978,
+                1977
+              ],
+              "disposition": "pending-review",
+              "reason": "The Waltons (1977, Beulah Bondi) and The Rockford Files (1978, Rita Moreno) are ongoing drama productions. Their single-appearance/guest predecessor relationships still need independently pinned review; a broad field cannot turn every winner into a miniseries or continuing series lead.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-lead-actress-for-a-single-appearance-in-a-drama-or-comedy-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1977/outstanding-lead-actress-for-a-single-appearance-in-a-drama-or-comedy-series"
+              ]
+            },
+            {
+              "years": [
+                1976
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "lead-actress-in-a-limited-or-anthology-series-or-movie",
+              "reason": "Kathryn Walker won the original Lead Actress single-appearance field for The Adams Chronicles. The same-year Academy programme page explicitly enters that production in Limited Series. Retain the lead performance in the limited/movie history; the nomination used for format evidence is not a second winner.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-lead-actress-for-a-single-appearance-in-a-drama-or-comedy-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Lead Actress For A Single Appearance In A Drama Or Comedy Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1976,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-lead-actress-for-a-single-appearance-in-a-drama-or-comedy-series",
+                  "sha256": "ba665778056a2d9264c8a1a567204a8b09b9d041a01fff29149460a74c53d148",
+                  "winnerSourceKeys": [
+                    "b23c83336d4436604fc53d2197a771bc2e168b3eebbc5746fe793628eb95ac9f"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-miniseries"
+              ]
+            }
+          ],
+          "externalEvidence": [
+            "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-miniseries"
+          ]
         },
         {
           "sourceSlug": "outstanding-lead-actress-in-a-comedy-series",
@@ -18781,28 +19011,8 @@
             "https://www.televisionacademy.com/awards/nominees-winners/2013/outstanding-reality-program"
           ],
           "disposition": "pending-review",
-          "reason": "Use explicit year-specific programme allocations and their pinned official contexts. Unreviewed periods remain withheld; neither the page slug nor a later award entry certifies all historical productions.",
+          "reason": "Use the explicit reviewed production/recipient allocations, preserving the original award wording and facts. Remaining periods are withheld; do not infer a blanket successor from single-appearance wording or a later programme version.",
           "periods": [
-            {
-              "years": [
-                2010,
-                2006,
-                2005,
-                2004,
-                2002,
-                2001
-              ],
-              "disposition": "pending-review",
-              "reason": "American High, The Osbournes, Queer Eye For The Straight Guy, Extreme Makeover: Home Edition and Jamie Oliver's Food Revolution still require independently pinned format evidence for their actual awarded productions. Do not silently equate the undivided field with either successor.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/2010/outstanding-reality-program",
-                "https://www.televisionacademy.com/awards/nominees-winners/2006/outstanding-reality-program",
-                "https://www.televisionacademy.com/awards/nominees-winners/2005/outstanding-reality-program",
-                "https://www.televisionacademy.com/awards/nominees-winners/2004/outstanding-reality-program",
-                "https://www.televisionacademy.com/awards/nominees-winners/2002/outstanding-reality-program",
-                "https://www.televisionacademy.com/awards/nominees-winners/2001/outstanding-reality-program"
-              ]
-            },
             {
               "years": [
                 2013,
@@ -18913,11 +19123,118 @@
               "externalEvidence": [
                 "https://www.televisionacademy.com/features/online-originals/kathy-griffin-my-life-on-the-d-list"
               ]
+            },
+            {
+              "years": [
+                2010,
+                2001
+              ],
+              "disposition": "pending-review",
+              "reason": "American High (2001) still needs pinned evidence of the original observational school-year production. Jamie Oliver's Food Revolution (2010) needs sufficiently specific template/observational-format evidence; its Academy Honors entry is a separate recognition and must not become an extra Emmy winner.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/2010/outstanding-reality-program",
+                "https://www.televisionacademy.com/awards/nominees-winners/2001/outstanding-reality-program"
+              ]
+            },
+            {
+              "years": [
+                2006,
+                2005
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "structured-reality-program",
+              "reason": "The actual winners are the original ABC Extreme Makeover: Home Edition. The Academy retrospective explicitly identifies its 2003–2012 production and recurring family-home makeover format. Follow the structured successor under the pinned 2014 split; neither the HGTV nor later ABC revival supplies the awarded production identity.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/2006/outstanding-reality-program",
+                "https://www.televisionacademy.com/awards/nominees-winners/2005/outstanding-reality-program"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Reality Program"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 2006,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2006/outstanding-reality-program",
+                  "sha256": "ab1d340ad673fe5179831ab963a37953e88099963db25d721b098e2a8a07fb44",
+                  "winnerSourceKeys": [
+                    "301cfbfdff996bbae5fb55ff2b4b672fcb9fecaf4d19088c2be0f67f4f2f4041"
+                  ]
+                },
+                {
+                  "year": 2005,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2005/outstanding-reality-program",
+                  "sha256": "cb8fb70a629a9203f339e5577c32d677525f4a9b18b77dbaa8867754f705b58b",
+                  "winnerSourceKeys": [
+                    "3ce7e9732ea38cf87bf173b36c678dcc5d2430211fe54394975d1df3b45b0346"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/mix/home-again"
+              ]
+            },
+            {
+              "years": [
+                2004
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "structured-reality-program",
+              "reason": "The Academy producer retrospective identifies Queer Eye for the Straight Guy as the makeover series premiered on Bravo in 2003, separately from its later Netflix reimagining. Its repeated makeover format follows Structured Reality; the original 2004 result is retained without importing newer-version wins.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/2004/outstanding-reality-program"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Reality Program"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 2004,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2004/outstanding-reality-program",
+                  "sha256": "7c73e694bb026c65ad517fa54cc52fca829a90b522daa19ceb0cc35db1181a4f",
+                  "winnerSourceKeys": [
+                    "ee4cd0445e3cc5a01b954c25c34a9bc9c04a812d6e51b8ce707c4cf330f09d03"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/mix/persistence-pays-scout-productions"
+              ]
+            },
+            {
+              "years": [
+                2002
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "unstructured-reality-program",
+              "reason": "The actual winner is The Osbournes. The Academy biography identifies the family reality programme, while the pinned Griffin retrospective explicitly describes its unscripted format as the predecessor to the observational family-life D-List programme. Follow the unstructured successor; do not substitute Ozzy and Jack's World Detour or a personality-only credit.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/2002/outstanding-reality-program"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Non-Fiction Program (Reality)"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 2002,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2002/outstanding-reality-program",
+                  "sha256": "6b6bf4b3bd5e3a1d2c3fe2730afcb65c83c83dab0eb344b6e9a057c80354c09f",
+                  "winnerSourceKeys": [
+                    "94515b0d24c3077a8de546360dfd9eaade224927250955064c3d9ae2d06ce863"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/bios/ozzy-osbourne",
+                "https://www.televisionacademy.com/features/online-originals/kathy-griffin-my-life-on-the-d-list"
+              ]
             }
           ],
           "externalEvidence": [
             "https://www.televisionacademy.com/awards/nominees-winners/2014/outstanding-structured-reality-program",
             "https://www.televisionacademy.com/awards/nominees-winners/2015/outstanding-unstructured-reality-program",
+            "https://www.televisionacademy.com/bios/ozzy-osbourne",
+            "https://www.televisionacademy.com/features/news/mix/home-again",
+            "https://www.televisionacademy.com/features/news/mix/persistence-pays-scout-productions",
             "https://www.televisionacademy.com/features/online-originals/kathy-griffin-my-life-on-the-d-list",
             "https://www.televisionacademy.com/files/assets/Downloads/WhatsNew2014PTE.pdf"
           ]
@@ -19423,7 +19740,53 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-series"
           ],
           "disposition": "pending-review",
-          "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
+          "reason": "Use the explicit reviewed production/recipient allocations, preserving the original award wording and facts. Remaining periods are withheld; do not infer a blanket successor from single-appearance wording or a later programme version.",
+          "periods": [
+            {
+              "years": [
+                1978,
+                1976,
+                1975
+              ],
+              "disposition": "pending-review",
+              "reason": "Columbo (1975), Upstairs, Downstairs (1976) and How the West Was Won (1978) still require specific winning-season and single-performance/guest predecessor review; do not apply the Roots allocation to those different production formats.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-series"
+              ]
+            },
+            {
+              "years": [
+                1977
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "supporting-actor-in-a-limited-or-anthology-series-or-movie",
+              "reason": "Edward Asner won the original Supporting Actor single-performance field for Roots. The Academy production retrospective explicitly confirms Roots as the ABC miniseries. Allocate this supporting award to the limited/movie supporting history and retain its distinction from Asner's differently headed 1976 lead single-appearance win.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1977/outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Single Performance By A Supporting Actor In A Comedy Or Drama Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1977,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1977/outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-series",
+                  "sha256": "d276658518a734a6b914166aa80882fd8b12161355fc8e903aa750d8d91e985b",
+                  "winnerSourceKeys": [
+                    "bea88aacd2dffb7dd7f4aa9ce424bc7df1a60773a1899d4dc8db206543b1bc7d"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/online-originals/he-had-spunk-tribute-ed-asner"
+              ]
+            }
+          ],
+          "externalEvidence": [
+            "https://www.televisionacademy.com/features/news/online-originals/he-had-spunk-tribute-ed-asner"
+          ]
         },
         {
           "sourceSlug": "outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-special",
@@ -19477,8 +19840,66 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-single-performance-by-a-supporting-actress",
             "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-single-performance-by-a-supporting-actress"
           ],
-          "disposition": "pending-review",
-          "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
+          "disposition": "current-lineage",
+          "reason": "Both acquired years are reviewed individually: QB VII was awarded under the 1975 Special heading and Rich Man, Poor Man under the 1976 Series heading. Preserve those exact source categories and recipients within the selected combined limited/anthology/movie supporting history; the common URL is not a production-format rule.",
+          "periods": [
+            {
+              "years": [
+                1976
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "supporting-actress-in-a-limited-or-anthology-series-or-movie",
+              "reason": "Fionnula Flanagan won the explicitly Supporting Actress single-performance field for Rich Man, Poor Man. The pinned Academy production context and same-year Limited Series nomination confirm the miniseries format. Preserve the original supporting award in the limited/movie history.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-single-performance-by-a-supporting-actress"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Single Performance By A Supporting Actress In Comedy Or Drama Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1976,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-single-performance-by-a-supporting-actress",
+                  "sha256": "45462ce5cda776298909cc9aef24f250f9d2d2ebd8fd6b787394116154e904b1",
+                  "winnerSourceKeys": [
+                    "a5cc810f071af026a421dea4e0459b53f1d6642248a00a59c1e8c3d9519509e0"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/online-originals/he-had-spunk-tribute-ed-asner",
+                "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-miniseries"
+              ]
+            },
+            {
+              "years": [
+                1975
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "supporting-actress-in-a-limited-or-anthology-series-or-movie",
+              "reason": "Juliet Mills won for QB VII ABC Movie Special. The actual 1975 heading explicitly identifies a Comedy or Drama Special, unlike the Series heading on the same slug in 1976. Preserve this special-performance branch in the current combined limited/anthology/movie supporting history; the exact movie/miniseries identity is a later production review, not an award-format inference from the URL.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-single-performance-by-a-supporting-actress"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Single Performance By A Supporting Actress In A Comedy Or Drama Special"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1975,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-single-performance-by-a-supporting-actress",
+                  "sha256": "0346bf186f48774816fb602f33221ab9320e2cc8f274a284f479ec201eaa23df",
+                  "winnerSourceKeys": [
+                    "7c38c4dfe028662e5baed80ea307b98411442d7db003c28cae0ce16414bf4317"
+                  ]
+                }
+              ]
+            }
+          ],
+          "externalEvidence": [
+            "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-miniseries",
+            "https://www.televisionacademy.com/features/news/online-originals/he-had-spunk-tribute-ed-asner"
+          ]
         },
         {
           "sourceSlug": "outstanding-single-performance-by-a-supporting-actress-in-a-comedy-or-drama-series",
@@ -19493,7 +19914,79 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-single-performance-by-a-supporting-actress-in-a-comedy-or-drama-series"
           ],
           "disposition": "pending-review",
-          "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
+          "reason": "Use the explicit reviewed production/recipient allocations, preserving the original award wording and facts. Remaining periods are withheld; do not infer a blanket successor from single-appearance wording or a later programme version.",
+          "periods": [
+            {
+              "years": [
+                1975
+              ],
+              "disposition": "pending-review",
+              "reason": "The 1975 tie credits Zohra Lampert for Kojak and Cloris Leachman for The Mary Tyler Moore Show. Review the single-performance/guest predecessor relationship separately and allocate both actual genres individually; do not flatten this tie into one field.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1975/outstanding-single-performance-by-a-supporting-actress-in-a-comedy-or-drama-series"
+              ]
+            },
+            {
+              "years": [
+                1977
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "supporting-actress-in-a-limited-or-anthology-series-or-movie",
+              "reason": "Olivia Cole won the explicitly Supporting Actress single-performance field for Roots. The Academy production contexts confirm the original ABC miniseries; retain the supporting performance in the limited/movie history.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1977/outstanding-single-performance-by-a-supporting-actress-in-a-comedy-or-drama-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Single Performance By A Supporting Actress In A Comedy Or Drama Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1977,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1977/outstanding-single-performance-by-a-supporting-actress-in-a-comedy-or-drama-series",
+                  "sha256": "f2dddd0884ced3fbff8130f0c54b48fa90592d99b84524f482c82afe82d4a025",
+                  "winnerSourceKeys": [
+                    "21aeef6735a2318198541bbc8420adffaf1bb319f1e7e860e3a48da38d952b26"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/online-originals/he-had-spunk-tribute-ed-asner",
+                "https://www.televisionacademy.com/bios/louis-gossett-jr"
+              ]
+            },
+            {
+              "years": [
+                1978
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "supporting-actress-in-a-limited-or-anthology-series-or-movie",
+              "reason": "Blanche Baker won the explicitly Supporting Actress single-performance field for Holocaust. The same-year Academy programme result awards Holocaust as Limited Series, establishing the actual format. Preserve this original supporting performance once in the limited/movie supporting history.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-single-performance-by-a-supporting-actress-in-a-comedy-or-drama-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Single Performance By A Supporting Actress In A Comedy Or Drama Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1978,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-single-performance-by-a-supporting-actress-in-a-comedy-or-drama-series",
+                  "sha256": "44f6528cf2cab606275b56760ee5bf212eb54dca66411e69df14504bec94b06d",
+                  "winnerSourceKeys": [
+                    "56713e36f121aafc3fa3e3b9e72aa7bf8cb0f8b069da310d41cb711100936f50"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-miniseries"
+              ]
+            }
+          ],
+          "externalEvidence": [
+            "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-miniseries",
+            "https://www.televisionacademy.com/bios/louis-gossett-jr",
+            "https://www.televisionacademy.com/features/news/online-originals/he-had-spunk-tribute-ed-asner"
+          ]
         },
         {
           "sourceSlug": "outstanding-single-performance-by-a-supporting-actress-in-a-comedy-or-drama-special",
@@ -28656,8 +29149,25 @@
           "evidence": [
             "https://www.televisionacademy.com/awards/nominees-winners/1951/special-events"
           ],
-          "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+          "disposition": "excluded",
+          "reason": "The actual 1951 award covers Departure of Marines for Korea, a news-event coverage production. This retired Special Events field does not describe an entertainment/variety special and is outside the selected current category lineages. Retain its original facts without turning historical news coverage into a Live Variety Special or silently importing a separate news competition.",
+          "acquisitionYears": [
+            1951
+          ],
+          "excludedYears": [],
+          "reviewedSourceHeadings": [
+            "Special Events"
+          ],
+          "reviewedSourcePages": [
+            {
+              "year": 1951,
+              "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1951/special-events",
+              "sha256": "af38e3c55e2f4c78e77826d1cfa0e426098f0116f503842914ddd48103fdd1ce",
+              "winnerSourceKeys": [
+                "c0913d3ad6616f039e4fb24df628336280a4899e73ed0ce4b238eb027d449420"
+              ]
+            }
+          ]
         },
         {
           "sourceSlug": "station-award",
@@ -28915,6 +29425,88 @@
       "year": 2015,
       "context": "Outstanding Unstructured Reality Program\nWinner Deadliest Catch Discovery Channel Thom Beers Executive Producer Jeff Conroy Executive Producer John Gray Executive Producer David Pritikin Executive Producer Joseph Boyle Executive Producer R. Decker Watson Jr. Geoff Miller Supervising Producer Johnny Beechler Supervising Producer\nNominee Intervention A&E Gary R. Benz Executive Producer Michael Branton Executive Producer Jeffrey L. Weaver Executive Producer Brad Holcman Executive Producer Laurie Sharpe Executive Producer Peter Field Co-Executive Producer PJ Davenport Supervising Producer Karen Pinto Producer",
       "contextSha256": "5f4c33ffbacbbea4800406f47d9570da07b02af5823529ef556ec8a40129378f"
+    },
+    {
+      "url": "https://www.televisionacademy.com/features/news/mix/home-again",
+      "resolvedUrl": "https://www.televisionacademy.com/features/news/mix/home-again",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "1001b5fce8a0271cf24da7827565ea11f1db84f14c7314b3fae6f3d3c687b343",
+      "byteCount": 331437,
+      "context": "the 2003–12 reality hit that turned the dilapidated homes of families in need into near-mansions",
+      "contextSha256": "9d7ded4191492a17ce218b918497c10dc88b7069e88bf86ee660bee10578310f"
+    },
+    {
+      "url": "https://www.televisionacademy.com/features/news/mix/persistence-pays-scout-productions",
+      "resolvedUrl": "https://www.televisionacademy.com/features/news/mix/persistence-pays-scout-productions",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "8ffcf2d0b4659af4392534e6f49f3a6eef9631b43f57c398d3f71a0fd4ff396b",
+      "byteCount": 323767,
+      "context": "Queer Eye for the Straight Guy\nQueer Eye , a makeover series, premiered on Bravo in 2003 and became a pop-culture phenom.",
+      "contextSha256": "93302900ee08517efe32073d47bfa4fa89b8878fdb1a9e1ebbc621eda4bf2446"
+    },
+    {
+      "url": "https://www.televisionacademy.com/bios/ozzy-osbourne",
+      "resolvedUrl": "https://www.televisionacademy.com/bios/ozzy-osbourne",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "7721b3c718c15956809ae709394f0644611853ca22756d3da773b409ad4b6ae8",
+      "byteCount": 310939,
+      "context": "Television viewers got familar with Ozzy and his family on The Osbournes",
+      "contextSha256": "2607bd05980202d7db621ee4bc6e0c925d56fb1a659cb1b345ef18db81f06e61"
+    },
+    {
+      "url": "https://www.televisionacademy.com/features/news/online-originals/he-had-spunk-tribute-ed-asner",
+      "resolvedUrl": "https://www.televisionacademy.com/features/news/online-originals/he-had-spunk-tribute-ed-asner",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "d8e92f68c15d2dcb3c39918efbba096e8b9bb3e0dc2215f57041207bb378ce1d",
+      "byteCount": 324516,
+      "context": "two groundbreaking ABC miniseries — like Rich Man, Poor Man and Roots — and won Emmy Awards for both.",
+      "contextSha256": "6ddf848aa0cb4e0a4c3c17ea7ce8ce67222736c4279ea6d586726fb81dc03060"
+    },
+    {
+      "url": "https://www.televisionacademy.com/bios/louis-gossett-jr",
+      "resolvedUrl": "https://www.televisionacademy.com/bios/louis-gossett-jr",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "30c26c9b398211c3468ca6c7528580f45a06eef3ace5702fbf1c1b10a287a929",
+      "byteCount": 352086,
+      "context": "In 1977, Gossett starred as “Fiddler” in the perennial ABC television miniseries Roots",
+      "contextSha256": "9f79e702be5da2599c3c9a4061c49d275cb4b60fad4dba2d7d2b52d782c03a5f"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-miniseries",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1976/outstanding-miniseries",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "a467e765f903b70bb0297d2c2f2b3f2078c9f01009dd0779a959e6cae0226e00",
+      "byteCount": 386139,
+      "year": 1976,
+      "context": "Outstanding Limited Series\nNominee Rich Man, Poor Man ABC Harve Bennett Jon Epstein\nNominee The Adams Chronicles PBS Paul Bogart Fred Coe Robert Costello James Cellan Jones Virginia Kassel Jac Venza",
+      "contextSha256": "da3dc504cfcaec07a6e36cb1a5e60cb89aa5000037f90c0144fdbf8354491bb8"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-miniseries",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-miniseries",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "a704eb664e54fb0514ccce5d984ad9dc5be7343f8bb645908a6ba2abce178ef9",
+      "byteCount": 388697,
+      "year": 1978,
+      "context": "Outstanding Limited Series\nWinner Holocaust NBC Robert Berger Herbert Brodkin",
+      "contextSha256": "f61c44f36f63e22f6754d1149cc5d7515e72278d27cf4e02998f197b821a2cd7"
+    },
+    {
+      "url": "https://www.televisionacademy.com/bios/greg-garrison",
+      "resolvedUrl": "https://www.televisionacademy.com/bios/greg-garrison",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "c3c71a3ca351c378bf382e2bd1c5b96b6fe18dc0a6509daa14b5dfe4d3ded170",
+      "byteCount": 332581,
+      "context": "Winner Outstanding Directorial Achievement In Comedy, Variety Or Music - 1969 Greg Garrison The Dean Martin Show NBC",
+      "contextSha256": "6fe2dddb5fd66d25f10fcb7db7a4f7c66f4e2f8f052740a0752aca14ca477ed7"
     }
   ],
   "annualExceptions": [

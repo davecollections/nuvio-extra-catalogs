@@ -44,6 +44,7 @@ def build():
         exceptions.append({**value, "reconciliationStatus": status})
     allocated = [(p, w, category_for_winner(by_slug[p["sourceUrl"].rsplit('/', 1)[1]], p["year"], w["sourceKey"])) for p, w in winners]
     allocated = [(p, w, category) for p, w, category in allocated if category]
+    retained_excluded = [p for p in snapshot["pages"] if by_slug[p["sourceUrl"].rsplit('/', 1)[1]]["disposition"] == "excluded"]
     categories = []
     for category in registry["included"]:
         category_winners = [(p, w) for p, w, target in allocated if target == category["id"]]
@@ -67,6 +68,8 @@ def build():
             "historicalPageSlugCount": len(decisions), "scopeExcludedSlugCount": sum(d["disposition"] == "excluded" for d in decisions),
             "pendingLineageSlugCount": sum(d["disposition"] == "pending-review" for d in decisions),
             "reviewedLineageSlugCount": sum(d["disposition"] == "current-lineage" for d in decisions),
+            "retainedScopeExcludedPageCount": len(retained_excluded),
+            "retainedScopeExcludedWinnerRecordCount": sum(p["winnerCount"] for p in retained_excluded),
             "reviewedAllocationPageCount": len({p["sourceUrl"] for p, _, _ in allocated}),
             "reviewedWinnerAllocationCount": len(allocated),
             "acquiredCandidatePageCount": len(snapshot["pages"]), "candidateWinnerRecordCount": len(winners),

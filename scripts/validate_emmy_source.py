@@ -47,10 +47,11 @@ def validate_review(review, years, indices, acquired, category_ids, context_urls
     require(set(review.get("externalEvidence", [])) <= set(context_urls), "review period references unpinned context evidence")
     if review["disposition"] != "current-lineage":
         require("currentCategory" not in review and "winnerAllocations" not in review, "unaccepted period has category targets")
-        return
+        if "reviewedSourcePages" not in review:
+            return
     mixed = "winnerAllocations" in review
     require(not (mixed and "currentCategory" in review), "mixed review also carries a blanket target")
-    if not mixed:
+    if not mixed and review["disposition"] == "current-lineage":
         require(review.get("currentCategory") in category_ids, "lineage target outside approved scope")
     expected = {u: p for u, p in acquired.items() if u in years.values()}
     reviewed = review.get("reviewedSourcePages", [])
@@ -170,6 +171,8 @@ def validate(complete=False):
         if "acquisitionYears" in decision:
             acquired_years, excluded = set(decision["acquisitionYears"]), set(decision["excludedYears"])
             require(not acquired_years & excluded and acquired_years | excluded == available, "year-specific acquisition scope does not account for every available year")
+            if decision["disposition"] == "excluded":
+                require("reviewedSourcePages" in decision, "retained excluded scope lacks reviewed source facts")
         scoped_urls = {year: url for year, url in available_urls.items() if "acquisitionYears" not in decision or year in decision["acquisitionYears"]}
         if "periods" in decision:
             period_years = [year for period in decision["periods"] for year in period["years"]]
@@ -183,7 +186,7 @@ def validate(complete=False):
                 validate_review(period, urls, indices, acquired_pages, category_ids, context_urls)
             for year in scoped_urls:
                 review_for_year(decision, year)
-        elif decision["disposition"] == "current-lineage":
+        elif decision["disposition"] == "current-lineage" or "reviewedSourcePages" in decision:
             validate_review(decision, scoped_urls, indices, acquired_pages, category_ids, context_urls)
     seen, winners, keys = set(), 0, set()
     for page in snapshot["pages"]:

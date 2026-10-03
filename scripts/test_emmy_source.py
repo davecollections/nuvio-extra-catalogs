@@ -11,7 +11,7 @@ from copy import deepcopy
 from pathlib import Path
 
 from emmy_source import SourceError, category_results
-from fetch_emmy_snapshot import SOURCE_DIR, apply_no_award_evidence, category_for_winner, category_for_year, load, no_award_exceptions, review_for_year
+from fetch_emmy_snapshot import SOURCE_DIR, apply_no_award_evidence, candidate_pages, category_for_winner, category_for_year, load, no_award_exceptions, review_for_year
 from validate_emmy_source import validate_review
 
 FIXTURES = Path(__file__).resolve().parent / "fixtures" / "emmys"
@@ -170,12 +170,86 @@ class EmmyLineageReviewTests(unittest.TestCase):
 
     def test_reality_split_does_not_allocate_the_whole_older_field_to_one_successor(self):
         decision = self.decisions["outstanding-reality-program"]
-        for year in (2012, 2013):
+        for year in (2004, 2005, 2006, 2012, 2013):
             self.assertEqual(category_for_year(decision, year), "structured-reality-program")
-        for year in (2007, 2008, 2009, 2011):
+        for year in (2002, 2007, 2008, 2009, 2011):
             self.assertEqual(category_for_year(decision, year), "unstructured-reality-program")
-        for year in (2001, 2002, 2004, 2005, 2006, 2010):
+        for year in (2001, 2010):
             self.assertIsNone(category_for_year(decision, year))
+
+    def test_single_appearance_label_does_not_turn_miniseries_into_ongoing_drama(self):
+        actor = self.decisions["outstanding-lead-actor-for-a-single-appearance-in-a-drama-or-comedy-series"]
+        actress = self.decisions["outstanding-lead-actress-for-a-single-appearance-in-a-drama-or-comedy-series"]
+        for year in (1976, 1977):
+            self.assertEqual(category_for_year(actor, year), "lead-actor-in-a-limited-or-anthology-series-or-movie")
+        self.assertEqual(category_for_year(actress, 1976), "lead-actress-in-a-limited-or-anthology-series-or-movie")
+        # Format evidence for these miniseries cannot settle guest/continuing
+        # relationships for Lou Grant, The Waltons or The Rockford Files.
+        self.assertIsNone(category_for_year(actor, 1978))
+        for year in (1977, 1978):
+            self.assertIsNone(category_for_year(actress, year))
+
+    def test_character_description_does_not_rewrite_the_original_lead_award(self):
+        snapshot = load(SOURCE_DIR / "official-winners-1949-2026.json")
+        lead_slug = "outstanding-lead-actor-for-a-single-appearance-in-a-drama-or-comedy-series"
+        support_slug = "outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-series"
+        page = next(p for p in snapshot["pages"] if p["sourceUrl"].endswith('/1976/' + lead_slug))
+        self.assertIn("Lead Actor", page["sourceCategory"])
+        self.assertEqual(page["winners"][0]["heading"], "Edward Asner")
+        self.assertEqual(category_for_winner(self.decisions[lead_slug], 1976, page["winners"][0]["sourceKey"]),
+                         "lead-actor-in-a-limited-or-anthology-series-or-movie")
+        self.assertEqual(category_for_year(self.decisions[support_slug], 1977),
+                         "supporting-actor-in-a-limited-or-anthology-series-or-movie")
+        # Asner's separate Roots supporting award cannot reclassify the earlier
+        # explicitly headed Rich Man, Poor Man lead award, or other winners.
+        self.assertIsNone(category_for_year(self.decisions[support_slug], 1976))
+
+    def test_one_supporting_slug_preserves_its_special_and_series_headings(self):
+        slug = "outstanding-single-performance-by-a-supporting-actress"
+        decision = self.decisions[slug]
+        snapshot = load(SOURCE_DIR / "official-winners-1949-2026.json")
+        pages = {p["year"]: p for p in snapshot["pages"] if p["sourceUrl"].endswith('/' + slug)}
+        self.assertIn("Special", pages[1975]["sourceCategory"])
+        self.assertIn("Series", pages[1976]["sourceCategory"])
+        for year in pages:
+            self.assertEqual(category_for_year(decision, year),
+                             "supporting-actress-in-a-limited-or-anthology-series-or-movie")
+        # The original special/series distinction must survive allocation to a
+        # combined modern category; the common URL must not overwrite it.
+        self.assertNotEqual(review_for_year(decision, 1975)["reviewedSourceHeadings"],
+                            review_for_year(decision, 1976)["reviewedSourceHeadings"])
+
+    def test_scope_exclusion_retains_reviewed_facts_without_publishing_them(self):
+        ledger = load(SOURCE_DIR / "lineage-decisions.json")
+        indices = load(SOURCE_DIR / "annual-indices.json")
+        requested = {p["url"] for p in candidate_pages(indices["years"], ledger)}
+        slug = "best-single-program-of-the-year"
+        decision = self.decisions[slug]
+        for page in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]:
+            if page["sourceUrl"].endswith('/' + slug):
+                self.assertIn(page["sourceUrl"], requested)
+                for winner in page["winners"]:
+                    self.assertIsNone(category_for_winner(decision, page["year"], winner["sourceKey"]))
+        # Unreviewed, out-of-scope craft fields are still not acquired merely
+        # because the authority exposes them in an annual index.
+        self.assertFalse(any(url.endswith('/outstanding-main-title-design') for url in requested))
+
+    def test_excluded_evidence_still_rejects_changed_hashes_and_category_targets(self):
+        slug = "best-live-show"
+        decision = deepcopy(self.decisions[slug])
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/' + slug))
+        arguments = ({page["year"]: page["sourceUrl"]},
+                     {page["sourceUrl"]: (page["year"], slug)}, {page["sourceUrl"]: page},
+                     {"variety-special-live"})
+        validate_review(decision, *arguments)
+        decision["reviewedSourcePages"][0]["sha256"] = "0" * 64
+        with self.assertRaises(SourceError):
+            validate_review(decision, *arguments)
+        decision = deepcopy(self.decisions[slug])
+        decision["currentCategory"] = "variety-special-live"
+        with self.assertRaises(SourceError):
+            validate_review(decision, *arguments)
 
     def test_later_reality_nomination_is_context_and_not_an_extra_historical_winner(self):
         ledger = load(SOURCE_DIR / "lineage-decisions.json")

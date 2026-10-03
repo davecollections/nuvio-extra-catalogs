@@ -139,7 +139,10 @@ def candidate_pages(indices, lineage):
     for index in indices:
         for category in index["categories"]:
             decision = decisions[category["slug"]]
-            if decision["disposition"] == "excluded":
+            # Reviewed scope exclusions may explicitly retain their acquired
+            # evidence. Exclusion controls output eligibility, not erasure of
+            # facts already inspected for a historical boundary decision.
+            if decision["disposition"] == "excluded" and "acquisitionYears" not in decision:
                 continue
             if "acquisitionYears" in decision and index["year"] not in decision["acquisitionYears"]:
                 continue
