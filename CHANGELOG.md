@@ -4,6 +4,8 @@ All notable project milestones are recorded here. This project uses semantic ver
 
 ## [Unreleased]
 
+- Document the Emmy source and scope plan, reconcile the 2026 category inventory, and split implementation into source/lineage, identity, output/audit and acceptance/release issues. No public catalogue or manifest changes.
+
 ## [1.4.0] - 2026-09-26
 
 ### Added and corrected
@@ -28,7 +30,7 @@ All notable project milestones are recorded here. This project uses semantic ver
 - On 2026-09-26 the owner approved the payload at `2f00ae2dc3c5cbe3581278905842c7f957e71a35`, relying on prior Nuvio browsing and the completed poster audit, and chose to stop further visual checks. This records acceptance of the known artwork gaps, not a fresh exhaustive client test.
 - All 43 workflow checks and 17 regression tests passed locally and in GitHub CI for that preview. All 512 immutable public files returned HTTP 200 with exact committed bytes.
 - Issue #43 remains open for 145 individually pending production-credit diagnostics, the Trouble in Tahiti ambiguity and withheld productions requiring compatible IMDb identities. Matching external IDs and passing the evidence gate do not certify these outstanding credits.
-- PR #42 tracks publication and post-merge CI/Pages verification. Preserve the accepted release payload with annotated tag `v1.4.0` and its corresponding GitHub Release after deployed-byte verification.
+- PR #42 merged as `d9219c73d87064947e6e9c8fb380dfe62c1bdbd4`. Main CI and GitHub Pages passed, and all 512 deployed public files returned HTTP 200 and byte-matched raw Git blobs from that merge. Annotated tag `v1.4.0` and its GitHub Release preserve the exact accepted release. Issue #41 is closed and the merged Craft branch was removed.
 
 ## [1.3.0] - 2026-08-27
 

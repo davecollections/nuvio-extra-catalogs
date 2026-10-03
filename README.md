@@ -29,6 +29,8 @@ BAFTA Television Craft adds 23 lineages with 589 canonical results and 619 work 
 
 The original V0.1 seed proved the integration path in Nuvio. V0.2–V0.5 established the canonical Awards model and six complete picture/acting/directing histories. V1.0 completed all current Academy categories, V1.1 added Golden Globes film and television, V1.2 added BAFTA Film, V1.3 added BAFTA Television, and V1.4 adds Television Craft.
 
+The next milestone is [Emmy source and implementation planning](docs/emmy-history.md), covering Television Academy Primetime and Creative Arts together. Emmy catalogues are not yet published.
+
 ## What V0.1 proved
 
 1. Nuvio can install a static add-on hosted on GitHub Pages.
