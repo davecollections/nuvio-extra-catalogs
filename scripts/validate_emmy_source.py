@@ -17,6 +17,13 @@ from build_emmy_release_evidence import normalized
 from fetch_emmy_snapshot import INDEX_PATH, REGISTRY_PATH, SNAPSHOT_PATH, SOURCE_DIR, candidate_pages, load, no_award_exceptions, review_for_year
 
 
+PRODUCER_CONTEXT_PATHS = {
+    "billmoyers.com": {"/about-us/", "/series/creativity/", "/series/healing-and-the-mind/",
+                       "/series/a-walk-through-the-twentieth-century/"},
+    "collegebowl.com": {"/about.asp", "/index-cb.asp"},
+}
+
+
 def require(condition, message):
     if not condition:
         raise SourceError(message)
@@ -34,13 +41,11 @@ def source_url(value, year=None, *, context=False):
         if (parsed.path.startswith("/wnet/americanmasters/")
                 and not {".", ".."}.intersection(unquote(parsed.path).split("/"))):
             hosts.add("www.pbs.org")
-        # These original producer-owned archive descriptions establish the
-        # hosted format, not Emmy outcomes or transferable recipient credits.
-        if (parsed.path in {"/about-us/", "/series/creativity/",
-                            "/series/healing-and-the-mind/",
-                            "/series/a-walk-through-the-twentieth-century/"}
-                and not parsed.query and not parsed.fragment):
-            hosts.add("billmoyers.com")
+        # Exact original producer/format-owner records establish format and
+        # historical production context, not Emmy outcomes or recipient roles.
+        if (parsed.path in PRODUCER_CONTEXT_PATHS.get(parsed.netloc, set())
+                and not parsed.params and not parsed.query and not parsed.fragment):
+            hosts.add(parsed.netloc)
     require(parsed.scheme == "https" and parsed.netloc in hosts, f"unapproved source URL: {value}")
     if year is not None:
         require(parsed.path.startswith(f"/awards/nominees-winners/{year}"), f"source URL/year mismatch: {value}")

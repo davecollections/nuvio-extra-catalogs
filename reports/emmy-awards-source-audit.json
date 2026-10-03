@@ -3,7 +3,7 @@
   "inputSha256": {
     "current-category-pages.json": "f813c92661d7c88ab1653ed9c3d634f8f41c0e0eb87ca0d017174765b98475c0",
     "annual-indices.json": "4bed2b1e02c4f46f3d0ce5b36afac36d58215048c0fea0830471390d8b8e9388",
-    "lineage-decisions.json": "d4efe8d50ebe55c50828fc6f2aa924c644419d4be3c81112f4faa4f33d9360f4",
+    "lineage-decisions.json": "0c87777a2792a6bb2808ced507cad8dc9bb926bf7aee6c23630702f39522e924",
     "official-winners-1949-2026.json": "7b6739deab3dbb308b2d1c39ce2ac27b91277a9f8b92e6736191501670b75204",
     "winner-release-evidence-2026.json": "22f013193d628473431db094328240d17b0ad5ade937e9aa5314d68b5bb64fe6",
     "manifest.json": "226970d09fe0ab38b33075106abb893a21e6d27615f17cf9dfb15e1c2015e3b7"
@@ -16,12 +16,12 @@
     "annualCategoryLinkCount": 5437,
     "historicalPageSlugCount": 500,
     "scopeExcludedSlugCount": 350,
-    "pendingLineageSlugCount": 38,
-    "reviewedLineageSlugCount": 112,
+    "pendingLineageSlugCount": 35,
+    "reviewedLineageSlugCount": 115,
     "retainedScopeExcludedPageCount": 14,
     "retainedScopeExcludedWinnerRecordCount": 15,
-    "reviewedAllocationPageCount": 2278,
-    "reviewedWinnerAllocationCount": 2327,
+    "reviewedAllocationPageCount": 2281,
+    "reviewedWinnerAllocationCount": 2330,
     "acquiredCandidatePageCount": 2480,
     "candidateWinnerRecordCount": 2587,
     "independentlyReconciledNoAwardPageCount": 1,
@@ -871,13 +871,14 @@
       "id": "game-show",
       "name": "OUTSTANDING GAME SHOW",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 9,
-      "reviewedWinnerAllocationCount": 9,
+      "reviewedSourcePageCount": 10,
+      "reviewedWinnerAllocationCount": 10,
       "reviewedSourceYears": [
         2026,
         2025,
         2024,
         2023,
+        1963,
         1959,
         1956,
         1954,
@@ -2195,8 +2196,8 @@
       "id": "lead-actor-in-a-comedy-series",
       "name": "OUTSTANDING LEAD ACTOR IN A COMEDY SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 67,
-      "reviewedWinnerAllocationCount": 67,
+      "reviewedSourcePageCount": 68,
+      "reviewedWinnerAllocationCount": 68,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -2264,7 +2265,8 @@
         1958,
         1957,
         1956,
-        1955
+        1955,
+        1952
       ],
       "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
@@ -3226,8 +3228,8 @@
       "id": "writing-for-a-drama-series",
       "name": "OUTSTANDING WRITING FOR A DRAMA SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 76,
-      "reviewedWinnerAllocationCount": 76,
+      "reviewedSourcePageCount": 77,
+      "reviewedWinnerAllocationCount": 77,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -6775,15 +6777,6 @@
       "reason": "The early comedian fields mix sitcom acting and variety/personality performance, and later headings change eligibility. Earlier winners such as Lucille Ball cannot be excluded by applying the 1958 plays-herself wording backwards. Review the actual annual winner, production and predecessor boundary individually; no blanket modern target or exclusion is accepted."
     },
     {
-      "sourceSlug": "best-comedian-or-comedienne",
-      "firstYear": 1952,
-      "lastYear": 1952,
-      "menuLabels": [
-        "Comedian Or Comedienne"
-      ],
-      "reason": "The early comedian fields mix sitcom acting and variety/personality performance, and later headings change eligibility. Earlier winners such as Lucille Ball cannot be excluded by applying the 1958 plays-herself wording backwards. Review the actual annual winner, production and predecessor boundary individually; no blanket modern target or exclusion is accepted."
-    },
-    {
       "sourceSlug": "best-comedienne",
       "firstYear": 1953,
       "lastYear": 1958,
@@ -6847,15 +6840,6 @@
           "reason": "These combined-period programme/recipient facts do not yet establish an unambiguous current lineage. Retain for specific production and source review."
         }
       ]
-    },
-    {
-      "sourceSlug": "best-television-adaptation",
-      "firstYear": 1956,
-      "lastYear": 1956,
-      "menuLabels": [
-        "Television Adaptation"
-      ],
-      "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
     },
     {
       "sourceSlug": "outstanding-achievement-in-coverage-of-special-events-individuals",
@@ -7066,15 +7050,6 @@
         "Program Achievements In The Fields Of Variety And Music - Music"
       ],
       "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
-    },
-    {
-      "sourceSlug": "outstanding-program-achievement-in-the-field-of-panel-quiz-or-audience-participation",
-      "firstYear": 1963,
-      "lastYear": 1963,
-      "menuLabels": [
-        "Program Achievement In The Field Of Panel, Quiz Or Audience Participation"
-      ],
-      "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
     },
     {
       "sourceSlug": "outstanding-program-achievement-special-events",

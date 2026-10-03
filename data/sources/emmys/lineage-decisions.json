@@ -1111,8 +1111,44 @@
           "evidence": [
             "https://www.televisionacademy.com/awards/nominees-winners/1952/best-comedian-or-comedienne"
           ],
-          "disposition": "pending-review",
-          "reason": "The early comedian fields mix sitcom acting and variety/personality performance, and later headings change eligibility. Earlier winners such as Lucille Ball cannot be excluded by applying the 1958 plays-herself wording backwards. Review the actual annual winner, production and predecessor boundary individually; no blanket modern target or exclusion is accepted."
+          "disposition": "current-lineage",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Every acquired period is reviewed; the archive slug does not establish a separate modern award or override the actual source heading.",
+          "periods": [
+            {
+              "years": [
+                1952
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "lead-actor-in-a-comedy-series",
+              "reason": "Red Skelton wins the original 1952 combined Comedian Or Comedienne field. His programme wins that same ceremony's separate Best Comedy Show field, distinct from Your Show of Shows in Best Variety Show. The Academy biography dates his NBC series from September 1951, separately from the CBS expansion and later Red Skelton Hour, and its authored tribute describes his central recurring comic-character performances. Follow this historical Comedy performer branch in Comedy lead actor, as with reviewed Ball/Berg predecessors; a later sketch-variety label must not override the original winning year's Comedy eligibility. Preserve the award page's N/A programme reference, original performer heading and unavailable role. These contexts do not supply an exact work identity, a guest award, an additional programme winner or eligibility for the separate pending comedian fields.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1952/best-comedian-or-comedienne"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Comedian Or Comedienne"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1952,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1952/best-comedian-or-comedienne",
+                  "sha256": "e832c3c6afd4b093dd300716bb711919e962705f343fa220f61d24b663f4b5f1",
+                  "winnerSourceKeys": [
+                    "afc0276a596f7084a1a43600f2a47dc7379894fd523f2d400fbd0c0f73893e41"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/bios/red-skelton",
+                "https://www.televisionacademy.com/news/hall-fame/red-skelton-hall-fame-tribute",
+                "https://www.televisionacademy.com/awards/nominees-winners/1952/outstanding-comedy-series"
+              ]
+            }
+          ],
+          "externalEvidence": [
+            "https://www.televisionacademy.com/awards/nominees-winners/1952/outstanding-comedy-series",
+            "https://www.televisionacademy.com/bios/red-skelton",
+            "https://www.televisionacademy.com/news/hall-fame/red-skelton-hall-fame-tribute"
+          ]
         },
         {
           "sourceSlug": "best-comedienne",
@@ -2339,8 +2375,42 @@
           "evidence": [
             "https://www.televisionacademy.com/awards/nominees-winners/1956/best-television-adaptation"
           ],
-          "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+          "disposition": "current-lineage",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Every acquired period is reviewed; the archive slug does not establish a separate modern award or override the actual source heading.",
+          "periods": [
+            {
+              "years": [
+                1956
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "writing-for-a-drama-series",
+              "reason": "The original 1956 annual index explicitly places Television Adaptation beside Original Teleplay Writing in the Writers group. The winning Caine Mutiny Court Martial (Ford Star Jubilee) production also wins the separately headed Director-Live Series field. Follow the historical dramatic-series writing branch, consistent with the reviewed original anthology teleplay and live-series directing predecessors. Retain the exact adaptation award and its two recipient credits, Paul Gregory and Franklin Schaffner, with their unavailable source roles; do not infer writer roles from the modern target or turn this into an additional programme or directing award. Single-performance acting eligibility does not reclassify this separate writing contract.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1956/best-television-adaptation"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Television Adaptation"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1956,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1956/best-television-adaptation",
+                  "sha256": "957e46aa96d8c99007d15eca54ce99030e11b52685188d64f44c9c039e19762c",
+                  "winnerSourceKeys": [
+                    "55aeb0ccba44508dfff8f945dd4765c9d799571b3c4519862948c60d47918a14"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1956",
+                "https://www.televisionacademy.com/awards/nominees-winners/1956/best-director-live-series"
+              ]
+            }
+          ],
+          "externalEvidence": [
+            "https://www.televisionacademy.com/awards/nominees-winners/1956",
+            "https://www.televisionacademy.com/awards/nominees-winners/1956/best-director-live-series"
+          ]
         },
         {
           "sourceSlug": "best-western-or-adventure-series",
@@ -19721,8 +19791,42 @@
           "evidence": [
             "https://www.televisionacademy.com/awards/nominees-winners/1963/outstanding-program-achievement-in-the-field-of-panel-quiz-or-audience-participation"
           ],
-          "disposition": "pending-review",
-          "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
+          "disposition": "current-lineage",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Every acquired period is reviewed; the archive slug does not establish a separate modern award or override the actual source heading.",
+          "periods": [
+            {
+              "years": [
+                1963
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "game-show",
+              "reason": "The original 1963 Panel, Quiz Or Audience Participation programme award goes to G-E College Bowl. Its original format-owner history describes two competing student teams and the tossup/bonus question structure, with the GE television run beginning in 1959 and CBS through 1963 before NBC in 1964–1970. Follow the quiz programme predecessor in Game Show. Preserve the Academy winner, exact original G-E programme wording, CBS broadcaster and n/a recipient placeholder. The owner's award summary is not Emmy evidence; its radio beginnings, later campus tournaments, syndicated specials, University Challenge and modern revivals are not substitute winning productions or additional Emmy awards. Host names supply format context only, not award recipients or verified person identities.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1963/outstanding-program-achievement-in-the-field-of-panel-quiz-or-audience-participation"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Program Achievement In The Field Of Panel, Quiz Or Audience Participation"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1963,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1963/outstanding-program-achievement-in-the-field-of-panel-quiz-or-audience-participation",
+                  "sha256": "7691eedfdca8a89e5543ead1e5c7c1eb57b331787b618e41ff50f12f88ccf185",
+                  "winnerSourceKeys": [
+                    "f7e49dfdedf87f1b373848548752a423e7ad659ab69923b0deefb741b43e8d02"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://collegebowl.com/about.asp",
+                "https://collegebowl.com/index-cb.asp"
+              ]
+            }
+          ],
+          "externalEvidence": [
+            "https://collegebowl.com/about.asp",
+            "https://collegebowl.com/index-cb.asp"
+          ]
         },
         {
           "sourceSlug": "outstanding-program-achievement-in-the-field-of-public-service",
@@ -31423,6 +31527,79 @@
       "byteCount": 45025,
       "context": "Only a few historians and journalists have succeeded in developing a full-fledged portrayal of the period, and no one has woven a tapestry of greater depth and richness than Bill Moyers, the driving force behind this classic 19-part series.\nBrimming with archival images and footage derived from exacting research, these programs have little to do with the charts and timelines of routine history lessons but instead represent both a shrewd analysis of major events and a poetic chronicle of the century.\nBill Moyers speaks with news correspondent Richard Strout, who covered Washington and the White House from 1925 until his retirement in 1984.\nBill Moyers interviews I. I. Rabi, winner of the 1944 Nobel Prize in physics and an early developer of radar for use in World War II.\nBill Moyers and his guests look past the nostalgia and talk about the poverty, racial segregation and political scandals of the 1920s.",
       "contextSha256": "8c29acb58dcd37d878f4811ccfd6ec00bf7a89893273eeadfad4424778d205a2"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1956",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1956",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "00bd49c45f73ee5246d8cd2e8bd69539241643433b6c482245496facb7c47ff0",
+      "byteCount": 379012,
+      "year": 1956,
+      "context": "Writers Original Teleplay Writing Television Adaptation",
+      "contextSha256": "300a71ed2dd5a584e4f7cadb913a66ad162dc3bd34c931a9b138cfd9674e18c9"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1956/best-director-live-series",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1956/best-director-live-series",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "61d53a198f18865bdee422ce4852c75bfc7ad2519368d896a095fe7f09e07962",
+      "byteCount": 366902,
+      "year": 1956,
+      "context": "Best Director-Live Series\nWinner The Caine Mutiny Court Martial (Ford Star Jubilee) CBS Franklin Schaffner",
+      "contextSha256": "9e92fc0a5811c0480bcb3a3f951090bd10244ee9c1260d62dc87d639666674ee"
+    },
+    {
+      "url": "https://www.televisionacademy.com/bios/red-skelton",
+      "resolvedUrl": "https://www.televisionacademy.com/bios/red-skelton",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "71f4f700cb6669a69dde9fb94cca1e56c295d9c8ed0636c9574482b39351b626",
+      "byteCount": 357673,
+      "context": "He was best known for his national radio and television acts between 1937 and 1971, and as host of the television program The Red Skelton Show.\nThe Red Skelton Show made its television premiere on September 30, 1951 on NBC.\nBy 1954, Skelton's program moved to CBS, where it was expanded to one hour and renamed The Red Skelton Hour in 1962.",
+      "contextSha256": "e607b2a38691bff4cbb1772af0ba50daf7f1072aeb46efe4e631a9e8b4bfd706"
+    },
+    {
+      "url": "https://www.televisionacademy.com/news/hall-fame/red-skelton-hall-fame-tribute",
+      "resolvedUrl": "https://www.televisionacademy.com/features/news/hall-fame/red-skelton-hall-fame-tribute",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "021a7a81078f36f69d8280d5cac55a889a04a45dc41a1a9ea464919fdb28e3d7",
+      "byteCount": 325281,
+      "context": "Later, he made the entire nation laugh every week on The Red Skelton Show , which was broadcast on NBC and CBS from 1951 to 1971.\nSkelton’s weekly comedy program showcased monologues, mime, satire, dance, music, comedy sketches, guest stars, and Skelton’s comic characters — including Clem Kadiddlehopper, the country bumpkin; Junior, the “mean widdle boy” (of “I dood it” fame); San Fernando Red, the con artist; Freddy the Freeloader, a hobo with taste (always done in mime); Senator Klaghorn, the Washington windbag; Cauliflower McPugg, the prizefighter; and the seagulls, Gertrude and Heathcliff.",
+      "contextSha256": "78883237c9ebd04af844cb2c01f5599549e96bdc7620427f84d12e78c5078a73"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1952/outstanding-comedy-series",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1952/outstanding-comedy-series",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "1d235f2d05644fdde8eea8fdae4713d0bc9a7d3c53d52c1b1c710fc9f1deb731",
+      "byteCount": 353089,
+      "year": 1952,
+      "context": "Best Comedy Show\nWinner Red Skelton Show NBC n/a",
+      "contextSha256": "9bdeccc2a81eb4b0c8aea5bcc8d19493baa8a2390d8628f920021ca714c201f5"
+    },
+    {
+      "url": "https://collegebowl.com/about.asp",
+      "resolvedUrl": "https://collegebowl.com/about.asp",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "5072cf38053017fcb70a144c233ed75b3ef7892e42570551da6b937e9de1ec14",
+      "byteCount": 11171,
+      "context": "It is the world famous game of questions and answers played by two teams of competing students.\nOn January 5, 1959, the College Bowl program became a network television show. The program's sponsor was the General Electric Company and the program became known as the GE College Bowl . It was first hosted by Allen Ludden, then by Robert Earle. It ran 26-39 weeks each year on Saturdays and Sundays until June of 1970.\n© 2026 , College Bowl Company -- All Rights Reserved",
+      "contextSha256": "5328ea109a079590aa0eafafff4b8e4b14081b495024b02e6d6a47ee04ab6538"
+    },
+    {
+      "url": "https://collegebowl.com/index-cb.asp",
+      "resolvedUrl": "https://collegebowl.com/index-cb.asp",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "96fe6155e348d9951335966874a41072c9782cc0128037bc579334565e4bb8b3",
+      "byteCount": 13660,
+      "context": "The simple Tossup question – Bonus question format, which has become so familiar to audiences around the world, was a natural.\nBy 1959, College Bowl moved to national television on CBS and became a fixture of Sunday afternoons as GE College Bowl. GE College Bowl ran on CBS from 1959-63 and NBC from 1964-70.\nMany programs are still produced or licensed by the College Bowl Company.\n© 2026 , College Bowl Company -- All Rights Reserved",
+      "contextSha256": "e34813a3a1f81a7184e56b48be3921478d0c6ff4af1f8405009c4de84813e999"
     }
   ],
   "annualExceptions": [

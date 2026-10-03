@@ -219,6 +219,32 @@ class EmmySourceAuthorityTests(unittest.TestCase):
             with self.subTest(redirected=redirected), self.assertRaises(SourceError):
                 evidence(value, value["url"], context=True)
 
+    def test_quiz_owner_history_is_context_only_and_requires_exact_record_paths(self):
+        for path in ("/about.asp", "/index-cb.asp"):
+            url = "https://collegebowl.com" + path
+            source_url(url, context=True)
+            with self.assertRaises(SourceError):
+                source_url(url)
+        for url in ("https://collegebowl.com/awards.asp", "https://collegebowl.com/about.asp?awards=1963",
+                    "https://collegebowl.com/about.asp#awards", "https://collegebowl.com/%61bout.asp",
+                    "https://collegebowl.com/about.asp;awards=1963",
+                    "https://billmoyers.com/series/creativity/;awards=1982",
+                    "https://collegebowl.com/series/creativity/", "https://billmoyers.com/about.asp",
+                    "https://collegebowl.com.example.org/about.asp", "https://user@collegebowl.com/about.asp",
+                    "https://collegebowl.com:443/about.asp", "http://collegebowl.com/about.asp"):
+            with self.subTest(url=url), self.assertRaises(SourceError):
+                source_url(url, context=True)
+
+    def test_quiz_owner_redirect_cannot_expand_to_unreviewed_records(self):
+        value = deepcopy(next(s for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]
+                              if s["url"] == "https://collegebowl.com/about.asp"))
+        evidence(value, value["url"], context=True)
+        for redirected in ("https://collegebowl.com/awards.asp", "https://www.collegebowl.com/about.asp",
+                           "https://collegebowl.com/index-cb.asp?year=1963"):
+            value["resolvedUrl"] = redirected
+            with self.subTest(redirected=redirected), self.assertRaises(SourceError):
+                evidence(value, value["url"], context=True)
+
     def test_context_rejects_other_hosts_and_disguised_authorities(self):
         for authority in ("televisionacademy.com.example.org", "interviews.televisionacademy.com.example.org",
                           "user@interviews.televisionacademy.com", "interviews.televisionacademy.com:443",
@@ -277,6 +303,85 @@ class EmmyLineageReviewTests(unittest.TestCase):
         self.assertEqual(review_for_year(decision, 1958)["disposition"], "excluded")
         self.assertEqual(review_for_year(decision, 1957)["disposition"], "pending-review")
         self.assertIsNone(category_for_year(decision, 1958))
+
+    def test_adaptation_uses_original_writer_field_without_inventing_credit_roles(self):
+        ledger = load(SOURCE_DIR / "lineage-decisions.json")
+        contexts = {s["url"]: s["context"] for s in ledger["contextSources"]}
+        slug = "best-television-adaptation"
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1956/' + slug))
+        self.assertEqual(contexts["https://www.televisionacademy.com/awards/nominees-winners/1956"],
+                         "Writers Original Teleplay Writing Television Adaptation")
+        self.assertEqual(category_for_year(self.decisions[slug], 1956), "writing-for-a-drama-series")
+        self.assertEqual(page["sourceCategory"], "Best Television Adaptation")
+        self.assertEqual([(c["name"], c["role"]) for c in page["winners"][0]["credits"]],
+                         [("Paul Gregory", ""), ("Franklin Schaffner", "")])
+
+    def test_adaptation_and_directing_remain_separate_awarded_contracts(self):
+        snapshot = load(SOURCE_DIR / "official-winners-1949-2026.json")
+        pages = {p["sourceUrl"].rsplit('/', 1)[-1]: p for p in snapshot["pages"] if p["year"] == 1956}
+        adaptation = pages["best-television-adaptation"]["winners"][0]
+        directing = pages["best-director-live-series"]["winners"][0]
+        self.assertEqual(adaptation["programmes"], directing["programmes"])
+        self.assertNotEqual(adaptation["sourceKey"], directing["sourceKey"])
+        self.assertEqual([c["name"] for c in directing["credits"]], ["Franklin Schaffner"])
+        self.assertEqual(category_for_year(self.decisions["best-director-live-series"], 1956),
+                         "directing-for-a-drama-series")
+        self.assertNotEqual(category_for_year(self.decisions["best-television-adaptation"], 1956),
+                            category_for_year(self.decisions["best-director-live-series"], 1956))
+
+    def test_skelton_uses_original_comedy_eligibility_and_keeps_missing_work_reference(self):
+        ledger = load(SOURCE_DIR / "lineage-decisions.json")
+        contexts = {s["url"]: s["context"] for s in ledger["contextSources"]}
+        slug = "best-comedian-or-comedienne"
+        review = review_for_year(self.decisions[slug], 1952)
+        url = "https://www.televisionacademy.com/awards/nominees-winners/1952/outstanding-comedy-series"
+        self.assertIn("Best Comedy Show", contexts[url])
+        self.assertIn("Winner Red Skelton Show NBC n/a", contexts[url])
+        self.assertIn(url, review["externalEvidence"])
+        self.assertEqual(category_for_year(self.decisions[slug], 1952), "lead-actor-in-a-comedy-series")
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1952/' + slug))
+        self.assertEqual(page["winners"][0]["programmes"][0]["name"], "N/A")
+        self.assertEqual(page["winners"][0]["heading"], "Red Skelton")
+        self.assertEqual(page["winners"][0]["credits"][0]["role"], "")
+
+    def test_comedian_context_does_not_certify_separate_performance_fields(self):
+        contexts = {s["url"]: s["context"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]}
+        self.assertIn("September 30, 1951 on NBC", contexts["https://www.televisionacademy.com/bios/red-skelton"])
+        self.assertIn("renamed The Red Skelton Hour in 1962", contexts["https://www.televisionacademy.com/bios/red-skelton"])
+        self.assertIn("Skelton’s comic characters", contexts[
+            "https://www.televisionacademy.com/news/hall-fame/red-skelton-hall-fame-tribute"])
+        for slug, year in (("best-comedian", 1953), ("best-comedienne", 1956), ("best-comedienne", 1957)):
+            self.assertIsNone(category_for_year(self.decisions[slug], year))
+        self.assertIsNone(category_for_year(self.decisions["best-actor"], 1952))
+
+    def test_original_college_quiz_winner_keeps_academy_facts_and_placeholder_credit(self):
+        slug = "outstanding-program-achievement-in-the-field-of-panel-quiz-or-audience-participation"
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1963/' + slug))
+        self.assertEqual(category_for_year(self.decisions[slug], 1963), "game-show")
+        self.assertEqual(page["sourceCategory"],
+                         "Outstanding Program Achievement In The Field Of Panel, Quiz Or Audience Participation")
+        self.assertEqual(page["winnerCount"], 1)
+        self.assertEqual(page["winners"][0]["programmes"][0]["name"], "G-E College Bowl")
+        self.assertEqual(page["winners"][0]["sourceDetailLines"], ["CBS"])
+        self.assertEqual(page["winners"][0]["credits"], [{"name": "n/a", "role": ""}])
+
+    def test_quiz_format_owner_context_distinguishes_radio_and_original_network_run(self):
+        contexts = {s["url"]: s["context"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]}
+        about = contexts["https://collegebowl.com/about.asp"]
+        history = contexts["https://collegebowl.com/index-cb.asp"]
+        self.assertIn("two teams of competing students", about)
+        self.assertIn("January 5, 1959", about)
+        self.assertIn("Tossup question – Bonus question format", history)
+        self.assertIn("CBS from 1959-63 and NBC from 1964-70", history)
+        self.assertIn("produced or licensed by the College Bowl Company", history)
+        self.assertNotIn("won an Emmy", history)
+        review = review_for_year(self.decisions[
+            "outstanding-program-achievement-in-the-field-of-panel-quiz-or-audience-participation"], 1963)
+        self.assertEqual(review["years"], [1963])
+        self.assertIn("not award recipients", review["reason"])
 
     def test_excluded_period_still_requires_exact_winner_keys_and_fingerprints(self):
         slug = "best-actor"
