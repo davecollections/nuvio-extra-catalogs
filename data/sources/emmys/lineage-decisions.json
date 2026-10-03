@@ -13395,20 +13395,6 @@
             },
             {
               "years": [
-                1996,
-                1986,
-                1985
-              ],
-              "disposition": "pending-review",
-              "reason": "Remaining Informational Series periods require original production-format review, including all winners on the 1986 Olivier/Planet Earth tied page. Narration or a generic series label alone does not settle the central presenter/documentary boundary; original recipient roles remain separate from production-format evidence.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-series"
-              ]
-            },
-            {
-              "years": [
                 1992
               ],
               "disposition": "current-lineage",
@@ -13433,6 +13419,90 @@
               "externalEvidence": [
                 "https://www.acmi.net.au/works/83212--mgm-when-the-lion-roars/"
               ]
+            },
+            {
+              "years": [
+                1996
+              ],
+              "disposition": "pending-review",
+              "reason": "Lost Civilizations (1996) remains the only pending Informational Series period. Original production-format evidence must settle central on-camera hosting versus narration for the actual winning NBC broadcast; later international/home-video editions and generic documentary/host labels cannot substitute. Preserve the whole original programme award and every recipient without inferring missing award roles.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-informational-series"
+              ]
+            },
+            {
+              "years": [
+                1985
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "hosted-nonfiction-series-or-special",
+              "reason": "The original licensed distributor catalogue identifies the ©1984 BBC/Time-Life Living Planet as twelve full-length programmes and describes Attenborough leading the guided expedition with his personality making the concepts accessible. Follow Hosted Nonfiction under the pinned central-presenter definition, rather than substituting a later narrated abridgement. Preserve the original Informational Series heading, 1985 Academy ceremony, PBS and Richard Brock, Ned Kelly, Andrew Neal and Adrian Warren with unavailable award roles. Attenborough and ordinary production credits do not become additional Emmy recipients. The exact PDF page 57 / printed page 56 is pinned; the distributor HTML restriction supplies no accepted evidence.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1985,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-series",
+                  "sha256": "86e582d16c1cc67665946a165406e2232f4c3dd877c6c4973a350d8b0301c3ad",
+                  "winnerSourceKeys": [
+                    "ff21fc90aa5e5abf4f4076adf1dce036dfb45f405adfd330a67d2becbef04cb4"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.ambrosevideo.com/media/catalog.pdf"
+              ]
+            },
+            {
+              "years": [
+                1986
+              ],
+              "disposition": "current-lineage",
+              "reason": "Review the whole tied Informational Series page: the original regulator yearbook establishes Olivier as a two-part Bragg-led interview production, while the original filmmaker and preservation records establish the seven-part 1986 WQED Planet Earth documentary. Follow Hosted Nonfiction and Documentary/Nonfiction Series respectively. Preserve both exact Academy titles, PBS, the original Series contract and all three/three recipients with unavailable roles. Original production dates, later PBS exhibition, host/subject/crew identities and other institutions' awards cannot replace the Emmy ceremony or award credits.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1986,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-series",
+                  "sha256": "a84c7b6f906a581beb14ea2887469af834b3f4eeb65e48d75015f5e64b8a6d33",
+                  "winnerSourceKeys": [
+                    "85e19871f1153d7820c942d11795318b6d8114922c7e786e4fc891ae0839e502",
+                    "73cdf3e0f80e5a56184dbfaf0a01f7043f7c077085d0c268437b4b687ab1256b"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://worldradiohistory.com/UK/Television-%26-Radio-ITV/IBA-Yearbook-1984.pdf",
+                "https://chipwalter.com/projects",
+                "https://www.acmi.net.au/works/114925--planet-earth/"
+              ],
+              "winnerAllocations": [
+                {
+                  "year": 1986,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-series",
+                  "sourceKey": "85e19871f1153d7820c942d11795318b6d8114922c7e786e4fc891ae0839e502",
+                  "disposition": "current-lineage",
+                  "currentCategory": "hosted-nonfiction-series-or-special",
+                  "reason": "The original IBA yearbook describes two 90-minute South Bank Show specials with Bragg drawing out Olivier in interview, and its adjacent caption identifies Laurence Olivier-A Life as a two-part programme. Follow Hosted Nonfiction for the original interview narrative, preserving the Academy 1986 Informational Series award, Great Performances title and Bob Bee, Nick Elliott and Nick Evans with unavailable roles. The 1982–83 production season is not the Emmy year; Bragg, Olivier and ordinary production credits are not added as recipients. Original PDF pages 47–48 / printed pages 46–47 retain their line breaks."
+                },
+                {
+                  "year": 1986,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-series",
+                  "sourceKey": "73cdf3e0f80e5a56184dbfaf0a01f7043f7c077085d0c268437b4b687ab1256b",
+                  "disposition": "current-lineage",
+                  "currentCategory": "documentary-or-nonfiction-series",
+                  "reason": "Original participant Chip Walter describes the PBS documentary and two of its seven episodes. ACMI's held production record identifies the 1986 WQED/National Academy of Sciences series, its seven component films and documentary format. Follow Documentary/Nonfiction Series for this original science production, rather than the later identically named BBC series. Preserve the Academy 1986 Informational Series award, PBS and Gregory Andorfer, Georgann Kane and Thomas Skinner with unavailable roles. Walter, other production staff and the institutions' Emmy summaries cannot add recipients or replace Academy outcomes."
+                }
+              ]
             }
           ],
           "externalEvidence": [
@@ -13440,11 +13510,15 @@
             "https://billmoyers.com/series/a-walk-through-the-twentieth-century/",
             "https://billmoyers.com/series/creativity/",
             "https://billmoyers.com/series/healing-and-the-mind/",
+            "https://chipwalter.com/projects",
             "https://interviews.televisionacademy.com/interviews/bob-costas",
             "https://interviews.televisionacademy.com/shows/barbara-walters-specials",
             "https://peabodyawards.com/award-profile/the-great-war-and-the-shaping-of-the-20th-century/",
             "https://sirismm.si.edu/EADpdfs/SIA.FA91-164.pdf",
+            "https://worldradiohistory.com/UK/Television-%26-Radio-ITV/IBA-Yearbook-1984.pdf",
+            "https://www.acmi.net.au/works/114925--planet-earth/",
             "https://www.acmi.net.au/works/83212--mgm-when-the-lion-roars/",
+            "https://www.ambrosevideo.com/media/catalog.pdf",
             "https://www.congress.gov/103/crecb/1994/05/10/GPO-CRECB-1994-pt7-7-1.pdf",
             "https://www.paleycenter.org/collection/item?item=T80%3A0637",
             "https://www.pbs.org/kenburns/baseball/about",
@@ -33729,6 +33803,53 @@
       ],
       "context": "ON THE AIR \nAmerica Remembers John F. Ken-\nnedy- 2- hour documentary narrated \nby Hal Holbrook. \nNATPE'85 A -65",
       "contextSha256": "8692adb5122625f9d13217215d8dcd35515306886be795de2c06efeded566b56"
+    },
+    {
+      "url": "https://www.ambrosevideo.com/media/catalog.pdf",
+      "resolvedUrl": "https://www.ambrosevideo.com/media/catalog.pdf",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "45180a62cbc869e08719dfe1f5cbf2f4804908ba372541985fc7f9a8a7ab8b5d",
+      "byteCount": 12959426,
+      "pageNumbers": [
+        57
+      ],
+      "context": "LIVING PLANETLIVING PLANET\n©1984 BBC\n12 programs\nBBC and Time-Life Video production\nAttenborough's enormous \nenthusiasm and off beat personality make complicated concepts seem simple.",
+      "contextSha256": "0d86b53ad5971dfdc2d3f6fc46998e78c955160b0a91220670a741c4ea85e386"
+    },
+    {
+      "url": "https://worldradiohistory.com/UK/Television-%26-Radio-ITV/IBA-Yearbook-1984.pdf",
+      "resolvedUrl": "https://worldradiohistory.com/UK/Television-%26-Radio-ITV/IBA-Yearbook-1984.pdf",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "984e30aa5acc525b6a288269174235ce59116259ccecb0670e210a8ba02d06dc",
+      "byteCount": 20683471,
+      "pageNumbers": [
+        47,
+        48
+      ],
+      "context": "'Laurence Olivier- \nA Life'\ntwo-part \nprogramme\nMelvyn Bragg had the difficult task \nof drawing out the complex character of a \nreticent man",
+      "contextSha256": "fecc88650bddce2d53064459de1d3b7a429e548397d100ba3d175884da499361"
+    },
+    {
+      "url": "https://chipwalter.com/projects",
+      "resolvedUrl": "https://chipwalter.com/projects",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "512e68dfe2a1a557351cdd5f6f1a996e46e628c35f63ff4593bc7dcbbed26da2",
+      "byteCount": 270254,
+      "context": "Planet Earth PBS Documentary Series - Two Episodes of Seven: “Tales From Other Worlds” and “Fate of Earth.”",
+      "contextSha256": "f6ed105a19f165d8e4bd71e366455dce7e825ca2b0078f47f28de7933ab307b1"
+    },
+    {
+      "url": "https://www.acmi.net.au/works/114925--planet-earth/",
+      "resolvedUrl": "https://www.acmi.net.au/works/114925--planet-earth/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "e41822e81a0e5ec376a1bf41e6406c44f710c1309031eb35a6683e6760bcc6f5",
+      "byteCount": 622661,
+      "context": "Planet earth\nproduction company National Academy of Sciences (U.S.) WQED\nProduction dates 1986\nDocumentary → Documentary films - United States",
+      "contextSha256": "f46d20b0c067baea6678e395e279e3bc7a0f366bfb9b807c9dcdc410a2f3d610"
     }
   ],
   "annualExceptions": [

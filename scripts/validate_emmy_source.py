@@ -48,7 +48,10 @@ PRODUCER_CONTEXT_PATHS = {
     "www.joegantz.com": {"/filmography.html"},
     "www.ushmm.org": {"/remember/holocaust-reflections-testimonies/one-survivor-remembers"},
     "www.deborahdickson.com": {"/filmography"},
-    "www.acmi.net.au": {"/works/83212--mgm-when-the-lion-roars/"},
+    "www.acmi.net.au": {"/works/83212--mgm-when-the-lion-roars/", "/works/114925--planet-earth/"},
+    "www.ambrosevideo.com": {"/media/catalog.pdf"},
+    "worldradiohistory.com": {"/UK/Television-%26-Radio-ITV/IBA-Yearbook-1984.pdf"},
+    "chipwalter.com": {"/projects"},
     "newsroom.ucla.edu": {"/stories/jfk-ucla-film-and-television-archive-249480"},
     "www.tonyawards.com": {
         "/news/tony-awards-live-stream-returns-to-bring-you-more-red-carpet-and-behind-the-scenes-magic-for-2016/",

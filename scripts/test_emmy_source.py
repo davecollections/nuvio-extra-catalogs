@@ -578,7 +578,8 @@ class EmmyLineageReviewTests(unittest.TestCase):
                  "www.latimes.com", "www.worldradiohistory.com", "americanarchive.org",
                  "www.duckprods.com", "catalog.afi.com", "www.afi.com", "www.congress.gov",
                  "www.paleycenter.org", "www.charlottegrossman.com", "www.rai.it",
-                 "www.joegantz.com", "www.ushmm.org", "www.deborahdickson.com", "www.acmi.net.au", "newsroom.ucla.edu"}
+                 "www.joegantz.com", "www.ushmm.org", "www.deborahdickson.com", "www.acmi.net.au", "newsroom.ucla.edu",
+                 "www.ambrosevideo.com", "worldradiohistory.com", "chipwalter.com"}
         contexts = load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]
         for host in hosts:
             for path in PRODUCER_CONTEXT_PATHS[host]:
@@ -595,6 +596,80 @@ class EmmyLineageReviewTests(unittest.TestCase):
                     value["resolvedUrl"] = rejected
                     with self.subTest(redirected=rejected), self.assertRaises(SourceError):
                         evidence(value, url, context=True)
+
+    def test_original_living_planet_keeps_full_series_and_exact_recipients(self):
+        slug = "outstanding-informational-series"
+        self.assertEqual(category_for_year(self.decisions[slug], 1985), "hosted-nonfiction-series-or-special")
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1985/' + slug))
+        self.assertEqual(page["sourceCategory"], "Outstanding Informational Series")
+        winner = page["winners"][0]
+        self.assertEqual(winner["heading"], "The Living Planet: A Portrait of the Earth")
+        self.assertEqual(winner["sourceDetailLines"], ["PBS"])
+        self.assertEqual([(c["name"], c["role"]) for c in winner["credits"]],
+                         [(n, "") for n in ["Richard Brock", "Ned Kelly", "Andrew Neal", "Adrian Warren"]])
+        context = next(s for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]
+                       if s["url"] == "https://www.ambrosevideo.com/media/catalog.pdf")
+        self.assertEqual(context["pageNumbers"], [57])
+        self.assertIn("©1984 BBC", context["context"])
+        self.assertIn("12 programs", context["context"])
+        self.assertIn("Attenborough's enormous \nenthusiasm and off beat personality", context["context"])
+        self.assertIn(context["url"], review_for_year(self.decisions[slug], 1985)["externalEvidence"])
+
+    def test_olivier_planet_earth_tie_keeps_both_formats_and_all_award_credits(self):
+        slug = "outstanding-informational-series"
+        decision = self.decisions[slug]
+        review = review_for_year(decision, 1986)
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1986/' + slug))
+        self.assertEqual(page["sourceCategory"], "Outstanding Informational Series")
+        self.assertEqual(review["reviewedSourcePages"][0]["winnerSourceKeys"],
+                         [w["sourceKey"] for w in page["winners"]])
+        self.assertEqual(len(review["winnerAllocations"]), 2)
+        expected = [
+            ("Laurence Olivier-A Life Great Performances", "hosted-nonfiction-series-or-special",
+             ["Bob Bee", "Nick Elliott", "Nick Evans"]),
+            ("Planet Earth", "documentary-or-nonfiction-series",
+             ["Gregory Andorfer", "Georgann Kane", "Thomas Skinner"]),
+        ]
+        for winner, (title, target, names) in zip(page["winners"], expected):
+            with self.subTest(title=title):
+                self.assertEqual(winner["heading"], title)
+                self.assertEqual(category_for_winner(decision, 1986, winner["sourceKey"]), target)
+                self.assertEqual(winner["sourceDetailLines"], ["PBS"])
+                self.assertEqual([(c["name"], c["role"]) for c in winner["credits"]], [(n, "") for n in names])
+        contexts = {s["url"]: s for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]}
+        iba = contexts["https://worldradiohistory.com/UK/Television-%26-Radio-ITV/IBA-Yearbook-1984.pdf"]
+        self.assertEqual(iba["pageNumbers"], [47, 48])
+        self.assertIn("'Laurence Olivier- \nA Life'", iba["context"])
+        self.assertIn("two-part \nprogramme", iba["context"])
+        self.assertIn("Melvyn Bragg", iba["context"])
+        self.assertIn("Two Episodes of Seven", contexts["https://chipwalter.com/projects"]["context"])
+        acmi = contexts["https://www.acmi.net.au/works/114925--planet-earth/"]["context"]
+        self.assertIn("Production dates 1986", acmi)
+        self.assertIn("National Academy of Sciences (U.S.) WQED", acmi)
+        self.assertNotIn("2006", acmi)
+
+    def test_lost_civilizations_remains_withheld_until_original_broadcast_format_is_settled(self):
+        slug = "outstanding-informational-series"
+        decision = self.decisions[slug]
+        self.assertEqual(review_for_year(decision, 1996)["disposition"], "pending-review")
+        self.assertEqual([p["years"] for p in decision["periods"] if p["disposition"] == "pending-review"], [[1996]])
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1996/' + slug))
+        for winner in page["winners"]:
+            self.assertIsNone(category_for_winner(decision, 1996, winner["sourceKey"]))
+
+    def test_iba_context_url_does_not_accept_unreviewed_aliases_or_encoded_paths(self):
+        url = "https://worldradiohistory.com/UK/Television-%26-Radio-ITV/IBA-Yearbook-1984.pdf"
+        value = next(s for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"] if s["url"] == url)
+        for rejected in (url.replace("%26", "&"), url.replace("%26", "%2526"),
+                         url.replace("/UK/", "/%55K/"), url.replace("/UK/", "/UK/../UK/"),
+                         url.replace("https://worldradiohistory.com", "https://www.worldradiohistory.com")):
+            with self.subTest(request=rejected), self.assertRaises(SourceError):
+                evidence({**value, "url": rejected}, rejected, context=True)
+            with self.subTest(redirect=rejected), self.assertRaises(SourceError):
+                evidence({**value, "resolvedUrl": rejected}, url, context=True)
 
     def test_paley_record_query_cannot_select_a_different_or_unreviewed_production(self):
         url = "https://www.paleycenter.org/collection/item?item=T80%3A0637"
@@ -905,7 +980,7 @@ class EmmyLineageReviewTests(unittest.TestCase):
         self.assertEqual(category_for_year(self.decisions["outstanding-informational-special"], 1994),
                          "documentary-or-nonfiction-special")
 
-    def test_documentary_context_does_not_accept_only_one_side_of_an_informational_tie(self):
+    def test_documentary_context_cannot_give_a_blanket_target_to_a_mixed_informational_tie(self):
         decision = self.decisions["outstanding-informational-series"]
         for year in (1988, 1989, 1991):
             self.assertEqual(category_for_year(decision, year), "documentary-or-nonfiction-series")
@@ -918,15 +993,14 @@ class EmmyLineageReviewTests(unittest.TestCase):
         for winner in tied["winners"]:
             self.assertEqual(category_for_winner(decision, 1988, winner["sourceKey"]),
                              "documentary-or-nonfiction-series")
-        # Other reviewed ties cannot certify the Olivier/Planet Earth pair.
-        for year in (1986,):
-            self.assertEqual(review_for_year(decision, year)["disposition"], "pending-review")
-            self.assertIsNone(category_for_year(decision, year))
-            page = next(p for p in snapshot["pages"]
-                        if p["sourceUrl"].endswith(f"/{year}/outstanding-informational-series"))
-            self.assertEqual(len(page["winners"]), 2)
-            for winner in page["winners"]:
-                self.assertIsNone(category_for_winner(decision, year, winner["sourceKey"]))
+        # The separately reviewed Olivier/Planet Earth tie has two different
+        # formats; documentary evidence cannot supply a blanket page target.
+        self.assertIsNone(category_for_year(decision, 1986))
+        page = next(p for p in snapshot["pages"]
+                    if p["sourceUrl"].endswith("/1986/outstanding-informational-series"))
+        self.assertEqual(len(page["winners"]), 2)
+        self.assertEqual([category_for_winner(decision, 1986, w["sourceKey"]) for w in page["winners"]],
+                         ["hosted-nonfiction-series-or-special", "documentary-or-nonfiction-series"])
 
     def test_public_service_documentary_win_is_not_a_narrator_recognition(self):
         decision = self.decisions["outstanding-program-achievement-in-the-field-of-public-service"]
@@ -1137,14 +1211,17 @@ class EmmyLineageReviewTests(unittest.TestCase):
 
     def test_reviewed_hosted_productions_cannot_certify_partial_ties(self):
         decision = self.decisions["outstanding-informational-series"]
-        pages = load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
-        for year, count in ((1986, 2),):
-            with self.subTest(year=year):
-                self.assertEqual(review_for_year(decision, year)["disposition"], "pending-review")
-                page = next(p for p in pages if p["sourceUrl"].endswith(f"/{year}/outstanding-informational-series"))
-                self.assertEqual(len(page["winners"]), count)
-                for winner in page["winners"]:
-                    self.assertIsNone(category_for_winner(decision, year, winner["sourceKey"]))
+        review = deepcopy(review_for_year(decision, 1986))
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith("/1986/outstanding-informational-series"))
+        self.assertEqual(len(page["winners"]), 2)
+        review["reviewedSourcePages"][0]["winnerSourceKeys"].pop()
+        contexts = {s["url"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]}
+        with self.assertRaisesRegex(SourceError, "accepted lineage winning facts drift"):
+            validate_review(review, {1986: page["sourceUrl"]},
+                            {page["sourceUrl"]: (1986, "outstanding-informational-series")},
+                            {page["sourceUrl"]: page},
+                            {"hosted-nonfiction-series-or-special", "documentary-or-nonfiction-series"}, contexts)
         self.assertIsNone(category_for_year(self.decisions["outstanding-individual-achievement-informational-programming"], 1984))
 
     def test_hallmark_supporting_awards_keep_the_generic_anthology_credit(self):
@@ -1642,6 +1719,8 @@ class EmmyLineageReviewTests(unittest.TestCase):
                 ("outstanding-informational-series", 1997,
                  {"hosted-nonfiction-series-or-special", "documentary-or-nonfiction-series"}),
                 ("outstanding-informational-series", 1995,
+                 {"hosted-nonfiction-series-or-special", "documentary-or-nonfiction-series"}),
+                ("outstanding-informational-series", 1986,
                  {"hosted-nonfiction-series-or-special", "documentary-or-nonfiction-series"}),
                 ("outstanding-informational-special", 1990,
                  {"hosted-nonfiction-series-or-special", "documentary-or-nonfiction-special"})):

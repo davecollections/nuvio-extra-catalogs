@@ -3,7 +3,7 @@
   "inputSha256": {
     "current-category-pages.json": "f813c92661d7c88ab1653ed9c3d634f8f41c0e0eb87ca0d017174765b98475c0",
     "annual-indices.json": "4bed2b1e02c4f46f3d0ce5b36afac36d58215048c0fea0830471390d8b8e9388",
-    "lineage-decisions.json": "e50acf24f7dd23fc71d11717d77edc41745fed527ec0e7d7c730e814f5a5e677",
+    "lineage-decisions.json": "1dec8b78fcdd171777eda702b43c1a39a1592a8a349bc5d61f78b609f1e9d40b",
     "official-winners-1949-2026.json": "7b6739deab3dbb308b2d1c39ce2ac27b91277a9f8b92e6736191501670b75204",
     "winner-release-evidence-2026.json": "22f013193d628473431db094328240d17b0ad5ade937e9aa5314d68b5bb64fe6",
     "manifest.json": "226970d09fe0ab38b33075106abb893a21e6d27615f17cf9dfb15e1c2015e3b7"
@@ -20,8 +20,8 @@
     "reviewedLineageSlugCount": 125,
     "retainedScopeExcludedPageCount": 16,
     "retainedScopeExcludedWinnerRecordCount": 17,
-    "reviewedAllocationPageCount": 2331,
-    "reviewedWinnerAllocationCount": 2386,
+    "reviewedAllocationPageCount": 2333,
+    "reviewedWinnerAllocationCount": 2389,
     "acquiredCandidatePageCount": 2480,
     "candidateWinnerRecordCount": 2587,
     "independentlyReconciledNoAwardPageCount": 1,
@@ -749,8 +749,8 @@
       "id": "documentary-or-nonfiction-series",
       "name": "OUTSTANDING DOCUMENTARY OR NONFICTION SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 44,
-      "reviewedWinnerAllocationCount": 49,
+      "reviewedSourcePageCount": 45,
+      "reviewedWinnerAllocationCount": 50,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -788,6 +788,7 @@
         1989,
         1988,
         1987,
+        1986,
         1978,
         1961,
         1960,
@@ -958,8 +959,8 @@
       "id": "hosted-nonfiction-series-or-special",
       "name": "OUTSTANDING HOSTED NONFICTION SERIES OR SPECIAL",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 29,
-      "reviewedWinnerAllocationCount": 31,
+      "reviewedSourcePageCount": 31,
+      "reviewedWinnerAllocationCount": 33,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -981,6 +982,8 @@
         1993,
         1992,
         1990,
+        1986,
+        1985,
         1984,
         1983,
         1982,
@@ -6974,11 +6977,9 @@
       "pendingPeriods": [
         {
           "years": [
-            1996,
-            1986,
-            1985
+            1996
           ],
-          "reason": "Remaining Informational Series periods require original production-format review, including all winners on the 1986 Olivier/Planet Earth tied page. Narration or a generic series label alone does not settle the central presenter/documentary boundary; original recipient roles remain separate from production-format evidence."
+          "reason": "Lost Civilizations (1996) remains the only pending Informational Series period. Original production-format evidence must settle central on-camera hosting versus narration for the actual winning NBC broadcast; later international/home-video editions and generic documentary/host labels cannot substitute. Preserve the whole original programme award and every recipient without inferring missing award roles."
         }
       ]
     },
