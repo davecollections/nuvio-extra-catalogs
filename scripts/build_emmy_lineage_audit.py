@@ -9,7 +9,7 @@ import json
 from collections import Counter
 from pathlib import Path
 
-from fetch_emmy_snapshot import INDEX_PATH, REGISTRY_PATH, SNAPSHOT_PATH, SOURCE_DIR, category_for_winner, load, serialized
+from fetch_emmy_snapshot import INDEX_PATH, REGISTRY_PATH, SNAPSHOT_PATH, SOURCE_DIR, category_for_winner, load, review_for_year, serialized
 
 ROOT = Path(__file__).resolve().parents[1]
 REPORT_PATH = ROOT / "reports" / "emmy-awards-source-audit.json"
@@ -44,7 +44,13 @@ def build():
         exceptions.append({**value, "reconciliationStatus": status})
     allocated = [(p, w, category_for_winner(by_slug[p["sourceUrl"].rsplit('/', 1)[1]], p["year"], w["sourceKey"])) for p, w in winners]
     allocated = [(p, w, category) for p, w, category in allocated if category]
-    retained_excluded = [p for p in snapshot["pages"] if by_slug[p["sourceUrl"].rsplit('/', 1)[1]]["disposition"] == "excluded"]
+    retained_excluded = []
+    for page, winner in winners:
+        review = review_for_year(by_slug[page["sourceUrl"].rsplit('/', 1)[1]], page["year"])
+        allocations = {a["sourceKey"]: a for a in review.get("winnerAllocations", [])}
+        disposition = allocations.get(winner["sourceKey"], review)["disposition"]
+        if disposition == "excluded":
+            retained_excluded.append((page, winner))
     categories = []
     for category in registry["included"]:
         category_winners = [(p, w) for p, w, target in allocated if target == category["id"]]
@@ -68,8 +74,8 @@ def build():
             "historicalPageSlugCount": len(decisions), "scopeExcludedSlugCount": sum(d["disposition"] == "excluded" for d in decisions),
             "pendingLineageSlugCount": sum(d["disposition"] == "pending-review" for d in decisions),
             "reviewedLineageSlugCount": sum(d["disposition"] == "current-lineage" for d in decisions),
-            "retainedScopeExcludedPageCount": len(retained_excluded),
-            "retainedScopeExcludedWinnerRecordCount": sum(p["winnerCount"] for p in retained_excluded),
+            "retainedScopeExcludedPageCount": len({p["sourceUrl"] for p, _ in retained_excluded}),
+            "retainedScopeExcludedWinnerRecordCount": len(retained_excluded),
             "reviewedAllocationPageCount": len({p["sourceUrl"] for p, _, _ in allocated}),
             "reviewedWinnerAllocationCount": len(allocated),
             "acquiredCandidatePageCount": len(snapshot["pages"]), "candidateWinnerRecordCount": len(winners),

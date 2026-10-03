@@ -129,7 +129,7 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1964/best-actor"
           ],
           "disposition": "pending-review",
-          "reason": "Reviewed year-specific winning productions and historical headings. Use explicit periods and, for mixed winners, exact source-key allocations; never apply a blanket target to the URL slug.",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
           "periods": [
             {
               "years": [
@@ -257,20 +257,101 @@
             },
             {
               "years": [
-                1954,
-                1953,
-                1952,
-                1951
+                1953
               ],
               "disposition": "pending-review",
-              "reason": "These combined-period programme/recipient facts do not yet establish an unambiguous current lineage. Retain for specific production and source review.",
+              "reason": "Thomas Mitchell's 1953 Best Actor result retains N/A as its production credit. A later Ford Theatre single-performance nomination and the biography's unrelated 2014 editing credit do not identify the actual winning performance or its series/single-production boundary.",
               "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1954/best-actor",
-                "https://www.televisionacademy.com/awards/nominees-winners/1953/best-actor",
-                "https://www.televisionacademy.com/awards/nominees-winners/1952/best-actor",
+                "https://www.televisionacademy.com/awards/nominees-winners/1953/best-actor"
+              ]
+            },
+            {
+              "years": [
+                1951
+              ],
+              "disposition": "excluded",
+              "reason": "The Academy biography identifies the original Alan Young Show, and its same-year award page explicitly names Best Variety Show. This broad Best Actor recognition is a variety performance outside the selected scripted comedy/drama acting histories. Do not substitute Mister Ed, which began a decade later, or turn the original N/A programme credit into a source fact.",
+              "evidence": [
                 "https://www.televisionacademy.com/awards/nominees-winners/1951/best-actor"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Actor"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1951,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1951/best-actor",
+                  "sha256": "aeae7d7dc3bd7fc6bd0b08f2d4eeddbceb78e5dcaa6ed65cd77eaf8f1014a4b4",
+                  "winnerSourceKeys": [
+                    "2ea2e733f9c9eeda7c45b966f0f8c8f1949785881e528fde8653221df629f9d5"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/bios/alan-young",
+                "https://www.televisionacademy.com/awards/nominees-winners/1951/outstanding-variety-music-or-comedy-series"
+              ]
+            },
+            {
+              "years": [
+                1952
+              ],
+              "disposition": "excluded",
+              "reason": "The Academy's authored anniversary history attributes Sid Caesar's Best Actor and Imogene Coca's Best Actress wins to Your Show of Shows, the same-year Best Variety Show winner. Preserve this variety-performer recognition outside the selected scripted acting histories; the Actor heading and Caesar's later sitcom guest nominations do not establish a Comedy lead predecessor. Retain the original empty-title credit.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1952/best-actor"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Actor"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1952,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1952/best-actor",
+                  "sha256": "f9e501f68d3baebc24612e2fef21b7947b9a2acc4e16ab1ab7508792b05a0b8c",
+                  "winnerSourceKeys": [
+                    "bbddf3abacb9c60aa141357e1ed3211ff72b650434cf59ebb01ba299b9bc86a6"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/features/cover-2023-12",
+                "https://www.televisionacademy.com/awards/nominees-winners/1952/outstanding-variety-music-or-comedy-series"
+              ]
+            },
+            {
+              "years": [
+                1954
+              ],
+              "disposition": "excluded",
+              "reason": "Donald O'Connor's Best Male Star of Regular Series win explicitly credits Colgate Comedy Hour. The same-year programme is entered in Best Variety Program. This variety-star award is outside the selected scripted lead-acting histories, not a Comedy acting win inferred from Comedy in the programme name.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1954/best-actor"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Male Star Of Regular Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1954,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1954/best-actor",
+                  "sha256": "a85faa870bb110e55eefc62d560f7b7dd9240445906dadc222217be85f3b6124",
+                  "winnerSourceKeys": [
+                    "97d2aa6c08b16804820250d394041dbc9ad0e58e88cb83c37f09646042e87acb"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1954/outstanding-variety-music-or-comedy-series"
               ]
             }
+          ],
+          "externalEvidence": [
+            "https://www.televisionacademy.com/awards/nominees-winners/1951/outstanding-variety-music-or-comedy-series",
+            "https://www.televisionacademy.com/awards/nominees-winners/1952/outstanding-variety-music-or-comedy-series",
+            "https://www.televisionacademy.com/awards/nominees-winners/1954/outstanding-variety-music-or-comedy-series",
+            "https://www.televisionacademy.com/bios/alan-young",
+            "https://www.televisionacademy.com/features/news/features/cover-2023-12"
           ]
         },
         {
@@ -448,7 +529,7 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1964/best-actress"
           ],
           "disposition": "pending-review",
-          "reason": "Reviewed year-specific winning productions and historical headings. Use explicit periods and, for mixed winners, exact source-key allocations; never apply a blanket target to the URL slug.",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
           "periods": [
             {
               "years": [
@@ -586,18 +667,73 @@
             },
             {
               "years": [
-                1953,
-                1952,
-                1951
+                1953
               ],
               "disposition": "pending-review",
-              "reason": "These combined-period programme/recipient facts do not yet establish an unambiguous current lineage. Retain for specific production and source review.",
+              "reason": "Helen Hayes's 1953 broad Best Actress recognition has an N/A programme credit. An attested winning production and performance contract are still required before choosing a continuing-series or single-production history.",
               "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1953/best-actress",
-                "https://www.televisionacademy.com/awards/nominees-winners/1952/best-actress",
+                "https://www.televisionacademy.com/awards/nominees-winners/1953/best-actress"
+              ]
+            },
+            {
+              "years": [
+                1951
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "lead-actress-in-a-comedy-series",
+              "reason": "The Academy biography explicitly identifies Gertrude Berg's 1951 Lead Actress recognition for her long-running Goldbergs role and its serial comedy-drama format. Follow the sitcom lead-acting history while preserving the original Best Actress heading and N/A programme credit. The later Gertrude Berg Show nomination is a different production, not the 1951 winner.",
+              "evidence": [
                 "https://www.televisionacademy.com/awards/nominees-winners/1951/best-actress"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Actress"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1951,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1951/best-actress",
+                  "sha256": "129634cbd38d5d57513c19228f4d3cac2b7fb8ddb47939228877bc2754c11d62",
+                  "winnerSourceKeys": [
+                    "3790892d4dd5f3414780f7e12574291a34ff1b614bcac3c72d7a59b5d0b82c3d"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/bios/gertrude-berg"
+              ]
+            },
+            {
+              "years": [
+                1952
+              ],
+              "disposition": "excluded",
+              "reason": "The Academy's authored history attributes Imogene Coca's Best Actress recognition to Your Show of Shows, the same-year Best Variety Show winner. Preserve the original broad actress award and N/A credit, but do not convert a variety performance into a scripted Comedy lead win or programme award.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1952/best-actress"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Actress"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1952,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1952/best-actress",
+                  "sha256": "9812d6393890b43b2d30665c9c0ac335dd50735bc02277463cfbc69b2a5e38c9",
+                  "winnerSourceKeys": [
+                    "db202e6677dd30ca398993b5c7174b8c763e67d95f80ce9cf0c1be4ce3a94609"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/features/cover-2023-12",
+                "https://www.televisionacademy.com/awards/nominees-winners/1952/outstanding-variety-music-or-comedy-series"
               ]
             }
+          ],
+          "externalEvidence": [
+            "https://www.televisionacademy.com/awards/nominees-winners/1952/outstanding-variety-music-or-comedy-series",
+            "https://www.televisionacademy.com/bios/gertrude-berg",
+            "https://www.televisionacademy.com/features/news/features/cover-2023-12"
           ]
         },
         {
@@ -920,7 +1056,82 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1958/best-comedienne"
           ],
           "disposition": "pending-review",
-          "reason": "The early comedian fields mix sitcom acting and variety/personality performance, and later headings change eligibility. Earlier winners such as Lucille Ball cannot be excluded by applying the 1958 plays-herself wording backwards. Review the actual annual winner, production and predecessor boundary individually; no blanket modern target or exclusion is accepted."
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
+          "periods": [
+            {
+              "years": [
+                1957,
+                1956
+              ],
+              "disposition": "pending-review",
+              "reason": "The 1956 and 1957 Nanette Fabray wins still require a precise performer/predecessor boundary. Preserve the separate 1956 Supporting Actress and Best Comedienne awards and Caesar's Hour's original Comedy programme eligibility; a modern sketch-variety description or the later 1958 personality heading cannot settle those earlier contracts.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1957/best-comedienne",
+                "https://www.televisionacademy.com/awards/nominees-winners/1956/best-comedienne"
+              ]
+            },
+            {
+              "years": [
+                1953
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "lead-actress-in-a-comedy-series",
+              "reason": "The Academy's authored anniversary history pairs Lucille Ball's first Best Comedienne recognition with I Love Lucy, the original Best Situation Comedy winner. The later reviewed actress award explicitly credits Lucy Ricardo in that same sitcom. Retain this early sitcom star-performance predecessor in Comedy lead actress without rewriting its original N/A credit, importing the separate programme win, or applying 1958 plays-herself wording retrospectively.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1953/best-comedienne"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Comedienne"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1953,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1953/best-comedienne",
+                  "sha256": "90eb6834cd25b6e3daea412d8e88b3804458ecf2763209e111b0a5212a415a62",
+                  "winnerSourceKeys": [
+                    "ebecb533abce185d5a7f1da57d68d73a71dafb498ac8741d71ebc2a22da376f9"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/features/cover-2023-12",
+                "https://www.televisionacademy.com/awards/nominees-winners/1953/outstanding-comedy-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1956/best-actress"
+              ]
+            },
+            {
+              "years": [
+                1958
+              ],
+              "disposition": "excluded",
+              "reason": "The actual 1958 heading is the broad continuing female comedian/singer/hostess/dancer/personality field, expressly covering performers who essentially play themselves. Its winner Dinah Shore credits the Chevy Show, which wins the same-year Musical/Variety/Audience Participation/Quiz programme field. Preserve this entertainment-personality recognition outside the selected scripted acting and reality/game-host histories; it is not a programme or directing award. This annual decision does not exclude earlier sitcom comedienne winners.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1958/best-comedienne"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Continuing Performance (Female) In A Series By A Comedienne, Singer, Hostess, Dancer, M.c., Announcer, Narrator, Panelist, Or Any Person Who Essentially Plays Herself"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1958,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1958/best-comedienne",
+                  "sha256": "263b514c38788e2bfb7b8c47e46fc9aeff478f8ff959c2c788892b8477d1acbe",
+                  "winnerSourceKeys": [
+                    "4849c4f40be326a229b1097c2910c22fc072a144d80fcdd6b16bac36188bd656"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1958/outstanding-variety-music-or-comedy-series"
+              ]
+            }
+          ],
+          "externalEvidence": [
+            "https://www.televisionacademy.com/awards/nominees-winners/1953/outstanding-comedy-series",
+            "https://www.televisionacademy.com/awards/nominees-winners/1956/best-actress",
+            "https://www.televisionacademy.com/awards/nominees-winners/1958/outstanding-variety-music-or-comedy-series",
+            "https://www.televisionacademy.com/features/news/features/cover-2023-12"
+          ]
         },
         {
           "sourceSlug": "best-direction",
@@ -12242,48 +12453,6 @@
             },
             {
               "years": [
-                1997,
-                1996,
-                1995,
-                1993,
-                1992,
-                1991,
-                1990,
-                1989,
-                1988,
-                1987,
-                1986,
-                1985,
-                1984,
-                1983,
-                1982,
-                1981,
-                1978
-              ],
-              "disposition": "pending-review",
-              "reason": "The remaining Informational Series winners still require individual documentary/hosted format review. The 2020 modern retitling does not automatically reclassify all older historical productions.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1993/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1991/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1984/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1983/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1982/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-series"
-              ]
-            },
-            {
-              "years": [
                 1994
               ],
               "disposition": "current-lineage",
@@ -12309,11 +12478,105 @@
                 "https://interviews.televisionacademy.com/interviews/bob-costas",
                 "https://www.televisionacademy.com/features/news/awards-news/emmy-rules-changes-191217"
               ]
+            },
+            {
+              "years": [
+                1997,
+                1996,
+                1995,
+                1993,
+                1992,
+                1990,
+                1988,
+                1987,
+                1986,
+                1985,
+                1984,
+                1983,
+                1982,
+                1981,
+                1978
+              ],
+              "disposition": "pending-review",
+              "reason": "Other 1978–1997 Informational Series periods still need production-specific format review. The Nature/Buster Keaton tie in 1988 and Baseball/TV Nation tie in 1995 stay wholly pending until both winners can be allocated exactly once; documentary evidence for only one tied winner is insufficient. Do not retitle every older informational programme as Hosted Nonfiction using the 2020 rule.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1993/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1984/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1983/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1982/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-series"
+              ]
+            },
+            {
+              "years": [
+                1991
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-series",
+              "reason": "The Academy's first-party filmmaker retrospective explicitly identifies Ken Burns's original 1990 Civil War as a documentary series with nine episodes. Allocate its 1991 Informational Series programme recognition to Documentary/Nonfiction Series. Preserve the archive's General Motors presentation credit and award year separately from the 1990 broadcast; a historical subject does not make the production a scripted limited series or a host-led interview programme.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1991/outstanding-informational-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1991,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1991/outstanding-informational-series",
+                  "sha256": "755d4c22ec4927ccc88a956f0d49da793a2b4c259b82ae39abba370aa40ba5e6",
+                  "winnerSourceKeys": [
+                    "e77069ee969a6000b7022953f74728509ce16be6220e90edc2ac97f6c683bcb7"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/emmy-magazine/articles/ken-burns-pbs-civil-war-documentary"
+              ]
+            },
+            {
+              "years": [
+                1989
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-series",
+              "reason": "The Academy's authored Nature retrospective identifies the original PBS wildlife series premiering in 1982 and its cinematographers' documentary fieldwork. Allocate the 1989 Informational Series programme award to Documentary/Nonfiction Series. The retrospective distinguishes its two Primetime wins from thirteen News & Documentary Emmys; do not import that separate competition or later 2019 live installments as older programme awards.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-informational-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1989,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-informational-series",
+                  "sha256": "9ce8e48b7b05be26d974c105b53722358f1942edf482c3372f7dbb52d2d138f7",
+                  "winnerSourceKeys": [
+                    "36de37a0256da85d111c52c696c0e4c9a40f730f2ed2a93b9c18cf40798fea8f"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/features/forty-years-nature"
+              ]
             }
           ],
           "externalEvidence": [
             "https://interviews.televisionacademy.com/interviews/bob-costas",
-            "https://www.televisionacademy.com/features/news/awards-news/emmy-rules-changes-191217"
+            "https://www.televisionacademy.com/features/emmy-magazine/articles/ken-burns-pbs-civil-war-documentary",
+            "https://www.televisionacademy.com/features/news/awards-news/emmy-rules-changes-191217",
+            "https://www.televisionacademy.com/features/news/features/forty-years-nature"
           ]
         },
         {
@@ -19150,8 +19413,50 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1960/outstanding-program-achievement-in-the-field-of-public-service",
             "https://www.televisionacademy.com/awards/nominees-winners/1961/outstanding-program-achievement-in-the-field-of-public-service"
           ],
-          "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+          "disposition": "current-lineage",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Every acquired period is reviewed; the archive slug does not establish a separate modern award or override the actual source heading.",
+          "periods": [
+            {
+              "years": [
+                1961,
+                1960
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-series",
+              "reason": "Both original Public Service programme wins credit The Twentieth Century, which the Academy's Cronkite tribute explicitly describes as the Sunday documentary series broadcast from 1957 to 1970. Follow the documentary/nonfiction-series predecessor for these reviewed productions while preserving their broad Public Service headings and distinct source credits. This is pre-transfer archive programme evidence, not a Narrator award for Cronkite, a scripted historical drama, or a new result from the separate News & Documentary competition.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1961/outstanding-program-achievement-in-the-field-of-public-service",
+                "https://www.televisionacademy.com/awards/nominees-winners/1960/outstanding-program-achievement-in-the-field-of-public-service"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Program Achievement In The Field Of Public Service"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1961,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1961/outstanding-program-achievement-in-the-field-of-public-service",
+                  "sha256": "be4fc1b55c4e0c928dbfa64be2461c9d80c46111fb15373da3fbfdbf015e7e94",
+                  "winnerSourceKeys": [
+                    "c281eeaa134ab2e5dea65761c3dab37d8fd2c29c2c7aaf0da29733cb78763476"
+                  ]
+                },
+                {
+                  "year": 1960,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1960/outstanding-program-achievement-in-the-field-of-public-service",
+                  "sha256": "404f8116de87022ac0d7862f4e919722703bc7176823a021884a662e09e5c722",
+                  "winnerSourceKeys": [
+                    "12554dec43867ab0b4d7a644095d333ff3fa7bb3b56a01ef127ca86e3ad10808"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/hall-fame/walter-cronkite-hall-fame-tribute"
+              ]
+            }
+          ],
+          "externalEvidence": [
+            "https://www.televisionacademy.com/features/news/hall-fame/walter-cronkite-hall-fame-tribute"
+          ]
         },
         {
           "sourceSlug": "outstanding-program-achievement-special-events",
@@ -30317,6 +30622,132 @@
       "byteCount": 318326,
       "context": "The TV adaptation of the 1971 musical was broadcast live from Warner Bros. Studios in Burbank on January 31, using two soundstages, half the backlot and 44 cameras; it earned Fox its best season ratings to date.",
       "contextSha256": "88cf89fa5f3866f39b66adcddce8c3c1213a3ead936c969290dbee2d68f5a479"
+    },
+    {
+      "url": "https://www.televisionacademy.com/bios/gertrude-berg",
+      "resolvedUrl": "https://www.televisionacademy.com/bios/gertrude-berg",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "3116f9f3229d92c324477e7d61e4351d9f6d90612af8a72b5474416217e0bf29",
+      "byteCount": 319836,
+      "context": "A pioneer of classic radio, she was one of the first women to create, write, produce, and star in a long-running hit when she premiered her serial comedy-drama The Rise of the Goldbergs , later known as The Goldbergs .\nIn 1951, Berg won the first ever Emmy Award for Lead Actress in a Television Series in her twentieth year of playing the role. The show would stay in production for five more years.",
+      "contextSha256": "9f17d1785fa7f59476ed4eae0757967bc682b12584bf7f0b6aa018114e2ce2ee"
+    },
+    {
+      "url": "https://www.televisionacademy.com/bios/alan-young",
+      "resolvedUrl": "https://www.televisionacademy.com/bios/alan-young",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "fe9183d80684b64c2c30e07a79d319452cfcdc903f39c33f0463c8820267bccf",
+      "byteCount": 321155,
+      "context": "He had a successful radio program, The Alan Young Show, in the 1940s, which he brought to televison in 1950. In 1951 the program won an Emmy Award for best variety show and Young was named best actor. It ended its run in 1953.",
+      "contextSha256": "b5cd08515cfe0e479242f4211d0cd58397cee82be307822d18bd70c9485a520a"
+    },
+    {
+      "url": "https://www.televisionacademy.com/features/news/features/cover-2023-12",
+      "resolvedUrl": "https://www.televisionacademy.com/features/news/features/cover-2023-12",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "368b63a950629415a58c5c870fcb4ff72612da3a78ca1fae1f5a0aad1e57f4d9",
+      "byteCount": 320778,
+      "context": "4th: February 18, 1952\nCaesar ended up with Best Actor, Coca took Best Actress and their series ( Your Show of Shows ) was named Best Variety Show.\nLucille Ball delighted in her first Emmy win at the fifth annual awards. After losing the previous year to Red Skelton, she was twice honored: I Love Lucy was named Best Situation Comedy and Ball was crowned Best Comedienne.",
+      "contextSha256": "b09625e5e138d075d75debf833dbc854b9278faa2fa05a314530f9453a7cf0c8"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1951/outstanding-variety-music-or-comedy-series",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1951/outstanding-variety-music-or-comedy-series",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "e8438e1f67815878a6ef340601e4f9fb51c1689243572c893cbc9752f24fcaca",
+      "byteCount": 356082,
+      "year": 1951,
+      "context": "Best Variety Show\nWinner The Alan Young Show KTTV, CBS n/a",
+      "contextSha256": "d718dd98c5a2ad4383d6ff7486ae926590bf33f34183ab9d0e18a54f4f268007"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1952/outstanding-variety-music-or-comedy-series",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1952/outstanding-variety-music-or-comedy-series",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "59fd3309242fabaebbb1610f0a40cc7a6bff369fa9ce66722f4e16cc02db19d0",
+      "byteCount": 352266,
+      "year": 1952,
+      "context": "Best Variety Show\nWinner Your Show of Shows NBC n/a",
+      "contextSha256": "9b8394d213bf61a42fe3272f6235f882d14526d84ef28a20399284b5d7689cb0"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1954/outstanding-variety-music-or-comedy-series",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1954/outstanding-variety-music-or-comedy-series",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "4041801d4a388fd5843855aa221c10c33eabc1752a4cefb6238e287fc1264512",
+      "byteCount": 355557,
+      "year": 1954,
+      "context": "Best Variety Program\nNominee Colgate Comedy Hour NBC n/a",
+      "contextSha256": "fa1e85f45c16339544463d5648bb49cb9a2f7d915bf6994ea78ad9abe1a2a823"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1953/outstanding-comedy-series",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1953/outstanding-comedy-series",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "99b4be47c2887cd664c061e8b1531aaf9590c178edd2106a6427ce89fd89438a",
+      "byteCount": 358147,
+      "year": 1953,
+      "context": "Best Situation Comedy\nWinner I Love Lucy CBS Desi Arnaz Executive Producer Jess Oppenheimer Producer",
+      "contextSha256": "b39978c95632a6b8a77470784048a2d1f2eeb6985cd70faeb27b539c729114a4"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1956/best-actress",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1956/best-actress",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "636525f79bdb0a2c80443eafa2d7b0753d613db6a690315989da3b3c21f28205",
+      "byteCount": 369929,
+      "year": 1956,
+      "context": "Best Actress-Continuing Performance\nWinner Lucille Ball as Lucy Ricardo I Love Lucy",
+      "contextSha256": "f467f0991688339646f11ffa9dad4815051ebc733807e716524984279debbe5c"
+    },
+    {
+      "url": "https://www.televisionacademy.com/awards/nominees-winners/1958/outstanding-variety-music-or-comedy-series",
+      "resolvedUrl": "https://www.televisionacademy.com/awards/nominees-winners/1958/outstanding-variety-music-or-comedy-series",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "3eea807c16de21c3c22269f0c377c2965551e1dd6a5d7a18c5e02608f259c4c0",
+      "byteCount": 363075,
+      "year": 1958,
+      "context": "Best Musical, Variety, Audience Participation Or Quiz Series\nWinner Dinah Shore-Chevy Show NBC n/a",
+      "contextSha256": "36d8417c129b30b13423a51c4bc407c469d8d86bed3466a879134c39df9c928d"
+    },
+    {
+      "url": "https://www.televisionacademy.com/features/emmy-magazine/articles/ken-burns-pbs-civil-war-documentary",
+      "resolvedUrl": "https://www.televisionacademy.com/features/emmy-magazine/articles/ken-burns-pbs-civil-war-documentary",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "8ce7796da9d5071028fa46a68aeb04eaa102333cce95d28cbe75db95295dd0a9",
+      "byteCount": 324318,
+      "context": "It's a good thing that bringing historical subject to life in docuseries like The Civil War , Baseball and this fall’s American Revolution worked out for filmmaker Ken Burns\nThe Civil War (1990)\nHe eventually got the green light, and everything changed once the nine episodes began airing:",
+      "contextSha256": "afa4bf5c3370b7f4c2ddfca4da5942979212abb31107973bb0832a5aade4b095"
+    },
+    {
+      "url": "https://www.televisionacademy.com/features/news/features/forty-years-nature",
+      "resolvedUrl": "https://www.televisionacademy.com/features/news/features/forty-years-nature",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "013cd2c4176665c80873673b59581148d8a0c00a41ec0cb1cb0e3818b6bb768f",
+      "byteCount": 343355,
+      "context": "They're among the seventy or so cinematographers who have ventured around the globe — on land, in the air, underwater — to capture footage and tell stories for Nature , the PBS wildlife series that celebrates its fortieth anniversary this year.\nSince its premiere in October 1982, Nature has aired more than 400 episodes, winning two Primetime Emmy Awards, thirteen News & Documentary Emmys and a Peabody Award.",
+      "contextSha256": "f0917b548bd7e273b93f08b13cac1c4eabf840f8037b6a0a0c01112e2522c1f9"
+    },
+    {
+      "url": "https://www.televisionacademy.com/features/news/hall-fame/walter-cronkite-hall-fame-tribute",
+      "resolvedUrl": "https://www.televisionacademy.com/features/news/hall-fame/walter-cronkite-hall-fame-tribute",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "ee19d6340d794f8cd7263274a4afe5a1c3cb7782d01ed409f839baf2815de878",
+      "byteCount": 325858,
+      "context": "And for nearly 13 years, he narrated the highly acclaimed series The Twentieth Century , the Sunday evening documentary program that profiled major personalities who influenced modern world history.\nTelecast from October 1957 to January 1970, that news series premiered with a special hour-long program paying tribute to Sir Winston Churchill.",
+      "contextSha256": "3e11a6e021ca0d825e372b4f7ad2a9e33365e825b629a86f553474dccee4fee8"
     }
   ],
   "annualExceptions": [

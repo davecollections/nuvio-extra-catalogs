@@ -3,7 +3,7 @@
   "inputSha256": {
     "current-category-pages.json": "f813c92661d7c88ab1653ed9c3d634f8f41c0e0eb87ca0d017174765b98475c0",
     "annual-indices.json": "4bed2b1e02c4f46f3d0ce5b36afac36d58215048c0fea0830471390d8b8e9388",
-    "lineage-decisions.json": "722383527532da634cea35038d14401b2a4dcd6b1dacbeefe6db4547ace4b895",
+    "lineage-decisions.json": "d39c8b1e1af9cba29e2745cc2dd602e4a16f2a92d78911399d32b496c4dd1882",
     "official-winners-1949-2026.json": "7b6739deab3dbb308b2d1c39ce2ac27b91277a9f8b92e6736191501670b75204",
     "winner-release-evidence-2026.json": "22f013193d628473431db094328240d17b0ad5ade937e9aa5314d68b5bb64fe6",
     "manifest.json": "226970d09fe0ab38b33075106abb893a21e6d27615f17cf9dfb15e1c2015e3b7"
@@ -16,12 +16,12 @@
     "annualCategoryLinkCount": 5437,
     "historicalPageSlugCount": 500,
     "scopeExcludedSlugCount": 350,
-    "pendingLineageSlugCount": 39,
-    "reviewedLineageSlugCount": 111,
-    "retainedScopeExcludedPageCount": 9,
-    "retainedScopeExcludedWinnerRecordCount": 10,
-    "reviewedAllocationPageCount": 2255,
-    "reviewedWinnerAllocationCount": 2303,
+    "pendingLineageSlugCount": 38,
+    "reviewedLineageSlugCount": 112,
+    "retainedScopeExcludedPageCount": 14,
+    "retainedScopeExcludedWinnerRecordCount": 15,
+    "reviewedAllocationPageCount": 2261,
+    "reviewedWinnerAllocationCount": 2309,
     "acquiredCandidatePageCount": 2480,
     "candidateWinnerRecordCount": 2587,
     "independentlyReconciledNoAwardPageCount": 1,
@@ -749,8 +749,8 @@
       "id": "documentary-or-nonfiction-series",
       "name": "OUTSTANDING DOCUMENTARY OR NONFICTION SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 30,
-      "reviewedWinnerAllocationCount": 33,
+      "reviewedSourcePageCount": 34,
+      "reviewedWinnerAllocationCount": 37,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -781,6 +781,10 @@
         2000,
         1999,
         1998,
+        1991,
+        1989,
+        1961,
+        1960,
         1956
       ],
       "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
@@ -2408,8 +2412,8 @@
       "id": "lead-actress-in-a-comedy-series",
       "name": "OUTSTANDING LEAD ACTRESS IN A COMEDY SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 69,
-      "reviewedWinnerAllocationCount": 69,
+      "reviewedSourcePageCount": 71,
+      "reviewedWinnerAllocationCount": 71,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -2479,7 +2483,9 @@
         1959,
         1958,
         1956,
-        1954
+        1954,
+        1953,
+        1951
       ],
       "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
@@ -6697,16 +6703,13 @@
         "Male Star Of Regular Series",
         "Actor"
       ],
-      "reason": "Reviewed year-specific winning productions and historical headings. Use explicit periods and, for mixed winners, exact source-key allocations; never apply a blanket target to the URL slug.",
+      "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
       "pendingPeriods": [
         {
           "years": [
-            1954,
-            1953,
-            1952,
-            1951
+            1953
           ],
-          "reason": "These combined-period programme/recipient facts do not yet establish an unambiguous current lineage. Retain for specific production and source review."
+          "reason": "Thomas Mitchell's 1953 Best Actor result retains N/A as its production credit. A later Ford Theatre single-performance nomination and the biography's unrelated 2014 editing credit do not identify the actual winning performance or its series/single-production boundary."
         }
       ]
     },
@@ -6725,15 +6728,13 @@
         "Female Star Of Regular Series",
         "Actress"
       ],
-      "reason": "Reviewed year-specific winning productions and historical headings. Use explicit periods and, for mixed winners, exact source-key allocations; never apply a blanket target to the URL slug.",
+      "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
       "pendingPeriods": [
         {
           "years": [
-            1953,
-            1952,
-            1951
+            1953
           ],
-          "reason": "These combined-period programme/recipient facts do not yet establish an unambiguous current lineage. Retain for specific production and source review."
+          "reason": "Helen Hayes's 1953 broad Best Actress recognition has an N/A programme credit. An attested winning production and performance contract are still required before choosing a continuing-series or single-production history."
         }
       ]
     },
@@ -6766,7 +6767,16 @@
         "Continuing Performance By A Comedienne In A Series",
         "Comedienne"
       ],
-      "reason": "The early comedian fields mix sitcom acting and variety/personality performance, and later headings change eligibility. Earlier winners such as Lucille Ball cannot be excluded by applying the 1958 plays-herself wording backwards. Review the actual annual winner, production and predecessor boundary individually; no blanket modern target or exclusion is accepted."
+      "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
+      "pendingPeriods": [
+        {
+          "years": [
+            1957,
+            1956
+          ],
+          "reason": "The 1956 and 1957 Nanette Fabray wins still require a precise performer/predecessor boundary. Preserve the separate 1956 Supporting Actress and Best Comedienne awards and Caesar's Hour's original Comedy programme eligibility; a modern sketch-variety description or the later 1958 personality heading cannot settle those earlier contracts."
+        }
+      ]
     },
     {
       "sourceSlug": "best-public-affairs-program",
@@ -6938,9 +6948,7 @@
             1995,
             1993,
             1992,
-            1991,
             1990,
-            1989,
             1988,
             1987,
             1986,
@@ -6951,7 +6959,7 @@
             1981,
             1978
           ],
-          "reason": "The remaining Informational Series winners still require individual documentary/hosted format review. The 2020 modern retitling does not automatically reclassify all older historical productions."
+          "reason": "Other 1978–1997 Informational Series periods still need production-specific format review. The Nature/Buster Keaton tie in 1988 and Baseball/TV Nation tie in 1995 stay wholly pending until both winners can be allocated exactly once; documentary evidence for only one tied winner is insufficient. Do not retitle every older informational programme as Hosted Nonfiction using the 2020 rule."
         }
       ]
     },
@@ -7051,15 +7059,6 @@
         "Program Achievement In The Field Of Panel, Quiz Or Audience Participation"
       ],
       "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
-    },
-    {
-      "sourceSlug": "outstanding-program-achievement-in-the-field-of-public-service",
-      "firstYear": 1960,
-      "lastYear": 1961,
-      "menuLabels": [
-        "Program Achievement In The Field Of Public Service"
-      ],
-      "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
     },
     {
       "sourceSlug": "outstanding-program-achievement-special-events",

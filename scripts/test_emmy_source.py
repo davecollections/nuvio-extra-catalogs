@@ -186,6 +186,55 @@ class EmmyLineageReviewTests(unittest.TestCase):
         ledger = load(SOURCE_DIR / "lineage-decisions.json")
         cls.decisions = {d["sourceSlug"]: d for p in ledger["programmes"] for d in p["decisions"]}
 
+    def test_early_actor_heading_does_not_convert_variety_stars_into_scripted_leads(self):
+        decision = self.decisions["best-actor"]
+        for year in (1951, 1952, 1954):
+            self.assertEqual(review_for_year(decision, year)["disposition"], "excluded")
+            self.assertIsNone(category_for_year(decision, year))
+        self.assertEqual(review_for_year(decision, 1953)["disposition"], "pending-review")
+        self.assertEqual(category_for_year(decision, 1956), "lead-actor-in-a-comedy-series")
+        # Excluding the performance keeps its requested source page and facts.
+        lineage = load(SOURCE_DIR / "lineage-decisions.json")
+        urls = {p["url"] for p in candidate_pages(load(SOURCE_DIR / "annual-indices.json")["years"], lineage)}
+        for year in (1951, 1952, 1954):
+            self.assertIn(f"https://www.televisionacademy.com/awards/nominees-winners/{year}/best-actor", urls)
+
+    def test_early_actress_review_preserves_unavailable_source_programme_credits(self):
+        snapshot = load(SOURCE_DIR / "official-winners-1949-2026.json")
+        for year, slug in ((1951, "best-actress"), (1953, "best-comedienne")):
+            decision = self.decisions[slug]
+            self.assertEqual(category_for_year(decision, year), "lead-actress-in-a-comedy-series")
+            page = next(p for p in snapshot["pages"] if p["sourceUrl"].endswith(f"/{year}/{slug}"))
+            self.assertEqual(page["winners"][0]["programmes"][0]["name"], "N/A")
+            self.assertNotIn("mediaType", page["winners"][0])
+            self.assertTrue(review_for_year(decision, year)["externalEvidence"])
+        decision = self.decisions["best-comedienne"]
+        self.assertEqual(review_for_year(decision, 1958)["disposition"], "excluded")
+        self.assertEqual(review_for_year(decision, 1957)["disposition"], "pending-review")
+        self.assertIsNone(category_for_year(decision, 1958))
+
+    def test_excluded_period_still_requires_exact_winner_keys_and_fingerprints(self):
+        slug = "best-actor"
+        review = deepcopy(review_for_year(self.decisions[slug], 1951))
+        page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                    if p["sourceUrl"].endswith('/1951/' + slug))
+        contexts = {s["url"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]}
+        arguments = ({1951: page["sourceUrl"]}, {page["sourceUrl"]: (1951, slug)},
+                     {page["sourceUrl"]: page}, {"lead-actor-in-a-comedy-series"}, contexts)
+        validate_review(review, *arguments)
+        review["reviewedSourcePages"][0]["winnerSourceKeys"] = []
+        with self.assertRaises(SourceError):
+            validate_review(review, *arguments)
+
+    def test_audit_counts_retained_excluded_periods_inside_pending_branches(self):
+        from build_emmy_lineage_audit import build
+        report = build()
+        # Five newly excluded performance years remain under partly pending
+        # slugs, in addition to the nine retained retired-programme pages.
+        self.assertEqual(report["summary"]["retainedScopeExcludedPageCount"], 14)
+        self.assertEqual(report["summary"]["retainedScopeExcludedWinnerRecordCount"], 15)
+        self.assertEqual(report["summary"]["publishedEmmyCatalogueCount"], 0)
+
     def test_miniseries_slug_does_not_reclassify_the_1973_single_programme(self):
         decision = self.decisions["outstanding-miniseries"]
         self.assertEqual(category_for_year(decision, 1973), "television-movie")
@@ -363,6 +412,30 @@ class EmmyLineageReviewTests(unittest.TestCase):
         self.assertEqual(category_for_year(self.decisions["outstanding-informational-series"], 1994),
                          "hosted-nonfiction-series-or-special")
         self.assertIsNone(category_for_year(self.decisions["outstanding-informational-special"], 1994))
+
+    def test_documentary_context_does_not_accept_only_one_side_of_an_informational_tie(self):
+        decision = self.decisions["outstanding-informational-series"]
+        for year in (1989, 1991):
+            self.assertEqual(category_for_year(decision, year), "documentary-or-nonfiction-series")
+        for year in (1988, 1995):
+            self.assertEqual(review_for_year(decision, year)["disposition"], "pending-review")
+            self.assertIsNone(category_for_year(decision, year))
+            page = next(p for p in load(SOURCE_DIR / "official-winners-1949-2026.json")["pages"]
+                        if p["sourceUrl"].endswith(f"/{year}/outstanding-informational-series"))
+            self.assertEqual(len(page["winners"]), 2)
+            for winner in page["winners"]:
+                self.assertIsNone(category_for_winner(decision, year, winner["sourceKey"]))
+
+    def test_public_service_documentary_win_is_not_a_narrator_recognition(self):
+        decision = self.decisions["outstanding-program-achievement-in-the-field-of-public-service"]
+        snapshot = load(SOURCE_DIR / "official-winners-1949-2026.json")
+        for year in (1960, 1961):
+            self.assertEqual(category_for_year(decision, year), "documentary-or-nonfiction-series")
+            page = next(p for p in snapshot["pages"] if p["sourceUrl"].endswith(f"/{year}/" + decision["sourceSlug"]))
+            self.assertIn("Public Service", page["sourceCategory"])
+            # The tribute proves the programme format, not an Emmy recipient:
+            # its narrator must not be inserted into the original blank credits.
+            self.assertNotIn("Walter Cronkite", [c["name"] for c in page["winners"][0]["credits"]])
 
     def test_variety_special_slug_does_not_turn_the_1968_series_into_a_live_special(self):
         decision = self.decisions["outstanding-variety-music-or-comedy-special"]
