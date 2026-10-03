@@ -6,7 +6,7 @@ Issue: #7
 
 This document is the required workflow for adding or correcting canonical awards data. It applies before data is turned into a Nuvio/Stremio catalogue, person output, artwork report, or other generated artifact.
 
-The repository remains static and catalog-only. Source acquisition and optional identity lookups may use the network during reviewed maintenance work, but committed canonical data and generated outputs must validate and rebuild offline without API credentials.
+The repository remains static and catalogue-led, with exact reviewed metadata fallbacks for demonstrated provider gaps. Source acquisition and optional identity lookups may use the network during reviewed maintenance work, but committed canonical data and generated outputs must validate and rebuild offline without API credentials.
 
 ## Source hierarchy
 
@@ -44,6 +44,16 @@ For BAFTA, use this hierarchy:
 | External identity confirmation | [IMDb](https://www.imdb.com/) | Confirms reviewed title and person identities when same-title programmes, episode wording, release context, or TMDB candidates disagree. |
 
 Issue #33 covers the three main BAFTA screen programmes under one source model. The 2026 official pages expose 25 Film, 27 Television, and 23 Television Craft work-associated current categories after explicit person-only and special-honour exclusions. BAFTA currently presents a browser check to direct non-browser requests and restricts anonymous WordPress REST access. Reviewed maintenance therefore exports a minimal winner-only snapshot from rendered first-party pages and commits it for offline use; the project does not bypass site controls or make a browser session a CI/runtime dependency. The exact acquisition, lineage, and exclusion contract is documented in [`bafta-history.md`](bafta-history.md).
+
+For Television Academy Emmy Awards, use this hierarchy:
+
+| Role | Source | Policy |
+| --- | --- | --- |
+| Award authority | [Television Academy annual category/results pages](https://www.televisionacademy.com/awards/nominees-winners) and [historical database](https://www.televisionacademy.com/awards/awards-search) | Decide official award year, category, winner status, credited recipients and associated work. Treat Primetime and Creative Arts as one award family, preserving the presentation night as source context. |
+| Completeness and exceptions | [Official winner releases, category schedules and rules](https://www.televisionacademy.com/downloads), plus linked juried-award notices | Reconcile all ceremony nights, ties, multiple area/juried winners, no-award outcomes and current category changes. A schedule lists possible categories; it is not a winners list. |
+| Work/person identity enrichment | [TMDB API](https://developer.themoviedb.org/docs/finding-data) and [IMDb](https://www.imdb.com/) | Confirm the actual credited production, media type, episode/parent relationship and external IDs. Neither source decides Emmy winner status. No automated TMDB award-page scraping. |
+
+The 2026-10-03 planning audit in [emmy-history.md](emmy-history.md) reconciles 121 scheduled categories, 120 category links and 120 winner-release headings, with an explicit Motion Design no-award outcome. The owner-approved expanded-essentials scope selects 49 current categories and defers short-form and specialist craft, excluding commercials, emerging media, honorary awards and separate Emmy competitions. Selected lineages are followed through the official 1949–2026 archive; historical acquisition and lineage review remain implementation work. Direct first-party requests currently return useful server-rendered content. Preserve minimal reviewed snapshots for offline generation, stop on challenges or incomplete responses, and do not bypass site controls. JSON-LD is only a cross-check: sampled pages truncate credited recipients, label producers as actors, and label a historical television-film entry as a series. Parse full nomination showcases and reconcile official credit evidence instead. Other Emmy organisations/programmes require separate scope decisions.
 
 ## Separation of responsibilities
 

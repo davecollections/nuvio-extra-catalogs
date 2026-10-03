@@ -32,7 +32,7 @@ The accepted all-awards payload contains 172 catalogues and 6,323 items. Craft c
 
 Production corrections, poster recovery and saved-item migration are recorded in [the corrections log](awards-corrections.md) and [the mapping audit](../reports/awards-work-mapping-audit.md). Issue #43 retains 145 pending credit diagnostics, the Trouble in Tahiti ambiguity, and the unresolved compatible IMDb identities for withheld productions. Genuine artwork gaps stay blank under the owner's preference. People artwork remains deferred.
 
-PR #42 / Issue #41 track publication, main CI/Pages verification and deployed-byte checks. Preserve the release as annotated tag and GitHub Release `v1.4.0`. Emmy source and scope planning follows publication.
+PR #42 merged as `d9219c73d87064947e6e9c8fb380dfe62c1bdbd4`. Main CI and GitHub Pages passed, and all 512 deployed public files returned HTTP 200 and byte-matched raw Git blobs from the merge. Annotated tag and GitHub Release `v1.4.0` preserve that exact release. Issue #41 is closed and the merged Craft branch was removed. [Emmy source and scope planning](emmy-history.md) follows publication.
 
 ## Historical V1.4 preparation checkpoint — 2026-09-16
 
