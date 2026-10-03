@@ -178,8 +178,42 @@
           "evidence": [
             "https://www.televisionacademy.com/awards/nominees-winners/1956/best-action-or-adventure-series"
           ],
-          "disposition": "pending-review",
-          "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
+          "disposition": "current-lineage",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Every acquired period is reviewed; the archive slug does not establish a separate modern award or override the actual source heading.",
+          "periods": [
+            {
+              "years": [
+                1956
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "variety-series",
+              "reason": "Disneyland won the entire 1956 Action Or Adventure Series programme field, with ABC and n/a. The Academy programme record independently retains its 1955 Variety Series win; the original 1986 Academy tribute establishes the mixed documentary, adventure, cartoon and nature anthology, with Davy Crockett only a segment. Follow the existing Variety Series production contract, preserving the separate 1956 award heading and year. Do not substitute one scripted/animated episode, a theatrical compilation, the later renamed NBC series or Walt Disney's separate Producer/Hall of Fame awards.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1956/best-action-or-adventure-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Action Or Adventure Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1956,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1956/best-action-or-adventure-series",
+                  "sha256": "29b263521a906368704c26bccaec7f23667843c570766880308dce3f08b293ae",
+                  "winnerSourceKeys": [
+                    "2f2e7625dda9325e23e237fbe95ce4049e105df721c54380372d47db9c3a8ade"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/features/news/hall-fame/walt-disney-hall-fame-tribute",
+                "https://www.televisionacademy.com/shows/disneyland"
+              ]
+            }
+          ],
+          "externalEvidence": [
+            "https://www.televisionacademy.com/features/news/hall-fame/walt-disney-hall-fame-tribute",
+            "https://www.televisionacademy.com/shows/disneyland"
+          ]
         },
         {
           "sourceSlug": "best-actor",
@@ -33850,6 +33884,26 @@
       "byteCount": 622661,
       "context": "Planet earth\nproduction company National Academy of Sciences (U.S.) WQED\nProduction dates 1986\nDocumentary → Documentary films - United States",
       "contextSha256": "f46d20b0c067baea6678e395e279e3bc7a0f366bfb9b807c9dcdc410a2f3d610"
+    },
+    {
+      "url": "https://www.televisionacademy.com/features/news/hall-fame/walt-disney-hall-fame-tribute",
+      "resolvedUrl": "https://www.televisionacademy.com/features/news/hall-fame/walt-disney-hall-fame-tribute",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "a04e1491741448f613a8ab704844f0694b178f4f4176595932c85b74b1afc17c",
+      "byteCount": 325824,
+      "context": "The show, hosted by Walt Disney, made use of documentaries, action adventures, cartoons, and nature stories.\nDisneyland’s anthology series\nDavy Crockett",
+      "contextSha256": "5d788ad88d1bded9fc98d541e7e21f8868e78607d212841c31d532d55bd50ecb"
+    },
+    {
+      "url": "https://www.televisionacademy.com/shows/disneyland",
+      "resolvedUrl": "https://www.televisionacademy.com/shows/disneyland",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "722a85127412fd0c2bdb5341017bb17c57f86148c0628ffecd375b9b5d1ab1c1",
+      "byteCount": 351049,
+      "context": "Winner Best Variety Series Including Musical Varieties - 1955 Disneyland ABC n/a",
+      "contextSha256": "a52da93180864a7fc2d196c7264db0b3959b901929cd44ddf96fb9d03cb0a939"
     }
   ],
   "annualExceptions": [

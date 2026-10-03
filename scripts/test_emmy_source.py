@@ -597,6 +597,40 @@ class EmmyLineageReviewTests(unittest.TestCase):
                     with self.subTest(redirected=rejected), self.assertRaises(SourceError):
                         evidence(value, url, context=True)
 
+    def test_disneyland_action_adventure_award_keeps_whole_anthology_and_separate_award(self):
+        slug = "best-action-or-adventure-series"
+        decision = self.decisions[slug]
+        self.assertEqual(decision["disposition"], "current-lineage")
+        self.assertEqual(category_for_year(decision, 1956), "variety-series")
+        snapshot = load(SOURCE_DIR / "official-winners-1949-2026.json")
+        page = next(p for p in snapshot["pages"] if p["sourceUrl"].endswith('/1956/' + slug))
+        self.assertEqual(page["sourceCategory"], "Best Action Or Adventure Series")
+        self.assertEqual(len(page["winners"]), 1)
+        winner = page["winners"][0]
+        self.assertEqual(winner["heading"], "Disneyland")
+        self.assertEqual(winner["programmes"], [{"name": "Disneyland", "url": "https://www.televisionacademy.com/shows/disneyland"}])
+        self.assertEqual(winner["sourceDetailLines"], ["ABC"])
+        self.assertEqual(winner["credits"], [{"name": "n/a", "role": ""}])
+        self.assertEqual(review_for_year(decision, 1956)["reviewedSourcePages"][0]["winnerSourceKeys"], [winner["sourceKey"]])
+        other = next(p for p in snapshot["pages"]
+                     if p["sourceUrl"].endswith('/1955/outstanding-variety-music-or-comedy-series'))
+        self.assertEqual(other["sourceCategory"], "Best Variety Series Including Musical Varieties")
+        self.assertIn("Disneyland", [w["heading"] for w in other["winners"]])
+
+    def test_disneyland_context_separates_mixed_anthology_from_segments_and_honorary_awards(self):
+        contexts = {s["url"]: s["context"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]}
+        tribute = "https://www.televisionacademy.com/features/news/hall-fame/walt-disney-hall-fame-tribute"
+        programme = "https://www.televisionacademy.com/shows/disneyland"
+        self.assertIn("documentaries, action adventures, cartoons, and nature stories", contexts[tribute])
+        self.assertIn("Disneyland’s anthology series", contexts[tribute])
+        self.assertIn("Davy Crockett", contexts[tribute])
+        self.assertIn("Winner Best Variety Series Including Musical Varieties - 1955 Disneyland ABC n/a", contexts[programme])
+        review = review_for_year(self.decisions["best-action-or-adventure-series"], 1956)
+        self.assertEqual(set(review["externalEvidence"]), {tribute, programme})
+        # The tribute establishes programme format only. Its honoree and the
+        # separate producer win never add a recipient to this programme award.
+        self.assertEqual(review["years"], [1956])
+
     def test_original_living_planet_keeps_full_series_and_exact_recipients(self):
         slug = "outstanding-informational-series"
         self.assertEqual(category_for_year(self.decisions[slug], 1985), "hosted-nonfiction-series-or-special")
@@ -911,9 +945,9 @@ class EmmyLineageReviewTests(unittest.TestCase):
                 page = next(p for p in snapshot["pages"] if p["sourceUrl"].endswith(f'/{year}/' + slug))
                 self.assertEqual([w["heading"] for w in page["winners"]], [work])
                 self.assertEqual(category_for_year(self.decisions[slug], year), "drama-series")
-        # An Action/Adventure label alone cannot establish the mixed-format
-        # Disneyland programme's predecessor under Drama or Variety.
-        self.assertIsNone(category_for_year(self.decisions["best-action-or-adventure-series"], 1956))
+        # Disneyland's mixed anthology has its own reviewed Variety contract;
+        # the Action/Adventure heading cannot make it another Drama branch.
+        self.assertEqual(category_for_year(self.decisions["best-action-or-adventure-series"], 1956), "variety-series")
 
     def test_one_supporting_slug_preserves_its_special_and_series_headings(self):
         slug = "outstanding-single-performance-by-a-supporting-actress"

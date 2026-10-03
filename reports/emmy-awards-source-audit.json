@@ -3,7 +3,7 @@
   "inputSha256": {
     "current-category-pages.json": "f813c92661d7c88ab1653ed9c3d634f8f41c0e0eb87ca0d017174765b98475c0",
     "annual-indices.json": "4bed2b1e02c4f46f3d0ce5b36afac36d58215048c0fea0830471390d8b8e9388",
-    "lineage-decisions.json": "1dec8b78fcdd171777eda702b43c1a39a1592a8a349bc5d61f78b609f1e9d40b",
+    "lineage-decisions.json": "d2d05b9a7fa98ef39d54e005883286533151fda5f99d63a59ac7a0927db2cb0e",
     "official-winners-1949-2026.json": "7b6739deab3dbb308b2d1c39ce2ac27b91277a9f8b92e6736191501670b75204",
     "winner-release-evidence-2026.json": "22f013193d628473431db094328240d17b0ad5ade937e9aa5314d68b5bb64fe6",
     "manifest.json": "226970d09fe0ab38b33075106abb893a21e6d27615f17cf9dfb15e1c2015e3b7"
@@ -16,12 +16,12 @@
     "annualCategoryLinkCount": 5437,
     "historicalPageSlugCount": 500,
     "scopeExcludedSlugCount": 350,
-    "pendingLineageSlugCount": 25,
-    "reviewedLineageSlugCount": 125,
+    "pendingLineageSlugCount": 24,
+    "reviewedLineageSlugCount": 126,
     "retainedScopeExcludedPageCount": 16,
     "retainedScopeExcludedWinnerRecordCount": 17,
-    "reviewedAllocationPageCount": 2333,
-    "reviewedWinnerAllocationCount": 2389,
+    "reviewedAllocationPageCount": 2334,
+    "reviewedWinnerAllocationCount": 2390,
     "acquiredCandidatePageCount": 2480,
     "candidateWinnerRecordCount": 2587,
     "independentlyReconciledNoAwardPageCount": 1,
@@ -3116,8 +3116,8 @@
       "id": "variety-series",
       "name": "OUTSTANDING VARIETY SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 92,
-      "reviewedWinnerAllocationCount": 93,
+      "reviewedSourcePageCount": 93,
+      "reviewedWinnerAllocationCount": 94,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -6756,15 +6756,6 @@
           "reason": "The 1951 local KFI-TV University Educational Show winner still needs production-specific format and predecessor review. Its title or later hosted educational winners cannot certify its narrative format, credit identities or modern category."
         }
       ]
-    },
-    {
-      "sourceSlug": "best-action-or-adventure-series",
-      "firstYear": 1956,
-      "lastYear": 1956,
-      "menuLabels": [
-        "Action Or Adventure Series"
-      ],
-      "reason": "Historical programme, mixed performance or achievement category requires individual predecessor/exclusion review. No modern lineage has been inferred from the wording."
     },
     {
       "sourceSlug": "best-actor",
