@@ -13247,28 +13247,6 @@
             },
             {
               "years": [
-                1997,
-                1996,
-                1995,
-                1992,
-                1986,
-                1985,
-                1978
-              ],
-              "disposition": "pending-review",
-              "reason": "Remaining original Informational Series productions and complete tied pages require specific format evidence; this hosted historical discussion does not certify them.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-series"
-              ]
-            },
-            {
-              "years": [
                 1981
               ],
               "disposition": "current-lineage",
@@ -13294,6 +13272,116 @@
                 "https://www.televisionacademy.com/features/news/hall-fame/steve-allen-hall-fame-tribute",
                 "https://www.televisionacademy.com/features/news/awards-news/emmy-rules-changes-191217"
               ]
+            },
+            {
+              "years": [
+                1997
+              ],
+              "disposition": "current-lineage",
+              "reason": "Review both tied Informational Series winners by their actual narrative formats. Biography has a central presenter; The Great War is an eight-part archive-based documentary. Preserve the original Series heading, A&E/PBS broadcasters and all five/three recipients with their unavailable roles. Production hosts and named documentary crew cannot become additional Emmy recipients or fill missing roles.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1997,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-series",
+                  "sha256": "c309bd8d851b0d1b2f9e45e9aead8daae3fcebb89d95c38795b234805d3002c2",
+                  "winnerSourceKeys": [
+                    "31b0a680c80f123a0fdf4342b56ec6e87287dcaca4c32e133398245e207eac08",
+                    "80e41081f04c965931d4e08bd56a5cbcea44cffd0649d47504d4296920851d4a"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.televisionacademy.com/bios/jack-perkins",
+                "https://peabodyawards.com/award-profile/the-great-war-and-the-shaping-of-the-20th-century/"
+              ],
+              "winnerAllocations": [
+                {
+                  "year": 1997,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-series",
+                  "sourceKey": "31b0a680c80f123a0fdf4342b56ec6e87287dcaca4c32e133398245e207eac08",
+                  "disposition": "current-lineage",
+                  "currentCategory": "hosted-nonfiction-series-or-special",
+                  "reason": "The Academy's Jack Perkins biography expressly identifies his 1994–1999 hosting of the original A&E Biography series. Follow Hosted Nonfiction under the reviewed presenter-led narrative scope; its documentary description does not erase that central host. Preserve all five original programme recipients without substituting a modern revival or turning the separate hosting activity into a Host award."
+                },
+                {
+                  "year": 1997,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-series",
+                  "sourceKey": "80e41081f04c965931d4e08bd56a5cbcea44cffd0649d47504d4296920851d4a",
+                  "disposition": "current-lineage",
+                  "currentCategory": "documentary-or-nonfiction-series",
+                  "reason": "The original institutional production account describes eight parts assembled from vintage film, photos, letters and diaries. Follow Documentary/Nonfiction Series for this specific 1996 KCET/BBC production, preserving the 1997 Academy ceremony and all three unavailable recipient roles. The Peabody recognition supplies no Emmy outcomes; other identically named war series are not substituted."
+                }
+              ]
+            },
+            {
+              "years": [
+                1996,
+                1992,
+                1986,
+                1985,
+                1978
+              ],
+              "disposition": "pending-review",
+              "reason": "Remaining Informational Series periods require original production-format review, including all winners on the 1986 Olivier/Planet Earth tied page. Narration or a generic series label alone does not settle the central presenter/documentary boundary; original recipient roles remain separate from production-format evidence.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1996/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-series"
+              ]
+            },
+            {
+              "years": [
+                1995
+              ],
+              "disposition": "current-lineage",
+              "reason": "Review both tied Informational Series programmes together. PBS identifies the original nine-part 1994 Baseball documentary, separately from the later two-part Tenth Inning. The original Congressional Record preserves Coble's first-hand account of being interviewed by TV Nation host Michael Moore before its 1994 NBC premiere. Follow documentary and hosted successors separately, preserving both Academy winners, the exact truncated Baseball title, PBS/NBC and all four/eight recipients with unavailable roles. No ordinary production role is copied into an Emmy credit.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1995,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-series",
+                  "sha256": "a8d362bf9ff02f1f1ddebe73336eac651ec07e86465e95108cdabdc8ae7ded6a",
+                  "winnerSourceKeys": [
+                    "58023a35dd4be8a80c1eb4a4dbdd6af5aeff0cee125ee328ac63642917998afc",
+                    "f1701295072eed8f2ba1e77fd10d5d0ec16717fa54bbf1b7fa0d13bdf476a753"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.pbs.org/kenburns/baseball/about",
+                "https://www.congress.gov/103/crecb/1994/05/10/GPO-CRECB-1994-pt7-7-1.pdf"
+              ],
+              "winnerAllocations": [
+                {
+                  "year": 1995,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-series",
+                  "sourceKey": "58023a35dd4be8a80c1eb4a4dbdd6af5aeff0cee125ee328ac63642917998afc",
+                  "disposition": "current-lineage",
+                  "currentCategory": "documentary-or-nonfiction-series",
+                  "reason": "PBS's original filmmakers' account describes the eighteen-and-a-half-hour history and nine-part documentary debut in 1994. Follow Documentary/Nonfiction Series for the 1995 Emmy winner, retaining its truncated original source title, PBS and four credited recipients. The later Tenth Inning, narrator, interviewees and unrelated awards are not substituted."
+                },
+                {
+                  "year": 1995,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-series",
+                  "sourceKey": "f1701295072eed8f2ba1e77fd10d5d0ec16717fa54bbf1b7fa0d13bdf476a753",
+                  "disposition": "current-lineage",
+                  "currentCategory": "hosted-nonfiction-series-or-special",
+                  "reason": "The May 10, 1994 House record preserves participant Howard Coble's own statement that he was interviewed by Michael Moore, host of the new NBC/BBC TV Nation. This contemporaneous participant evidence establishes the central hosted/interview format under the reviewed nonfiction successor. Preserve the 1995 Academy programme award, NBC and all eight unavailable recipient roles. Coble's political resolution is not an Emmy outcome; the 1995 FOX season and differently credited same-name biographies are not used to rewrite the original award."
+                }
+              ]
             }
           ],
           "externalEvidence": [
@@ -13303,10 +13391,14 @@
             "https://billmoyers.com/series/healing-and-the-mind/",
             "https://interviews.televisionacademy.com/interviews/bob-costas",
             "https://interviews.televisionacademy.com/shows/barbara-walters-specials",
+            "https://peabodyawards.com/award-profile/the-great-war-and-the-shaping-of-the-20th-century/",
             "https://sirismm.si.edu/EADpdfs/SIA.FA91-164.pdf",
+            "https://www.congress.gov/103/crecb/1994/05/10/GPO-CRECB-1994-pt7-7-1.pdf",
+            "https://www.pbs.org/kenburns/baseball/about",
             "https://www.pbs.org/wnet/americanmasters/masters/buster-keaton/",
             "https://www.pbs.org/wnet/americanmasters/masters/charlie-chaplin/",
             "https://www.pbs.org/wnet/americanmasters/series/",
+            "https://www.televisionacademy.com/bios/jack-perkins",
             "https://www.televisionacademy.com/features/emmy-magazine/articles/ken-burns-pbs-civil-war-documentary",
             "https://www.televisionacademy.com/features/news/awards-news/emmy-rules-changes-191217",
             "https://www.televisionacademy.com/features/news/features/forty-years-nature",
@@ -13655,38 +13747,6 @@
             },
             {
               "years": [
-                1995,
-                1992,
-                1990,
-                1988,
-                1987,
-                1986,
-                1985,
-                1984,
-                1983,
-                1981,
-                1980,
-                1978
-              ],
-              "disposition": "pending-review",
-              "reason": "Other original Informational Specials and every winner on remaining tied pages need production-specific format evidence. Reviewed films do not certify the whole source slug or separate undifferentiated individual awards.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1984/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1983/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-special"
-              ]
-            },
-            {
-              "years": [
                 1982
               ],
               "disposition": "current-lineage",
@@ -13738,16 +13798,174 @@
               "externalEvidence": [
                 "https://dcmp.org/media/4210-without-pity-a-film-about-abilities"
               ]
+            },
+            {
+              "years": [
+                1995,
+                1992,
+                1987,
+                1985,
+                1984,
+                1983,
+                1981,
+                1980
+              ],
+              "disposition": "pending-review",
+              "reason": "Remaining Informational Special periods need original documentary/hosted-format evidence. Tied pages remain withheld in full until all winning productions are allocated; production credits cannot fill missing Emmy roles or repair separate individual-achievement fields.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1984/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1983/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-informational-special"
+              ]
+            },
+            {
+              "years": [
+                1990
+              ],
+              "disposition": "current-lineage",
+              "reason": "Review both Informational Special winners in the same acceptance period. The original WNET archive identifies Woodward hosting and interviewing surviving Group Theatre members in Broadway's Dreamers; the PBS participant transcript identifies Bob Fosse: Steam Heat as a narrated documentary. Retain the exact truncated source titles, PBS and all original credits. Neither programme subject, narrator nor interviewee creates an Emmy recipient.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-informational-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Special"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1990,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-informational-special",
+                  "sha256": "466914974d88e9b278de1c8fa252c3e3ab9c49481b65cb06b7d10edadb463ab8",
+                  "winnerSourceKeys": [
+                    "93fc1459768f0d72a59690d0a990aca1308fd1f6c5716c4f88b926c8a637b319",
+                    "67215578e6aab66f9f7dfc0b76356ec4e60da695f38879eae249f55f54ca8fa7"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://americanarchive.org/catalog/cpb-aacip_75-41zcrzgc",
+                "https://www.pbs.org/wnet/americanmasters/group-theatre-about-the-group-theatre/622/",
+                "https://www.pbs.org/wnet/americanmasters/archive/interview/richard-adler/"
+              ],
+              "winnerAllocations": [
+                {
+                  "year": 1990,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-informational-special",
+                  "sourceKey": "93fc1459768f0d72a59690d0a990aca1308fd1f6c5716c4f88b926c8a637b319",
+                  "disposition": "current-lineage",
+                  "currentCategory": "hosted-nonfiction-series-or-special",
+                  "reason": "The WNET-contributed original production record identifies Joanne Woodward as the programme host interviewing surviving Group Theatre members. Follow Hosted Nonfiction using the central interview format. The PBS record pins the specific 1989 film, but its 1990 Emmy and five Producer/Executive Producer credits remain intact. Woodward's programme Producer award is not replaced by a hosting award or her separate nomination."
+                },
+                {
+                  "year": 1990,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-informational-special",
+                  "sourceKey": "67215578e6aab66f9f7dfc0b76356ec4e60da695f38879eae249f55f54ca8fa7",
+                  "disposition": "current-lineage",
+                  "currentCategory": "documentary-or-nonfiction-special",
+                  "reason": "The original PBS Richard Adler interview calls Steam Heat a documentary on Bob Fosse narrated by Gwen Verdon. Follow Documentary/Nonfiction Special for that specific profile rather than a musical performance or the entire Great Performances anthology. Preserve the original 1990 programme award and empty credited-recipient list; Fosse, Verdon and Adler are not supplied as recipients."
+                }
+              ]
+            },
+            {
+              "years": [
+                1986
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-special",
+              "reason": "Robert Weide's original production account expressly identifies the W.C. Fields documentary and its March 1986 PBS broadcast. Follow Documentary/Nonfiction Special, retaining Ronald J. Fields and Robert B. Weide with unavailable Academy roles. Archival comedy excerpts are not a new scripted performance; the producer's nomination-replacement account does not amend the Academy winner or resolve other award pages.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Special"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1986,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-special",
+                  "sha256": "a9efcc9c9603a25244483c15c418c1db7424093a957b9b58b47b48709fd187df",
+                  "winnerSourceKeys": [
+                    "05aa2ab7629575b12152636682de11e729906ee6a7d3df59043b8a8598cc1fb0"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.duckprods.com/projects/wcfields/index.html"
+              ]
+            },
+            {
+              "years": [
+                1988
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-special",
+              "reason": "The AFI preservation record identifies the specific 1987 Dear America film and its original onscreen prologue: all footage is real, with nothing re-enacted. Follow Documentary/Nonfiction Special; actors reading the soldiers' letters do not turn it into a scripted production. Preserve the 1988 HBO Academy award and Thomas Bird/Bill Couturie with unavailable roles. Film release dates and ordinary production writing credits cannot replace Emmy ceremony years, recipients or separate Individual Achievement roles.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-informational-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Special"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1988,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-informational-special",
+                  "sha256": "435a2628eb26500d6866c01c4f917c7792d33162cf7360194ae1bca232037ea9",
+                  "winnerSourceKeys": [
+                    "733896428ac4d82db8773fc68ac045f2c05044f4a95475fd1131e53e4eca816b"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://catalog.afi.com/Film/57599-DEAR-AMERICALETTERSHOMEFROMVIETNAM"
+              ]
+            },
+            {
+              "years": [
+                1978
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-special",
+              "reason": "The preserved original National Geographic production record describes actual whale footage, the February 16, 1978 broadcast and Scourby's narration. Follow Documentary/Nonfiction Special for The Great Whales, retaining PBS and Dennis B. Kane, Nicholas Noxon and Thomas Skinner with unavailable roles. Introductory hosting and narration do not create additional Emmy recipients; the original entry-form programme description supplies format only, not another institution's award facts.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Special"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1978,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-special",
+                  "sha256": "453fef77f4d39dbe593e2a9bdab4a6f0e4b058d5bda78809ca004512f9cdc4fd",
+                  "winnerSourceKeys": [
+                    "a59ee8a55f018d397de790cb2b4ed5c005473e478c83f055e66e31697453dc9f"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://americanarchive.org/catalog/cpb-aacip-526-251fj2bb0n"
+              ]
             }
           ],
           "externalEvidence": [
             "https://amblin.com/tv/survivors-of-the-holocaust/",
+            "https://americanarchive.org/catalog/cpb-aacip-526-251fj2bb0n",
+            "https://americanarchive.org/catalog/cpb-aacip_75-41zcrzgc",
+            "https://catalog.afi.com/Film/57599-DEAR-AMERICALETTERSHOMEFROMVIETNAM",
             "https://dcmp.org/media/4210-without-pity-a-film-about-abilities",
             "https://interviews.televisionacademy.com/interviews/dixon-dern",
             "https://interviews.televisionacademy.com/interviews/lucie-arnaz",
             "https://videoverite.tv/pages/iamapromisemain-2011.html",
             "https://videoverite.tv/pages/storemain-2011.html",
+            "https://www.duckprods.com/projects/wcfields/index.html",
             "https://www.lucasfilm.com/news/all-four-indiana-jones-movie-adventures-on-4k-ultra-hd-for-the-first-time/",
+            "https://www.pbs.org/wnet/americanmasters/archive/interview/richard-adler/",
+            "https://www.pbs.org/wnet/americanmasters/group-theatre-about-the-group-theatre/622/",
             "https://www.pbs.org/wnet/americanmasters/masters/edward-r-murrow/",
             "https://www.pbs.org/wnet/americanmasters/masters/lillian-gish/",
             "https://www.pbs.org/wnet/americanmasters/series/"
@@ -27270,10 +27488,37 @@
             },
             {
               "years": [
+                1998
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "variety-special-live",
+              "reason": "The original Tony 1997 history distinguishes the PBS Broadway 97 Launching the Tonys programme from the 51st Annual Tony Awards live CBS telecast. The exact 1998 Emmy winner credits The 1997 Tony Awards on CBS. Follow Live Variety Special for the main live awards programme, preserving its source year and all actual recipients; do not replace it with the PBS launch programme, a 1998 Tony production or names in the outside Emmy summary.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1998/outstanding-variety-music-or-comedy-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Variety, Music Or Comedy Special"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1998,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1998/outstanding-variety-music-or-comedy-special",
+                  "sha256": "ff7208545a075d681032e75475b43514a665c30b9364e164fd00c62dc86a2fb1",
+                  "winnerSourceKeys": [
+                    "ba00afbdf1081389f942a6fe02bc866c3c9a4a880f04dd3dd09d93e113c8dcf8"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.tonyawards.com/history/year-by-year/1997/",
+                "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212"
+              ]
+            },
+            {
+              "years": [
                 2017,
                 2016,
                 2015,
-                2014,
                 2013,
                 2012,
                 2011,
@@ -27282,7 +27527,6 @@
                 2006,
                 2005,
                 2003,
-                2002,
                 2001,
                 2000,
                 1999,
@@ -27308,12 +27552,11 @@
                 1966
               ],
               "disposition": "pending-review",
-              "reason": "Other Variety Special periods still require actual production-transmission evidence. Broadcast on CBS, stage performance, pre-taped segments and a similarly named programme do not alone establish a live television special.",
+              "reason": "Remaining Variety Special productions need exact original television-transmission evidence. A live stage performance, generic network/date label, ceremony webcast or title containing Live does not establish a live television special; retain source-year eligibility and all recipients.",
               "evidence": [
                 "https://www.televisionacademy.com/awards/nominees-winners/2017/outstanding-variety-music-or-comedy-special",
                 "https://www.televisionacademy.com/awards/nominees-winners/2016/outstanding-variety-music-or-comedy-special",
                 "https://www.televisionacademy.com/awards/nominees-winners/2015/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2014/outstanding-variety-music-or-comedy-special",
                 "https://www.televisionacademy.com/awards/nominees-winners/2013/outstanding-variety-music-or-comedy-special",
                 "https://www.televisionacademy.com/awards/nominees-winners/2012/outstanding-variety-music-or-comedy-special",
                 "https://www.televisionacademy.com/awards/nominees-winners/2011/outstanding-variety-music-or-comedy-special",
@@ -27322,7 +27565,6 @@
                 "https://www.televisionacademy.com/awards/nominees-winners/2006/outstanding-variety-music-or-comedy-special",
                 "https://www.televisionacademy.com/awards/nominees-winners/2005/outstanding-variety-music-or-comedy-special",
                 "https://www.televisionacademy.com/awards/nominees-winners/2003/outstanding-variety-music-or-comedy-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/2002/outstanding-variety-music-or-comedy-special",
                 "https://www.televisionacademy.com/awards/nominees-winners/2001/outstanding-variety-music-or-comedy-special",
                 "https://www.televisionacademy.com/awards/nominees-winners/2000/outstanding-variety-music-or-comedy-special",
                 "https://www.televisionacademy.com/awards/nominees-winners/1999/outstanding-variety-music-or-comedy-special",
@@ -27350,34 +27592,62 @@
             },
             {
               "years": [
-                1998
+                2014
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "variety-special-pre-recorded",
+              "reason": "AFI's original June 7, 2013 release explicitly says the Brooks gala was taped at the Dolby Theatre and would premiere June 15 on TNT. Follow Prerecorded Variety for the 2014 Academy programme award. Preserve Bob Gazzale, Cort Casady, Chris Merrill and Martin Short with their exact roles; honoree Mel Brooks and gala performers are not Emmy recipients. The AFI honorary film award does not make its separately awarded TV programme an excluded honorary Emmy or shift the ceremony year.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/2014/outstanding-variety-music-or-comedy-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Variety Special"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 2014,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2014/outstanding-variety-music-or-comedy-special",
+                  "sha256": "ba9ea1a051b21ed35d96bd750cab21604fca06ab2f8a7052b07bd177218527d8",
+                  "winnerSourceKeys": [
+                    "b844587d6bf0f9546512662fdd04d662591a79606723bbbbd4a7fa29ac5bcf47"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.afi.com/press/afi_laa_2013_brooks/"
+              ]
+            },
+            {
+              "years": [
+                2002
               ],
               "disposition": "current-lineage",
               "currentCategory": "variety-special-live",
-              "reason": "The original Tony 1997 history distinguishes the PBS Broadway 97 Launching the Tonys programme from the 51st Annual Tony Awards live CBS telecast. The exact 1998 Emmy winner credits The 1997 Tony Awards on CBS. Follow Live Variety Special for the main live awards programme, preserving its source year and all actual recipients; do not replace it with the PBS launch programme, a 1998 Tony production or names in the outside Emmy summary.",
+              "reason": "The original institutional production description expressly states that America: A Tribute to Heroes was carried live by more than thirty radio, television and cable networks. Follow Live Variety for the actual 2001 telethon and preserve the 2002 Academy programme award with Joel Gallen's sole Executive Producer credit. The original Academy result has no network detail; do not fill it from the transmission account or add performers, contributing writers or a Peabody award as Emmy facts.",
               "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1998/outstanding-variety-music-or-comedy-special"
+                "https://www.televisionacademy.com/awards/nominees-winners/2002/outstanding-variety-music-or-comedy-special"
               ],
               "reviewedSourceHeadings": [
                 "Outstanding Variety, Music Or Comedy Special"
               ],
               "reviewedSourcePages": [
                 {
-                  "year": 1998,
-                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1998/outstanding-variety-music-or-comedy-special",
-                  "sha256": "ff7208545a075d681032e75475b43514a665c30b9364e164fd00c62dc86a2fb1",
+                  "year": 2002,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2002/outstanding-variety-music-or-comedy-special",
+                  "sha256": "847f393438f789996e0875571fa14c86838be034315ad25b7e0b16397ffb771d",
                   "winnerSourceKeys": [
-                    "ba00afbdf1081389f942a6fe02bc866c3c9a4a880f04dd3dd09d93e113c8dcf8"
+                    "e22b2c69bb3d2aeb1ae7d27115a0367ece00557693b07bdddfdddd3e92ff6ccb"
                   ]
                 }
               ],
               "externalEvidence": [
-                "https://www.tonyawards.com/history/year-by-year/1997/",
-                "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212"
+                "https://peabodyawards.com/award-profile/america-a-tribute-to-heroes/"
               ]
             }
           ],
           "externalEvidence": [
+            "https://peabodyawards.com/award-profile/america-a-tribute-to-heroes/",
+            "https://www.afi.com/press/afi_laa_2013_brooks/",
             "https://www.televisionacademy.com/bios/da-pennebaker",
             "https://www.televisionacademy.com/features/news/events/evening-liza-z",
             "https://www.televisionacademy.com/features/news/news/edward-stephenson-primetime-emmy-winning-production-designer-passes",
@@ -32995,6 +33265,129 @@
       ],
       "context": "Since the program's debut in 1950,\nCITY AT NIGHT\nscript written for the announcer\nasking spontane- ous questions\nby Ken Graue.\nMarch 2, 1956",
       "contextSha256": "eaafdb4303770f61792c9a67ab2dded047b52a881ed8bab89a1a4b0f0c25bd9d"
+    },
+    {
+      "url": "https://www.televisionacademy.com/bios/jack-perkins",
+      "resolvedUrl": "https://www.televisionacademy.com/bios/jack-perkins",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "c4427df5d679f223641e8d80f4d2cf3c01ea06e252617cc648d63f8e6b4c60fc",
+      "byteCount": 318786,
+      "context": "the A&E documentary series Biography, which he hosted from 1994 to 1999.",
+      "contextSha256": "b92944a8e2b1266189b1dc55e14e789c352136efcc20b807d997018ef4be8463"
+    },
+    {
+      "url": "https://peabodyawards.com/award-profile/the-great-war-and-the-shaping-of-the-20th-century/",
+      "resolvedUrl": "https://peabodyawards.com/award-profile/the-great-war-and-the-shaping-of-the-20th-century/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "6b4b517f5dcdddaa1bebc720de42da4fc88dd4064c5bd3fdc7c3ea3b69f583e6",
+      "byteCount": 71582,
+      "context": "original and vintage film, rare photos, letters, and diaries\nIn eight stirring parts",
+      "contextSha256": "bec03f8d347449dfcff7006289afb3c3684c2523894470c8100ac396cd6243ab"
+    },
+    {
+      "url": "https://www.pbs.org/wnet/americanmasters/archive/interview/richard-adler/",
+      "resolvedUrl": "https://www.pbs.org/wnet/americanmasters/archive/interview/richard-adler/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "f0d111984833690e4e78a8f298b92271829f7a762aa762c8de40612717de9e5e",
+      "byteCount": 285689,
+      "context": "there was a PBS documentary on Bob Fosse that Gwen Verdon, his widow, narrated called Steam Heat.",
+      "contextSha256": "04ca559e9b0202fc59c9af894ff56935927a12c0b3642eddc3955339e5d4ce1e"
+    },
+    {
+      "url": "https://www.pbs.org/wnet/americanmasters/group-theatre-about-the-group-theatre/622/",
+      "resolvedUrl": "https://www.pbs.org/wnet/americanmasters/group-theatre-about-the-group-theatre/622/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "4eee60da6cf7d6de4d24e846698faaad6c46014228b1f1ae9411632d1ae36d68",
+      "byteCount": 40806,
+      "context": "S3E7 Broadway's Dreamers: The Legacy of the Group Theatre Premiere: 6/26/1989",
+      "contextSha256": "1387726e9a942736e206206ed9d8817a47e90facdfbd04465e9ba2af697b4a4a"
+    },
+    {
+      "url": "https://americanarchive.org/catalog/cpb-aacip_75-41zcrzgc",
+      "resolvedUrl": "https://americanarchive.org/catalog/cpb-aacip_75-41zcrzgc",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "213c1b845bd7aa8f1acd1a3491e01b5c6ad3afd2ec9a3a3aecfef4733679819c",
+      "byteCount": 30276,
+      "context": "hosts the program and interviews Mesiner and other surviving members of the group including Bobby Lewis and Elia Kazan.",
+      "contextSha256": "71227de6029f95f0febb9f023611f7bfcdd7fdeaf885ff7f160bc66dbfe7f0c7"
+    },
+    {
+      "url": "https://www.duckprods.com/projects/wcfields/index.html",
+      "resolvedUrl": "https://www.duckprods.com/projects/wcfields/index.html",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "ba255a061a7c37b2f673839679d3a3c553cdf721500c28e6243d39c8fbb98574",
+      "byteCount": 16717,
+      "context": "making a similar documentary on W.C. Fields.\nThe show was originally broadcast on PBS in March of 1986.",
+      "contextSha256": "c2452aea62b3fa92d36890728deb0514337c37c8a909c4a6b47f36db14af110a"
+    },
+    {
+      "url": "https://catalog.afi.com/Film/57599-DEAR-AMERICALETTERSHOMEFROMVIETNAM",
+      "resolvedUrl": "https://catalog.afi.com/Film/57599-DEAR-AMERICALETTERSHOMEFROMVIETNAM",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "fec408fe4fdec9b407f026fe7304669d8abb36ab1af2abd500f3cdaf390403e9",
+      "byteCount": 364372,
+      "context": "Dear America: Letters Home From Vietnam ( 1987 )\nEvery scene, every shot in the film is real--nothing has been re-enacted.",
+      "contextSha256": "46647388e31d3061bbcb006139c93337868ef551b81e7663b5a8f588be3873ee"
+    },
+    {
+      "url": "https://www.afi.com/press/afi_laa_2013_brooks/",
+      "resolvedUrl": "https://www.afi.com/press/afi_laa_2013_brooks/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "981986e841b3d2bcb951e8598f5b874661cbe077dde471db4ed53f8a6af0cdf3",
+      "byteCount": 209271,
+      "context": "Friday, June 7, 2013\ngala was taped at the Dolby Theatre in Hollywood\nwill premiere on Saturday, June 15",
+      "contextSha256": "2b2a043d8cd484c60130df42bdb324a5003c94b26fce885882abf5cb7b81765f"
+    },
+    {
+      "url": "https://peabodyawards.com/award-profile/america-a-tribute-to-heroes/",
+      "resolvedUrl": "https://peabodyawards.com/award-profile/america-a-tribute-to-heroes/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "d43ec76afb41a01cc5a4c05fc6bfc44f23d2e7c0be08a8b4272dc0a5483e0ea2",
+      "byteCount": 71798,
+      "context": "program carried live, commercial free, by more than 30 radio, television and cable networks",
+      "contextSha256": "5f384517adacba2cbd4a9f1334016090e1a9fd815f8f0237ef0a8ae2170912d6"
+    },
+    {
+      "url": "https://americanarchive.org/catalog/cpb-aacip-526-251fj2bb0n",
+      "resolvedUrl": "https://americanarchive.org/catalog/cpb-aacip-526-251fj2bb0n",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "7ee2b37e91878e147e2d54a8f96c52bb001204fb4d88f19e55e2245c4ea144dd",
+      "byteCount": 164546,
+      "context": "film footage of the birth of a killer whale\nBroadcast Date 1978-02-16\nNarrator: Scourby, Alexander",
+      "contextSha256": "d6ade851eb0b7e4823650c47b7c00b6f9d740442a20380fe4a949e2aaef306c7"
+    },
+    {
+      "url": "https://www.pbs.org/kenburns/baseball/about",
+      "resolvedUrl": "https://www.pbs.org/kenburns/baseball/about",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "1ea5f3f88b0924d318e5cbfd837d4c6902ca78c7f4e9e1304c831dd9fe083c45",
+      "byteCount": 47735,
+      "context": "The original Emmy Award-winning, nine-part documentary series Baseball debuted in 1994\nThe Tenth Inning , a two-part, four-hour documentary",
+      "contextSha256": "24a918448ae028d891117a7f3869a0b06434c435173f64b66518d258ac19ab5b"
+    },
+    {
+      "url": "https://www.congress.gov/103/crecb/1994/05/10/GPO-CRECB-1994-pt7-7-1.pdf",
+      "resolvedUrl": "https://www.congress.gov/103/crecb/1994/05/10/GPO-CRECB-1994-pt7-7-1.pdf",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "6b012a9616885c53710737a1bb214f1ffaa3b3f88422602c959b5849ded70398",
+      "byteCount": 11586012,
+      "pageNumbers": [
+        5
+      ],
+      "context": "May 10, 1994\nTV NATION DAY\nMr. COBLE.\nI recently participated in an inter­\nview with Michael Moore, the host of \nthe new show",
+      "contextSha256": "5f21fe640065ac3f22efcf8da2793854c3451119d765918736269efb7380f37d"
     }
   ],
   "annualExceptions": [
