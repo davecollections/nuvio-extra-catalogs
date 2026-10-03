@@ -3,7 +3,7 @@
   "inputSha256": {
     "current-category-pages.json": "f813c92661d7c88ab1653ed9c3d634f8f41c0e0eb87ca0d017174765b98475c0",
     "annual-indices.json": "4bed2b1e02c4f46f3d0ce5b36afac36d58215048c0fea0830471390d8b8e9388",
-    "lineage-decisions.json": "0f40efd3224cf5aa058a19095d2611550ef37d9e032041ae96d7b2aa1bf1706f",
+    "lineage-decisions.json": "ed85cdb05b7386d9e1aaa6d946f8c65a71ad2b1ad6e7c3fb8000069ccfdbd21f",
     "official-winners-1949-2026.json": "7b6739deab3dbb308b2d1c39ce2ac27b91277a9f8b92e6736191501670b75204",
     "winner-release-evidence-2026.json": "22f013193d628473431db094328240d17b0ad5ade937e9aa5314d68b5bb64fe6",
     "manifest.json": "226970d09fe0ab38b33075106abb893a21e6d27615f17cf9dfb15e1c2015e3b7"
@@ -16,12 +16,12 @@
     "annualCategoryLinkCount": 5437,
     "historicalPageSlugCount": 500,
     "scopeExcludedSlugCount": 350,
-    "pendingLineageSlugCount": 26,
-    "reviewedLineageSlugCount": 124,
+    "pendingLineageSlugCount": 25,
+    "reviewedLineageSlugCount": 125,
     "retainedScopeExcludedPageCount": 16,
     "retainedScopeExcludedWinnerRecordCount": 17,
-    "reviewedAllocationPageCount": 2305,
-    "reviewedWinnerAllocationCount": 2356,
+    "reviewedAllocationPageCount": 2314,
+    "reviewedWinnerAllocationCount": 2365,
     "acquiredCandidatePageCount": 2480,
     "candidateWinnerRecordCount": 2587,
     "independentlyReconciledNoAwardPageCount": 1,
@@ -800,8 +800,8 @@
       "id": "documentary-or-nonfiction-special",
       "name": "OUTSTANDING DOCUMENTARY OR NONFICTION SPECIAL",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 37,
-      "reviewedWinnerAllocationCount": 39,
+      "reviewedSourcePageCount": 39,
+      "reviewedWinnerAllocationCount": 41,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -832,11 +832,13 @@
         2000,
         1999,
         1998,
+        1997,
         1996,
         1994,
         1993,
         1991,
         1989,
+        1982,
         1979,
         1964,
         1963
@@ -942,8 +944,8 @@
       "id": "hosted-nonfiction-series-or-special",
       "name": "OUTSTANDING HOSTED NONFICTION SERIES OR SPECIAL",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 24,
-      "reviewedWinnerAllocationCount": 26,
+      "reviewedSourcePageCount": 25,
+      "reviewedWinnerAllocationCount": 27,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -968,7 +970,8 @@
         1966,
         1962,
         1955,
-        1954
+        1954,
+        1951
       ],
       "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
@@ -1061,8 +1064,8 @@
       "id": "variety-special-live",
       "name": "OUTSTANDING VARIETY SPECIAL (LIVE)",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 17,
-      "reviewedWinnerAllocationCount": 17,
+      "reviewedSourcePageCount": 18,
+      "reviewedWinnerAllocationCount": 18,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -1073,6 +1076,7 @@
         2020,
         2019,
         2018,
+        2017,
         2016,
         2014,
         2013,
@@ -1088,8 +1092,8 @@
       "id": "variety-special-pre-recorded",
       "name": "OUTSTANDING VARIETY SPECIAL (PRE-RECORDED)",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 15,
-      "reviewedWinnerAllocationCount": 15,
+      "reviewedSourcePageCount": 17,
+      "reviewedWinnerAllocationCount": 17,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -1100,9 +1104,11 @@
         2020,
         2019,
         2018,
+        2015,
         2008,
         2007,
         2004,
+        2002,
         1973,
         1959
       ],
@@ -3087,8 +3093,8 @@
       "id": "variety-series",
       "name": "OUTSTANDING VARIETY SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 89,
-      "reviewedWinnerAllocationCount": 90,
+      "reviewedSourcePageCount": 92,
+      "reviewedWinnerAllocationCount": 93,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -6828,28 +6834,6 @@
       ]
     },
     {
-      "sourceSlug": "best-public-service-program-or-series",
-      "firstYear": 1950,
-      "lastYear": 1959,
-      "menuLabels": [
-        "Public Service Program Or Series",
-        "Public Service Series",
-        "Public Service",
-        "Public Service, Cultural Or Educational Program"
-      ],
-      "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
-      "pendingPeriods": [
-        {
-          "years": [
-            1959,
-            1958,
-            1951
-          ],
-          "reason": "The remaining City at Night and Omnibus Public Service periods still need original format evidence; the independently acquired 1949 production history does not certify them."
-        }
-      ]
-    },
-    {
       "sourceSlug": "outstanding-achievement-in-coverage-of-special-events-individuals",
       "firstYear": 1977,
       "lastYear": 1978,
@@ -6892,10 +6876,9 @@
           "years": [
             1995,
             1994,
-            1955,
             1951
           ],
-          "reason": "The 1951/1955 cultural programme formats and 1994/1995 undifferentiated cultural individual awards still need review. The explicit 1997 Performance heading is excluded with its inspected winner evidence retained."
+          "reason": "The original 1951 Campus Chorus and Orchestra programme format and the 1994/1995 undifferentiated individual Cultural achievements still need production/award-role review. Omnibus does not certify them; the independently reviewed 1997 Performance exclusion stays intact."
         }
       ]
     },
@@ -6997,7 +6980,6 @@
       "pendingPeriods": [
         {
           "years": [
-            1997,
             1995,
             1992,
             1990,
@@ -7007,12 +6989,11 @@
             1985,
             1984,
             1983,
-            1982,
             1981,
             1980,
             1978
           ],
-          "reason": "Other Informational Special formats and complete tied pages still require original production evidence; no separate Individual Achievement awards are allocated from documentary genre."
+          "reason": "Other original Informational Specials and every winner on remaining tied pages need production-specific format evidence. Reviewed films do not certify the whole source slug or separate undifferentiated individual awards."
         }
       ]
     },
@@ -7087,18 +7068,15 @@
       "pendingPeriods": [
         {
           "years": [
-            2017,
-            2015,
             2009,
             2007,
             2005,
             2004,
-            2002,
             1989,
             1980,
             1979
           ],
-          "reason": "Other original Special Class productions and complete mixed-winner pages require format/transmission evidence; selected Tony live simulcasts do not certify every annual edition or merely live red-carpet/webcast coverage."
+          "reason": "Other exact Special Class productions and whole mixed-winner pages remain withheld until original format/transmission evidence is available. The 70th Tony telecast does not certify other editions, and a Live title or live red-carpet webcast cannot determine the full programme route."
         }
       ]
     },

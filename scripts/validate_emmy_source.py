@@ -29,12 +29,19 @@ PRODUCER_CONTEXT_PATHS = {
     "peabodyawards.com": {"/award-profile/the-search-for-the-nile/"},
     "findingaids.library.nyu.edu": {"/nyhs/timeinc_ms3009_rg41/contents/aspace_ref131_hng/"},
     "www.history.navy.mil": {"/about-us/leadership/director/directors-corner/h-grams/h-gram-003.html"},
+    "www.lucasfilm.com": {"/news/all-four-indiana-jones-movie-adventures-on-4k-ultra-hd-for-the-first-time/"},
+    "billzarchy.com": {"/blog/polishing-the-talking-head-the-west-wing-documentary-special/"},
+    "dcmp.org": {"/media/4210-without-pity-a-film-about-abilities"},
+    "www.latimes.com": {"/archives/la-xpm-1986-01-05-tm-24452-story.html"},
+    "www.worldradiohistory.com": {"/Archive-Radio-Life/50s/56/TV-Radio-Life-1956-03-02.pdf"},
     "www.tonyawards.com": {
+        "/news/tony-awards-live-stream-returns-to-bring-you-more-red-carpet-and-behind-the-scenes-magic-for-2016/",
         "/history/year-by-year/1980/", "/history/year-by-year/1997/",
         "/history/year-by-year/2009/", "/history/year-by-year/2010/",
         "/history/year-by-year/2012/", "/history/year-by-year/2013/",
     },
     "www.pbs.org": {
+        "/about/about-pbs/blogs/news/pbs-announces-new-fall-season-lineup/",
         "/wnet/gperf/eric-clapton-crossroads-guitar-festival-chicago-chicago-blues-overview/404/",
         "/about/about-pbs/blogs/news/pbs-offers-music-and-dance-lovers-exciting-new-performance-specials-throughout-march-and-april-february-13-2008/",
     },
@@ -58,8 +65,8 @@ def source_url(value, year=None, *, context=False):
         if (parsed.path.startswith("/wnet/americanmasters/")
                 and not {".", ".."}.intersection(unquote(parsed.path).split("/"))):
             hosts.add("www.pbs.org")
-        # Exact original producer/format-owner records establish format and
-        # historical production context, not Emmy outcomes or recipient roles.
+        # Exact production records and original participant accounts establish
+        # format and context, not Emmy outcomes or missing recipient roles.
         if (parsed.path in PRODUCER_CONTEXT_PATHS.get(parsed.netloc, set())
                 and not parsed.params and not parsed.query and not parsed.fragment):
             hosts.add(parsed.netloc)

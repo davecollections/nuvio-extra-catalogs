@@ -2161,8 +2161,8 @@
             "https://www.televisionacademy.com/awards/nominees-winners/1950/best-public-service-program-or-series",
             "https://www.televisionacademy.com/awards/nominees-winners/1959/best-public-service-program-or-series"
           ],
-          "disposition": "pending-review",
-          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
+          "disposition": "current-lineage",
+          "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Every acquired period is reviewed; the archive slug does not establish a separate modern award or override the actual source heading.",
           "periods": [
             {
               "years": [
@@ -2195,20 +2195,6 @@
             },
             {
               "years": [
-                1959,
-                1958,
-                1951
-              ],
-              "disposition": "pending-review",
-              "reason": "The remaining City at Night and Omnibus Public Service periods still need original format evidence; the independently acquired 1949 production history does not certify them.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1959/best-public-service-program-or-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1958/best-public-service-program-or-series",
-                "https://www.televisionacademy.com/awards/nominees-winners/1951/best-public-service-program-or-series"
-              ]
-            },
-            {
-              "years": [
                 1950
               ],
               "disposition": "current-lineage",
@@ -2233,13 +2219,83 @@
               "externalEvidence": [
                 "https://findingaids.library.nyu.edu/nyhs/timeinc_ms3009_rg41/contents/aspace_ref131_hng/"
               ]
+            },
+            {
+              "years": [
+                1959,
+                1958
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "variety-series",
+              "reason": "The Academy Foundation authored original-production account identifies Omnibus as a cultural variety magazine combining arts, literature, science and history during 1952–1961, separately from the 1981 ABC revival. Its original 1954 Variety Programme eligibility corroborates that hybrid format. The 1958/1959 broad Public Service programme wins follow Variety Series rather than an automatic Documentary or Hosted allocation from the migrated URL or Cooke's MC role. Keep ABC & NBC/NBC and n/a exactly. Omnibus's independent expressly Documentary Program award in 1956 stays Documentary/Nonfiction Series; reviewing this hybrid format does not rewrite another awarded contract.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1959/best-public-service-program-or-series",
+                "https://www.televisionacademy.com/awards/nominees-winners/1958/best-public-service-program-or-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Public Service Program Or Series"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1959,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1959/best-public-service-program-or-series",
+                  "sha256": "52495599a6614901c94996e91c20a92c4162d47df6fb76ce8e010f53958da647",
+                  "winnerSourceKeys": [
+                    "1707bcde253061447e2908b209aa5ff56be1c68d43c158ea76fcb1c709b7af96"
+                  ]
+                },
+                {
+                  "year": 1958,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1958/best-public-service-program-or-series",
+                  "sha256": "66227958b569b6212b2ee55fb404b4d1248a8655ebfe4e64508b0e256b92d261",
+                  "winnerSourceKeys": [
+                    "5ad88cf97729fcb815177f85fae5fe86a03c72ab27939051e8aeec578d343347"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://interviews.televisionacademy.com/shows/omnibus",
+                "https://www.televisionacademy.com/shows/omnibus"
+              ]
+            },
+            {
+              "years": [
+                1951
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "hosted-nonfiction-series-or-special",
+              "reason": "The programme participant's original Stan Chambers interview describes City at Night's factual camera visits, separately from street-interview programme Meet Me in Hollywood and Kathy Fiscus breaking-news coverage. The contemporary TV-Radio Life production account, written after that publication itself appeared on the show, establishes its recurring 1950s remote-tour format and announcer-led spontaneous questions to site hosts, with a photograph identifying interviewer Ken Graue. Follow Hosted Nonfiction for the actual 1951 Public Service programme award; a generic factual-tour description alone would not establish that central presenter/interview format. Preserve KTLA and n/a, without making Chambers, Graue, director Silva or the interview subjects Emmy recipients. The 1956 magazine date does not change the 1951 ceremony or certify the separate 1983 production. Import no regional or separate News/Documentary award facts.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1951/best-public-service-program-or-series"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Public Service"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1951,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1951/best-public-service-program-or-series",
+                  "sha256": "041b8317c69651814cde0988f6d0609aeff666575f27bf79ec52bfda2604a782",
+                  "winnerSourceKeys": [
+                    "795ed874f0fbfaa94e838da9c4665a1900513eb327f2f88f55876e700b3f8ac8"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.latimes.com/archives/la-xpm-1986-01-05-tm-24452-story.html",
+                "https://www.worldradiohistory.com/Archive-Radio-Life/50s/56/TV-Radio-Life-1956-03-02.pdf"
+              ]
             }
           ],
           "externalEvidence": [
             "https://findingaids.library.nyu.edu/nyhs/timeinc_ms3009_rg41/contents/aspace_ref131_hng/",
+            "https://interviews.televisionacademy.com/shows/omnibus",
+            "https://www.latimes.com/archives/la-xpm-1986-01-05-tm-24452-story.html",
             "https://www.televisionacademy.com/awards/nominees-winners/1956/outstanding-documentary-or-nonfiction-series",
             "https://www.televisionacademy.com/bios/fred-w-friendly",
-            "https://www.televisionacademy.com/features/news/mix/friendly-and-lucky"
+            "https://www.televisionacademy.com/features/news/mix/friendly-and-lucky",
+            "https://www.televisionacademy.com/shows/omnibus",
+            "https://www.worldradiohistory.com/Archive-Radio-Life/50s/56/TV-Radio-Life-1956-03-02.pdf"
           ]
         },
         {
@@ -6136,22 +6192,6 @@
           "periods": [
             {
               "years": [
-                1995,
-                1994,
-                1955,
-                1951
-              ],
-              "disposition": "pending-review",
-              "reason": "The 1951/1955 cultural programme formats and 1994/1995 undifferentiated cultural individual awards still need review. The explicit 1997 Performance heading is excluded with its inspected winner evidence retained.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-cultural-program",
-                "https://www.televisionacademy.com/awards/nominees-winners/1994/outstanding-cultural-program",
-                "https://www.televisionacademy.com/awards/nominees-winners/1955/outstanding-cultural-program",
-                "https://www.televisionacademy.com/awards/nominees-winners/1951/outstanding-cultural-program"
-              ]
-            },
-            {
-              "years": [
                 1997
               ],
               "disposition": "excluded",
@@ -6172,9 +6212,54 @@
                   ]
                 }
               ]
+            },
+            {
+              "years": [
+                1995,
+                1994,
+                1951
+              ],
+              "disposition": "pending-review",
+              "reason": "The original 1951 Campus Chorus and Orchestra programme format and the 1994/1995 undifferentiated individual Cultural achievements still need production/award-role review. Omnibus does not certify them; the independently reviewed 1997 Performance exclusion stays intact.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-cultural-program",
+                "https://www.televisionacademy.com/awards/nominees-winners/1994/outstanding-cultural-program",
+                "https://www.televisionacademy.com/awards/nominees-winners/1951/outstanding-cultural-program"
+              ]
+            },
+            {
+              "years": [
+                1955
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "variety-series",
+              "reason": "The original CBS Omnibus cultural magazine is an authored variety compendium, corroborated by its independent original 1954 Best Variety Program award. Its 1955 broad Cultural, Religous Or Educational programme win follows Variety Series. Preserve the source spelling, CBS and n/a; an MC is not by itself Hosted Nonfiction, and factual segments do not turn the whole hybrid cultural programme into a documentary. The distinct 1956 Best Documentary Program award remains under its actual documentary contract and the later 1981 revival remains separate.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1955/outstanding-cultural-program"
+              ],
+              "reviewedSourceHeadings": [
+                "Best Cultural, Religous Or Educational Program"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1955,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1955/outstanding-cultural-program",
+                  "sha256": "718abcfa42931149a802a030c199b9fcae7d945f4ad3f81b36fb5548ba1887ab",
+                  "winnerSourceKeys": [
+                    "e6313e3332cc5ca202bcb3da1befc149755adabcdf0ea863258e7f33e31c086b"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://interviews.televisionacademy.com/shows/omnibus",
+                "https://www.televisionacademy.com/shows/omnibus"
+              ]
             }
           ],
-          "externalEvidence": []
+          "externalEvidence": [
+            "https://interviews.televisionacademy.com/shows/omnibus",
+            "https://www.televisionacademy.com/shows/omnibus"
+          ]
         },
         {
           "sourceSlug": "outstanding-directing-for-a-comedy-series",
@@ -13543,42 +13628,6 @@
             },
             {
               "years": [
-                1997,
-                1995,
-                1992,
-                1990,
-                1988,
-                1987,
-                1986,
-                1985,
-                1984,
-                1983,
-                1982,
-                1981,
-                1980,
-                1978
-              ],
-              "disposition": "pending-review",
-              "reason": "Other Informational Special formats and complete tied pages still require original production evidence; no separate Individual Achievement awards are allocated from documentary genre.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1984/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1983/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1982/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-informational-special",
-                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-special"
-              ]
-            },
-            {
-              "years": [
                 1996
               ],
               "disposition": "current-lineage",
@@ -13603,14 +13652,102 @@
               "externalEvidence": [
                 "https://amblin.com/tv/survivors-of-the-holocaust/"
               ]
+            },
+            {
+              "years": [
+                1995,
+                1992,
+                1990,
+                1988,
+                1987,
+                1986,
+                1985,
+                1984,
+                1983,
+                1981,
+                1980,
+                1978
+              ],
+              "disposition": "pending-review",
+              "reason": "Other original Informational Specials and every winner on remaining tied pages need production-specific format evidence. Reviewed films do not certify the whole source slug or separate undifferentiated individual awards.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1995/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1992/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1990/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1988/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1987/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1986/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1985/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1984/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1983/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1981/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-informational-special",
+                "https://www.televisionacademy.com/awards/nominees-winners/1978/outstanding-informational-special"
+              ]
+            },
+            {
+              "years": [
+                1982
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-special",
+              "reason": "Lucasfilm's original production release lists the 1981 Making of Raiders of the Lost Ark documentary separately from a later identically named making-of extra. Allocate the Academy's 1982 Making of \"Raiders of the Lost Ark\" Informational Special to Documentary/Nonfiction Special. Keep PBS, Sidney Ganis, Howard Kazanjian and unavailable roles. Neither the Raiders feature nor the later extra replaces the actual winning documentary, and the 2021 package release does not change the Emmy year or create credits. Separate Informational Individual Achievement pages remain unresolved.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1982/outstanding-informational-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Special"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1982,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1982/outstanding-informational-special",
+                  "sha256": "27f34df429899a46daa0ed14c61e200da861ca84bbb27967949b8f397c527272",
+                  "winnerSourceKeys": [
+                    "e3cf235612e25c3c664402790b609d7fafd76c403e5ce2fefece979a155aa940"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.lucasfilm.com/news/all-four-indiana-jones-movie-adventures-on-4k-ultra-hd-for-the-first-time/"
+              ]
+            },
+            {
+              "years": [
+                1997
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "documentary-or-nonfiction-special",
+              "reason": "The accessible educational distributor's actual Without Pity record explicitly describes the HBO factual documentary about disabled Americans and identifies Christopher Reeve as narrator. Allocate the Academy's matching Informational Special to Documentary/Nonfiction Special, preserving HBO and all four actual recipients with unavailable award roles. A production narration credit does not repair the original Emmy role, establish a separate Narrator-category win or remove Reeve from the programme award. Other films titled Without Pity are not this winning production.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-special"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Informational Special"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 1997,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/1997/outstanding-informational-special",
+                  "sha256": "c45e81e8b2a0874cbef2d1632f6f28be173a6a6e34f203e8b20dccc2d5b49e77",
+                  "winnerSourceKeys": [
+                    "a49b16f886a965c9b35ffca85ada9988f6cccf138e2589d5e3c2fcdb79346040"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://dcmp.org/media/4210-without-pity-a-film-about-abilities"
+              ]
             }
           ],
           "externalEvidence": [
             "https://amblin.com/tv/survivors-of-the-holocaust/",
+            "https://dcmp.org/media/4210-without-pity-a-film-about-abilities",
             "https://interviews.televisionacademy.com/interviews/dixon-dern",
             "https://interviews.televisionacademy.com/interviews/lucie-arnaz",
             "https://videoverite.tv/pages/iamapromisemain-2011.html",
             "https://videoverite.tv/pages/storemain-2011.html",
+            "https://www.lucasfilm.com/news/all-four-indiana-jones-movie-adventures-on-4k-ultra-hd-for-the-first-time/",
             "https://www.pbs.org/wnet/americanmasters/masters/edward-r-murrow/",
             "https://www.pbs.org/wnet/americanmasters/masters/lillian-gish/",
             "https://www.pbs.org/wnet/americanmasters/series/"
@@ -22372,13 +22509,16 @@
           "disposition": "pending-review",
           "reason": "Follow the explicit year-specific programme/recipient allocations, preserving the original award wording and facts. Remaining periods stay withheld until their actual production formats and predecessor relationships are reviewed.",
           "externalEvidence": [
+            "https://billzarchy.com/blog/polishing-the-talking-head-the-west-wing-documentary-special/",
+            "https://www.pbs.org/about/about-pbs/blogs/news/pbs-announces-new-fall-season-lineup/",
             "https://www.televisionacademy.com/features/emmy-magazine/me-and-my-emmy/me-and-my-emmy-glenn-weiss",
             "https://www.televisionacademy.com/features/news/mix/smooth-moves",
             "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212",
             "https://www.tonyawards.com/history/year-by-year/2009/",
             "https://www.tonyawards.com/history/year-by-year/2010/",
             "https://www.tonyawards.com/history/year-by-year/2012/",
-            "https://www.tonyawards.com/history/year-by-year/2013/"
+            "https://www.tonyawards.com/history/year-by-year/2013/",
+            "https://www.tonyawards.com/news/tony-awards-live-stream-returns-to-bring-you-more-red-carpet-and-behind-the-scenes-magic-for-2016/"
           ],
           "periods": [
             {
@@ -22435,34 +22575,6 @@
               "externalEvidence": [
                 "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212",
                 "https://www.televisionacademy.com/features/emmy-magazine/me-and-my-emmy/me-and-my-emmy-glenn-weiss"
-              ]
-            },
-            {
-              "years": [
-                2017,
-                2015,
-                2009,
-                2007,
-                2005,
-                2004,
-                2002,
-                1989,
-                1980,
-                1979
-              ],
-              "disposition": "pending-review",
-              "reason": "Other original Special Class productions and complete mixed-winner pages require format/transmission evidence; selected Tony live simulcasts do not certify every annual edition or merely live red-carpet/webcast coverage.",
-              "evidence": [
-                "https://www.televisionacademy.com/awards/nominees-winners/2017/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2015/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2009/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2007/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2005/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2004/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/2002/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-special-class-programs",
-                "https://www.televisionacademy.com/awards/nominees-winners/1979/outstanding-special-class-programs"
               ]
             },
             {
@@ -22524,6 +22636,112 @@
                 "https://www.tonyawards.com/history/year-by-year/2010/",
                 "https://www.tonyawards.com/history/year-by-year/2012/",
                 "https://www.tonyawards.com/history/year-by-year/2013/",
+                "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212"
+              ]
+            },
+            {
+              "years": [
+                2009,
+                2007,
+                2005,
+                2004,
+                1989,
+                1980,
+                1979
+              ],
+              "disposition": "pending-review",
+              "reason": "Other exact Special Class productions and whole mixed-winner pages remain withheld until original format/transmission evidence is available. The 70th Tony telecast does not certify other editions, and a Live title or live red-carpet webcast cannot determine the full programme route.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/2009/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2007/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2005/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/2004/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/1989/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/1980/outstanding-special-class-programs",
+                "https://www.televisionacademy.com/awards/nominees-winners/1979/outstanding-special-class-programs"
+              ]
+            },
+            {
+              "years": [
+                2017
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "variety-special-live",
+              "reason": "The Tony producer's original 2016 announcement explicitly places the full 70th Annual Tony Awards CBS telecast live from the Beacon Theatre, separately from red-carpet and backstage webcasts. Allocate the Academy's 2017 Special Class programme win to Live Variety under the documented 2018 replacement. Delayed Pacific transmission does not make the live Eastern telecast a prerecorded production. Keep all five Academy recipients and their exact roles, including James Corden's Producer/Host; the producer's award year and unrelated backstage hosts cannot replace them.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/2017/outstanding-special-class-programs"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Special Class Program"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 2017,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2017/outstanding-special-class-programs",
+                  "sha256": "448eff77208e59ef04cd627d2eb073673790808d52daf86e687bc863320486de",
+                  "winnerSourceKeys": [
+                    "ff6d4abfc060cb24551c2001543490a92f86534748ff4183c2426ab50c4ee237"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.tonyawards.com/news/tony-awards-live-stream-returns-to-bring-you-more-red-carpet-and-behind-the-scenes-magic-for-2016/",
+                "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212"
+              ]
+            },
+            {
+              "years": [
+                2015
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "variety-special-pre-recorded",
+              "reason": "PBS's original 2014 schedule identifies the Thompson/Terfel New York Philharmonic Sweeney Todd stage production in March and its September 26 television presentation. That separation establishes the recorded concert despite Live From Lincoln Center in the Academy's programme title. Allocate the 2015 Special Class programme award to Prerecorded Variety under the documented 2018 replacement; this staged musical is not a new Television Movie award. Keep PBS and all five original producer/host recipients. Emma Thompson and Bryn Terfel are format-identifying performers, not extra programme-award recipients, and earlier/later Sweeney recordings remain separate.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/2015/outstanding-special-class-programs"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Special Class Program"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 2015,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2015/outstanding-special-class-programs",
+                  "sha256": "ceb32e29f0207c84661eaa549b4a4fee2950017e43d3631d061be832c3108ad2",
+                  "winnerSourceKeys": [
+                    "dfbb8b5ea88e690732a7905033e0e9abcf21897c6baef223f1af971faf07bf44"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://www.pbs.org/about/about-pbs/blogs/news/pbs-announces-new-fall-season-lineup/",
+                "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212"
+              ]
+            },
+            {
+              "years": [
+                2002
+              ],
+              "disposition": "current-lineage",
+              "currentCategory": "variety-special-pre-recorded",
+              "reason": "The production cinematographer's own account records eleven shooting days, digital Betacam interviews and subsequent Hollywood postproduction for the original West Wing Documentary Special. Allocate its actual Special Class programme award to Prerecorded Variety under the documented 2018 replacement, retaining the original award contract as with documentary films originally awarded Variety. It is neither a live drama episode nor the 2020 benefit production. Keep NBC and all ten Academy recipients, including William Couturie's unavailable role. The cinematographer's authorship, professional director credit, interviewed presidents and separate Drama Series award do not supply extra recipients or repair Emmy roles.",
+              "evidence": [
+                "https://www.televisionacademy.com/awards/nominees-winners/2002/outstanding-special-class-programs"
+              ],
+              "reviewedSourceHeadings": [
+                "Outstanding Special Class Program"
+              ],
+              "reviewedSourcePages": [
+                {
+                  "year": 2002,
+                  "sourceUrl": "https://www.televisionacademy.com/awards/nominees-winners/2002/outstanding-special-class-programs",
+                  "sha256": "831ce1c916d9d559287e670c119f067ec0ec806af6a1ddc2d4d8255999330069",
+                  "winnerSourceKeys": [
+                    "256661a3acd6e5830a7daa529b89d162106a0a8fdaa5903d2ab5675c00c324a0"
+                  ]
+                }
+              ],
+              "externalEvidence": [
+                "https://billzarchy.com/blog/polishing-the-talking-head-the-west-wing-documentary-special/",
                 "https://www.televisionacademy.com/features/news/press-releases/rules-changes-v1-171212"
               ]
             }
@@ -32684,6 +32902,99 @@
       "year": 1958,
       "context": "Best Continuing Performance By An Actor In A Leading Role In A Dramatic Or Comedy Series\nWinner Robert Young Father Knows Best",
       "contextSha256": "b5c11afc76a5d0762d882e6be93551faeeec247abe2c717908fa14a8bb9eb25d"
+    },
+    {
+      "url": "https://interviews.televisionacademy.com/shows/omnibus",
+      "resolvedUrl": "https://interviews.televisionacademy.com/shows/omnibus",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "33c9845f8a6c3e5acabe36d18f5618939e9833470bb94fbf35456ff0deff4b64",
+      "byteCount": 87147,
+      "context": "a variety show for the intellect\na compendium of the arts, literature, science, history\nnine years (1952 to 1961)\non ABC in 1981",
+      "contextSha256": "2846bd6254188fb0841d2a32277d6eadedc6bd1ef0d1b1c52cc072d03258033f"
+    },
+    {
+      "url": "https://www.televisionacademy.com/shows/omnibus",
+      "resolvedUrl": "https://www.televisionacademy.com/shows/omnibus",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "e0e49c15cd5025999e461ad76ab9b73fec241a562f1eab7906c0776ca9b8dc08",
+      "byteCount": 391623,
+      "context": "Winner Best Variety Program - 1954 Omnibus CBS n/a\nWinner Best Documentary Program - 1956 Omnibus CBS n/a",
+      "contextSha256": "54ef05cb2d99406585a55ea5d01bd11ee32ca915be3e52584df8818010995813"
+    },
+    {
+      "url": "https://www.latimes.com/archives/la-xpm-1986-01-05-tm-24452-story.html",
+      "resolvedUrl": "https://www.latimes.com/archives/la-xpm-1986-01-05-tm-24452-story.html",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "b0cecc6d248e498b6ec9ccc399cfd73ca5a1f3e3d89d89b8ecda0e726adb9854",
+      "byteCount": 442280,
+      "context": "On “City at Night” we took our cameras out to industries, newspapers, the harbor and the airports.",
+      "contextSha256": "c584fe9592ef389a1f0b030c74d80fd9d22de8e00a9a39f2b9f53df4fcd45c98"
+    },
+    {
+      "url": "https://www.lucasfilm.com/news/all-four-indiana-jones-movie-adventures-on-4k-ultra-hd-for-the-first-time/",
+      "resolvedUrl": "https://www.lucasfilm.com/news/all-four-indiana-jones-movie-adventures-on-4k-ultra-hd-for-the-first-time/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "df500a50dbfa617d05c138045d11e2932d695cb384865ed57b79d87df2f43af5",
+      "byteCount": 66678,
+      "context": "The Making of Raiders of the Lost Ark (1981 documentary) The Making of Raiders of the Lost Ark",
+      "contextSha256": "f65c9bf7a2beacdc18cd2df8f2225f0b56abaa33142c45a66a5ee2406c126f98"
+    },
+    {
+      "url": "https://dcmp.org/media/4210-without-pity-a-film-about-abilities",
+      "resolvedUrl": "https://dcmp.org/media/4210-without-pity-a-film-about-abilities",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "11cdc8a17be06a894ff19a3cbe9535896cb6f9800db93c3d9b9ad76a151b8a32",
+      "byteCount": 103659,
+      "context": "Without Pity: A Film About Abilities\nAn HBO documentary that celebrates the efforts of people with disabilities\nNarrated by Christopher Reeve.",
+      "contextSha256": "fab9b3e5fd60a226843e4604dbfd30f3edf90169ff51c36c8ffffb5a37196681"
+    },
+    {
+      "url": "https://www.tonyawards.com/news/tony-awards-live-stream-returns-to-bring-you-more-red-carpet-and-behind-the-scenes-magic-for-2016/",
+      "resolvedUrl": "https://www.tonyawards.com/news/tony-awards-live-stream-returns-to-bring-you-more-red-carpet-and-behind-the-scenes-magic-for-2016/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "f6903172234b32888f66b05860d8f2e842a701bb02f41fe7d940d60ca5084669",
+      "byteCount": 62447,
+      "context": "70th Annual Tony Awards\nCBS Television Network\nJune 12, 2016\n(8:00-11:00 PM, ET/delayed PT) live from the Beacon Theatre in New York City",
+      "contextSha256": "f028b84c42664837d90214060547abab45433f7066992126d675a171e38c1430"
+    },
+    {
+      "url": "https://billzarchy.com/blog/polishing-the-talking-head-the-west-wing-documentary-special/",
+      "resolvedUrl": "https://billzarchy.com/blog/polishing-the-talking-head-the-west-wing-documentary-special/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "175b28f3f7b96684b3ae89d738f3a9b3757a8c443fadf2e56a3a23d73965f1d0",
+      "byteCount": 140723,
+      "context": "The West Wing Documentary Special\nas director of photography\nDuring 11 shooting days\nshot on digital Betacam\ncompletes postproduction in Hollywood",
+      "contextSha256": "ac86fcd666a576b06285b77672bd6e46d726f3c6ca1e667cd428463647db837b"
+    },
+    {
+      "url": "https://www.pbs.org/about/about-pbs/blogs/news/pbs-announces-new-fall-season-lineup/",
+      "resolvedUrl": "https://www.pbs.org/about/about-pbs/blogs/news/pbs-announces-new-fall-season-lineup/",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "849951b8aa19f4865cfdc60f0dc588e06fbe3173f133dbb11cf36f827acea1c5",
+      "byteCount": 143093,
+      "context": "May 8, 2014 (updated August 12, 2014)\nSweeney Todd\nstaged in March 2014\nEmma Thompson\nBryn Terfel\nFriday, September 26, 9:00-11:30 p.m. ET",
+      "contextSha256": "922281a235b0a59f0301929014930543bec3bd9f6960cfb130feb8f84b4d95b2"
+    },
+    {
+      "url": "https://www.worldradiohistory.com/Archive-Radio-Life/50s/56/TV-Radio-Life-1956-03-02.pdf",
+      "resolvedUrl": "https://www.worldradiohistory.com/Archive-Radio-Life/50s/56/TV-Radio-Life-1956-03-02.pdf",
+      "status": 200,
+      "checkedAt": "2026-10-03",
+      "sha256": "9a9a52410ca9c54db834f00e274ac6f6ca4c9abdb4ae114fc50209802ad06f38",
+      "byteCount": 6931648,
+      "pageNumbers": [
+        51
+      ],
+      "context": "Since the program's debut in 1950,\nCITY AT NIGHT\nscript written for the announcer\nasking spontane- ous questions\nby Ken Graue.\nMarch 2, 1956",
+      "contextSha256": "eaafdb4303770f61792c9a67ab2dded047b52a881ed8bab89a1a4b0f0c25bd9d"
     }
   ],
   "annualExceptions": [
