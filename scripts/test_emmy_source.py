@@ -158,12 +158,58 @@ class EmmyLineageReviewTests(unittest.TestCase):
         self.assertEqual(category_for_year(decision, 1973), "television-movie")
         self.assertEqual(category_for_year(decision, 1974), "limited-or-anthology-series")
 
-    def test_merged_programme_period_is_withheld_from_both_current_histories(self):
+    def test_merged_programme_period_uses_the_awarded_production_format(self):
         decision = self.decisions["outstanding-miniseries-or-movie"]
         self.assertEqual(category_for_year(decision, 1990), "television-movie")
         self.assertIsNone(category_for_year(decision, 1991))
         self.assertEqual(category_for_year(decision, 1992), "limited-or-anthology-series")
-        self.assertTrue(all(category_for_year(decision, year) is None for year in (2011, 2012, 2013)))
+        self.assertEqual(category_for_year(decision, 2011), "limited-or-anthology-series")
+        for year in (2012, 2013):
+            self.assertEqual(category_for_year(decision, year), "television-movie")
+        self.assertIsNone(category_for_year(decision, 1991))
+
+    def test_reality_split_does_not_allocate_the_whole_older_field_to_one_successor(self):
+        decision = self.decisions["outstanding-reality-program"]
+        for year in (2012, 2013):
+            self.assertEqual(category_for_year(decision, year), "structured-reality-program")
+        for year in (2007, 2008, 2009, 2011):
+            self.assertEqual(category_for_year(decision, year), "unstructured-reality-program")
+        for year in (2001, 2002, 2004, 2005, 2006, 2010):
+            self.assertIsNone(category_for_year(decision, year))
+
+    def test_later_reality_nomination_is_context_and_not_an_extra_historical_winner(self):
+        ledger = load(SOURCE_DIR / "lineage-decisions.json")
+        context = next(s for s in ledger["contextSources"] if s["url"].endswith("/2014/outstanding-structured-reality-program"))
+        self.assertIn("Nominee Undercover Boss", context["context"])
+        review = review_for_year(self.decisions["outstanding-reality-program"], 2012)
+        self.assertEqual(review["years"], [2013, 2012])
+        self.assertEqual(len(review["reviewedSourcePages"]), 2)
+        self.assertEqual(sum(len(p["winnerSourceKeys"]) for p in review["reviewedSourcePages"]), 2)
+
+    def test_restored_hosted_field_does_not_reclassify_the_older_informational_archive(self):
+        for slug, target in (("outstanding-informational-series", "documentary-or-nonfiction-series"),
+                             ("outstanding-informational-special", "documentary-or-nonfiction-special")):
+            self.assertEqual(category_for_year(self.decisions[slug], 2002), target)
+            self.assertIsNone(category_for_year(self.decisions[slug], 1994))
+
+    def test_variety_special_slug_does_not_turn_the_1968_series_into_a_live_special(self):
+        decision = self.decisions["outstanding-variety-music-or-comedy-special"]
+        self.assertEqual(category_for_year(decision, 1968), "variety-series")
+        self.assertIsNone(category_for_year(decision, 2017))
+        self.assertEqual(category_for_year(decision, 2018), "variety-special-live")
+
+    def test_period_context_reference_requires_pinned_evidence(self):
+        decision = self.decisions["outstanding-miniseries-or-movie"]
+        review = deepcopy(review_for_year(decision, 2012))
+        snapshot = load(SOURCE_DIR / "official-winners-1949-2026.json")
+        page = next(p for p in snapshot["pages"] if p["sourceUrl"].endswith("/2012/outstanding-miniseries-or-movie"))
+        arguments = (review, {2012: page["sourceUrl"]}, {page["sourceUrl"]: (2012, decision["sourceSlug"])},
+                     {page["sourceUrl"]: page}, {"television-movie"})
+        contexts = {s["url"] for s in load(SOURCE_DIR / "lineage-decisions.json")["contextSources"]}
+        validate_review(*arguments, contexts)
+        review["externalEvidence"] = ["https://www.televisionacademy.com/unreviewed-context"]
+        with self.assertRaises(SourceError):
+            validate_review(*arguments, contexts)
 
     def test_under_one_hour_animation_is_not_the_later_short_form_award(self):
         decision = self.decisions["outstanding-short-format-animated-program"]

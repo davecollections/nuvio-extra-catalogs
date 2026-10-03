@@ -39,11 +39,12 @@ def evidence(value, url):
     date.fromisoformat(value["checkedAt"])
 
 
-def validate_review(review, years, indices, acquired, category_ids):
+def validate_review(review, years, indices, acquired, category_ids, context_urls=()):
     """Require the exact acquired facts reviewed for a historical allocation."""
     require(review["disposition"] in {"pending-review", "current-lineage", "excluded"}, "unknown period disposition")
     require(review.get("reason") and review.get("evidence"), "review period lacks reason/evidence")
     require(all(u in indices and indices[u][0] in years for u in review["evidence"]), "period evidence outside reviewed years")
+    require(set(review.get("externalEvidence", [])) <= set(context_urls), "review period references unpinned context evidence")
     if review["disposition"] != "current-lineage":
         require("currentCategory" not in review and "winnerAllocations" not in review, "unaccepted period has category targets")
         return
@@ -133,6 +134,7 @@ def validate(complete=False):
     for source in lineage.get("contextSources", []):
         evidence(source, source["url"])
         require(hashlib.sha256(source["context"].encode("utf-8")).hexdigest() == source["contextSha256"], "historical context/hash drift")
+        require(source["url"] not in context_urls, "duplicate historical context source")
         context_urls.add(source["url"])
     decisions = [d for p in lineage["programmes"] for d in p["decisions"]]
     require(len({d["sourceSlug"] for d in decisions}) == len(decisions), "duplicate lineage review keys")
@@ -178,11 +180,11 @@ def validate(complete=False):
                 require(period["years"] == sorted(period["years"], reverse=True), "period years must be unique and newest first")
                 urls = {year: scoped_urls[year] for year in period["years"]}
                 require({u.rsplit('/', 1)[1] for u in period["evidence"]} == {decision["sourceSlug"]}, "review period references a different category slug")
-                validate_review(period, urls, indices, acquired_pages, category_ids)
+                validate_review(period, urls, indices, acquired_pages, category_ids, context_urls)
             for year in scoped_urls:
                 review_for_year(decision, year)
         elif decision["disposition"] == "current-lineage":
-            validate_review(decision, scoped_urls, indices, acquired_pages, category_ids)
+            validate_review(decision, scoped_urls, indices, acquired_pages, category_ids, context_urls)
     seen, winners, keys = set(), 0, set()
     for page in snapshot["pages"]:
         url, year = page["sourceUrl"], page["year"]

@@ -3,7 +3,7 @@
   "inputSha256": {
     "current-category-pages.json": "f813c92661d7c88ab1653ed9c3d634f8f41c0e0eb87ca0d017174765b98475c0",
     "annual-indices.json": "4bed2b1e02c4f46f3d0ce5b36afac36d58215048c0fea0830471390d8b8e9388",
-    "lineage-decisions.json": "0ab0264ab52306584588783ec580463156fc1d0a9683dc11dbf3ff96ad6c4154",
+    "lineage-decisions.json": "f47348e7660ba2f515b4863430d2f192f267816b7c1cc39e547fdda035c4ce61",
     "official-winners-1949-2026.json": "7b6739deab3dbb308b2d1c39ce2ac27b91277a9f8b92e6736191501670b75204",
     "winner-release-evidence-2026.json": "22f013193d628473431db094328240d17b0ad5ade937e9aa5314d68b5bb64fe6",
     "manifest.json": "226970d09fe0ab38b33075106abb893a21e6d27615f17cf9dfb15e1c2015e3b7"
@@ -18,8 +18,8 @@
     "scopeExcludedSlugCount": 345,
     "pendingLineageSlugCount": 54,
     "reviewedLineageSlugCount": 101,
-    "reviewedAllocationPageCount": 2208,
-    "reviewedWinnerAllocationCount": 2255,
+    "reviewedAllocationPageCount": 2222,
+    "reviewedWinnerAllocationCount": 2269,
     "acquiredCandidatePageCount": 2480,
     "candidateWinnerRecordCount": 2587,
     "independentlyReconciledNoAwardPageCount": 1,
@@ -747,8 +747,8 @@
       "id": "documentary-or-nonfiction-series",
       "name": "OUTSTANDING DOCUMENTARY OR NONFICTION SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 28,
-      "reviewedWinnerAllocationCount": 31,
+      "reviewedSourcePageCount": 30,
+      "reviewedWinnerAllocationCount": 33,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -774,6 +774,8 @@
         2005,
         2004,
         2003,
+        2002,
+        2001,
         2000,
         1999,
         1998,
@@ -785,8 +787,8 @@
       "id": "documentary-or-nonfiction-special",
       "name": "OUTSTANDING DOCUMENTARY OR NONFICTION SPECIAL",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 29,
-      "reviewedWinnerAllocationCount": 31,
+      "reviewedSourcePageCount": 31,
+      "reviewedWinnerAllocationCount": 33,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -812,6 +814,8 @@
         2005,
         2004,
         2003,
+        2002,
+        2001,
         2000,
         1999,
         1998,
@@ -964,8 +968,8 @@
       "id": "structured-reality-program",
       "name": "OUTSTANDING STRUCTURED REALITY PROGRAM",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 13,
-      "reviewedWinnerAllocationCount": 13,
+      "reviewedSourcePageCount": 15,
+      "reviewedWinnerAllocationCount": 15,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -979,7 +983,9 @@
         2017,
         2016,
         2015,
-        2014
+        2014,
+        2013,
+        2012
       ],
       "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
@@ -987,8 +993,8 @@
       "id": "unstructured-reality-program",
       "name": "OUTSTANDING UNSTRUCTURED REALITY PROGRAM",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 13,
-      "reviewedWinnerAllocationCount": 13,
+      "reviewedSourcePageCount": 17,
+      "reviewedWinnerAllocationCount": 17,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -1002,7 +1008,11 @@
         2017,
         2016,
         2015,
-        2014
+        2014,
+        2011,
+        2009,
+        2008,
+        2007
       ],
       "policy": "These are accepted source-winner allocations only. Pending mixed predecessors, failed extraction and production/recipient identity review still block a complete catalogue history."
     },
@@ -1555,8 +1565,8 @@
       "id": "television-movie",
       "name": "OUTSTANDING MOVIE",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 60,
-      "reviewedWinnerAllocationCount": 64,
+      "reviewedSourcePageCount": 62,
+      "reviewedWinnerAllocationCount": 66,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -1571,6 +1581,8 @@
         2016,
         2015,
         2014,
+        2013,
+        2012,
         2010,
         2009,
         2008,
@@ -2610,8 +2622,8 @@
       "id": "limited-or-anthology-series",
       "name": "OUTSTANDING LIMITED OR ANTHOLOGY SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 50,
-      "reviewedWinnerAllocationCount": 50,
+      "reviewedSourcePageCount": 51,
+      "reviewedWinnerAllocationCount": 51,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -2626,6 +2638,7 @@
         2016,
         2015,
         2014,
+        2011,
         2010,
         2009,
         2008,
@@ -3006,8 +3019,8 @@
       "id": "variety-series",
       "name": "OUTSTANDING VARIETY SERIES",
       "historyStatus": "incomplete-history-review",
-      "reviewedSourcePageCount": 87,
-      "reviewedWinnerAllocationCount": 88,
+      "reviewedSourcePageCount": 88,
+      "reviewedWinnerAllocationCount": 89,
       "reviewedSourceYears": [
         2026,
         2025,
@@ -6990,7 +7003,32 @@
         "Non-Fiction Series (Informational) (Area Award: Possibility Of One, More Than One Or No",
         "Informational Series"
       ],
-      "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
+      "reason": "Use explicit year-specific programme allocations and their pinned official contexts. Unreviewed periods remain withheld; neither the page slug nor a later award entry certifies all historical productions.",
+      "pendingPeriods": [
+        {
+          "years": [
+            1997,
+            1996,
+            1995,
+            1994,
+            1993,
+            1992,
+            1991,
+            1990,
+            1989,
+            1988,
+            1987,
+            1986,
+            1985,
+            1984,
+            1983,
+            1982,
+            1981,
+            1978
+          ],
+          "reason": "Remaining broad historical periods still need winning-production and predecessor review; accepted neighbouring years must not be extrapolated."
+        }
+      ]
     },
     {
       "sourceSlug": "outstanding-informational-special",
@@ -7002,7 +7040,34 @@
         "Informational Special",
         "Informational Program"
       ],
-      "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
+      "reason": "Use explicit year-specific programme allocations and their pinned official contexts. Unreviewed periods remain withheld; neither the page slug nor a later award entry certifies all historical productions.",
+      "pendingPeriods": [
+        {
+          "years": [
+            1997,
+            1996,
+            1995,
+            1994,
+            1993,
+            1992,
+            1991,
+            1990,
+            1989,
+            1988,
+            1987,
+            1986,
+            1985,
+            1984,
+            1983,
+            1982,
+            1981,
+            1980,
+            1979,
+            1978
+          ],
+          "reason": "Remaining broad historical periods still need winning-production and predecessor review; accepted neighbouring years must not be extrapolated."
+        }
+      ]
     },
     {
       "sourceSlug": "outstanding-lead-actor-for-a-single-appearance-in-a-drama-or-comedy-series",
@@ -7041,16 +7106,13 @@
         "Dramatic Program",
         "Special Dramatic Pr0Gram-One Hour Or Longer"
       ],
-      "reason": "Year-specific heading and winning-production review; use the explicit period allocations. Unreviewed combined periods remain withheld.",
+      "reason": "Use explicit year-specific programme allocations and their pinned official contexts. Unreviewed periods remain withheld; neither the page slug nor a later award entry certifies all historical productions.",
       "pendingPeriods": [
         {
           "years": [
-            2013,
-            2012,
-            2011,
             1991
           ],
-          "reason": "Merged special/miniseries programme awards require production-specific allocation; do not duplicate a movie winner into the limited-series programme history or infer format from the URL."
+          "reason": "The 1991 combined Drama/Comedy Special And Miniseries field awards Separate But Equal. Its multipart broadcast format still needs independently pinned production evidence before the programme allocation is accepted."
         }
       ]
     },
@@ -7120,7 +7182,20 @@
         "Non-Fiction Program (Reality)",
         "Non-Fiction Program (Reality) (Area Award: Possibility Of One, More Than One Or No Award"
       ],
-      "reason": "Candidate predecessor or selected current page. Archive wording, winning productions and year-specific boundaries still require review; URL continuity is not accepted lineage evidence."
+      "reason": "Use explicit year-specific programme allocations and their pinned official contexts. Unreviewed periods remain withheld; neither the page slug nor a later award entry certifies all historical productions.",
+      "pendingPeriods": [
+        {
+          "years": [
+            2010,
+            2006,
+            2005,
+            2004,
+            2002,
+            2001
+          ],
+          "reason": "American High, The Osbournes, Queer Eye For The Straight Guy, Extreme Makeover: Home Edition and Jamie Oliver's Food Revolution still require independently pinned format evidence for their actual awarded productions. Do not silently equate the undivided field with either successor."
+        }
+      ]
     },
     {
       "sourceSlug": "outstanding-single-performance-by-a-supporting-actor-in-a-comedy-or-drama-series",
@@ -7220,7 +7295,7 @@
         "Musical Or Variety Program",
         "Special Musical Or Variety Program-One Hour Or Longer"
       ],
-      "reason": "Year-specific heading and winning-production review; use the explicit period allocations. Unreviewed combined periods remain withheld.",
+      "reason": "Use explicit year-specific programme allocations and their pinned official contexts. Unreviewed periods remain withheld; neither the page slug nor a later award entry certifies all historical productions.",
       "pendingPeriods": [
         {
           "years": [
@@ -7263,12 +7338,11 @@
             1971,
             1970,
             1969,
-            1968,
             1967,
             1966,
             1959
           ],
-          "reason": "Former combined Variety/Music/Comedy Special programme award needs actual broadcast-format evidence to allocate live or prerecorded; do not infer live status from event branding."
+          "reason": "Earlier combined Variety/Music programme awards and specials require actual series/special and live/prerecorded production review. The official 2018 rules reorganise both Variety Special and Special Class into Live and Pre-Recorded together, so the previous field name cannot prove broadcast format."
         }
       ]
     },
